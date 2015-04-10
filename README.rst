@@ -2,12 +2,37 @@
 NethServer localization (l10n)
 ==============================
 
-1. Install the `Transifex client`_. Some Linux distributions have
-   already packaged it.
+Initialize the environment
+--------------------------
 
-2. Create a local copy of NethServer git repositories. The
-   githubmirror_ tool can help.
-   
+1. Clone this git repository into your machine::
 
-.. _githubmirror: https://pypi.python.org/pypi/githubmirror
+     git clone https://github.com/NethServer/nethserver-lang.git
+
+2. Install and configure the `Transifex client`_. Some Linux
+   distributions have already packaged it.
+
+3. Install ``nethserver-mock`` package (available for NethServer and
+   Fedora).
+
 .. _`Transifex client`: http://docs.transifex.com/developer/client/
+
+
+Build localization packages
+---------------------------
+
+1. The ``create-tarball.sh`` script executes ``tx pull`` and produces
+   the source tarball in the local directory: ::
+
+     ./create-tarball.sh
+
+2. Build RPMs: ::
+
+     make-rpms nethserver-lang.spec
+
+
+Push updated sources to Transifex
+---------------------------------
+
+TODO
+   
