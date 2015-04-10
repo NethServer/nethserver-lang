@@ -1,603 +1,493 @@
 [main]
 host = https://www.transifex.com
+source_lang = en
+
+#
+# PO files
+#
+
+[nethserver.nethserver-backup-datapot]
+file_filter = translations/nethserver.nethserver-backup-datapot/<lang>.po
+file_filter = locale/<lang>/LC_MESSAGES/nethserver-backup-data.po
+source_file = src/gettext/nethserver-backup-data.pot
+type = PO
+
+[nethserver.nethserver-basepot]
+file_filter = locale/<lang>/LC_MESSAGES/nethserver-base.po
+source_file = src/gettext/nethserver-base.pot
+type = PO
+
+[nethserver.nethserver-sambapot]
+file_filter = locale/<lang>/LC_MESSAGES/nethserver-samba.po
+source_file = src/gettext/nethserver-samba.pot
+type = PO
+
+
+#
+# PHP arrays
+#
 
 [nethserver.BackupConfig]
 file_filter = translations/nethserver.BackupConfig/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.BackupConfig_Backup]
 file_filter = translations/nethserver.BackupConfig_Backup/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.BackupConfig_DownloadRemote]
 file_filter = translations/nethserver.BackupConfig_DownloadRemote/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.BackupConfig_Restore]
 file_filter = translations/nethserver.BackupConfig_Restore/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.BackupData]
 file_filter = translations/nethserver.BackupData/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter]
 file_filter = translations/nethserver.ContentFilter/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_Antivirus]
 file_filter = translations/nethserver.ContentFilter_Antivirus/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_Categories]
 file_filter = translations/nethserver.ContentFilter_Categories/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_Filters]
 file_filter = translations/nethserver.ContentFilter_Filters/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_General]
 file_filter = translations/nethserver.ContentFilter_General/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_Lists]
 file_filter = translations/nethserver.ContentFilter_Lists/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_Profiles]
 file_filter = translations/nethserver.ContentFilter_Profiles/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_Times]
 file_filter = translations/nethserver.ContentFilter_Times/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard]
 file_filter = translations/nethserver.Dashboard/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_Applications]
 file_filter = translations/nethserver.Dashboard_Applications/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_Duc]
 file_filter = translations/nethserver.Dashboard_Duc/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_IPS]
 file_filter = translations/nethserver.Dashboard_IPS/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_MailQuota]
 file_filter = translations/nethserver.Dashboard_MailQuota/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_Nut]
 file_filter = translations/nethserver.Dashboard_Nut/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_Printers]
 file_filter = translations/nethserver.Dashboard_Printers/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_Report]
 file_filter = translations/nethserver.Dashboard_Report/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_Services]
 file_filter = translations/nethserver.Dashboard_Services/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus]
 file_filter = translations/nethserver.Dashboard_SystemStatus/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Accounts]
 file_filter = translations/nethserver.Dashboard_SystemStatus_Accounts/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Antivirus]
 file_filter = translations/nethserver.Dashboard_SystemStatus_Antivirus/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Backup]
 file_filter = translations/nethserver.Dashboard_SystemStatus_Backup/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Dnsmasq]
 file_filter = translations/nethserver.Dashboard_SystemStatus_Dnsmasq/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Mail]
 file_filter = translations/nethserver.Dashboard_SystemStatus_Mail/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Network]
 file_filter = translations/nethserver.Dashboard_SystemStatus_Network/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Providers]
 file_filter = translations/nethserver.Dashboard_SystemStatus_Providers/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_RaidStatus]
 file_filter = translations/nethserver.Dashboard_SystemStatus_RaidStatus/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Register]
 file_filter = translations/nethserver.Dashboard_SystemStatus_Register/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Resources]
 file_filter = translations/nethserver.Dashboard_SystemStatus_Resources/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_SystemRelease]
 file_filter = translations/nethserver.Dashboard_SystemStatus_SystemRelease/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_VPN]
 file_filter = translations/nethserver.Dashboard_VPN/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_VPN_OpenVPNClients]
 file_filter = translations/nethserver.Dashboard_VPN_OpenVPNClients/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_VPN_OpenVPNServer]
 file_filter = translations/nethserver.Dashboard_VPN_OpenVPNServer/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.DateTime]
 file_filter = translations/nethserver.DateTime/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dhcp]
 file_filter = translations/nethserver.Dhcp/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Duc]
 file_filter = translations/nethserver.Duc/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Ejabber]
 file_filter = translations/nethserver.Ejabber/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FaxServer]
 file_filter = translations/nethserver.FaxServer/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Fetchmail]
 file_filter = translations/nethserver.Fetchmail/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallObjects]
 file_filter = translations/nethserver.FirewallObjects/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallObjects_HostGroups]
 file_filter = translations/nethserver.FirewallObjects_HostGroups/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallObjects_Hosts]
 file_filter = translations/nethserver.FirewallObjects_Hosts/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallObjects_Services]
 file_filter = translations/nethserver.FirewallObjects_Services/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallObjects_Zones]
 file_filter = translations/nethserver.FirewallObjects_Zones/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallRules]
 file_filter = translations/nethserver.FirewallRules/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallRules_CheckRules]
 file_filter = translations/nethserver.FirewallRules_CheckRules/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirstConfigWiz]
 file_filter = translations/nethserver.FirstConfigWiz/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FlashStart]
 file_filter = translations/nethserver.FlashStart/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FQDN]
 file_filter = translations/nethserver.FQDN/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FTP]
 file_filter = translations/nethserver.FTP/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FTP_Configure]
 file_filter = translations/nethserver.FTP_Configure/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FTP_Users]
 file_filter = translations/nethserver.FTP_Users/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Group]
 file_filter = translations/nethserver.Group/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Group_PlugService_Mail]
 file_filter = translations/nethserver.Group_PlugService_Mail/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Hosts]
 file_filter = translations/nethserver.Hosts/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Hotspot]
 file_filter = translations/nethserver.Hotspot/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.IaxModem]
 file_filter = translations/nethserver.IaxModem/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.IPS]
 file_filter = translations/nethserver.IPS/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.LocalNetwork]
 file_filter = translations/nethserver.LocalNetwork/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.LogViewer]
 file_filter = translations/nethserver.LogViewer/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Mail]
 file_filter = translations/nethserver.Mail/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Mail_Domain_PlugTransport_LocalDelivery]
 file_filter = translations/nethserver.Mail_Domain_PlugTransport_LocalDelivery/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Mail_Filter]
 file_filter = translations/nethserver.Mail_Filter/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Mail_Mailbox]
 file_filter = translations/nethserver.Mail_Mailbox/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Nat]
 file_filter = translations/nethserver.Nat/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.NethServer]
 file_filter = translations/nethserver.NethServer/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
-
-[nethserver.nethserver-backup-datapot]
-file_filter = translations/nethserver.nethserver-backup-datapot/<lang>.po
-source_lang = en
-type = PO
-
-[nethserver.nethserver-basepot]
-file_filter = translations/nethserver.nethserver-basepot/<lang>.po
-source_lang = en
-type = PO
-
-[nethserver.nethserver-registerpot]
-file_filter = translations/nethserver.nethserver-registerpot/<lang>.po
-source_lang = en
-type = PO
-
-[nethserver.nethserver-sambapot]
-file_filter = translations/nethserver.nethserver-sambapot/<lang>.po
-source_lang = en
-type = PO
 
 [nethserver.NetworkAdapter]
 file_filter = translations/nethserver.NetworkAdapter/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.NetworkServices]
 file_filter = translations/nethserver.NetworkServices/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Ntopng]
 file_filter = translations/nethserver.Ntopng/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.NutUps]
 file_filter = translations/nethserver.NutUps/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Organization]
 file_filter = translations/nethserver.Organization/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.P3Scan]
 file_filter = translations/nethserver.P3Scan/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.PackageManager]
 file_filter = translations/nethserver.PackageManager/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Phonebook]
 file_filter = translations/nethserver.Phonebook/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Pki]
 file_filter = translations/nethserver.Pki/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.PortForward]
 file_filter = translations/nethserver.PortForward/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.PortForward_HairpinNat]
 file_filter = translations/nethserver.PortForward_HairpinNat/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Printers]
 file_filter = translations/nethserver.Printers/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Providers]
 file_filter = translations/nethserver.Providers/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Proxy]
 file_filter = translations/nethserver.Proxy/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Proxy_BypassDst]
 file_filter = translations/nethserver.Proxy_BypassDst/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Proxy_BypassSrc]
 file_filter = translations/nethserver.Proxy_BypassSrc/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Proxy_Config]
 file_filter = translations/nethserver.Proxy_Config/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Proxy_Squid]
 file_filter = translations/nethserver.Proxy_Squid/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Pseudonym]
 file_filter = translations/nethserver.Pseudonym/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Register]
 file_filter = translations/nethserver.Register/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Report]
 file_filter = translations/nethserver.Report/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.SharedFolder]
 file_filter = translations/nethserver.SharedFolder/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.SharedFolder_Plugin_Httpd]
 file_filter = translations/nethserver.SharedFolder_Plugin_Httpd/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.SharedFolder_Plugin_Samba]
 file_filter = translations/nethserver.SharedFolder_Plugin_Samba/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.SharedFolder_Plugin_SambaAudit]
 file_filter = translations/nethserver.SharedFolder_Plugin_SambaAudit/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Shutdown]
 file_filter = translations/nethserver.Shutdown/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Snmp]
 file_filter = translations/nethserver.Snmp/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Ssh]
 file_filter = translations/nethserver.Ssh/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.StaticRoutes]
 file_filter = translations/nethserver.StaticRoutes/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.TrafficShaping]
 file_filter = translations/nethserver.TrafficShaping/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.TrafficShaping_Interfaces]
 file_filter = translations/nethserver.TrafficShaping_Interfaces/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.TrafficShaping_Ip]
 file_filter = translations/nethserver.TrafficShaping_Ip/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.TrafficShaping_Ports]
 file_filter = translations/nethserver.TrafficShaping_Ports/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.User]
 file_filter = translations/nethserver.User/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.User_Plugin_Mail]
 file_filter = translations/nethserver.User_Plugin_Mail/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.User_Plugin_Samba]
 file_filter = translations/nethserver.User_Plugin_Samba/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.User_Plugin_Ssh]
 file_filter = translations/nethserver.User_Plugin_Ssh/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.UserProfile]
 file_filter = translations/nethserver.UserProfile/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.VPN]
 file_filter = translations/nethserver.VPN/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.VPN_Accounts]
 file_filter = translations/nethserver.VPN_Accounts/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.VPN_Clients]
 file_filter = translations/nethserver.VPN_Clients/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.VPN_Ipsec]
 file_filter = translations/nethserver.VPN_Ipsec/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.VPN_OpenVPN]
 file_filter = translations/nethserver.VPN_OpenVPN/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.WebVirtMgr]
 file_filter = translations/nethserver.WebVirtMgr/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Welcome]
 file_filter = translations/nethserver.Welcome/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Workgroup]
 file_filter = translations/nethserver.Workgroup/<lang>.php
-source_lang = en
 type = PHP_ALT_ARRAY
 
