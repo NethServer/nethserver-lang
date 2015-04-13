@@ -1,0 +1,25 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: nethserver\n"
+"Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
+"POT-Creation-Date: 2015-02-11 18:22+0100\n"
+"PO-Revision-Date: 2015-04-03 14:33+0000\n"
+"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/nethserver/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: root/etc/nethserver/todos.d/20samba_admin:44
+msgid "Change admin's password"
+msgstr ""
+
+#: root/etc/nethserver/todos.d/20samba_admin:44
+msgid "Required to enable admin's Samba account"
+msgstr ""

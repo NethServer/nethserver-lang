@@ -1,0 +1,34 @@
+<?php 
+
+$L['Add_label'] = 'Установить';
+$L['PackageManager_Description'] = 'Установка и удаление модулей из системы';
+$L['PackageManager_Tags'] = 'rpm yum addons extras modules components packages';
+$L['PackageManager_Title'] = 'Центр Программ';
+$L['package_success'] = 'Операция успешно выполнена';
+$L['rpm_name'] = 'Название';
+$L['rpm_version'] = 'Version';
+$L['rpm_release'] = 'Release';
+$L['Modules_header'] = 'Центр Программ';
+$L['Available_Title'] = 'Доступные';
+$L['Installed_Title'] = 'Установленные';
+$L['No_modules_available_message'] = '...';
+$L['No_installed_modules_message'] = '...';
+$L['Update_Title'] = 'Обновления';
+$L['Packages_label'] = 'Пакеты';
+$L['Packages_header'] = 'Установленные пакеты';
+$L['Review_header'] = 'Подтвердить изменения';
+$L['Run_label'] = 'Принять изменения';
+$L['Edit_label'] = 'Изменить';
+$L['Remove_label'] = 'Удалить';
+$L['EditModule_header'] = 'Выбрать пакеты модуля ${0} для установки или удаления';
+$L['Install_modules_label'] = 'Модули для установки:';
+$L['Remove_modules_label'] = 'Модули для удаления:';
+$L['Install_optionals_label'] = 'Дополнительные пакеты для установки:';
+$L['Remove_optionals_label'] = 'Дополнительные пакеты для удаления:';
+$L['updates_available_message'] = 'Доступны обновления для ПО';
+$L['Everything_category_label'] = 'Все';
+$L['Everything_category_description'] = 'Показать группы из всех категорий';
+$L['noupdates_message'] = 'Установленное ПО актуально';
+$L['DoUpdate_label'] = 'Загрузить и установить';
+$L['update_success_message'] = 'Обновление ПО выполнено';
+$L['Changelog_label'] = 'Список изменений обновлений';

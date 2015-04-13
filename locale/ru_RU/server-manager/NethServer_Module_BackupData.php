@@ -1,0 +1,57 @@
+<?php 
+
+/* NethServer_Module_BackupData translation, language: en */
+
+$L['0_label'] = 'Воскресенье';
+$L['1_label'] = 'Понедельник';
+$L['2_label'] = 'Вторник';
+$L['3_label'] = 'Среда';
+$L['4_label'] = 'Четверг';
+$L['5_label'] = 'Пятница';
+$L['6_label'] = 'Суббота';
+$L['7D_label'] = '1 неделя';
+$L['14D_label'] = '2 недели';
+$L['28D_label'] = '1 месяц';
+$L['56D_label'] = '2 месяца';
+$L['168D_label'] = '6 месяцев';
+$L['364D_label'] = '1 год';
+$L['BackupData_Description'] = 'Управление файлами резервных копий';
+$L['BackupData_Destination_Title'] = 'Место хранения';
+$L['BackupData_General_Title'] = 'Основные';
+$L['BackupData_Notification_Title'] = 'Уведомления';
+$L['BackupData_Tags'] = 'backup data full incremental';
+$L['BackupData_Title'] = 'Резервная копия (данных)';
+$L['BackupDataType_label'] = 'Тип';
+$L['BackupTime_label'] = 'Время запуска';
+$L['CleanupOlderThan_label'] = 'Удалить копии старше чем:';
+$L['cifs_label'] = 'CIFS';
+$L['FullDay_label'] = 'Полная копия будет сделана в:';
+$L['full_label'] = 'Полная копия';
+$L['incremental_label'] = 'Нарастающая';
+$L['NFSHost_label'] = 'Хост';
+$L['never_label'] = 'Никогда';
+$L['nfs_label'] = 'NFS';
+$L['notify_label'] = 'Уведомить';
+$L['notify_always_label'] = 'Всегда';
+$L['notify_error_label'] = 'Об ошибке';
+$L['notify_never_label'] = 'Никогда';
+$L['notifyToCustom_label'] = 'Адрес эл.почты';
+$L['notifyToType_admin_label'] = 'Системный администратор';
+$L['notifyToType_custom_label'] = 'Другой адрес эл.почты';
+$L['notifyTo_label'] = 'Отправить уведомление';
+$L['NFSShare_label'] = 'Ресурс';
+$L['RetentionPolicy_label'] = 'Срок хранения';
+$L['SMBHost_label'] = 'Сервер';
+$L['SMBLogin_label'] = 'Имя пользователя';
+$L['SMBPassword_label'] = 'Пароль';
+$L['SMBShare_label'] = 'Ресурс';
+$L['status_label'] = 'Автоматическая копия';
+$L['Type_full_label'] = 'Полная копия';
+$L['Type_incremental_label'] = 'Нарастающая';
+$L['usb_label'] = 'USB';
+$L['USBLabel_label'] = 'Метка тома';
+$L['VFSType_label'] = 'Тип места хранения';
+$L['VFSType_cifs_label'] = 'Сеть Windows (CIFS)';
+$L['VFSType_nfs_label'] = 'Ресурс NFS';
+$L['VFSType_usb_label'] = 'Диск USB';
+$L['mounted_label'] = 'смонтировано';

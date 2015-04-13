@@ -1,0 +1,53 @@
+<?php 
+
+/* FaxServer translation, language: en */
+
+$L['AreaCode_label'] = 'Κωδικός Περιοχής';
+$L['ClientShowReceived_label'] = 'Εμφάνιση των εισερχόμενων φαξ από πελάτες';
+$L['CountryCode_label'] = 'Κωδικός χώρας';
+$L['DispatchFileTypeList_label'] = 'Φορμά εισερχόμενου fax';
+$L['FaxDevice_label'] = 'Θύρα μοντεμ';
+$L['FaxDeviceType_known_label'] = 'Τυπική συσκευή';
+$L['FaxDeviceType_custom_label'] = 'Προσαρμοσμένη συσκυεή';
+$L['FaxDeviceCustom_label'] = '';
+$L['FaxDeviceKnown_label'] = '';
+$L['FaxName_label'] = 'Αποστολέας FAX (TSI)';
+$L['FaxNumber_label'] = 'Αριθμός FAX';
+$L['FaxServer_Description'] = 'Διαμόρφωση διακομιστή μοντεμ και fax (Hylafax)';
+$L['FaxServer_Extras_Title'] = 'Επιπλέον λειτουργίες';
+$L['FaxServer_General_Title'] = 'Γενικά';
+$L['FaxServer_Modem_Title'] = 'Μόντεμ';
+$L['FaxServer_Notification_Title'] = 'Ειδοποίηση mail';
+$L['FaxServer_Tags'] = 'fax faxserver hylafax μόντεμ εκτύπωση αριθμός sambafax';
+$L['FaxServer_Title'] = 'Διακομιστής FAX';
+$L['Mode_label'] = 'Λειτουργία';
+$L['NotifyFileTypeList_label'] = 'Φορμά εξερχόμενου fax';
+$L['NotifyMaster_label'] = 'Ειδοποίηση διαχειριστή για τα εισερχόμενα και εξερχόμενα φαξ';
+$L['PBXPrefix_label'] = 'Πρόθεμα PBX';
+$L['PrinterName_label'] = 'Όνομα εκτυπωτή';
+$L['PrintReceived_label'] = 'Αυτόματη εκτύπωση εισερχώμενων fax';
+$L['SambaFax_label'] = 'SambaFax';
+$L['SendReport_label'] = 'Αποστολή καθημερινής αναφοράς';
+$L['SendTo_label'] = 'Προώθηση εισερχόμενων fax στο ';
+$L['SendToType_faxmaster_label'] = 'Τοπική ομάδα "faxmaster"';
+$L['SendToType_custom_label'] = 'Εξωτερική διεύθυνση email';
+$L['SendToCustom_label'] = 'E-mail';
+$L['SummaryReport_label'] = 'Ειδοποίηση προσθήκης συνοπτικής αναφοράς για τα εξερχόμενα φαξ';
+$L['WaitDialTone_label'] = 'Αναμονή για ήχο κλήσης';
+$L['always_label'] = 'Πάντα';
+$L['both_label'] = 'Αποστολή και λήψη';
+$L['errors_label'] = 'Σε περίπτωση σφαλμάτων';
+$L['iax_label'] = 'Εικονικό (IAX)';
+$L['never_label'] = 'Ποτέ';
+$L['no_printer_label'] = 'Κανένας εκτυπωτής δεν έχει ρυθμιστεί';
+$L['pdf_label'] = 'PDF (Portable Data Format)';
+$L['ps_label'] = 'PS (PostScript)';
+$L['receive_label'] = 'Μόνο λήψη';
+$L['send_label'] = 'Αποστολή μόνο';
+$L['tif_label'] = 'TIFF (Tagget Image File Format)';
+$L['ttyACM0_label'] = 'USB (ttyACM0)';
+$L['ttyS0_label'] = 'COM1 (ttyS0)';
+$L['ttyS1_label'] = 'COM2 (ttyS1)';
+$L['ttyS2_label'] = 'COM3 (ttyS2)';
+$L['ttyUSB0_label'] = 'USB σε σειριακό (ttyUSB0)';
+$L['ttyIAX_label'] = 'IAX μόντεμ';

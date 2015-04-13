@@ -1,0 +1,26 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# 
+# Translators:
+# mishell baranov <baranov.mishell@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: nethserver\n"
+"Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
+"POT-Creation-Date: 2015-03-11 16:20+0100\n"
+"PO-Revision-Date: 2015-04-07 18:43+0000\n"
+"Last-Translator: mishell baranov <baranov.mishell@gmail.com>\n"
+"Language-Team: Russian (Russia) (http://www.transifex.com/projects/p/nethserver/language/ru_RU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: root/etc/nethserver/todo.d/80backup-data:41
+msgid "Enable backup"
+msgstr "Включить резервное копирование"
+
+#: root/etc/nethserver/todo.d/80backup-data:44
+msgid "Proceed with configuration of data backup"
+msgstr "Продолжить на настройке резервного копирования"

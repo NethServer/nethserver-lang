@@ -1,0 +1,34 @@
+<?php 
+
+$L['Add_label'] = 'Προσθήκη';
+$L['PackageManager_Description'] = 'Προσθήκη και αφαίρεση ενθεμάτων λογισμικού από το σύστημα';
+$L['PackageManager_Tags'] = 'rpm yum επιπλέον έξτα ενθέματα εξαρτήματα πακέτα';
+$L['PackageManager_Title'] = 'Κέντρο λογισμικού';
+$L['package_success'] = 'Η λειτουργία ολοκληρώθηκε με επιτυχία';
+$L['rpm_name'] = 'Όνομα';
+$L['rpm_version'] = 'Έκδοση';
+$L['rpm_release'] = 'Αποδέσμευση';
+$L['Modules_header'] = 'Κέντρο λογισμικού';
+$L['Available_Title'] = 'Διαθέσιμο';
+$L['Installed_Title'] = 'Εγκατεστημένο';
+$L['No_modules_available_message'] = '...';
+$L['No_installed_modules_message'] = '...';
+$L['Update_Title'] = 'Ενημερώσεις';
+$L['Packages_label'] = 'Πακέτα';
+$L['Packages_header'] = 'Εγκατεστημένα πακέτα';
+$L['Review_header'] = 'Επιβεβαιώστε τις αλλαγές στο σύστημα';
+$L['Run_label'] = 'Εφαρμογή αλλαγών';
+$L['Edit_label'] = 'Επεξεργασία';
+$L['Remove_label'] = 'Αφαίρεση';
+$L['EditModule_header'] = 'Επιλογή πακέτων του ${0} για εγκατάσταση ή αφαίρεση';
+$L['Install_modules_label'] = 'Μονάδες για να προστεθούν:';
+$L['Remove_modules_label'] = 'Ενότητες προς αφαίρεση:';
+$L['Install_optionals_label'] = 'Προαιρετικά πακέτα για προσθήκη:';
+$L['Remove_optionals_label'] = 'Προαιρετικά πακέτα για αφαίρεση:';
+$L['updates_available_message'] = 'Υπάρχουν διαθέσιμες ενημερώσεις λογισμικού';
+$L['Everything_category_label'] = 'Τα πάντα';
+$L['Everything_category_description'] = 'Εμφάνιση ομάδων από οποιαδήποτε κατηγορία';
+$L['noupdates_message'] = 'Το εγκατεστημένο λογισμικό είναι ενημερωμένο';
+$L['DoUpdate_label'] = 'Κατέβασμα και εγκατάσταση';
+$L['update_success_message'] = 'Ολοκληρώθηκε η ενημέρωση λογισμικού';
+$L['Changelog_label'] = 'Ενημερώσεις Καταγραφή Αλλαγών';

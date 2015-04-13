@@ -1,4 +1,3 @@
 *.git
 .githubmirror
-src/
-locale/
+src/*

@@ -1,0 +1,26 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# 
+# Translators:
+# Jose Gregorio Jimenez Sanchez <josegjimenez@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: nethserver\n"
+"Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
+"POT-Creation-Date: 2015-02-11 18:22+0100\n"
+"PO-Revision-Date: 2015-04-07 19:21+0000\n"
+"Last-Translator: Jose Gregorio Jimenez Sanchez <josegjimenez@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/nethserver/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: root/etc/nethserver/todos.d/20samba_admin:44
+msgid "Change admin's password"
+msgstr "Cambiar contraseña de administrador"
+
+#: root/etc/nethserver/todos.d/20samba_admin:44
+msgid "Required to enable admin's Samba account"
+msgstr "Requerido para habilitar la cuenta de administrador de Samba"

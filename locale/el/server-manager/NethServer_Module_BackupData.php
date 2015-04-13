@@ -1,0 +1,57 @@
+<?php 
+
+/* NethServer_Module_BackupData translation, language: en */
+
+$L['0_label'] = 'Κυριακή';
+$L['1_label'] = 'Δευτέρα';
+$L['2_label'] = 'Τρίτη';
+$L['3_label'] = 'Τετάρτη';
+$L['4_label'] = 'Πέμπτη';
+$L['5_label'] = 'Παρασκευή';
+$L['6_label'] = 'Σάββατο';
+$L['7D_label'] = '1 εβδομάδα';
+$L['14D_label'] = '2 εβδομάδες';
+$L['28D_label'] = '1 μήνας';
+$L['56D_label'] = '2 μήνες';
+$L['168D_label'] = '6 μήνες';
+$L['364D_label'] = ' 1 χρόνος';
+$L['BackupData_Description'] = 'Διαχείρηση αντιγράφων ασφαλείας των δεδομένων';
+$L['BackupData_Destination_Title'] = 'Προορισμός';
+$L['BackupData_General_Title'] = 'Γενικά';
+$L['BackupData_Notification_Title'] = 'Ειδοποίηση';
+$L['BackupData_Tags'] = 'αυξητικά αντίγραφα ασφαλείας δεδομένων';
+$L['BackupData_Title'] = 'Αντίγραφα Ασφαλείας (δεδομένων)';
+$L['BackupDataType_label'] = 'Τύπος';
+$L['BackupTime_label'] = 'Επιλογή ώρας';
+$L['CleanupOlderThan_label'] = 'Διαγραφή αντίγραφων ασφαλείας παλιότερα από:';
+$L['cifs_label'] = 'CIFS';
+$L['FullDay_label'] = 'Τα πλήρη αντίγραφα ασφαλείας θα είναι:';
+$L['full_label'] = 'Πλήρης';
+$L['incremental_label'] = 'Αυξητική';
+$L['NFSHost_label'] = 'Φορέας';
+$L['never_label'] = 'Ποτέ';
+$L['nfs_label'] = 'NFS';
+$L['notify_label'] = 'Ειδοποίησε';
+$L['notify_always_label'] = 'Πάντα';
+$L['notify_error_label'] = 'Σε περίπτωση σφάλματος';
+$L['notify_never_label'] = 'Ποτέ';
+$L['notifyToCustom_label'] = 'Διεύθυνση';
+$L['notifyToType_admin_label'] = 'Διαχειριστής συστήματος';
+$L['notifyToType_custom_label'] = 'Προσαρμοσμένη διεύθυνση';
+$L['notifyTo_label'] = 'Στείλε τις ειδοποιήσεις στο';
+$L['NFSShare_label'] = 'Διαμοιρασμός';
+$L['RetentionPolicy_label'] = 'Πολιτική συγκράτησης';
+$L['SMBHost_label'] = 'Διακομιστής';
+$L['SMBLogin_label'] = '¨Ονομα χρήστη';
+$L['SMBPassword_label'] = 'Κωδικός';
+$L['SMBShare_label'] = 'Κοινό';
+$L['status_label'] = 'Αυτόματα αντίγραφα ασφαλείας';
+$L['Type_full_label'] = 'Πλήρη';
+$L['Type_incremental_label'] = 'Αυξητική';
+$L['usb_label'] = 'USB';
+$L['USBLabel_label'] = 'Ταμπέλα συστήματος αρχείων';
+$L['VFSType_label'] = 'Τύπος προορισμού';
+$L['VFSType_cifs_label'] = 'Διαμοιρασμός κοινόχρηστου Windows (CIFS)';
+$L['VFSType_nfs_label'] = 'Διαμοιρασμός NFS';
+$L['VFSType_usb_label'] = 'δίσκος USB';
+$L['mounted_label'] = 'mounted';

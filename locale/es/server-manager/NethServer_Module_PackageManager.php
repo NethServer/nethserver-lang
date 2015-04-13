@@ -1,0 +1,34 @@
+<?php 
+
+$L['Add_label'] = 'Agregar';
+$L['PackageManager_Description'] = 'Agregar y quitar módulos de software del sistema';
+$L['PackageManager_Tags'] = 'rpm yum paquetes adicionales extras modulos componentes paquetes';
+$L['PackageManager_Title'] = 'Centro de software';
+$L['package_success'] = 'La operación se realizó con éxito';
+$L['rpm_name'] = 'Nombre';
+$L['rpm_version'] = 'Versión';
+$L['rpm_release'] = 'Lanzamiento';
+$L['Modules_header'] = 'Centro de software';
+$L['Available_Title'] = 'Disponible';
+$L['Installed_Title'] = 'Instalado';
+$L['No_modules_available_message'] = '...';
+$L['No_installed_modules_message'] = '...';
+$L['Update_Title'] = 'Actualizaciones';
+$L['Packages_label'] = 'Paquetes';
+$L['Packages_header'] = 'Paquetes instalados';
+$L['Review_header'] = 'Confirmar cambios en el sistema';
+$L['Run_label'] = 'Aplicar cambios';
+$L['Edit_label'] = 'Editar';
+$L['Remove_label'] = 'Eliminar';
+$L['EditModule_header'] = 'Seleccione los paquetes de módulo ${0} para instalar o quitar';
+$L['Install_modules_label'] = ' Módulos para agregar:';
+$L['Remove_modules_label'] = ' Módulos para eliminar:';
+$L['Install_optionals_label'] = 'Paquetes opcionales para agregar:';
+$L['Remove_optionals_label'] = 'Paquetes opcionales para eliminar:';
+$L['updates_available_message'] = 'Actualizaciones de software están disponibles';
+$L['Everything_category_label'] = 'Todo';
+$L['Everything_category_description'] = 'Mostrar grupos de cualquier categoría';
+$L['noupdates_message'] = ' Software instalado está actualizado';
+$L['DoUpdate_label'] = 'Descargar e instalar';
+$L['update_success_message'] = 'Actualización de software completado';
+$L['Changelog_label'] = 'Actualizaciones CAMBIOS';
