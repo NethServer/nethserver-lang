@@ -10,20 +10,14 @@ Summary: NethServer localization project
 # This is extracted from the git repo by prep-sources:
 Source0: %{name}-%{version}.tar.gz
 
-# Follow instructions in README.rst and execute create-tarball.sh to
-# generate Source1:
-Source1: locale-%{version}.tar.gz
-
 BuildRequires: gettext
 BuildArch: noarch
-
 
 %description
 NethServer localization project
 
 %prep
 %setup
-%setup -c -D -T -b 1
 
 %build
 for LD in locale/*/LC_MESSAGES; do
