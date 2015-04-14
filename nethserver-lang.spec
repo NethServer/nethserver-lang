@@ -86,9 +86,9 @@ NethServer Spanish language support (es)
 %package fr
 Summary: Greek support
 BuildArch: noarch
-%files fr -f fr_FR.lang
+%files fr -f fr.lang
 %description fr
-NethServer French language support (fr_FR)
+NethServer French language support (fr)
 
 %package hu
 Summary: Hungarian support
@@ -107,9 +107,9 @@ NethServer Dutch language support (nl)
 %package ru
 Summary: Russian support
 BuildArch: noarch
-%files ru -f ru_RU.lang
+%files ru -f ru.lang
 %description ru
-NethServer Russian language support (ru_RU)
+NethServer Russian language support (ru)
 
 %changelog
 * Fri Apr 10 2015 Davide Principi
