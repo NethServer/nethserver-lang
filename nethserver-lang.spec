@@ -62,13 +62,6 @@ BuildArch: noarch
 %description it
 NethServer Italian language support (it)
 
-%package pt
-Summary: Portuguese support
-BuildArch: noarch
-%files pt -f pt_PT.lang -f pt_BR.lang
-%description pt
-NethServer Portuguese language support (pt_PT, pt_BR)
-
 %package de
 Summary: German support
 BuildArch: noarch
