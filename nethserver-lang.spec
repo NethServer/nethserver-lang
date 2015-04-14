@@ -11,6 +11,7 @@ Summary: NethServer localization project
 Source0: %{name}-%{version}.tar.gz
 
 BuildRequires: gettext
+BuildRequires: nethserver-devtools
 BuildArch: noarch
 
 %description
@@ -20,6 +21,9 @@ NethServer localization project
 %setup
 
 %build
+
+%{makedocs}
+
 for LD in locale/*/LC_MESSAGES; do
    for F in $LD/*.po; do
      msgfmt -v $F -o ${F%%.po}.mo
@@ -43,6 +47,14 @@ for LD in locale/*/server-manager; do
       install -D $F %{buildroot}/usr/share/nethesis/NethServer/Language/${lang}/$(basename $F)
       echo "/usr/share/nethesis/NethServer/Language/${lang}/$(basename $F)" >> ${lang}.lang
    done
+done
+
+for LD in locale/*/help; do
+   lang=$(basename $(dirname $LD))
+   for F in $LD/*.html; do
+      install -D $F %{buildroot}/usr/share/nethesis/NethServer/Help/${lang}/$(basename $F)
+      echo "/usr/share/nethesis/NethServer/Help/${lang}/$(basename $F)" >> ${lang}.lang
+   done   
 done
 
 for F in locale/*/nethgui/Nethgui.php; do
