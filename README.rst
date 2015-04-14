@@ -21,10 +21,13 @@ Initialize the environment
 Build localization packages
 ---------------------------
 
-1. The ``create-tarball.sh`` script executes ``tx pull`` and produces
-   the source tarball in the local directory: ::
+1. Pull updates from Transifex: ::
 
-     ./create-tarball.sh
+     tx pull -a
+
+2. Commit changes to git repository: ::
+
+     git commit -a -m 'Pulled translation strings from Transifex'
 
 2. Build RPMs: ::
 
