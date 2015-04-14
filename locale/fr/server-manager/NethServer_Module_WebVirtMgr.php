@@ -1,6 +1,6 @@
 <?php
 
-$L['WebVirtMgr_Title'] = 'Virtual machines';
+$L['WebVirtMgr_Title'] = 'Machines virtuelles (VM)';
 $L['WebVirtMgr_Description'] = 'Manage virtual machines';
 $L['WebVirtMgr_Tags'] = 'libvirt virtual machine machines kvm qemu webvirtmgr';
 

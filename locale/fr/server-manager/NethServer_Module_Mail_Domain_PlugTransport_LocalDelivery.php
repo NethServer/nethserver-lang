@@ -1,8 +1,8 @@
 <?php 
 
 $L['AlwaysBccAddress_label'] = ''; 
-$L['AlwaysBccStatus_label'] = 'Hidden copy (Bcc)'; 
-$L['Current_label'] = 'Current selection'; 
+$L['AlwaysBccStatus_label'] = 'Copie cachée (Bcc)'; 
+$L['Current_label'] = 'Sélection en cours'; 
 $L['Groups_label'] = 'Groups'; 
 $L['TransportType_LocalDelivery_label'] = 'Deliver locally'; 
 $L['UnknownRecipientsActionDeliverMailbox_label'] = 'Deliver to'; 

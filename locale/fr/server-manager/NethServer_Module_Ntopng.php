@@ -1,6 +1,6 @@
 <?php 
 
-$L['status_label'] = 'Enable ntopng'; 
+$L['status_label'] = 'Activer ntopng'; 
 $L['ntopng_title'] = 'Bandwidth monitor: ntopng';
 $L['username_label'] = 'Username'; 
 $L['Password_label'] = 'Password'; 

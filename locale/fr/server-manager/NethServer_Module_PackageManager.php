@@ -1,6 +1,6 @@
 <?php 
 
-$L['Add_label'] = 'Add';
+$L['Add_label'] = 'Ajouter';
 $L['PackageManager_Description'] = 'Adds and removes software modules from the system';
 $L['PackageManager_Tags'] = 'rpm yum addons extras modules components packages';
 $L['PackageManager_Title'] = 'Software center';

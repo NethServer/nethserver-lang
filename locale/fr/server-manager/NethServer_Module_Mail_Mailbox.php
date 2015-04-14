@@ -1,6 +1,6 @@
 <?php 
 
-$L['Disk space'] = 'Disk space'; 
+$L['Disk space'] = 'Espace disque'; 
 $L['Hold for ${0}'] = 'Hold for ${0}'; 
 $L['ImapStatus_label'] = 'IMAP'; 
 $L['Mailbox access protocols'] = 'Mailbox access protocols'; 

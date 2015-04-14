@@ -1,6 +1,6 @@
 <?php 
 
-$L['current_backup_label'] = 'Current backup';
+$L['current_backup_label'] = 'Sauvegarde en cours';
 $L['date_label'] = 'Date';
 $L['ForceBackup_label'] = 'Backup now';
 $L['Restore_label'] = 'Restore backup';

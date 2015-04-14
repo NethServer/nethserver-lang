@@ -1,14 +1,14 @@
 <?php
 
-$L['model_label'] = 'Model';
-$L['ups_status_label'] = 'Status';
+$L['model_label'] = 'Modèle';
+$L['ups_status_label'] = 'Statut';
 $L['nut_title'] = 'UPS';
 $L['enabled_label'] = 'Enable';
 $L['disabled_label'] = 'Disable';
 $L['NutUps_Title'] = 'UPS';
 $L['NutUps_Description'] = 'Configure uninterruptible power supply (UPS) unit';
 $L['status_label'] = 'Enable NUT UPS';
-$L['ups_status_label'] = 'Status';
+$L['ups_status_label'] = 'Statut';
 $L['Password_label'] = 'Password';
 $L['Master_label'] = 'Master server address';
 $L['Mode_label'] = 'Mode';

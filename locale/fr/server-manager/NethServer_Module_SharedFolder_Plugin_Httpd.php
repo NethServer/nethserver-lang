@@ -1,6 +1,6 @@
 <?php
 
-$L['Httpd_Title'] = 'Web access';
+$L['Httpd_Title'] = 'Accès Web';
 $L['Status_label'] = 'Enable web access';
 $L['CgiBin_label'] = 'Execute scripts (CGI, PHP, SSI)';
 $L['PasswordStatus_label'] = 'Protect by password';
@@ -12,7 +12,7 @@ $L['ANY_VHOST'] = 'Any';
 $L['Alias_label'] = 'Web address (URL)';
 $L['AliasType_default_label'] = 'Folder name';
 $L['AliasType_root_label'] = 'Web site root';
-$L['AliasType_custom_label'] = 'Custom';
+$L['AliasType_custom_label'] = 'Personalisé';
 $L['generated-url_url'] = 'Generated URLs:';
 $L['ForceSsl_label'] = 'Require SSL encrypted connection';
 $L['AllowOverride_label'] = 'Allow .htaccess and write permissions overrides';

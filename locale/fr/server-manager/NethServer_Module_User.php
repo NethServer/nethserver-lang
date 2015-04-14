@@ -1,6 +1,6 @@
 <?php 
 
-$L['BasicInfo_Title'] = 'User'; 
+$L['BasicInfo_Title'] = 'Utilisateur'; 
 $L['City_label'] = 'City'; 
 $L['Company_label'] = 'Company'; 
 $L['Contact informations'] = 'Contact informations'; 

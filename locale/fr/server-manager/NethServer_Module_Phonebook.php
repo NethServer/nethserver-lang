@@ -1,6 +1,6 @@
 <?php
 
-$L['Phonebook_Description'] = 'Manage phonebook'; 
+$L['Phonebook_Description'] = 'Gérer l\'annuaire téléphonique'; 
 $L['Phonebook_Tags'] = 'phonebook contact contacts'; 
 $L['Phonebook_Title'] = 'Phonebook';
 $L['Phonebook_header'] = 'Phonebook';

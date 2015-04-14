@@ -2,8 +2,8 @@
 
 /* NethServer_Module_Register translation, language: en */
 
-$L['Register_Title'] = 'Software center';
-$L['Register_Description'] = 'Customer support activation and software management';
+$L['Register_Title'] = 'Gestionnaire des logiciels';
+$L['Register_Description'] = 'Atvication du support client et gestion des logiciels';
 $L['Register_Tags'] = 'Register LK Server Identifier Code ID License Key software RPM packages modules optionals addons';
 
 $L['Username_label'] = 'User name';
@@ -13,16 +13,16 @@ $L['Authenticate_description'] = 'Provide credentials to Operation Center';
 
 $L['Key_header'] = '(${0}) Select Server Identifier';
 $L['Show_header'] = 'Product registration';
-$L['Subject_header'] = '(${0}) Select a customer';
+$L['Subject_header'] = '(${0}) Sélectionner un client';
 $L['Confirm_header'] = '(${0}) Confirm Server Identifier registration';
 
 
 $L['ServerId_label'] = 'Server Identifier';
 
-$L['Customer_header'] = 'Customer';
-$L['CustomerType_existing_label'] = 'Select an existing customer';
-$L['CustomerType_new_label'] = 'Create a new customer';
-$L['CustomerId_label'] = 'Existing customer';
+$L['Customer_header'] = 'Client';
+$L['CustomerType_existing_label'] = 'Sélectionner un client existant';
+$L['CustomerType_new_label'] = 'Créer un nouveau client';
+$L['CustomerId_label'] = 'Client existant';
 $L['ServerType_label'] = 'Server type';
 $L['CustomerName_label'] = 'Full name';
 $L['CustomerAddress_label'] = 'Street address';
@@ -41,8 +41,8 @@ $L['Invalid_credentials_label'] = 'Invalid credentials';
 $L['ActionSummary_label'] = 'Review the server registration order:';
 $L['Action_Create_new_server_id'] = "Create a new Server Identifier\n\${0}";
 $L['Action_Use_existing_server_id'] = "Use the existing Server Identifier\n\${0}";
-$L['Action_Use_existing_customer'] = "Use the existing Customer record\n\${0}";
-$L['Action_Create_new_customer'] = "Create a new Customer record\n\${0}";
+$L['Action_Use_existing_customer'] = "Utiliser l'enregistrement client existant\n\${0}";
+$L['Action_Create_new_customer'] = "Créer un nouvel enregistrement client\n\${0}";
 $L['Register_label'] = 'Register this server';
 
 $L['Server_Registration_Success'] = 'Registration completed successfully';

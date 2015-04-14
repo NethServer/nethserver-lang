@@ -3,7 +3,7 @@
 /* NethServer_Module_IaxModem translation, language: en */
 
 
-$L['Key_label'] = 'Name'; 
+$L['Key_label'] = 'Nom'; 
 $L['IaxModem_Description'] = 'Configure IAX modems'; 
 $L['IaxModem_Tags'] = 'iax iax2 modem modems'; 
 $L['IaxModem_Title'] = 'IAX modems'; 

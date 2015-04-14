@@ -2,8 +2,8 @@
 
 /* NethServer_Module_Dashboard_SystemStatus_RaidStatus.php, language: en */
 
-$L['devs'] = 'Devices';
-$L['raidstatus_title'] = 'Software RAID status';
+$L['devs'] = 'Périphériques';
+$L['raidstatus_title'] = 'Etat du RAID logiciel';
 $L['no_raid'] = 'No software RAID configured';
 $L['ok'] = 'OK';
 $L['level'] = 'Level';

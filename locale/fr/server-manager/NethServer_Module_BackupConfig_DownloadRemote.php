@@ -1,6 +1,6 @@
 <?php 
 
-$L['backup_label'] = 'Available backups';
+$L['backup_label'] = 'Sauvegardes disponibles';
 $L['Download_label'] = 'Download';
 $L['DownloadRemote_Title'] = 'Cloud';
 $L['download_success_label'] = 'Backup successfully downloaded.';

@@ -1,7 +1,7 @@
 <?php 
 
-$L['NethServer_Welcome_Header'] = 'Welcome to NethServer'; 
-$L['Welcome_Description'] = 'Welcome page'; 
+$L['NethServer_Welcome_Header'] = 'Bienvenue sur NethServer'; 
+$L['Welcome_Description'] = 'Page d\'accueil'; 
 $L['Welcome_Tags'] = 'welcome'; 
 $L['Welcome_Title'] = 'Welcome';
 $L['Welcome_Body'] = 'ATTENTION: this is an ALPHA relase! NethServer is based on SME Server and CentOS. See official site for further details.';

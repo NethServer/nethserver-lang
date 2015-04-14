@@ -2,7 +2,7 @@
 
 /* NethServer_Module_Proxy_Squid translation, language: en */
 
-$L['GreenMode_authenticated_label'] = 'Authenticated';
+$L['GreenMode_authenticated_label'] = 'Authentifié';
 $L['GreenMode_manual_label'] = 'Manual';
 $L['GreenMode_label'] = 'Mode for green zones and trusted networks';
 $L['GreenMode_transparent_label'] = 'Transparent';

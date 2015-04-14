@@ -1,7 +1,7 @@
 <?php 
 
-$L['Access_label'] = 'Local network only'; 
-$L['Account_label'] = 'Account'; 
+$L['Access_label'] = 'Réseau local seulement'; 
+$L['Account_label'] = 'Compte'; 
 $L['Create a new pseudonym'] = 'Create a new pseudonym'; 
 $L['Current_label'] = 'Current selection'; 
 $L['Description_label'] = 'Description'; 

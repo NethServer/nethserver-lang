@@ -1,6 +1,6 @@
 <?php 
 
-$L['Confirm deletion of'] = 'Confirm deletion of'; 
+$L['Confirm deletion of'] = 'Confirmer la suppression de'; 
 $L['Create a new static route'] = 'Create a new static route'; 
 $L['Description_label'] = 'Description'; 
 $L['Key_label'] = 'Network'; 

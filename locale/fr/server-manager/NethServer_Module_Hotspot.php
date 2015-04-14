@@ -1,6 +1,6 @@
 <?php 
 
-$L['Hotspot_header'] = 'Change current hotspot settings'; 
+$L['Hotspot_header'] = 'Changer les paramètres du hotspot actuel'; 
 $L['Hotspot_Description'] = 'Set hotspot settings'; 
 $L['Hotspot_Tags'] = 'hotspot web'; 
 $L['Hotspot_Title'] = 'Hotspot'; 

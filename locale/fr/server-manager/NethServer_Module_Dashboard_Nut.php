@@ -1,20 +1,20 @@
 <?php
 
-$L['model_label'] = 'Model';
-$L['status_label'] = 'Status';
-$L['temperature_label'] = 'Temperature';
-$L['battery_chrg_label'] = 'Battery charge';
-$L['battery_volt_label'] = 'Battery voltage';
-$L['battery_runtime_label'] = 'Battery runtime';
-$L['input_volt_label'] = 'Input voltage';
-$L['output_volt_label'] = 'Output voltage';
-$L['load_label'] = 'Load';
-$L['no_info'] = 'No UPS information available';
+$L['model_label'] = 'Modèle';
+$L['status_label'] = 'Statut';
+$L['temperature_label'] = 'Température';
+$L['battery_chrg_label'] = 'Charge de la batterie';
+$L['battery_volt_label'] = 'Tension de la batterie';
+$L['battery_runtime_label'] = 'Autonomie de la batterie';
+$L['input_volt_label'] = 'Tension d\'entrée';
+$L['output_volt_label'] = 'Tension de sortie';
+$L['load_label'] = 'Charge';
+$L['no_info'] = 'Aucune information sur l\'UPS (onduleur) disponible';
 $L['nut_title'] = 'UPS';
-$L['show_full_status_label'] = 'Show full status';
-$L['on_line_label'] = 'Online';
-$L['on_line_chrg_label'] = 'Online - Battery charging';
-$L['on_battery_label'] = 'On battery';
-$L['low_battery_label'] = 'On battery - Low battery';
+$L['show_full_status_label'] = 'Montrer le statut complet';
+$L['on_line_label'] = 'Branché';
+$L['on_line_chrg_label'] = 'Branché - batterie en chargement';
+$L['on_battery_label'] = 'Sur la batterie';
+$L['low_battery_label'] = 'Sur la batterie - Batteire faible !';
 $L['Nut_Title'] = 'UPS';
 $L['minutes_label'] = 'minutes';

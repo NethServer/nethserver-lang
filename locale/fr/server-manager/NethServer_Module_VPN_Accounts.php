@@ -2,7 +2,7 @@
 
 /* NethServer_Module_VPN_VPNAccounts translation, language: en */
 
-$L['bridged_label'] = 'Bridged';
+$L['bridged_label'] = 'Bridgé';
 $L['create_header_label'] = 'Create new account';
 $L['Key_label'] = 'Name';
 $L['name_label'] = 'Name';

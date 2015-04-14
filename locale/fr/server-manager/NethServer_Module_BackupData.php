@@ -2,7 +2,7 @@
 
 /* NethServer_Module_BackupData translation, language: en */
 
-$L['0_label'] = 'Sunday';
+$L['0_label'] = 'Dimanche';
 $L['1_label'] = 'Monday';
 $L['2_label'] = 'Tuesday';
 $L['3_label'] = 'Wednesday';
@@ -37,7 +37,7 @@ $L['notify_error_label'] = 'On error';
 $L['notify_never_label'] = 'Never';
 $L['notifyToCustom_label'] = 'Address';
 $L['notifyToType_admin_label'] = 'System administrator';
-$L['notifyToType_custom_label'] = 'Custom mail address';
+$L['notifyToType_custom_label'] = 'Adresse email personnalisée';
 $L['notifyTo_label'] = 'Send notification to';
 $L['NFSShare_label'] = 'Share';
 $L['RetentionPolicy_label'] = 'Retention policy';

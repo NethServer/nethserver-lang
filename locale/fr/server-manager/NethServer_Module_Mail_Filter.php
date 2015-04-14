@@ -1,14 +1,14 @@
 <?php 
 
-$L['"${0}" is not a valid record type'] = '"${0}" is not a valid record type'; 
-$L['"${0}" is not an email address or host name'] = '"${0}" is not an email address or host name'; 
-$L['AddressAcl_label'] = 'Rules by mail address'; 
+$L['"${0}" is not a valid record type'] = '"${0}" n\'est pas un type d\'enregistrement valide'; 
+$L['"${0}" is not an email address or host name'] = '"${0}" n\'est pas une adresse mail ou un nom d\'hôte'; 
+$L['AddressAcl_label'] = 'Règles par adesses mails'; 
 $L['Arch_label'] = 'Archives'; 
-$L['BlockAttachmentCustomList_label'] = 'Custom list'; 
-$L['BlockAttachmentCustomStatus_label'] = 'Custom list'; 
+$L['BlockAttachmentCustomList_label'] = 'Liste personnalisée'; 
+$L['BlockAttachmentCustomStatus_label'] = 'Liste personnalisée'; 
 $L['BlockAttachmentStatus_label'] = 'Block attachments'; 
 $L['Exec_label'] = 'Executables'; 
-$L['Filter_Title'] = 'Filter'; 
+$L['Filter_Title'] = 'Filtre'; 
 $L['New RW'] = 'New allow To'; 
 $L['New SB'] = 'New block From'; 
 $L['New SW'] = 'New allow From'; 

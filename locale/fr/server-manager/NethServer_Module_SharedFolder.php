@@ -1,6 +1,6 @@
 <?php 
 
-$L['AclRead_label'] = 'Read'; 
+$L['AclRead_label'] = 'Lire'; 
 $L['AclWrite_label'] = 'Write'; 
 $L['Acl_Title'] = 'ACL'; 
 $L['locals_group_label'] = 'Local users'; 

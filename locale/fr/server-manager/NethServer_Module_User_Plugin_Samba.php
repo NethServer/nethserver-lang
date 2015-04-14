@@ -1,4 +1,4 @@
 <?php 
 
-$L['Samba_Tags'] = 'samba shared folders'; 
+$L['Samba_Tags'] = 'samba dossiers partagés'; 
 $L['Samba_label'] = 'Shared Folders (Samba)'; 
