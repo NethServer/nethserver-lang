@@ -36,7 +36,7 @@ for LD in locale/*/LC_MESSAGES; do
    rm -f ${lang}.lang
    echo "%doc COPYING" >> ${lang}.lang
    for F in $LD/*.mo; do
-     install -D $F %{buildroot}/%{_datadir}/$F
+     install -m 0644 -D $F %{buildroot}/%{_datadir}/$F
      echo "%{_datadir}/$F" >> ${lang}.lang
    done
 done
@@ -44,26 +44,27 @@ done
 for LD in locale/*/server-manager; do
    lang=$(basename $(dirname $LD))
    for F in $LD/*.php; do
-      install -D $F %{buildroot}/usr/share/nethesis/NethServer/Language/${lang}/$(basename $F)
+      install -m 0644 -D $F %{buildroot}/usr/share/nethesis/NethServer/Language/${lang}/$(basename $F)
       echo "/usr/share/nethesis/NethServer/Language/${lang}/$(basename $F)" >> ${lang}.lang
    done
 done
 
 for LD in locale/*/help; do
+   [ -d "${LD}" ] || continue
    lang=$(basename $(dirname $LD))
    for F in $LD/*.html; do
-      install -D $F %{buildroot}/usr/share/nethesis/NethServer/Help/${lang}/$(basename $F)
+      install -m 0644 -D $F %{buildroot}/usr/share/nethesis/NethServer/Help/${lang}/$(basename $F)
       echo "/usr/share/nethesis/NethServer/Help/${lang}/$(basename $F)" >> ${lang}.lang
    done   
 done
 
 for F in locale/*/nethgui/Nethgui.php; do
-   if ! [ -f  $F ]; then
+    if ! [ -f  $F ]; then
        echo "[WARNING] Missing Nethgui translation $F" 1>&2 
        continue
     fi
     lang=$(basename $(dirname $(dirname $F)))   
-    install -D $F %{buildroot}/usr/share/nethesis/Nethgui/Language/${lang}/Nethgui.php
+    install -m 0644 -D $F %{buildroot}/usr/share/nethesis/Nethgui/Language/${lang}/Nethgui.php
     echo "/usr/share/nethesis/Nethgui/Language/${lang}/Nethgui.php" >> ${lang}.lang
 done
 
