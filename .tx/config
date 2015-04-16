@@ -3,11 +3,10 @@ host = https://www.transifex.com
 lang_map = fr_FR: fr, ru_RU: ru
 
 #
-# PO files
+# PO/POT files
 #
 
 [nethserver.nethserver-backup-datapot]
-file_filter = translations/nethserver.nethserver-backup-datapot/<lang>.po
 file_filter = locale/<lang>/LC_MESSAGES/nethserver-backup-data.po
 source_file = src/gettext/nethserver-backup-data.pot
 source_lang = en
@@ -24,6 +23,13 @@ file_filter = locale/<lang>/LC_MESSAGES/nethserver-samba.po
 source_file = src/gettext/nethserver-samba.pot
 source_lang = en
 type = PO
+
+[nethserver.nethserver-firewall-basepot]
+file_filter = locale/<lang>/LC_MESSAGES/nethserver-firewall-base.po
+source_file = src/gettext/nethserver-firewall-base.pot
+source_lang = en
+type = PO
+
 
 
 #
