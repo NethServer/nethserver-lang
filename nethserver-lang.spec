@@ -31,41 +31,44 @@ for LD in locale/*/LC_MESSAGES; do
 done
 
 %install
-for LD in locale/*/LC_MESSAGES; do
-   lang=$(basename $(dirname $LD))
+
+shopt -s nullglob
+
+for D in locale/*; do
+   [ -d "${D}" ] || continue
+   lang=$(basename ${D})
    rm -f ${lang}.lang
    echo "%doc COPYING" >> ${lang}.lang
+
+   LD=$D/LC_MESSAGES   
    for F in $LD/*.mo; do
      install -m 0644 -D $F %{buildroot}/%{_datadir}/$F
      echo "%{_datadir}/$F" >> ${lang}.lang
    done
-done
 
-for LD in locale/*/server-manager; do
-   lang=$(basename $(dirname $LD))
+   LD=$D/server-manager
+   echo "%dir /usr/share/nethesis/NethServer/Language/${lang}" >> ${lang}.lang
+   install -d  %{buildroot}/usr/share/nethesis/NethServer/Language/${lang}
    for F in $LD/*.php; do
       install -m 0644 -D $F %{buildroot}/usr/share/nethesis/NethServer/Language/${lang}/$(basename $F)
       echo "/usr/share/nethesis/NethServer/Language/${lang}/$(basename $F)" >> ${lang}.lang
    done
-done
 
-for LD in locale/*/help; do
-   [ -d "${LD}" ] || continue
-   lang=$(basename $(dirname $LD))
+   LD=$D/help
+   echo "%dir /usr/share/nethesis/NethServer/Help/${lang}" >> ${lang}.lang
+   install -d  %{buildroot}/usr/share/nethesis/NethServer/Help/${lang}
    for F in $LD/*.html; do
       install -m 0644 -D $F %{buildroot}/usr/share/nethesis/NethServer/Help/${lang}/$(basename $F)
       echo "/usr/share/nethesis/NethServer/Help/${lang}/$(basename $F)" >> ${lang}.lang
    done   
-done
 
-for F in locale/*/nethgui/Nethgui.php; do
-    if ! [ -f  $F ]; then
-       echo "[WARNING] Missing Nethgui translation $F" 1>&2 
-       continue
-    fi
-    lang=$(basename $(dirname $(dirname $F)))   
-    install -m 0644 -D $F %{buildroot}/usr/share/nethesis/Nethgui/Language/${lang}/Nethgui.php
-    echo "/usr/share/nethesis/Nethgui/Language/${lang}/Nethgui.php" >> ${lang}.lang
+   LD=$D/nethgui
+   echo "%dir /usr/share/nethesis/Nethgui/Language/${lang}" >> ${lang}.lang
+   install -d  %{buildroot}/usr/share/nethesis/Nethgui/Language/${lang}   
+   for F in $LD/*.php; do
+       install -m 0644 -D $F %{buildroot}/usr/share/nethesis/Nethgui/Language/${lang}/$(basename $F)
+       echo "/usr/share/nethesis/Nethgui/Language/${lang}/$(basename $F)" >> ${lang}.lang
+   done
 done
 
 %package it
@@ -125,5 +128,6 @@ BuildArch: noarch
 NethServer Russian language support (ru)
 
 %changelog
-* Fri Apr 10 2015 Davide Principi
+* Thu Apr 16 2015 Davide Principi <davide.principi@nethesis.it> - 0.0.1-1
 - Initial version
+
