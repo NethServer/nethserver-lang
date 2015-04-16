@@ -38,14 +38,16 @@ done
 
 exec 2>/dev/null
 
+mkdir -vp locale/en/{server-manager,help,nethgui,LC_MESSAGES}
+
 for D in ${base_dir}/*.git; do
     echo $D
     [ -n "${fetch}" ] && GIT_DIR=$D git fetch -p >/dev/null
-    GIT_DIR=$D git archive --format=tar HEAD root/usr/share/nethesis/NethServer/Language/en | tar -C src/server-manager/strings -x --strip-components 7 -f -
-    GIT_DIR=$D git archive --format=tar HEAD root/usr/share/nethesis/NethServer/Help/en | tar -C src/server-manager/help -x --strip-components 7 -f -
-    GIT_DIR=$D git archive --format=tar HEAD locale/ | tar -C src/gettext -x -f - --strip-components 1 --no-wildcards-match-slash 'locale/*.pot'
+    GIT_DIR=$D git archive --format=tar HEAD root/usr/share/nethesis/NethServer/Language/en | tar -C locale/en/server-manager -x --strip-components 7 -f -
+    GIT_DIR=$D git archive --format=tar HEAD root/usr/share/nethesis/NethServer/Help/en | tar -C locale/en/help -x --strip-components 7 -f -
+    GIT_DIR=$D git archive --format=tar HEAD locale/ | tar -C locale/en/LC_MESSAGES -x -f - --strip-components 1 --no-wildcards-match-slash 'locale/*.pot'
 done
 
 echo ${base_dir}/nethserver-nethgui.git
 [ -n "${fetch}" ] && GIT_DIR=${base_dir}/nethserver-nethgui.git git fetch -p
-GIT_DIR=${base_dir}/nethserver-nethgui.git git archive --format=tar HEAD Nethgui/Language/en | tar -C src/nethgui/strings -x --strip-components 3 -f -
+GIT_DIR=${base_dir}/nethserver-nethgui.git git archive --format=tar HEAD Nethgui/Language/en | tar -C locale/en/nethgui -x --strip-components 3 -f -

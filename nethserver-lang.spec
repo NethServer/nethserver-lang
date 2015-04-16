@@ -24,7 +24,12 @@ NethServer localization project
 
 %{makedocs}
 
+shopt -s nullglob
+
 for LD in locale/*/LC_MESSAGES; do
+   for F in $LD/*.pot; do
+     msgfmt -v $F -o ${F%%.pot}.mo
+   done
    for F in $LD/*.po; do
      msgfmt -v $F -o ${F%%.po}.mo
    done
@@ -64,7 +69,7 @@ for D in locale/*; do
    install -d  %{buildroot}/usr/share/nethesis/${override:-NethServer}/Help/${lang}
    for F in $LD/*.html; do
       install -m 0644 -D $F %{buildroot}/usr/share/nethesis/${override:-NethServer}/Help/${lang}/$(basename $F)
-      echo "/usr/share/nethesis/${override:-}NethServer/Help/${lang}/$(basename $F)" >> ${lang}.lang
+      echo "/usr/share/nethesis/${override:-NethServer}/Help/${lang}/$(basename $F)" >> ${lang}.lang
    done
 
    LD=$D/nethgui
@@ -75,6 +80,13 @@ for D in locale/*; do
        echo "/usr/share/nethesis/${override:-Nethgui}/Language/${lang}/$(basename $F)" >> ${lang}.lang
    done
 done
+
+%package en
+Summary: English support
+BuildArch: noarch
+%files en -f en.lang
+%description en
+NethServer English language support (en)
 
 %package it
 Summary: Italian support
