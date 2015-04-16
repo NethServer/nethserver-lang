@@ -2,7 +2,7 @@
 
 $L['BasicInfo_Title'] = 'Informations de base'; 
 $L['EmailAddress_label'] = 'Adresses email externe';
-$L['ExtraInfo_Title'] = 'Contact informations'; 
+$L['ExtraInfo_Title'] = 'Informations du contact'; 
 $L['FirstName_label'] = 'First name'; 
 $L['LastName_label'] = 'Last name';
 $L['UserProfile_Description'] = 'Change user settings';

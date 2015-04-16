@@ -2,7 +2,7 @@
 
 $L['Pki_Title'] = 'Certificat du serveur';
 $L['Pki_Description'] = 'Gérer le certificat SSL du serveur';
-$L['Pki_Tags'] = 'SSL certificate PKI TLS X509';
+$L['Pki_Tags'] = 'SSL certificat PKI TLS X509';
 $L['Pki_Show_header'] = 'Server certificate';
 $L['Pki_Generate_header'] = 'Generate a new certificate';
 $L['GenerateLink_label'] = 'New certificate';

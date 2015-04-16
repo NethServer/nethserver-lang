@@ -3,8 +3,8 @@
 /* NethServer_Module_IPS translation, language: en */
 
 $L['balanced_label'] = 'Balanced';
-$L['connectivity_label'] = 'Connectivity';
-$L['IPS_Description'] = 'IPS management (Snort)';
+$L['connectivity_label'] = 'Connectivité';
+$L['IPS_Description'] = 'Gestion IPS (Snort)';
 $L['IPS_header'] = 'IPS management';
 $L['IPS_Tags'] = 'IPS ips snort Snort';
 $L['IPS_Title'] = 'IPS';

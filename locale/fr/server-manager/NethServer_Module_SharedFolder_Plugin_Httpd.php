@@ -1,8 +1,8 @@
 <?php
 
 $L['Httpd_Title'] = 'Accès Web';
-$L['Status_label'] = 'Enable web access';
-$L['CgiBin_label'] = 'Execute scripts (CGI, PHP, SSI)';
+$L['Status_label'] = 'Activer l\'accès web';
+$L['CgiBin_label'] = 'Executer des scripts (CGI, PHP, SSI)';
 $L['PasswordStatus_label'] = 'Protect by password';
 $L['PasswordValue_label'] = 'Password'; 
 $L['Access_label'] = 'Allow access from trusted networks only';

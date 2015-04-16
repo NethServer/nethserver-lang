@@ -3,8 +3,8 @@
 /* NethServer_Module_FlashStart translation, language: en */
 
 $L['FlashStart_Description'] = 'Configuration du filtre Cloud';
-$L['FlashStart_Tags'] = 'FlashStart cloud filter profile';
-$L['FlashStart_Title'] = 'Cloud content filter';
+$L['FlashStart_Tags'] = 'FlashStart cloud filtre profile';
+$L['FlashStart_Title'] = 'Filtre de contenu Cloud';
 $L['Group_label'] = 'Profile';
 $L['Key_label'] = 'Profile';
 $L['name_label'] = 'Name';

@@ -1,7 +1,7 @@
 <?php
 
 $L['BypassSrc_Title'] = 'Hôtes sans proxy';
-$L['Key_label'] = 'Name';
+$L['Key_label'] = 'Nom';
 $L['name_label'] = 'Name';
 $L['status_label'] = 'Enabled';
 $L['Host_label'] = 'Source';

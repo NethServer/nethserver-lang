@@ -2,7 +2,7 @@
 
 $L['current_backup_label'] = 'Sauvegarde en cours';
 $L['date_label'] = 'Date';
-$L['ForceBackup_label'] = 'Backup now';
+$L['ForceBackup_label'] = 'Sauvegarder maintenant';
 $L['Restore_label'] = 'Restore backup';
 $L['Restore_Title'] = 'Restore';
 $L['RLC_header'] = 'Restore configuration backup';

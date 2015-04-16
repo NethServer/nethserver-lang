@@ -2,9 +2,9 @@
 
 /* NethServer_Module_PortForward translation, language: en */
 
-$L['Allow_label'] = 'Allow only from';
-$L['check-rules_Header'] = 'Check firewall rules';
-$L['CheckRules_label'] = 'Check firewall';
+$L['Allow_label'] = 'Autoriser seulement depuis';
+$L['check-rules_Header'] = 'Vérifier les règles du pare-feu';
+$L['CheckRules_label'] = 'Vérifier le pare-feu';
 $L['create_header_label'] = 'Create port forward';
 $L['Description_label'] = 'Description';
 $L['disable_label'] = 'Disable';

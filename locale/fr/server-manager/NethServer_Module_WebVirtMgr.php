@@ -1,8 +1,8 @@
 <?php
 
 $L['WebVirtMgr_Title'] = 'Machines virtuelles (VM)';
-$L['WebVirtMgr_Description'] = 'Manage virtual machines';
-$L['WebVirtMgr_Tags'] = 'libvirt virtual machine machines kvm qemu webvirtmgr';
+$L['WebVirtMgr_Description'] = 'Gérer les machines virtuelles';
+$L['WebVirtMgr_Tags'] = 'libvirt vm machines kvm qemu webvirtmgr';
 
 $L['Webvirt_label'] = 'Virtual machine manager';
 $L['WebvirtStatus_enabled_label'] = 'Enable';

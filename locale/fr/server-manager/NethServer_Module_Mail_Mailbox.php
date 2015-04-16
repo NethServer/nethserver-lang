@@ -3,7 +3,7 @@
 $L['Disk space'] = 'Espace disque'; 
 $L['Hold for ${0}'] = 'Hold for ${0}'; 
 $L['ImapStatus_label'] = 'IMAP'; 
-$L['Mailbox access protocols'] = 'Mailbox access protocols'; 
+$L['Mailbox access protocols'] = 'Protocoles d\'accès aux boîtes mails'; 
 $L['Mailbox_Title'] = 'Mailboxes'; 
 $L['PopStatus_label'] = 'POP3'; 
 $L['Quota default size ${0}'] = 'Default value size ${0}'; 

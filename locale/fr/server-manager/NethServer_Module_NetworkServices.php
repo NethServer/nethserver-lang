@@ -1,7 +1,7 @@
 <?php 
 
 $L['Key_label'] = 'Service';
-$L['access_label'] = 'Access';
+$L['access_label'] = 'Accès';
 $L['ports_label'] = 'Ports';
 $L['NetworkServices_Title'] = 'Network services';
 $L['NetworkServices_Tags'] = 'Network services service firewall local';

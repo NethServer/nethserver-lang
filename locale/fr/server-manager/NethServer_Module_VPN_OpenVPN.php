@@ -1,8 +1,8 @@
 <?php
 
 $L['ServerStatus_label'] = 'Activer le mode "roadwarrior"';
-$L['OpenVPN_Description'] = 'OpenVPN configuration';
-$L['OpenVPN_Tags'] = 'vpn virtual private network openvpn roadwarrior';
+$L['OpenVPN_Description'] = 'Configuration OpenVPN';
+$L['OpenVPN_Tags'] = 'vpn rpv network openvpn roadwarrior';
 $L['OpenVPN_Title'] = 'OpenVPN';
 $L['AuthMode_label'] = 'Authentication mode';
 $L['password_mode_label'] = 'Username and password';

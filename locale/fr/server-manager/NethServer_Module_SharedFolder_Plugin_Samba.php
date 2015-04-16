@@ -2,7 +2,7 @@
 
 $L['Profiles_label'] = 'Partager le profile'; 
 $L['Samba_Title'] = 'Samba'; 
-$L['SmbRecycleBinStatus_label'] = 'Network recycle bin'; 
+$L['SmbRecycleBinStatus_label'] = 'recycle bin réseau'; 
 $L['SmbRecycleBinVersionsStatus_label'] = 'Keep omonym files'; 
 $L['SmbShadowCopyStatus_label'] = 'Shadow copy'; 
 $L['SmbStatus_label'] = 'Enable Samba'; 

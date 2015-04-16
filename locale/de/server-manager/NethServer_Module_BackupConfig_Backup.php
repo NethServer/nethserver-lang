@@ -1,9 +1,9 @@
 <?php 
 
-$L['Backup_Title'] = 'Backup';
-$L['backup_config_Header'] = 'Configuration backup';
-$L['backup_config_label'] = 'Backup will be executed only if system configuration is changed. If you want to force a new backup press "Backup now" button.';
-$L['Execute_label'] = 'Backup now';
-$L['current_backup_label'] = 'Current backup';
-$L['date_label'] = 'Date';
-$L['size_label'] = 'Size';
+$L['Backup_Title'] = 'Sicherung ';
+$L['backup_config_Header'] = 'Sicherung der Konfiguration ';
+$L['backup_config_label'] = 'Die Sicherung wird nur durchgeführt, wenn sich die Systemkonfiguration geändert hat. Wollen Sie, dass eine neue Sicherung jetzt durchgeführt wird, drücken Sie "jetzt sichern".';
+$L['Execute_label'] = 'Jetzt sichern';
+$L['current_backup_label'] = 'Aktuelle Sicherung';
+$L['date_label'] = 'Datum';
+$L['size_label'] = 'Größe';

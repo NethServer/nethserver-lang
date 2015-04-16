@@ -3,8 +3,8 @@
 /* NethServer_Module_BackupData translation, language: en */
 
 $L['0_label'] = 'Dimanche';
-$L['1_label'] = 'Monday';
-$L['2_label'] = 'Tuesday';
+$L['1_label'] = 'Lundi';
+$L['2_label'] = 'Mardi';
 $L['3_label'] = 'Wednesday';
 $L['4_label'] = 'Thursday';
 $L['5_label'] = 'Friday';

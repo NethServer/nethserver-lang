@@ -1,8 +1,8 @@
 <?php 
 
 $L['status_label'] = 'Activer ntopng'; 
-$L['ntopng_title'] = 'Bandwidth monitor: ntopng';
-$L['username_label'] = 'Username'; 
+$L['ntopng_title'] = 'Moniteur de bande passante: ntopng';
+$L['username_label'] = 'Nom d\'utilisateur'; 
 $L['Password_label'] = 'Password'; 
 $L['TCPPort_label'] = 'Web interface port'; 
 $L['Ntopng_Tags'] = 'ntop bandwidth monitor usage'; 

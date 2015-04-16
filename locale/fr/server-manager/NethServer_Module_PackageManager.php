@@ -1,8 +1,8 @@
 <?php 
 
 $L['Add_label'] = 'Ajouter';
-$L['PackageManager_Description'] = 'Adds and removes software modules from the system';
-$L['PackageManager_Tags'] = 'rpm yum addons extras modules components packages';
+$L['PackageManager_Description'] = 'Ajoute et supprime des modules logiciels du sysème';
+$L['PackageManager_Tags'] = 'rpm yum addons extras modules composants packages';
 $L['PackageManager_Title'] = 'Software center';
 $L['package_success'] = 'Operation completed successfully';
 $L['rpm_name'] = 'Name';

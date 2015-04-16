@@ -4,7 +4,7 @@
 
 $L['backup_label'] = 'Sauvegarde active';
 $L['balance_label'] = 'Balance';
-$L['checkip_label'] = 'Check IP';
+$L['checkip_label'] = 'Vérfier l\'IP';
 $L['Configure_header'] = 'Configure';
 $L['interface_label'] = 'Interface';
 $L['Key_label'] = 'Provider';

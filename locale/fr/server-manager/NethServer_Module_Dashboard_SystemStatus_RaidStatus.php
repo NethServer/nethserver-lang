@@ -4,7 +4,7 @@
 
 $L['devs'] = 'Périphériques';
 $L['raidstatus_title'] = 'Etat du RAID logiciel';
-$L['no_raid'] = 'No software RAID configured';
+$L['no_raid'] = 'Aucun RAID logiciel configuré';
 $L['ok'] = 'OK';
 $L['level'] = 'Level';
 $L['critical'] = 'CRITICAL';

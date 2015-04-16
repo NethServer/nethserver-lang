@@ -1,8 +1,8 @@
 <?php 
 
 $L['BasicInfo_Title'] = 'Utilisateur'; 
-$L['City_label'] = 'City'; 
-$L['Company_label'] = 'Company'; 
+$L['City_label'] = 'Ville'; 
+$L['Company_label'] = 'Société'; 
 $L['Contact informations'] = 'Contact informations'; 
 $L['Create a new user'] = 'Create a new user'; 
 $L['Department_label'] = 'Office';

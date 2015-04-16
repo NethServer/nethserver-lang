@@ -3,8 +3,8 @@
 /* NethServer_Module_VPN_VPNClients translation, language: en */
 
 $L['AuthMode_certificate_label'] = 'Certificat';
-$L['AuthMode_label'] = 'Authentication';
-$L['AuthMode_password-certificate_label'] = 'User, password and certificate';
+$L['AuthMode_label'] = 'Authentification';
+$L['AuthMode_password-certificate_label'] = 'Utilisateur, mot de passe et certificat';
 $L['AuthMode_password_label'] = 'User and password';
 $L['AuthMode_psk_label'] = 'Pre-shared key';
 $L['Mode_bridged_label'] = 'Bridged';

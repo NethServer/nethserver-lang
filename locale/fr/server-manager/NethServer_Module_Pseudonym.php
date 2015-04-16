@@ -2,7 +2,7 @@
 
 $L['Access_label'] = 'Réseau local seulement'; 
 $L['Account_label'] = 'Compte'; 
-$L['Create a new pseudonym'] = 'Create a new pseudonym'; 
+$L['Create a new pseudonym'] = 'Créer un nouveau pseudonyme'; 
 $L['Current_label'] = 'Current selection'; 
 $L['Description_label'] = 'Description'; 
 $L['Edit pseudonym `${0}`'] = 'Edit pseudonym `${0}`'; 

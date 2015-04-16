@@ -2,7 +2,7 @@
 
 $L['${0} day'] = 'un jour'; 
 $L['${0} days'] = '${0} jours'; 
-$L['Hold for ${0}'] = 'Hold for ${0}'; 
+$L['Hold for ${0}'] = 'Rétention pendant ${0}'; 
 $L['MailForwardAddress_label'] = 'Email address'; 
 $L['MailForwardKeepMessageCopy_label'] = 'Keep a message copy on this server'; 
 $L['MailForwardStatus_label'] = 'Forward messages'; 

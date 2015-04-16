@@ -2,9 +2,9 @@
 
 /* FaxServer translation, language: en */
 
-$L['AreaCode_label'] = 'Area code';
-$L['ClientShowReceived_label'] = 'Show received fax from clients';
-$L['CountryCode_label'] = 'Country code';
+$L['AreaCode_label'] = 'Indicatif régional';
+$L['ClientShowReceived_label'] = 'Afficher les fax clients reçus';
+$L['CountryCode_label'] = 'Code Pays';
 $L['DispatchFileTypeList_label'] = 'Incoming fax format';
 $L['FaxDevice_label'] = 'Modem port';
 $L['FaxDeviceType_known_label'] = 'Standard device';

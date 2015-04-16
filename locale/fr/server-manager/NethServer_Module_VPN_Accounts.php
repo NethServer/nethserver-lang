@@ -3,8 +3,8 @@
 /* NethServer_Module_VPN_VPNAccounts translation, language: en */
 
 $L['bridged_label'] = 'Bridgé';
-$L['create_header_label'] = 'Create new account';
-$L['Key_label'] = 'Name';
+$L['create_header_label'] = 'Créer un nouveau compte';
+$L['Key_label'] = 'Nom';
 $L['name_label'] = 'Name';
 $L['VPNRemoteNetmask_label'] = 'Network mask';
 $L['VPNRemoteNetwork_label'] = 'Network address';

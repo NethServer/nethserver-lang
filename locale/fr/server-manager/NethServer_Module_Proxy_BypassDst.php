@@ -1,8 +1,8 @@
 <?php
 
-$L['BypassDst_Title'] = 'Sites without proxy';
-$L['Key_label'] = 'Name';
-$L['name_label'] = 'Name';
+$L['BypassDst_Title'] = 'Sites sans proxy';
+$L['Key_label'] = 'Nom';
+$L['name_label'] = 'Nom';
 $L['status_label'] = 'Enabled';
 $L['Host_label'] = 'Destination';
 $L['Hosts_label'] = 'Hosts';

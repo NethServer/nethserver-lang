@@ -1,8 +1,8 @@
 <?php
 
 $L['Cover_Title'] = 'Bienvenue';
-$L['Next_label'] = 'Next';
-$L['Back_label'] = 'Back';
+$L['Next_label'] = 'Suivant';
+$L['Back_label'] = 'Retour arrière';
 $L['Skip_label'] = 'Skip';
 $L['Save_label'] = 'Save';
 $L['Welcome_body'] = 'Welcome to  ${ProductName} ${Version} ${Release}.'."\nThis wizard will help you setup some system options. At the end, you will be redirected to the network configuration page.\n\nTo continue, click Next.";

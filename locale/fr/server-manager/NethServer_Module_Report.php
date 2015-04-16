@@ -1,8 +1,8 @@
 <?php
 
 $L['Key_label'] = 'Widget';
-$L['Report_Title'] = 'Weekly report';
-$L['Report_Tags'] = 'Report report weekly summary';
+$L['Report_Title'] = 'Rapport hebdomadaire';
+$L['Report_Tags'] = 'rapport hebdo résumé ';
 $L['Report_Description'] = 'Manage weekly report';
 $L['name_label'] = 'Name';
 $L['status_label'] = 'Status';

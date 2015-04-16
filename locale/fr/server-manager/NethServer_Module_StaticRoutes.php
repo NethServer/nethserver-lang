@@ -1,7 +1,7 @@
 <?php 
 
 $L['Confirm deletion of'] = 'Confirmer la suppression de'; 
-$L['Create a new static route'] = 'Create a new static route'; 
+$L['Create a new static route'] = 'Créer une nouvelle route statique'; 
 $L['Description_label'] = 'Description'; 
 $L['Key_label'] = 'Network'; 
 $L['StaticRoutes_Description'] = 'Configure static routes'; 

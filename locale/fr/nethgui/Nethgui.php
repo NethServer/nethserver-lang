@@ -1,8 +1,8 @@
 <?php 
 
 $L['Actions_label'] = 'Actions'; 
-$L['Add'] = 'Add'; 
-$L['All changes have been saved'] = 'All changes have been saved'; 
+$L['Add'] = 'Ajouter'; 
+$L['All changes have been saved'] = 'Tous les changements ont été enregistrés'; 
 $L['An object with the same key already exists'] = 'An object with the same key already exists'; 
 $L['Apply_label'] = 'Apply'; 
 $L['Cancel_label'] = 'Back';
