@@ -8,25 +8,25 @@ lang_map = fr_FR: fr, ru_RU: ru
 
 [nethserver.nethserver-backup-datapot]
 file_filter = locale/<lang>/LC_MESSAGES/nethserver-backup-data.po
-source_file = src/gettext/nethserver-backup-data.pot
+source_file = locale/en/LC_MESSAGES/nethserver-backup-data.pot
 source_lang = en
 type = PO
 
 [nethserver.nethserver-basepot]
 file_filter = locale/<lang>/LC_MESSAGES/nethserver-base.po
-source_file = src/gettext/nethserver-base.pot
+source_file = locale/en/LC_MESSAGES/nethserver-base.pot
 source_lang = en
 type = PO
 
 [nethserver.nethserver-sambapot]
 file_filter = locale/<lang>/LC_MESSAGES/nethserver-samba.po
-source_file = src/gettext/nethserver-samba.pot
+source_file = locale/en/LC_MESSAGES/nethserver-samba.pot
 source_lang = en
 type = PO
 
 [nethserver.nethserver-firewall-basepot]
 file_filter = locale/<lang>/LC_MESSAGES/nethserver-firewall-base.po
-source_file = src/gettext/nethserver-firewall-base.pot
+source_file = locale/en/LC_MESSAGES/nethserver-firewall-base.pot
 source_lang = en
 type = PO
 
@@ -44,697 +44,697 @@ type = PHP_ALT_ARRAY
 
 [nethserver.BackupConfig]
 file_filter = locale/<lang>/server-manager/NethServer_Module_BackupConfig.php
-source_file = src/server-manager/strings/NethServer_Module_BackupConfig.php
+source_file = locale/en/server-manager/NethServer_Module_BackupConfig.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.BackupConfig_Backup]
 file_filter = locale/<lang>/server-manager/NethServer_Module_BackupConfig_Backup.php
-source_file = src/server-manager/strings/NethServer_Module_BackupConfig_Backup.php
+source_file = locale/en/server-manager/NethServer_Module_BackupConfig_Backup.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.BackupConfig_DownloadRemote]
 file_filter = locale/<lang>/server-manager/NethServer_Module_BackupConfig_DownloadRemote.php
-source_file = src/server-manager/strings/NethServer_Module_BackupConfig_DownloadRemote.php
+source_file = locale/en/server-manager/NethServer_Module_BackupConfig_DownloadRemote.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.BackupConfig_Restore]
 file_filter = locale/<lang>/server-manager/NethServer_Module_BackupConfig_Restore.php
-source_file = src/server-manager/strings/NethServer_Module_BackupConfig_Restore.php
+source_file = locale/en/server-manager/NethServer_Module_BackupConfig_Restore.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.BackupData]
 file_filter = locale/<lang>/server-manager/NethServer_Module_BackupData.php
-source_file = src/server-manager/strings/NethServer_Module_BackupData.php
+source_file = locale/en/server-manager/NethServer_Module_BackupData.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter]
 file_filter = locale/<lang>/server-manager/NethServer_Module_ContentFilter.php
-source_file = src/server-manager/strings/NethServer_Module_ContentFilter.php
+source_file = locale/en/server-manager/NethServer_Module_ContentFilter.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_Antivirus]
 file_filter = locale/<lang>/server-manager/NethServer_Module_ContentFilter_Antivirus.php
-source_file = src/server-manager/strings/NethServer_Module_ContentFilter_Antivirus.php
+source_file = locale/en/server-manager/NethServer_Module_ContentFilter_Antivirus.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_Categories]
 file_filter = locale/<lang>/server-manager/NethServer_Module_ContentFilter_Categories.php
-source_file = src/server-manager/strings/NethServer_Module_ContentFilter_Categories.php
+source_file = locale/en/server-manager/NethServer_Module_ContentFilter_Categories.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_Filters]
 file_filter = locale/<lang>/server-manager/NethServer_Module_ContentFilter_Filters.php
-source_file = src/server-manager/strings/NethServer_Module_ContentFilter_Filters.php
+source_file = locale/en/server-manager/NethServer_Module_ContentFilter_Filters.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_General]
 file_filter = locale/<lang>/server-manager/NethServer_Module_ContentFilter_General.php
-source_file = src/server-manager/strings/NethServer_Module_ContentFilter_General.php
+source_file = locale/en/server-manager/NethServer_Module_ContentFilter_General.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_Lists]
 file_filter = locale/<lang>/server-manager/NethServer_Module_ContentFilter_Lists.php
-source_file = src/server-manager/strings/NethServer_Module_ContentFilter_Lists.php
+source_file = locale/en/server-manager/NethServer_Module_ContentFilter_Lists.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_Profiles]
 file_filter = locale/<lang>/server-manager/NethServer_Module_ContentFilter_Profiles.php
-source_file = src/server-manager/strings/NethServer_Module_ContentFilter_Profiles.php
+source_file = locale/en/server-manager/NethServer_Module_ContentFilter_Profiles.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.ContentFilter_Times]
 file_filter = locale/<lang>/server-manager/NethServer_Module_ContentFilter_Times.php
-source_file = src/server-manager/strings/NethServer_Module_ContentFilter_Times.php
+source_file = locale/en/server-manager/NethServer_Module_ContentFilter_Times.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_Applications]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_Applications.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_Applications.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_Applications.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_Duc]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_Duc.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_Duc.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_Duc.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_IPS]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_IPS.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_IPS.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_IPS.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_MailQuota]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_MailQuota.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_MailQuota.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_MailQuota.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_Nut]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_Nut.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_Nut.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_Nut.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_Printers]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_Printers.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_Printers.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_Printers.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_Report]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_Report.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_Report.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_Report.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_Services]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_Services.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_Services.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_Services.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_SystemStatus.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Accounts]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus_Accounts.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_SystemStatus_Accounts.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus_Accounts.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Antivirus]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus_Antivirus.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_SystemStatus_Antivirus.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus_Antivirus.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Backup]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus_Backup.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_SystemStatus_Backup.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus_Backup.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Dnsmasq]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus_Dnsmasq.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_SystemStatus_Dnsmasq.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus_Dnsmasq.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Mail]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus_Mail.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_SystemStatus_Mail.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus_Mail.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Network]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus_Network.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_SystemStatus_Network.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus_Network.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Providers]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus_Providers.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_SystemStatus_Providers.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus_Providers.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_RaidStatus]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus_RaidStatus.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_SystemStatus_RaidStatus.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus_RaidStatus.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Register]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus_Register.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_SystemStatus_Register.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus_Register.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_Resources]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus_Resources.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_SystemStatus_Resources.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus_Resources.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_SystemStatus_SystemRelease]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus_SystemRelease.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_SystemStatus_SystemRelease.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus_SystemRelease.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_VPN]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_VPN.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_VPN.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_VPN.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_VPN_OpenVPNClients]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_VPN_OpenVPNClients.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_VPN_OpenVPNClients.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_VPN_OpenVPNClients.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dashboard_VPN_OpenVPNServer]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_VPN_OpenVPNServer.php
-source_file = src/server-manager/strings/NethServer_Module_Dashboard_VPN_OpenVPNServer.php
+source_file = locale/en/server-manager/NethServer_Module_Dashboard_VPN_OpenVPNServer.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.DateTime]
 file_filter = locale/<lang>/server-manager/NethServer_Module_DateTime.php
-source_file = src/server-manager/strings/NethServer_Module_DateTime.php
+source_file = locale/en/server-manager/NethServer_Module_DateTime.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Dhcp]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dhcp.php
-source_file = src/server-manager/strings/NethServer_Module_Dhcp.php
+source_file = locale/en/server-manager/NethServer_Module_Dhcp.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Duc]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Duc.php
-source_file = src/server-manager/strings/NethServer_Module_Duc.php
+source_file = locale/en/server-manager/NethServer_Module_Duc.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Ejabber]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Ejabber.php
-source_file = src/server-manager/strings/NethServer_Module_Ejabber.php
+source_file = locale/en/server-manager/NethServer_Module_Ejabber.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FaxServer]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FaxServer.php
-source_file = src/server-manager/strings/NethServer_Module_FaxServer.php
+source_file = locale/en/server-manager/NethServer_Module_FaxServer.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Fetchmail]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Fetchmail.php
-source_file = src/server-manager/strings/NethServer_Module_Fetchmail.php
+source_file = locale/en/server-manager/NethServer_Module_Fetchmail.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallObjects]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FirewallObjects.php
-source_file = src/server-manager/strings/NethServer_Module_FirewallObjects.php
+source_file = locale/en/server-manager/NethServer_Module_FirewallObjects.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallObjects_HostGroups]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FirewallObjects_HostGroups.php
-source_file = src/server-manager/strings/NethServer_Module_FirewallObjects_HostGroups.php
+source_file = locale/en/server-manager/NethServer_Module_FirewallObjects_HostGroups.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallObjects_Hosts]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FirewallObjects_Hosts.php
-source_file = src/server-manager/strings/NethServer_Module_FirewallObjects_Hosts.php
+source_file = locale/en/server-manager/NethServer_Module_FirewallObjects_Hosts.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallObjects_Services]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FirewallObjects_Services.php
-source_file = src/server-manager/strings/NethServer_Module_FirewallObjects_Services.php
+source_file = locale/en/server-manager/NethServer_Module_FirewallObjects_Services.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallObjects_Zones]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FirewallObjects_Zones.php
-source_file = src/server-manager/strings/NethServer_Module_FirewallObjects_Zones.php
+source_file = locale/en/server-manager/NethServer_Module_FirewallObjects_Zones.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallRules]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FirewallRules.php
-source_file = src/server-manager/strings/NethServer_Module_FirewallRules.php
+source_file = locale/en/server-manager/NethServer_Module_FirewallRules.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirewallRules_CheckRules]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FirewallRules_CheckRules.php
-source_file = src/server-manager/strings/NethServer_Module_FirewallRules_CheckRules.php
+source_file = locale/en/server-manager/NethServer_Module_FirewallRules_CheckRules.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FirstConfigWiz]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FirstConfigWiz.php
-source_file = src/server-manager/strings/NethServer_Module_FirstConfigWiz.php
+source_file = locale/en/server-manager/NethServer_Module_FirstConfigWiz.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FlashStart]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FlashStart.php
-source_file = src/server-manager/strings/NethServer_Module_FlashStart.php
+source_file = locale/en/server-manager/NethServer_Module_FlashStart.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FQDN]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FQDN.php
-source_file = src/server-manager/strings/NethServer_Module_FQDN.php
+source_file = locale/en/server-manager/NethServer_Module_FQDN.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FTP]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FTP.php
-source_file = src/server-manager/strings/NethServer_Module_FTP.php
+source_file = locale/en/server-manager/NethServer_Module_FTP.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FTP_Configure]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FTP_Configure.php
-source_file = src/server-manager/strings/NethServer_Module_FTP_Configure.php
+source_file = locale/en/server-manager/NethServer_Module_FTP_Configure.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.FTP_Users]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FTP_Users.php
-source_file = src/server-manager/strings/NethServer_Module_FTP_Users.php
+source_file = locale/en/server-manager/NethServer_Module_FTP_Users.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Group]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Group.php
-source_file = src/server-manager/strings/NethServer_Module_Group.php
+source_file = locale/en/server-manager/NethServer_Module_Group.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Group_PlugService_Mail]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Group_PlugService_Mail.php
-source_file = src/server-manager/strings/NethServer_Module_Group_PlugService_Mail.php
+source_file = locale/en/server-manager/NethServer_Module_Group_PlugService_Mail.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Hosts]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Hosts.php
-source_file = src/server-manager/strings/NethServer_Module_Hosts.php
+source_file = locale/en/server-manager/NethServer_Module_Hosts.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Hotspot]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Hotspot.php
-source_file = src/server-manager/strings/NethServer_Module_Hotspot.php
+source_file = locale/en/server-manager/NethServer_Module_Hotspot.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.IaxModem]
 file_filter = locale/<lang>/server-manager/NethServer_Module_IaxModem.php
-source_file = src/server-manager/strings/NethServer_Module_IaxModem.php
+source_file = locale/en/server-manager/NethServer_Module_IaxModem.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.IPS]
 file_filter = locale/<lang>/server-manager/NethServer_Module_IPS.php
-source_file = src/server-manager/strings/NethServer_Module_IPS.php
+source_file = locale/en/server-manager/NethServer_Module_IPS.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.LocalNetwork]
 file_filter = locale/<lang>/server-manager/NethServer_Module_LocalNetwork.php
-source_file = src/server-manager/strings/NethServer_Module_LocalNetwork.php
+source_file = locale/en/server-manager/NethServer_Module_LocalNetwork.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.LogViewer]
 file_filter = locale/<lang>/server-manager/NethServer_Module_LogViewer.php
-source_file = src/server-manager/strings/NethServer_Module_LogViewer.php
+source_file = locale/en/server-manager/NethServer_Module_LogViewer.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Mail]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Mail.php
-source_file = src/server-manager/strings/NethServer_Module_Mail.php
+source_file = locale/en/server-manager/NethServer_Module_Mail.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Mail_Domain_PlugTransport_LocalDelivery]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Mail_Domain_PlugTransport_LocalDelivery.php
-source_file = src/server-manager/strings/NethServer_Module_Mail_Domain_PlugTransport_LocalDelivery.php
+source_file = locale/en/server-manager/NethServer_Module_Mail_Domain_PlugTransport_LocalDelivery.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Mail_Filter]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Mail_Filter.php
-source_file = src/server-manager/strings/NethServer_Module_Mail_Filter.php
+source_file = locale/en/server-manager/NethServer_Module_Mail_Filter.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Mail_Mailbox]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Mail_Mailbox.php
-source_file = src/server-manager/strings/NethServer_Module_Mail_Mailbox.php
+source_file = locale/en/server-manager/NethServer_Module_Mail_Mailbox.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Nat]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Nat.php
-source_file = src/server-manager/strings/NethServer_Module_Nat.php
+source_file = locale/en/server-manager/NethServer_Module_Nat.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.NethServer]
 file_filter = locale/<lang>/server-manager/NethServer.php
-source_file = src/server-manager/strings/NethServer.php
+source_file = locale/en/server-manager/NethServer.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.NetworkAdapter]
 file_filter = locale/<lang>/server-manager/NethServer_Module_NetworkAdapter.php
-source_file = src/server-manager/strings/NethServer_Module_NetworkAdapter.php
+source_file = locale/en/server-manager/NethServer_Module_NetworkAdapter.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.NetworkServices]
 file_filter = locale/<lang>/server-manager/NethServer_Module_NetworkServices.php
-source_file = src/server-manager/strings/NethServer_Module_NetworkServices.php
+source_file = locale/en/server-manager/NethServer_Module_NetworkServices.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Ntopng]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Ntopng.php
-source_file = src/server-manager/strings/NethServer_Module_Ntopng.php
+source_file = locale/en/server-manager/NethServer_Module_Ntopng.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.NutUps]
 file_filter = locale/<lang>/server-manager/NethServer_Module_NutUps.php
-source_file = src/server-manager/strings/NethServer_Module_NutUps.php
+source_file = locale/en/server-manager/NethServer_Module_NutUps.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Organization]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Organization.php
-source_file = src/server-manager/strings/NethServer_Module_Organization.php
+source_file = locale/en/server-manager/NethServer_Module_Organization.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.P3Scan]
 file_filter = locale/<lang>/server-manager/NethServer_Module_P3Scan.php
-source_file = src/server-manager/strings/NethServer_Module_P3Scan.php
+source_file = locale/en/server-manager/NethServer_Module_P3Scan.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.PackageManager]
 file_filter = locale/<lang>/server-manager/NethServer_Module_PackageManager.php
-source_file = src/server-manager/strings/NethServer_Module_PackageManager.php
+source_file = locale/en/server-manager/NethServer_Module_PackageManager.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Phonebook]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Phonebook.php
-source_file = src/server-manager/strings/NethServer_Module_Phonebook.php
+source_file = locale/en/server-manager/NethServer_Module_Phonebook.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Pki]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Pki.php
-source_file = src/server-manager/strings/NethServer_Module_Pki.php
+source_file = locale/en/server-manager/NethServer_Module_Pki.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.PortForward]
 file_filter = locale/<lang>/server-manager/NethServer_Module_PortForward.php
-source_file = src/server-manager/strings/NethServer_Module_PortForward.php
+source_file = locale/en/server-manager/NethServer_Module_PortForward.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.PortForward_HairpinNat]
 file_filter = locale/<lang>/server-manager/NethServer_Module_PortForward_HairpinNat.php
-source_file = src/server-manager/strings/NethServer_Module_PortForward_HairpinNat.php
+source_file = locale/en/server-manager/NethServer_Module_PortForward_HairpinNat.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Printers]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Printers.php
-source_file = src/server-manager/strings/NethServer_Module_Printers.php
+source_file = locale/en/server-manager/NethServer_Module_Printers.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Providers]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Providers.php
-source_file = src/server-manager/strings/NethServer_Module_Providers.php
+source_file = locale/en/server-manager/NethServer_Module_Providers.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Proxy]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Proxy.php
-source_file = src/server-manager/strings/NethServer_Module_Proxy.php
+source_file = locale/en/server-manager/NethServer_Module_Proxy.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Proxy_BypassDst]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Proxy_BypassDst.php
-source_file = src/server-manager/strings/NethServer_Module_Proxy_BypassDst.php
+source_file = locale/en/server-manager/NethServer_Module_Proxy_BypassDst.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Proxy_BypassSrc]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Proxy_BypassSrc.php
-source_file = src/server-manager/strings/NethServer_Module_Proxy_BypassSrc.php
+source_file = locale/en/server-manager/NethServer_Module_Proxy_BypassSrc.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Proxy_Config]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Proxy_Config.php
-source_file = src/server-manager/strings/NethServer_Module_Proxy_Config.php
+source_file = locale/en/server-manager/NethServer_Module_Proxy_Config.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Proxy_Squid]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Proxy_Squid.php
-source_file = src/server-manager/strings/NethServer_Module_Proxy_Squid.php
+source_file = locale/en/server-manager/NethServer_Module_Proxy_Squid.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Pseudonym]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Pseudonym.php
-source_file = src/server-manager/strings/NethServer_Module_Pseudonym.php
+source_file = locale/en/server-manager/NethServer_Module_Pseudonym.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Register]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Register.php
-source_file = src/server-manager/strings/NethServer_Module_Register.php
+source_file = locale/en/server-manager/NethServer_Module_Register.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Report]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Report.php
-source_file = src/server-manager/strings/NethServer_Module_Report.php
+source_file = locale/en/server-manager/NethServer_Module_Report.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.SharedFolder]
 file_filter = locale/<lang>/server-manager/NethServer_Module_SharedFolder.php
-source_file = src/server-manager/strings/NethServer_Module_SharedFolder.php
+source_file = locale/en/server-manager/NethServer_Module_SharedFolder.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.SharedFolder_Plugin_Httpd]
 file_filter = locale/<lang>/server-manager/NethServer_Module_SharedFolder_Plugin_Httpd.php
-source_file = src/server-manager/strings/NethServer_Module_SharedFolder_Plugin_Httpd.php
+source_file = locale/en/server-manager/NethServer_Module_SharedFolder_Plugin_Httpd.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.SharedFolder_Plugin_Samba]
 file_filter = locale/<lang>/server-manager/NethServer_Module_SharedFolder_Plugin_Samba.php
-source_file = src/server-manager/strings/NethServer_Module_SharedFolder_Plugin_Samba.php
+source_file = locale/en/server-manager/NethServer_Module_SharedFolder_Plugin_Samba.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.SharedFolder_Plugin_SambaAudit]
 file_filter = locale/<lang>/server-manager/NethServer_Module_SharedFolder_Plugin_SambaAudit.php
-source_file = src/server-manager/strings/NethServer_Module_SharedFolder_Plugin_SambaAudit.php
+source_file = locale/en/server-manager/NethServer_Module_SharedFolder_Plugin_SambaAudit.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Shutdown]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Shutdown.php
-source_file = src/server-manager/strings/NethServer_Module_Shutdown.php
+source_file = locale/en/server-manager/NethServer_Module_Shutdown.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Snmp]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Snmp.php
-source_file = src/server-manager/strings/NethServer_Module_Snmp.php
+source_file = locale/en/server-manager/NethServer_Module_Snmp.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Ssh]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Ssh.php
-source_file = src/server-manager/strings/NethServer_Module_Ssh.php
+source_file = locale/en/server-manager/NethServer_Module_Ssh.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.StaticRoutes]
 file_filter = locale/<lang>/server-manager/NethServer_Module_StaticRoutes.php
-source_file = src/server-manager/strings/NethServer_Module_StaticRoutes.php
+source_file = locale/en/server-manager/NethServer_Module_StaticRoutes.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.TrafficShaping]
 file_filter = locale/<lang>/server-manager/NethServer_Module_TrafficShaping.php
-source_file = src/server-manager/strings/NethServer_Module_TrafficShaping.php
+source_file = locale/en/server-manager/NethServer_Module_TrafficShaping.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.TrafficShaping_Interfaces]
 file_filter = locale/<lang>/server-manager/NethServer_Module_TrafficShaping_Interfaces.php
-source_file = src/server-manager/strings/NethServer_Module_TrafficShaping_Interfaces.php
+source_file = locale/en/server-manager/NethServer_Module_TrafficShaping_Interfaces.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.TrafficShaping_Ip]
 file_filter = locale/<lang>/server-manager/NethServer_Module_TrafficShaping_Ip.php
-source_file = src/server-manager/strings/NethServer_Module_TrafficShaping_Ip.php
+source_file = locale/en/server-manager/NethServer_Module_TrafficShaping_Ip.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.TrafficShaping_Ports]
 file_filter = locale/<lang>/server-manager/NethServer_Module_TrafficShaping_Ports.php
-source_file = src/server-manager/strings/NethServer_Module_TrafficShaping_Ports.php
+source_file = locale/en/server-manager/NethServer_Module_TrafficShaping_Ports.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.User]
 file_filter = locale/<lang>/server-manager/NethServer_Module_User.php
-source_file = src/server-manager/strings/NethServer_Module_User.php
+source_file = locale/en/server-manager/NethServer_Module_User.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.User_Plugin_Mail]
 file_filter = locale/<lang>/server-manager/NethServer_Module_User_Plugin_Mail.php
-source_file = src/server-manager/strings/NethServer_Module_User_Plugin_Mail.php
+source_file = locale/en/server-manager/NethServer_Module_User_Plugin_Mail.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.User_Plugin_Samba]
 file_filter = locale/<lang>/server-manager/NethServer_Module_User_Plugin_Samba.php
-source_file = src/server-manager/strings/NethServer_Module_User_Plugin_Samba.php
+source_file = locale/en/server-manager/NethServer_Module_User_Plugin_Samba.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.User_Plugin_Ssh]
 file_filter = locale/<lang>/server-manager/NethServer_Module_User_Plugin_Ssh.php
-source_file = src/server-manager/strings/NethServer_Module_User_Plugin_Ssh.php
+source_file = locale/en/server-manager/NethServer_Module_User_Plugin_Ssh.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.UserProfile]
 file_filter = locale/<lang>/server-manager/NethServer_Module_UserProfile.php
-source_file = src/server-manager/strings/NethServer_Module_UserProfile.php
+source_file = locale/en/server-manager/NethServer_Module_UserProfile.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.VPN]
 file_filter = locale/<lang>/server-manager/NethServer_Module_VPN.php
-source_file = src/server-manager/strings/NethServer_Module_VPN.php
+source_file = locale/en/server-manager/NethServer_Module_VPN.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.VPN_Accounts]
 file_filter = locale/<lang>/server-manager/NethServer_Module_VPN_Accounts.php
-source_file = src/server-manager/strings/NethServer_Module_VPN_Accounts.php
+source_file = locale/en/server-manager/NethServer_Module_VPN_Accounts.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.VPN_Clients]
 file_filter = locale/<lang>/server-manager/NethServer_Module_VPN_Clients.php
-source_file = src/server-manager/strings/NethServer_Module_VPN_Clients.php
+source_file = locale/en/server-manager/NethServer_Module_VPN_Clients.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.VPN_Ipsec]
 file_filter = locale/<lang>/server-manager/NethServer_Module_VPN_Ipsec.php
-source_file = src/server-manager/strings/NethServer_Module_VPN_Ipsec.php
+source_file = locale/en/server-manager/NethServer_Module_VPN_Ipsec.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.VPN_OpenVPN]
 file_filter = locale/<lang>/server-manager/NethServer_Module_VPN_OpenVPN.php
-source_file = src/server-manager/strings/NethServer_Module_VPN_OpenVPN.php
+source_file = locale/en/server-manager/NethServer_Module_VPN_OpenVPN.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.WebVirtMgr]
 file_filter = locale/<lang>/server-manager/NethServer_Module_WebVirtMgr.php
-source_file = src/server-manager/strings/NethServer_Module_WebVirtMgr.php
+source_file = locale/en/server-manager/NethServer_Module_WebVirtMgr.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Welcome]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Welcome.php
-source_file = src/server-manager/strings/NethServer_Module_Welcome.php
+source_file = locale/en/server-manager/NethServer_Module_Welcome.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.Workgroup]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Workgroup.php
-source_file = src/server-manager/strings/NethServer_Module_Workgroup.php
+source_file = locale/en/server-manager/NethServer_Module_Workgroup.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
