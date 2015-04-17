@@ -38,7 +38,7 @@ type = PO
 
 [nethserver.Nethgui]
 file_filter = locale/<lang>/nethgui/Nethgui.php
-source_file = src/nethgui/strings/Nethgui.php
+source_file = locale/en/nethgui/Nethgui.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
@@ -51,12 +51,6 @@ type = PHP_ALT_ARRAY
 [nethserver.BackupConfig_Backup]
 file_filter = locale/<lang>/server-manager/NethServer_Module_BackupConfig_Backup.php
 source_file = locale/en/server-manager/NethServer_Module_BackupConfig_Backup.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
-[nethserver.BackupConfig_DownloadRemote]
-file_filter = locale/<lang>/server-manager/NethServer_Module_BackupConfig_DownloadRemote.php
-source_file = locale/en/server-manager/NethServer_Module_BackupConfig_DownloadRemote.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
@@ -162,12 +156,6 @@ source_file = locale/en/server-manager/NethServer_Module_Dashboard_Printers.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
-[nethserver.Dashboard_Report]
-file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_Report.php
-source_file = locale/en/server-manager/NethServer_Module_Dashboard_Report.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
 [nethserver.Dashboard_Services]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_Services.php
 source_file = locale/en/server-manager/NethServer_Module_Dashboard_Services.php
@@ -225,12 +213,6 @@ type = PHP_ALT_ARRAY
 [nethserver.Dashboard_SystemStatus_RaidStatus]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus_RaidStatus.php
 source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus_RaidStatus.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
-[nethserver.Dashboard_SystemStatus_Register]
-file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_SystemStatus_Register.php
-source_file = locale/en/server-manager/NethServer_Module_Dashboard_SystemStatus_Register.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
@@ -348,12 +330,6 @@ source_file = locale/en/server-manager/NethServer_Module_FirstConfigWiz.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
-[nethserver.FlashStart]
-file_filter = locale/<lang>/server-manager/NethServer_Module_FlashStart.php
-source_file = locale/en/server-manager/NethServer_Module_FlashStart.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
 [nethserver.FQDN]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FQDN.php
 source_file = locale/en/server-manager/NethServer_Module_FQDN.php
@@ -393,12 +369,6 @@ type = PHP_ALT_ARRAY
 [nethserver.Hosts]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Hosts.php
 source_file = locale/en/server-manager/NethServer_Module_Hosts.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
-[nethserver.Hotspot]
-file_filter = locale/<lang>/server-manager/NethServer_Module_Hotspot.php
-source_file = locale/en/server-manager/NethServer_Module_Hotspot.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
@@ -504,12 +474,6 @@ source_file = locale/en/server-manager/NethServer_Module_PackageManager.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
-[nethserver.Phonebook]
-file_filter = locale/<lang>/server-manager/NethServer_Module_Phonebook.php
-source_file = locale/en/server-manager/NethServer_Module_Phonebook.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
 [nethserver.Pki]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Pki.php
 source_file = locale/en/server-manager/NethServer_Module_Pki.php
@@ -573,18 +537,6 @@ type = PHP_ALT_ARRAY
 [nethserver.Pseudonym]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Pseudonym.php
 source_file = locale/en/server-manager/NethServer_Module_Pseudonym.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
-[nethserver.Register]
-file_filter = locale/<lang>/server-manager/NethServer_Module_Register.php
-source_file = locale/en/server-manager/NethServer_Module_Register.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
-[nethserver.Report]
-file_filter = locale/<lang>/server-manager/NethServer_Module_Report.php
-source_file = locale/en/server-manager/NethServer_Module_Report.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
