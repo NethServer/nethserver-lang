@@ -38,14 +38,14 @@ shopt -s nullglob
 
 for D in locale/*; do
    [ -d "${D}" ] || continue
-   lang=$(basename ${D})
-   if [[ "${lang}" == it || "${lang}" == en ]]; then
+   L=$(basename ${D})
+   lang=${L:0:2}
+   if [[ "$L" == it || "$L" == en ]]; then
       override="Override"
    else
       override=""
    fi
-   rm -f ${lang}.lang
-   echo "%doc COPYING" >> ${lang}.lang
+   grep -q COPYING ${lang}.lang || echo "%doc COPYING" >> ${lang}.lang
 
    LD=$D/LC_MESSAGES
    for F in $LD/*.mo; do
@@ -54,27 +54,27 @@ for D in locale/*; do
    done
 
    LD=$D/server-manager
-   echo "%dir /usr/share/nethesis/${override:-NethServer}/Language/${lang}" >> ${lang}.lang
-   install -d  %{buildroot}/usr/share/nethesis/${override:-NethServer}/Language/${lang}
+   echo "%dir /usr/share/nethesis/${override:-NethServer}/Language/$L" >> ${lang}.lang
+   install -d  %{buildroot}/usr/share/nethesis/${override:-NethServer}/Language/$L
    for F in $LD/*.php; do
-      install -m 0644 -D $F %{buildroot}/usr/share/nethesis/${override:-NethServer}/Language/${lang}/$(basename $F)
+      install -m 0644 -D $F %{buildroot}/usr/share/nethesis/${override:-NethServer}/Language/$L/$(basename $F)
       echo "/usr/share/nethesis/${override:-NethServer}/Language/${lang}/$(basename $F)" >> ${lang}.lang
    done
 
    LD=$D/help
-   echo "%dir /usr/share/nethesis/${override:-NethServer}/Help/${lang}" >> ${lang}.lang
-   install -d  %{buildroot}/usr/share/nethesis/${override:-NethServer}/Help/${lang}
+   echo "%dir /usr/share/nethesis/${override:-NethServer}/Help/$L" >> ${lang}.lang
+   install -d  %{buildroot}/usr/share/nethesis/${override:-NethServer}/Help/$L
    for F in $LD/*.html; do
-      install -m 0644 -D $F %{buildroot}/usr/share/nethesis/${override:-NethServer}/Help/${lang}/$(basename $F)
+      install -m 0644 -D $F %{buildroot}/usr/share/nethesis/${override:-NethServer}/Help/$L/$(basename $F)
       echo "/usr/share/nethesis/${override:-NethServer}/Help/${lang}/$(basename $F)" >> ${lang}.lang
    done
 
    LD=$D/nethgui
-   echo "%dir /usr/share/nethesis/${override:-Nethgui}/Language/${lang}" >> ${lang}.lang
-   install -d  %{buildroot}/usr/share/nethesis/${override:-Nethgui}/Language/${lang}
+   echo "%dir /usr/share/nethesis/${override:-Nethgui}/Language/$L" >> ${lang}.lang
+   install -d  %{buildroot}/usr/share/nethesis/${override:-Nethgui}/Language/$L
    for F in $LD/*.php; do
-       install -m 0644 -D $F %{buildroot}/usr/share/nethesis/${override:-Nethgui}/Language/${lang}/$(basename $F)
-       echo "/usr/share/nethesis/${override:-Nethgui}/Language/${lang}/$(basename $F)" >> ${lang}.lang
+       install -m 0644 -D $F %{buildroot}/usr/share/nethesis/${override:-Nethgui}/Language/$L/$(basename $F)
+       echo "/usr/share/nethesis/${override:-Nethgui}/Language/$L/$(basename $F)" >> ${lang}.lang
    done
 done
 
