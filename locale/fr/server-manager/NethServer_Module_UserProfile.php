@@ -3,9 +3,9 @@
 $L['BasicInfo_Title'] = 'Informations de base'; 
 $L['EmailAddress_label'] = 'Adresses email externe';
 $L['ExtraInfo_Title'] = 'Informations du contact'; 
-$L['FirstName_label'] = 'First name'; 
-$L['LastName_label'] = 'Last name';
-$L['UserProfile_Description'] = 'Change user settings';
+$L['FirstName_label'] = 'Prénom'; 
+$L['LastName_label'] = 'Nom de famille';
+$L['UserProfile_Description'] = 'Changer les paramètres de l\'utilisateur';
 $L['UserProfile_Header'] = '${0} user\'s profile';
 $L['UserProfile_Tags'] = 'user profile preferences city address email phone';
 $L['Company_label']  = 'Company';

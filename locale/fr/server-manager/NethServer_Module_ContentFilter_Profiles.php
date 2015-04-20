@@ -26,3 +26,7 @@ $L['key_exists_message'] = 'Un filtre, un profile ou une période existe déjà 
 $L['key_doesnt_exists_message'] = 'Cet objet n\'existe pas';
 $L['aduser_label'] = 'Utilisateur AD';
 $L['ADUsers_label'] = 'Utilisateurs AD';
+$L['cidr_label'] = 'CIDR subnet';
+$L['Cidrs_label'] = 'CIDR subnets';
+$L['iprange_label'] = 'IP range';
+$L['IpRanges_label'] = 'IP ranges';

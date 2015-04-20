@@ -3,19 +3,19 @@
 /* NethServer_Module_IaxModem translation, language: en */
 
 
-$L['Key_label'] = 'Name'; 
-$L['IaxModem_Description'] = 'Configure IAX modems'; 
-$L['IaxModem_Tags'] = 'iax iax2 modem modems'; 
-$L['IaxModem_Title'] = 'IAX modems'; 
-$L['cidName_label'] = 'Caller name'; 
-$L['cidNumber_label'] = 'Caller number'; 
-$L['extension_label'] = 'Extension'; 
-$L['name_label'] = 'Name'; 
-$L['server_label'] = 'Server IP'; 
-$L['mail_label'] = 'Mail'; 
-$L['mode_label'] = 'Mode'; 
-$L['mode_send_label'] = 'Send only'; 
-$L['mode_receive_label'] = 'Receive only'; 
-$L['mode_both_label'] = 'Send and receive'; 
-$L['Create a new IAX modem'] = 'Create a new IAX modem';
-$L['Update IAX modem'] = 'Update IAX modem';
+$L['Key_label'] = 'Название'; 
+$L['IaxModem_Description'] = 'Управление модемами IAX'; 
+$L['IaxModem_Tags'] = 'iax iax2 модем'; 
+$L['IaxModem_Title'] = 'Модемы IAX'; 
+$L['cidName_label'] = 'Имя вызывающего'; 
+$L['cidNumber_label'] = 'Номер вызывающего'; 
+$L['extension_label'] = 'Расширение'; 
+$L['name_label'] = 'Название'; 
+$L['server_label'] = 'IP сервера'; 
+$L['mail_label'] = 'Почта'; 
+$L['mode_label'] = 'Режим'; 
+$L['mode_send_label'] = 'Только отправка'; 
+$L['mode_receive_label'] = 'Только прием'; 
+$L['mode_both_label'] = 'Отправка и прием'; 
+$L['Create a new IAX modem'] = 'Создать новый модем IAX';
+$L['Update IAX modem'] = 'Обновить модем IAX';

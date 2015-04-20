@@ -26,3 +26,7 @@ $L['key_exists_message'] = 'Egy szűrő, profil vagy időpont már létezik ugya
 $L['key_doesnt_exists_message'] = 'Ez az objektum nem létezik';
 $L['aduser_label'] = 'AD felhasználó';
 $L['ADUsers_label'] = 'AD felhasználók';
+$L['cidr_label'] = 'CIDR alhálózat';
+$L['Cidrs_label'] = 'CIDR alhálózatok';
+$L['iprange_label'] = 'IP tartomány';
+$L['IpRanges_label'] = 'IP tartományok';

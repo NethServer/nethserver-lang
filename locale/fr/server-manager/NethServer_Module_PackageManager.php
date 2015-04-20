@@ -3,9 +3,9 @@
 $L['Add_label'] = 'Ajouter';
 $L['PackageManager_Description'] = 'Ajoute et supprime des modules logiciels du sysème';
 $L['PackageManager_Tags'] = 'rpm yum addons extras modules composants packages';
-$L['PackageManager_Title'] = 'Software center';
-$L['package_success'] = 'Operation completed successfully';
-$L['rpm_name'] = 'Name';
+$L['PackageManager_Title'] = 'Gestionnaire des logiciels';
+$L['package_success'] = 'L\'opération s\'est déroulée avec succés';
+$L['rpm_name'] = 'Nom';
 $L['rpm_version'] = 'Version';
 $L['rpm_release'] = 'Release';
 $L['Modules_header'] = 'Software center';

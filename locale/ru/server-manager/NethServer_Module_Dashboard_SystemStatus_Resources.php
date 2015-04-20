@@ -4,16 +4,16 @@
 
 $L['avail_label'] = 'Доступно';
 $L['cpu_num_label'] = 'Количество CPU';
-$L['days_label'] = 'd';
+$L['days_label'] = 'д';
 $L['general_title'] = 'Общая информация';
-$L['hours_label'] = 'h';
-$L['load_label'] = 'Load 1 / 5 / 15 minutes';
+$L['hours_label'] = 'ч';
+$L['load_label'] = 'Загрузка 1 / 5 / 15 минут';
 $L['mem_free_label'] = 'Свободная память';
 $L['memory_avail_label'] = 'Доступная память';
 $L['memory_title'] = 'Память';
 $L['mem_total_label'] = 'Всего памяти';
 $L['mem_used_label'] = 'Занятая память';
-$L['minutes_label'] = 'm';
+$L['minutes_label'] = 'м';
 $L['phys_memory_title'] = 'Физическая память';
 $L['Resources_Title'] = 'Ресурсы';
 $L['root_title'] = 'Корневой раздел';

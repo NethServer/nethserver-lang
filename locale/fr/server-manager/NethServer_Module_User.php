@@ -3,8 +3,8 @@
 $L['BasicInfo_Title'] = 'Utilisateur'; 
 $L['City_label'] = 'Ville'; 
 $L['Company_label'] = 'Société'; 
-$L['Contact informations'] = 'Contact informations'; 
-$L['Create a new user'] = 'Create a new user'; 
+$L['Contact informations'] = 'Informations du contact'; 
+$L['Create a new user'] = 'Créer un nouvel utilsiateur'; 
 $L['Department_label'] = 'Office';
 $L['ExtraInfo_Title'] = 'Details'; 
 $L['FirstName_label'] = 'First name'; 

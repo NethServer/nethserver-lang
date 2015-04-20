@@ -3,7 +3,7 @@
 $L['P3Scan_Description'] = 'Configurer le proxy POP3'; 
 $L['P3Scan_Tags'] = 'pop pop3 pop3s proxy'; 
 $L['P3Scan_Title'] = 'Proxy POP3';
-$L['P3Scan_header'] = 'POP3 proxy';
+$L['P3Scan_header'] = 'Proxy POP3';
 $L['VirusScan_label'] = 'Antivirus';
 $L['SpamScan_label'] = 'Antispam';
 $L['SSLScan_enabled_label'] = 'Enabled';

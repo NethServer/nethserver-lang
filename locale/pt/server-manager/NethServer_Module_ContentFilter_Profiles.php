@@ -1,0 +1,32 @@
+<?php
+
+$L['Profiles_Title'] = 'Perfis';
+$L['Key_label'] = 'Nome';
+$L['name_label'] = 'Nome';
+$L['Src_label'] = 'Quem';
+$L['Filter_label'] = 'O quê';
+$L['Description_label'] = 'Descrição';
+$L['Users_label'] = 'Utilizadores';
+$L['UserGroups_label'] = 'Grupos de utilizadores';
+$L['Hosts_label'] = 'Máquinas';
+$L['HostGroups_label'] = 'Grupos de máquinas';
+$L['Zones_label'] = 'Zonas';
+$L['Time_label'] = 'Quando';
+$L['always_label'] = 'Sempre';
+$L['any_label'] = 'Qualquer máquina';
+$L['host_label'] = 'Máquina';
+$L['host-group_label'] = 'Grupo de máquinas';
+$L['user_label'] = 'Utilizador';
+$L['group_label'] = 'Grupo de utilizadores';
+$L['filter_label'] = 'Filtro';
+$L['time_label'] = 'Hora';
+$L['zone_label'] = 'Zona';
+$L['role_label'] = 'Zona';
+$L['key_exists_message'] = 'Já existe um filtro, perfil ou hora com o mesmo nome';
+$L['key_doesnt_exists_message'] = 'Este objecto não existe';
+$L['aduser_label'] = 'Utilizador AD';
+$L['ADUsers_label'] = 'Utilizadores AD';
+$L['cidr_label'] = 'Sub-rede CIDR';
+$L['Cidrs_label'] = 'Sub-redes CIDR';
+$L['iprange_label'] = 'Gama IP';
+$L['IpRanges_label'] = 'Gamas IP';

@@ -1,11 +1,11 @@
 <?php 
 
 $L['Administration'] = 'Administration'; 
-$L['Category_Order'] = 'Status, Management, Administration, Security, Configuration, Gateway'; 
+$L['Category_Order'] = 'Statut, Gestion, Administration, Sécuité, Configuration, Passerelle'; 
 $L['Configuration'] = 'Configuration'; 
-$L['Management'] = 'Management'; 
-$L['Other modules'] = 'Other modules'; 
-$L['Security'] = 'Security';
+$L['Management'] = 'Gestion'; 
+$L['Other modules'] = 'Autres modules'; 
+$L['Security'] = 'Sécurité';
 $L['UserProfile_Title'] = 'User\'s profile';
 $L['ChangePassword_Header'] = 'Change password for user `${0}`';
 $L['ChangePassword_label'] = 'Change password';

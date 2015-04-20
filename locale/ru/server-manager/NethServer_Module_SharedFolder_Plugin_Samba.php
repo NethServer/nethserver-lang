@@ -3,7 +3,7 @@
 $L['Profiles_label'] = 'Share profile'; 
 $L['Samba_Title'] = 'Samba'; 
 $L['SmbRecycleBinStatus_label'] = 'Включить корзину для ресурса'; 
-$L['SmbRecycleBinVersionsStatus_label'] = 'Keep omonym files'; 
+$L['SmbRecycleBinVersionsStatus_label'] = 'Разрешить одинаковые имена файлов (омонимы)'; 
 $L['SmbShadowCopyStatus_label'] = 'Теневая копия'; 
 $L['SmbStatus_label'] = 'Включить Samba'; 
 $L['profileName_custom_label'] = 'Custom'; 

@@ -1,6 +1,6 @@
 <?php
 
-$L['Config_Title'] = 'Cache';
+$L['Config_Title'] = 'Кеш';
 $L['DiskCache_label'] = 'Хранение кеша на диске';
 $L['DiskCache_enabled_label'] = 'Разрешить хранение кеша на диске';
 $L['DiskCache_disabled_label'] = 'Отключить дисковый кеш';

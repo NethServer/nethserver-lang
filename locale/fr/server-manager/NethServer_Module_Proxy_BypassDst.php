@@ -3,9 +3,9 @@
 $L['BypassDst_Title'] = 'Sites sans proxy';
 $L['Key_label'] = 'Nom';
 $L['name_label'] = 'Nom';
-$L['status_label'] = 'Enabled';
+$L['status_label'] = 'Activé';
 $L['Host_label'] = 'Destination';
-$L['Hosts_label'] = 'Hosts';
+$L['Hosts_label'] = 'Hôtes';
 $L['HostGroups_label'] = 'Host groups';
 $L['host_label'] = 'Host';
 $L['host-group_label'] = 'Host group';

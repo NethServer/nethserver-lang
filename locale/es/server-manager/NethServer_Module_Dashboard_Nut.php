@@ -3,7 +3,7 @@
 $L['model_label'] = 'Modelo';
 $L['status_label'] = 'Estado';
 $L['temperature_label'] = 'Temperatura';
-$L['battery_chrg_label'] = 'Carga de la Bateria';
+$L['battery_chrg_label'] = 'Carga de la batería';
 $L['battery_volt_label'] = 'Voltaje de batería';
 $L['battery_runtime_label'] = 'Duración de la batería';
 $L['input_volt_label'] = 'Voltaje de entrada';

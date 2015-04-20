@@ -5,4 +5,4 @@
 $L['IPS_Title'] = 'IPS (Détection d\'intrusion)';
 $L['log_current'] = 'Actuel';
 $L['logs_label'] = 'Logs';
-$L['report_Header'] = 'IPS report';
+$L['report_Header'] = 'Rapport IPS';

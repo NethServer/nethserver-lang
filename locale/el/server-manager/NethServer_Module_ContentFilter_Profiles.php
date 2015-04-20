@@ -26,3 +26,7 @@ $L['key_exists_message'] = 'Ένα φίλτρο, προφίλ ή ώρα με τ�
 $L['key_doesnt_exists_message'] = 'Αυτό το αντικείμενο δεν υπάρχει';
 $L['aduser_label'] = 'Χρήστης AD';
 $L['ADUsers_label'] = 'Χρήστες AD';
+$L['cidr_label'] = 'CIDR subnet';
+$L['Cidrs_label'] = 'CIDR subnets';
+$L['iprange_label'] = 'IP range';
+$L['IpRanges_label'] = 'IP ranges';

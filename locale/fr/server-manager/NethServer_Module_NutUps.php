@@ -3,8 +3,8 @@
 $L['model_label'] = 'Modèle';
 $L['ups_status_label'] = 'Statut';
 $L['nut_title'] = 'UPS';
-$L['enabled_label'] = 'Enable';
-$L['disabled_label'] = 'Disable';
+$L['enabled_label'] = 'Activer';
+$L['disabled_label'] = 'Désactiver';
 $L['NutUps_Title'] = 'UPS';
 $L['NutUps_Description'] = 'Configure uninterruptible power supply (UPS) unit';
 $L['status_label'] = 'Enable NUT UPS';

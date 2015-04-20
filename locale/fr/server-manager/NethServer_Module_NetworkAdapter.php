@@ -5,9 +5,9 @@
 $L['bootproto_dhcp_label'] = 'DHCP';
 $L['bootproto_label'] = 'Affectation d\'IP';
 $L['bootproto_none_label'] = 'Statique';
-$L['blue_label'] = 'Guests (blue)';
-$L['device_label'] = 'Device';
-$L['gateway_label'] = 'Gateway';
+$L['blue_label'] = 'Invités (bleu)';
+$L['device_label'] = 'Périphérique';
+$L['gateway_label'] = 'Passerelle';
 $L['green_label'] = 'LAN (green)';
 $L['hwaddr_label'] = 'MAC address';
 $L['ipaddr_label'] = 'IP address';

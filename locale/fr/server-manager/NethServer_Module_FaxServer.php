@@ -5,8 +5,8 @@
 $L['AreaCode_label'] = 'Indicatif régional';
 $L['ClientShowReceived_label'] = 'Afficher les fax clients reçus';
 $L['CountryCode_label'] = 'Code Pays';
-$L['DispatchFileTypeList_label'] = 'Incoming fax format';
-$L['FaxDevice_label'] = 'Modem port';
+$L['DispatchFileTypeList_label'] = 'Format de fax entrant';
+$L['FaxDevice_label'] = 'Port modem';
 $L['FaxDeviceType_known_label'] = 'Standard device';
 $L['FaxDeviceType_custom_label'] = 'Custom device';
 $L['FaxDeviceCustom_label'] = '';

@@ -1,7 +1,7 @@
 <?php
 $L['Ssh_Title'] = 'SSH';
 $L['Ssh_Description'] = 'Управлением доступом к серверу SSH';
-$L['Ssh_Tags'] = 'sshd ssh rsh secure shell telnet remote';
+$L['Ssh_Tags'] = 'sshd ssh rsh secure shell telnet remote удаленный доступ шелл безопасный';
 $L['Ssh_header'] = 'Доступ к SSH';
 $L['Ssh_Action'] = 'Принимать SSH соединения на порту: ${port}';
 $L['port_label'] = 'Порт TCP';

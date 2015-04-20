@@ -5,9 +5,9 @@
 $L['AuthMode_certificate_label'] = 'Certificat';
 $L['AuthMode_label'] = 'Authentification';
 $L['AuthMode_password-certificate_label'] = 'Utilisateur, mot de passe et certificat';
-$L['AuthMode_password_label'] = 'User and password';
+$L['AuthMode_password_label'] = 'Utlisateur et mot de passe';
 $L['AuthMode_psk_label'] = 'Pre-shared key';
-$L['Mode_bridged_label'] = 'Bridged';
+$L['Mode_bridged_label'] = 'Bridgé';
 $L['create_header_label'] = 'Create new client';
 $L['Crt_label'] = 'Certificate content';
 $L['Key_label'] = 'Name';

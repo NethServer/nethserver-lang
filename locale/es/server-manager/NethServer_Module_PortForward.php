@@ -27,4 +27,4 @@ $L['tcp,udp_label'] = 'TCP,UDP';
 $L['OriDst_label'] = "WAN IP (interfaz roja)";
 $L['any_label'] = "Cualquiera";
 $L['PickDestination_label'] = ' Elija destino...';
-$L['HairpinNat_label'] = 'Horquilla NAT';
+$L['HairpinNat_label'] = 'Redirección NAT';

@@ -1,7 +1,7 @@
 <?php
 
 $L['LogViewer_Title'] = 'Просмотр журналов';
-$L['LogViewer_Tags'] = 'log file inspect show';
+$L['LogViewer_Tags'] = 'журнал проверить показать';
 $L['LogViewer_Description'] = 'Найти и показать содержимое файла журнала';
 $L['Find_Title'] = 'Найти в журнале';
 $L['Read_Title'] = 'Показать ${0}';

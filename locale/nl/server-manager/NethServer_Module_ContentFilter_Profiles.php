@@ -26,3 +26,7 @@ $L['key_exists_message'] = 'Een filter, profiel of tijd met dezelfde naam bestaa
 $L['key_doesnt_exists_message'] = 'Dit object bestaat niet';
 $L['aduser_label'] = 'AD gebruiker';
 $L['ADUsers_label'] = 'ad gebruikers';
+$L['cidr_label'] = 'CIDR subnet';
+$L['Cidrs_label'] = 'CIDR subnets';
+$L['iprange_label'] = 'IP range';
+$L['IpRanges_label'] = 'IP ranges';

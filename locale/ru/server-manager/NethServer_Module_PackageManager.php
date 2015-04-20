@@ -2,12 +2,12 @@
 
 $L['Add_label'] = 'Установить';
 $L['PackageManager_Description'] = 'Установка и удаление модулей из системы';
-$L['PackageManager_Tags'] = 'rpm yum addons extras modules components packages';
+$L['PackageManager_Tags'] = 'rpm yum extras modules packages дополнения модули компоненты пакеты';
 $L['PackageManager_Title'] = 'Центр Программ';
 $L['package_success'] = 'Операция успешно выполнена';
 $L['rpm_name'] = 'Название';
-$L['rpm_version'] = 'Version';
-$L['rpm_release'] = 'Release';
+$L['rpm_version'] = 'Версия';
+$L['rpm_release'] = 'Релиз';
 $L['Modules_header'] = 'Центр Программ';
 $L['Available_Title'] = 'Доступные';
 $L['Installed_Title'] = 'Установленные';

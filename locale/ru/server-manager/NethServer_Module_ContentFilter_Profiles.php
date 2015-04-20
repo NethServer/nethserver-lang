@@ -26,3 +26,7 @@ $L['key_exists_message'] = 'Фильтр, профиль или время с т
 $L['key_doesnt_exists_message'] = 'Этот объект не существует';
 $L['aduser_label'] = 'Пользователь AD';
 $L['ADUsers_label'] = 'Пользователи AD';
+$L['cidr_label'] = 'CIDR subnet';
+$L['Cidrs_label'] = 'CIDR subnets';
+$L['iprange_label'] = 'IP range';
+$L['IpRanges_label'] = 'IP ranges';

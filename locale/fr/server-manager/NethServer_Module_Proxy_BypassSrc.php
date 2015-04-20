@@ -2,8 +2,8 @@
 
 $L['BypassSrc_Title'] = 'Hôtes sans proxy';
 $L['Key_label'] = 'Nom';
-$L['name_label'] = 'Name';
-$L['status_label'] = 'Enabled';
+$L['name_label'] = 'Nom';
+$L['status_label'] = 'Activé';
 $L['Host_label'] = 'Source';
 $L['Hosts_label'] = 'Hosts';
 $L['HostGroups_label'] = 'Host groups';

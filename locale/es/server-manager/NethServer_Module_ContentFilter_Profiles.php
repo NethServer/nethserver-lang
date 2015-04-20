@@ -26,3 +26,7 @@ $L['key_exists_message'] = 'Un filtro, perfil o tiempo con el mismo nombre ya ex
 $L['key_doesnt_exists_message'] = 'No existe este objeto';
 $L['aduser_label'] = 'Usuario Directorio Activo';
 $L['ADUsers_label'] = 'Usuarios Directorio Activo';
+$L['cidr_label'] = 'CIDR subred';
+$L['Cidrs_label'] = 'CIDR subredes';
+$L['iprange_label'] = 'Rango de IP';
+$L['IpRanges_label'] = 'Rangos de IP';

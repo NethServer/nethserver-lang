@@ -3,9 +3,9 @@
 $L['Confirm deletion of'] = 'Confirmer la suppression de'; 
 $L['Create a new static route'] = 'Créer une nouvelle route statique'; 
 $L['Description_label'] = 'Description'; 
-$L['Key_label'] = 'Network'; 
-$L['StaticRoutes_Description'] = 'Configure static routes'; 
-$L['StaticRoutes_Tags'] = 'static routes route network router address mask'; 
+$L['Key_label'] = 'Réseau'; 
+$L['StaticRoutes_Description'] = 'Configurer les routes statiques'; 
+$L['StaticRoutes_Tags'] = 'routes statiques route réseau router adresse masque'; 
 $L['StaticRoutes_Title'] = 'Static routes'; 
 $L['Mask_label'] = 'Network mask'; 
 $L['Router_label'] = 'Router address'; 

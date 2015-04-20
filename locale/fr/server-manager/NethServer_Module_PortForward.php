@@ -5,9 +5,9 @@
 $L['Allow_label'] = 'Autoriser seulement depuis';
 $L['check-rules_Header'] = 'Vérifier les règles du pare-feu';
 $L['CheckRules_label'] = 'Vérifier le pare-feu';
-$L['create_header_label'] = 'Create port forward';
+$L['create_header_label'] = 'Créer un forward de port';
 $L['Description_label'] = 'Description';
-$L['disable_label'] = 'Disable';
+$L['disable_label'] = 'Désactiver';
 $L['DstHost_label'] = 'Destination host';
 $L['DstRaw_label'] = 'Destination host';
 $L['Dst_label'] = 'Destination port';

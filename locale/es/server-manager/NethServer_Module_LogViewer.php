@@ -1,7 +1,7 @@
 <?php
 
 $L['LogViewer_Title'] = 'Visor de eventos';
-$L['LogViewer_Tags'] = 'archivo de log inspeccionar mostrar';
+$L['LogViewer_Tags'] = 'archivo de registro inspeccionar mostrar';
 $L['LogViewer_Description'] = 'Buscar y mostrar el contenido del archivo de registro';
 $L['Find_Title'] = ' Buscar en los archivos de registro';
 $L['Read_Title'] = 'Mostrar ${0}';

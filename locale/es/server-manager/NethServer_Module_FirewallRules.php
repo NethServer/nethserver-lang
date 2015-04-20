@@ -14,12 +14,16 @@ $L['Policy_label'] = 'Trafico hacia internet (adaptador de red rojo)';
 $L['strict_label'] = 'Bloqueado';
 $L['enabled_label'] = 'Habilitado';
 $L['disabled_label'] = 'Deshabilitado';
+$L['MACValidation_label'] = ' Validación MAC (IP/MAC vinculante)';
+$L['MACValidationPolicy_label'] = 'Política para los hosts sin IP/MAC de enlace (reserva DHCP)';
+$L['drop_label'] = 'Bloquear tráfico';
+$L['accept_label'] = 'Permitir tráfico';
 
 $L['Edit_header'] = 'Editar regla #${0}';
 $L['status_label'] = 'Habilitado';
 $L['Action_label'] = 'Accion';
 $L['ActionReject_label'] = 'Rechazar';
-$L['ActionAccept_label'] = 'Acceptar';
+$L['ActionAccept_label'] = 'Aceptar';
 $L['ActionDrop_label'] = 'Descartar';
 $L['Source_label'] = 'Origen';
 $L['Destination_label'] = 'Destino';
@@ -29,18 +33,20 @@ $L['PickDestination_label'] = 'Elija uno...';
 $L['PickService_label'] = 'Elija uno....';
 $L['LogType_label'] = 'Escribir el log si esta regla se cumple';
 
-$L['PickObject_SrcRaw_header'] = 'Elija el origen del paquete para la regla "${Ruleid}"';
+$L['PickObject_SrcRaw_header'] = 'Elija el origen del paquete para la regla "${RuleId}"';
 $L['PickObject_DstRaw_header'] = 'Elija el destino del paquete para la regla "${RuleId}"';
 $L['PickObject_ServiceRaw_header'] = 'Elija el protcolo del servicio para la regla "${RuleId}"';
 
 $L['Create_last_label'] = 'Crear regla al final';
 $L['Create_first_label'] = 'Crear regla al comienzo';
 $L['Create_header'] = 'Crear nueva regla de Firewall';
+$L['Copy_header'] = 'Crear una copia de #${0}';
 $L['Commit_label'] = 'Aplicar cambios';
 $L['Edit_label'] = 'Editar';
+$L['Copy_label'] = 'Copiar';
 $L['Delete_label'] = 'Eliminar';
 $L['Index_header'] = 'Reglas de Firewall';
-$L['RuleText_label'] = 'De ${Src} a ${Dest}, servicio ${Service}';
+$L['RuleText_label'] = 'De ${Src} a ${Dst}, servicio ${Service}';
 $L['RuleId_label'] = '#${0}';
 $L['SearchPlaceholder_label'] = 'Buscar....';
 

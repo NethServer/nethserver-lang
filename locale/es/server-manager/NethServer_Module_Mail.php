@@ -2,7 +2,7 @@
 
 $L['${0} day'] = '${0} día'; 
 $L['${0} days'] = '${0} días';
-$L['AlwaysBccStatus_label'] = 'Siempre envia una copia (Bcc)';
+$L['AlwaysBccStatus_label'] = 'Siempre envía una copia (CCO)';
 $L['AlwaysBccAddress_label'] = 'Siempre enviar una copia (Bcc)';
 $L['Create a new domain'] = 'Crear un nuevo Dominio';
 $L['Delete_label'] = 'Eliminar';

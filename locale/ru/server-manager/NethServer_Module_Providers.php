@@ -3,21 +3,21 @@
 /* NethServer_Module_Providers translation, language: en */
 
 $L['backup_label'] = 'Active backup';
-$L['balance_label'] = 'Balance';
-$L['checkip_label'] = 'Check IP';
-$L['Configure_header'] = 'Configure';
-$L['interface_label'] = 'Interface';
-$L['Key_label'] = 'Provider';
-$L['name_label'] = 'Name';
-$L['provider_create_header'] = 'Create new provider';
-$L['Providers_Description'] = 'Manage multi wan connections';
-$L['Providers_Tags'] = 'Provider multiwan wan red';
-$L['Providers_Title'] = 'Multi WAN';
-$L['ProviderAdvanced_label'] = 'Advanced';
-$L['provider_update_header'] = 'Update new provider';
-$L['WanMode_header'] = 'Multi WAN mode';
-$L['WanMode_label'] = 'Mode';
-$L['weight_label'] = 'Weight';
-$L['Configure_header'] = 'Configure';
-$L['valid_no_red_interface'] = 'no red interfaces are available';
+$L['balance_label'] = 'Балансировка';
+$L['checkip_label'] = 'Проверка IP';
+$L['Configure_header'] = 'Настроить';
+$L['interface_label'] = 'Интерфейс';
+$L['Key_label'] = 'Поставщик';
+$L['name_label'] = 'Название';
+$L['provider_create_header'] = 'Создать нового поставщика';
+$L['Providers_Description'] = 'Управление несколькими поставщиками интернет';
+$L['Providers_Tags'] = 'Поставщик внешний красный multiwan';
+$L['Providers_Title'] = 'Мульти-WAN';
+$L['ProviderAdvanced_label'] = 'Расширенные';
+$L['provider_update_header'] = 'Обновить поставщика';
+$L['WanMode_header'] = 'Режим Мульти-Wan';
+$L['WanMode_label'] = 'Режим';
+$L['weight_label'] = 'Вес';
+$L['Configure_header'] = 'Настроить';
+$L['valid_no_red_interface'] = 'нет доступных красных интерфейсов';
 

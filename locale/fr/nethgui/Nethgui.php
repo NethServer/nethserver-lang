@@ -3,8 +3,8 @@
 $L['Actions_label'] = 'Actions'; 
 $L['Add'] = 'Ajouter'; 
 $L['All changes have been saved'] = 'Tous les changements ont été enregistrés'; 
-$L['An object with the same key already exists'] = 'An object with the same key already exists'; 
-$L['Apply_label'] = 'Apply'; 
+$L['An object with the same key already exists'] = 'Un objet avec la même clé existe déjà'; 
+$L['Apply_label'] = 'Appliquer'; 
 $L['Cancel_label'] = 'Back';
 $L['Configure_label'] = 'Configure'; 
 $L['Confirm deletion of `${0}`?'] = 'Confirm deletion of `${0}`'; 
@@ -99,3 +99,4 @@ $L['Tracker_task_error_message'] = 'Task completed with errors';
 $L['Tracker_title_taskRunning'] = 'Task is running';
 $L['Tracker_title_taskStarting'] = 'Task is starting...';
 $L['Tracker_code_label'] = 'exit status';
+

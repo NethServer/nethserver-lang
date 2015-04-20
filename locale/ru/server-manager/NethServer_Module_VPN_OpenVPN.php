@@ -1,8 +1,8 @@
 <?php
 
-$L['ServerStatus_label'] = 'Enable roadwarrior server';
+$L['ServerStatus_label'] = 'Включить сервер мобильных сотрудников (roadwarrior)';
 $L['OpenVPN_Description'] = 'Настройка OpenVPN';
-$L['OpenVPN_Tags'] = 'vpn virtual private network openvpn roadwarrior';
+$L['OpenVPN_Tags'] = 'vpn openvpn roadwarrior виртуальная частная сеть';
 $L['OpenVPN_Title'] = 'OpenVPN';
 $L['AuthMode_label'] = 'Режим авторизации';
 $L['password_mode_label'] = 'Имя пользователя и пароль';

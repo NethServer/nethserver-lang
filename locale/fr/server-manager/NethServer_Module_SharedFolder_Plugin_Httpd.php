@@ -3,8 +3,8 @@
 $L['Httpd_Title'] = 'Accès Web';
 $L['Status_label'] = 'Activer l\'accès web';
 $L['CgiBin_label'] = 'Executer des scripts (CGI, PHP, SSI)';
-$L['PasswordStatus_label'] = 'Protect by password';
-$L['PasswordValue_label'] = 'Password'; 
+$L['PasswordStatus_label'] = 'Protégé par mot de passe';
+$L['PasswordValue_label'] = 'Mot de passe'; 
 $L['Access_label'] = 'Allow access from trusted networks only';
 $L['VirtualHost_label'] = 'Virtual host';
 $L['ANY_VHOST'] = 'Any';

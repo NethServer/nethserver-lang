@@ -141,6 +141,14 @@ BuildArch: noarch
 %description ru
 NethServer Russian language support (ru)
 
+%package pt
+Summary: Portuguese support
+BuildArch: noarch
+%files pt -f pt.lang
+%description pt
+NethServer Portuguese language support (pt)
+
+
 %changelog
 * Thu Apr 16 2015 Davide Principi <davide.principi@nethesis.it> - 0.0.1-1
 - Initial version

@@ -4,8 +4,8 @@
 
 $L['bridged_label'] = 'Режим моста';
 $L['create_header_label'] = 'Создать новую учетную запись';
-$L['Key_label'] = 'Name';
-$L['name_label'] = 'Name';
+$L['Key_label'] = 'Название';
+$L['name_label'] = 'Название';
 $L['VPNRemoteNetmask_label'] = 'Маска сети';
 $L['VPNRemoteNetwork_label'] = 'Адрес сети';
 $L['RemoteNetwork_label'] = 'Удаленая сеть';

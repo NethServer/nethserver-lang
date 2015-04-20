@@ -3,8 +3,8 @@
 $L['AdsController_label'] = 'Contrôleur';
 $L['AdsRealm_label'] = 'Realm';
 $L['login_label'] = 'Nom d\'utilisateur';
-$L['RoamingProfiles_label'] = 'Enable roaming profiles'; 
-$L['ServerRole_ADS_label'] = 'Active Directory Member';
+$L['RoamingProfiles_label'] = 'Activer le roaming de profils'; 
+$L['ServerRole_ADS_label'] = 'Membre de l\'AD';
 $L['ServerRole_PDC_label'] = 'Primary Domain Controller';
 $L['ServerRole_WS_label'] = 'Workstation';
 $L['AdsDomain_label'] = 'Domain';

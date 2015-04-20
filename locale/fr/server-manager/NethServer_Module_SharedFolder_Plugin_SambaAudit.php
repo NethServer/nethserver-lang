@@ -4,5 +4,5 @@
 
 $L['SmbAuditStatus_label'] = 'Activer l\'audit sur les dossiers partagés';
 $L['SambaAudit_Title'] = 'Audit Samba';
-$L['enabled_label'] = 'Enable';
-$L['disabled_label'] = 'Disable';
+$L['enabled_label'] = 'Activer';
+$L['disabled_label'] = 'Désactiver';

@@ -1,6 +1,6 @@
 <?php 
 
-$L['${0} day'] = '${0} day'; 
+$L['${0} day'] = '${0} день'; 
 $L['${0} days'] = '${0} дней';
 $L['AlwaysBccStatus_label'] = 'Всегда отправлять копию (Bcc)';
 $L['AlwaysBccAddress_label'] = 'Всегда отправлять копию (Bcc)';

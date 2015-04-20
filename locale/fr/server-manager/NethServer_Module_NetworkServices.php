@@ -3,9 +3,9 @@
 $L['Key_label'] = 'Service';
 $L['access_label'] = 'Accès';
 $L['ports_label'] = 'Ports';
-$L['NetworkServices_Title'] = 'Network services';
-$L['NetworkServices_Tags'] = 'Network services service firewall local';
-$L['NetworkServices_Description'] = 'Manage local network services';
+$L['NetworkServices_Title'] = 'Services réseau';
+$L['NetworkServices_Tags'] = 'Réseau services service pare-feu';
+$L['NetworkServices_Description'] = 'Gérer les services du réseau local';
 $L['TCPPorts_label'] = 'TCP';
 $L['UDPPorts_label'] = 'UDP';
 $L['Update_Service_Header'] = 'Edit service `${0}`';

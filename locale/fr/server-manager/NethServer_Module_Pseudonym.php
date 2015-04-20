@@ -3,9 +3,9 @@
 $L['Access_label'] = 'Réseau local seulement'; 
 $L['Account_label'] = 'Compte'; 
 $L['Create a new pseudonym'] = 'Créer un nouveau pseudonyme'; 
-$L['Current_label'] = 'Current selection'; 
+$L['Current_label'] = 'Sélection en cours'; 
 $L['Description_label'] = 'Description'; 
-$L['Edit pseudonym `${0}`'] = 'Edit pseudonym `${0}`'; 
+$L['Edit pseudonym `${0}`'] = 'Editer le pseudonyme `${0}`'; 
 $L['Flag_label'] = 'Attributes'; 
 $L['Groups_label'] = 'Groups'; 
 $L['Key_label'] = 'Email'; 
