@@ -27,9 +27,6 @@ NethServer localization project
 shopt -s nullglob
 
 for LD in locale/*/LC_MESSAGES; do
-   for F in $LD/*.pot; do
-     msgfmt -v $F -o ${F%%.pot}.mo
-   done
    for F in $LD/*.po; do
      msgfmt -v $F -o ${F%%.po}.mo
    done
