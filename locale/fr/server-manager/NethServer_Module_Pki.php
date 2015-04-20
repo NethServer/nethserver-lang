@@ -6,10 +6,10 @@ $L['Pki_Tags'] = 'SSL certificat PKI TLS X509';
 $L['Pki_Show_header'] = 'Certificat du serveur';
 $L['Pki_Generate_header'] = 'Générer un nouveau certificat';
 $L['GenerateLink_label'] = 'Nouveau certificat';
-$L['Generate_label'] = 'Generate certificate';
+$L['Generate_label'] = 'Générer le certificat';
 
-$L['C_label'] = 'Country code';
-$L['ST_label'] = 'State';
+$L['C_label'] = 'Code Pays';
+$L['ST_label'] = 'Statut';
 $L['L_label'] = 'Locality';
 $L['O_label'] = 'Organization';
 $L['OU_label'] = 'Organizational unit';

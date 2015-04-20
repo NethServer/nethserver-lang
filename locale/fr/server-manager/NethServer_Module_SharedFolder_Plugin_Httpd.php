@@ -5,9 +5,9 @@ $L['Status_label'] = 'Activer l\'accès web';
 $L['CgiBin_label'] = 'Executer des scripts (CGI, PHP, SSI)';
 $L['PasswordStatus_label'] = 'Protégé par mot de passe';
 $L['PasswordValue_label'] = 'Mot de passe'; 
-$L['Access_label'] = 'Allow access from trusted networks only';
-$L['VirtualHost_label'] = 'Virtual host';
-$L['ANY_VHOST'] = 'Any';
+$L['Access_label'] = 'Autoriser l\'accès uniquement pour les réseaux de confiance';
+$L['VirtualHost_label'] = 'Hôte virtuel';
+$L['ANY_VHOST'] = 'Tout';
 
 $L['Alias_label'] = 'Web address (URL)';
 $L['AliasType_default_label'] = 'Folder name';

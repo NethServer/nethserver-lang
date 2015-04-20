@@ -1,15 +1,15 @@
 <?php 
 
-$L['Disk space'] = 'Disk space'; 
-$L['Hold for ${0}'] = 'Hold for ${0}'; 
+$L['Disk space'] = 'Размер почтового ящика'; 
+$L['Hold for ${0}'] = 'Удалять спам из этой папки через ${0}'; 
 $L['ImapStatus_label'] = 'IMAP'; 
-$L['Mailbox access protocols'] = 'Mailbox access protocols'; 
-$L['Mailbox_Title'] = 'Mailboxes'; 
+$L['Mailbox access protocols'] = 'Параметры почтового ящика'; 
+$L['Mailbox_Title'] = 'Почтовый ящик'; 
 $L['PopStatus_label'] = 'POP3'; 
-$L['Quota default size ${0}'] = 'Default value size ${0}'; 
-$L['QuotaStatus_disabled_label'] = 'Unlimited'; 
-$L['QuotaStatus_enabled_label'] = 'Apply quota'; 
-$L['Spam messages handling'] = 'Spam messages handling'; 
-$L['SpamFolder_label'] = 'Move to "junkmail" folder"'; 
-$L['TlsSecurity_label'] = 'Allow unencrypted connections'; 
-$L['ever'] = 'ever'; 
+$L['Quota default size ${0}'] = 'Размер по умолчанию ${0}'; 
+$L['QuotaStatus_disabled_label'] = 'Неограниченно'; 
+$L['QuotaStatus_enabled_label'] = 'Ограничить до'; 
+$L['Spam messages handling'] = 'Обработка Спам-сообщений'; 
+$L['SpamFolder_label'] = 'Переместить в папку "Спам"'; 
+$L['TlsSecurity_label'] = 'Разрешить нешифрованные соединения'; 
+$L['ever'] = 'всегда'; 

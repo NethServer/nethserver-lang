@@ -8,5 +8,5 @@ $L['no_raid'] = 'Aucun RAID logiciel configuré';
 $L['ok'] = 'OK';
 $L['level'] = 'Niveau';
 $L['critical'] = 'CRITIQUE';
-$L['failed_devs'] = 'Failed';
-$L['spare_devs'] = 'Spare';
+$L['failed_devs'] = 'En échec';
+$L['spare_devs'] = 'de secours (spare)';

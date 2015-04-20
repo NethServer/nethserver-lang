@@ -8,5 +8,5 @@ $L['Restore_Title'] = 'Восстановить';
 $L['RLC_header'] = 'Восстановить копию настроек';
 $L['SameHardware_0_label'] = 'Другое оборудование (перенастроить сеть)';
 $L['SameHardware_1_label'] = 'Тоже оборудование (восстановить сетевые настройки)';
-$L['SameHardware_label'] = 'Restore on:';
+$L['SameHardware_label'] = 'Восстановить:';
 $L['size_label'] = 'Размер';

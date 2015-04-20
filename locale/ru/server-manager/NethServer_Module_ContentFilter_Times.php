@@ -1,6 +1,6 @@
 <?php
 
-$L['Times_Title'] = 'Times';
+$L['Times_Title'] = 'Время';
 $L['Key_label'] = 'Название';
 $L['name_label'] = 'Название';
 $L['Days_label'] = 'Дни недели';
