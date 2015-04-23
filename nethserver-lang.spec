@@ -1,7 +1,7 @@
 %define _unpackaged_files_terminate_build 0
 
 Name: nethserver-lang
-Version: 0.0.1
+Version: 1.0.0
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -155,6 +155,9 @@ NethServer Portuguese language support (pt)
 
 
 %changelog
+* Thu Apr 23 2015 Davide Principi <davide.principi@nethesis.it> - 1.0.0-1
+- Language packs support - Feature #3115 [NethServer]
+
 * Thu Apr 16 2015 Davide Principi <davide.principi@nethesis.it> - 0.0.1-1
 - Initial version
 
