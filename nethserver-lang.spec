@@ -40,7 +40,7 @@ for D in locale/*; do
    [ -d "${D}" ] || continue
    L=$(basename ${D})
    lang=${L:0:2}
-   if [[ "$L" == it || "$L" == en ]]; then
+   if [[ "$L" == it ]]; then
       override="Override"
    else
       override=""
@@ -52,6 +52,11 @@ for D in locale/*; do
      install -m 0644 -D $F %{buildroot}/%{_datadir}/$F
      echo "%{_datadir}/$F" >> ${lang}.lang
    done
+
+   # skip "en" catalogs for Server Manager
+   if [[ "$L" == en ]]; then
+      continue
+   fi
 
    LD=$D/server-manager
    echo "%dir /usr/share/nethesis/${override:-NethServer}/Language/$L" >> ${lang}.lang
