@@ -1,18 +1,18 @@
 <?php
 
-$L['Httpd_Title'] = 'Web access';
-$L['Status_label'] = 'Enable web access';
-$L['CgiBin_label'] = 'Execute scripts (CGI, PHP, SSI)';
-$L['PasswordStatus_label'] = 'Protect by password';
-$L['PasswordValue_label'] = 'Password'; 
-$L['Access_label'] = 'Allow access from trusted networks only';
-$L['VirtualHost_label'] = 'Virtual host';
-$L['ANY_VHOST'] = 'Any';
+$L['Httpd_Title'] = 'Acesso web';
+$L['Status_label'] = 'Activar acesso web';
+$L['CgiBin_label'] = 'Executar scripts (CGI, PHP, SSI)';
+$L['PasswordStatus_label'] = 'Protegido por palavra-passe';
+$L['PasswordValue_label'] = 'Palavra-passe'; 
+$L['Access_label'] = 'Permitir o acesso somente de redes de confiança';
+$L['VirtualHost_label'] = 'Máquina virtual';
+$L['ANY_VHOST'] = 'Qualquer';
 
-$L['Alias_label'] = 'Web address (URL)';
-$L['AliasType_default_label'] = 'Folder name';
-$L['AliasType_root_label'] = 'Web site root';
-$L['AliasType_custom_label'] = 'Custom';
-$L['generated-url_url'] = 'Generated URLs:';
-$L['ForceSsl_label'] = 'Require SSL encrypted connection';
-$L['AllowOverride_label'] = 'Allow .htaccess and write permissions overrides';
+$L['Alias_label'] = 'Endereço web (URL)';
+$L['AliasType_default_label'] = 'Nome de pasta';
+$L['AliasType_root_label'] = 'Raiz do sitio web';
+$L['AliasType_custom_label'] = 'Personalizado';
+$L['generated-url_url'] = 'URLs geradas:';
+$L['ForceSsl_label'] = 'Exige ligação cifrada SSL';
+$L['AllowOverride_label'] = 'Permite a substituição de permissões .htaccess e escrita';

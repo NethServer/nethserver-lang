@@ -1,11 +1,11 @@
 <?php 
 
-$L['status_label'] = 'Enable ntopng'; 
-$L['ntopng_title'] = 'Bandwidth monitor: ntopng';
-$L['username_label'] = 'Username'; 
-$L['Password_label'] = 'Password'; 
-$L['TCPPort_label'] = 'Web interface port'; 
-$L['Ntopng_Tags'] = 'ntop bandwidth monitor usage'; 
-$L['Ntopng_Title'] = 'Bandwidth monitor';
-$L['Authentication_enabled_label'] = 'Enable authentication';
-$L['Authentication_disabled_label'] = 'Disable authentication';
+$L['status_label'] = 'Activar ntopng'; 
+$L['ntopng_title'] = 'Monitor de largura de banda: ntopng';
+$L['username_label'] = 'Utilizador'; 
+$L['Password_label'] = 'Palavra-passe'; 
+$L['TCPPort_label'] = 'Porto do interface Web'; 
+$L['Ntopng_Tags'] = 'Monitorização do uso de largura de banda ntop'; 
+$L['Ntopng_Title'] = 'Monitor de largura de banda';
+$L['Authentication_enabled_label'] = 'Activar autenticação';
+$L['Authentication_disabled_label'] = 'Desactivar autenticação';

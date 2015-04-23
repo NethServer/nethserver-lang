@@ -2,13 +2,14 @@
 # This file is put in the public domain.
 # 
 # Translators:
+# Vasco, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
 "POT-Creation-Date: 2015-02-11 18:22+0100\n"
-"PO-Revision-Date: 2015-04-03 13:56+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-04-22 17:27+0000\n"
+"Last-Translator: Vasco\n"
 "Language-Team: Portuguese (http://www.transifex.com/projects/p/nethserver/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,8 +19,8 @@ msgstr ""
 
 #: root/etc/nethserver/todos.d/20samba_admin:44
 msgid "Change admin's password"
-msgstr ""
+msgstr "Alterar palavra-passe de adminsitração"
 
 #: root/etc/nethserver/todos.d/20samba_admin:44
 msgid "Required to enable admin's Samba account"
-msgstr ""
+msgstr "Necessário para activar a conta Samba"

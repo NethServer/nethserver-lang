@@ -9,5 +9,5 @@ $L['StaticRoutes_Tags'] = 'routes statiques route réseau router adresse masque'
 $L['StaticRoutes_Title'] = 'Routes statiques'; 
 $L['Mask_label'] = 'Masque de sous-réseau'; 
 $L['Router_label'] = 'Adresse du routeur'; 
-$L['Update static ${0}`'] = 'Update static route `${0}`'; 
-$L['network_label'] = 'Network address'; 
+$L['Update static ${0}`'] = 'Mettre à jour la route statique `${0}`'; 
+$L['network_label'] = 'Adresse réseau'; 

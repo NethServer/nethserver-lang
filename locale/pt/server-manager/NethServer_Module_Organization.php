@@ -1,10 +1,10 @@
 <?php
 
-$L['City_label'] = 'City';
-$L['Company_label'] = 'Company';
-$L['Department_label'] = 'Department';
-$L['Organization_Title'] = 'Organization contacts';
-$L['Organization_Description'] = 'Change organization contacts';
-$L['Organization_Tags'] = 'City Company Department Address Phone';
-$L['PhoneNumber_label'] = 'Phone number';
-$L['Street_label'] = 'Address';
+$L['City_label'] = 'Cidade';
+$L['Company_label'] = 'Empresa';
+$L['Department_label'] = 'Departamento';
+$L['Organization_Title'] = 'Contactos da empresa';
+$L['Organization_Description'] = 'Alterar contactos da empresa';
+$L['Organization_Tags'] = 'Cidade Empresa Departamento Endereço Telefone';
+$L['PhoneNumber_label'] = 'Número de telefone';
+$L['Street_label'] = 'Endereço';

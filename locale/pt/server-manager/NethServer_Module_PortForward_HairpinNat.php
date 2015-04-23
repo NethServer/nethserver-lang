@@ -1,6 +1,6 @@
 <?php 
 
-$L['HairpinNat_label'] = 'Hairpin NAT';
-$L['HairpinNat_enabled_label'] = 'Enabled';
-$L['HairpinNat_disabled_label'] = 'Disabled';
-$L['hairpin_header'] = 'Configure hairpin NAT';
+$L['HairpinNat_label'] = 'Gancho NAT';
+$L['HairpinNat_enabled_label'] = 'Activo';
+$L['HairpinNat_disabled_label'] = 'Desactivado';
+$L['hairpin_header'] = 'Configurar gancho NAT';

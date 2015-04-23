@@ -14,7 +14,7 @@ $L['Hostname_Action'] = 'Установить имя машины: ${SystemName}
 
 $L['Hostname_Description'] = 'Изменить полное доменное имя машины (FQDN)';
 $L['Review_Title'] = 'Просмотреть изменения';
-$L['Review_Description'] = 'Apply changes to secure the server configuration';
+$L['Review_Description'] = 'Применить изменения для защиты конфигурацию сервера';
 $L['Changes_label'] = 'Принять следующие изменения:';
 
 $L['redirect_message'] = 'Продолжить на странице настройки сетевых интерфейсов после применения изменений.';

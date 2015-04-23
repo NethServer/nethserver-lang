@@ -2,13 +2,14 @@
 # This file is put in the public domain.
 # 
 # Translators:
+# Vasco, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
 "POT-Creation-Date: 2015-03-11 16:20+0100\n"
-"PO-Revision-Date: 2015-04-03 13:58+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-04-22 17:21+0000\n"
+"Last-Translator: Vasco\n"
 "Language-Team: Portuguese (http://www.transifex.com/projects/p/nethserver/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,8 +19,8 @@ msgstr ""
 
 #: root/etc/nethserver/todo.d/80backup-data:41
 msgid "Enable backup"
-msgstr ""
+msgstr "Activar backup"
 
 #: root/etc/nethserver/todo.d/80backup-data:44
 msgid "Proceed with configuration of data backup"
-msgstr ""
+msgstr "Proceder com a configuração do backup de dados"

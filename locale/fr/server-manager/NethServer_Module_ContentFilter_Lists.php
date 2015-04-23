@@ -10,4 +10,4 @@ $L['CustomListURL_label'] = 'URL personnalisée';
 $L['Download_label'] = 'Téléchargement';
 $L['Download_header'] = 'Téléchargement';
 $L['Download_message'] = 'L\'execution peut durer un certain temps. Procéder au téléchargement ?';
-$L['save_and_download_label'] = 'Save and Download';
+$L['save_and_download_label'] = 'Sauver et Télécharger';

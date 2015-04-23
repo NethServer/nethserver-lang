@@ -10,5 +10,5 @@ $L['IPS_Tags'] = 'IPS ips snort Snort';
 $L['IPS_Title'] = 'IPS';
 $L['Policy_label'] = 'Règles';
 $L['security_label'] = 'Sécurité';
-$L['status_label'] = 'Status';
+$L['status_label'] = 'Statut';
 $L['expert_label'] = 'Expert';

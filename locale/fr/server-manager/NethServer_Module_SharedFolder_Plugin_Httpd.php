@@ -9,10 +9,10 @@ $L['Access_label'] = 'Autoriser l\'accès uniquement pour les réseaux de confia
 $L['VirtualHost_label'] = 'Hôte virtuel';
 $L['ANY_VHOST'] = 'Tout';
 
-$L['Alias_label'] = 'Web address (URL)';
-$L['AliasType_default_label'] = 'Folder name';
+$L['Alias_label'] = 'Adresse Web (URL)';
+$L['AliasType_default_label'] = 'Nom de dossier';
 $L['AliasType_root_label'] = 'Web site root';
 $L['AliasType_custom_label'] = 'Personalisé';
-$L['generated-url_url'] = 'Generated URLs:';
-$L['ForceSsl_label'] = 'Require SSL encrypted connection';
-$L['AllowOverride_label'] = 'Allow .htaccess and write permissions overrides';
+$L['generated-url_url'] = 'URL générées:';
+$L['ForceSsl_label'] = 'Nécessite une connexion SSL cryptée';
+$L['AllowOverride_label'] = 'Autoriser les remplacements des droits en écriture et des .htaccess';

@@ -15,9 +15,9 @@ $L['strict_label'] = 'Bloqué';
 $L['enabled_label'] = 'Activé';
 $L['disabled_label'] = 'Désactivé';
 $L['MACValidation_label'] = 'MAC validation (IP/MAC binding)';
-$L['MACValidationPolicy_label'] = 'Policy for hosts without IP/MAC binding (DHCP reservation)';
-$L['drop_label'] = 'Block traffic';
-$L['accept_label'] = 'Allow trafic';
+$L['MACValidationPolicy_label'] = 'Politique pour les hôtes sans IP/MAC fixée (réservation DHCP)';
+$L['drop_label'] = 'Bloquer le trafic';
+$L['accept_label'] = 'Autoriser le trafic';
 
 $L['Edit_header'] = 'Editer règle #${0}';
 $L['status_label'] = 'Activé';
@@ -39,7 +39,7 @@ $L['PickObject_ServiceRaw_header'] = 'Choisir le procole du service pour la règ
 
 $L['Create_last_label'] = 'Créer une règle en dernière position';
 $L['Create_first_label'] = 'Créer une règle en première position';
-$L['Create_header'] = 'Créer une nouvelle règle du pare-feu';
+$L['Create_header'] = 'Create firewall rule';
 $L['Copy_header'] = 'Create a copy of #${0}';
 $L['Commit_label'] = 'Appliquer les changements';
 $L['Edit_label'] = 'Editer';
@@ -52,10 +52,12 @@ $L['SearchPlaceholder_label'] = 'Chercher...';
 
 $L['Delete_header'] = 'Supprimer la règle #${0}';
 $L['Delete_message'] = 'Confirmer la suppression de la règle #${id}';
-$L['HostGroups_create'] = 'Créer un nouveau groupe d\'hôtes "${0}"';
-$L['Hosts_create'] = 'Créer un nouvel hôte "${0}"';
-$L['Zones_create'] = 'Créer une nouvelle zone "${0}"';
-$L['Services_create'] = 'Créer un nouveau service "${0}"';
+$L['HostGroups_create'] = 'Create host group "${0}"';
+$L['Hosts_create'] = 'Create host "${0}"';
+$L['Zones_create'] = 'Create zone"${0}"';
+$L['Services_create'] = 'Create service "${0}"';
+$L['IpRange_create'] = 'Create IP range "${0}"';
+$L['Cidr_create'] = 'Create CIDR network "${0}"';
 
 $L['A_new_rule_label'] = "Nouvelle règle";
 $L['Any_label'] = 'Tout';
@@ -66,6 +68,8 @@ $L['any_src_dst_label'] = 'Tous les hôtes';
 $L['all_label'] = 'tout';
 $L['host_label'] = 'hôte';
 $L['zone_label'] = 'zone';
+$L['iprange_label'] = 'IP range';
+$L['cidr_label'] = 'CIDR network';
 $L['host-group_label'] = 'groupe';
 $L['role_label'] = 'interface';
 $L['confirm_reload_label'] = 'Aucun changement n\'a été appliqué.';
@@ -78,5 +82,7 @@ $L['FirewallObject_role_Title'] = 'Rôle ${key}';
 $L['FirewallObject_zone_Title'] = 'Zone ${key}';
 $L['FirewallObject_host-group_Title'] = 'Groupe d\'hôtes ${key}';
 $L['FirewallObject_fwservice_Title'] = 'Service ${key}';
+$L['FirewallObject_iprange_Title'] = 'IP range ${key}';
+$L['FirewallObject_cidr_Title'] = 'CIDR network ${key}';
 
 $L['Show_x_outof_y_label'] = 'Présentation de ${partial} resultats en dehors de ${total}';

@@ -1,5 +1,5 @@
 <?php
 
-$L['FTP_Description'] = 'Configure FTP server';
-$L['FTP_Tags'] = 'FTP virtual ftp server';
+$L['FTP_Description'] = 'Configurar servidor FTP';
+$L['FTP_Tags'] = 'Servidor virtual FTP';
 $L['FTP_Title'] = 'FTP';

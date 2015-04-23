@@ -10,11 +10,11 @@ $L['RootPassword_Title'] = 'Paramétrer le mot de passe root';
 $L['RootPassword_Description'] = 'Choisir un mot de passe sécurisé pour le compte root';
 $L['RootPassword_Action'] = 'Changer le mot de passe root';
 $L['Hostname_Title'] = 'Définir le nom d\'hôte';
-$L['Hostname_Action'] = 'Set host name to: ${SystemName}.${DomainName}';
+$L['Hostname_Action'] = 'Définir le nom d\'hôte avec: ${SystemName}.${DomainName}';
 
-$L['Hostname_Description'] = 'Change the host fully qualified domain name (FQDN)';
+$L['Hostname_Description'] = 'Changer le FQDN (nom d\'hôte pleinement qualifié)';
 $L['Review_Title'] = 'Review changes';
 $L['Review_Description'] = 'Apply changes to secure the server configuration';
-$L['Changes_label'] = 'Apply the following changes:';
+$L['Changes_label'] = 'Appliquer les changements suivants:';
 
-$L['redirect_message'] = 'Proceed with network interfaces configuration page, after changes have been applied.';
+$L['redirect_message'] = 'Poursuivre sur la page de configuration des interfaces réseau, après la prise en compte des changements.';

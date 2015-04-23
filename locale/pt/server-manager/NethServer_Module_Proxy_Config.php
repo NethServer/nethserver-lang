@@ -1,10 +1,10 @@
 <?php
 
 $L['Config_Title'] = 'Cache';
-$L['DiskCache_label'] = 'Disk caching';
-$L['DiskCache_enabled_label'] = 'Enable disk cache';
-$L['DiskCache_disabled_label'] = 'Disable disk cache';
-$L['DiskCacheSize_label'] = 'Disk cache size (in MB)';
-$L['MinObjSize_label'] = 'Min object size (in kB)';
-$L['MaxObjSize_label'] = 'Max object size (in kB)';
-$L['ClearCache_label'] = 'Empty cache';
+$L['DiskCache_label'] = 'Cache de disco';
+$L['DiskCache_enabled_label'] = 'Activar cache de disco';
+$L['DiskCache_disabled_label'] = 'Desactivar cache de disco';
+$L['DiskCacheSize_label'] = 'Tamanho da cache de disco(em MB)';
+$L['MinObjSize_label'] = 'Tamanho mínimo de objecto (em kB)';
+$L['MaxObjSize_label'] = 'Tamanho máximo de objecto (em kB)';
+$L['ClearCache_label'] = 'Esvaziar cache';

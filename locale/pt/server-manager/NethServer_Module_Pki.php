@@ -1,21 +1,21 @@
 <?php
 
-$L['Pki_Title'] = 'Server certificate';
-$L['Pki_Description'] = 'Manage SSL server certificate';
-$L['Pki_Tags'] = 'SSL certificate PKI TLS X509';
-$L['Pki_Show_header'] = 'Server certificate';
-$L['Pki_Generate_header'] = 'Generate a new certificate';
-$L['GenerateLink_label'] = 'New certificate';
-$L['Generate_label'] = 'Generate certificate';
+$L['Pki_Title'] = 'Certificado do servidor';
+$L['Pki_Description'] = 'Gerir certificados de servidor SSL';
+$L['Pki_Tags'] = 'Certificado SSL PKI TLS X509';
+$L['Pki_Show_header'] = 'Servidor de certificados';
+$L['Pki_Generate_header'] = 'Gerar um certificado novo';
+$L['GenerateLink_label'] = 'Novo certificado';
+$L['Generate_label'] = 'Gerar certificado';
 
-$L['C_label'] = 'Country code';
-$L['ST_label'] = 'State';
-$L['L_label'] = 'Locality';
-$L['O_label'] = 'Organization';
-$L['OU_label'] = 'Organizational unit';
-$L['CN_label'] = 'Common name';
-$L['EmailAddress_label'] = 'Email address';
-$L['SubjectAltName_label'] = 'Alternative names';
-$L['CertificateDuration_label'] = 'Certificate validity (days)';
-$L['valid_hostname_instance'] = '"${0}" is an invalid host name';
-$L['valid_x509_field'] = 'Must not contain "," and "/"';
+$L['C_label'] = 'Código de país';
+$L['ST_label'] = 'Estado';
+$L['L_label'] = 'Localidade';
+$L['O_label'] = 'Empresa';
+$L['OU_label'] = 'Unidade';
+$L['CN_label'] = 'Nome comum';
+$L['EmailAddress_label'] = 'Endereço de correio electrónico';
+$L['SubjectAltName_label'] = 'Nomes alternativos';
+$L['CertificateDuration_label'] = 'Validade do certificado (dias)';
+$L['valid_hostname_instance'] = '"${0}" é um nome de máquina invalido';
+$L['valid_x509_field'] = 'Não pode conter "," e "/"';

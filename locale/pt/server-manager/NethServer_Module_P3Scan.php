@@ -1,20 +1,20 @@
 <?php
 
-$L['P3Scan_Description'] = 'Configure POP3 proxy'; 
+$L['P3Scan_Description'] = 'Configurar proxy POP3'; 
 $L['P3Scan_Tags'] = 'pop pop3 pop3s proxy'; 
 $L['P3Scan_Title'] = 'POP3 proxy';
 $L['P3Scan_header'] = 'POP3 proxy';
-$L['VirusScan_label'] = 'Antivirus';
-$L['SpamScan_label'] = 'Antispam';
-$L['SSLScan_enabled_label'] = 'Enabled';
-$L['SSLScan_disabled_label'] = 'Disabled';
-$L['Template_label'] = 'Mail template language';
-$L['lang_en_label'] = 'English';
-$L['lang_it_label'] = 'Italian';
-$L['lang_fr_label'] = 'French';
-$L['lang_ge_label'] = 'Deutsch';
-$L['lang_pl_label'] = 'Polish';
-$L['lang_ru_label'] = 'Russian';
-$L['lang_sp_label'] = 'Spanish';
-$L['ssl_label'] = 'POP3s scan (port 995)';
-$L['checks_label'] = 'Enabled checks';
+$L['VirusScan_label'] = 'Anti-vírus';
+$L['SpamScan_label'] = 'Anti-spam';
+$L['SSLScan_enabled_label'] = 'Activo';
+$L['SSLScan_disabled_label'] = 'Desactivado';
+$L['Template_label'] = 'Linguagem do exemplo de correio electrónico';
+$L['lang_en_label'] = 'Inglês';
+$L['lang_it_label'] = 'Italiano';
+$L['lang_fr_label'] = 'Francês';
+$L['lang_ge_label'] = 'Alemão';
+$L['lang_pl_label'] = 'Polaco';
+$L['lang_ru_label'] = 'Russo';
+$L['lang_sp_label'] = 'Espanhol';
+$L['ssl_label'] = 'Verificação POP3s (porto 995)';
+$L['checks_label'] = 'Verificações activas';

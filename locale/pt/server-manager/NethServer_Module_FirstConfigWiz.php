@@ -1,20 +1,20 @@
 <?php
 
-$L['Cover_Title'] = 'Welcome';
-$L['Next_label'] = 'Next';
-$L['Back_label'] = 'Back';
-$L['Skip_label'] = 'Skip';
-$L['Save_label'] = 'Save';
+$L['Cover_Title'] = 'Bem vindo';
+$L['Next_label'] = 'Seguinte';
+$L['Back_label'] = 'Anterior';
+$L['Skip_label'] = 'Saltar';
+$L['Save_label'] = 'Gravar';
 $L['Welcome_body'] = 'Welcome to  ${ProductName} ${Version} ${Release}.'."\nThis wizard will help you setup some system options. At the end, you will be redirected to the network configuration page.\n\nTo continue, click Next.";
-$L['RootPassword_Title'] = 'Set root\'s password';
-$L['RootPassword_Description'] = 'Choose a secure password for the root user';
-$L['RootPassword_Action'] = 'Change root user\'s password';
-$L['Hostname_Title'] = 'Set host name';
-$L['Hostname_Action'] = 'Set host name to: ${SystemName}.${DomainName}';
+$L['RootPassword_Title'] = 'Definir palavra-passe "root"';
+$L['RootPassword_Description'] = 'Escolha uma palavra-passe segura para o utilizador "root"';
+$L['RootPassword_Action'] = 'Alterar a palavra-passe de "root"';
+$L['Hostname_Title'] = 'Definir o nome da máquina';
+$L['Hostname_Action'] = 'Definir nome da máquina para: ${SystemName}.${DomainName}';
 
-$L['Hostname_Description'] = 'Change the host fully qualified domain name (FQDN)';
-$L['Review_Title'] = 'Review changes';
-$L['Review_Description'] = 'Apply changes to secure the server configuration';
-$L['Changes_label'] = 'Apply the following changes:';
+$L['Hostname_Description'] = 'Alterar o nome qualificado da máquina (FQDN)';
+$L['Review_Title'] = 'Verifique as alterações';
+$L['Review_Description'] = 'Aplicar as alterações para guardar a configuração do servidor';
+$L['Changes_label'] = 'Aplicar as seguintes alterações:';
 
-$L['redirect_message'] = 'Proceed with network interfaces configuration page, after changes have been applied.';
+$L['redirect_message'] = 'Ficar na página de configuração dos interfaces depois das alterações terem sido aplicadas';

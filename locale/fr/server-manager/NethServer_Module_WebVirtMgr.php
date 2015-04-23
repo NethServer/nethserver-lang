@@ -10,8 +10,8 @@ $L['WebvirtStatus_disabled_label'] = 'Désactivé';
 
 $L['Novnc_label'] = 'Console web';
 $L['NovncStatus_enabled_label'] = 'Activer';
-$L['NovncStatus_disabled_label'] = 'Disable';
+$L['NovncStatus_disabled_label'] = 'Désactiver';
 
-$L['Auth_label'] = 'Credentials';
-$L['User_label'] = 'Username';
+$L['Auth_label'] = 'Certiticats';
+$L['User_label'] = 'Nom d\'utilisateur';
 $L['Password_label'] = 'Password';

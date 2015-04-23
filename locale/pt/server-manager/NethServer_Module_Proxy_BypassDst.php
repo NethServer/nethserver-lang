@@ -1,13 +1,13 @@
 <?php
 
-$L['BypassDst_Title'] = 'Sites without proxy';
-$L['Key_label'] = 'Name';
-$L['name_label'] = 'Name';
-$L['status_label'] = 'Enabled';
-$L['Host_label'] = 'Destination';
-$L['Hosts_label'] = 'Hosts';
-$L['HostGroups_label'] = 'Host groups';
-$L['host_label'] = 'Host';
-$L['host-group_label'] = 'Host group';
-$L['key_exists_message'] = 'A bypass with the same name already exists';
-$L['key_doesnt_exists_message'] = 'No host found with this name';
+$L['BypassDst_Title'] = 'Sítios sem proxy';
+$L['Key_label'] = 'Nome';
+$L['name_label'] = 'Nome';
+$L['status_label'] = 'Activo';
+$L['Host_label'] = 'Destino';
+$L['Hosts_label'] = 'Máquinas';
+$L['HostGroups_label'] = 'Grupos de máquinas';
+$L['host_label'] = 'Máquina';
+$L['host-group_label'] = 'Grupo de máquinas';
+$L['key_exists_message'] = 'Já existe um bypass com o mesmo nome';
+$L['key_doesnt_exists_message'] = 'Não foi encontrada uma máquina com este nome';

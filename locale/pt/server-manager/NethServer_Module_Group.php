@@ -1,16 +1,16 @@
 <?php 
 
-$L['Create a new group'] = 'Create a new group'; 
-$L['Description_label'] = 'Description'; 
-$L['GroupTab_Title'] = 'Group'; 
-$L['Group_Description'] = 'Manage system groups'; 
-$L['Group_Tags'] = 'groups group member mail'; 
-$L['Group_Title'] = 'Groups'; 
-$L['Key_label'] = 'Group name'; 
-$L['Members'] = 'Members'; 
-$L['Members_label'] = 'Members'; 
-$L['PlugService_Title'] = 'Services'; 
-$L['Update group `${0}`'] = 'Update group `${0}`'; 
-$L['groupname_label'] = 'Group name'; 
-$L['valid_platform,group-create,group-length,1'] = 'Name is too long: ${reason}';
-$L['valid_platform,group-create,uniq-account,3'] = 'Group name `${1}` has been already registered';
+$L['Create a new group'] = 'Criar um grupo novo'; 
+$L['Description_label'] = 'Descrição'; 
+$L['GroupTab_Title'] = 'Grupo'; 
+$L['Group_Description'] = 'Gerir grupos de sistema'; 
+$L['Group_Tags'] = 'grupos grupo membro correioelectrónico'; 
+$L['Group_Title'] = 'Grupos'; 
+$L['Key_label'] = 'Nome do grupo'; 
+$L['Members'] = 'Membros'; 
+$L['Members_label'] = 'Membros'; 
+$L['PlugService_Title'] = 'Serviços'; 
+$L['Update group `${0}`'] = 'Actualizar grupo `${0}`'; 
+$L['groupname_label'] = 'Nome do grupo'; 
+$L['valid_platform,group-create,group-length,1'] = 'O nome é demasiado grande: ${reason}';
+$L['valid_platform,group-create,uniq-account,3'] = 'O nome de grupo `${1}` já está registado';

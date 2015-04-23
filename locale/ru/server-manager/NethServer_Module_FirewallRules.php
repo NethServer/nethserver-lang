@@ -3,7 +3,7 @@
 /* NethServer_Module_FirewallRules translation, language: en */
 
 $L['FirewallRules_Description'] = 'Управление правилами экрана';
-$L['FirewallRules_Tags'] = 'firewall rule policy';
+$L['FirewallRules_Tags'] = 'Политики правил межсетевого экрана';
 $L['FirewallRules_Title'] = 'Правила межсетевого экрана';
 
 $L['general_header'] = 'Общие';
@@ -39,7 +39,7 @@ $L['PickObject_ServiceRaw_header'] = 'Выберите протокол служ
 
 $L['Create_last_label'] = 'Создать правило в конце списка';
 $L['Create_first_label'] = 'Создать правило в начале списка';
-$L['Create_header'] = 'Создать новое правило экрана';
+$L['Create_header'] = 'Создать правило';
 $L['Copy_header'] = 'Создать копию #${0}';
 $L['Commit_label'] = 'Принять изменения';
 $L['Edit_label'] = 'Изменить';
@@ -52,10 +52,12 @@ $L['SearchPlaceholder_label'] = 'Поиск...';
 
 $L['Delete_header'] = 'Удалить правило #${0}';
 $L['Delete_message'] = 'Подтвердить удаление правила #${id}';
-$L['HostGroups_create'] = 'Создать новую группу хостов "${0}"';
-$L['Hosts_create'] = 'Создать новый хост "${0}"';
-$L['Zones_create'] = 'Создать новую зону "${0}"';
-$L['Services_create'] = 'Создать новую службу "${0}"';
+$L['HostGroups_create'] = 'Создать группу хостов  "${0}"';
+$L['Hosts_create'] = 'Создать хост "${0}"';
+$L['Zones_create'] = 'Создать зону "${0}"';
+$L['Services_create'] = 'Создать службу "${0}"';
+$L['IpRange_create'] = 'Создать IP диапазон "${0}"';
+$L['Cidr_create'] = 'Создать CIDR сеть "${0}"';
 
 $L['A_new_rule_label'] = "Новое правило";
 $L['Any_label'] = 'Любой';
@@ -66,6 +68,8 @@ $L['any_src_dst_label'] = 'любой хост';
 $L['all_label'] = 'любой';
 $L['host_label'] = 'хост';
 $L['zone_label'] = 'зона';
+$L['iprange_label'] = 'IP диапазон';
+$L['cidr_label'] = 'CIDR сеть';
 $L['host-group_label'] = 'группа';
 $L['role_label'] = 'интерфейс';
 $L['confirm_reload_label'] = 'Нет примененных изменений.';
@@ -78,5 +82,7 @@ $L['FirewallObject_role_Title'] = 'Роль ${key}';
 $L['FirewallObject_zone_Title'] = 'Зона ${key}';
 $L['FirewallObject_host-group_Title'] = 'Группа хоста ${key}';
 $L['FirewallObject_fwservice_Title'] = 'Служба ${key}';
+$L['FirewallObject_iprange_Title'] = 'IP диапазон  ${key}';
+$L['FirewallObject_cidr_Title'] = 'CIDR сеть ${key}';
 
 $L['Show_x_outof_y_label'] = 'Показана ${partial} часть результатов из ${total}';

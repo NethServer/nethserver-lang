@@ -2,7 +2,7 @@
 
 /* NethServer_Module_Providers translation, language: en */
 
-$L['backup_label'] = 'Active backup';
+$L['backup_label'] = 'Резервное копирование';
 $L['balance_label'] = 'Балансировка';
 $L['checkip_label'] = 'Проверка IP';
 $L['Configure_header'] = 'Настроить';

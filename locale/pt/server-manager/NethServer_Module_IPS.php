@@ -2,13 +2,13 @@
 
 /* NethServer_Module_IPS translation, language: en */
 
-$L['balanced_label'] = 'Balanced';
-$L['connectivity_label'] = 'Connectivity';
-$L['IPS_Description'] = 'IPS management (Snort)';
-$L['IPS_header'] = 'IPS management';
+$L['balanced_label'] = 'Equilibrado';
+$L['connectivity_label'] = 'Ligação';
+$L['IPS_Description'] = 'Gestão IPS (snort)';
+$L['IPS_header'] = 'Gestão IPS';
 $L['IPS_Tags'] = 'IPS ips snort Snort';
 $L['IPS_Title'] = 'IPS';
-$L['Policy_label'] = 'Rule policy';
-$L['security_label'] = 'Security';
-$L['status_label'] = 'Status';
-$L['expert_label'] = 'Expert';
+$L['Policy_label'] = 'Politica de regras';
+$L['security_label'] = 'Segurança';
+$L['status_label'] = 'Estado';
+$L['expert_label'] = 'Especialista';

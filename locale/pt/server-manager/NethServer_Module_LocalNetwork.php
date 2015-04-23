@@ -1,14 +1,14 @@
 <?php 
 
-$L['Confirm deletion of'] = 'Confirm deletion of'; 
-$L['Create a new network'] = 'Create a new network'; 
-$L['Description_label'] = 'Description'; 
-$L['Key_label'] = 'Network'; 
-$L['LocalNetwork_Description'] = 'Configure trusted networks'; 
-$L['LocalNetwork_Tags'] = 'local trust trusted  network networks address mask'; 
-$L['LocalNetwork_Title'] = 'Trusted networks'; 
-$L['Mask_label'] = 'Network mask'; 
-$L['Router_label'] = 'Router address'; 
-$L['SystemLocalNetwork_label'] = 'System network'; 
-$L['Update network `${0}`'] = 'Update network `${0}`'; 
-$L['network_label'] = 'Network address'; 
+$L['Confirm deletion of'] = 'Confirmar eliminação de'; 
+$L['Create a new network'] = 'Criar uma rede nova'; 
+$L['Description_label'] = 'Descrição'; 
+$L['Key_label'] = 'Rede'; 
+$L['LocalNetwork_Description'] = 'Configurar redes de confiança'; 
+$L['LocalNetwork_Tags'] = 'local confiar confiável rede redes endereço máscara'; 
+$L['LocalNetwork_Title'] = 'Redes de confiança'; 
+$L['Mask_label'] = 'Máscara de rede'; 
+$L['Router_label'] = 'Endereço do roteador'; 
+$L['SystemLocalNetwork_label'] = 'Rede de sistema'; 
+$L['Update network `${0}`'] = 'Actualizar rede `${0}`'; 
+$L['network_label'] = 'Endereço de rede'; 

@@ -5,7 +5,7 @@
 $L['bootproto_label'] = 'Tipo';
 $L['dns_label'] = 'DNS';
 $L['domain_label'] = 'Domínio';
-$L['gateway_label'] = 'Gateway';
+$L['gateway_label'] = 'Porta de saída';
 $L['hostname_label'] = 'Nome da máquina';
 $L['hwaddr_label'] = 'MAC';
 $L['interfaces_title'] = 'Interfaces';

@@ -1,10 +1,10 @@
 <?php
 
-$L['Key_label'] = 'User';
-$L['Password_label'] = 'Password';
-$L['status_label'] = 'Status';
-$L['Chroot_label'] = 'Chroot user on home directory ( /var/lib/nethserver/ftp/<user> )';
-$L['ChrootDir_label'] = 'Custom chroot directory (eg. /var/lib/nethserver/ibay/<name> )';
-$L['Update_User_Header'] = 'Edit user';
-$L['Create_User_Header'] = 'Create user';
-$L['Users_Title'] = 'Users';
+$L['Key_label'] = 'Utilizador';
+$L['Password_label'] = 'Palavra-passe';
+$L['status_label'] = 'Estado';
+$L['Chroot_label'] = 'Chroot utilizador ao seu directório raíz';
+$L['ChrootDir_label'] = 'Diractório chroot personalizado (ex. /var/lib/nethserver/ibay/<name> )';
+$L['Update_User_Header'] = 'Editar utilizador';
+$L['Create_User_Header'] = 'Criar utilizador';
+$L['Users_Title'] = 'Utilizadores';

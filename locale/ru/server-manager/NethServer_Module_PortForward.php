@@ -26,5 +26,5 @@ $L['udp_label'] = 'UDP';
 $L['tcp,udp_label'] = 'TCP,UDP';
 $L['OriDst_label'] = "WAN IP (красный интерфейс)";
 $L['any_label'] = "Любой";
-$L['PickDestination_label'] = 'Pick destination...';
+$L['PickDestination_label'] = 'Выберите место назначения ...';
 $L['HairpinNat_label'] = 'Hairpin NAT';

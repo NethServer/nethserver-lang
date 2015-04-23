@@ -1,3 +1,3 @@
 <?php
 
-$L['check-rules_Header'] = 'Check firewall rules';
+$L['check-rules_Header'] = 'Verificar as regras da firewall';

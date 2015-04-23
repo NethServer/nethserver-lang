@@ -14,7 +14,7 @@ $L['UDPPorts_label'] = 'UDP';
 $L['amavisd_Description'] = 'Monitor de spam e vírus de correio electrónico';
 $L['asterisk_Description'] = 'Central telefónica VoIP';
 $L['avahi-daemon_Description'] = 'Zeroconf';
-$L['chilli_Description'] = 'Hotspot';
+$L['chilli_Description'] = 'Ponto de acesso';
 $L['c-icap_Description'] = 'Servidor ICAP';
 $L['clamd_Description'] = 'Anti-vírus ClamAV';
 $L['collectd_Description'] = 'Monitor de estatísticas de performance do sistema';
@@ -51,7 +51,7 @@ $L['sogod_Description'] = 'Colaboração';
 $L['squid_Description'] = 'Web proxy';
 $L['sshd_Description'] = 'Shell segura';
 $L['ups_Description'] = 'Monitor UPS - NUT';
-$L['winbind_Description'] = 'Name Service Switch';
+$L['winbind_Description'] = 'Interruptor do nome de serviço';
 $L['xl2tpd_Description'] = 'Protocolo Layer 2 Tunneling';
 $L['yum-cron_Description'] = 'Actualizações automáticas';
 

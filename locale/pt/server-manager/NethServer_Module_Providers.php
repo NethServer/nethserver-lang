@@ -2,22 +2,22 @@
 
 /* NethServer_Module_Providers translation, language: en */
 
-$L['backup_label'] = 'Active backup';
-$L['balance_label'] = 'Balance';
-$L['checkip_label'] = 'Check IP';
-$L['Configure_header'] = 'Configure';
+$L['backup_label'] = 'Backup activo';
+$L['balance_label'] = 'Equilíbrio';
+$L['checkip_label'] = 'Verificar IP';
+$L['Configure_header'] = 'Configurar';
 $L['interface_label'] = 'Interface';
-$L['Key_label'] = 'Provider';
-$L['name_label'] = 'Name';
-$L['provider_create_header'] = 'Create new provider';
-$L['Providers_Description'] = 'Manage multi wan connections';
-$L['Providers_Tags'] = 'Provider multiwan wan red';
-$L['Providers_Title'] = 'Multi WAN';
-$L['ProviderAdvanced_label'] = 'Advanced';
-$L['provider_update_header'] = 'Update new provider';
-$L['WanMode_header'] = 'Multi WAN mode';
-$L['WanMode_label'] = 'Mode';
-$L['weight_label'] = 'Weight';
-$L['Configure_header'] = 'Configure';
-$L['valid_no_red_interface'] = 'no red interfaces are available';
+$L['Key_label'] = 'Fornecedor';
+$L['name_label'] = 'Nome';
+$L['provider_create_header'] = 'Novo perfil';
+$L['Providers_Description'] = 'Gerir ligações várias-wan';
+$L['Providers_Tags'] = 'Fornecedor váriaswan wan vermelho';
+$L['Providers_Title'] = 'Várias WAN';
+$L['ProviderAdvanced_label'] = 'Avançado';
+$L['provider_update_header'] = 'Actualizar novo fornecedor';
+$L['WanMode_header'] = 'Modo várias WAN';
+$L['WanMode_label'] = 'Modo';
+$L['weight_label'] = 'Peso';
+$L['Configure_header'] = 'Configurar';
+$L['valid_no_red_interface'] = 'Não estão disponíveis interfaces vermelhos';
 

@@ -39,7 +39,7 @@ $L['PickObject_ServiceRaw_header'] = 'Elija el protcolo del servicio para la reg
 
 $L['Create_last_label'] = 'Crear regla al final';
 $L['Create_first_label'] = 'Crear regla al comienzo';
-$L['Create_header'] = 'Crear nueva regla de Firewall';
+$L['Create_header'] = 'Crear regla del firewall';
 $L['Copy_header'] = 'Crear una copia de #${0}';
 $L['Commit_label'] = 'Aplicar cambios';
 $L['Edit_label'] = 'Editar';
@@ -52,10 +52,12 @@ $L['SearchPlaceholder_label'] = 'Buscar....';
 
 $L['Delete_header'] = 'Eliminar regla #${0}';
 $L['Delete_message'] = 'Confirmar eliminacion de regla de firewall #${id}';
-$L['HostGroups_create'] = 'Crear nuevo grupo de host  "${0}"';
-$L['Hosts_create'] = 'Crear nuevo host "${0}"';
-$L['Zones_create'] = 'Crear nueva zona "${0}"';
-$L['Services_create'] = 'Crear nuevo servicio "${0}"';
+$L['HostGroups_create'] = 'Crear grupo de hosts "${0}"';
+$L['Hosts_create'] = 'Crear host "${0}"';
+$L['Zones_create'] = 'Crear zona "${0}"';
+$L['Services_create'] = 'Crear servicio "${0}"';
+$L['IpRange_create'] = 'Crear rando IP "${0}"';
+$L['Cidr_create'] = 'Crear red CIDR "${0}"';
 
 $L['A_new_rule_label'] = "Nueva regla";
 $L['Any_label'] = 'Cualquiera';
@@ -66,6 +68,8 @@ $L['any_src_dst_label'] = 'cualquier host';
 $L['all_label'] = 'cualquiera';
 $L['host_label'] = 'host';
 $L['zone_label'] = 'zona';
+$L['iprange_label'] = 'Rango de IP';
+$L['cidr_label'] = 'Red CIDR';
 $L['host-group_label'] = 'grupo';
 $L['role_label'] = 'Interfaz';
 $L['confirm_reload_label'] = 'No se han aplicado los cambios.';
@@ -78,5 +82,7 @@ $L['FirewallObject_role_Title'] = 'Rol ${key}';
 $L['FirewallObject_zone_Title'] = 'Zona ${key}';
 $L['FirewallObject_host-group_Title'] = 'Grupo de Host ${key}';
 $L['FirewallObject_fwservice_Title'] = 'Servicio ${key}';
+$L['FirewallObject_iprange_Title'] = 'Rango de IP ${key}';
+$L['FirewallObject_cidr_Title'] = 'Red CIDR ${key}';
 
 $L['Show_x_outof_y_label'] = 'Mostrando ${partial} resultados de ${total}';

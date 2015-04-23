@@ -1,7 +1,5 @@
 <?php 
 
-/* NethServer_Module_FirewallObjects translation, language: en */
-
 $L['FirewallObjects_Description'] = 'Gestione oggetti del firewall';
 $L['FirewallObjects_Tags'] = 'firewall zone host servizio servizi gruppo gruppi oggetti';
 $L['FirewallObjects_Title'] = 'Oggetti firewall';
@@ -13,6 +11,7 @@ $L['HostGroups_create_label'] = 'Crea un nuovo gruppo di host';
 $L['HostGroups_CreateHostGroup_label'] = 'Crea un nuovo gruppo di host';
 $L['HostGroups_update_label'] = 'Modifica il gruppo di host "${0}"';
 $L['HostGroups_Title'] = 'Gruppi di host';
+
 $L['HostsKey_label'] = 'Host';
 $L['Host_key_exists_message'] = 'Identificatore host già in uso';
 $L['Hosts_create_label'] = 'Crea un nuovo host';
@@ -50,3 +49,19 @@ $L['valid_platform,fwobject-fwservice-delete,fwobject-referenced,3'] = 'Impossib
 $L['valid_platform,fwobject-host-delete,fwobject-referenced,3'] = 'Impossibile eliminare ${2}. L\'host è utilizzato dalle regole del firewall.';
 $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'Impossibile eliminare ${2}. Il gruppo di host è utilizzato dalle regole del firewall.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Impossibile eliminare ${2}: è l\'ultimo membro del gruppo di host ${${reason}}.';
+$L['valid_iprange_outofbounds'] = 'L\'IP iniziale deve essere più piccolo di quello finale';
+
+$L['Cidr_Title'] = 'Reti CIDR';
+$L['Address_label'] = 'Rete';
+$L['Cidr_create_label'] = 'Crea una rete CIDR';
+$L['Cidr_update_label'] = 'Aggiorna rete CIDR';
+$L['Cidr_key_exists_message'] = 'Un oggetto con lo stesso identificatore esiste già';
+$L['Cidr_CreateCidr_label'] = 'Crea rete CIDR';
+
+$L['IpRange_Title'] = 'Range IP';
+$L['Start_label'] = 'IP inizio';
+$L['End_label'] = 'IP fine';
+$L['IpRange_create_label'] = 'Crea un range IP';
+$L['IpRange_update_label'] = 'Aggiorna range IP';
+$L['IpRange_key_exists_message'] = 'Un oggetto con lo stesso identificatore esiste già';
+$L['IpRange_CreateIpRange_label'] = 'Crea range IP';
