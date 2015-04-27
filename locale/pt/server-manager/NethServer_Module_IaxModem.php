@@ -17,5 +17,5 @@ $L['mode_label'] = 'Modo';
 $L['mode_send_label'] = 'Só enviar'; 
 $L['mode_receive_label'] = 'Só receber'; 
 $L['mode_both_label'] = 'Enviar e receber'; 
-$L['Create a new IAX modem'] = 'Criar modem IAX novo';
+$L['Create a new IAX modem'] = 'Novo modem IAX';
 $L['Update IAX modem'] = 'Actualizar modem IAX';

@@ -30,11 +30,11 @@ $L['port_update_header_label'] = 'Actualizar regra de porto';
 $L['Priority_label'] = 'Prioridade';
 $L['Proto_label'] = 'Protocolo';
 $L['simple_label'] = 'Sim';
-$L['tc_label'] = 'Activar traffic shaping';
+$L['tc_label'] = 'Activar prioridade de tráfego';
 $L['tcp_label'] = 'TCP';
-$L['TrafficShaping_Description'] = 'Gerir Traffic Shaping';
-$L['TrafficShaping_Tags'] = 'tc trafego shaping shape qos';
-$L['TrafficShaping_Title'] = 'Traffic shaping';
+$L['TrafficShaping_Description'] = 'Gerir prioridade de tráfego';
+$L['TrafficShaping_Tags'] = 'tc trafego prioridade prioridade qos';
+$L['TrafficShaping_Title'] = 'Prioridades de tráfego de dados';
 $L['udp_label'] = 'UDP';
 $L['PickSource_label'] = 'Escolha uma fonte...';
 

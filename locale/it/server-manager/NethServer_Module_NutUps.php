@@ -1,14 +1,14 @@
 <?php
 
 $L['model_label'] = 'Modello';
-$L['ups_status_label'] = 'Status';
+$L['ups_status_label'] = 'Stato';
 $L['nut_title'] = 'UPS';
 $L['enabled_label'] = 'Abilita';
 $L['disabled_label'] = 'Disabilita';
 $L['NutUps_Title'] = 'UPS';
 $L['NutUps_Description'] = 'Configura il gruppo statico di continuità (Uninterruptible Power Supply)';
 $L['status_label'] = 'Abilita NUT UPS';
-$L['ups_status_label'] = 'Status';
+$L['ups_status_label'] = 'Stato';
 $L['Password_label'] = 'Password';
 $L['Master_label'] = 'Indirizzo server master';
 $L['Mode_label'] = 'Modalità';

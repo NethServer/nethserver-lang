@@ -1,10 +1,10 @@
 <?php 
 
-$L['${0} day'] = 'Dia ${0}'; 
-$L['${0} days'] = 'Dias ${0}';
-$L['AlwaysBccStatus_label'] = 'Envie sempre uma cópia (Bcc)';
-$L['AlwaysBccAddress_label'] = 'Envie sempre uma cópia (Bcc)';
-$L['Create a new domain'] = 'Criar um domínio novo';
+$L['${0} day'] = '${0} dia'; 
+$L['${0} days'] = '${0} dias';
+$L['AlwaysBccStatus_label'] = 'Envia sempre uma cópia (Bcc)';
+$L['AlwaysBccAddress_label'] = 'Envia sempre uma cópia (Bcc)';
+$L['Create a new domain'] = 'Novo domínio';
 $L['Delete_label'] = 'Apagar';
 $L['Delete_Header'] = 'Apagar mensagem #${0}';
 $L['Delete_Message'] = 'Confirma a exclusão da mensagem ${0}?';

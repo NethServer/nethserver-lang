@@ -1,4 +1,4 @@
 <?php
-$L['ContentFilter_Description'] = 'Configurar filtro de conteúdos eb';
-$L['ContentFilter_Tags'] = 'Perfil de filtro da lista negra squidguard e categorias anti-vírus';
+$L['ContentFilter_Description'] = 'Configurar filtro de conteúdos web';
+$L['ContentFilter_Tags'] = 'filtro squidguard perfil função listanegra filtro perfil anti-virus categorias shalla';
 $L['ContentFilter_Title'] = 'Filtro de conteúdos web';

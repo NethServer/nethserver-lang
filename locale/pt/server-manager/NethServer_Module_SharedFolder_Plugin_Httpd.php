@@ -15,4 +15,4 @@ $L['AliasType_root_label'] = 'Raiz do sitio web';
 $L['AliasType_custom_label'] = 'Personalizado';
 $L['generated-url_url'] = 'URLs geradas:';
 $L['ForceSsl_label'] = 'Exige ligação cifrada SSL';
-$L['AllowOverride_label'] = 'Permite a substituição de permissões .htaccess e escrita';
+$L['AllowOverride_label'] = 'Permite a sobreposição de permissões .htaccess e escrita';

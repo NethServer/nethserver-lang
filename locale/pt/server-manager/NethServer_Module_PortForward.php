@@ -9,8 +9,7 @@ $L['create_header_label'] = 'Novo encaminhamento de porto';
 $L['Description_label'] = 'Descrição';
 $L['disable_label'] = 'Desactivar';
 $L['DstHost_label'] = 'Máquina de destino';
-$L['DstRaw_label'] = 'Máquina de destino
-';
+$L['DstRaw_label'] = 'Máquina de destino';
 $L['Dst_label'] = 'Porto de destino';
 $L['enable_label'] = 'Activar';
 $L['Key_label'] = 'Id';

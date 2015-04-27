@@ -3,14 +3,14 @@
 /* NethServer_Module_FirewallRules translation, language: en */
 
 $L['FirewallRules_Description'] = 'Gerir regras da firewall';
-$L['FirewallRules_Tags'] = 'Politica de regras da firewall';
+$L['FirewallRules_Tags'] = 'politica de regras da firewall';
 $L['FirewallRules_Title'] = 'Regras da firewall';
 
 $L['general_header'] = 'Geral';
 $L['General_Title'] = 'Opções gerais';
 $L['ExternalPing_label'] = 'Ping da Internet';
 $L['permissive_label'] = 'Permitido';
-$L['Policy_label'] = 'Tráfego para a Internet';
+$L['Policy_label'] = 'Tráfego para a Internet (interface vermelho)';
 $L['strict_label'] = 'Bloqueado';
 $L['enabled_label'] = 'Activo';
 $L['disabled_label'] = 'Desactivado';
@@ -22,7 +22,7 @@ $L['accept_label'] = 'Permitir tráfego';
 $L['Edit_header'] = 'Editar regra #${0}';
 $L['status_label'] = 'Activo';
 $L['Action_label'] = 'Acção';
-$L['ActionReject_label'] = 'Aceitar';
+$L['ActionReject_label'] = 'Rejeitar';
 $L['ActionAccept_label'] = 'Aceitar';
 $L['ActionDrop_label'] = 'Descartar';
 $L['Source_label'] = 'Fonte';
@@ -37,9 +37,9 @@ $L['PickObject_SrcRaw_header'] = 'Escolha a fonte de pacotes para a regra "${Rul
 $L['PickObject_DstRaw_header'] = 'Escolha o destino dos pacotes para a regra "${RuleId}"';
 $L['PickObject_ServiceRaw_header'] = 'Escolha o protocolo do serviço para a regra "${RuleId}"';
 
-$L['Create_last_label'] = 'Criar regra em baixo';
-$L['Create_first_label'] = 'Criar regra em cima';
-$L['Create_header'] = 'Criar regra da firewall';
+$L['Create_last_label'] = 'Nova regra em baixo';
+$L['Create_first_label'] = 'Nova regra em cima';
+$L['Create_header'] = 'Nova regra da firewall';
 $L['Copy_header'] = 'Criar uma cópia de #${0}';
 $L['Commit_label'] = 'Aplicar as alterações';
 $L['Edit_label'] = 'Editar';
@@ -52,12 +52,12 @@ $L['SearchPlaceholder_label'] = 'Procurar...';
 
 $L['Delete_header'] = 'Apagar regra #${0}';
 $L['Delete_message'] = 'Confirmar o apagamento da regra #${id}';
-$L['HostGroups_create'] = 'Criar grupo de máquinas "${0}"';
-$L['Hosts_create'] = 'Criar máquina "${0}"';
-$L['Zones_create'] = 'Criar zona "${0}"';
-$L['Services_create'] = 'Criar serviço "${0}"';
-$L['IpRange_create'] = 'Criar gama de IP\'s "${0}"';
-$L['Cidr_create'] = 'Criar rede CIDR "${0}"';
+$L['HostGroups_create'] = 'Novo grupo de máquinas "${0}"';
+$L['Hosts_create'] = 'Nova máquina "${0}"';
+$L['Zones_create'] = 'Nova zona "${0}"';
+$L['Services_create'] = 'Novo serviço "${0}"';
+$L['IpRange_create'] = 'Nova gama de IP\'s "${0}"';
+$L['Cidr_create'] = 'Nova rede CIDR "${0}"';
 
 $L['A_new_rule_label'] = "Nova regra";
 $L['Any_label'] = 'Qualquer';

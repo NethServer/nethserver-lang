@@ -1,15 +1,15 @@
 <?php 
 
-$L['BasicInfo_Title'] = 'Basic informations'; 
-$L['EmailAddress_label'] = 'External email address';
-$L['ExtraInfo_Title'] = 'Contact informations'; 
-$L['FirstName_label'] = 'First name'; 
-$L['LastName_label'] = 'Last name';
-$L['UserProfile_Description'] = 'Change user settings';
-$L['UserProfile_Header'] = '${0} user\'s profile';
-$L['UserProfile_Tags'] = 'user profile preferences city address email phone';
-$L['Company_label']  = 'Company';
-$L['Dept_label'] = 'Department'; 
-$L['Street_label'] = 'Street'; 
-$L['City_label'] = 'City'; 
-$L['Phone_label'] = 'Phone'; 
+$L['BasicInfo_Title'] = 'Informações básicas'; 
+$L['EmailAddress_label'] = 'Endereços de correio electrónico externos';
+$L['ExtraInfo_Title'] = 'Informações de contacto'; 
+$L['FirstName_label'] = 'Nome'; 
+$L['LastName_label'] = 'Apelido';
+$L['UserProfile_Description'] = 'Alterar definições do utilizador';
+$L['UserProfile_Header'] = 'Perfil do utilizador ${0}';
+$L['UserProfile_Tags'] = 'utilizador perfil definições cidade endereço correioelectrónico telefone';
+$L['Company_label']  = 'Empresa';
+$L['Dept_label'] = 'Departamento'; 
+$L['Street_label'] = 'Rua'; 
+$L['City_label'] = 'Cidade'; 
+$L['Phone_label'] = 'Telefone'; 

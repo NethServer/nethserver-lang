@@ -4,7 +4,7 @@
 
 $L['balanced_label'] = 'Equilibrado';
 $L['connectivity_label'] = 'Ligação';
-$L['IPS_Description'] = 'Gestão IPS (snort)';
+$L['IPS_Description'] = 'Gestão IPS (Snort)';
 $L['IPS_header'] = 'Gestão IPS';
 $L['IPS_Tags'] = 'IPS ips snort Snort';
 $L['IPS_Title'] = 'IPS';
