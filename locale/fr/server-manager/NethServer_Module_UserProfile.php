@@ -11,5 +11,5 @@ $L['UserProfile_Tags'] = 'utilisateur profil préférences ville adresse email t
 $L['Company_label']  = 'Société';
 $L['Dept_label'] = 'Département'; 
 $L['Street_label'] = 'Rue'; 
-$L['City_label'] = 'City'; 
-$L['Phone_label'] = 'Phone'; 
+$L['City_label'] = 'Ville'; 
+$L['Phone_label'] = 'Téléphone'; 

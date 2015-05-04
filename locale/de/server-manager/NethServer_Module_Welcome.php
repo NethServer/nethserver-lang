@@ -1,12 +1,15 @@
 <?php 
 
-$L['NethServer_Welcome_Header'] = 'Welcome to NethServer'; 
-$L['Welcome_Description'] = 'Welcome page'; 
-$L['Welcome_Tags'] = 'welcome'; 
-$L['Welcome_Title'] = 'Welcome';
-$L['Welcome_Body'] = 'ATTENTION: this is an ALPHA relase! NethServer is based on SME Server and CentOS. See official site for further details.';
-$L['License'] = 'License';
+$L['NethServer_Welcome_Header'] = 'Willkommen beim NethServer'; 
+$L['Welcome_Description'] = 'Willkommensseite'; 
+$L['Welcome_Tags'] = 'willkommen'; 
+$L['Welcome_Title'] = 'Willkommen';
+$L['Welcome_Body'] = 'Achtung:
+Das ist eine ALPHA-Version!
+NethServer basiert auf dem SME Server und CentOS.
+Auf der offizeillen Webseite gibt es mehr Informationen.';
+$L['License'] = 'Lizenz';
 $L['Links'] = 'Links';
-$L['official_site'] = 'NethServer official site';
-$L['technical_documentation'] = 'Technical documentation';
+$L['official_site'] = 'NethServer offizielle Seite';
+$L['technical_documentation'] = 'technische Dokumentation';
  

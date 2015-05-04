@@ -12,4 +12,4 @@ $L['QuotaStatus_enabled_label'] = 'Appliquer les quotas';
 $L['Spam messages handling'] = 'Traitement des spams'; 
 $L['SpamFolder_label'] = 'Déplacer dans le dossier des indésirables (junkmail)'; 
 $L['TlsSecurity_label'] = 'Allow unencrypted connections'; 
-$L['ever'] = 'ever'; 
+$L['ever'] = 'toujours'; 

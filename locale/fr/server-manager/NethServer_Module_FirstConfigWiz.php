@@ -13,8 +13,8 @@ $L['Hostname_Title'] = 'Définir le nom d\'hôte';
 $L['Hostname_Action'] = 'Définir le nom d\'hôte avec: ${SystemName}.${DomainName}';
 
 $L['Hostname_Description'] = 'Changer le FQDN (nom d\'hôte pleinement qualifié)';
-$L['Review_Title'] = 'Review changes';
-$L['Review_Description'] = 'Apply changes to secure the server configuration';
+$L['Review_Title'] = 'Examiner les modifications';
+$L['Review_Description'] = 'Appliquer les changement pour sécuriser la configuration serveur';
 $L['Changes_label'] = 'Appliquer les changements suivants:';
 
 $L['redirect_message'] = 'Poursuivre sur la page de configuration des interfaces réseau, après la prise en compte des changements.';

@@ -2,19 +2,19 @@
 
 /* Language/en/NethServer_Module_Dashboard_SystemStatus_Backup translation, language: en */
 
-$L['backup_title'] = 'Backup';
+$L['backup_title'] = 'Sicherung';
 $L['status_label'] = 'Status';
-$L['time_label'] = 'Schedule at';
-$L['vfs_label'] = 'Destination';
-$L['type_label'] = 'Type';
-$L['result_label'] = 'Result';
-$L['start_label'] = 'Start time';
-$L['end_label'] = 'End time';
-$L['enabled'] = 'Enabled';
-$L['disabled'] = 'Disabled';
-$L['incremental'] = 'Incremental';
-$L['full'] = 'Full';
-$L['SUCCESS'] = 'SUCCESS';
-$L['ERROR'] = 'ERROR';
-$L['backup_not_configured'] = 'Backup not configured';
-$L['last_backup'] = 'Last backup';
+$L['time_label'] = 'geplant um';
+$L['vfs_label'] = 'Ziel';
+$L['type_label'] = 'Typ';
+$L['result_label'] = 'Ergebnis';
+$L['start_label'] = 'Startzeit';
+$L['end_label'] = 'Endzeit';
+$L['enabled'] = 'aktiviert';
+$L['disabled'] = 'deaktiviert';
+$L['incremental'] = 'Zuwachssicherung';
+$L['full'] = 'Voll';
+$L['SUCCESS'] = 'erfolgreich';
+$L['ERROR'] = 'FEHLER';
+$L['backup_not_configured'] = 'Sicherung nicht eingerichtet';
+$L['last_backup'] = 'letzte Sicherung';

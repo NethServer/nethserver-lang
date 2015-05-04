@@ -4,4 +4,4 @@
 
 $L['release_label'] = 'Version du système';
 $L['kernel_label'] = 'Version du noyau';
-$L['release_title'] = 'Version';
+$L['release_title'] = 'Release';

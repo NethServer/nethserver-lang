@@ -2,16 +2,16 @@
 
 /* NethServer_Module_Dashboard_SystemStatus_Network translation, language: en */
 
-$L['bootproto_label'] = 'Type';
+$L['bootproto_label'] = 'Typ';
 $L['dns_label'] = 'DNS';
 $L['domain_label'] = 'Domain';
 $L['gateway_label'] = 'Gateway';
 $L['hostname_label'] = 'Hostname';
 $L['hwaddr_label'] = 'MAC';
-$L['interfaces_title'] = 'Interfaces';
+$L['interfaces_title'] = 'Schnittstellen';
 $L['ipaddr_label'] = 'IP';
-$L['name_label'] = 'Device';
+$L['name_label'] = 'Gerät';
 $L['netmask_label'] = 'Netmask';
-$L['network_title'] = 'Network';
-$L['speed_label'] = 'Speed';
+$L['network_title'] = 'Netzwerk';
+$L['speed_label'] = 'Geschwindigkeit';
 $L['link_label'] = 'Link';

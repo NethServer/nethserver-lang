@@ -1,14 +1,14 @@
 <?php 
 
-$L['DateTime_header'] = 'Change current system date and time (${0})'; 
-$L['DateTime_Description'] = 'Set system date and time'; 
-$L['DateTime_Tags'] = 'hour minute timezone date time ntp'; 
-$L['DateTime_Title'] = 'Date and time';
-$L['DateTime_Action'] = 'Set timezone to: ${timezone}';
-$L['date_label'] = 'Date'; 
+$L['DateTime_header'] = 'Zeit und Datumsänderungen (${0})'; 
+$L['DateTime_Description'] = 'System Datum und Zeit einstellen'; 
+$L['DateTime_Tags'] = 'Stunde Minute Zeitzone Datum Zeit NTP'; 
+$L['DateTime_Title'] = 'Datum und Uhrzeit';
+$L['DateTime_Action'] = 'Zeitzone auswählen: ${timezone}';
+$L['date_label'] = 'Datum'; 
 $L['server_label'] = 'NTP Server'; 
-$L['Status_disabled_label'] = 'Manual settings'; 
-$L['Status_enabled_label'] = 'Network synchronization'; 
-$L['time_label'] = 'Hours and minutes'; 
-$L['timezone_label'] = 'Time zone'; 
+$L['Status_disabled_label'] = 'manuelle Einstellung'; 
+$L['Status_enabled_label'] = 'Netzwerk Syncronisation'; 
+$L['time_label'] = 'Stunden und Minuten'; 
+$L['timezone_label'] = 'Zeitzone'; 
 

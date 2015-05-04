@@ -12,4 +12,4 @@ $L['MailStatus_label'] = 'Bôite mails';
 $L['Unlimited_quota'] = 'Illimité'; 
 $L['ever'] = 'toujours';
 $L['CreateMailAddresses_label'] = 'Create default email addresses';
-$L['MailAddressList_label'] = 'Mail addresses';
+$L['MailAddressList_label'] = 'Adresses email';

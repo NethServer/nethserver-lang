@@ -11,5 +11,5 @@ $L['Dialog_poweroff_label'] = 'Fermeture de la connexion au gestionnaire serveur
 $L['Dialog_switchedoff_label'] = 'Connection closed. System is switching off the power: wait until it has been switched off.';
 $L['Dialog_reboot_title'] = 'Redémarrer le système';
 $L['Dialog_reboot_label'] = 'Fermeture de la connexion au gestionnaire serveur...';
-$L['Dialog_wait_label'] = 'Waiting the connection to come back...';
-$L['Dialog_completed_label'] = 'Completed!';
+$L['Dialog_wait_label'] = 'Attendre le retour de la connexion';
+$L['Dialog_completed_label'] = 'Terminé!';

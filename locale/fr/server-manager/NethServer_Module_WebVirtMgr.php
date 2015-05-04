@@ -14,4 +14,4 @@ $L['NovncStatus_disabled_label'] = 'Désactiver';
 
 $L['Auth_label'] = 'Certiticats';
 $L['User_label'] = 'Nom d\'utilisateur';
-$L['Password_label'] = 'Password';
+$L['Password_label'] = 'Mot de passe';
