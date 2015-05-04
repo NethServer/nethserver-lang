@@ -153,6 +153,13 @@ BuildArch: noarch
 %description pt
 NethServer Portuguese language support (pt)
 
+%package tr
+Summary: Turkish support
+BuildArch: noarch
+%files tr -f tr.lang
+%description tr
+NethServer Turkish language support (tr)
+
 
 %changelog
 * Mon Apr 27 2015 Davide Principi <davide.principi@nethesis.it> - 1.0.1-1

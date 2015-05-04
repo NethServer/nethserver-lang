@@ -1,0 +1,32 @@
+<?php
+
+$L['Profiles_Title'] = 'Profiller';
+$L['Key_label'] = 'Ad';
+$L['name_label'] = 'Ad';
+$L['Src_label'] = 'Kim';
+$L['Filter_label'] = 'Ne';
+$L['Description_label'] = 'Açıklama';
+$L['Users_label'] = 'Kullanıcılar';
+$L['UserGroups_label'] = 'Kullanıcı grupları';
+$L['Hosts_label'] = 'Sunucular';
+$L['HostGroups_label'] = 'Sunucu grupları';
+$L['Zones_label'] = 'Bölgeler';
+$L['Time_label'] = 'Ne zaman';
+$L['always_label'] = 'Her zaman';
+$L['any_label'] = 'Tüm sunucular';
+$L['host_label'] = 'Sunucu';
+$L['host-group_label'] = 'Sunucu grubu';
+$L['user_label'] = 'Kullanıcı';
+$L['group_label'] = 'Kullanıcı grubu';
+$L['filter_label'] = 'Süzgeç';
+$L['time_label'] = 'Zaman';
+$L['zone_label'] = 'Bölge';
+$L['role_label'] = 'Bölge';
+$L['key_exists_message'] = 'Aynı adlı bir süzgeç, profil ya da zaman zaten var.';
+$L['key_doesnt_exists_message'] = 'Bu nesne bulunamadı';
+$L['aduser_label'] = 'AD kullanıcısı';
+$L['ADUsers_label'] = 'AD kullanıcısı';
+$L['cidr_label'] = 'CIDR alt ağı';
+$L['Cidrs_label'] = 'CIDR alt ağı';
+$L['iprange_label'] = 'IP aralığı';
+$L['IpRanges_label'] = 'IP aralığı';

@@ -1,0 +1,57 @@
+<?php 
+
+/* NethServer_Module_BackupData translation, language: en */
+
+$L['0_label'] = 'Pazar';
+$L['1_label'] = 'Pazartesi';
+$L['2_label'] = 'Salı';
+$L['3_label'] = 'Çarşamba';
+$L['4_label'] = 'Perşembe';
+$L['5_label'] = 'Cuma';
+$L['6_label'] = 'Cumartesi';
+$L['7D_label'] = '1 hafta';
+$L['14D_label'] = '2 hafta';
+$L['28D_label'] = '1 ay';
+$L['56D_label'] = '2 ay';
+$L['168D_label'] = '6 ay';
+$L['364D_label'] = '1 yıl';
+$L['BackupData_Description'] = 'Yedek veri dosyaları yönetimi';
+$L['BackupData_Destination_Title'] = 'Hedef';
+$L['BackupData_General_Title'] = 'Genel';
+$L['BackupData_Notification_Title'] = 'Bildirim';
+$L['BackupData_Tags'] = 'yedekleme verisi tam artımlı';
+$L['BackupData_Title'] = 'Yedek (veri)';
+$L['BackupDataType_label'] = 'Tip';
+$L['BackupTime_label'] = 'Planlanan zaman';
+$L['CleanupOlderThan_label'] = 'Şundan eski yedekler silinsin:';
+$L['cifs_label'] = 'CIFS';
+$L['FullDay_label'] = 'Tam yedekleme zamanı:';
+$L['full_label'] = 'Tam';
+$L['incremental_label'] = 'Artımlı';
+$L['NFSHost_label'] = 'Sunucu';
+$L['never_label'] = 'Hiçbir zaman';
+$L['nfs_label'] = 'NFS';
+$L['notify_label'] = 'Bildirim';
+$L['notify_always_label'] = 'Her zaman';
+$L['notify_error_label'] = 'Hata durumunda';
+$L['notify_never_label'] = 'Hiçbir zaman';
+$L['notifyToCustom_label'] = 'Adres';
+$L['notifyToType_admin_label'] = 'Sistem yöneticisi';
+$L['notifyToType_custom_label'] = 'Özel e-posta adresi';
+$L['notifyTo_label'] = 'Bildirimler şuraya gönderilsin';
+$L['NFSShare_label'] = 'Paylaşım';
+$L['RetentionPolicy_label'] = 'Saklama ilkesi';
+$L['SMBHost_label'] = 'Sunucu';
+$L['SMBLogin_label'] = 'Kullanıcı Adı';
+$L['SMBPassword_label'] = 'Parola';
+$L['SMBShare_label'] = 'Paylaşım';
+$L['status_label'] = 'Otomatik yedekleme';
+$L['Type_full_label'] = 'Tam';
+$L['Type_incremental_label'] = 'Artımlı';
+$L['usb_label'] = 'USB';
+$L['USBLabel_label'] = 'Dosya sistemi etiketi';
+$L['VFSType_label'] = 'Hedef tipi';
+$L['VFSType_cifs_label'] = 'Windows paylaşımı (CIFS)';
+$L['VFSType_nfs_label'] = 'NFS paylaşımı';
+$L['VFSType_usb_label'] = 'USB disk';
+$L['mounted_label'] = 'takılı';
