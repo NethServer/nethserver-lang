@@ -1,29 +1,31 @@
-======================
-Backup (configuration)
-======================
 
-Execute and restore configuration backup.
+Copia de Seguridad (configuration)
+==================================
 
-Backup
-======
+Ejecutar copia de seguridad y restaurar la configuración.
 
-Configuration backup contains only system configuration files.
-This type of backup is executed only if any file is changed in the last 24 hours.
+copia de seguridad
+==================
 
-You can force the execution of a new backup using the *Backup now* button.
-The backup will be overwritten only if necessary.
+La configuración de Copia de seguridad contiene sólo los archivos de configuración del sistema.
 
-Restore
-=======
+Este tipo de copia de seguridad se ejecuta sólo si cualquier archivo se cambia en las últimas 24 horas.
 
-Restore last configuration backup.
+Puede forzar la ejecución de una nueva copia de seguridad utilizando el botón *copia de seguridad ahora*.
 
-When restoring, choose one of the following options:
+La copia de seguridad se sobrescribirá sólo si es necesario.
 
-* Same hardware (also restore network configuration)
-* Different hardware (network must be reconfigured)
+restaurar
+=========
 
-The restore process will reconfigure the entire system.
+Restaurar la última configuración de la copia de seguridad.
+
+Al restaurar, elija una de las siguientes opciones:
+
+* El mismo hardware (también restaurar la configuración de la red)
+* Hardware diferente (red debe ser reconfigurado)
+
+El proceso de restauración reconfigurar todo el sistema.
 
 .. raw:: html
 
