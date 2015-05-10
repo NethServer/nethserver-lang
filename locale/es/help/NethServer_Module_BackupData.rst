@@ -36,7 +36,7 @@ Destino
 
 Disco USB
     Seleccione el destino de copia de seguridad en una unidad USB. El disco USB debe ser formateado con un sistema
-    de archivos compatible (ext2 / 3/4 o FAT, NTFS no es compatible) y una etiqueta configurada.
+    de archivos compatible (ext2/3/4 o FAT, NTFS no es compatible) y una etiqueta configurada.
 
     * Sistema de Archivos de etiquetas: las listas de discos USB conectados.
       Si se monta el disco, que está marcado con una "M".
