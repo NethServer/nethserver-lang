@@ -1,11 +1,11 @@
-===================
-Disk usage analyzer
-===================
+==========================
+Analizador de uso de disco
+==========================
 
-Visualize the space and the usage of your disk.
+Visualice el espacio y el uso de su disco.
 
-* mouseover to visualize usage
-* click to magnify section
+* Mover el cursor por encima para visualizar espacio usado
+* Haga clic para aumentar la sección
 
-Disk usage analyzer
-    Enable or disable the service.
+Analizador de uso de disco
+     Activar o desactivar el servicio.
