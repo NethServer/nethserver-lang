@@ -2,42 +2,51 @@
 FTP
 ===
 
-The module enables/disables the FTP server and configures the virtual users.
+El módulo activa/desactiva el servidor FTP y configura los usuarios virtuales.
 
-Users
-=====
+Usuarios
+========
 
-Create or edit
+Crear o editar
 --------------
 
-Create or edit a virtual user.
-A virtual user is not a system user and can access only the FTP server.
+Crear o editar un usuario virtual.
 
-User name
-    The name of virtual user.
-    It can contain only lowercase letters, numbers, dashes, dots, and underscore (_)
-    and must start with a lowercase letter. 
-    For example, "luisa", "jsmith" and "liu-jo" is a valid user name, and "4Friends", "Franco Blacks" and "aldo / mistake" are not.
+Un usuario virtual no es un usuario del sistema y se puede acceder sólo en el servidor FTP.
 
-Password
-    The password of virtual user. The password is sent in clear text from the client.
+Nombre de usuario
 
-Chroot user on home directory
-    If enabled, the user can access only his own FTP home.
-    The FTP home is placed in ``/var/lib/nethserver/ftp/<user>``.
-    If disabled, the user can access all the filesystem. This is  highly *discouraged*.
+    El nombre de usuario virtual.
+    
+    * Puede contener sólo letras minúsculas, números, guiones, puntos y guión de piso (_)
+    * debe comenzar con una letra minúscula.
+    
+    Por ejemplo, "luisa", "jsmith" y "liu-jo" es un nombre de usuario válido, y "4friends", "Franco negros" y "aldo / error" no lo son.
 
-Custom chroot directory
-    The user can access only the selected directory.
+Contraseña
 
-    This function can be used to grant access to users directly inside a shared folder.
-    Enter the shared folder path ``/var/lib/nethserver/ibay/<name>``
-    where ``<name>`` is the name of shared folder.
+    La contraseña de usuario virtual: La contraseña se envía en texto sin cifrar desde el cliente.
 
-Enabled/Disabled
-    The user can be enabled or disabled.
+Usuario Chroot en el directorio home
 
-Description
-    Optional user's description.
-    For example: Access for the company site.
+    Si se activa, el usuario puede acceder sólo a su propio directorio home del FTP.
+    El directorio home del FTP se coloca en "/var/lib/nethserver/ftp/<usuario>".
+    Si está desactivado, el usuario puede acceder a todo el sistema de ficheros. Esto es altamente peligroso.
 
+Directorio chroot personalizada
+
+    El usuario puede acceder sólo el directorio seleccionado.
+
+    Esta función se puede utilizar para conceder acceso a los usuarios directamente dentro de una carpeta compartida.
+    Introduzca la ruta de la carpeta compartida "/var/lib/nethserver/ibay/<nombre>"
+    donde "<nombre>" es el nombre de la carpeta compartida.
+
+Habilitado / Deshabilitado
+
+    El usuario podra ser activado o desactivado.
+
+Descripción
+
+    Descripción del usuario opcional.
+    
+    Por ejemplo: El acceso del sitio web de la empresa.
