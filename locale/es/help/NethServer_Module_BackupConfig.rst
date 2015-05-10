@@ -1,5 +1,5 @@
 ==================================
-Copia de Seguridad (configuration)
+Copia de Seguridad (configuración)
 ==================================
 
 Ejecutar copia de seguridad y restaurar la configuración.
