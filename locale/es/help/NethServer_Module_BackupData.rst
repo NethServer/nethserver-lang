@@ -55,7 +55,7 @@ Recurso Compartido NFS
 Host
    La dirección IP o el FQDN del servidor NFS
 
-   * Compartir: nombrar el objetivo compartido de NFS
+   * Compartir: nombrar el recurso compartido de NFS
 
 Notificaciones
 ==============
