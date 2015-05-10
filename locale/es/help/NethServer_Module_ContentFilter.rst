@@ -143,7 +143,7 @@ Dominios
 Las listas negras
 =================
 
-Las listas se descargan una vez al día durante la noche.
+Las listas negras se descargan una vez al día durante la noche.
 
 Listas disponibles son:
 
