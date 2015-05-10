@@ -1,8 +1,9 @@
-===========
-Chat server
-===========
+================
+Servidor de Chat
+================
 
-Ejabber is a chat server that implements the Jabber/XMPP protocol Jabber / XMPP, it support TLS on standard XMPP ports (5222 or 5223).
+Ejabber es un servidor de chat que implementa el Jabber/XMPP protocolo XMPP de Jabber, se admite TLS en los puertos
+estándar XMPP (5222 ó 5223).
 
-The chat server uses system users to login.
+El servidor de chat utiliza los usuarios del sistema para iniciar sesión.
 
