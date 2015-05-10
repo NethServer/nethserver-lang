@@ -1,159 +1,157 @@
-==================
-Web content filter
-==================
+========================
+Filtro de contenidos Web
+========================
 
-The web content filter is used to control web browsing and
-site blocking using some variables such as keywords, IP
-address, internal users, or evaluating the content of the web page,
-or file extensions. With this tool it is possible for example to enable
-access only on some desired sites (such as those of company interest)
-while blocking all others.
+El filtro de contenidos web se utiliza para controlar la navegación web y bloquear sitios utilizando algunas variables
+tales como palabras clave, dirección IP, los usuarios internos, o evaluar el contenido de la página web, o extensiones de
+archivo. Con esta herramienta es posible por ejemplo para permitir acceso sólo en algunos sitios deseados (tales como los
+de interés de la compañía) mientras que el bloqueo de todos los demás.
 
-The content filter is based on profiles.
-A profile is composed by three parts:
+El filtro de contenidos se basa en perfiles.
+Un perfil se compone de tres partes:
 
-* Who: host or user is accessing the web
-* What: a filter composed by multiple allowed or blocked categories
-* When: a time frame within the access is filtered
+* Quién: host o usuario está accediendo a la web
+* Qué: un filtro compuesto por múltiples categorías permitidas o bloqueadas
+* Cuándo: se filtra un plazo dentro del acceso
 
-There is also a special profile which applies to any client
-at any time.
+También hay un perfil especial que se aplica a cualquier cliente
+en cualquier momento.
 
 
 General
 =======
 
-General configuration common to all tabs.
+Configuración general común a todas las pestañas.
 
-Enable filter
-    Enable or disabled the filter.
+Activar el filtro
+     Activar o desactivar el filtro.
 
-Enable expression matching on URL
-    Filter URLs using regular expressions.
-    For example, block URLs containing the word *sex*.
-    Not recommended: this type of filter can lead to false positives.
+Habilitar expresión igualan URL
+    Filtro URL usando expresiones regulares.
+    Por ejemplo, las direcciones URL de bloques que contienen la palabra *sexo*.
+    No recomendado: este tipo de filtro puede conducir a falsos positivos.
 
-List of blocked file extension
-    A comma separated list of file extensions blocked by the filter.
+Lista de extensión de archivo bloqueado
+    Una lista de extensiones de archivos bloqueados por el filtro separado por una coma *,*.
 
-Global blacklist
-   List of blocked sites or URLs, can be enabled or disabled for each filter.
+Lista negra global
+   Lista de sitios o direcciones URL bloqueadas, se puede activar o desactivar para cada filtro.
 
-Global whitelist
-   List of allowed sites or URLs, can be enabled or disabled for each filter.
+Lista blanca global
+   Lista de sitios o direcciones URL permitidas, se puede activar o desactivar para cada filtro.
 
 
-Profiles
+Perfiles
 ========
 
-A profile describe who can access contents within defined time frames.
+Un perfil describe quién puede acceder a los contenidos dentro de plazos definidos.
 
-Name
-   Unique name identifier.
+Nombre
+   Identificador de nombre único.
 
-Who
-   It can be:
+¿Quién
+   Puede ser:
 
-   * a local user
-   * a group of local users
-   * a host
-   * a group of host
-   * a zone
-   * a CIDR subnet
-   * an IP range
-   * a user from Active Directory, if the server has joined the domain
+   * Un usuario local
+   * Un grupo de usuarios locales
+   * Un host
+   * Un grupo de host
+   * Una zona
+   * Una subred CIDR
+   * Un rango de IP
+   * Un usuario de Directorio Activo, si el servidor se ha unido al dominio
 
-What
-   A filter previously created inside the filter tab, or the default filter.
+¿Qué
+   Un filtro creado previamente dentro de la pestaña de filtro o el filtro predeterminado.
 
-When
-   A time frame previously created inside the times tab.
+¿Cuándo
+   Un período de tiempo previamente creado dentro de la pestaña de veces.
 
-Description
-    Custom description (optional).
+Descripción
+    Descripción personalizada (opcional).
 
 
-Filters
+Filtros
 =======
 
-A filter describe what kind of content is allowed or blocked.
+Un filtro describe lo que está permitido o bloqueado por el tipo de contenido.
 
-Name
-    Unique name identifier.
+Nombre
+    Identificador de nombre único.
 
-Description
-    Custom description (optional).
+Descripción
+    Descripción personalizada (opcional).
 
-Block access to web sites using IP address
-    If enabled, clients can not access websites using the IP address, but only the host name.
+Bloquear el acceso a sitios web utilizando la dirección IP
+    Si está activado, los clientes no pueden acceder a sitios web que utilizan la dirección IP, pero sólo el nombre de host.
 
-Enable global blacklist
-    Enable the domain/URL blacklist defined in the General tab.
+Habilitar lista negra global
+    Habilitar la lista negra de dominio/URL se define en la ficha General.
 
-Enable global whitelist
-    Enable the domain/URL whitelist defined in the General tab.
+Habilitar lista blanca global
+    Habilitar la lista blanca de dominio/URL se define en la ficha General.
 
-Block file extensions
-    Block all file extensions defined in the General tab.
+Extensiones de archivo a bloquear
+    Bloquear todas las extensiones de archivo definidas en la ficha General.
 
-Mode
-    The web filter can work into two different ways:
+Modo
+    El filtro web puede trabajar en dos modos diferentes:
 
-    * Block all, allow selected content: selected categories are allowed, any other site is blocked
-    * Allow all, block selected content: selected categories are blocked, any other site is allowed
+    * Bloquear todo, permitir que el contenido seleccionado: categorías seleccionadas se les permite, a cualquier otro sitio está bloqueado
+    * Permitir todo, bloque de contenido seleccionado: categorías seleccionadas se bloquean, cualquier otro sitio se permite
 
-Categories
-    List of categories from blacklists configured inside Blacklist tab.
-    It also contains all defined custom categories.
+Categorías
+    Lista de las categorías de las listas negras configurados dentro pestaña Lista Negra.
+    También contiene todas las categorías personalizadas definidas.
 
-Times
-=====
+Horarios
+========
 
-Define a list of time frames.
+Definir una lista de marcos de tiempo.
 
-Name
-    Unique name identifier.
+Nombre
+    Identificador de nombre único.
 
-Description
-    Custom description (optional).
+Descripción
+    Descripción personalizada (opcional).
 
-Days of week
-    Select one ore more days of the week.
+Días de la semana
+    Seleccione uno o más días de la semana.
 
-Start time
-    A start time for the time frame.
+Hora de inicio
+    Una hora de inicio del período de tiempo.
 
-End time
-    An end time for the time frame.
+Hora de finalización
+    Una hora de finalización para el período de tiempo.
 
 
-Custom categories
+Categorías personalizadas
+=========================
+
+Categorías personalizadas se pueden usar dentro de la ficha Filtro.
+
+Nombre
+    Identificador de nombre único.
+
+Descripción
+    Descripción personalizada (opcional).
+
+Dominios
+    Una lista de los dominios personalizados, uno por línea.
+
+
+Las listas negras
 =================
 
-Custom categories can be used inside the Filter tab.
+Las listas se descargan una vez al día durante la noche.
 
-Name
-    Unique name identifier.
+Listas disponibles son:
 
-Description
-    Custom description (optional).
-
-Domains
-    A list of custom domains, one per line.
-
-
-Blacklists
-==========
-
-The lists are downloaded once a day during the night.
-Available lists are:
-
-* Shalla (free for non-commercial use)
-* UrlBlacklist.com (commercial)
-* Université Toulouse (free)
-* Custom: set a custom URL, the list must be in a format
-  suitable for SquidGuard
-
+* Shalla (libre para uso no comercial)
+* UrlBlacklist.com (comercial)
+* Université Toulouse (libre)
+* Personalizada: establecer una URL personalizada, la lista debe estar en un formato
+  adecuado para SquidGuard
 
 .. raw:: html
 
