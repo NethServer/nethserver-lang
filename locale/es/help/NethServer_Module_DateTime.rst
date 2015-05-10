@@ -1,21 +1,20 @@
-=============
-Date and time
-=============
+============
+Fecha y hora
+============
 
-Set the date and time of the server. You can
+Ajustar la fecha y la hora del servidor.
 
-* synchronize the date and system time with an NTP server (Network Time Protocol), or
-* manually set the date, time and time zone.
+* Sincronizar la fecha y hora del sistema con un servidor NTP (Network Time Protocol), o
+* Establecer manualmente la fecha, la hora y la zona horaria.
 
-Time Zone
-    Select the time zone where the server is located.
+Huso horario
+     Seleccione la zona horaria donde se encuentra el servidor.
 
-Date
-    Set the current date (YYYY-MM-DD).
+Fecha
+     Ajuste la fecha actual (AAAA-MM-DD).
 
-Hours and minutes
-    Set the local time.
+Horas y minutos
+     Establezca la hora local.
 
-NTP Server
-    IP address or host name with which to synchronize the time of
-    the system.
+Servidor NTP
+     Dirección IP o nombre de host con el que sincronizar la hora del sistema.
