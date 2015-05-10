@@ -2,7 +2,7 @@
 FTP
 ===
 
-El módulo activa/desactiva el servidor FTP y configura los usuarios virtuales.
+El módulo activa ó desactiva el servidor FTP y configura los usuarios virtuales.
 
 Usuarios
 ========
