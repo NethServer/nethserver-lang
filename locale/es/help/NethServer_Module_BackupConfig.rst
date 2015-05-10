@@ -4,7 +4,7 @@ Copia de Seguridad (configuración)
 
 Ejecutar copia de seguridad y restaurar la configuración.
 
-copia de seguridad
+Copia de seguridad
 ==================
 
 La configuración de Copia de seguridad contiene sólo los archivos de configuración del sistema.
@@ -15,7 +15,7 @@ Puede forzar la ejecución de una nueva copia de seguridad utilizando el botón 
 
 La copia de seguridad se sobrescribirá sólo si es necesario.
 
-restaurar
+Restaurar
 =========
 
 Restaurar la última configuración de la copia de seguridad.
