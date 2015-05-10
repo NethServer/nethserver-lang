@@ -1,5 +1,4 @@
 Antivirus
 =========
 
-Enable or disable antivirus scanner on visited sites.
-
+Activar o desactivar el escáner antivirus en los sitios visitados.
