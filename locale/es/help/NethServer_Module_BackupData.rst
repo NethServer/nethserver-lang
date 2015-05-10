@@ -1,76 +1,76 @@
-======
-Backup
-======
 
-The backup contains all the data such as users home directories, 
-shared folders, emails but also all the configurations
-of the system. It runs daily and may be full or
-incremental, depending on day of week and configuration. The
-media available for backup are: USB disk, Windows share
-and NFS share. At the end of the backup procedure, an email notification will be sent
-to the administrator or to a custom address.
+==================
+Copia de Seguridad
+==================
+
+La copia de seguridad contiene todos los datos, como directorios de los usuarios domésticos, carpetas compartidas,
+mensajes de correo electrónico, sino también a todas las configuraciones del sistema. Funciona todos los días y 
+puede ser total o incrementales, según el día de la semana y la configuración. 
+
+Los medios disponibles para la copia de seguridad son: disco USB, recurso compartido de Windows o Recurso compartido NFS. 
+
+Al final del procedimiento de copia de seguridad, enviara una notificación por correo electrónico al administrador
+a una dirección personalizada.
 
 General
-========
+=======
 
-Enable automatic backup
-    This option enables or disables the backup procedure. The default is *enabled*.
+Activar copia de seguridad automática
+    Esta opción activa o desactiva el procedimiento de copia de seguridad. El valor por defecto está habilitada.
 
-Schedule backup
-    The time when the backup will start. Change the value directly in the field.
+Horario de copia de seguridad
+    El momento en que la copia de seguridad se iniciará. Cambie el valor directamente en el campo.
 
-Full
-    Selecting this option will run a full backup every day of the week
+Completo
+    Al seleccionar esta opción se ejecutará una copia de seguridad completa todos los días de la semana
 
 Incremental
-    Selecting this option will run a full backup on the day
-    selected through the specific field while the rest of
-    week will run an incremental backup.
+    Al seleccionar esta opción se ejecutará una copia de seguridad completa en el día seleccionado a través del campo
+    específico, mientras que el resto de la semana se ejecutará una copia de seguridad incremental.
 
-Retention policy
-    Input the number of days for which the backup will be stored.
+Política de retención
+    Introduzca el número de días en que se guardará la copia de seguridad.
 
-Destination
-============
+Destino
+=======
 
-USB Disk
-    Select the backup destination to a USB drive. The USB disk must
-    be formatted with a compatible file system (ext2/3/4 or FAT, NTFS not supported) and a label configured.
+Disco USB
+    Seleccione el destino de copia de seguridad en una unidad USB. El disco USB debe ser formateado con un sistema
+    de archivos compatible (ext2 / 3/4 o FAT, NTFS no es compatible) y una etiqueta configurada.
 
-    * Filesystem label: lists connected USB disks.
-      If the disk is mounted, it is marked with an "M".
+    * Sistema de Archivos de etiquetas: las listas de discos USB conectados.
+      Si se monta el disco, que está marcado con una "M".
 
-Windows Share (CIFS)
-    Select the backup destination, a Windows share (CIFS). Authentication is required.
+Recurso Compartido de Windows (CIFS)
+    Seleccione el destino de copia de seguridad, un recurso compartido de Windows (CIFS). Se requiere autenticación.
 
-    * Server: The IP address or FQDN of the target Windows server
-    * Share: the name of the sahre on the target Windows system
-    * User: username to use for authentication
-    * Password: password to use for authentication.
+    * Servidor: La dirección IP o el FQDN del servidor de Windows destino
+    * Compartir: el nombre de la carpeta compartida en el sistema Windows destino
+    * Usuario: nombre de usuario para utilizar para la autenticación
+    * Contraseña: contraseña a usar para la autenticación.
 
-NFS Share
-    Select the backup destination on an NFS share
+Recurso Compartido NFS
+    Seleccione el destino de copia de seguridad en un recurso compartido NFS
 
 Host
-   The IP address or FQDN of the NFS server
+   La dirección IP o el FQDN del servidor NFS
 
-   * Share: name the NFS share target
+   * Compartir: nombrar el objetivo compartido de NFS
 
-Notifications
-=============
+Notificaciones
+==============
 
-In case of error
-    Send notification only in the event of failure of the backup.
+En caso de error
+    Enviar notificación, sólo en el caso de fallo de la copia de seguridad.
 
-Always
-    Always send notifications, if successful or in case of failure.
+Siempre
+    Siempre envíe notificaciones, si tiene éxito o en caso de fallo.
 
-Never
-    You will not get any notification.
+Nunca
+    Usted no recibirá ninguna notificación.
 
-Send notification to
-    Input who will receive the email notification
+Enviar notificación a
+    Introducir quien recibirá la notificación de correo electrónico
    
-    * System Administrator: notification of the backup will be sent to the system administrator (admin user)
-    * Custom Address: notification of the backup will be sent
-
+    * Administrador del Sistema: La notificación de la copia de seguridad se enviará al administrador del sistema (usuario admin)
+    * Dirección Personalizada: La notificación de la copia de seguridad se enviará a una dirección personalizada.
