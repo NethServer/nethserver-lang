@@ -1,5 +1,5 @@
 ============
-Fecha y hora
+Fecha y Hora
 ============
 
 Ajustar la fecha y la hora del servidor.
