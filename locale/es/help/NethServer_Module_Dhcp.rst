@@ -2,51 +2,45 @@
 DHCP
 ====
 
-The DHCP (Dynamic Host Configuration Protocol) allows you to assign IP
-addresses to clients on the local network
+El DHCP (Dynamic Host Configuration Protocol) permite asignar direcciones IP
+a los clientes de la red local
 
-Server
-======
+Servidor
+========
 
-Configure the DHCP server.
+Configurar el servidor DHCP.
 
-Disabled
-    The DHCP server will be disabled and the LAN clients will not
-    receive the address in an automatic way by this server. Select
-    this option if there is another DHCP server on your local network.
+Desactivado
+    El servidor DHCP estará desactivado y los clientes de LAN no recibirán direcciones IP de forma 
+    automática por este servidor. Seleccionar esta opción si hay otro servidor DHCP en su red local.
 
-Enabled
-    The server will issue IP addresses to computers on the local
-    network (recommended).
+Activado
+    El servidor emitirá direcciones IP a los clientes de la red local (recomendado).
 
-Range start
-    The first IP address in the range assigned to the clients on the
-    LAN.
+Rango inicial
+    La primera dirección IP en el rango asignado a los clientes en la red local.
 
-Range end
-    The last IP address of the range, addresses between Start and End
-    will ge assigned to clients.
+Rango final
+    La última dirección IP del rango, aborda entre inicio y fin para ser asignado a los clientes de la red local.
 
-Reservation
-===========
+Reserva
+=======
 
-Create / Modify
----------------
+Crear / Modificar
+-----------------
 
-Adds a new static allocation (reservation) to the DHCP server.  The
-device with the specified MAC address will always receive the
-specified IP Address.
+Agrega una nueva asignación estática (reserva) para el servidor DHCP. El
+dispositivo con la dirección MAC especificada siempre recibirá la dirección IP especificada.
 
-Host Name
-    The host name you want to assign to clients on the LAN with the
-    specified IP address.
+Nombre de host
+    El nombre de host que desea asignar a los clientes en la red local con la dirección IP especificada.
 
-Description
-    An optional description to identify the system.
+Descripción
+    Una descripción opcional para identificar en el sistema.
 
-IP Address
-    The IP address you want to assign.
+Dirección IP
+    La dirección IP que desea asignar.
 
-MAC Address
-    The MAC address of the network system (eg
+Dirección MAC
+    La dirección MAC del sistema de red (por ejemplo,
     11:22:33:44:55:66:77:88).
