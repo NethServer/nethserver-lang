@@ -1,26 +1,28 @@
-================
-Firewall objects
-================
+====================
+Objetos del Firewall
+====================
 
-Firewall objects ease the creation of firewall rules.
-An object can be used in any number of rule.
+Objetos Firewall facilitan la creación de reglas de firewall.
+
+Un objeto puede ser utilizado en cualquier número de regla.
 
 Hosts
 =====
 
-A host represent is a machine with an IP address.
-It can be local or remote.
-When rules are written to file,
-the host object will be translated in its own IP address.
+Un host representa a una máquina con una dirección IP. Puede ser local ó remota.
+Cuando las reglas se escriben en un archivo, el host se traducirá en su propia dirección IP.
 
-Name
-    Name identifier for the host.
+Nombre
+ 
+     Identificador de nombre para el host.
 
-IP address
-    IP address of the host. 
+Dirección IP
+ 
+     Dirección IP del host.
 
-Description
-    Optional description.
+Descripción
+ 
+     Descripción opcional.
 
 Host groups
 ===========
