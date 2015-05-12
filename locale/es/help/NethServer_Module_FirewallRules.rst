@@ -1,5 +1,5 @@
 ======================
-Las reglas de firewall
+Reglas del firewall
 ======================
 
 Las reglas de firewall describen lo que está permitido o bloqueado en el tráfico de la red.
@@ -40,17 +40,17 @@ Ping desde Internet
 
   Si se activa, las interfaces públicas (rojo) responderán a las solicitudes de ping (ACEPTAR).
   
-  Si se desactiva, las interfaces públicas (rojo) rechazaran las solicitudes de ping (SOLTAR).
+  Si se desactiva, las interfaces públicas (rojo) rechazaran las solicitudes de ping (DESCARTAR).
   
   Para simplificar la solución de problemas, se recomienda dejar el ping habilitado.
 
-Validación MAC (IP/MAC vinculante)
+Validación MAC (IP/MAC Asociada)
 
-  Si está activado, todo el tráfico de anfitriones en las interfaces de verdes y azules se verifica con una lista de IP con direcciones MAC asociadas.
+  Si está activado, todo el tráfico de los hosts en las interfaces verdes y azules se verifica con una lista de IP con direcciones MAC asociadas.
 
-  La asociación de IP / MAC se puede configurar mediante la página DHCP.
+  La asociación de IP/MAC se puede configurar mediante la página DHCP.
 
-Política de hosts sin IP / MAC de enlace (reserva DHCP)
+Política de hosts sin IP/MAC asociada (Reserva DHCP)
 
   Si la validación MAC está activado, seleccione la directiva de hosts sin reserva DHCP.
 
