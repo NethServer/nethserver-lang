@@ -1,15 +1,15 @@
-===================
-First configuration
-===================
+=====================
+Primera configuración
+=====================
 
-At the end of the installation, the administrator should provide some
-configuration parameters that could not be probed automatically.
+Al final de la instalación, el administrador debe proporcionar algunos parámetros de configuración que no pudieron
+ser probados automáticamente.
 
-At the bottom of every page the following buttons are displayed:
+En la parte inferior de cada página se muestran los siguientes botones:
 
-:guilabel:`Back`
-    Go to the previous page
+:guilabel:`Regresar`
+Ir a la página anterior
 
-:guilabel:`Next`
-    Saves the parameters and move to the next page
+:guilabel:`Siguiente`
+Guarda los parámetros y pasa a la página siguiente
 
