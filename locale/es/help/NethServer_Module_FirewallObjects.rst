@@ -2,7 +2,7 @@
 Objetos del Firewall
 ====================
 
-Objetos Firewall facilitan la creación de reglas de firewall.
+Los objetos del Firewall facilitan la creación de reglas en el firewall.
 
 Un objeto puede ser utilizado en cualquier número de regla.
 
@@ -24,103 +24,120 @@ Descripción
  
      Descripción opcional.
 
-Host groups
-===========
 
-A host group is a group of machines with an IP address.
-Hosts in a group should be homogeneous.
-For example, a list of hosts with public addresses, or
-a group of machines inside the LAN.
+Grupos de hosts
+===============
 
-Name
-    Name identifier for the host group.
+Un grupo de hosts es un grupo de máquinas con una dirección IP. Los hosts de un grupo deben ser homogéneos.
+Por ejemplo, una lista de hosts con direcciones públicas, o un grupo de máquinas dentro de la red local.
 
-Members
-   List of host object. Host objects must be created
-   inside the Hosts tab before use inside a group.
+Nombre
 
-Description
-    Optional description.
+    Identificador de nombre para el grupo anfitrión.
 
-CIDR subnets
+Miembros
+
+   Lista de objeto host. Los objetos de host deben crearse dentro de la pestaña Hosts antes de su uso dentro de un grupo.
+
+Descripción
+    
+    Descripción opcional.
+
+Subredes CIDR
+=============
+
+Un conjunto de hosts dentro de una red expresada en formato CIDR.
+
+Ejemplos:
+
+* 10.0.0.0/24: 254 direcciones de 10.0.0.0 a 10.0.0.255
+* 192.168.1.8/29: 6 direcciones de 192.168.1.8 a 192.168.1.15
+
+Nombre
+
+    Nombre identificador de la subred.
+
+Red
+
+    Red en la notación CIDR.
+
+Descripción
+
+    Descripción opcional.
+
+Rangos de IP
 ============
 
-A set of hosts inside a network expressed in CIDR format.
+Una lista de los hosts dentro de una red expresada en formato de rango de IP.
 
-Examples:
-
-* 10.0.0.0/24: 254 addresses, from 10.0.0.0 to 10.0.0.255
-* 192.168.1.8/29: 6 addresses, from 192.168.1.8 to 192.168.1.15
-
-Name
-    Name identifier for the subnet.
-
-Network
-    Network in CIDR notation.
-
-Description
-    Optional description.
-
-IP ranges
-=========
-
-A list of hosts inside a network expressed in IP range format.
-
-Examples:
+Ejemplos:
 
 * 10.0.0.1-10.0.0.21: 21 hosts
 * 192.168.1.8-192.168.1.10: 2 hosts
 
-Name
-    Name identifier for the range.
+Nombre
 
-Start IP
-    First IP of the range.
+    Identificador de nombre para el rango.
 
-End IP
-    Last IP of the range.
+IP Inicio
 
-Description
-    Optional description.
+    Primera IP del rango.
+
+IP Final
+
+    Última IP del rango.
+
+Descripción
+
+    Descripción opcional.
 
 
-Services
-========
+Servicios
+=========
 
-A service is the representation of a network software responding
-to a port with a specific protocol.
-For example, SSH and DNS are services:
+Un servicio es la representación de un software de red que responde a un puerto con un protocolo específico.
 
-* SSH: protocol TCP, port 22
-* HTTP: protocol UDP, port 53
+Por ejemplo, SSH y DNS son servicios:
 
-Name
-    Name identifier for the service.
+* SSH: protocolo TCP, puerto 22
+* HTTP: UDP protocolo, puerto 53
 
-Protocol
-   Select one of the available protocols.
+Nombre
 
-Ports
-   An integer representing a port, or a list of integers separated by commas.
+    Identificador de nombre para el servicio.
 
-Description
-    Optional description.
+Protocolo
 
-Zones
+   Seleccione uno de los protocolos disponibles.
+
+Puertos
+
+   Un numero entero que representa a un puerto, ó a una lista de números enteros separados por comas.
+
+Descripción
+
+    Descripción opcional.
+
+Zonas
 =====
 
-A zone is a group of host identified with a network address in CIDR format (Classless Inter-Domain Routing).
-For example, given the CIDR network 192.168.1.0/29, it represents all hosts
-from 192.168.1.2 to 192.168.1.6, where 192.168.1.1 is the gateway and 192.168.1.7 is the broadcast.
+Una zona es un grupo de host identificado con una dirección de red en formato CIDR (Classless Inter-Domain Routing).
 
-Name
-    Name identifier for the zone. Max 5 characters.
+Por ejemplo, dada la red CIDR 192.168.1.0/29, que representa a todos los hosts desde 192.168.1.2 a 192.168.1.6,
+192.168.1.1, donde es la puerta de entrada y 192.168.1.7 es la salida.
 
-Network
-    A network in CIDR format.
+Nombre
 
-Interface
-    The interface where the hosts are connected.
+    Nombre identificador para la zona. Max 5 caracteres.
 
-Description
-    Optional description.
+Red
+
+    Una red en formato CIDR.
+
+Interfaz
+
+    La interfaz donde se conectan los hosts.
+
+Descripción
+    
+    Descripción opcional.
