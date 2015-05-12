@@ -30,7 +30,7 @@ Servicios
 
 Habilitar los servicios disponibles para el nuevo grupo.
 
-Email
+Correo
 
     Habilitar el buzón para el grupo.
 
