@@ -1,90 +1,104 @@
-==============
-Firewall rules
-==============
+======================
+Las reglas de firewall
+======================
 
-Firewall rules describe what network traffic is allowed or blocked. 
-The packets traversing the firewall's zones are analyzed accordingly 
-to existing rules.
-The first rule that matches the criteria is applied. 
+Las reglas de firewall describen lo que está permitido o bloqueado en el tráfico de la red.
 
-From the main page you can reorder the rules simply by dragging them. 
+Los paquetes que atraviesan las zonas del firewall se analizan en consecuencia a las reglas existentes.
 
-This page also contains three buttons: 
+La primera regla que coincide con los criterios se aplica.
 
-* Create a rule at the bottom 
-* Create a rule to the top 
-* Configure
+Desde la página principal se puede cambiar el orden de las reglas simplemente arrastrándolos.
 
-When all desired changes have been completed, click the
-:guilabel:`Apply Changes` button to apply the rules.
+En esta página también contiene tres botones:
 
-Configure
-=========
+* Crear una regla en la parte inferior
+* Creación de una regla en la parte superior
+* Configurar
 
-Configure basic firewall policies.
+Cuando se hayan completado todos los cambios deseados, haga clic en el
+:guilabel: botón "Aplicar Cambios" para aplicar las reglas.
 
-Traffic to Internet red interface
-  Possible choices are:
+Configurar
+==========
+
+Configurar las políticas básicas de firewall.
+
+Tráfico de interfaz de red de Internet
+
+  Las opciones posibles son:
     
-  * *Allowed*: all traffic from LAN (green) to Internet (red) is enabled by default.
+  **Permitido*: todo el tráfico de LAN (verde) a Internet (red) está activada por defecto.
   
-  * *Blocked*: all traffic from LAN (green) to Internet (red) is disabled by default.
+  **Bloqueado*: todo el tráfico de LAN (verde) a Internet (rojo) está desactivado por defecto.
     
-    In this case, you must explicitly create rules for all services
-    which need to be allowed. For example, a rule that allows web
-    traffic (ports 80 and 443) from green to red.
+    En este caso, debe crear explícitamente reglas para todos los servicios que necesita ser permitido. 
+    
+    Por ejemplo, una regla que permita el tráfico web por los (puertos 80 y 443) de verde a rojo.
 
-Ping from Internet
-  If enabled, public interfaces (red) will respond to ping requests (ACCEPT). 
-  If disabled, public interfaces (red) will discard ping requests (DROP).
+Ping desde Internet
+
+  Si se activa, las interfaces públicas (rojo) responderán a las solicitudes de ping (ACEPTAR).
   
-  To simplify troubleshooting, it is recommended to leave the ping enabled.
+  Si se desactiva, las interfaces públicas (rojo) rechazaran las solicitudes de ping (SOLTAR).
+  
+  Para simplificar la solución de problemas, se recomienda dejar el ping habilitado.
 
-MAC validation (IP/MAC binding)
-  If enabled, all traffic from hosts in green and blue interfaces is verified against a list of IP with associated MAC addresses.
-  The IP/MAC association can be configured using the DHCP page.
+Validación MAC (IP/MAC vinculante)
 
-Policy for hosts without IP/MAC binding (DHCP reservation)
-  If MAC validation is enabled, select the policy for hosts without DHCP reservation.
+  Si está activado, todo el tráfico de anfitriones en las interfaces de verdes y azules se verifica con una lista de IP con direcciones MAC asociadas.
 
-Create / Edit
+  La asociación de IP / MAC se puede configurar mediante la página DHCP.
+
+Política de hosts sin IP / MAC de enlace (reserva DHCP)
+
+  Si la validación MAC está activado, seleccione la directiva de hosts sin reserva DHCP.
+
+Crear / Editar
 =============
 
-When creating and editing rules, you can create the following types of firewall objects: 
+Al crear y reglas de edición, puede crear los siguientes tipos de objetos de firewall:
 
-* Host 
-* Host groups 
-* Zone 
-* Services 
+* Host
+* Grupos de host
+* Zona
+* Servicios
 
-Each rule consists of the following fields. 
+Cada regla se compone de los siguientes campos.
 
-Enabled 
-     Enable or disable the rule. 
-     A disabled rule is not saved in the configuration file. 
+Activado
+     
+     Activar o desactivar la regla.
+     
+     Una regla desactivada no se guarda en el archivo de configuración.
 
-Action 
-     The action to take if the packet matches the criteria of the rule. 
-     The possible actions are: 
+Acción
 
-     * *Accept*: accept the network traffic 
-     * *Reject*: block the traffic and notify the sender host 
-     * *Drop*: block the traffic, packets are dropped and not
-       notification is sent to the sender host
+     La acción a tomar si el paquete coincide con los criterios de la regla.
 
-Source
-    It's the source of the traffic, it can be: a host, a group of hosts or a zone.
+     Las acciones posibles son:
 
-Destination
-    It's the destination of the traffic, it can be: a host, a group of hosts or a zone.
+     **Aceptar*: aceptar el tráfico de la red
+     **Rechazar*: bloquear el tráfico y notificar al host remitente
+     **Soltar*: bloquea el tráfico, los paquetes se caeran y no enviara notificación al host remitente
 
-Service
-    A service network consisting of protocol and port (optional).
+Fuente
 
-Write to log if this rule matches
-    If enabled, all matched packets will be recorded in the log file
+    Es el origen del tráfico, puede ser: un host, un grupo de hosts ó una zona.
+
+Destino
+
+    Es el destino del tráfico, puede ser: un host, un grupo de hosts ó una zona.
+
+Servicio
+
+    Una red de servicio que consta de protocolo y el puerto (opcional).
+
+Escribe para registrar si esta regla coincide
+
+    Si se activa, todos los paquetes coincidentes serán registrados en el archivo de registro
     :file:`/var/log/firewall.log`.
 
-Description
-    Optional description.
+Descripción
 
+    Descripción opcional.
