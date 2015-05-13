@@ -119,7 +119,7 @@ BuildArch: noarch
 NethServer Spanish language support (es)
 
 %package fr
-Summary: Greek support
+Summary: French support
 BuildArch: noarch
 %files fr -f fr.lang
 %description fr
