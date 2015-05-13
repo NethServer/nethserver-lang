@@ -1,21 +1,21 @@
 <?php
 
-$L['Pki_Title'] = 'Server certificate';
-$L['Pki_Description'] = 'Manage SSL server certificate';
-$L['Pki_Tags'] = 'SSL certificate PKI TLS X509';
-$L['Pki_Show_header'] = 'Server certificate';
-$L['Pki_Generate_header'] = 'Generate a new certificate';
-$L['GenerateLink_label'] = 'New certificate';
-$L['Generate_label'] = 'Generate certificate';
+$L['Pki_Title'] = 'Server Zertifikate';
+$L['Pki_Description'] = 'Verwalte SSL Server Zertifikate';
+$L['Pki_Tags'] = 'SSL Zertifikat PKI TLS X509';
+$L['Pki_Show_header'] = 'Server Zertifikate';
+$L['Pki_Generate_header'] = 'neues Zertifikat erstellen';
+$L['GenerateLink_label'] = 'neues Zertifikat';
+$L['Generate_label'] = 'Zertifikat generieren';
 
-$L['C_label'] = 'Country code';
-$L['ST_label'] = 'State';
+$L['C_label'] = 'Ländercode';
+$L['ST_label'] = 'Staat';
 $L['L_label'] = 'Locality';
-$L['O_label'] = 'Organization';
-$L['OU_label'] = 'Organizational unit';
+$L['O_label'] = 'Organisation';
+$L['OU_label'] = 'Organisationseinheit';
 $L['CN_label'] = 'Common name';
-$L['EmailAddress_label'] = 'Email address';
-$L['SubjectAltName_label'] = 'Alternative names';
-$L['CertificateDuration_label'] = 'Certificate validity (days)';
+$L['EmailAddress_label'] = 'eMail Adresse';
+$L['SubjectAltName_label'] = 'Alternative Namen';
+$L['CertificateDuration_label'] = 'Zertifikatsgültigkeit (Tage)';
 $L['valid_hostname_instance'] = '"${0}" is an invalid host name';
 $L['valid_x509_field'] = 'Must not contain "," and "/"';

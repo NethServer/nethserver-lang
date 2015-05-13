@@ -12,3 +12,6 @@ $L['Router_label'] = 'Indirizzo router';
 $L['SystemLocalNetwork_label'] = 'Rete di sistema'; 
 $L['Update network `${0}`'] = 'Aggiorna rete `${0}`'; 
 $L['network_label'] = 'Indirizzo rete'; 
+$L['invalid_network'] = 'Indirizzo di rete non valido';
+$L['used_network'] = 'Rete già utilizzata';
+

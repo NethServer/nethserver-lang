@@ -21,3 +21,7 @@ $L['BridgeStartIP_label'] = ' Inicio del rango IP';
 $L['BridgeEndIP_label'] = 'Fin del rango de IP';
 $L['RoutedAdvanced_label'] = 'Avanzado';
 $L['Compression_label'] = 'Habilitar compresión LZO';
+$L['Bridge_label'] = 'Bridge';
+$L['port_label'] = 'UDP port';
+$L['AdvancedConfiguration_label'] = 'Advanced configuration';
+$L['used_network'] = 'Network already in use';

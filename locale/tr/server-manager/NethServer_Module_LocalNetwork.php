@@ -12,3 +12,6 @@ $L['Router_label'] = 'Yöneltici adresi';
 $L['SystemLocalNetwork_label'] = 'Sistem ağı'; 
 $L['Update network `${0}`'] = '`${0}` ağını güncelle'; 
 $L['network_label'] = 'Ağ adresi'; 
+$L['invalid_network'] = 'Ağ adresi geçersiz';
+$L['used_network'] = 'Ağ zaten kullanılıyor';
+

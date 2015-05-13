@@ -21,3 +21,7 @@ $L['BridgeStartIP_label'] = 'Έναρξη εμβέλειας ΙP';
 $L['BridgeEndIP_label'] = 'Λήξη εμβέλειας IP';
 $L['RoutedAdvanced_label'] = 'Για προχωρημένους';
 $L['Compression_label'] = 'Ενεργοποίηση συμπίεσης LZO';
+$L['Bridge_label'] = 'Bridge';
+$L['port_label'] = 'UDP port';
+$L['AdvancedConfiguration_label'] = 'Advanced configuration';
+$L['used_network'] = 'Network already in use';

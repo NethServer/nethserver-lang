@@ -21,3 +21,7 @@ $L['BridgeStartIP_label'] = 'IP aralığı başlangıcı';
 $L['BridgeEndIP_label'] = 'IP aralığı sonu';
 $L['RoutedAdvanced_label'] = 'Gelişmiş';
 $L['Compression_label'] = 'LZO sıkıştırması kullanılsın';
+$L['Bridge_label'] = 'Köprü';
+$L['port_label'] = 'UDP kapısı';
+$L['AdvancedConfiguration_label'] = 'Gelişmiş ayarlar';
+$L['used_network'] = 'Ağ zaten kullanılıyor';

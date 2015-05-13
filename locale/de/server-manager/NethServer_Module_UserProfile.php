@@ -1,15 +1,15 @@
 <?php 
 
-$L['BasicInfo_Title'] = 'Basic informations'; 
-$L['EmailAddress_label'] = 'External email address';
-$L['ExtraInfo_Title'] = 'Contact informations'; 
-$L['FirstName_label'] = 'First name'; 
-$L['LastName_label'] = 'Last name';
-$L['UserProfile_Description'] = 'Change user settings';
+$L['BasicInfo_Title'] = 'Basis informationen'; 
+$L['EmailAddress_label'] = 'externe eMail Adresse';
+$L['ExtraInfo_Title'] = 'Kontaktinformationen'; 
+$L['FirstName_label'] = 'Vorname'; 
+$L['LastName_label'] = 'Nachname';
+$L['UserProfile_Description'] = 'Benutzereinstellungen ändern';
 $L['UserProfile_Header'] = '${0} user\'s profile';
 $L['UserProfile_Tags'] = 'user profile preferences city address email phone';
-$L['Company_label']  = 'Company';
+$L['Company_label']  = 'Firma';
 $L['Dept_label'] = 'Department'; 
-$L['Street_label'] = 'Street'; 
-$L['City_label'] = 'City'; 
-$L['Phone_label'] = 'Phone'; 
+$L['Street_label'] = 'Straße'; 
+$L['City_label'] = 'Stadt'; 
+$L['Phone_label'] = 'Telefon'; 

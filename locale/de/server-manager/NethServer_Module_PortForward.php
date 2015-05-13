@@ -2,29 +2,29 @@
 
 /* NethServer_Module_PortForward translation, language: en */
 
-$L['Allow_label'] = 'Allow only from';
-$L['check-rules_Header'] = 'Check firewall rules';
-$L['CheckRules_label'] = 'Check firewall';
-$L['create_header_label'] = 'Create port forward';
-$L['Description_label'] = 'Description';
-$L['disable_label'] = 'Disable';
-$L['DstHost_label'] = 'Destination host';
-$L['DstRaw_label'] = 'Destination host';
-$L['Dst_label'] = 'Destination port';
-$L['enable_label'] = 'Enable';
+$L['Allow_label'] = 'Erlaube nur von';
+$L['check-rules_Header'] = 'Kontrolliere Firewallregeln';
+$L['CheckRules_label'] = 'überprüfe Firewall';
+$L['create_header_label'] = 'Erstelle Portweiterleitung';
+$L['Description_label'] = 'Beschreibung';
+$L['disable_label'] = 'deaktivieren';
+$L['DstHost_label'] = 'Zielhost';
+$L['DstRaw_label'] = 'Zielhost';
+$L['Dst_label'] = 'Zielport';
+$L['enable_label'] = 'aktivieren';
 $L['Key_label'] = 'Id';
-$L['PortForward_Description'] = 'Manage port forwarding';
+$L['PortForward_Description'] = 'Verwalte Portweiterleitung';
 $L['PortForward_Tags'] = 'port portforward forward hairpin';
-$L['PortForward_Title'] = 'Port Forwarding';
+$L['PortForward_Title'] = 'Portweiterleitung';
 $L['Proceed with port forward disable?'] = 'Proceed with port forward disable?';
 $L['Proceed with port forward enable?'] = 'Proceed with port forward enable?';
-$L['Proto_label'] = 'Protocol';
+$L['Proto_label'] = 'Protokoll';
 $L['Src_label'] = 'Origin port';
 $L['tcp_label'] = 'TCP';
-$L['update_header_label'] = 'Edit port forward';
+$L['update_header_label'] = 'Bearbeite Portweiterleitungen';
 $L['udp_label'] = 'UDP';
 $L['tcp,udp_label'] = 'TCP,UDP';
-$L['OriDst_label'] = "WAN IP (red interface)";
+$L['OriDst_label'] = "WAN IP (rote Schnittstelle)";
 $L['any_label'] = "Any";
 $L['PickDestination_label'] = 'Pick destination...';
 $L['HairpinNat_label'] = 'Hairpin NAT';

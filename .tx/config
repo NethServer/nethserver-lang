@@ -30,6 +30,11 @@ source_file = locale/en/LC_MESSAGES/nethserver-firewall-base.pot
 source_lang = en
 type = PO
 
+[nethserver.nethserver-passwordpot]
+file_filter = locale/<lang>/LC_MESSAGES/nethserver-password.po
+source_file = locale/en/LC_MESSAGES/nethserver-password.pot
+source_lang = en
+type = PO
 
 
 #
@@ -132,9 +137,9 @@ source_file = locale/en/server-manager/NethServer_Module_Dashboard_Duc.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
-[nethserver.Dashboard_IPS]
-file_filter = locale/<lang>/server-manager/NethServer_Module_Dashboard_IPS.php
-source_file = locale/en/server-manager/NethServer_Module_Dashboard_IPS.php
+[nethserver.IPSStatus]
+file_filter = locale/<lang>/server-manager/NethServer_Module_IPSStatus.php
+source_file = locale/en/server-manager/NethServer_Module_IPSStatus.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
@@ -636,6 +641,12 @@ source_file = locale/en/server-manager/NethServer_Module_User_Plugin_Ssh.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
+[nethserver.User_Plugin_Password]
+file_filter = locale/<lang>/server-manager/NethServer_Module_User_Plugin_Password.php
+source_file = locale/en/server-manager/NethServer_Module_User_Plugin_Password.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
 [nethserver.UserProfile]
 file_filter = locale/<lang>/server-manager/NethServer_Module_UserProfile.php
 source_file = locale/en/server-manager/NethServer_Module_UserProfile.php
@@ -687,6 +698,18 @@ type = PHP_ALT_ARRAY
 [nethserver.Workgroup]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Workgroup.php
 source_file = locale/en/server-manager/NethServer_Module_Workgroup.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.DdClient]
+file_filter = locale/<lang>/server-manager/NethServer_Module_DcClient.php
+source_file = locale/en/server-manager/NethServer_Module_DdClient.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.Password]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Password.php
+source_file = locale/en/server-manager/NethServer_Module_Password.php
 source_lang = en
 type = PHP_ALT_ARRAY
 

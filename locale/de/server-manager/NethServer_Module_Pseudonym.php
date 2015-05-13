@@ -1,20 +1,20 @@
 <?php 
 
-$L['Access_label'] = 'Local network only'; 
-$L['Account_label'] = 'Account'; 
-$L['Create a new pseudonym'] = 'Create a new pseudonym'; 
-$L['Current_label'] = 'Current selection'; 
-$L['Description_label'] = 'Description'; 
+$L['Access_label'] = 'Nur Lokales Netzwerk '; 
+$L['Account_label'] = 'Benutzerkonto'; 
+$L['Create a new pseudonym'] = 'Erzeuge neues Pseudonym'; 
+$L['Current_label'] = 'Aktuelle Auswahl'; 
+$L['Description_label'] = 'Beschreibung'; 
 $L['Edit pseudonym `${0}`'] = 'Edit pseudonym `${0}`'; 
 $L['Flag_label'] = 'Attributes'; 
-$L['Groups_label'] = 'Groups'; 
-$L['Key_label'] = 'Email'; 
+$L['Groups_label'] = 'Gruppen'; 
+$L['Key_label'] = 'eMail'; 
 $L['Pseudonym_Description'] = 'Manage email addresses for user and group accounts'; 
 $L['Pseudonym_Tags'] = 'email alias account electronic mail forward'; 
-$L['Pseudonym_Title'] = 'Email addresses'; 
-$L['Users_label'] = 'Users'; 
+$L['Pseudonym_Title'] = 'eMail Adressen'; 
+$L['Users_label'] = 'Benutzer'; 
 $L['domainAddress_label'] = 'Domain'; 
-$L['localAddress_label'] = 'Email address'; 
-$L['pseudonym_label'] = 'Email address';
+$L['localAddress_label'] = 'eMail Adresse'; 
+$L['pseudonym_label'] = 'eMail Adresse';
 $L['valid_pseudonym_unique'] = 'This address already exists';
 $L['ANY_DOMAIN'] = '[all domains]';

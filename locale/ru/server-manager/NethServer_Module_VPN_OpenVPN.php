@@ -21,3 +21,7 @@ $L['BridgeStartIP_label'] = 'Начало интервала IP';
 $L['BridgeEndIP_label'] = 'Окончание интервала IP';
 $L['RoutedAdvanced_label'] = 'Расширенные';
 $L['Compression_label'] = 'Разрешить сжатие LZO';
+$L['Bridge_label'] = 'Мост';
+$L['port_label'] = 'UDP порт';
+$L['AdvancedConfiguration_label'] = 'Расширенная настройка';
+$L['used_network'] = 'Network already in use';

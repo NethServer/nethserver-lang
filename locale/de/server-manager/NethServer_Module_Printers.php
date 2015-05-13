@@ -1,5 +1,5 @@
 <?php 
 
-$L['Printers_Title'] = 'Printers';
-$L['Printers_Description'] = 'Manage printers';
-$L['Printers_Tags'] = 'print printer cups';
+$L['Printers_Title'] = 'Drucker';
+$L['Printers_Description'] = 'Druckerverwaltung';
+$L['Printers_Tags'] = 'druck drucker cups';

@@ -1,6 +1,6 @@
 <?php
 
 $L['VPN_Title'] = 'VPN';
-$L['VPN_Tags'] = 'VPN vpn virtual private network';
-$L['VPN_Description'] = 'Configure VPN servers and clients';
-$L['VPN_Tags'] = 'VPN vpn virtual private network';
+$L['VPN_Tags'] = 'VPN vpn virtuelles privates Netzwerk';
+$L['VPN_Description'] = 'Konfiguriere VPN Server und Clients';
+$L['VPN_Tags'] = 'VPN vpn virtuelles privates Netzwerk';

@@ -1,5 +1,5 @@
 <?php
 
-$L['ssh_label'] = 'Remote shell (SSH)';
+$L['ssh_label'] = 'Remote Shell (SSH)';
 $L['Ssh_Tags'] = 'remote shell ssh';
 
