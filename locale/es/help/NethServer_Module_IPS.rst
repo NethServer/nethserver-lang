@@ -2,19 +2,21 @@
 IPS
 ===
 
-Configure the IPS (Intrusion Prevention System) behavior. 
-The IPS will analyze all traffic through the firewall, looking for 
-possible attacks and policy violations. 
+Configurar el comportamiento del IPS (Intrusion Prevention System).
 
-Depending on the configuration, the IPS can report a threat or block involved traffic.
+El IPS analizará todo tráfico a través del firewall, en busca de posibles ataques y violaciónes de las política.
 
-Enabled/Disabled
-    Enable or disable the IPS
+Dependiendo de la configuración, el IPS puede reportar una amenaza o bloquear el tráfico de los involucrados.
 
-Rule policy
-   Select the group of rules to be applied. There are 4 policy: 
+Habilitado / Deshabilitado
 
-   * Connectivity: check a large number of vulnerabilities, it does not impact on non-realtime applications (eg VoIP) 
-   * Balanced: suitable for most scenarios, it is a good compromise between security and usability (recommended) 
-   * Security: safe mode but very invasive, may impact on chat applications and peer-to-peer 
-   * Expert: the administrator must manually select the rules from the command line
+     Activar o desactivar el IPS
+
+Regla de política
+
+    Seleccione el grupo de reglas que deben aplicarse. Hay 4 Política:
+
+* Conectividad: controlar un gran número de vulnerabilidades, que no afecta a las aplicaciones en tiempo no real (por ejemplo, VoIP)
+* Balanceado: conveniente para la mayoría de los escenarios, es un buen equilibrio entre la seguridad y la facilidad de uso (recomendado)
+* Seguridad: el modo seguro pero muy invasivo, pueda afectar a las aplicaciones de chat y punto-a-punto
+* Experto: el administrador debe seleccionar manualmente las reglas de la línea de comandos
