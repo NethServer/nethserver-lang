@@ -1,34 +1,44 @@
 =========
-IAX Modem
+Módem IAX
 =========
 
-This page allows you to configure IAX modems.
+Esta página le permite configurar los módems IAX.
 
-An IAX modem is a software modem that uses an IAX channel (usually 
-provided by an Asterisk PBX) instead of a traditional telephone line.
+Un módem IAX es un módem de software que utiliza un canal IAX (normalmente proporcionada por una centralita Asterisk)
+en lugar de una línea telefónica tradicional.
 
 
-Create / Modify
-===============
+Crear / Modificar
+=================
 
-Name
-    Name the new IAX modem that you are creating.
+Nombre
+ 
+     Nombre el nuevo módem IAX que está creando.
 
-Server IP
-    IP address of the server on which the IAX modem registers (eg IP address of the Asterisk server).
+IP del servidor
+ 
+     Dirección IP del servidor en el que los registros de módem IAX (por ejemplo, dirección IP del servidor de Asterisk).
 
-Extension
-    IAX extension on which you want to receive faxes.
+Extensión
 
-Password 
-    IAX extension password defined previously.
+     Extensión IAX en el que desea recibir faxes.
 
-Caller ID
-    Caller ID (number) shown in the outgoing faxes.
+Contraseña
 
-Caller Name
-    Caller name shown in the outgoing faxes.
-Mail 
-    Email address where incoming faxes are sent
-Mode
-    Define if modem is used to receive and send faxes, only send, or only receive
+     Define la contraseña de la extensión IAX creada previamente.
+
+Identificador de llamadas
+ 
+     Identificador de llamadas (número) que se muestra en los faxes salientes.
+
+Nombre del llamante
+   
+     Nombre del llamante se muestra en los faxes salientes.
+
+Correo
+
+     Dirección de correo electrónico a donde se envían los faxes entrantes
+
+Modo
+
+     Definir si el módem se utiliza para recibir y enviar faxes, sólo enviar ó sólo recibir.
