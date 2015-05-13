@@ -11,58 +11,65 @@ system for responding to requests for facebook.com with the IP address
 0.0.0.0, achieving the effect of making the Facebook site unreachable.
 
 
-DNS servers
-===========
+Servidores DNS
+==============
 
 Configure addresses of the DNS servers that
 the server will contact to resolve names.
 
-Primary DNS
+DNS Primario
+
     The address of the primary server to contact for resolving names (mandatory).
 
-Secondary DNS
+DNS Secundario
+   
     The address of the secondary server to be contacted in case the primary is not responding (optional).
 
 Hosts
 =====
 
-Create / Modify
----------------
+Crear / Modificar
+-----------------
 
 Click Create to assign a host name to an IP address. The
 server will return the IP address configured for requests of its name.
 
 
-Host Name
+Nombre de Host
+
     The domain name, for example www.nethesis.it. It's possible to create
     names for the local domain, which is useful for giving a mnemonic name to
     devices configured with static IP or for any domain,
     which take precedence over the provider's DNS server (see
     facebook.com example above).
 
-IP Address
+Dirección IP
+
     The IP address of the host name.
 
-Description
+Descripción
+
     An optional comment for the host name (example:
     "Block facebook" or "video server").
 
-Server alias
-============
+Alias del Servidor
+==================
 
 Aliases are alternate names for this server. For example, if the
 name of the server is *server.mycompany.com*, an alias may be
 *mail.mycompany.com*. The server will use its own IP address
 for the alias name.
 
-Create / Modify
----------------
+Crear / Modificar
+-----------------
 
 Allows you to create a new alias for this server.
 
-Host Name
+Nombre de Host
+
     The host name that you want to add or modify. It can contain only
     letters, numbers and hyphens, and must begin with a letter or a number.
 
-Description
+Descripción
+
     An optional description useful to identify the alias.
