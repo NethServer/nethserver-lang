@@ -1,6 +1,6 @@
-=====
-Email
-=====
+======
+Correo
+======
 
 Configure los servicios de correo electrónico
 
@@ -16,19 +16,24 @@ Agregar un dominio a la lista de los configurados para la recepción de correo e
 
 
 Dominio
-    El nombre de dominio, por ejemplo *nethesis.it*.
+
+    El nombre de dominio, por ejemplo: *nethesis.it*.
 
 Descripción
+
     Campo opcional útil para el administrador del sistema para tomar nota de la información del dominio.
 
 Entrega local 
+
     Seleccione esta opción para configurar el servidor para entregar correo entrante dirigido al dominio especificado en las carpetas locales.
 
 Reenviar a otro servidor
+
     Si selecciona esta opción, el correo entrante será transmitido al servidor especificado.
 
-Disclaimer (aviso legal)
-    Añadir automáticamente un mensaje legal (disclaimer) a todos los mensajes salientes (no dirigidos al dominio). 
+Aviso Legal
+
+    Añadir automáticamente un mensaje de Aviso Legal a todos los mensajes salientes (no dirigidos al dominio). 
 
 Borrar
 ------
@@ -42,18 +47,23 @@ Filtro
 Configure las opciones de filtrado de correo electrónico (antivirus, antispam, adjuntos prohibidos, etc.) 
 
 Antivirus
+
     Habilitar la detección de virus de correos electrónicos en tránsito. 
 
 Antispam
+
     Activar el análisis antispam de mensajes de correo electrónico entrantes. 
 
 Prefijo Spam 
+
     Este prefijo se agrega al objeto subyacente a los correos electrónicos reconocidos como spam.
 
 Bloqueo de archivos adjuntos
+
     El servidor de correo electrónico bloquea mensajes de correo electrónico que contengan archivos adjuntos del tipo especificado.
 
 Ejecutable
+
     El servidor de correo electrónico bloqueará programas ejecutables en archivos adjuntos de correo electrónico.
 
 Archivos
@@ -66,25 +76,29 @@ Lista personalizada
 Buzones
 =======
 
-
 En esta ficha, puede configurar algunos parámetros relacionados con las carpetas de correo locales.
 
 IMAP
+
     Habilitar el acceso a carpetas a través del protocolo IMAP (recomendado).
 
 POP3
+
     Habilitar el acceso a carpetas a través del protocolo POP3 (no recomendado).
 
 Permitir conexiones sin cifrar
+
     Permite habilitar el acceso a las carpetas que utilizan protocolos no encriptados (no recomendado).
 
 Espacio en disco
+
     Le permite limitar el uso del disco por correo electrónico.
     
     * Ilimitado: seleccionar de no imponer límites
     * Aplicar cuota: límite de espacio máximo de correo para cada usuario con el valor indicado (cuota de correo electrónico). 
 
 Movera la carpeta *junkmail* 
+
     Mensajes de correo electrónico identificado como spam se mueven a cada carpeta de usuario *Junkmail* en lugar de ser entregado a la bandeja de entrada.
 
 
@@ -94,31 +108,40 @@ Mensajes
 Configurar la gestión de mensajes de correo electrónico.
 
 Acepte el tamaño del mensaje a
+
     Utilice el cursor para seleccionar el tamaño máximo de cada mensaje de correo electrónico. El servidor rechazará el correo electrónico más grande que el valor establecido y devolverá un error explicativo.
 
 Vuelva a intentar el envío de
+
     Utilice el cursor para seleccionar el tiempo máximo durante el cual el servidor tratará de enviar un mensaje. Cuando llega el tiempo máximo y el correo electrónico no ha sido entregado, el remitente recibirá un error y el mensaje se elimina de la cola de envío, el servidor no intentará entregarlo.
 
 Always send a copy (Bcc)
+
     Send a blind carbon copy (Bcc) to the given email address for any message
     entering the mail system.
 
 Enviar usando un host inteligente
+
     El servidor intentará enviar correos electrónicos directamente a sudestino (recomendado en la mayoría de los casos). Selecciona en lugar de enviar a través de un host inteligente, se intentará entregar a través de la El servidor SMTP del ISP (se recomienda en caso de una conexión poco fiable o ADSL residencial, IP dinámica, etc.) 
 
 Nombre de host
+
     El nombre del servidor de correo del proveedor.
 
 Puerto
+
     El puerto del servidor de correo del proveedor.
 
 Nombre de usuario
+
     Si el servidor del proveedor requiere autenticación, especifique el nombre de usuario.
 
 Contraseña 
+
     La contraseña requerida por el proveedor.
 
 Permitir conexión no cifrada
+
     Normalmente, si se utiliza una conexión autenticada (con nombre de usuario y contraseña), se requiere una conexión cifrada para proteger la contraseña. Al seleccionar esta opción, se permite una conexión no segura para conectarse al proveedor (no se recomienda, utilizar solamente si el ISP tiene problemas).
 
 Gestión de Colas
