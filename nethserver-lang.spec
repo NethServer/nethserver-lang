@@ -1,4 +1,6 @@
 %define _unpackaged_files_terminate_build 0
+%define mmakedocs(l:) \
+   make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
 Version: 1.0.3
@@ -22,15 +24,23 @@ NethServer localization project
 
 %build
 
-%{makedocs}
 
 shopt -s nullglob
 
-for LD in locale/*/LC_MESSAGES; do
-   for F in $LD/*.po; do
+for D in locale/*; do
+   [ -d "${D}" ] || continue
+   L=$(basename ${D})
+   lang=${L:0:2}
+
+   pushd $D
+   %{makedocs} XML_LANG=${lang}
+   popd
+
+   for F in $D/LC_MESSAGES/*.po; do
      msgfmt -v $F -o ${F%%.po}.mo
    done
 done
+
 
 %install
 
