@@ -1,7 +1,7 @@
 %define _unpackaged_files_terminate_build 0
 
 Name: nethserver-lang
-Version: 1.0.2
+Version: 1.0.3
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -161,7 +161,19 @@ BuildArch: noarch
 NethServer Turkish language support (tr)
 
 
+%package sv
+Summary: Swedish support
+BuildArch: noarch
+%files sv -f sv.lang
+%description sv
+NethServer Swedish language support (sv)
+
+
 %changelog
+* Mon May 18 2015 Davide Principi <davide.principi@nethesis.it> - 1.0.3-1
+- Updated translations
+- Added sv_SE language
+
 * Mon May 04 2015 Davide Principi <davide.principi@nethesis.it> - 1.0.2-1
 - Added Turkish translations.
 - Pulled changes: de fr pt
