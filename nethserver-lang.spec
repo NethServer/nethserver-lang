@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.0.3
+Version: 1.0.4
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -186,6 +186,11 @@ NethServer Swedish language support (sv)
 
 
 %changelog
+* Tue May 19 2015 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.4-1
+- jQuery DateTime l10n - Enhancement #3147 [NethServer]
+- Password policy page - Feature #3125 [NethServer]
+- Select rst2html output language - Enhancement #2654 [NethServer]
+
 * Mon May 18 2015 Davide Principi <davide.principi@nethesis.it> - 1.0.3-1
 - Updated translations
 - Added sv_SE language
