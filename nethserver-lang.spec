@@ -91,6 +91,12 @@ for D in locale/*; do
        install -m 0644 -D $F %{buildroot}/usr/share/nethesis/${override:-Nethgui}/Language/$L/$(basename $F)
        echo "/usr/share/nethesis/${override:-Nethgui}/Language/$L/$(basename $F)" >> ${lang}.lang
    done
+
+   LD=$D/datepicker
+   if [ -f "$LD/jquery.ui.datepicker-${lang}.js" ]; then
+      install -m 0644 -D $LD/jquery.ui.datepicker-${lang}.js %{buildroot}/usr/share/nethesis/nethserver-manager/js/jquery.ui.datepicker-${lang}.js
+      echo "/usr/share/nethesis/nethserver-manager/js/jquery.ui.datepicker-${lang}.js" >> ${lang}.lang
+   fi
 done
 
 %package en
