@@ -48,6 +48,8 @@ $L['valid_platform,fwobject-zone-delete,fwobject-referenced,3'] = 'Impossible de
 $L['valid_platform,fwobject-fwservice-delete,fwobject-referenced,3'] = 'Impossible de supprimer ${2}. Le service est utilisé par une ou des règles du pare-feu.';
 $L['valid_platform,fwobject-host-delete,fwobject-referenced,3'] = 'Impossible de supprimer ${2}. L\'hôte est utilisé par une ou des règles du pare-feu.';
 $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'Impossible de supprimer ${2}. Le groupe d\'hôtes est utilisé par une ou des règles du pare-feu.';
+$L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The CIDR is used by firewall rules.';
+$L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The IP range is used by firewall rules.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Impossible de supprimer ${2}: c\'est le dernier membre du groupe d\'hôtes  ${${reason}}.';
 $L['valid_iprange_outofbounds'] = 'L\'adresse IP de début doit être inférieur à celle de fin';
 
@@ -57,6 +59,7 @@ $L['Cidr_create_label'] = 'Créer sous-réseau CIDR';
 $L['Cidr_update_label'] = 'Mettre à jour sous-réseau CIDR';
 $L['Cidr_key_exists_message'] = 'Un objet avec ce nom existe déjà dans la base de donnée des hôtes';
 $L['Cidr_CreateCidr_label'] = 'Créer réseau CIDR';
+$L['CidrKey_label'] = 'CIDR';
 
 $L['IpRange_Title'] = 'Plage d\'IP';
 $L['Start_label'] = 'IP départ';
@@ -65,3 +68,4 @@ $L['IpRange_create_label'] = 'Créer une plage d\'IP';
 $L['IpRange_update_label'] = 'Mettre à jour la plage d\'IP';
 $L['IpRange_key_exists_message'] = 'Un objet avec ce nom existe déjà dans la base de donnée des hôtes';
 $L['IpRange_CreateIpRange_label'] = 'Créer une plage d\'IP';
+$L['IpRangeKey_label'] = 'IP range';

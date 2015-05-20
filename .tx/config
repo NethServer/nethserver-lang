@@ -36,6 +36,12 @@ source_file = locale/en/LC_MESSAGES/nethserver-password.pot
 source_lang = en
 type = PO
 
+[nethserver.nethserver-directorypot]
+file_filter = locale/<lang>/LC_MESSAGES/nethserver-directory.po
+source_file = locale/en/LC_MESSAGES/nethserver-directory.pot
+source_lang = en
+type = PO
+
 
 #
 # PHP arrays

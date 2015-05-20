@@ -8,6 +8,6 @@ $L['StaticRoutes_Description'] = 'Configure static routes';
 $L['StaticRoutes_Tags'] = 'static routes route network router address mask'; 
 $L['StaticRoutes_Title'] = 'Statische Route'; 
 $L['Mask_label'] = 'Netzwerkmaske'; 
-$L['Router_label'] = 'Router address'; 
+$L['Router_label'] = 'Router Adresse'; 
 $L['Update static ${0}`'] = 'Update static route `${0}`'; 
 $L['network_label'] = 'Netzwerkadresse'; 

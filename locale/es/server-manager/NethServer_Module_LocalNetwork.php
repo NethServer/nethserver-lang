@@ -12,6 +12,6 @@ $L['Router_label'] = 'Dirección del enrutador';
 $L['SystemLocalNetwork_label'] = 'Red del sistema'; 
 $L['Update network `${0}`'] = 'Actualizar red  `${0}` '; 
 $L['network_label'] = 'Dirección de red'; 
-$L['invalid_network'] = 'Invalid network address';
-$L['used_network'] = 'Network already in use';
+$L['invalid_network'] = 'Dirección de red inválida';
+$L['used_network'] = 'Red ya están en uso';
 

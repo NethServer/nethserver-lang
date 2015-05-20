@@ -48,6 +48,8 @@ $L['valid_platform,fwobject-zone-delete,fwobject-referenced,3'] = 'Não é poss�
 $L['valid_platform,fwobject-fwservice-delete,fwobject-referenced,3'] = 'Não é possível apagar ${2}. O serviço está em uso pelas regras da firewall';
 $L['valid_platform,fwobject-host-delete,fwobject-referenced,3'] = 'Não é possível apagar ${2}. A máquina está em uso pelas regras da firewall';
 $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'Não é possível apagar ${2}. O grupo de máquinas está em uso pelas regras da firewall';
+$L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The CIDR is used by firewall rules.';
+$L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The IP range is used by firewall rules.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Não é possível apagar ${2}. é o ultimo membro do grupo de máquinas ${${reason}}.';
 $L['valid_iprange_outofbounds'] = 'O IP inicial tem que ser menor do que o final';
 
@@ -57,6 +59,7 @@ $L['Cidr_create_label'] = 'Nova sub-rede CIDR';
 $L['Cidr_update_label'] = 'Actualizar sub-rede CIDR';
 $L['Cidr_key_exists_message'] = 'Já existe um objecto com o mesmo nome na base de dados de máquinas';
 $L['Cidr_CreateCidr_label'] = 'Nova rede CIDR';
+$L['CidrKey_label'] = 'CIDR';
 
 $L['IpRange_Title'] = 'Gamas de IP';
 $L['Start_label'] = 'IP inicial';
@@ -65,3 +68,4 @@ $L['IpRange_create_label'] = 'Nova gama de IP\'s';
 $L['IpRange_update_label'] = 'Actualizar gama de IP\'s';
 $L['IpRange_key_exists_message'] = 'Já existe um objecto com o mesmo nome na base de dados de máquinas';
 $L['IpRange_CreateIpRange_label'] = 'Nova gama de IP\'s';
+$L['IpRangeKey_label'] = 'IP range';

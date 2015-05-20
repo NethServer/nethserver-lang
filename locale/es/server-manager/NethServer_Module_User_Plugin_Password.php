@@ -1,2 +1,2 @@
 <?php
-$L['PassExpires_label'] = 'Password Expiration';
+$L['PassExpires_label'] = 'Caducidad de la contraseña';

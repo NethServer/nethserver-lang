@@ -1,5 +1,5 @@
 <?php 
 
-$L['BackupConfig_Description'] = 'Manage configuration backup';
-$L['BackupConfig_Tags'] = 'backup configuration automatic restore config';
-$L['BackupConfig_Title'] = 'Backup (configuration)';
+$L['BackupConfig_Description'] = 'Hantera säkerhetskopiering av konfigurationen';
+$L['BackupConfig_Tags'] = 'säkerhetskonfiguration automatisk återställningskonfiguration';
+$L['BackupConfig_Title'] = 'Säkerhetskopiera (konfigurationen)';

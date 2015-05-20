@@ -1,12 +1,12 @@
 <?php 
 
-$L['NethServer_Welcome_Header'] = 'Welcome to NethServer'; 
-$L['Welcome_Description'] = 'Welcome page'; 
-$L['Welcome_Tags'] = 'welcome'; 
-$L['Welcome_Title'] = 'Welcome';
-$L['Welcome_Body'] = 'ATTENTION: this is an ALPHA relase! NethServer is based on SME Server and CentOS. See official site for further details.';
-$L['License'] = 'License';
-$L['Links'] = 'Links';
-$L['official_site'] = 'NethServer official site';
-$L['technical_documentation'] = 'Technical documentation';
+$L['NethServer_Welcome_Header'] = 'Välkommen till NethServer'; 
+$L['Welcome_Description'] = 'Välkomstsida'; 
+$L['Welcome_Tags'] = 'välkommen'; 
+$L['Welcome_Title'] = 'Välkommen';
+$L['Welcome_Body'] = 'WARNING: detta är en APLHA release! NethServer är baserad på SME Server och CentOS. Se på den officiella sidan för mer information.';
+$L['License'] = 'Licens';
+$L['Links'] = 'Länkar';
+$L['official_site'] = 'NethServer officiella sida';
+$L['technical_documentation'] = 'Tekniskdokumentation';
  

@@ -1,7 +1,7 @@
 <?php 
 
 $L['Action_poweroff_label'] = 'Ausschalten'; 
-$L['Action_reboot_label'] = 'Neu Starten'; 
+$L['Action_reboot_label'] = 'Neustart'; 
 $L['Shutdown_Description'] = 'Herunterfahren oder Neustarten'; 
 $L['Shutdown_Tags'] = 'herunterfahren ausschalten aus power reboot neustart Pause'; 
 $L['Shutdown_Title'] = 'Herunterfahren'; 
