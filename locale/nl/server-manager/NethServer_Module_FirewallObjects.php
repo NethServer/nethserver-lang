@@ -6,11 +6,11 @@ $L['FirewallObjects_Title'] = 'Firewall objecten';
 
 $L['esp_label'] = 'ESP';
 $L['gre_label'] = 'GRE';
-$L['HostGroupsKey_label'] = 'Group';
+$L['HostGroupsKey_label'] = 'Groep';
 $L['HostGroups_create_label'] = 'Create host group';
-$L['HostGroups_CreateHostGroup_label'] = 'Create host group';
+$L['HostGroups_CreateHostGroup_label'] = 'Creëer host groep';
 $L['HostGroups_update_label'] = 'Edit host group "${0}"';
-$L['HostGroups_Title'] = 'Host groups';
+$L['HostGroups_Title'] = 'Host groepen';
 
 $L['HostsKey_label'] = 'Host';
 $L['Host_key_exists_message'] = 'Host identifier already in use';
@@ -35,7 +35,7 @@ $L['Services_CreateService_label'] = 'Create service';
 $L['Services_update_label'] = 'Edit service "${0}"';
 $L['Services_Title'] = 'Services';
 $L['tcp_label'] = 'TCP';
-$L['tcpudp_label'] = 'TCP and UDP';
+$L['tcpudp_label'] = 'TCP en UDP';
 $L['udp_label'] = 'UDP';
 $L['ZonesKey_label'] = 'Zone';
 $L['Zones_create_label'] = 'Create zone';

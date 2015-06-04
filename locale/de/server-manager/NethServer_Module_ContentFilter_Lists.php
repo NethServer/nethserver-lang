@@ -2,12 +2,12 @@
 
 $L['Lists_Title'] = 'Blacklists';
 $L['Lists_selector'] = 'Verfügbare Listen';
-$L['Lists_shalla_label'] = 'Shalla (free for non-commercial use)';
-$L['Lists_urlblacklist_label'] = 'UrlBlacklist.com (commercial)';
-$L['Lists_toulouse_label'] = 'Université Toulouse (free)';
-$L['Lists_custom_label'] = 'Custom';
+$L['Lists_shalla_label'] = 'Shalla (frei zur privaten Nutzung)';
+$L['Lists_urlblacklist_label'] = 'UrlBlacklist.com (kommerziell)';
+$L['Lists_toulouse_label'] = 'Universität Toulouse (frei)';
+$L['Lists_custom_label'] = 'benutzerdefiniert';
 $L['CustomListURL_label'] = 'Custom URL';
 $L['Download_label'] = 'Download';
 $L['Download_header'] = 'Download';
-$L['Download_message'] = 'The process can take a while. Proceed with download?';
+$L['Download_message'] = 'Der Prozess kann eine Weile dauern. Fortfahren mit dem Download?';
 $L['save_and_download_label'] = 'Speichern und Herunterladen';

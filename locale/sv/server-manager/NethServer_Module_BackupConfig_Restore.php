@@ -1,12 +1,12 @@
 <?php 
 
-$L['current_backup_label'] = 'Current backup';
-$L['date_label'] = 'Date';
-$L['ForceBackup_label'] = 'Backup now';
-$L['Restore_label'] = 'Restore backup';
-$L['Restore_Title'] = 'Restore';
-$L['RLC_header'] = 'Restore configuration backup';
-$L['SameHardware_0_label'] = 'Different hardware (network must be reconfigured)';
-$L['SameHardware_1_label'] = 'Same hardware (also restore network configuration)';
-$L['SameHardware_label'] = 'Restore on:';
-$L['size_label'] = 'Size';
+$L['current_backup_label'] = 'Aktuell säkerhetskopia';
+$L['date_label'] = 'Datum';
+$L['ForceBackup_label'] = 'Säkerhetskopiera nu';
+$L['Restore_label'] = 'Säkerhetsåterställning';
+$L['Restore_Title'] = 'Återställning';
+$L['RLC_header'] = 'Återställning av konfigurationssäkerhetskopia';
+$L['SameHardware_0_label'] = 'Olika hårdvara (nätverket måste konfigureras)';
+$L['SameHardware_1_label'] = 'Samma hårdvara (också återställ nätverkskonfiguration)';
+$L['SameHardware_label'] = 'Återställning på:';
+$L['size_label'] = 'Storlek';

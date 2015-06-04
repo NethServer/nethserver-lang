@@ -1,10 +1,10 @@
 <?php
 $L['Password_Title'] = 'Parola ilkeleri';
-$L['Password_Description'] = 'Change password policies';
-$L['Password_Tags'] = 'strong password policy policies expiration age';
-$L['Users_label'] = 'Strong password policy for Users';
-$L['Admin_label'] = 'Strong password policy for Admin';
-$L['PassExpires_label'] = 'Password Expiration for Users';
-$L['Maximum password age (${0})'] = 'The Maximum Password Age (${0})';
-$L['Minimum password age (${0})'] = 'The Minimum Password Age (${0})';
-$L['Number of days to sent a warning (${0})'] = 'The number of days before sending a reminder (${0})';
+$L['Password_Description'] = 'Parola ilkelerini değiştirin';
+$L['Password_Tags'] = 'parola güçlüğü ilkesi ilkeleri sona erme süresi';
+$L['Users_label'] = 'Kullanıcılar için parola güçlüğü ilkesi';
+$L['Admin_label'] = 'Yönetici için parola güçlüğü ilkesi';
+$L['PassExpires_label'] = 'Kullanıcılar İçin Parola Son Kullanmara Tarihi';
+$L['Maximum password age (${0})'] = 'En Uzun Parola Süresi (${0})';
+$L['Minimum password age (${0})'] = 'En Kısa Parola Süresi (${0})';
+$L['Number of days to sent a warning (${0})'] = 'Anımsatıcı gönderilmesi için geçecek gün sayısı (${0})';

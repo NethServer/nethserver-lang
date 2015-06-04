@@ -48,8 +48,8 @@ $L['valid_platform,fwobject-zone-delete,fwobject-referenced,3'] = 'Güvenlik duv
 $L['valid_platform,fwobject-fwservice-delete,fwobject-referenced,3'] = 'Güvenlik duvarı kuralları tarafından kullanıldığından ${2} hizmeti silinemedi. ';
 $L['valid_platform,fwobject-host-delete,fwobject-referenced,3'] = 'Güvenlik duvarı kuralları tarafından kullanıldığından ${2} sunucusu silinemedi. ';
 $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'Güvenlik duvarı kuralları tarafından kullanıldığından ${2} sunucu grubu silinemedi. ';
-$L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The CIDR is used by firewall rules.';
-$L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The IP range is used by firewall rules.';
+$L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'CIDR güvenlik duvarı kuralları tarafından kullanıldığından ${2} silinemedi.';
+$L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'IP dizisi güvenlik duvarı kuralları tarafından kullanıldığından, ${2} silinemedi.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Sunucu grubundaki son üye olduğundan ${2} silinemedi. ${${reason}}.';
 $L['valid_iprange_outofbounds'] = 'Başlangıç IP adresi Bitiş IP adresinden küçük olmalı';
 
@@ -68,4 +68,4 @@ $L['IpRange_create_label'] = 'IP aralığı ekle';
 $L['IpRange_update_label'] = 'IP aralığı güncelle';
 $L['IpRange_key_exists_message'] = 'Sunucular (hosts) veritabanında aynı adlı bir nesne zaten var';
 $L['IpRange_CreateIpRange_label'] = 'IP aralığı ekle';
-$L['IpRangeKey_label'] = 'IP range';
+$L['IpRangeKey_label'] = 'IP aralığı';

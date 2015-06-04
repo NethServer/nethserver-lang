@@ -3,15 +3,15 @@
 $L['Pki_Title'] = 'Server certificaat';
 $L['Pki_Description'] = 'Beheer SSL certificaat';
 $L['Pki_Tags'] = 'SSL certificaat PKI TLS X509';
-$L['Pki_Show_header'] = 'Server certificate';
-$L['Pki_Generate_header'] = 'Generate a new certificate';
-$L['GenerateLink_label'] = 'New certificate';
-$L['Generate_label'] = 'Generate certificate';
+$L['Pki_Show_header'] = 'Server certificaat';
+$L['Pki_Generate_header'] = 'Maak een nieuwe certificaat';
+$L['GenerateLink_label'] = 'Nieuwe certificaat';
+$L['Generate_label'] = 'Maak een certificaat';
 
 $L['C_label'] = 'Country code';
 $L['ST_label'] = 'State';
 $L['L_label'] = 'Locality';
-$L['O_label'] = 'Organization';
+$L['O_label'] = 'Organisatie';
 $L['OU_label'] = 'Organizational unit';
 $L['CN_label'] = 'Common name';
 $L['EmailAddress_label'] = 'Email address';

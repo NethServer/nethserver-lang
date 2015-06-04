@@ -5,13 +5,13 @@
 $L['10_label'] = '10 minuten';
 $L['15_label'] = '15 minuten';
 $L['30_label'] = '30 minuten';
-$L['5_label'] = '5 minutes';
-$L['60_label'] = '60 minutes';
+$L['5_label'] = '5 minuten';
+$L['60_label'] = '60 minuten';
 $L['account_label'] = 'Account';
 $L['Accounts_Title'] = 'Accounts';
 $L['create_header_label'] = 'Create external mail account';
-$L['disable_label'] = 'Disable';
-$L['disabled_label'] = 'No';
+$L['disable_label'] = 'Uitschakelen';
+$L['disabled_label'] = 'Nee';
 $L['Disable external mail account'] = 'Disable external mail account';
 $L['Download_label'] = 'Download now';
 $L['Download_Title'] = 'Download';

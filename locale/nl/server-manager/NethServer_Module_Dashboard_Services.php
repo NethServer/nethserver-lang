@@ -5,7 +5,7 @@
 $L['Key_label'] = 'Service';
 $L['ports_label'] = 'Poorten';
 $L['running_label'] = 'Draait';
-$L['Services_Title'] = 'Services';
+$L['Services_Title'] = 'Servicen';
 $L['status_label'] = 'Status';
 $L['stopped_label'] = 'Stopped';
 $L['TCPPorts_label'] = 'TCP';

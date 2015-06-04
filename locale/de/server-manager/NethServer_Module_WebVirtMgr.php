@@ -12,6 +12,6 @@ $L['Novnc_label'] = 'Web Konsole';
 $L['NovncStatus_enabled_label'] = 'aktivieren';
 $L['NovncStatus_disabled_label'] = 'deaktivieren';
 
-$L['Auth_label'] = 'Credentials';
+$L['Auth_label'] = 'Berechtigungsnachweis';
 $L['User_label'] = 'Benutzername';
 $L['Password_label'] = 'Passwort';

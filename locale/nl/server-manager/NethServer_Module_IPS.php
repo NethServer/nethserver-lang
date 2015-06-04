@@ -5,7 +5,7 @@
 $L['balanced_label'] = 'Gebalanceerd';
 $L['connectivity_label'] = 'Connectiviteit';
 $L['IPS_Description'] = 'IPS management (Snort)';
-$L['IPS_header'] = 'IPS management';
+$L['IPS_header'] = 'IPS beheer';
 $L['IPS_Tags'] = 'IPS ips snort Snort';
 $L['IPS_Title'] = 'IPS';
 $L['Policy_label'] = 'Rule policy';

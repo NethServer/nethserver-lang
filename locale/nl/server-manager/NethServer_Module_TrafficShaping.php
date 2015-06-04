@@ -5,13 +5,13 @@
 $L['1_label'] = 'Hoog';
 $L['2_label'] = 'Medium';
 $L['3_label'] = 'Laag';
-$L['Source_label'] = 'Source IP address';
-$L['Description_label'] = 'Description';
+$L['Source_label'] = 'Bron IP adres';
+$L['Description_label'] = 'Beschrijving';
 $L['device_label'] = 'Interface';
 $L['Devices_Title'] = 'Interface';
 $L['enabled_label'] = 'ingeschakeld_label';
 $L['Gateway'] = 'Gateway';
-$L['General_Title'] = 'General';
+$L['General_Title'] = 'Algemeen';
 $L['icmp_label'] = 'ICMP';
 $L['In_label'] = 'Inbound bandwidth (kbps)';
 $L['interface_create_header_label'] = 'Create interface rule';

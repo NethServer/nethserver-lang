@@ -14,5 +14,5 @@ $L['f_label'] = 'Freitag';
 $L['a_label'] = 'Samstag';
 $L['StartTime_label'] = 'Startzeit';
 $L['EndTime_label'] = 'Endzeit';
-$L['key_exists_message'] = 'A filter, profile or time with the same name already exists';
-$L['endtime_grater_than_starttime'] = 'End time must be greater than start time';
+$L['key_exists_message'] = 'Ein Filter oder Profil mit dem gleichen Namen existiert bereits';
+$L['endtime_grater_than_starttime'] = 'Endzeit muss später sein als der Beginn.';

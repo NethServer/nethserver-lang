@@ -1,9 +1,9 @@
 <?php 
 
-$L['Backup_Title'] = 'Backup';
-$L['backup_config_Header'] = 'Configuration backup';
-$L['backup_config_label'] = 'Backup will be executed only if system configuration is changed. If you want to force a new backup press "Backup now" button.';
-$L['Execute_label'] = 'Backup now';
-$L['current_backup_label'] = 'Current backup';
-$L['date_label'] = 'Date';
-$L['size_label'] = 'Size';
+$L['Backup_Title'] = 'Säkerhetskopiering';
+$L['backup_config_Header'] = 'Inställningar säkerhetskopiering';
+$L['backup_config_label'] = 'Säkerhetskopieringen kommer att utföras endast om systemkonfigurationen ändras. Om du vill tvinga fram en ny säkerhetskopia trycker du på " Säkerhetskopiera nu " knappen.';
+$L['Execute_label'] = 'Säkerhetskopiera nu';
+$L['current_backup_label'] = 'Aktuell säkerhetskopia';
+$L['date_label'] = 'Datum';
+$L['size_label'] = 'Storlek';

@@ -5,9 +5,9 @@
 $L['bridged_label'] = 'Bridged';
 $L['create_header_label'] = 'Maak een nieuw account';
 $L['Key_label'] = 'Naam';
-$L['name_label'] = 'Name';
+$L['name_label'] = 'Naam';
 $L['VPNRemoteNetmask_label'] = 'Network mask';
-$L['VPNRemoteNetwork_label'] = 'Network address';
+$L['VPNRemoteNetwork_label'] = 'Netwerkadres';
 $L['RemoteNetwork_label'] = 'Remote network';
 $L['routed_label'] = 'Routed';
 $L['update_header_label'] = 'Modify account';

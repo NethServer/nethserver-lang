@@ -5,7 +5,7 @@
 $L['avail_label'] = 'Beschikbaar';
 $L['cpu_num_label'] = 'CPU nummer';
 $L['days_label'] = 'd';
-$L['general_title'] = 'General informations';
+$L['general_title'] = 'Algemene informatie';
 $L['hours_label'] = 'h';
 $L['load_label'] = 'Load 1 / 5 / 15 minutes';
 $L['mem_free_label'] = 'Free memory';

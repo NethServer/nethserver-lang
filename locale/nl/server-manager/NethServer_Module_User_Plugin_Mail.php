@@ -3,10 +3,10 @@
 $L['${0} day'] = 'een dag'; 
 $L['${0} days'] = '${0} dagen'; 
 $L['Hold for ${0}'] = 'Behoud voor ${0}'; 
-$L['MailForwardAddress_label'] = 'Email address'; 
+$L['MailForwardAddress_label'] = 'Email adres'; 
 $L['MailForwardKeepMessageCopy_label'] = 'Keep a message copy on this server'; 
 $L['MailForwardStatus_label'] = 'Forward messages'; 
-$L['MailQuotaType_label'] = 'Custom mailbox quota'; 
+$L['MailQuotaType_label'] = 'Aangepaste mailbox quota'; 
 $L['MailSpamRetentionStatus_label'] = 'Customize spam message retention'; 
 $L['MailStatus_label'] = 'Mailbox';
 $L['Unlimited_quota'] = 'Unlimited'; 

@@ -1,10 +1,10 @@
 <?php
-$L['Password_Title'] = 'Password policies';
-$L['Password_Description'] = 'Change password policies';
-$L['Password_Tags'] = 'strong password policy policies expiration age';
-$L['Users_label'] = 'Strong password policy for Users';
-$L['Admin_label'] = 'Strong password policy for Admin';
-$L['PassExpires_label'] = 'Password Expiration for Users';
-$L['Maximum password age (${0})'] = 'The Maximum Password Age (${0})';
-$L['Minimum password age (${0})'] = 'The Minimum Password Age (${0})';
-$L['Number of days to sent a warning (${0})'] = 'The number of days before sending a reminder (${0})';
+$L['Password_Title'] = 'Règles de mot de passe';
+$L['Password_Description'] = 'Cahger les règles de mot de passe';
+$L['Password_Tags'] = 'Politique forte d\'expiration du mot de passe ';
+$L['Users_label'] = 'Politique de diffuculté de mot de passe pour les utilisateurs';
+$L['Admin_label'] = 'Politique de diffuculté de mot de passe pour Admin';
+$L['PassExpires_label'] = 'Expiration du mot de passe des utilisateurs';
+$L['Maximum password age (${0})'] = 'La durée maximum du mot de passe (${0})';
+$L['Minimum password age (${0})'] = 'La durée minimum du mot de passe (${0})';
+$L['Number of days to sent a warning (${0})'] = 'Nom de jours avant envoi d\'un rappel (${0})';

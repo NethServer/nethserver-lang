@@ -6,5 +6,5 @@ $L['printer_state'] = 'Status';
 $L['printer_enabled'] = 'Ingeschakeld';
 $L['idle'] = 'Idle';
 $L['stopped'] = 'Stopped';
-$L['true'] = 'Yes';
-$L['false'] = 'No';
+$L['true'] = 'Ja';
+$L['false'] = 'Nee';

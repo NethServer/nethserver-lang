@@ -2,7 +2,7 @@
 
 $L['Profiles_label'] = 'Freigegebens Profil'; 
 $L['Samba_Title'] = 'Samba'; 
-$L['SmbRecycleBinStatus_label'] = 'Netzwerkpapierkorb'; 
+$L['SmbRecycleBinStatus_label'] = 'Netzwerk Papierkorb'; 
 $L['SmbRecycleBinVersionsStatus_label'] = 'Keep omonym files'; 
 $L['SmbShadowCopyStatus_label'] = 'Schattenkopie'; 
 $L['SmbStatus_label'] = 'Aktiviere Samba'; 

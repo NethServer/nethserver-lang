@@ -2,13 +2,14 @@
 # This file is put in the public domain.
 # 
 # Translators:
+# Vasco, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
 "POT-Creation-Date: 2015-05-19 16:55+0200\n"
-"PO-Revision-Date: 2015-05-20 07:55+0000\n"
-"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
+"PO-Revision-Date: 2015-05-27 12:37+0000\n"
+"Last-Translator: Vasco\n"
 "Language-Team: Portuguese (http://www.transifex.com/projects/p/nethserver/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,7 +20,7 @@ msgstr ""
 #: root/etc/e-smith/templates/password-expired/en/10mail_headers:3
 #, perl-format
 msgid "%s, your password is about to expire"
-msgstr ""
+msgstr "%s, a sua palavra-passe está prestes a expirar"
 
 #: root/etc/e-smith/templates/password-expired/en/20body:1
 #, perl-format
@@ -29,17 +30,17 @@ msgid ""
 msgid_plural ""
 "You have %s days left to change your password before your account will be "
 "blocked."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tem 1 dia para alterar a sua palavra-passe e evitar que a sua conta seja bloqueada"
+msgstr[1] "Tem %s dias para alterar a sua palavra-passe e evitar que a sua conta seja bloqueada"
 
 #: root/etc/e-smith/templates/password-expired/en/20body:3
 msgid "Available methods to change your password:"
-msgstr ""
+msgstr "Métodos disponíveis para alterar a sua palavra-passe:"
 
 #: root/etc/e-smith/templates/password-expired/en/30_accesswebui:1
 msgid "Access the web interface"
-msgstr ""
+msgstr "Aceder ao interface web"
 
 #: root/etc/e-smith/templates/password-expired/en/template-end:3
 msgid "This message has been generated automatically, do not respond to it."
-msgstr ""
+msgstr "Esta mensagem foi gerada automaticamente, as respostas não são monitorizadas."

@@ -2,8 +2,8 @@
 
 /* NethServer_Module_Providers translation, language: en */
 
-$L['backup_label'] = 'Copia de seguridad activa';
-$L['balance_label'] = 'Equilibrio';
+$L['backup_label'] = 'Respaldo';
+$L['balance_label'] = 'Balanceado';
 $L['checkip_label'] = 'Verificar IP';
 $L['Configure_header'] = 'Configurar';
 $L['interface_label'] = 'Interfaz';
@@ -17,7 +17,7 @@ $L['ProviderAdvanced_label'] = 'Avanzado';
 $L['provider_update_header'] = 'Actualizar nuevo proveedor';
 $L['WanMode_header'] = 'Modo Multi WAN';
 $L['WanMode_label'] = 'Modo';
-$L['weight_label'] = 'Peso';
+$L['weight_label'] = 'Carga';
 $L['Configure_header'] = 'Configurar';
 $L['valid_no_red_interface'] = ' No hay interfaces rojas disponibles';
 

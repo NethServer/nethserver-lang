@@ -3,11 +3,11 @@
 $L['AclRead_label'] = 'Lees'; 
 $L['AclWrite_label'] = 'Schrijf'; 
 $L['Acl_Title'] = 'ACL'; 
-$L['locals_group_label'] = 'Local users'; 
-$L['BaseInfo_Title'] = 'General'; 
+$L['locals_group_label'] = 'Lokale gebruikers'; 
+$L['BaseInfo_Title'] = 'Algemeen'; 
 $L['Create_Header'] = 'Create a new shared folder'; 
 $L['GroupAccess_label'] = 'Allow write permission to owning group'; 
-$L['Key_label'] = 'Name'; 
+$L['Key_label'] = 'Naam'; 
 $L['OtherAccess_label'] = 'Allow read permission to everyone'; 
 $L['OwningGroup_label'] = 'Owning group'; 
 $L['SharedFolder_Description'] = 'Share folders and files between users and groups'; 

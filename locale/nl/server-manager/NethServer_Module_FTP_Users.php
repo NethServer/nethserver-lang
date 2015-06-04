@@ -7,4 +7,4 @@ $L['Chroot_label'] = 'Chroot user on home directory ( /var/lib/nethserver/ftp/<u
 $L['ChrootDir_label'] = 'Custom chroot directory (eg. /var/lib/nethserver/ibay/<name> )';
 $L['Update_User_Header'] = 'Edit user';
 $L['Create_User_Header'] = 'Create user';
-$L['Users_Title'] = 'Users';
+$L['Users_Title'] = 'Gebruikers';

@@ -1,13 +1,13 @@
 <?php
-$L['DdClient_Title'] = 'Dynamic DNS Service';
-$L['Key_label'] = 'Dynamic DNS hostname';
-$L['hostname_label'] = 'Dynamic DNS hostname';
+$L['DdClient_Title'] = 'DNS Service';
+$L['Key_label'] = 'DNS hostnaam';
+$L['hostname_label'] = 'DNS hostnaam';
 $L['DynDns_label'] = 'Ddclient protocol';
 $L['DynServer_label'] = 'Server Address (FQDN)';
 $L['CustomService_label'] = 'Custom Provider settings';
 $L['KnownService_label'] = 'Official Providers settings';
 $L['login_label'] = 'Login';
-$L['password_label'] = 'Password';
+$L['password_label'] = 'Wachtwoord';
 $L['mx_label'] = 'Mail Exchanger hostname';
 $L['Create_DynDns_Header'] = 'Create a new dynamic DNS client';
 $L['Update_DynDns_Header'] = 'Update a dynamic DNS client';

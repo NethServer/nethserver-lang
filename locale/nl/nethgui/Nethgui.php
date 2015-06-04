@@ -1,12 +1,12 @@
 <?php 
 
-$L['Actions_label'] = 'Actions'; 
-$L['Add'] = 'Add'; 
+$L['Actions_label'] = 'Acties'; 
+$L['Add'] = 'Toevoegen'; 
 $L['All changes have been saved'] = 'All changes have been saved'; 
-$L['An object with the same key already exists'] = 'An object with the same key already exists'; 
+$L['An object with the same key already exists'] = 'Een object met dezelfde naam bestaat al'; 
 $L['Apply_label'] = 'Apply'; 
-$L['Cancel_label'] = 'Back';
-$L['Configure_label'] = 'Configure'; 
+$L['Cancel_label'] = 'Terug';
+$L['Configure_label'] = 'Configureer'; 
 $L['Confirm deletion of `${0}`?'] = 'Confirm deletion of `${0}`'; 
 $L['Delete'] = 'Delete'; 
 $L['Delete `${0}`'] = 'Delete `${0}`'; 
@@ -99,3 +99,4 @@ $L['Tracker_task_error_message'] = 'Task completed with errors';
 $L['Tracker_title_taskRunning'] = 'Task is running';
 $L['Tracker_title_taskStarting'] = 'Task is starting...';
 $L['Tracker_code_label'] = 'exit status';
+
