@@ -2,45 +2,45 @@
 UPS
 ===
 
-The management of an uninterruptible power supply (UPS - Uninterruptible Power
-Supply) connected to the server is assigned to NUT (Network UPS Tools), which
-will carry out a shutdown in case of absence of
-power. NUT supports different models of UPS,
-connected by serial cable or USB.
+La gestión de un sistema de alimentación ininterrumpida (UPS - Suministro energía ininterrumpible) conectado al servidor se le asigna a la NUT (Herramientas UPS de red), la cual realizará una parada en caso de ausencia de
+poder. NUT soporta diferentes modelos de UPS, conectado por cable serie o USB.
 
-In this panel you perform the configuration of NUT, to
-see UPS data, use the Dashboard.
+En este panel se realiza la configuración de NUT, para ver los datos del UPS, utilice el cuadro de mandos.
 
-Enable NUT UPS
-    Enable or disable the NUT service.
+Habilitar NUT UPS
 
-Mode
+    Activar o desactivar el servicio NUT.
+
+Modo
 ========
 
-Master
-    This mode should be selected if the UPS is connected
-    to the server directly via serial or USB cable.
+Maestro
 
-Search drivers for model
-    Allows you to search for a driver compatible with your UPS model. After selecting the model from the list,
-    the *Driver* field will be filled out with the name of the appropriate driver.
+    Este modo debe seleccionarse si el UPS está conectado al servidor directamente mediante un cable serie o USB.
 
-Driver
-    The driver to be used for the model of UPS connected.
+Buscar controladores para el modelo
 
-Device
-    The physical port where the UPS is connected. Inside brackets is displayed the UNIX device name, in case of USB connection
-    the device name is automatically calculated.
+    Le permite buscar un controlador compatible con su modelo de UPS. Después de seleccionar el modelo de la lista
+    el *Controlador*, El campo será llenado con el nombre del controlador adecuado.
 
-Slave
-    This mode should be used if the UPS is not connected
-    directly to the server, but to another server configured with NUT
-    in Master mode to which server will connect.
+Conductor
 
-Address of the master server
-    IP address or host name of the master server. The client will use the user * UPS * to connect to the master server.
-    Make sure that the user is configured on the master server.
+    El conductor que se utilizará para el modelo de UPS conectados.
 
-Password
-    The password you specify here is the one configured on the master server
-    for slave connections.
+Dispositivo
+
+    El puerto físico al que está conectado el UPS. Soportes interiores se muestra el nombre de dispositivo UNIX, en el caso de la conexión USB el nombre del dispositivo se calcula automáticamente.
+
+Esclavo
+
+    Este modo se debe utilizar si el UPS no está conectado directamente al servidor, sino a otro servidor configurado con NUT en el modo Maestro al servidor que se conectará.
+
+Dirección del servidor maestro
+
+    Dirección IP o nombre de host del servidor maestro. El cliente utilizará el *usuario* UPS para conectar con el servidor maestro.
+    
+    Asegúrese de que el usuario que esté configurado en el servidor maestro.
+
+Contraseña
+
+    La contraseña que especifique aquí es la configurada en el servidor maestro para las conexiones de esclavos.
