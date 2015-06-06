@@ -1,39 +1,43 @@
-============
-Port forward
-============
+=================
+Reenvio de Puerto
+=================
 
-Use this panel to change firewall rules, i.e. to open a specific port
-(or a range of ports) on the server and forward the traffic from a
-port to another.  Port forwarding rules allow access to hosts on the
-local network from the Internet.
+Utilice este panel para cambiar las reglas del cortafuegos, es decir, para abrir un puerto específico
+(O un rango de puertos) en el servidor y reenviar el tráfico a partir de una
+puerto a otro. Reglas de reenvío de puerto permiten el acceso a los hosts de la
+red local desde Internet.
 
-Create / Modify
-===============
+Crear / Modificar
+=================
 
-Source port
-    Insert the port open on the public IP.
+Puerto de origen
 
-Destination port
-    Insert the port on the internal host which will be destination of the traffic.
+    Inserte el puerto abierto en la IP pública.
 
-Destination host
-    Select the internal machine where traffic will be redirected.
+Puerto de destino
 
-Allow only
-    Allow traffic forward only from some networks or hosts.
-    Insert a comma-separated list of IP addresses or networks in CIDR format.
+    Introduzca el puerto en el host interno que será el destino del tráfico.
 
-Description
-    Optional description of port forwarding rule.
+Host de destino
 
-Enable / Disable
-====================
+    Seleccione la máquina interna donde será redirigido tráfico.
 
-Port forwarding rules are enabled by default on
-creation. You can temporarily enable/disable them
-using this button
+Permitir sólo
 
-Haripin NAT
-============
+    Permitir el tráfico hacia delante sólo de algunas redes o hosts.
+    Inserte una lista separada por comas de direcciones IP o redes en formato CIDR.
 
-Enable Hairpin NAT to make all port forwards available from local network.
+Descripción
+
+    Descripción opcional de la regla de reenvío de puerto.
+
+Habilitar/Deshabilitar
+======================
+
+Reglas de reenvío de puerto están activadas de forma predeterminada en
+la creación. Puede activar/desactivar temporalmente con este botón
+
+Horquilla NAT
+=============
+
+Habilitar Horquilla NAT para hacer todos los reenvios de puerto disponible de la red local.
