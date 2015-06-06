@@ -30,45 +30,45 @@ Hosts
 Crear / Modificar
 -----------------
 
-Click Create to assign a host name to an IP address. The
-server will return the IP address configured for requests of its name.
+Haga clic en crear para asignar un nombre de host a una dirección IP. El
+servidor devolverá la dirección IP configurada para solicitudes de su nombre.
 
 
 Nombre de Host
 
-    The domain name, for example www.nethesis.it. It's possible to create
-    names for the local domain, which is useful for giving a mnemonic name to
-    devices configured with static IP or for any domain,
-    which take precedence over the provider's DNS server (see
-    facebook.com example above).
+    El nombre de dominio, por ejemplo www.nethesis.it. Es posible crear
+    nombres para el dominio local, que es útil para dar un nombre nemotécnico para
+    dispositivos configurados con IP estática o para cualquier dominio,
+    que prevalecen sobre el servidor DNS del proveedor (véase
+    facebook.com ejemplo anterior).
 
 Dirección IP
 
-    The IP address of the host name.
+    La dirección IP del nombre de host.
 
 Descripción
 
-    An optional comment for the host name (example:
-    "Block facebook" or "video server").
+    Un comentario opcional para el nombre de host (ejemplo:
+    "Bloquear facebook" o "servidor de vídeo").
 
 Alias del Servidor
 ==================
 
-Aliases are alternate names for this server. For example, if the
-name of the server is *server.mycompany.com*, an alias may be
-*mail.mycompany.com*. The server will use its own IP address
-for the alias name.
+Los alias son nombres alternativos para este servidor. Por ejemplo, si el
+nombre del servidor es *server.mycompany.com*, un alias puede ser
+*Mail.mycompany.com*. El servidor utilizará su propia dirección IP
+para el nombre de alias.
 
 Crear / Modificar
 -----------------
 
-Allows you to create a new alias for this server.
+Permite crear un nuevo alias para este servidor.
 
 Nombre de Host
 
-    The host name that you want to add or modify. It can contain only
-    letters, numbers and hyphens, and must begin with a letter or a number.
+    El nombre de host que desea agregar o modificar. Puede contener solamente
+    letras, números y guiones, y deben comenzar con una letra o un número.
 
 Descripción
 
-    An optional description useful to identify the alias.
+    Una descripción opcional útil para identificar el alias.
