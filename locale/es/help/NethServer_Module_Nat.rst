@@ -2,16 +2,17 @@
 NAT 1:1
 =======
 
-One-to-one NAT is a way to make systems behind a firewall and configured with private IP addresses appear to have public IP addresses.
+NAT uno a uno es una manera de hacer que los sistemas detrás de un firewall y configurados con direcciones IP privadas parecen tener direcciones IP públicas.
 
-**Usage**
+** Uso **
 
-Public ip alias
-	Contains the alias ip associated to **red** interface (readonly)
+Alias IP pública
+Contiene la ip alias asociado a **interfaz roja (sólo lectura)**
 
-Local host
-	You can insert a *Firewall object* to configure the one-to-one nat to specific host.
+Host local
 
-In the page are showed all aliases associated to **red** interfaces, with an easy dropdown list you can choose, in the *Local host* input box, the *Firewall object*.
+Puede insertar un objeto *Firewall* para configurar el NAT uno-a-uno con un host específico.
 
-*Empty input means NAT* **not** *configured.*
+En la página se mostraron todos los alias asociados a las interfaces **rojas**, con una lista desplegable fácil donde puede elegir, en el *host local*, el objeto *Firewall*.
+
+*Medios vacios de entrada NAT* **no** *configurado.*
