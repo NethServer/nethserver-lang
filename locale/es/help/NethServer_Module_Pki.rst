@@ -1,7 +1,5 @@
-==================
-Server certificate
-==================
+=======================
+certificado de servidor
+=======================
 
-This page shows the currently installed SSL certificate. The
-:guilabel:`New certificate` button allows creating a new self-signed
-certificate.
+Esta página muestra el certificado SSL instalado actualmente. El botón `Nuevo certificado` permite crear una nueva firma propia del certificado.
