@@ -2,28 +2,27 @@
 DNS
 ===
 
-The DNS (Domain Name System) is responsible for Domain Name Resolution
-(eg www.nethesis.it) into their corresponding numerical IP addresses
-(Eg. 10.11.12.13) and vice versa. The server delegates the resolution of
-names to the configured DNS servers, but you can specify addresses
-for arbitrary selected names. For example, you can configure the
-system for responding to requests for facebook.com with the IP address 
-0.0.0.0, achieving the effect of making the Facebook site unreachable.
-
+El DNS (Domain Name System) es responsable de la resolución de nombres de dominio
+(por ejemplo www.nethesis.it) en sus correspondientes direcciones IP numéricas
+(. Por ejemplo, 10.11.12.13) y viceversa. Los servidores delegan la resolución de
+nombres a los servidores DNS configurados, pero se puede especificar arbitrariamente
+las direcciones para los nombres seleccionados. Por ejemplo, puede configurar el
+sistema para responder a las solicitudes de facebook.com con la dirección IP
+0.0.0.0, logrando el efecto de hacer que el sitio de Facebook sea inalcanzable.
 
 Servidores DNS
 ==============
 
-Configure addresses of the DNS servers that
-the server will contact to resolve names.
+Configurar las direcciones de los servidores DNS que
+el servidor se pondrá en contacto para resolver nombres.
 
 DNS Primario
 
-    The address of the primary server to contact for resolving names (mandatory).
+     La dirección del servidor primario de contacto para la resolución de nombres (obligatorio).
 
 DNS Secundario
    
-    The address of the secondary server to be contacted in case the primary is not responding (optional).
+     La dirección del servidor secundario a contactarse en caso de que el principal no está respondiendo (opcional).
 
 Hosts
 =====
