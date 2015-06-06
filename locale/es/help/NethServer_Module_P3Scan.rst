@@ -1,30 +1,34 @@
-==========
-POP3 proxy
-==========
+=============
+Proxy de POP3
+=============
 
-The proxy intercepts POP3 connections to external servers, 
-then it scans incoming mail to block viruses and tag spam. 
-The process is absolutely transparent for mail clients,
-the user believes to connect directly to your ISP's POP3 server,
-but the server will intercept all traffic and handle connections to external servers.
+El proxy intercepta conexiones POP3 a servidores externos, entonces se analiza el correo entrante para bloquear virus
+y la etiqueta de spam.
 
-Enabled/Disabled
-    If enabled, all connections to the POP3 port (110) 
-    will be intercepted by the firewall and sent to the proxy. 
+El proceso es completamente transparente para los clientes de correo, el usuario creé conectarse directamente a su servidor POP3 de su ISP, pero el servidor interceptará todo el tráfico y manejará las conexiones a servidores externos.
+
+Habilitado/Deshabilitado
+
+    Si está activado, todas las conexiones al puerto POP3 (110), será interceptado por el firewall y enviado al proxy.
 
 Antivirus
-    Enable virus check on downloaded mails.
+
+    Habilitar comprobación de virus en correos descargados.
 
 Antispam
-    Enable spam check on downloaded mails.
 
-POP3s scan (port 995)
-    Enable all checks on POP3 with SSL (POP3s):
-    all connections to port 995 will be intercepted by the firewall and sent to the proxy.
-    The server will take care to establish secure connections to external servers, while data transfers
-    to LAN clients will be in clear text.
-    *NB*: the clients must be configured to connect to port 995 but will have to turn off encryption. 
+    Habilitar chequeo de spam en mensajes descargados.
 
-Mail template language
-    In case of virus detection, the client is notified with a special message. 
-    This field allows you to choose the language of the notification message.
+POP3s escanear (puerto 995)
+
+    Habilitar todos los controles de POP3 con SSL (POP3s):
+    
+    Todas las conexiones al puerto 995 serán interceptados por el firewall y se envían al proxy.
+    El servidor se encargará de establecer conexiones seguras a servidores externos, mientras que las transferencias de datos a la red local de clientes estarán en texto claro.
+    
+    *NOTA*: los clientes deben estar configurados para conectarse al puerto 995, pero tendrán que desactivar el cifrado.
+
+Lenguaje de plantillas de correo
+ 
+    En caso de detección de virus, el cliente es notificado con un mensaje especial. Este campo le permite elegir el idioma del mensaje de notificación.
+    
