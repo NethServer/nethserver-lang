@@ -1,20 +1,26 @@
-==========================
-Bandwidth monitor (ntopng)
-==========================
+==================================
+Monitor de ancho de banda (ntopng)
+==================================
 
-ntopng is a powerful tool that allows you to analyze real-time
-network traffic. It allows you to evaluate the bandwidth used by
-individual hosts and to identify the most commonly used network protocols.
+ntopng es una poderosa herramienta que permite analizar en tiempo real
+el tráfico de red. Se le permite evaluar el ancho de banda utilizado por
+los hosts individuales e identificar los protocolos de red más utilizados.
 
-Enable ntopng
-    Enabling ntopng, all traffic passing through the network interfaces
-    will be analyzed. It can cause a slowdown of the network and an
-    increased in system load.
-Web interface port
-    The port where to view the ntopng web interface.
-Enable authentication
-    When the authentication is enabled, the web interface will
-    require username 'admin' and password.
-Password
-    Password for user 'admin'. This password is not related to
-    the system administrator password.
+Habilitar ntopng
+
+     Habilitación de ntopng, todo el tráfico que pasa a través de las interfaces de red
+     será analizado. Puede causar una desaceleración de la red y un aumento en la carga del sistema.
+
+Puerto de interfaz Web
+
+     El puerto donde podrá ver la interfaz web de ntopng.
+
+Habilitar la autenticación
+
+     Cuando la autenticación está activada, la interfaz web va ha
+     necesitar nombre de usuario "admin" y la contraseña.
+
+Contraseña
+
+     Contraseña para el usuario 'admin'. Esta contraseña no está relacionada con
+     la contraseña de administrador del sistema.
