@@ -1,44 +1,46 @@
 ================
-Network services
+Servicios de red
 ================
 
-The table shows all network services running locally on the server.
+La tabla muestra todos los servicios de red que se ejecutan localmente en el servidor.
 
-Each service can have multiple TCP/UDP ports open.
-Ports are open into the firewall accordingly to the `access` property.
-The access property has three valid values:
+Cada servicio puede tener varios puertos TCP/UDP abiertos. Los Puertos están abiertos en el firewall
+de acuerdo a la propiedad `acceso`.
 
-* localhost: the service is accessible only from the server itself
-* green: the service is accessible only from green interfaces and trusted networks
-* green red: the service is accessible from local and external networks, but not from orange and blue
-* custom: the service has custom access configured via `Allow hosts` or `Deny hosts`
+La propiedad tiene acceso a tres valores válidos:
 
-When the service access is set to private or public, the administrator
-can specify a list of hosts always allowed (or denied) to access the service. 
+* Localhost: el servicio es accesible sólo desde el propio servidor
+* Verde: el servicio es accesible sólo desde las interfaces verdes y redes de confianza
+* Rojo verde: el servicio es accesible desde redes locales y externos, pero no de color naranja y azul
+* Personalizada: el servicio tiene acceso personalizado configurado a través de `Permitir hosts` o 'Denegar hosts`
 
-Edit
-====
+Cuando el acceso al servicio es privado o público, el administrador puede especificar una lista
+de anfitriones siempre permitido (o negado) para acceder al servicio.
 
-Edit the access of a network service.
+Editar
+======
 
-Access from green and red networks
-    Select this if the service must be from all networks, including Internet.
-    For example: the mail server should be accessible from anyone.
+Edita el acceso de un servicio de red.
 
-Access only from green networks
-    Select this if the service must be accessible only from local networks.
-    For example: a critical database server should be accessible from LAN.
+El acceso desde las redes de verde y rojo
 
-Access only from localhost
-    Select this if the service must be accessible only from the server itself.
-    For example: on a public VPS access to LDAP server should be denied from any network.
+    Seleccione esta opción si el servicio debe ser de todas las redes, incluyendo Internet.
+    Por ejemplo: el servidor de correo debe ser accesible desde cualquiera.
 
-Allow hosts
-    Specify a comma separated list of IP address or CIDR networks. Listed hosts will be always granted access to 
-    the network service. (Applied only if access is public or private)
+Acceso sólo a partir de redes verdes
 
-Deny hosts
-    Specify a comma separated list of IP address or CIDR networks. Listed hosts will be always denied access to 
-    the network service. (Applied only if access is public or private)
+    Seleccione esta opción si el servicio debe ser accesible sólo desde redes locales.
+    Por ejemplo: un servidor de base de datos fundamental debe ser accesible desde la red local.
 
+Acceso sólo desde localhost
 
+    Seleccione esta opción si el servicio debe ser accesible sólo desde el propio servidor.
+    Por ejemplo: en un acceso público VPS al servidor LDAP debe ser negado desde cualquier red.
+
+Permitir hosts
+
+    Especifique una lista separada por comas de dirección IP o redes CIDR. Listado de hosts que serán siempre garantizado el acceso al servicio de red. (Aplica sólo si el acceso es público o privado)
+
+Denegar hosts
+
+    Especifique una lista separada por comas de dirección IP o redes CIDR. Listado de hosts que serán siempre negado el acceso al servicio de red. (Aplica sólo si el acceso es público o privado)
