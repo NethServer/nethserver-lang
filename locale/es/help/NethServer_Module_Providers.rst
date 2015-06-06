@@ -2,46 +2,55 @@
 Multi WAN
 =========
 
-If you have more than one connection to the Internet, 
-you must configure individual WAN connection
-(ISP) and establish usage policies (for example prefer a connection over another one).
+Si usted tiene más de una conexión a Internet, debe configurar la conexión individual WAN
+(ISP) y establecer políticas de uso (por ejemplo preferir una conexión a través de otro).
 
 
-Configure
-=========
+Configurar
+==========
 
-Select provider's management policy: 
+Seleccione la política de gestión del proveedor:
 
-* Balance to use all connections at the same time
-* Active-Backup: to use backup connections in case of problems to the provider with the highest priority
+* Balanceado: utiliza todas las conexiones a la vez
+* Respaldo: usar conexiones de respaldo en caso de problemas con el proveedor de la más alta prioridad
 
-Create or Edit
+Crear o Editar
 ==============
 
-Create or edit the configuration of providers. 
+Crear o editar la configuración de los proveedores.
 
-Name 
-     A name to identify the connection (ISP). Max 5 characters. 
+Nombre
 
-Enabled/disabled 
-     Enable or disable the provider.
+     Un nombre para identificar la conexión (ISP). Max 5 caracteres.
 
-Weight 
-     The "weight" of the connection. 
-     Traffic will be routed proportionally to the weight: higher weight means more traffic.
-     A provider with a weight of 100 will receive twice the traffic of one with weight 50. 
-     Please, assign weights accordingly to connection bandwidth.
-     When using active-backup mode, the weight determines the use of the line. 
-     If the first provider has weight 100 and the second has weight 50,
-     the traffic is always sent to the first provider. The second one will be used only if first provider goes down.
+Habilitado/Deshabilitado
 
-Description 
-     An optional description to identify the provider. 
+     Activar o desactivar el proveedor.
 
-Check IP 
-     A ping is sent to Check IP every 5 seconds. 
-     In case of missing response, the system disables the provider until it begin to receive answers again. 
-     Caution: the IP should be inside the provider's network: 
-     the system determines it automatically, we recommend not to change the pre-set IP. 
-     In case of connectivity problems, the Check IP host is not reachable. 
+Carga
+     La "carga" de la conexión.
+     
+     El tráfico se dirigirá de forma proporcional a la carga: mayor carga significa más tráfico.
+     
+     Un proveedor con un carga de 100 recibirá dos veces el tráfico de uno con la carga 50.
+     Por favor, asignar ponderaciones de acuerdo al ancho de banda de conexión.
+     
+     Al utilizar el modo de respaldo activa, la carga determina el uso de la línea.
+     Si el primer proveedor tiene una carga de 100 y el segundo tiene una carga de 50,
+     el tráfico siempre se envía a la primera proveedor. El segundo se utilizará sólo si el primer proveedor pierde conexión.
+
+Descripción
+     
+     Una descripción opcional para identificar el proveedor.
+
+Comprobar IP
+     
+     Un ping es enviado a Comprobar IP cada 5 segundos.
+     
+     En caso de falta de respuesta, el sistema desactiva el proveedor hasta que comienzan a recibir respuestas de nuevo.
+     Precaución: la IP debe estar dentro de la red del proveedor.
+    
+     El sistema determina automáticamente, recomendamos no cambiar la IP preestablecido.
+     
+     En caso de problemas de conectividad, el host Comprobará la IP que no es accesible. 
 
