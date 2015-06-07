@@ -1,31 +1,33 @@
-==============
-Static routes
-==============
-
-The panel can used to configure static routes
-which don't use the default gateway (for example
-to reach private networks connected via dedicated lines).
-
-Remember to add the same network to the :guilabel:`Trusted networks` panel,
-if hosts on the remote network should access local services.
-
-Create / Modify
+===============
+Rutas estáticas
 ===============
 
-Create a new route to a remote network.
+El panel puede utilizarse para configurar rutas estáticas que no usa la puerta de enlace predeterminada
+(por ejemplo, para llegar a las redes privadas conectadas a través de líneas dedicadas).
 
-Network address
-    Network address for the new route.
+Recuerde que debe añadir la misma red en el panel `Redes de Confianza`,
+si los hosts de la red remota deben acceder a los servicios locales.
 
-Network Mask
-    Network mask for the new route.
+Crear / Modificar
+=================
 
-Router address
-    Address of the gateway used to reach the specified network,
-    this field is not required.
+Crea una nueva ruta a una red remota.
 
-Description
-    A free text field to record any annotation.
+Dirección de red
 
-After route creation, you can only change
-router address and description.
+     Dirección de red para la nueva ruta.
+
+Máscara de red
+
+     Máscara de red para la nueva ruta.
+
+Dirección del router
+
+     Dirección de la puerta de enlace utilizado para llegar a la red especificada,
+     No se requiere este campo.
+
+Descripción
+
+     Un campo de texto libre para registrar cualquier anotación.
+
+Después de la creación de rutas, sólo se puede cambiar dirección del router y la descripción.
