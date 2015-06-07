@@ -1,18 +1,21 @@
-================
-Virtual machines
-================
+==================
+Máquinas virtuales
+==================
 
-Manage virtual machines through web interface.
+Administrar máquinas virtuales a través de la interfaz web.
 
-* create/destroy machines
-* start/stop machines
-* remote shell
+* Crear / Eliminar máquinas
+* Iniciar / Detener Máquinas
+* Shell Seguro
 
-Virtual machine manager
-    Enable or disable the service.
+Administrador de máquinas virtuales
+     
+     Activar o desactivar el servicio.
 
-Web console
-    Enable or disable novnc service to access to machines remotely
+Consola Web
 
-Credentials
-    Change password for user *admin*
+     Activar o desactivar el servicio novnc para acceder a las máquinas de forma remota
+
+Credenciales
+
+     Cambiar la contraseña para el usuario *administrador*
