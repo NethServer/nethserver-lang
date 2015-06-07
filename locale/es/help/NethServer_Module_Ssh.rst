@@ -2,15 +2,18 @@
 SSH
 ===
 
-Manage Secure Shell (SSH) server access.
+Administrar el acceso al servidor usando la Shell Segura (SSH).
 
-TCP port
-    Enter the TCP port used for SSH access.
+Puerto TCP
+ 
+     Introduzca el puerto TCP utilizado para el acceso SSH.
 
-Allow access for the root user
-    Allow SSH access to the root user (administrative user).
+Permitir el acceso para el usuario root
+ 
+     Permitir el acceso SSH para el usuario root (usuario administrativo).
 
-Allow password authentication
-    Allows access through SSH with simple password authentication.
-    If not enabled, users will be able to authenticate
-    only using public key authentication.
+Permitir la autenticación de contraseña
+ 
+     Permite el acceso a través de SSH con autenticación de contraseña simple.
+     Si no está activado, los usuarios podrán autenticarse
+     Sólo mediante la autenticación de clave pública.
