@@ -1,7 +1,8 @@
 .. --initial-header-level=3
 
-Remote Shell (SSH)
+Shell Segura (SSH)
 ==================
 
-Remote Shell (SSH)
-    Allows the user to access a secure shell on the server.
+Shell Segura (SSH)
+
+     Permite al usuario acceder a un shell seguro en el servidor.
