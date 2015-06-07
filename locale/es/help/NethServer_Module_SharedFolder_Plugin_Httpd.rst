@@ -1,37 +1,42 @@
 .. --initial-header-level=3 
 
-Web access 
-^^^^^^^^^^
+Acceso  Web
+^^^^^^^^^^^
 
-Enables access to the shared folder from the web.
+Permite el acceso a la carpeta compartida de la web.
 
-Virtual Host 
-    Allows you to choose which host name is available on the shared
-    folder. The list comes from the card "Server Alias" in the
-    module "DNS and DHCP."
+Host virtual
 
-Web address (URL)
-    Defines the web address on which the resource is available. 
+    Le permite elegir qué nombre de host está disponible en la compartida
+    carpeta. La lista viene de la pestaña de "Alias del Servidor" en el
+    módulo "DNS."
 
-Allow access only from trusted networks
-    If only enabled, restricts access to the resource only to trusted
-    networks.
+Dirección Web (URL)
 
-Require a password 
-    The access to the resource from the web requires no
-    authentication. Enable this option to require a password: specify
-    it in the field below.
+    Define la dirección web en la que el recurso está disponible.
 
-Require SSL encrypted connection
-    Web clients will be forced to connect to the shared folder using
-    the HTTPS protocol.
+Permitir el acceso sólo desde redes de confianza
 
-Allow .htaccess and write permissions overrides
-    A file named ``.htaccess`` on the shared folder root is considered a web
-    server configuration file. See `Apache .htaccess howto`_.
-    A file named ``.htwritable`` on the shared folder root enables write access
-    on specific subdirectories. The expected contents of that file are a list
-    of subdirectories (one fore each line) where the web server is granted
-    write permission.
+    Si solamente está activado, restringe el acceso al recurso sólo para confianza
+    redes.
 
+Requerir una contraseña
+
+    El acceso a los recursos de la web no requiere autenticación. Active esta opción para solicitar una contraseña: especifique en el campo de abajo.
+
+Requerir SSL conexión cifrada
+
+    Los clientes Web se verán obligados a conectarse a la carpeta compartida utilizando
+    el protocolo HTTPS.
+
+Permitir .htaccess y escritura permisos anulaciones
+
+    Un archivo llamado ``.htaccess`` en la raíz carpeta compartida se considera una web
+    archivo de configuración del servidor. Véase `howto`_ Apache .htaccess.
+    
+    Un archivo llamado ``.htwritable`` en la raíz carpeta compartida permite el acceso de escritura
+    en subdirectorios específicos. Los contenidos previstos de ese archivo son una lista
+    de subdirectorios (uno antes de cada línea) cuando se conceda el servidor web obtiene
+    permiso de escritura.
+    
 .. _Apache .htaccess howto: http://httpd.apache.org/docs/2.2/howto/htaccess.html
