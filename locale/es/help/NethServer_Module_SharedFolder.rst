@@ -1,37 +1,41 @@
-==============
-Shared folders
-==============
+====================
+Carpetas compartidas
+====================
 
-A shared folder is a resource on the system which can be
-accessed according to services installed on the system and permissions set
-by this module.
+Una carpeta compartida es un recurso en el sistema que puede ser
+visitada según los servicios instalados en el sistema y establecer permisos
+por este módulo.
 
-Create new / edit
------------------
+Crear nueva/editar
+------------------
 
-Depending on the services installed on your system you will see
-several tabs.
+Dependiendo de los servicios instalados en el sistema verá varias pestañas.
 
 General
 ^^^^^^^
 
-Name
-    The name of the shared folder. It can only contain lower case letters,
-    numbers, dots, dashes and underscores. The maximum length of the name is 12 characters.
+Nombre
 
-Description
-    Optional field for a brief description of the shared folder.
+    El nombre de la carpeta compartida. Sólo puede contener letras minúsculas,
+    números, puntos, guiones y guiones bajos. La longitud máxima del nombre es de 12 caracteres.
 
-Group owner
-    The owning group of the shared folder, only members of the
-    group can access the folder.
+Descripción
 
-Allow writing to the group owner
-    Allow write access to members of the owning group.
+    Campo opcional para una breve descripción de la carpeta compartida.
 
-Allow read access to all
-    Read access to anyone who connects to the system, as well as
-    public networks.
+Propietario del Grupo
+
+    El grupo propietario de la carpeta compartida, sólo los miembros del
+    grupo pueden acceder a la carpeta.
+
+Permitir escritura al propietario del grupo
+
+    Permitir el acceso de escritura a los miembros del grupo propietario.
+
+Permitir el acceso de lectura a todos
+
+    Permitir el acceso de lectura a cualquier persona que se conecte al sistema, así como
+    redes públicas.
 
 .. raw:: html
 
@@ -40,29 +44,30 @@ Allow read access to all
 ACL
 ^^^
 
-The Access Control List allows specifing access permissions to the
-shared folder for each users or groups, in addition to those of the
-group owner.
+La lista de control de acceso permite especificar los permisos de acceso a la
+carpeta compartida para cada uno de los usuarios o grupos, además de los del
+propietario del grupo.
 
-Read
-    Allow or deny read access to the user or group selected.
+Leer
 
-Write 
-    Allow or deny the access in writing to the user or group 
-    selected.
+    Permitir o denegar el acceso de lectura al usuario o grupo seleccionado.
+
+Escribir
+
+    Permitir o denegar el acceso de escritura para el usuario o grupo
+    seleccionado.
 
 
-Delete
+Borrar
 ------
 
-Removes the folder and all its contents. *The action is not
-reversible!* The only way to recover the contents of a folder shared
-that as been removed is to restore a backup.
+Elimina la carpeta y todo su contenido. *La acción no es
+reversible!* La única manera de recuperar el contenido de una carpeta compartida
+que a medida de haberla quitado es restaurar una copia de seguridad.
 
-Reset permissions
------------------
+Restablecer los permisos
+------------------------
 
-Set the group owner and ACLs configured using this module
-on all files in the folder. The operation will be performed recursively on
-all files and subfolders in the shared folder.
-
+Establece al propietario del grupo y ACL configurar mediante este módulo
+en todos los archivos de la carpeta. La operación se lleva a cabo de forma recursiva en
+todos los archivos y subcarpetas de la carpeta compartida.
