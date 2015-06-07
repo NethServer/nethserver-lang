@@ -1,86 +1,94 @@
-====================
-Bandwidth management
-====================
+================================
+Administración de ancho de banda
+================================
 
-The bandwidth manager allows you to change priorities to traffic
-going through the firewall (which must have at least two network interfaces).
+El gestor de ancho de banda le permite cambiar las prioridades para el tráfico a través del firewall 
+(que debe tener al menos dos interfaces de red).
 
 General
-========
+=======
 
-Enables or disables bandwidth management.
+Activa o desactiva la gestión de ancho de banda.
 
 
-Interface rules
-===============
+Reglas de interfaz
+==================
 
-For each interface on which you want to manage the bandwidth priority is
-necessary to specify the maximum amount of bandwidth available in both
-outgoing and incoming directions. No data will be transmitted at a rate
-over to that configured. It's imperative to use actual values,
-preferably measured with speed tests, in particular for the band in
-upload (outgoing). The table shows the values configured on each
-interface, allowing you to modify the bandwidth limits.
+Para cada interfaz en la que desea administrar la prioridad de ancho de banda es
+necesario especificar la cantidad máxima de ancho de banda disponible en
+direcciones salientes y entrantes. No hay datos que se transmitan a una velocidad
+sobre la configurada. Es imprescindible utilizar los valores reales,
+medido preferiblemente con pruebas de velocidad, en particular para la banda en
+cargar (saliente). La tabla muestra los valores configurados en cada
+interfaz, lo que le permite modificar los límites de ancho de banda.
 
-Create / Modify
+Crear/Modificar
 ---------------
 
-Create a configuration for interface bandwidth limits.
+Crear una configuración de límites de ancho de banda de la interfaz.
 
-Interface
-    Select the interface to which the limits of bandwidth applies.
-     In general, the bandwidth is limited only on the WAN interfaces.
+Interfaz
 
-Incoming bandwidth (kbps)
-    Set the amount of incoming bandwidth (download).
+    Seleccione la interfaz a la que se le aplica los límites de ancho de banda.
+     En general, el ancho de banda está limitado sólo en las interfaces WAN.
 
-Outgoing bandwidth (kbps)
-    Set the amount of output bandwidth (upload).
+Ancho de banda entrante (kbps)
 
-Description
-    An optional note (for example: ADSL 1280/256).
+    Ajuste la cantidad de ancho de banda de entrada (descarga).
 
+Ancho de banda de salida (kbps)
 
-Address rules
-==============
+    Ajuste la cantidad de ancho de banda de salida (carga).
 
-The table shows the list of hosts or network zones that have
-customized priority rules. For example, you may decide that traffic
-from a specific computer on the local network have a low priority or
-high compared to others.
+Descripción
+
+    Una nota opcional (por ejemplo: ADSL 1280/256).
 
 
-Create / Modify 
+Reglas de direcciones
+=====================
+
+La tabla muestra la lista de hosts o zonas de red que tienen
+reglas de prioridad personalizados. Por ejemplo, usted puede decidir que el tráfico
+de un equipo específico en la red local tiene una prioridad baja o
+alto en comparación con otros.
+
+
+Crear/Modificar
 ---------------
 
-Source IP address
-     Select an host or network zone.
+Dirección IP origen
 
-Description
-     An optional description to identify
-     clearly the purpose of the rule. For example,
-     *high priority for the boss*.
+     Seleccione un host o zona de la red.
 
-Port rules 
-==========
+Descripción
 
-The table shows the list of TCP / UDP ports that have rules with
-customized priority. For example, you can specify that the
-traffic on a particular network service (from or to
-a particular port) has a low priority or high
-compared to normal network traffic.
+     Una descripción opcional para identificar
+     claramente el propósito de la regla. Por ejemplo,
+     *Alta prioridad para el jefe*.
+
+Reglas de puerto
+================
+
+La tabla muestra la lista de puertos TCP/UDP que tienen reglas con
+prioridad personalizado. Por ejemplo, puede especificar que el
+el tráfico en un servicio de red en particular (con origen o destino
+un puerto en particular) tiene una prioridad alta o baja
+en comparación con el tráfico de red normal.
 
 
-Create 
-------
+Crear
+-----
 
-Port
-    Specify the port used by the network service.
+Puerto
 
-Protocol
-    Enter the IP protocol.
+    Especifique el puerto utilizado por el servicio de red.
 
-Description
-    An optional description that 
-    clearly states the purpose of the rule. For example,
-    *background for FTP service*.
+Protocolo
+
+    Introduzca el protocolo IP.
+
+Descripción
+
+    Una descripción opcional que establece claramente la finalidad de la norma. Por ejemplo,
+    *Servicio FTP*.
