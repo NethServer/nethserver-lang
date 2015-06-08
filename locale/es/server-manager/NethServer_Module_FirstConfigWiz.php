@@ -2,7 +2,7 @@
 
 $L['Cover_Title'] = 'Bienvenido';
 $L['Next_label'] = 'Siguiente';
-$L['Back_label'] = 'Volver';
+$L['Back_label'] = 'Regresar';
 $L['Skip_label'] = 'Saltar';
 $L['Save_label'] = 'Guardar';
 $L['Welcome_body'] = 'Welcome to  ${ProductName} ${Version} ${Release}.'."\nThis wizard will help you setup some system options. At the end, you will be redirected to the network configuration page.\n\nTo continue, click Next.";

@@ -28,4 +28,4 @@ $L['hostname_label'] = 'Hostname';
 $L['Create_Alias_Header'] = 'Erstelle neuen Serveralias';
 $L['Update_Alias_Header'] = 'Update alias "${0}"';
 $L['Create_Dns_Header'] = 'Erstelle neuen Hostname';
-$L['Update_Dns_Header'] = 'Update host name "${0}"';
+$L['Update_Dns_Header'] = 'Aktualisiere Host Namen "${0}"';

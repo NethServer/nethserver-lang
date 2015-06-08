@@ -12,4 +12,4 @@ $L['BlockIpAccess_label'] = 'Blockiere den zugriff auf die Webseiten von der IP 
 $L['BlackList_label'] = 'Aktiviere Globale Blacklist';
 $L['WhiteList_label'] = 'Globale Whitelist aktivieren';
 $L['BlockFileTypes_label'] = 'Blockiere Datei Endungen';
-$L['key_exists_message'] = 'A filter, profile or time with the same name already exists';
+$L['key_exists_message'] = 'Ein Filter Profil mit dem Namen existiert schon';

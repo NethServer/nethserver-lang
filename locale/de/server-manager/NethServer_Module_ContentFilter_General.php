@@ -13,6 +13,6 @@ $L['Block domain'] = 'Gesperrte Domain';
 $L['BlockedFileTypes_label'] = 'Liste der geblockten Dateierweiterungen';
 $L['Block_label'] = 'Globale Blacklist';
 $L['Block URL'] = 'URL blockieren';
-$L['Expressions_label'] = 'Enable expression matching on URL';
+$L['Expressions_label'] = 'Aktiviere Wort Filter für die URL';
 $L['General_Title'] = 'Allgemein';
 $L['status_label'] = 'Aktiviere Filter';

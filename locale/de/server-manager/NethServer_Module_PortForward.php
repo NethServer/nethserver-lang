@@ -25,6 +25,6 @@ $L['update_header_label'] = 'Bearbeite Portweiterleitungen';
 $L['udp_label'] = 'UDP';
 $L['tcp,udp_label'] = 'TCP,UDP';
 $L['OriDst_label'] = "WAN IP (rote Schnittstelle)";
-$L['any_label'] = "Any";
+$L['any_label'] = "Alle";
 $L['PickDestination_label'] = 'Pick destination...';
 $L['HairpinNat_label'] = 'Hairpin NAT';

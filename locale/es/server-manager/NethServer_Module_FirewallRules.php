@@ -3,7 +3,7 @@
 /* NethServer_Module_FirewallRules translation, language: en */
 
 $L['FirewallRules_Description'] = 'Administrar reglas del firewall';
-$L['FirewallRules_Tags'] = 'Politica de Reglas de Firewall';
+$L['FirewallRules_Tags'] = 'Política de Reglas de Firewall';
 $L['FirewallRules_Title'] = 'Reglas de Firewall';
 
 $L['general_header'] = 'General';
@@ -21,7 +21,7 @@ $L['accept_label'] = 'Permitir tráfico';
 
 $L['Edit_header'] = 'Editar regla #${0}';
 $L['status_label'] = 'Habilitado';
-$L['Action_label'] = 'Accion';
+$L['Action_label'] = 'Acción';
 $L['ActionReject_label'] = 'Rechazar';
 $L['ActionAccept_label'] = 'Aceptar';
 $L['ActionDrop_label'] = 'Descartar';
@@ -31,7 +31,7 @@ $L['Service_label'] = 'Servicio';
 $L['PickSource_label'] = 'Elija uno...';
 $L['PickDestination_label'] = 'Elija uno...';
 $L['PickService_label'] = 'Elija uno....';
-$L['LogType_label'] = 'Escribir el log si esta regla se cumple';
+$L['LogType_label'] = 'Registrar si esta regla se cumple';
 
 $L['PickObject_SrcRaw_header'] = 'Elija el origen del paquete para la regla "${RuleId}"';
 $L['PickObject_DstRaw_header'] = 'Elija el destino del paquete para la regla "${RuleId}"';
