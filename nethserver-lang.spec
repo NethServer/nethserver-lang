@@ -50,7 +50,7 @@ for D in locale/*; do
    [ -d "${D}" ] || continue
    L=$(basename ${D})
    lang=${L:0:2}
-   if [[ "$L" == it ]]; then
+   if [[ "$L" == it || "$L" == es ]]; then
       override="Override"
    else
       override=""
