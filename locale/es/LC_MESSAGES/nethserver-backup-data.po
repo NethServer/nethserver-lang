@@ -24,4 +24,4 @@ msgstr "Activar copia de seguridad"
 
 #: root/etc/nethserver/todo.d/80backup-data:44
 msgid "Proceed with configuration of data backup"
-msgstr "Proceder a la configuración del backup de datos"
+msgstr "Proceder con la configuración del respaldo de datos"
