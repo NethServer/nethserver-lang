@@ -2,8 +2,8 @@
 
 $L['Actions_label'] = 'Aktionen'; 
 $L['Add'] = 'hinzufügen'; 
-$L['All changes have been saved'] = 'All changes have been saved'; 
-$L['An object with the same key already exists'] = 'An object with the same key already exists'; 
+$L['All changes have been saved'] = 'Alle Änderungen wurden gespeichert'; 
+$L['An object with the same key already exists'] = 'Ein Objekt mit demselben Schlüssel ist bereits vorhanden'; 
 $L['Apply_label'] = 'Bestätigen'; 
 $L['Cancel_label'] = 'Zurück';
 $L['Configure_label'] = 'Konfiguriere'; 
@@ -43,7 +43,7 @@ $L['Please wait...'] = 'Bitte warten...';
 $L['Reset_label'] = 'Reset'; 
 $L['Resource_Description'] = 'Quelle'; 
 $L['Resource_Tags'] = ''; 
-$L['Resource_Title'] = 'Resource'; 
+$L['Resource_Title'] = 'Quelle'; 
 $L['Search'] = 'Suchen'; 
 $L['Search...'] = 'Suchen...'; 
 $L['Submit_label'] = 'anwenden'; 

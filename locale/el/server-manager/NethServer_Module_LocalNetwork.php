@@ -12,6 +12,6 @@ $L['Router_label'] = 'Διεύθυνση Router';
 $L['SystemLocalNetwork_label'] = 'Δίκτυο συστήματος'; 
 $L['Update network `${0}`'] = 'Ενημέρωση δικτύου `${0}`'; 
 $L['network_label'] = 'Διεύθυνση δικτύου'; 
-$L['invalid_network'] = 'Invalid network address';
-$L['used_network'] = 'Network already in use';
+$L['invalid_network'] = 'Λανθασμένη διεύθυνση δικτύου';
+$L['used_network'] = 'Το δίκτυο βρίσκεται ήδη σε χρήση';
 
