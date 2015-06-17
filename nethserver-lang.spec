@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.0.5
+Version: 1.0.6
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -186,6 +186,10 @@ NethServer Swedish language support (sv)
 
 
 %changelog
+* Wed Jun 17 2015 Davide Principi <davide.principi@nethesis.it> - 1.0.6-1
+- RPM conflicts with nethserver-lang-es - Bug #3187 [NethServer]
+- Spanish Help translations
+
 * Thu Jun 04 2015 Davide Principi <davide.principi@nethesis.it> - 1.0.5-1
 - Pulled translations from Transifex
 
