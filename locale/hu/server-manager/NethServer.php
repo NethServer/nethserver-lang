@@ -1,11 +1,12 @@
 <?php 
 
 $L['Administration'] = 'Adminisztráció'; 
-$L['Category_Order'] = 'Státusz, Menedzsment, Adminisztráció, Biztonság, Konfiguráció, Átjáró'; 
 $L['Configuration'] = 'Konfiguráció'; 
 $L['Management'] = 'Menedzsment'; 
 $L['Other modules'] = 'Egyéb modulok'; 
 $L['Security'] = 'Biztonság';
+$L['Status'] = 'Állapot';
+$L['Gateway'] = 'Átjáró';
 $L['UserProfile_Title'] = 'Felhasználói profil';
 $L['ChangePassword_Header'] = '`${0}` felhasználó jelszavának megváltoztatása';
 $L['ChangePassword_label'] = 'Jelszó változtatás';

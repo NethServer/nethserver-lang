@@ -8,5 +8,6 @@ $L['Read_Title'] = 'Показать ${0}';
 $L['Follow_label'] = 'Обновлять';
 $L['Empty_label'] = 'Очистить';
 $L['Stop_label'] = 'Остановить';
+$L['Clear_label'] = 'Clear filter';
 $L['Results_Filtered_label'] = 'Найдено ${0} результатов';
 $L['Result_Filtered_label'] = 'один результат';

@@ -8,5 +8,6 @@ $L['Read_Title'] = 'Visualizza ${0}';
 $L['Follow_label'] = 'Segui';
 $L['Empty_label'] = 'Svuota';
 $L['Stop_label'] = 'Ferma';
+$L['Clear_label'] = 'Pulisci filtro';
 $L['Results_Filtered_label'] = '${0} risultati filtrati';
 $L['Result_Filtered_label'] = 'un risultato filtrato';

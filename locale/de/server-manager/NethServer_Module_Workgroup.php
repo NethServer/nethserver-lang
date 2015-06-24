@@ -3,10 +3,10 @@
 $L['AdsController_label'] = 'Kontroller';
 $L['AdsRealm_label'] = 'Reich';
 $L['login_label'] = 'Benutzername';
-$L['RoamingProfiles_label'] = 'Roamingprifile aktivieren'; 
+$L['RoamingProfiles_label'] = 'Roamingprofile aktivieren'; 
 $L['ServerRole_ADS_label'] = 'Active Directory Mitglied';
 $L['ServerRole_PDC_label'] = 'Primärer Domain Controller';
-$L['ServerRole_WS_label'] = 'Arbeitsplatz';
+$L['ServerRole_WS_label'] = 'Arbeitsgruppe';
 $L['AdsDomain_label'] = 'Domain';
 $L['PdcDomain_label'] = 'Domain';
 $L['WinregistryPatches_label'] = 'Client einstellungen';

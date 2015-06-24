@@ -4,7 +4,7 @@
 
 $L['FirewallRules_Description'] = 'Administrar reglas del firewall';
 $L['FirewallRules_Tags'] = 'Política de Reglas de Firewall';
-$L['FirewallRules_Title'] = 'Reglas de Firewall';
+$L['FirewallRules_Title'] = 'Reglas del Firewall';
 
 $L['general_header'] = 'General';
 $L['General_Title'] = 'Opciones Generales';

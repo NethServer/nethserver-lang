@@ -17,7 +17,7 @@ $L['SpamKillLevel ${0}'] = '
 Add a prefix to spam messages subject'; 
 $L['SpamSubjectPrefixStatus_label'] = 'füge eine Präfix zur Spam Nachricht hinzu'; 
 $L['SpamSubjectPrefixString_label'] = 'füge eine Präfix zur Spam Nachricht hinzu'; 
-$L['SpamTag2Level ${0}'] = 'Spam treshold ${0}'; 
+$L['SpamTag2Level ${0}'] = 'Spam Schwelle ${0}'; 
 $L['SpamTag2Level_label'] = 'Spamheader hinzufügen'; 
 $L['VirusCheckStatus_label'] = 'Anti-Virus'; 
 $L['allow From'] = 'erlaube von'; 

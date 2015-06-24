@@ -8,5 +8,6 @@ $L['Read_Title'] = 'Εμφάνισε ${0}';
 $L['Follow_label'] = 'Να ακολουθήσει';
 $L['Empty_label'] = 'Άδειασμα';
 $L['Stop_label'] = 'Σταμάτημα';
+$L['Clear_label'] = 'Clear filter';
 $L['Results_Filtered_label'] = '${0} φιλτραρισμένα αποτελέσματα';
 $L['Result_Filtered_label'] = 'ένα φιλτραρισμένο αποτέλεσμα';

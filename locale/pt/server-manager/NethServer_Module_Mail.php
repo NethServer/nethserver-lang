@@ -45,3 +45,9 @@ $L['Flush_Message'] = 'A tentar reenviar todas as mensagens da fila';
 $L['DeleteAll_label'] = 'Apagar tudo';
 $L['DeleteAll_Header'] = 'Apagar tudo';
 $L['DeleteAll_Message'] = 'Apagar todas as mensagens da fila (${0})';
+
+$L['SmtpAccess_Title'] = 'SMTP access';
+$L['SMTP connections policy'] = 'SMTP connections policy';
+$L['AccessBypassList_label'] = 'Allow relay from IP addresses';
+$L['AccessPolicyTrustedNetworks_label'] = 'Allow relay from trusted networks';
+$L['AccessPolicySmtpAuth_label'] = 'Enable authentication on port 25';

@@ -1,6 +1,5 @@
 <?php
 
-$L['Duc_Title'] = 'Diszk foglaltság elemző';
 $L['Duc_Description'] = 'Lemezkihasználtság vizsgálat';
 $L['Duc_Tags'] = 'lemez elemző hely használat duc';
 

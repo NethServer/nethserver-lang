@@ -45,3 +45,9 @@ $L['Flush_Message'] = 'Prova a spedire di nuovo tutti i messaggi in coda';
 $L['DeleteAll_label'] = 'Elimina tutti';
 $L['DeleteAll_Header'] = 'Elimina tutti';
 $L['DeleteAll_Message'] = 'Elimina tutti i messaggi in coda (${0})';
+
+$L['SmtpAccess_Title'] = 'Accesso SMTP';
+$L['SMTP connections policy'] = 'SMTP connections policy';
+$L['AccessBypassList_label'] = 'Consenti relay dai seguenti indirizzi IP';
+$L['AccessPolicyTrustedNetworks_label'] = 'Consenti relay dalle reti fidate';
+$L['AccessPolicySmtpAuth_label'] = 'Abilita autenticazione sulla porta 25';

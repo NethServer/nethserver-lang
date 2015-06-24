@@ -1,11 +1,12 @@
 <?php 
 
 $L['Administration'] = 'Διαχείρηση'; 
-$L['Category_Order'] = 'Κατάσταση, Διαχείρηση, Διεύθυνση, Ασφάλεια, Διαμόρφωση, Πύλη'; 
 $L['Configuration'] = 'Διαχείρηση'; 
 $L['Management'] = 'Διαχείρηση'; 
 $L['Other modules'] = 'Άλλα '; 
 $L['Security'] = 'Ασφάλεια';
+$L['Status'] = 'Status';
+$L['Gateway'] = 'Gateway';
 $L['UserProfile_Title'] = 'Προφίλ Χρήστη';
 $L['ChangePassword_Header'] = 'Αλλαγή κωδικού για τον χρήστη `${0}`';
 $L['ChangePassword_label'] = 'Αλλαγή κωδικού';

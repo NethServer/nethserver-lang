@@ -8,5 +8,6 @@ $L['Read_Title'] = 'Zeige ${0}';
 $L['Follow_label'] = 'Folgen';
 $L['Empty_label'] = 'leer';
 $L['Stop_label'] = 'Stop';
+$L['Clear_label'] = 'Clear filter';
 $L['Results_Filtered_label'] = '${0} filtered results';
 $L['Result_Filtered_label'] = 'one filtered result';

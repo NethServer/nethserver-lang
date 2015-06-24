@@ -45,3 +45,9 @@ $L['Flush_Message'] = 'Essayer une nouvelle fois d\'envoyer tous les messages en
 $L['DeleteAll_label'] = 'Supprimer tout';
 $L['DeleteAll_Header'] = 'Supprimer tout';
 $L['DeleteAll_Message'] = 'Supprimer tous les messages en file d\'attente (${0})';
+
+$L['SmtpAccess_Title'] = 'SMTP access';
+$L['SMTP connections policy'] = 'SMTP connections policy';
+$L['AccessBypassList_label'] = 'Allow relay from IP addresses';
+$L['AccessPolicyTrustedNetworks_label'] = 'Allow relay from trusted networks';
+$L['AccessPolicySmtpAuth_label'] = 'Enable authentication on port 25';

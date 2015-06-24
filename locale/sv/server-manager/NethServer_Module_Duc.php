@@ -1,6 +1,5 @@
 <?php
 
-$L['Duc_Title'] = 'Disk space analyzer';
 $L['Duc_Description'] = 'Usage and space analyzer';
 $L['Duc_Tags'] = 'disk analysis space usage duc';
 

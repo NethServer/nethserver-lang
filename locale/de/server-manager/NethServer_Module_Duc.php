@@ -1,6 +1,5 @@
 <?php
 
-$L['Duc_Title'] = 'Festplattenspeicheranalyser';
 $L['Duc_Description'] = 'Verwende einen Speicher Auswertungsprogramm';
 $L['Duc_Tags'] = 'disk analysis space usage duc';
 
