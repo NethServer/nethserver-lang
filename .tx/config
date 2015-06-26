@@ -708,7 +708,7 @@ source_lang = en
 type = PHP_ALT_ARRAY
 
 [nethserver.DdClient]
-file_filter = locale/<lang>/server-manager/NethServer_Module_DcClient.php
+file_filter = locale/<lang>/server-manager/NethServer_Module_DdClient.php
 source_file = locale/en/server-manager/NethServer_Module_DdClient.php
 source_lang = en
 type = PHP_ALT_ARRAY
