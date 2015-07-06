@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.0.7
+Version: 1.0.8
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -186,6 +186,10 @@ NethServer Swedish language support (sv)
 
 
 %changelog
+* Mon Jul 06 2015 Davide Principi <davide.principi@nethesis.it> - 1.0.8-1
+- Pulled strings from Transifex
+- Updated Italian help file for Email page
+
 * Wed Jun 24 2015 Davide Principi <davide.principi@nethesis.it> - 1.0.7-1
 - Strings update
 
