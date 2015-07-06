@@ -46,8 +46,8 @@ $L['DeleteAll_label'] = 'Alles löschen';
 $L['DeleteAll_Header'] = 'Alles löschen';
 $L['DeleteAll_Message'] = 'Lösche alle Nachrichten in der Warteschlange (${0})';
 
-$L['SmtpAccess_Title'] = 'SMTP access';
+$L['SmtpAccess_Title'] = 'SMTP Zugang';
 $L['SMTP connections policy'] = 'SMTP connections policy';
-$L['AccessBypassList_label'] = 'Allow relay from IP addresses';
-$L['AccessPolicyTrustedNetworks_label'] = 'Allow relay from trusted networks';
+$L['AccessBypassList_label'] = 'Weiterleitung von IP-Adresse erlaubt';
+$L['AccessPolicyTrustedNetworks_label'] = 'Weiterleitung von sicheren Netzwerken erlaubt';
 $L['AccessPolicySmtpAuth_label'] = 'Enable authentication on port 25';

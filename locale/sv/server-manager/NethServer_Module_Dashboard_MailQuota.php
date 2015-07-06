@@ -1,8 +1,8 @@
 <?php
 
-$L['MailQuota_Title'] = 'Mail quota';
-$L['Key_label'] = 'User';
-$L['size_label'] = 'Size';
-$L['max_size_label'] = 'Max. size';
-$L['percentage_label'] = 'Usage percentage';
-$L['msg_number_label'] = 'Number of messages';
+$L['MailQuota_Title'] = 'Post kvot';
+$L['Key_label'] = 'Användaren';
+$L['size_label'] = 'Storlek';
+$L['max_size_label'] = 'Max. storlek';
+$L['percentage_label'] = 'Procentuell användning';
+$L['msg_number_label'] = 'Antal meddelanden';

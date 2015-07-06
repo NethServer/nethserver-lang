@@ -46,8 +46,8 @@ $L['DeleteAll_label'] = 'Tümünü sil';
 $L['DeleteAll_Header'] = 'Tümünü sil';
 $L['DeleteAll_Message'] = 'Kuyruktaki tüm iletileri sil (${0})';
 
-$L['SmtpAccess_Title'] = 'SMTP access';
-$L['SMTP connections policy'] = 'SMTP connections policy';
-$L['AccessBypassList_label'] = 'Allow relay from IP addresses';
-$L['AccessPolicyTrustedNetworks_label'] = 'Allow relay from trusted networks';
-$L['AccessPolicySmtpAuth_label'] = 'Enable authentication on port 25';
+$L['SmtpAccess_Title'] = 'SMTP erişimi';
+$L['SMTP connections policy'] = 'SMTP bağlantıları ilkesi';
+$L['AccessBypassList_label'] = 'Aktarılacak IP adresleri';
+$L['AccessPolicyTrustedNetworks_label'] = 'Aktarılacak güvenilen ağlar';
+$L['AccessPolicySmtpAuth_label'] = '25 numaralı kapıda kimlik doğrulaması kullanılsın';

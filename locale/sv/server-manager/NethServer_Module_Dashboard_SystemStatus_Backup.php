@@ -2,19 +2,19 @@
 
 /* Language/en/NethServer_Module_Dashboard_SystemStatus_Backup translation, language: en */
 
-$L['backup_title'] = 'Backup';
+$L['backup_title'] = 'Säkerhetskopiering';
 $L['status_label'] = 'Status';
-$L['time_label'] = 'Schedule at';
+$L['time_label'] = 'Schemalägg vid';
 $L['vfs_label'] = 'Destination';
-$L['type_label'] = 'Type';
-$L['result_label'] = 'Result';
-$L['start_label'] = 'Start time';
-$L['end_label'] = 'End time';
-$L['enabled'] = 'Enabled';
-$L['disabled'] = 'Disabled';
-$L['incremental'] = 'Incremental';
+$L['type_label'] = 'Typ';
+$L['result_label'] = 'Resultat';
+$L['start_label'] = 'Starttid';
+$L['end_label'] = 'Stopptid';
+$L['enabled'] = 'Aktiverad';
+$L['disabled'] = 'Inaktiverad';
+$L['incremental'] = 'inkrementell';
 $L['full'] = 'Full';
-$L['SUCCESS'] = 'SUCCESS';
-$L['ERROR'] = 'ERROR';
-$L['backup_not_configured'] = 'Backup not configured';
-$L['last_backup'] = 'Last backup';
+$L['SUCCESS'] = 'SUCCÉ';
+$L['ERROR'] = 'FEL';
+$L['backup_not_configured'] = 'Säkerhetskopiering inte konfigurerad';
+$L['last_backup'] = 'Sista säkerhetskopiering';

@@ -1,8 +1,8 @@
 <?php
 
-$L['Key_label'] = 'Name';
-$L['real_address_label'] = 'Real address';
-$L['virtual_address_label'] = 'Virtual address';
-$L['bytes_label'] = 'Traffic';
-$L['since_label'] = 'Connected since';
-$L['Kill_label'] = 'Kill';
+$L['Key_label'] = 'Namn';
+$L['real_address_label'] = 'Äkta adress';
+$L['virtual_address_label'] = 'Virtuell adress';
+$L['bytes_label'] = 'Trafik';
+$L['since_label'] = 'Ansluten sedan';
+$L['Kill_label'] = 'Döda';

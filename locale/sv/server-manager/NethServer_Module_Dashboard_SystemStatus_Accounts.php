@@ -1,10 +1,10 @@
 <?php
 
-$L['accounts_title'] = 'Accounts';
-$L['group_label'] = 'Groups';
-$L['user_label'] = 'Users';
-$L['pseudonym_label'] = 'Email addresses';
-$L['ibay_label'] = 'Shared folders';
-$L['machine_label'] = 'Machine accounts';
-$L['ftp_label'] = 'FTP accounts';
-$L['vpn_label'] = 'VPN accounts';
+$L['accounts_title'] = 'Konton';
+$L['group_label'] = 'Grupper';
+$L['user_label'] = 'Användare';
+$L['pseudonym_label'] = 'Epostadresser';
+$L['ibay_label'] = 'Delade mappar';
+$L['machine_label'] = 'Maskinkonton';
+$L['ftp_label'] = 'FTP konton';
+$L['vpn_label'] = 'VPN konton';

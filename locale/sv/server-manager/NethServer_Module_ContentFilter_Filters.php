@@ -1,15 +1,15 @@
 <?php
 
-$L['Filters_Title'] = 'Filters';
-$L['Key_label'] = 'Name';
-$L['name_label'] = 'Name';
-$L['Description_label'] = 'Description';
+$L['Filters_Title'] = 'Filter';
+$L['Key_label'] = 'Namn';
+$L['name_label'] = 'Namn';
+$L['Description_label'] = 'Beskrivning';
 $L['BlockAll_label'] = 'Mode';
-$L['enabled_label'] = 'Block all, allow selected content';
-$L['disabled_label'] = 'Allow all, block selected content';
-$L['Categories_label'] = 'Categories';
-$L['BlockIpAccess_label'] = 'Block access to web sites using ip address';
-$L['BlackList_label'] = 'Enable global blacklist';
-$L['WhiteList_label'] = 'Enable global whitelist';
-$L['BlockFileTypes_label'] = 'Block file extensions';
-$L['key_exists_message'] = 'A filter, profile or time with the same name already exists';
+$L['enabled_label'] = 'Blockera alla, tillåt valt innehåll';
+$L['disabled_label'] = 'Tillåt alla, blockera valt innehåll';
+$L['Categories_label'] = 'Kategorier';
+$L['BlockIpAccess_label'] = 'Blockera tillgång till webbsidor som använder ip-adress';
+$L['BlackList_label'] = 'Aktivera global blacklist';
+$L['WhiteList_label'] = 'Aktivera global whitelist';
+$L['BlockFileTypes_label'] = 'Blockera filändelser';
+$L['key_exists_message'] = 'Ett filter, profil eller tid med samma namn existerar redan';

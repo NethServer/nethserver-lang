@@ -1,10 +1,10 @@
 <?php
 
-$L['Printers_Title'] = 'Printers';
-$L['no_printers'] = 'No printers found';
+$L['Printers_Title'] = 'Skrivare';
+$L['no_printers'] = 'Inga skrivare hittades';
 $L['printer_state'] = 'Status';
-$L['printer_enabled'] = 'Enabled';
-$L['idle'] = 'Idle';
-$L['stopped'] = 'Stopped';
-$L['true'] = 'Yes';
-$L['false'] = 'No';
+$L['printer_enabled'] = 'Aktiverad';
+$L['idle'] = 'inaktiv';
+$L['stopped'] = 'Stoppad';
+$L['true'] = 'Ja';
+$L['false'] = 'Nej';

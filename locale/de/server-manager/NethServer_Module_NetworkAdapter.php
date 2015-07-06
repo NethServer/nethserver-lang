@@ -50,7 +50,8 @@ $L['Action_create_bond'] = 'erstelle neue virtuelles Netzwerksgerät ${device} m
 $L['Action_create_vlan'] = 'Erstelle ein neues VLAN Netzwerk ${device} auf ${parts}';
 $L['Action_create_role'] = 'Set role to "${role}"';
 $L['Action_set_static_ip'] = 'Set static IP ${ipaddr}/${netmask}';
-$L['Action_use_dhcp'] = 'Obtain IP configuration from DHCP server';
+$L['Action_use_dhcp'] = 'IP Zuweisung erfolgt durch DHCP-Server
+(Obtain IP configuration from DHCP server)';
 $L['Action_use_gateway'] = 'Use gateway ${gateway}';
 $L['Action_use_no_gateway'] = 'Kein Gateway setzen';
 $L['Create_label'] = 'Interface erstellen';

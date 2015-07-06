@@ -31,4 +31,4 @@ $L['Everything_category_description'] = 'Show groups from any category';
 $L['noupdates_message'] = 'Installierte Software ist aktuell';
 $L['DoUpdate_label'] = 'Herunterladen und Installieren';
 $L['update_success_message'] = 'Software Update Fertig';
-$L['Changelog_label'] = 'Updates CHANGELOG';
+$L['Changelog_label'] = 'Änderungsprotokoll';

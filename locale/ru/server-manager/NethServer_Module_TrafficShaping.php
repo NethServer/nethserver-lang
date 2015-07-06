@@ -32,6 +32,7 @@ $L['Proto_label'] = 'Протокол';
 $L['simple_label'] = 'Да';
 $L['tc_label'] = 'Включить управление полосой пропускания';
 $L['tcp_label'] = 'TCP';
+$L['tcp,udp_label'] = 'TCP, UDP';
 $L['TrafficShaping_Description'] = 'Управление полосой пропускания';
 $L['TrafficShaping_Tags'] = 'tc traffic shaping shape qos';
 $L['TrafficShaping_Title'] = 'Ограничения полосы пропускания';

@@ -32,6 +32,7 @@ $L['Proto_label'] = 'Protocolo';
 $L['simple_label'] = 'Sim';
 $L['tc_label'] = 'Activar prioridade de tráfego';
 $L['tcp_label'] = 'TCP';
+$L['tcp,udp_label'] = 'TCP, UDP';
 $L['TrafficShaping_Description'] = 'Gerir prioridade de tráfego';
 $L['TrafficShaping_Tags'] = 'tc trafego prioridade prioridade qos';
 $L['TrafficShaping_Title'] = 'Prioridades de tráfego de dados';

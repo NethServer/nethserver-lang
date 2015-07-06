@@ -1,7 +1,7 @@
 <?php
 
 $L['Duc_Description'] = 'Verwende einen Speicher Auswertungsprogramm';
-$L['Duc_Tags'] = 'disk analysis space usage duc';
+$L['Duc_Tags'] = 'Festplattenanlyse, Festplattennutzung, Belegng';
 
 $L['Duc_label'] = 'Aktiviere Speicher Auswertungsprogramm';
 $L['DucStatus_enabled_label'] = 'aktivieren';

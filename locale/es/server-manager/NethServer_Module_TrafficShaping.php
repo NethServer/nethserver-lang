@@ -32,6 +32,7 @@ $L['Proto_label'] = 'Protocolo';
 $L['simple_label'] = 'Si';
 $L['tc_label'] = 'Habilitar configuración del tráfico';
 $L['tcp_label'] = 'TCP';
+$L['tcp,udp_label'] = 'TCP, UDP';
 $L['TrafficShaping_Description'] = 'Administrar configuración de tráfico';
 $L['TrafficShaping_Tags'] = 'tc tráfico shaping shape qos';
 $L['TrafficShaping_Title'] = 'Configuración del tráfico';

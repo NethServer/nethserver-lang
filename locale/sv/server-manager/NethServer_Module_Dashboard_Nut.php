@@ -1,20 +1,20 @@
 <?php
 
-$L['model_label'] = 'Model';
+$L['model_label'] = 'Modell';
 $L['status_label'] = 'Status';
-$L['temperature_label'] = 'Temperature';
-$L['battery_chrg_label'] = 'Battery charge';
-$L['battery_volt_label'] = 'Battery voltage';
-$L['battery_runtime_label'] = 'Battery runtime';
-$L['input_volt_label'] = 'Input voltage';
-$L['output_volt_label'] = 'Output voltage';
-$L['load_label'] = 'Load';
-$L['no_info'] = 'No UPS information available';
+$L['temperature_label'] = 'Temperatur';
+$L['battery_chrg_label'] = 'Batteriladdning';
+$L['battery_volt_label'] = 'Batterispänning';
+$L['battery_runtime_label'] = 'Batteritid';
+$L['input_volt_label'] = 'Ingående spänning';
+$L['output_volt_label'] = 'Utgående spänning';
+$L['load_label'] = 'Ladda';
+$L['no_info'] = 'Ingen UPS information tillgänglig';
 $L['nut_title'] = 'UPS';
-$L['show_full_status_label'] = 'Show full status';
+$L['show_full_status_label'] = 'Visa full status';
 $L['on_line_label'] = 'Online';
-$L['on_line_chrg_label'] = 'Online - Battery charging';
-$L['on_battery_label'] = 'On battery';
-$L['low_battery_label'] = 'On battery - Low battery';
+$L['on_line_chrg_label'] = 'Online - Batteriladdning';
+$L['on_battery_label'] = 'På batteri';
+$L['low_battery_label'] = 'På batteri - Låg batteri';
 $L['Nut_Title'] = 'UPS';
-$L['minutes_label'] = 'minutes';
+$L['minutes_label'] = 'minuter';

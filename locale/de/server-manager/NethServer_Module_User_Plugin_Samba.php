@@ -1,4 +1,4 @@
 <?php 
 
 $L['Samba_Tags'] = 'samba Freigabe'; 
-$L['Samba_label'] = 'freigegebene Verzeichnisse'; 
+$L['Samba_label'] = 'Freigaben'; 

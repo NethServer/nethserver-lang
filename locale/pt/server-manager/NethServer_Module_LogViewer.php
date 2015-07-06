@@ -8,6 +8,6 @@ $L['Read_Title'] = 'Mostrar ${0}';
 $L['Follow_label'] = 'Seguir';
 $L['Empty_label'] = 'Vazio';
 $L['Stop_label'] = 'Parar';
-$L['Clear_label'] = 'Clear filter';
+$L['Clear_label'] = 'Limpar filtro';
 $L['Results_Filtered_label'] = '${0} resultados filtrados';
 $L['Result_Filtered_label'] = 'um resultado filtrado';

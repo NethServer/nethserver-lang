@@ -1,7 +1,7 @@
 <?php
 
-$L['Categories_Title'] = 'Custom categories';
-$L['name_label'] = 'Name';
-$L['Description_label'] = 'Description';
-$L['Domains_label'] = 'Domains';
-$L['Key_label'] = 'Name';
+$L['Categories_Title'] = 'Anpassade kategorier';
+$L['name_label'] = 'Namn';
+$L['Description_label'] = 'Beskrivning';
+$L['Domains_label'] = 'Domäner';
+$L['Key_label'] = 'Namn';

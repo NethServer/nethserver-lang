@@ -2,11 +2,11 @@
 
 /* NethServer_Module_Dashboard_SystemStatus_RaidStatus.php, language: en */
 
-$L['devs'] = 'Devices';
-$L['raidstatus_title'] = 'Software RAID status';
-$L['no_raid'] = 'No software RAID configured';
-$L['ok'] = 'OK';
-$L['level'] = 'Level';
-$L['critical'] = 'CRITICAL';
-$L['failed_devs'] = 'Failed';
-$L['spare_devs'] = 'Spare';
+$L['devs'] = 'Enheter';
+$L['raidstatus_title'] = 'Mjukvaru-RAID konfigurerad';
+$L['no_raid'] = 'Ingen mjukvaru-RAID konfigurerad';
+$L['ok'] = 'Okej';
+$L['level'] = 'Nivå';
+$L['critical'] = 'KRITISK';
+$L['failed_devs'] = 'Misslyckad';
+$L['spare_devs'] = 'Reserv';

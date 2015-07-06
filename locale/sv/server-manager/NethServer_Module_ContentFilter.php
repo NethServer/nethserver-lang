@@ -1,4 +1,4 @@
 <?php
-$L['ContentFilter_Description'] = 'Configure web content filter';
-$L['ContentFilter_Tags'] = 'filter squidguard profile role blacklist filter profile antivirus categories shalla';
-$L['ContentFilter_Title'] = 'Web content filter';
+$L['ContentFilter_Description'] = 'Konfigurera web innehållsfilter';
+$L['ContentFilter_Tags'] = 'filtrera squidguard profil roll svartlista filter profil antivirus kategorier shallalist';
+$L['ContentFilter_Title'] = 'Web innehållsfilter';

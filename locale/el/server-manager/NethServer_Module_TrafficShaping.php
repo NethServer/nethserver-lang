@@ -32,6 +32,7 @@ $L['Proto_label'] = 'Πρωτόκολλο';
 $L['simple_label'] = 'Ναι';
 $L['tc_label'] = 'Ενεργοποίηση διαμόρφωση κίνησης';
 $L['tcp_label'] = 'TCP';
+$L['tcp,udp_label'] = 'TCP, UDP';
 $L['TrafficShaping_Description'] = 'Διαχείρηση διαμόρφωση κίνησης';
 $L['TrafficShaping_Tags'] = 'tc traffic shaping shape qos';
 $L['TrafficShaping_Title'] = 'Διαμόρφωση Κίνησης';

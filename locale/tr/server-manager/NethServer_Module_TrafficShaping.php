@@ -32,6 +32,7 @@ $L['Proto_label'] = 'İletişim kuralı';
 $L['simple_label'] = 'Evet';
 $L['tc_label'] = 'Trafik şekillendirme kullanılsın';
 $L['tcp_label'] = 'TCP';
+$L['tcp,udp_label'] = 'TCP, UDP';
 $L['TrafficShaping_Description'] = 'Trafik Şekillendirme Yönetimi';
 $L['TrafficShaping_Tags'] = 'tc traffic shaping shape qos trafik şekillendirme hizmet kalite yönetimi';
 $L['TrafficShaping_Title'] = 'Trafik şekillendirme';

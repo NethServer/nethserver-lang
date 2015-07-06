@@ -5,7 +5,7 @@
 
 $L['Key_label'] = 'Name'; 
 $L['IaxModem_Description'] = 'Konfiguriere IAX Modem'; 
-$L['IaxModem_Tags'] = 'iax iax2 modem modems'; 
+$L['IaxModem_Tags'] = 'iax Modem'; 
 $L['IaxModem_Title'] = 'IAX Modem'; 
 $L['cidName_label'] = 'Caller name'; 
 $L['cidNumber_label'] = 'Caller number'; 

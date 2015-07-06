@@ -32,6 +32,7 @@ $L['Proto_label'] = 'Protocollo';
 $L['simple_label'] = 'Si';
 $L['tc_label'] = 'Abilita gestione banda';
 $L['tcp_label'] = 'TCP';
+$L['tcp,udp_label'] = 'TCP,UDP';
 $L['TrafficShaping_Description'] = 'Gestione banda';
 $L['TrafficShaping_Tags'] = 'tc traffic shaping shape qos gestione banda';
 $L['TrafficShaping_Title'] = 'Gestione banda';

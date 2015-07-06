@@ -1,7 +1,7 @@
 <?php
 
-$L['antivirus_title'] = 'Antivirus database';
+$L['antivirus_title'] = 'Antivirus databas';
 $L['status_label'] = 'Status';
-$L['warning_label'] = 'Not updated';
-$L['ok_label'] = 'Updated';
-$L['timestamp_label'] = 'Last update';
+$L['warning_label'] = 'Inte uppdaterad';
+$L['ok_label'] = 'Uppdaterad';
+$L['timestamp_label'] = 'Sista uppdatering';

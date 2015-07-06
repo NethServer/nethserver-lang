@@ -1,15 +1,15 @@
 <?php
 
-$L['ovpn_server'] = "OpenVPN server";
-$L['ovpn_disabled'] = 'OpenVPN server disabled';
-$L['enabled'] = 'Enabled';
-$L['disabled'] = 'Disabled';
+$L['ovpn_server'] = "OpenVPN Server";
+$L['ovpn_disabled'] = 'OpenVPN server inaktiverad';
+$L['enabled'] = 'Aktiverad';
+$L['disabled'] = 'Inaktiverad';
 $L['routed'] = 'Routed';
-$L['bridged'] = 'Bridged';
-$L['password'] = 'Password';
-$L['certificate'] = 'Cetificate';
-$L['password-certificate'] = 'Password and certificate';
-$L['ovpn_auth'] = 'Authentication';
-$L['ovpn_mode'] = 'Mode';
-$L['ovpn_range'] = 'IP range';
+$L['bridged'] = 'Bryggad';
+$L['password'] = 'Lösenord';
+$L['certificate'] = 'Certifikat';
+$L['password-certificate'] = 'Lösenord och certifikat';
+$L['ovpn_auth'] = 'Autentisering';
+$L['ovpn_mode'] = 'Läge';
+$L['ovpn_range'] = 'IP-intervall';
 $L['ovpn_port'] = 'UDP port';

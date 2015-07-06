@@ -1,4 +1,4 @@
 <?php
 
-$L['mail_title'] = 'Mail server';
-$L['domain_list'] = 'Configured domains';
+$L['mail_title'] = 'Epost Server';
+$L['domain_list'] = 'konfigurerad domäner';
