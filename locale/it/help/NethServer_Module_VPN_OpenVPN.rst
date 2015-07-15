@@ -15,7 +15,7 @@ rete remota.
 Abilita server roadwarrior
     Consente di abilitare il server OpenVPN in modalità roadwarrior.
     Tale modalità prevede l'esecuzione di un server in ascolto sulla
-    porta 1194 UDP. E' possibile connettere più client VPN.
+    porta di default 1194 UDP. E' possibile connettere più client VPN.
 
 Modalità autenticazione
     Permette di scegliere la modalità di autenticazione desiderata.
@@ -54,6 +54,7 @@ Modalità bridged
     selezionato non siano associati staticamente a nessun host della
     rete aziendale.
 
+    * Bridge: interfaccia brige associata
     * Inizio range IP: primo indirizzo IP del range
     * Fine range IP: ultimo indirizzo IP del range
 
@@ -69,3 +70,5 @@ Abilita compressione LZO
     Abilita la compressione LZO dei dati. E' necessario che la direttiva
     sia presente sia sul client che sul server. (Consigliato)
 
+Porta UDP
+    Porta di ascolto del server. Il default è 1194.
