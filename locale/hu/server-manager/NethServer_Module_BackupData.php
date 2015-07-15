@@ -36,6 +36,7 @@ $L['notify_always_label'] = 'Mindig';
 $L['notify_error_label'] = 'Hiba esetén';
 $L['notify_never_label'] = 'Soha';
 $L['notifyToCustom_label'] = 'Cím';
+$L['notifyFrom_label'] = 'Sender address';
 $L['notifyToType_admin_label'] = 'Rendszer adminisztráció';
 $L['notifyToType_custom_label'] = 'Egyedi email cím';
 $L['notifyTo_label'] = 'Értesítés küldése ide';

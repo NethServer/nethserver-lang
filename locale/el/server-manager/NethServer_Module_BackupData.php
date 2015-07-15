@@ -36,6 +36,7 @@ $L['notify_always_label'] = 'Πάντα';
 $L['notify_error_label'] = 'Σε περίπτωση σφάλματος';
 $L['notify_never_label'] = 'Ποτέ';
 $L['notifyToCustom_label'] = 'Διεύθυνση';
+$L['notifyFrom_label'] = 'Sender address';
 $L['notifyToType_admin_label'] = 'Διαχειριστής συστήματος';
 $L['notifyToType_custom_label'] = 'Προσαρμοσμένη διεύθυνση';
 $L['notifyTo_label'] = 'Στείλε τις ειδοποιήσεις στο';

@@ -36,6 +36,7 @@ $L['notify_always_label'] = 'Sempre';
 $L['notify_error_label'] = 'Com erro';
 $L['notify_never_label'] = 'Nunca';
 $L['notifyToCustom_label'] = 'Endereço';
+$L['notifyFrom_label'] = 'Sender address';
 $L['notifyToType_admin_label'] = 'Administrador do sistema';
 $L['notifyToType_custom_label'] = 'Endereço de correio electrónico personalizado';
 $L['notifyTo_label'] = 'Enviar notificação para:';

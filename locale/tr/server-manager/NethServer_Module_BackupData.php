@@ -36,6 +36,7 @@ $L['notify_always_label'] = 'Her zaman';
 $L['notify_error_label'] = 'Hata durumunda';
 $L['notify_never_label'] = 'Hiçbir zaman';
 $L['notifyToCustom_label'] = 'Adres';
+$L['notifyFrom_label'] = 'Gönderen adresi';
 $L['notifyToType_admin_label'] = 'Sistem yöneticisi';
 $L['notifyToType_custom_label'] = 'Özel e-posta adresi';
 $L['notifyTo_label'] = 'Bildirimler şuraya gönderilsin';

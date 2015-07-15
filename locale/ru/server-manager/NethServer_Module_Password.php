@@ -1,6 +1,6 @@
 <?php
-$L['Password_Title'] = 'Password policies';
-$L['Password_Description'] = 'Change password policies';
+$L['Password_Title'] = 'Парольная политика';
+$L['Password_Description'] = 'Сменить парольную политику';
 $L['Password_Tags'] = 'strong password policy policies expiration age';
 $L['Users_label'] = 'Strong password policy for Users';
 $L['Admin_label'] = 'Strong password policy for Admin';

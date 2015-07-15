@@ -36,6 +36,7 @@ $L['notify_always_label'] = 'Altijd';
 $L['notify_error_label'] = 'Bij fout';
 $L['notify_never_label'] = 'Nooit';
 $L['notifyToCustom_label'] = 'Adres';
+$L['notifyFrom_label'] = 'Sender address';
 $L['notifyToType_admin_label'] = 'Systeem beheerder';
 $L['notifyToType_custom_label'] = 'Aangepaste email adres';
 $L['notifyTo_label'] = 'Stuur een melding naar';

@@ -36,6 +36,7 @@ $L['notify_always_label'] = 'Всегда';
 $L['notify_error_label'] = 'Об ошибке';
 $L['notify_never_label'] = 'Никогда';
 $L['notifyToCustom_label'] = 'Адрес эл.почты';
+$L['notifyFrom_label'] = 'Sender address';
 $L['notifyToType_admin_label'] = 'Системный администратор';
 $L['notifyToType_custom_label'] = 'Другой адрес эл.почты';
 $L['notifyTo_label'] = 'Отправить уведомление';

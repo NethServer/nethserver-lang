@@ -12,6 +12,6 @@ $L['Router_label'] = 'Адрес шлюза';
 $L['SystemLocalNetwork_label'] = 'Системная сеть'; 
 $L['Update network `${0}`'] = 'Обновить сеть `${0}`'; 
 $L['network_label'] = 'Адрес сети'; 
-$L['invalid_network'] = 'Invalid network address';
-$L['used_network'] = 'Network already in use';
+$L['invalid_network'] = 'Неправильный сетевой адрес';
+$L['used_network'] = 'Сеть уже используется';
 
