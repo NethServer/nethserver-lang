@@ -73,7 +73,7 @@ for D in locale/*; do
    install -d  %{buildroot}/usr/share/nethesis/${override:-NethServer}/Language/$L
    for F in $LD/*.php; do
       install -m 0644 -D $F %{buildroot}/usr/share/nethesis/${override:-NethServer}/Language/$L/$(basename $F)
-      echo "/usr/share/nethesis/${override:-NethServer}/Language/${lang}/$(basename $F)" >> ${lang}.lang
+      echo "/usr/share/nethesis/${override:-NethServer}/Language/${L}/$(basename $F)" >> ${lang}.lang
    done
 
    LD=$D/help
