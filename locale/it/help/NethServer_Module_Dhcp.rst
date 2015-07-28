@@ -28,6 +28,33 @@ Fine intervallo
     L'ultimo IP del range, verranno assegnati indirizzi compresi tra
     Inizio e Fine.
 
+IP gateway
+    IP del gateway da inviare ai client DHCP.
+    Se vuoto, il server sarà il gateway per tutti i client.
+
+Tempo di lease
+    Durata in secondi del lease degli IP.
+    Se vuoto, il valore di default è 86400 secondi (24 ore).
+
+Dominio
+    Nome dominio da inviare ai client DHCP.
+    Se valorizzato, il dominio verrà aggiunto nella risoluzione nomi dei client. 
+
+Server DNS
+    Lista di server DNS separata da virgole da inviare ai client DHCP.
+    Se vuoto, il server stesso sarà il server DNS per tutti i client.
+
+Server WINS
+    Lista di server WINS separata da virgole da inviare ai client DHCP.
+    Se vuoto, il server stesso sarà il server WINS per tutti i client.
+
+Server NTP
+    Lista di server NTP separata da virgole da inviare ai client DHCP.
+    Se vuoto, il server stesso sarà il server NTP per tutti i client.
+
+Server TFTP
+    Lista di server TFTP separata da virgole da inviare ai client DHCP.
+    Se vuoto, il server stesso sarà il server TFTP per tutti i client.
 
 Riserva IP
 ==========
