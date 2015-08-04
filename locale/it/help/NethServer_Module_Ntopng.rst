@@ -15,6 +15,8 @@ Porta interfaccia web
 Abilita atutenticazione
     Quand l'autenticazione è abilitata, l'interfaccia web richiederà
     l'inserimento della password per l'utente 'admin'.
-Password
-    Password dell'utente 'admin'. Questa password non è legata in
+    La password di default è 'admin'.
+    
+    Questa password non è legata in
     alcun modo alla password di amministratore del sistema.
+    La password può essere cambiata dall'intefaccia web di ntopng.
