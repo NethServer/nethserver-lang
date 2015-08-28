@@ -48,8 +48,8 @@ $L['valid_platform,fwobject-zone-delete,fwobject-referenced,3'] = 'Невозм�
 $L['valid_platform,fwobject-fwservice-delete,fwobject-referenced,3'] = 'Невозможно удалить ${2}. Сервис используется правилами экрана.';
 $L['valid_platform,fwobject-host-delete,fwobject-referenced,3'] = 'Нельзя удалить ${2}. Хост использован в правилах межсетевого экрана.';
 $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'Невозможно удалить ${2}. Группа хостов используется правилами экрана.';
-$L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The CIDR is used by firewall rules.';
-$L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The IP range is used by firewall rules.';
+$L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Невозможно удалить ${2}. CIDR используется правилами файрвола.';
+$L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Невозможно удалить ${2}. Диапазон IP используется правилами файрвола.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Невозможно удалить ${2}: это последний член группы хостов ${${reason}}.';
 $L['valid_iprange_outofbounds'] = 'Первый адрес должен быть меньше последнего.';
 
@@ -68,4 +68,4 @@ $L['IpRange_create_label'] = 'Создать IP диапазон';
 $L['IpRange_update_label'] = 'Обновить IP диапазон';
 $L['IpRange_key_exists_message'] = 'Объект с таким именем уже существует в базе данных хостов';
 $L['IpRange_CreateIpRange_label'] = 'Создать IP диапазон';
-$L['IpRangeKey_label'] = 'IP range';
+$L['IpRangeKey_label'] = 'Диапазон IP';

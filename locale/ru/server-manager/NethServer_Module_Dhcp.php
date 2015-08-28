@@ -1,7 +1,7 @@
 <?php 
 
-$L['DhcpRangeEnd_label'] = 'Окончание интервала IP';
-$L['DhcpRangeStart_label'] = 'Начало интервала IP';
+$L['DhcpRangeEnd_label'] = 'Конец IP диапазона';
+$L['DhcpRangeStart_label'] = 'Начало IP диапазона';
 $L['Dhcp_Configure_header'] = 'Включить сервер DHCP на интерфейсах';
 $L['Dhcp_Title'] = 'DHCP'; 
 $L['Dhcp_Tags'] = 'host dhcp reservation mac address macaddress резервация адресов адреса хост'; 
@@ -25,3 +25,11 @@ $L['hostname_label'] = 'Имя машины';
 $L['Configure_Title'] = 'Сервер DHCP';
 $L['Reservation_Title'] = 'Резервирование IP';
 $L['Key_label'] = 'Имя машины';
+$L['DhcpAdvanced_label'] = 'Расширенные опции';
+$L['DhcpGatewayIP_label'] = 'IP шлюза';
+$L['DhcpLeaseTime_label'] = 'Время аренды';
+$L['DhcpDomain_label'] = 'Домен';
+$L['DhcpDNS_label'] = 'DNS серверы';
+$L['DhcpWINS_label'] = 'WINS серверы';
+$L['DhcpNTP_label'] = 'NTP серверы';
+$L['DhcpTFTP_label'] = 'TFTP серверы';

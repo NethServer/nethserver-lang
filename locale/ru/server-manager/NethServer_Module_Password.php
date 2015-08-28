@@ -1,10 +1,10 @@
 <?php
 $L['Password_Title'] = 'Парольная политика';
 $L['Password_Description'] = 'Сменить парольную политику';
-$L['Password_Tags'] = 'strong password policy policies expiration age';
-$L['Users_label'] = 'Strong password policy for Users';
-$L['Admin_label'] = 'Strong password policy for Admin';
-$L['PassExpires_label'] = 'Password Expiration for Users';
-$L['Maximum password age (${0})'] = 'The Maximum Password Age (${0})';
-$L['Minimum password age (${0})'] = 'The Minimum Password Age (${0})';
-$L['Number of days to sent a warning (${0})'] = 'The number of days before sending a reminder (${0})';
+$L['Password_Tags'] = 'сильная парольная политика срока действия';
+$L['Users_label'] = 'Сильная парольная политика для пользователей';
+$L['Admin_label'] = 'Сильная парольная политика для администрации';
+$L['PassExpires_label'] = 'Срок действия пароля для пользователей';
+$L['Maximum password age (${0})'] = 'Максимальный срок пароля (${0})';
+$L['Minimum password age (${0})'] = 'Минимальный срок пароля (${0})';
+$L['Number of days to sent a warning (${0})'] = 'Кол-во дней перед отправкой уведомления (${0})';

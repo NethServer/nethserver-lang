@@ -24,4 +24,4 @@ $L['Compression_label'] = 'Разрешить сжатие LZO';
 $L['Bridge_label'] = 'Мост';
 $L['port_label'] = 'UDP порт';
 $L['AdvancedConfiguration_label'] = 'Расширенная настройка';
-$L['used_network'] = 'Network already in use';
+$L['used_network'] = 'Сеть уже используется';
