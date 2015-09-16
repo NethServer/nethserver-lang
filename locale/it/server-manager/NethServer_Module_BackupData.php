@@ -56,3 +56,4 @@ $L['VFSType_cifs_label'] = 'Condivisione Windows (CIFS)';
 $L['VFSType_nfs_label'] = 'Condivisione NFS';
 $L['VFSType_usb_label'] = 'Disco USB';
 $L['mounted_label'] = 'montato';
+$L['invalid_pipe_char'] = 'Il campo non può contenere il carattere pipe "|"';

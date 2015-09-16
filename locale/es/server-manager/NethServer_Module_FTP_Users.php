@@ -8,3 +8,4 @@ $L['ChrootDir_label'] = 'Directorio chroot personalizado (ej. /var/lib/nethserve
 $L['Update_User_Header'] = 'Editar usuario';
 $L['Create_User_Header'] = 'Crear usuario';
 $L['Users_Title'] = 'Usuarios';
+$L['valid_platform,user-create,uniq-account,3'] = 'Nombre de Usuario `${1}` ya ha sido registrado';

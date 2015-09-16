@@ -56,3 +56,4 @@ $L['VFSType_cifs_label'] = 'Windows gedeelde map (CIFS)';
 $L['VFSType_nfs_label'] = 'NFS gedeelde map';
 $L['VFSType_usb_label'] = 'USB schijf';
 $L['mounted_label'] = 'Aangekoppeld';
+$L['invalid_pipe_char'] = 'The field can\'t contain a pipe "|" character';

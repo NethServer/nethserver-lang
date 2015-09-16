@@ -56,3 +56,4 @@ $L['VFSType_cifs_label'] = 'Διαμοιρασμός κοινόχρηστου Wi
 $L['VFSType_nfs_label'] = 'Διαμοιρασμός NFS';
 $L['VFSType_usb_label'] = 'δίσκος USB';
 $L['mounted_label'] = 'mounted';
+$L['invalid_pipe_char'] = 'The field can\'t contain a pipe "|" character';

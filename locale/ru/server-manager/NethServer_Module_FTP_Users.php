@@ -8,3 +8,4 @@ $L['ChrootDir_label'] = 'Произвольная директория для ch
 $L['Update_User_Header'] = 'Изменить пользователя';
 $L['Create_User_Header'] = 'Создать пользователя';
 $L['Users_Title'] = 'Пользователи';
+$L['valid_platform,user-create,uniq-account,3'] = 'User name `${1}` has been already registered';

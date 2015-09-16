@@ -56,3 +56,4 @@ $L['VFSType_cifs_label'] = 'Windows megosztás (CIFS)';
 $L['VFSType_nfs_label'] = 'NFS megosztás';
 $L['VFSType_usb_label'] = 'USB lemez';
 $L['mounted_label'] = 'csatlakoztatva';
+$L['invalid_pipe_char'] = 'The field can\'t contain a pipe "|" character';

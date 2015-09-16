@@ -56,3 +56,4 @@ $L['VFSType_cifs_label'] = 'Windows paylaşımı (CIFS)';
 $L['VFSType_nfs_label'] = 'NFS paylaşımı';
 $L['VFSType_usb_label'] = 'USB disk';
 $L['mounted_label'] = 'takılı';
+$L['invalid_pipe_char'] = 'Bu alanda "|" karakteri kullanılamaz';

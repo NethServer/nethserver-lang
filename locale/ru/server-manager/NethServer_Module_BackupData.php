@@ -56,3 +56,4 @@ $L['VFSType_cifs_label'] = 'Сеть Windows (CIFS)';
 $L['VFSType_nfs_label'] = 'Ресурс NFS';
 $L['VFSType_usb_label'] = 'Диск USB';
 $L['mounted_label'] = 'смонтировано';
+$L['invalid_pipe_char'] = 'The field can\'t contain a pipe "|" character';

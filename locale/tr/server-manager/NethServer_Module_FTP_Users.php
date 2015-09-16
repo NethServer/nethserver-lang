@@ -8,3 +8,4 @@ $L['ChrootDir_label'] = 'Özel chroot klasörü (örnek: /var/lib/nethserver/iba
 $L['Update_User_Header'] = 'Kullanıcıyı düzenle';
 $L['Create_User_Header'] = 'Kullanıcı ekle';
 $L['Users_Title'] = 'Kullanıcılar';
+$L['valid_platform,user-create,uniq-account,3'] = '`${1}` adlı bir kullanıcı zaten var';

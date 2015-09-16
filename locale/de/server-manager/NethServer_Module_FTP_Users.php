@@ -8,3 +8,4 @@ $L['ChrootDir_label'] = 'Custom chroot directory (eg. /var/lib/nethserver/ibay/<
 $L['Update_User_Header'] = 'Benutzer ändern';
 $L['Create_User_Header'] = 'Benutzer erstellen';
 $L['Users_Title'] = 'Benutzer';
+$L['valid_platform,user-create,uniq-account,3'] = 'User name `${1}` has been already registered';
