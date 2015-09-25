@@ -46,8 +46,8 @@ $L['DeleteAll_label'] = 'Удалить все';
 $L['DeleteAll_Header'] = 'Удалить все';
 $L['DeleteAll_Message'] = 'Удалить все сообщения из очереди (${0})';
 
-$L['SmtpAccess_Title'] = 'SMTP access';
-$L['SMTP connections policy'] = 'SMTP connections policy';
-$L['AccessBypassList_label'] = 'Allow relay from IP addresses';
-$L['AccessPolicyTrustedNetworks_label'] = 'Allow relay from trusted networks';
-$L['AccessPolicySmtpAuth_label'] = 'Enable authentication on port 25';
+$L['SmtpAccess_Title'] = 'SMTP доступ';
+$L['SMTP connections policy'] = 'Политика SMTP подключений';
+$L['AccessBypassList_label'] = 'Позволить трансляцию с IP адресов';
+$L['AccessPolicyTrustedNetworks_label'] = 'Позволить трансляцию с доверенных сетей';
+$L['AccessPolicySmtpAuth_label'] = 'Включить аутентификацию на 25 порту';
