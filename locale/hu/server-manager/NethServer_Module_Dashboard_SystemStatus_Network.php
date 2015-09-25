@@ -15,3 +15,6 @@ $L['netmask_label'] = 'Hálózati maszk';
 $L['network_title'] = 'Hálózat';
 $L['speed_label'] = 'Sebesség';
 $L['link_label'] = 'Kapcsolat';
+$L['role_label'] = 'Role';
+$L['none_label'] = 'Static';
+$L['dhcp_label'] = 'DHCP';

@@ -15,3 +15,6 @@ $L['netmask_label'] = 'Mascara de rede';
 $L['network_title'] = 'Rede';
 $L['speed_label'] = 'Velocidade';
 $L['link_label'] = 'Ligação';
+$L['role_label'] = 'Role';
+$L['none_label'] = 'Static';
+$L['dhcp_label'] = 'DHCP';

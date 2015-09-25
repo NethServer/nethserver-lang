@@ -46,8 +46,8 @@ $L['DeleteAll_label'] = 'Supprimer tout';
 $L['DeleteAll_Header'] = 'Supprimer tout';
 $L['DeleteAll_Message'] = 'Supprimer tous les messages en file d\'attente (${0})';
 
-$L['SmtpAccess_Title'] = 'SMTP access';
-$L['SMTP connections policy'] = 'SMTP connections policy';
+$L['SmtpAccess_Title'] = 'Accès SMTP';
+$L['SMTP connections policy'] = 'Politique de connexions SMTP';
 $L['AccessBypassList_label'] = 'Allow relay from IP addresses';
 $L['AccessPolicyTrustedNetworks_label'] = 'Allow relay from trusted networks';
-$L['AccessPolicySmtpAuth_label'] = 'Enable authentication on port 25';
+$L['AccessPolicySmtpAuth_label'] = 'Activer authentification sur le port 25';

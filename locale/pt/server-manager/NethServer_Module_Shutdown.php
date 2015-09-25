@@ -12,4 +12,4 @@ $L['Dialog_switchedoff_label'] = 'Ligação fechada. O sistema está a desligar:
 $L['Dialog_reboot_title'] = 'A reiniciar o sistema';
 $L['Dialog_reboot_label'] = 'A fechar a ligação de gestão do servidor...';
 $L['Dialog_wait_label'] = 'Á espera que a ligação seja reestabelecida';
-$L['Dialog_completed_label'] = 'Completado!';
+$L['Dialog_completed_label'] = 'Finalizado!';

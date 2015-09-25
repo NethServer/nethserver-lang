@@ -2,7 +2,7 @@
 
 $L['Lists_Title'] = 'Listas negras';
 $L['Lists_selector'] = 'Listas disponíveis';
-$L['Lists_shalla_label'] = 'Shalla (gratuito para uso pessoal)';
+$L['Lists_shalla_label'] = 'Shalla (gratuito para uso não comercial)';
 $L['Lists_urlblacklist_label'] = '
 UrlBlacklist.com (comercial)';
 $L['Lists_toulouse_label'] = 'Universidade de Toulouse (gratuito)';

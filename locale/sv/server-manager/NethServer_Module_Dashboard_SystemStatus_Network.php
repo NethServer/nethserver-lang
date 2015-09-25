@@ -15,3 +15,6 @@ $L['netmask_label'] = 'Nätmask';
 $L['network_title'] = 'Nätverk';
 $L['speed_label'] = 'Hastighet';
 $L['link_label'] = 'Länk';
+$L['role_label'] = 'Role';
+$L['none_label'] = 'Static';
+$L['dhcp_label'] = 'DHCP';

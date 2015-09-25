@@ -15,3 +15,6 @@ $L['netmask_label'] = 'Μάσκα δικτύου';
 $L['network_title'] = 'Δίκτυο';
 $L['speed_label'] = 'Ταχύτητα';
 $L['link_label'] = 'Link';
+$L['role_label'] = 'Role';
+$L['none_label'] = 'Static';
+$L['dhcp_label'] = 'DHCP';

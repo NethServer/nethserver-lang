@@ -3,7 +3,7 @@
 $L['status_label'] = 'Enable ntopng'; 
 $L['ntopng_title'] = 'Bandwidth monitor: ntopng';
 $L['username_label'] = 'Username'; 
-$L['Password_label'] = 'Password'; 
+$L['default_password_label'] = 'Default password'; 
 $L['TCPPort_label'] = 'Web interface port'; 
 $L['Ntopng_Tags'] = 'ntop bandwidth monitor usage'; 
 $L['Ntopng_Title'] = 'Bandwidth monitor';

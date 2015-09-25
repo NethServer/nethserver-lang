@@ -3,7 +3,7 @@
 /* NethServer_Module_Dashboard_SystemStatus_Resources translation, language: en */
 
 $L['avail_label'] = 'Disponível';
-$L['cpu_num_label'] = 'Número do CPU';
+$L['cpu_num_label'] = 'Número de CPU';
 $L['days_label'] = 'd';
 $L['general_title'] = 'Informações gerais';
 $L['hours_label'] = 'h';

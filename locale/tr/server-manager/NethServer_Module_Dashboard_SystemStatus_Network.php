@@ -15,3 +15,6 @@ $L['netmask_label'] = 'Ağ maskesi';
 $L['network_title'] = 'Ağ';
 $L['speed_label'] = 'Hız';
 $L['link_label'] = 'Bağlantı';
+$L['role_label'] = 'Rol';
+$L['none_label'] = 'Durağan';
+$L['dhcp_label'] = 'DHCP';

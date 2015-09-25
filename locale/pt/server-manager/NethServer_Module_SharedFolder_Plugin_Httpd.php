@@ -5,7 +5,7 @@ $L['Status_label'] = 'Activar acesso web';
 $L['CgiBin_label'] = 'Executar scripts (CGI, PHP, SSI)';
 $L['PasswordStatus_label'] = 'Protegido por palavra-passe';
 $L['PasswordValue_label'] = 'Palavra-passe'; 
-$L['Access_label'] = 'Permitir o acesso somente de redes de confiança';
+$L['Access_label'] = 'Permitir o acesso exclusivo a redes de confiança';
 $L['VirtualHost_label'] = 'Máquina virtual';
 $L['ANY_VHOST'] = 'Qualquer';
 

@@ -2,12 +2,12 @@
 
 $L['Actions_label'] = 'Acções'; 
 $L['Add'] = 'Adicionar'; 
-$L['All changes have been saved'] = 'Todas as alterações foram gravadas'; 
+$L['All changes have been saved'] = 'Todas as alterações foram guardadas'; 
 $L['An object with the same key already exists'] = 'Já existe um objecto com a mesma chave'; 
 $L['Apply_label'] = 'Aplicar'; 
 $L['Cancel_label'] = 'Anterior';
 $L['Configure_label'] = 'Configurar'; 
-$L['Confirm deletion of `${0}`?'] = 'Confirma a exclusão de `${0}`'; 
+$L['Confirm deletion of `${0}`?'] = 'Confirma a eliminação de `${0}`'; 
 $L['Delete'] = 'Apagar'; 
 $L['Delete `${0}`'] = 'Apagar `${0}`'; 
 $L['Describe <tt>${0}</tt> here..'] = 'Descrever <tt>${0}</tt> aqui..'; 

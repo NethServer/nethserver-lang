@@ -8,7 +8,7 @@ $L['FirewallRules_Title'] = 'Regras da firewall';
 
 $L['general_header'] = 'Geral';
 $L['General_Title'] = 'Opções gerais';
-$L['ExternalPing_label'] = 'Ping da Internet';
+$L['ExternalPing_label'] = 'Ping a partir da Internet';
 $L['permissive_label'] = 'Permitido';
 $L['Policy_label'] = 'Tráfego para a Internet (interface vermelho)';
 $L['strict_label'] = 'Bloqueado';
@@ -40,7 +40,7 @@ $L['PickObject_ServiceRaw_header'] = 'Escolha o protocolo do serviço para a reg
 $L['Create_last_label'] = 'Nova regra em baixo';
 $L['Create_first_label'] = 'Nova regra em cima';
 $L['Create_header'] = 'Nova regra da firewall';
-$L['Copy_header'] = 'Criar uma cópia de #${0}';
+$L['Copy_header'] = 'Nova cópia de #${0}';
 $L['Commit_label'] = 'Aplicar as alterações';
 $L['Edit_label'] = 'Editar';
 $L['Copy_label'] = 'Copiar';
@@ -51,7 +51,7 @@ $L['RuleId_label'] = '#${0}';
 $L['SearchPlaceholder_label'] = 'Procurar...';
 
 $L['Delete_header'] = 'Apagar regra #${0}';
-$L['Delete_message'] = 'Confirmar o apagamento da regra #${id}';
+$L['Delete_message'] = 'Confirmar a eliminação da regra #${id}';
 $L['HostGroups_create'] = 'Novo grupo de máquinas "${0}"';
 $L['Hosts_create'] = 'Nova máquina "${0}"';
 $L['Zones_create'] = 'Nova zona "${0}"';

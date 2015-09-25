@@ -3,7 +3,7 @@
 $L['status_label'] = 'ntopng kullanılsın'; 
 $L['ntopng_title'] = 'Bant genişliği izlemesi: ntopng';
 $L['username_label'] = 'Kullanıcı adı'; 
-$L['Password_label'] = 'Parola'; 
+$L['default_password_label'] = 'Varsayılan parola'; 
 $L['TCPPort_label'] = 'Web arayüzü kapısı'; 
 $L['Ntopng_Tags'] = 'ntop bant genişliği izleme kullanım'; 
 $L['Ntopng_Title'] = 'Bant genişliği izleme';

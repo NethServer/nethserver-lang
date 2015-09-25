@@ -2,7 +2,7 @@
 
 /* NethServer_Module_Proxy_SquidGuard translation, language: en */
 
-$L['Add allowed domain'] = 'Adicionar domínio permitido';
+$L['Add allowed domain'] = 'Adicionar domínio autorizado';
 $L['Add allowed URL'] = 'Adicionar URL autorizada';
 $L['Add blocked domain'] = 'Adicionar domínio bloqueado';
 $L['Add blocked URL'] = 'Adicionar URL bloqueada';

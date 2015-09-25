@@ -50,5 +50,5 @@ $L['esphash_label'] = 'Algoritmo di integrità';
 $L['esppfsgroup_label'] = 'Gruppo Diffie-Hellman';
 $L['salifetime_label'] = 'Durata chiave (secondi)';
 $L['connection_label'] = 'Connessione';
-$L['Key_label'] = 'Tunnell';
+$L['Key_label'] = 'Tunnel';
 $L['auth_label'] = 'Autenticazione';

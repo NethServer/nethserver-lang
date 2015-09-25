@@ -1,7 +1,7 @@
 <?php 
 
 $L['Confirm deletion of'] = 'Confirmar eliminação de'; 
-$L['Create a new network'] = 'Rede nova'; 
+$L['Create a new network'] = 'Nova rede'; 
 $L['Description_label'] = 'Descrição'; 
 $L['Key_label'] = 'Rede'; 
 $L['LocalNetwork_Description'] = 'Configurar redes de confiança'; 
