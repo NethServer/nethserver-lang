@@ -58,9 +58,15 @@ for D in locale/*; do
      echo "%{_datadir}/$F" >> ${lang}.lang
    done
 
-   # skip "en" catalogs for Server Manager
+   # skip "en" catalogs for Server Manager, just create dirs
    if [[ "$L" == en ]]; then
-      continue
+      L=$L"_US"
+      echo "%dir /usr/share/nethesis/NethServer/Language/$L" >> ${lang}.lang
+      install -d  %{buildroot}/usr/share/nethesis/NethServer/Language/$L
+      echo "%dir /usr/share/nethesis/NethServer/Help/$L" >> ${lang}.lang
+      install -d  %{buildroot}/usr/share/nethesis/NethServer/Help/$L
+      echo "%dir /usr/share/nethesis/Nethgui/Language/$L" >> ${lang}.lang
+      install -d  %{buildroot}/usr/share/nethesis/Nethgui/Language/$L
    fi
 
    LD=$D/server-manager
