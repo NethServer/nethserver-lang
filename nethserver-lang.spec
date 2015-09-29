@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.0.11
+Version: 1.0.12
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -181,6 +181,9 @@ NethServer Swedish language support (sv)
 
 
 %changelog
+* Tue Sep 29 2015 Davide Principi <davide.principi@nethesis.it> - 1.0.12-1
+- Make Italian language pack optional - Enhancement #3265 [NethServer]
+
 * Wed Sep 16 2015 Davide Principi <davide.principi@nethesis.it> - 1.0.11-1
 - Updated de, el, es, fr, hu, it, nl, pt, ru, sv, tr languages.
 
