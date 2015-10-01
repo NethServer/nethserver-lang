@@ -71,6 +71,12 @@ source_file = locale/en/server-manager/NethServer_Module_BackupConfig_Restore.ph
 source_lang = en
 type = PHP_ALT_ARRAY
 
+[nethserver.RestoreData]
+file_filter = locale/<lang>/server-manager/NethServer_Module_RestoreData.php
+source_file = locale/en/server-manager/NethServer_Module_RestoreData.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
 [nethserver.BackupData]
 file_filter = locale/<lang>/server-manager/NethServer_Module_BackupData.php
 source_file = locale/en/server-manager/NethServer_Module_BackupData.php
