@@ -42,6 +42,11 @@ source_file = locale/en/LC_MESSAGES/nethserver-directory.pot
 source_lang = en
 type = PO
 
+[nethserver.nethserver-webtop4pot]
+file_filter = locale/<lang>/LC_MESSAGES/nethserver-webtop4.po
+source_file = locale/en/LC_MESSAGES/nethserver-webtop4.pot
+source_lang = en
+type = PO
 
 #
 # PHP arrays
