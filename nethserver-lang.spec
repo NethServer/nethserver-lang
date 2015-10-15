@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.0.13
+Version: 1.0.14
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -181,6 +181,9 @@ NethServer Swedish language support (sv)
 
 
 %changelog
+* Thu Oct 15 2015 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.14-1
+- Removed NethServer_Module_FlashStart files
+
 * Tue Oct 13 2015 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.13-1
 - Added WebTop strings
 - Removed unused files
