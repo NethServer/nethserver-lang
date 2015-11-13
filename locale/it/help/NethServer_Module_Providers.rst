@@ -14,7 +14,28 @@ Configura
 Selezionare la politica di gestione dei provider:
 
 * Balance per utilizzare contemporanemaente tutte le connessioni
-* Active-Backup per usare le connessioni in caso di problemi al provider con la priorità maggiore
+* Active-Backup per usare le connessioni di minor peso solo in caso di problemi al provider con la priorità maggiore
+
+IP di controllo
+     Uno o più indirizzi IP separati da virgola a cui verrà inviato un pacchetto ping ICMP ad intervalli regolari.
+     In caso di mancata risposta ai ping, il sistema disabilita il provider, ma continua a verificare 
+     la raggiungibilità dell'IP di controllo, per poter riabilitare il provider.
+     E' ammesso un indirizzo IP o una lista di IP separati da virgola.
+     Utilizzando una lista di IP, il provider verrà disabilitato solo se tutti gli IP sono irraggiungibili.
+
+Link status monitor
+     Questo gruppo di opzioni controlla la reattività di LSM (Link Status Monitor), che verifica
+     la raggiungibilità di ogni provider.
+     Opzioni disponibili:
+     * Intervallo ping: numero di secondi tra i ping all'IP di controllo (default 5 secondi)
+     * # di pacchetti persi: massimo numero di pacchetti consecutivi persi/ricevuti per disattivare/riattivare il provider
+     * % di pacchetti persi: soglia percentuale di pacchetti persi/ricevuti per disattivazione/ripristino provider
+
+Invia mail di notifica in caso di disattivazione/ripristino provider
+     Se abilitato, il sistema invierà una mail quando un provider cambia stato.
+     Opzioni disponibili:
+     * Mittente: indirizzo mail che verrà utilizzato come mittente della mail di notifica (From:)
+     * Destinatario: indirizzo mail a cui verranno inviate le notifiche (To:)
 
 
 Crea o Modifica
@@ -39,11 +60,4 @@ Peso
 
 Descrizione
     Una descrizione opzionale per riconoscere il provider.
-
-IP controllo
-    All'IP di controllo viene inviato un pacchetto ping ogni 5 secondi e, 
-    in caso di mancata risposta, il sistema disabilita il provider fino a quando non comincerà a ricevere nuovamente risposte.
-    Attenzione: l'IP di controllo preferito è un indirizzo del provider: 
-    il sistema lo determina e suggerisce automaticamente, consigliamo di non modificare l'IP pre-impostato. 
-    In caso di problemi di connettività, l'IP di controllo non è raggiungibile.
 
