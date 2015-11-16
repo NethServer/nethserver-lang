@@ -2,32 +2,32 @@
 
 /* NethServer_Module_FirewallRules translation, language: en */
 
-$L['FirewallRules_Description'] = 'Manage firewall rules';
+$L['FirewallRules_Description'] = 'Tűzfal szabályok kezelése';
 $L['FirewallRules_Tags'] = 'firewall rule policy';
-$L['FirewallRules_Title'] = 'Firewall rules';
+$L['FirewallRules_Title'] = 'Tűzfal szabályok';
 
-$L['general_header'] = 'General';
-$L['General_Title'] = 'General options';
+$L['general_header'] = 'Általános';
+$L['General_Title'] = 'Általános beállítások';
 $L['ExternalPing_label'] = 'Ping from Internet';
-$L['permissive_label'] = 'Allowed';
+$L['permissive_label'] = 'Engedélyezett';
 $L['Policy_label'] = 'Traffic to Internet (red interface)';
-$L['strict_label'] = 'Blocked';
-$L['enabled_label'] = 'Enabled';
-$L['disabled_label'] = 'Disabled';
+$L['strict_label'] = 'Blokkolva';
+$L['enabled_label'] = 'Engedélyezve';
+$L['disabled_label'] = 'Letiltva';
 $L['MACValidation_label'] = 'MAC validation (IP/MAC binding)';
 $L['MACValidationPolicy_label'] = 'Policy for hosts without IP/MAC binding (DHCP reservation)';
 $L['drop_label'] = 'Block traffic';
 $L['accept_label'] = 'Allow trafic';
 
 $L['Edit_header'] = 'Edit rule #${0}';
-$L['status_label'] = 'Enabled';
+$L['status_label'] = 'Engedélyezve';
 $L['Action_label'] = 'Action';
 $L['ActionReject_label'] = 'Reject';
 $L['ActionAccept_label'] = 'Accept';
 $L['ActionDrop_label'] = 'Drop';
-$L['Source_label'] = 'Source';
+$L['Source_label'] = 'Forrás';
 $L['Destination_label'] = 'Destination';
-$L['Service_label'] = 'Service';
+$L['Service_label'] = 'Szolgáltatás';
 $L['PickSource_label'] = 'Pick one...';
 $L['PickDestination_label'] = 'Pick one...';
 $L['PickService_label'] = 'Pick one...';
@@ -41,14 +41,14 @@ $L['Create_last_label'] = 'Create rule at bottom';
 $L['Create_first_label'] = 'Create rule at top';
 $L['Create_header'] = 'Create firewall rule';
 $L['Copy_header'] = 'Create a copy of #${0}';
-$L['Commit_label'] = 'Apply changes';
-$L['Edit_label'] = 'Edit';
+$L['Commit_label'] = 'Változtatások alkalmazása';
+$L['Edit_label'] = 'Szerkesztés';
 $L['Copy_label'] = 'Copy';
-$L['Delete_label'] = 'Delete';
-$L['Index_header'] = 'Firewall rules';
+$L['Delete_label'] = 'Törlés';
+$L['Index_header'] = 'Tűzfal szabályok';
 $L['RuleText_label'] = 'From ${Src} to ${Dst}, service ${Service}';
 $L['RuleId_label'] = '#${0}';
-$L['SearchPlaceholder_label'] = 'Search...';
+$L['SearchPlaceholder_label'] = 'Keresés...';
 
 $L['Delete_header'] = 'Delete rule #${0}';
 $L['Delete_message'] = 'Confirm deletion of firewall rule #${id}';

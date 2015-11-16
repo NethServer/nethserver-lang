@@ -3,7 +3,7 @@
 $L['Create a new group'] = 'neue Gruppe erstellen'; 
 $L['Description_label'] = 'Beschreibung'; 
 $L['GroupTab_Title'] = 'Gruppe'; 
-$L['Group_Description'] = 'Bearbeite System Gruppen'; 
+$L['Group_Description'] = 'Gruppenverwaltung '; 
 $L['Group_Tags'] = 'Gruppen Gruppenmitglieder Mail'; 
 $L['Group_Title'] = 'Gruppen'; 
 $L['Key_label'] = 'Gruppenname'; 

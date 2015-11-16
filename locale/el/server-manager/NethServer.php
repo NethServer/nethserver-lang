@@ -27,4 +27,4 @@ $L['Back_label'] = 'Πίσω';
 $L['Profile'] = 'Προφιλ';
 $L['Change password'] = 'Αλλαγή κωδικού';
 $L['Logout'] = 'Αποσύνδεση';
-
+$L['valid_platform,network-create,uniq-networksdb-key,3'] = 'The name `${1}` has been already used inside the networks database';

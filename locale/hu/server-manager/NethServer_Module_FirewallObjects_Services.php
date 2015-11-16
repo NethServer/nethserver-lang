@@ -2,4 +2,4 @@
 
 /* NethServer_Module_FirewallObjects_Services translation, language: en */
 
-$L['Key_label'] = 'Service';
+$L['Key_label'] = 'Szolgáltatás';

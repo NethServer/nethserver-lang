@@ -1,9 +1,9 @@
 <?php 
 
-$L['Key_label'] = 'Service';
+$L['Key_label'] = 'Szolgáltatás';
 $L['access_label'] = 'Access';
-$L['ports_label'] = 'Ports';
-$L['NetworkServices_Title'] = 'Network services';
+$L['ports_label'] = 'Portok';
+$L['NetworkServices_Title'] = 'Hálózati szolgáltatások';
 $L['NetworkServices_Tags'] = 'Network services service firewall local';
 $L['NetworkServices_Description'] = 'Manage local network services';
 $L['TCPPorts_label'] = 'TCP';

@@ -1,19 +1,19 @@
 <?php
-$L['DdClient_Title'] = 'Dynamic DNS Service';
-$L['Key_label'] = 'Dynamic DNS hostname';
-$L['hostname_label'] = 'Dynamic DNS hostname';
+$L['DdClient_Title'] = 'Dinamikus DNS szolgáltatás';
+$L['Key_label'] = 'Dinamikus DNS hosztnév';
+$L['hostname_label'] = 'Dinamikus DNS hosztnév';
 $L['DynDns_label'] = 'Ddclient protocol';
 $L['DynServer_label'] = 'Server Address (FQDN)';
 $L['CustomService_label'] = 'Custom Provider settings';
 $L['KnownService_label'] = 'Official Providers settings';
-$L['login_label'] = 'Login';
-$L['password_label'] = 'Password';
+$L['login_label'] = 'Bejelentkezés';
+$L['password_label'] = 'Jelszó';
 $L['mx_label'] = 'Mail Exchanger hostname';
 $L['Create_DynDns_Header'] = 'Create a new dynamic DNS client';
 $L['Update_DynDns_Header'] = 'Update a dynamic DNS client';
 $L['DdClientService_Title'] = 'DdClient Service Settings';
-$L['status_label'] = 'Service Status';
-$L['SSL_label'] = 'Enable SSL';
+$L['status_label'] = 'Szolgáltatás állapot';
+$L['SSL_label'] = 'SSL engedélyezés';
 $L['urlcheckip_label'] = 'Select the service to check your external IP';
 $L['Deamon Update (${0})'] = 'Deamon Update Frequency (${0})';
 $L['DynDns_DYNDNS1_label'] = 'Dyndns.org dynamic addresses';

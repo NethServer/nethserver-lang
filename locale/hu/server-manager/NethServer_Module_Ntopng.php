@@ -1,11 +1,11 @@
 <?php 
 
-$L['status_label'] = 'Enable ntopng'; 
+$L['status_label'] = 'ntopng engedélyezés'; 
 $L['ntopng_title'] = 'Bandwidth monitor: ntopng';
-$L['username_label'] = 'Username'; 
-$L['default_password_label'] = 'Default password'; 
+$L['username_label'] = 'Felhasználónév'; 
+$L['default_password_label'] = 'Alapértelmezett jelszó'; 
 $L['TCPPort_label'] = 'Web interface port'; 
 $L['Ntopng_Tags'] = 'ntop bandwidth monitor usage'; 
-$L['Ntopng_Title'] = 'Bandwidth monitor';
-$L['Authentication_enabled_label'] = 'Enable authentication';
+$L['Ntopng_Title'] = 'Sávszélesség monitor';
+$L['Authentication_enabled_label'] = 'Hitelesítés bekapcsolás';
 $L['Authentication_disabled_label'] = 'Disable authentication';

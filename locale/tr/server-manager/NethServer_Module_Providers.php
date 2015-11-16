@@ -4,7 +4,7 @@
 
 $L['backup_label'] = 'Etkin yedekleme';
 $L['balance_label'] = 'Dengeleme';
-$L['checkip_label'] = 'IP denetimi';
+$L['CheckIP_label'] = 'IP Denetimi';
 $L['Configure_header'] = 'Ayarla';
 $L['interface_label'] = 'Arabirim';
 $L['Key_label'] = 'Sağlayıcı';
@@ -20,4 +20,10 @@ $L['WanMode_label'] = 'Kip';
 $L['weight_label'] = 'Ağırlı';
 $L['Configure_header'] = 'Ayarla';
 $L['valid_no_red_interface'] = 'kullanılabilecek bir kırmızı arabirim yok';
-
+$L['LSM_Params'] = 'Bağlantıların Durumunu İzleme';
+$L['MaxNumberPacketLoss_label'] = 'Hizmet sağlayıcının devre dışı bırakılacağı ping kaybı sayısı (2-99)';
+$L['MaxPercentPacketLoss_label'] = 'Hizmet sağlayıcının devre dışı bırakılacağı ping kaybı yüzdesi (1-100)';
+$L['PingInterval_label'] = 'Saniye cinsinden ping aralığı (1-60)';
+$L['NotifyWan_label'] = 'Hizmet sağlayıcı durumu değiştiğinde e-posta bildirimi gönderilsin'; 
+$L['NotifyWanFrom_label'] = 'Kimden';
+$L['NotifyWanTo_label'] = 'Kime';

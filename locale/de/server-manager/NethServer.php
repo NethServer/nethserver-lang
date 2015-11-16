@@ -8,7 +8,7 @@ $L['Security'] = 'Sicherheit';
 $L['Status'] = 'Status';
 $L['Gateway'] = 'Gateway';
 $L['UserProfile_Title'] = 'Benutzerprofil';
-$L['ChangePassword_Header'] = 'Change password for user `${0}`';
+$L['ChangePassword_Header'] = 'Ändere das Passwort vom Benutzer: `${0}` ';
 $L['ChangePassword_label'] = 'Passwort ändern';
 $L['newPassword_label'] = 'Neues Passwort';
 $L['oldPassword_label'] = 'Aktuelles Passwort';
@@ -27,4 +27,4 @@ $L['Back_label'] = 'zurück';
 $L['Profile'] = 'Profil';
 $L['Change password'] = 'Passwort ändern';
 $L['Logout'] = 'Abmelden';
-
+$L['valid_platform,network-create,uniq-networksdb-key,3'] = 'The name `${1}` has been already used inside the networks database';

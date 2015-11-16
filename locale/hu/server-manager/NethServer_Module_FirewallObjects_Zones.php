@@ -2,4 +2,4 @@
 
 /* NethServer_Module_FirewallObjects_Zones translation, language: en */
 
-$L['Key_label'] = 'Zone';
+$L['Key_label'] = 'Zóna';

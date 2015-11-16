@@ -2,4 +2,4 @@
 
 /* NethServer_Module_TrafficShaping_Interfaces translation, language: en */
 
-$L['Key_label'] = 'Interface';
+$L['Key_label'] = 'Interfész';

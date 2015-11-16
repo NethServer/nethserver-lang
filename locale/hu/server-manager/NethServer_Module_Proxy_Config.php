@@ -1,8 +1,8 @@
 <?php
 
-$L['Config_Title'] = 'Cache';
-$L['DiskCache_label'] = 'Disk caching';
-$L['DiskCache_enabled_label'] = 'Enable disk cache';
+$L['Config_Title'] = 'Gyorsítótár';
+$L['DiskCache_label'] = 'Lemez gyorsítótár';
+$L['DiskCache_enabled_label'] = 'Lemez gyorsítótár engedélyezés';
 $L['DiskCache_disabled_label'] = 'Disable disk cache';
 $L['DiskCacheSize_label'] = 'Disk cache size (in MB)';
 $L['MinObjSize_label'] = 'Min object size (in kB)';

@@ -1,6 +1,6 @@
 <?php
 
-$L['ServerStatus_label'] = 'erlaube Außendienst Mitarbeiter Server Verbindung';
+$L['ServerStatus_label'] = 'Aktivierung des openVPN-Server';
 $L['OpenVPN_Description'] = 'OpenVPN einrichten';
 $L['OpenVPN_Tags'] = 'vpn virtuelles privates netzwerk openvpn roadwarrior';
 $L['OpenVPN_Title'] = 'OpenVPN';
@@ -10,7 +10,7 @@ $L['certificate_mode_label'] = 'Zertifikat';
 $L['password_certificate_mode_label'] = 'Benutzer, Passwort und Zertifikat';
 $L['Network_label'] = 'Netzwerk';
 $L['Netmask_label'] = 'Subnetzmaske';
-$L['ClientToClient_label'] = 'Erlaube Client-to-client Netzwerk Traffic';
+$L['ClientToClient_label'] = 'VPN-Benutzer-zu-VPN-Benutzer Verbindungen erlauben ';
 $L['enabled_label'] = 'Ja';
 $L['disabled_label'] = 'Nein';
 $L['Mode_routed_label'] = 'Gerouteter Modus';

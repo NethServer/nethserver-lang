@@ -4,7 +4,7 @@
 
 $L['backup_label'] = 'Aktives Backup';
 $L['balance_label'] = 'Balance';
-$L['checkip_label'] = 'Überprüfe IP';
+$L['CheckIP_label'] = 'Check IP';
 $L['Configure_header'] = 'konfigurieren';
 $L['interface_label'] = 'Schnittstelle';
 $L['Key_label'] = 'Provider';
@@ -20,4 +20,10 @@ $L['WanMode_label'] = 'Modus';
 $L['weight_label'] = 'Gewicht';
 $L['Configure_header'] = 'konfigurieren';
 $L['valid_no_red_interface'] = 'Kein Rotes Netzwerk vorhanden';
-
+$L['LSM_Params'] = 'Links status monitor';
+$L['MaxNumberPacketLoss_label'] = 'Disable provider after # lost pings (2-99)';
+$L['MaxPercentPacketLoss_label'] = 'Disable provider over % lost pings (1-100)';
+$L['PingInterval_label'] = 'Ping interval in seconds (1-60)';
+$L['NotifyWan_label'] = 'Send mail notification on provider status change'; 
+$L['NotifyWanFrom_label'] = 'From';
+$L['NotifyWanTo_label'] = 'To';

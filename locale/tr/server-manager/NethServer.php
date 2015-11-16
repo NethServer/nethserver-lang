@@ -27,4 +27,4 @@ $L['Back_label'] = 'Geri';
 $L['Profile'] = 'Profil';
 $L['Change password'] = 'Parolayı değiştir';
 $L['Logout'] = 'Oturumu Kapat';
-
+$L['valid_platform,network-create,uniq-networksdb-key,3'] = 'Ağ veritabanında `${1}` adı zaten var';

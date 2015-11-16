@@ -4,7 +4,7 @@
 
 $L['backup_label'] = 'Backup activo';
 $L['balance_label'] = 'Equilíbrio';
-$L['checkip_label'] = 'Verificar IP';
+$L['CheckIP_label'] = 'Check IP';
 $L['Configure_header'] = 'Configurar';
 $L['interface_label'] = 'Interface';
 $L['Key_label'] = 'Fornecedor';
@@ -20,4 +20,10 @@ $L['WanMode_label'] = 'Modo';
 $L['weight_label'] = 'Peso';
 $L['Configure_header'] = 'Configurar';
 $L['valid_no_red_interface'] = 'não estão disponíveis interfaces vermelhos';
-
+$L['LSM_Params'] = 'Links status monitor';
+$L['MaxNumberPacketLoss_label'] = 'Disable provider after # lost pings (2-99)';
+$L['MaxPercentPacketLoss_label'] = 'Disable provider over % lost pings (1-100)';
+$L['PingInterval_label'] = 'Ping interval in seconds (1-60)';
+$L['NotifyWan_label'] = 'Send mail notification on provider status change'; 
+$L['NotifyWanFrom_label'] = 'From';
+$L['NotifyWanTo_label'] = 'To';

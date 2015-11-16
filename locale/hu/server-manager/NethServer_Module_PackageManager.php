@@ -1,25 +1,25 @@
 <?php 
 
-$L['Add_label'] = 'Add';
+$L['Add_label'] = 'Hozzáadás';
 $L['PackageManager_Description'] = 'Adds and removes software modules from the system';
 $L['PackageManager_Tags'] = 'rpm yum addons extras modules components packages';
-$L['PackageManager_Title'] = 'Software center';
+$L['PackageManager_Title'] = 'Szoftverközpont';
 $L['package_success'] = 'Operation completed successfully';
-$L['rpm_name'] = 'Name';
+$L['rpm_name'] = 'Név';
 $L['rpm_version'] = 'Version';
 $L['rpm_release'] = 'Release';
-$L['Modules_header'] = 'Software center';
-$L['Available_Title'] = 'Available';
-$L['Installed_Title'] = 'Installed';
+$L['Modules_header'] = 'Szoftverközpont';
+$L['Available_Title'] = 'Rendelkezésre áll';
+$L['Installed_Title'] = 'Telepítve';
 $L['No_modules_available_message'] = '...';
 $L['No_installed_modules_message'] = '...';
-$L['Update_Title'] = 'Updates';
-$L['Packages_label'] = 'Packages';
+$L['Update_Title'] = 'Frissítések';
+$L['Packages_label'] = 'Csomagok';
 $L['Packages_header'] = 'Installed packages';
 $L['Review_header'] = 'Confirm system changes';
-$L['Run_label'] = 'Apply changes';
-$L['Edit_label'] = 'Edit';
-$L['Remove_label'] = 'Remove';
+$L['Run_label'] = 'Változtatások alkalmazása';
+$L['Edit_label'] = 'Szerkesztés';
+$L['Remove_label'] = 'Eltávolítás';
 $L['EditModule_header'] = 'Select packages of module ${0} to install or remove';
 $L['Install_modules_label'] = 'Modules to add:';
 $L['Remove_modules_label'] = 'Modules to remove:';

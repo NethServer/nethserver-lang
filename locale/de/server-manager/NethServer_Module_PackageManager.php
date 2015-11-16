@@ -1,7 +1,7 @@
 <?php 
 
 $L['Add_label'] = 'Hinzufügen';
-$L['PackageManager_Description'] = 'Adds and removes software modules from the system';
+$L['PackageManager_Description'] = 'Modulverwaltung - hinzufügen, entfernen und aktualisieren';
 $L['PackageManager_Tags'] = 'rpm yum addons extras module komponenten packete';
 $L['PackageManager_Title'] = 'Software Center';
 $L['package_success'] = 'Der Vorgang wurde erfolgreich beendet';

@@ -4,5 +4,5 @@
 
 $L['SmbAuditStatus_label'] = 'Enable auditing on shared folder';
 $L['SambaAudit_Title'] = 'Samba Audit';
-$L['enabled_label'] = 'Enable';
-$L['disabled_label'] = 'Disable';
+$L['enabled_label'] = 'Engedélyezés';
+$L['disabled_label'] = 'Letiltás';

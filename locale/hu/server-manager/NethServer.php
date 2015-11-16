@@ -27,4 +27,4 @@ $L['Back_label'] = 'Vissza';
 $L['Profile'] = 'Profil';
 $L['Change password'] = 'Jelszó változtatás';
 $L['Logout'] = 'Kijelentkezés';
-
+$L['valid_platform,network-create,uniq-networksdb-key,3'] = 'The name `${1}` has been already used inside the networks database';

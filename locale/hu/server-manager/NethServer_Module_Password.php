@@ -1,5 +1,5 @@
 <?php
-$L['Password_Title'] = 'Password policies';
+$L['Password_Title'] = 'Jelszó szabályok';
 $L['Password_Description'] = 'Change password policies';
 $L['Password_Tags'] = 'strong password policy policies expiration age';
 $L['Users_label'] = 'Strong password policy for Users';

@@ -1,4 +1,4 @@
 <?php
 
-$L['Configure_Title'] = 'Configure';
-$L['FTP_Configure_header'] = 'FTP server';
+$L['Configure_Title'] = 'Konfiguráció';
+$L['FTP_Configure_header'] = 'FTP szerver';

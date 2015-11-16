@@ -1,9 +1,9 @@
 <?php
 
-$L['Cover_Title'] = 'Welcome';
-$L['Next_label'] = 'Next';
-$L['Back_label'] = 'Back';
-$L['Skip_label'] = 'Skip';
+$L['Cover_Title'] = 'Üdvözlet';
+$L['Next_label'] = 'Következő';
+$L['Back_label'] = 'Vissza';
+$L['Skip_label'] = 'Átugrás';
 $L['Save_label'] = 'Save';
 $L['Welcome_body'] = "Welcome to  \${ProductName} \${Version} \${Release}\nThis wizard will help you setup some system options. At the end, you will be redirected to the network configuration page.\n\nTo continue, click Next.";
 $L['RootPassword_Title'] = 'Set root\'s password';
