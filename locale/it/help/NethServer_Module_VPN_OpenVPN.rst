@@ -70,5 +70,11 @@ Abilita compressione LZO
     Abilita la compressione LZO dei dati. E' necessario che la direttiva
     sia presente sia sul client che sul server. (Consigliato)
 
+Contatta questo server sugli IP / host pubblici
+    Specificare una lista separata da virgole di IP e nomi host con
+    cui i client OpenVPN tenteranno di contattare questo server.  Se
+    questo valore viene modificato la configurazione dei client deve
+    essere scaricata di nuovo.
+
 Porta UDP
     Porta di ascolto del server. Il default è 1194.
