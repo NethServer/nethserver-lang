@@ -91,8 +91,9 @@ Abilita whitelist globale
 Lista di estensioni file bloccate
     Blocca tutte le estensioni di file definite nella scheda Generale.
 
-Abilita le regole predefinite
-    Utilizza il database di regole ``custom/builtin``.
+Blocca siti porno con espressioni regolari su URL
+    Abilita l'insime di espressioni regolari fornite dal database
+    ``custom/builtin``. Ogni regola è confrontata con l'URL richiesto.
 
 Modalità
     Il filtro può lavorare in due modalità:
