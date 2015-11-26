@@ -20,3 +20,5 @@ Abilita atutenticazione
     Questa password non è legata in
     alcun modo alla password di amministratore del sistema.
     La password può essere cambiata dall'intefaccia web di ntopng.
+Interfacce
+    Interfacce su cui ntopng deve ascoltare per analizzare il traffico.
