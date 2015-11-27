@@ -76,6 +76,8 @@ Azione
     * *Accept*: accetta il traffico 
     * *Reject*: blocca il traffico ed informa il mittente che la richiesta effettuata non è permessa
     * *Drop*: blocca il traffico, i pacchetti vengono scartati e il mittente non viene notificato
+    * *Devia ...*: devia il traffico su uno specifico provider WAN
+
 
 Origine
     Indica l'origine del traffico, può essere: un host, un gruppo di host oppure una zona.
