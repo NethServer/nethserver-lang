@@ -27,3 +27,9 @@ Accesso guest
     * Nessuno
     * Sola lettura
     * Lettura e scrittura
+
+Visibile
+    Controlla la visibilità della cartella condivisa. Quando l'opzione 
+    è abilitata, la cartella condivisa è elencata pubblicamente.
+    In ogni caso questa opzione non modifica il permesso ad usare 
+    la cartella condivisa.
