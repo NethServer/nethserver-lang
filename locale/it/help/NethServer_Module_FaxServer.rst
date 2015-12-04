@@ -105,3 +105,11 @@ SambaFax
 Invia report giornaliero
     Invia un report giornaliero all'amministratore
 
+Gateway da posta elettronica a fax
+
+    Abilita l'indirizzo di posta elettronica ``sendfax@...``. Il
+    suffisso del dominio deve corrispondere ad uno dei domini della
+    pagina *Email* marcato come *Consegna localmente*. Solo i client
+    SMTP collegati dalle reti *green* o dalle reti fidate possono
+    utilizzare l'indirizzo ``sendfax@...``.  Il numero del fax
+    destinatario deve essere specificato come *oggetto* del messaggio.
