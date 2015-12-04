@@ -15,6 +15,6 @@ $L['netmask_label'] = 'Netmask';
 $L['network_title'] = 'Netzwerk';
 $L['speed_label'] = 'Geschwindigkeit';
 $L['link_label'] = 'Link';
-$L['role_label'] = 'Role';
+$L['role_label'] = 'Rolle';
 $L['none_label'] = 'Static';
 $L['dhcp_label'] = 'DHCP';

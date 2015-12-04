@@ -25,3 +25,6 @@ $L['Bridge_label'] = 'Pont';
 $L['port_label'] = 'Port UDP';
 $L['AdvancedConfiguration_label'] = 'Configuration avancée';
 $L['used_network'] = 'Réseau déjà utilisé';
+$L['Connection_label'] = 'Connection parameters';
+$L['Remote_label'] = 'Contact this server on public IP / host';
+

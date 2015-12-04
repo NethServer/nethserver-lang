@@ -13,3 +13,4 @@ $L['BlackList_label'] = 'Aktiviere Globale Blacklist';
 $L['WhiteList_label'] = 'Globale Whitelist aktivieren';
 $L['BlockFileTypes_label'] = 'Blockiere Datei Endungen';
 $L['key_exists_message'] = 'Ein Filter Profil mit dem Namen existiert schon';
+$L['BlockBuiltinRules_label'] = 'Block porn sites by regular expressions on URL';

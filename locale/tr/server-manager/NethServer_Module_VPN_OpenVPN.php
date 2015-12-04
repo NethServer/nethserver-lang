@@ -25,3 +25,6 @@ $L['Bridge_label'] = 'Köprü';
 $L['port_label'] = 'UDP kapısı';
 $L['AdvancedConfiguration_label'] = 'Gelişmiş ayarlar';
 $L['used_network'] = 'Ağ zaten kullanılıyor';
+$L['Connection_label'] = 'Bağlantı parametreleri';
+$L['Remote_label'] = 'Bu sunucuya herkese açık IP / sunucu üzerinden bağlantı:';
+

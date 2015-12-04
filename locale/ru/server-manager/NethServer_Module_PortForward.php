@@ -28,3 +28,5 @@ $L['OriDst_label'] = "WAN IP (красный интерфейс)";
 $L['any_label'] = "Любой";
 $L['PickDestination_label'] = 'Выберите место назначения ...';
 $L['HairpinNat_label'] = 'Hairpin NAT';
+$L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Destination host can\'t be empty.';
+$L['duplicate_pfw'] = 'A port forward with same WAN IP and origin port already exists.';

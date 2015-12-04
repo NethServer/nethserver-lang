@@ -27,3 +27,4 @@ $L['PingInterval_label'] = 'Intervallo ping in secondi (1-60)';
 $L['NotifyWan_label'] = 'Invia notifica via mail in caso di caduta/ripristino provider'; 
 $L['NotifyWanFrom_label'] = 'Mittente';
 $L['NotifyWanTo_label'] = 'Destinatario';
+$L['valid_platform,fwobject-provider-delete,fwobject-referenced,3'] = 'Impossibile eliminare ${2}. Il provider è usato dalle regole del firewall.';

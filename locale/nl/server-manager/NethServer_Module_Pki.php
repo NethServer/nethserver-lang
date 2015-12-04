@@ -8,7 +8,7 @@ $L['Pki_Generate_header'] = 'Maak een nieuwe certificaat';
 $L['GenerateLink_label'] = 'Nieuwe certificaat';
 $L['Generate_label'] = 'Maak een certificaat';
 
-$L['C_label'] = 'Country code';
+$L['C_label'] = 'Land code';
 $L['ST_label'] = 'State';
 $L['L_label'] = 'Locality';
 $L['O_label'] = 'Organisatie';

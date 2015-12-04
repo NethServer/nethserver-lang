@@ -9,3 +9,4 @@ $L['Ntopng_Tags'] = 'ntop bande-passante moniteur utilisation';
 $L['Ntopng_Title'] = 'Moniteur de bande passante';
 $L['Authentication_enabled_label'] = 'Activer authentification';
 $L['Authentication_disabled_label'] = 'Désactiver l\'authentification';
+$L['Interfaces_label'] = 'Interfaces';

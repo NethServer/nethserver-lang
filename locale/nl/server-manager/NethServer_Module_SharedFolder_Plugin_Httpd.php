@@ -7,7 +7,7 @@ $L['PasswordStatus_label'] = 'Protect by password';
 $L['PasswordValue_label'] = 'Wachtwoord'; 
 $L['Access_label'] = 'Allow access from trusted networks only';
 $L['VirtualHost_label'] = 'Virtuele host';
-$L['ANY_VHOST'] = 'Any';
+$L['ANY_VHOST'] = 'Iedere';
 
 $L['Alias_label'] = 'Webadres (URL)';
 $L['AliasType_default_label'] = 'Folder name';

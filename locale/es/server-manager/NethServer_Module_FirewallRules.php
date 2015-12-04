@@ -86,3 +86,14 @@ $L['FirewallObject_iprange_Title'] = 'Rango de IP ${key}';
 $L['FirewallObject_cidr_Title'] = 'Red CIDR ${key}';
 
 $L['Show_x_outof_y_label'] = 'Mostrando ${partial} resultados de ${total}';
+$L['ActionRoute_label'] = 'Ruta a ${0}';
+$L['ActionRouteIndex_label'] = '${0}';
+$L['ActionLog_label'] = 'Registro';
+
+$L['ShowAction_label'] = 'Mostrar';
+$L['ShowAll_label'] = 'Todo';
+$L['ShowRules_label'] = 'Firewall';
+$L['ShowRoutes_label'] = 'Política de enrutamiento';
+
+$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Reglas de ruta no permiten que la zona roja se configure como Origen.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Reglas de ruta permiten solamente los siguientes tipos de destino: zona, host, rango de ip, cidr, rojo.';

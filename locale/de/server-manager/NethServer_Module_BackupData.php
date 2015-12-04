@@ -56,4 +56,5 @@ $L['VFSType_cifs_label'] = 'Windows Freigabe (CIFS)';
 $L['VFSType_nfs_label'] = 'NFS Freigabe';
 $L['VFSType_usb_label'] = 'USB disk';
 $L['mounted_label'] = 'Eingehängt';
-$L['invalid_pipe_char'] = 'The field can\'t contain a pipe "|" character';
+$L['invalid_pipe_char'] = 'das Feld kann "|" Zeichen enthalten ';
+$L['invalid_last_char'] = 'Last character can\'t be a backslash "\\"';

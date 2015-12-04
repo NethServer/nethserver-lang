@@ -57,3 +57,4 @@ $L['VFSType_nfs_label'] = 'Ruta NFS compartida';
 $L['VFSType_usb_label'] = 'Dispositivo USB';
 $L['mounted_label'] = 'montado';
 $L['invalid_pipe_char'] = 'El campo no puede contener un carácter "|"';
+$L['invalid_last_char'] = 'Último carácter no puede ser una barra invertida "\\"';

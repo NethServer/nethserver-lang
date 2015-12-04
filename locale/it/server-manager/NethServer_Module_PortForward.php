@@ -28,3 +28,5 @@ $L['OriDst_label'] = "IP WAN (interfaccia red)";
 $L['any_label'] = "Qualsiasi";
 $L['PickDestination_label'] = 'Scegli destinazione...';
 $L['HairpinNat_label'] = 'Hairpin NAT';
+$L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'L\'host di destinazione non può essere vuoto.';
+$L['duplicate_pfw'] = 'Esiste già un port forward con gli stessi IP WAN e porta di origine.';

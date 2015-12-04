@@ -8,4 +8,4 @@ $L['KeyType_rsa_label'] = 'RSA encryptie';
 $L['KeyType_psk_label'] = 'PSK (Private Shared Key)';
 $L['L2tpSubnet_label'] = 'L2TP clients';
 $L['L2tpNetwork_label'] = 'Netwerkadres';
-$L['L2tpNetmask_label'] = 'Network mask';
+$L['L2tpNetmask_label'] = 'Netwerk masker';

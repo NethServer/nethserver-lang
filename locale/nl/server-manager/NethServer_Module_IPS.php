@@ -4,11 +4,11 @@
 
 $L['balanced_label'] = 'Gebalanceerd';
 $L['connectivity_label'] = 'Connectiviteit';
-$L['IPS_Description'] = 'IPS management (Snort)';
+$L['IPS_Description'] = 'IPS beheer (Snort)';
 $L['IPS_header'] = 'IPS beheer';
 $L['IPS_Tags'] = 'IPS ips snort Snort';
 $L['IPS_Title'] = 'IPS';
-$L['Policy_label'] = 'Rule policy';
-$L['security_label'] = 'Security';
+$L['Policy_label'] = 'Regel beleid';
+$L['security_label'] = 'Beveiliging';
 $L['status_label'] = 'Status';
 $L['expert_label'] = 'Expert';

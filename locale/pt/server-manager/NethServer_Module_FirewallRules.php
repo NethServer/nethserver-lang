@@ -86,3 +86,14 @@ $L['FirewallObject_iprange_Title'] = 'Gama de IP\'s ${key}';
 $L['FirewallObject_cidr_Title'] = 'Rede CIDR ${key}';
 
 $L['Show_x_outof_y_label'] = 'A mostrar resultado parcial ${partial} de ${total}';
+$L['ActionRoute_label'] = 'Route to ${0}';
+$L['ActionRouteIndex_label'] = '${0}';
+$L['ActionLog_label'] = 'Log';
+
+$L['ShowAction_label'] = 'Show';
+$L['ShowAll_label'] = 'All';
+$L['ShowRules_label'] = 'Firewall';
+$L['ShowRoutes_label'] = 'Policy routing';
+
+$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Route rules do not allow the red zone to be set as Source.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Route rules allow only the following Destination types: zone, host, ip range, cidr, red.';

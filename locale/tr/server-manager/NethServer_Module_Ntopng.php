@@ -9,3 +9,4 @@ $L['Ntopng_Tags'] = 'ntop bant genişliği izleme kullanım';
 $L['Ntopng_Title'] = 'Bant genişliği izleme';
 $L['Authentication_enabled_label'] = 'Kimlik doğrulaması kullanılsın';
 $L['Authentication_disabled_label'] = 'Kimlik doğrulaması kullanılmasın';
+$L['Interfaces_label'] = 'Arabirimler';

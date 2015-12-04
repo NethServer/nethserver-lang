@@ -86,3 +86,14 @@ $L['FirewallObject_iprange_Title'] = 'IP aralığı ${key}';
 $L['FirewallObject_cidr_Title'] = 'CIDR ağı ${key}';
 
 $L['Show_x_outof_y_label'] = '${partial} / ${total} sonuç görüntüleniyor';
+$L['ActionRoute_label'] = '${0} yöneltmesi';
+$L['ActionRouteIndex_label'] = '${0}';
+$L['ActionLog_label'] = 'Günlük';
+
+$L['ShowAction_label'] = 'Görüntüle';
+$L['ShowAll_label'] = 'Tümü';
+$L['ShowRules_label'] = 'Güvenlik Duvarı';
+$L['ShowRoutes_label'] = 'İlke yöneltmesi';
+
+$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Yöneltici kuralları kırmızı bölgenin kaynak olarak kullanılmasına izin vermiyor.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Yöneltici kuralları yalnız şu hedef tiplerinin kullanılmasına izin veriyor: zone, host, ip range, cidr, red.';

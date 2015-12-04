@@ -12,6 +12,6 @@ $L['QuotaStatus_enabled_label'] = 'Aplicar cuota';
 $L['Spam messages handling'] = 'Manejo de mensajes de Spam'; 
 $L['SpamFolder_label'] = 'Mover a la carpeta "correo basura" '; 
 $L['TlsSecurity_label'] = 'Permitir conecciones sin encriptar';
-$L['Privileged access'] = 'Acceso privilegiado';
+$L['Privileged access'] = 'Acceso Privilegiado';
 $L['AdminIsMaster_label'] = 'El administrador puede iniciar sesión como otro usuario';
 $L['ever'] = 'Alguna vez'; 

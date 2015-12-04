@@ -12,3 +12,4 @@ $L['SmbGuestAccess_label'] = 'Ziyaretçi erişimi';
 $L['SmbGuestAccessType_none_label'] = 'Hiçbiri';
 $L['SmbGuestAccessType_r_label'] = 'Salt okunur';
 $L['SmbGuestAccessType_rw_label'] = 'Okuma ve yazma';
+$L['SmbShareBrowseable_label'] = 'Taranabilir';

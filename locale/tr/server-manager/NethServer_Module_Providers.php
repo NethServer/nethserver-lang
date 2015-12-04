@@ -27,3 +27,4 @@ $L['PingInterval_label'] = 'Saniye cinsinden ping aralığı (1-60)';
 $L['NotifyWan_label'] = 'Hizmet sağlayıcı durumu değiştiğinde e-posta bildirimi gönderilsin'; 
 $L['NotifyWanFrom_label'] = 'Kimden';
 $L['NotifyWanTo_label'] = 'Kime';
+$L['valid_platform,fwobject-provider-delete,fwobject-referenced,3'] = '${2} silinemedi. Hizmet sağlayıcı güvenlik duvarı kurallarında kullanılıyor.';

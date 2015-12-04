@@ -57,3 +57,4 @@ $L['VFSType_nfs_label'] = 'Condivisione NFS';
 $L['VFSType_usb_label'] = 'Disco USB';
 $L['mounted_label'] = 'montato';
 $L['invalid_pipe_char'] = 'Il campo non può contenere il carattere pipe "|"';
+$L['invalid_last_char'] = 'L\'ultimo carattere non può essere backslash "\\"';

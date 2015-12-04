@@ -27,3 +27,4 @@ $L['PingInterval_label'] = 'Intervalo de Ping en segundos (1-60)';
 $L['NotifyWan_label'] = 'Enviar notificación por correo electrónico sobre el cambio de estado del proveedor'; 
 $L['NotifyWanFrom_label'] = 'De';
 $L['NotifyWanTo_label'] = 'A';
+$L['valid_platform,fwobject-provider-delete,fwobject-referenced,3'] = 'No se pudo eliminar ${2}. El proveedor es utilizado por las reglas del firewall.';

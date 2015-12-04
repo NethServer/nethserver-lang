@@ -13,3 +13,4 @@ $L['BlackList_label'] = 'Activar lista negra global';
 $L['WhiteList_label'] = 'Activar lista branca global';
 $L['BlockFileTypes_label'] = 'Bloquear extensões de ficheiros';
 $L['key_exists_message'] = 'Já existe um filtro, perfil ou hora com o mesmo nome';
+$L['BlockBuiltinRules_label'] = 'Block porn sites by regular expressions on URL';

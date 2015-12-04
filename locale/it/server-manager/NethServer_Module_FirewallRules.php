@@ -72,7 +72,7 @@ $L['iprange_label'] = 'IP range';
 $L['cidr_label'] = 'Rete CIDR';
 $L['host-group_label'] = 'gruppo';
 $L['role_label'] = 'interfaccia';
-$L['confirm_reload_label'] = 'Le modifiche non state applicate.';
+$L['confirm_reload_label'] = 'Le modifiche non sono state applicate.';
 
 $L['FirewallObject_any_Title'] = 'Tutti (any)';
 $L['FirewallObject_host_Title'] = 'Host ${key}';
@@ -86,3 +86,14 @@ $L['FirewallObject_iprange_Title'] = 'IP range ${key}';
 $L['FirewallObject_cidr_Title'] = 'Rete CIDR ${key}';
 
 $L['Show_x_outof_y_label'] = 'Mostrati ${partial} risultati su ${total}';
+$L['ActionRoute_label'] = 'Devia su ${0}';
+$L['ActionRouteIndex_label'] = '${0}';
+$L['ActionLog_label'] = 'Log';
+
+$L['ShowAction_label'] = 'Mostra';
+$L['ShowAll_label'] = 'Tutti';
+$L['ShowRules_label'] = 'Firewall rules';
+$L['ShowRoutes_label'] = 'Policy routing';
+
+$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Le regole di routing non consentono di utilizzare una zona red come sorgente.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Le regole di routing consentono solo i seguenti tipi di destinazione: zona, host, range ip, CIDR, red.';

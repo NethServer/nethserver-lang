@@ -28,3 +28,5 @@ $L['OriDst_label'] = "WAN IP (interfaz roja)";
 $L['any_label'] = "Cualquiera";
 $L['PickDestination_label'] = ' Elija destino...';
 $L['HairpinNat_label'] = 'Redirección NAT';
+$L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Host de destino no puede estar vacío.';
+$L['duplicate_pfw'] = 'Un puerto de reenvío con la misma IP WAN y el puerto de origen ya existe.';

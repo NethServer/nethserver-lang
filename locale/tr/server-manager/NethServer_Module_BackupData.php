@@ -57,3 +57,4 @@ $L['VFSType_nfs_label'] = 'NFS paylaşımı';
 $L['VFSType_usb_label'] = 'USB disk';
 $L['mounted_label'] = 'takılı';
 $L['invalid_pipe_char'] = 'Bu alanda "|" karakteri kullanılamaz';
+$L['invalid_last_char'] = 'Son karakter ters bölü olamaz "\\"';

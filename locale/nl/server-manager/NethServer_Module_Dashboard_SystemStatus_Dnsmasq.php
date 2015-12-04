@@ -7,6 +7,6 @@ $L['nameservers_label'] = 'Remote DNS';
 $L['dns_status_label'] = 'DNS server';
 $L['dhcp_status_label'] = 'DHCP server';
 $L['dhcp_start_label'] = 'IP bereik start';
-$L['dhcp_end_label'] = 'IP range end';
+$L['dhcp_end_label'] = 'IP bereik einde';
 $L['enabled'] = 'Ingeschakeld';
 $L['disabled'] = 'Uitgeschakeld';

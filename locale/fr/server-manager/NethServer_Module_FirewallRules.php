@@ -43,7 +43,7 @@ $L['Create_header'] = 'Créer une règle de parefeu';
 $L['Copy_header'] = 'Créer une copie de #${0}';
 $L['Commit_label'] = 'Appliquer les changements';
 $L['Edit_label'] = 'Editer';
-$L['Copy_label'] = 'Copy';
+$L['Copy_label'] = 'Copier';
 $L['Delete_label'] = 'Supprimer';
 $L['Index_header'] = 'Règles du pare-feu';
 $L['RuleText_label'] = 'Depuis ${Src} vers ${Dst}, service ${Service}';
@@ -52,8 +52,8 @@ $L['SearchPlaceholder_label'] = 'Chercher...';
 
 $L['Delete_header'] = 'Supprimer la règle #${0}';
 $L['Delete_message'] = 'Confirmer la suppression de la règle #${id}';
-$L['HostGroups_create'] = 'Create host group "${0}"';
-$L['Hosts_create'] = 'Create host "${0}"';
+$L['HostGroups_create'] = 'Créer un groupe d\'hôte "${0}"';
+$L['Hosts_create'] = 'Créer hôte "${0}"';
 $L['Zones_create'] = 'Créer une zone"${0}"';
 $L['Services_create'] = 'Créer service "${0}"';
 $L['IpRange_create'] = ' Créer plage IP "${0}"';
@@ -86,3 +86,14 @@ $L['FirewallObject_iprange_Title'] = 'Plage IP ${key}';
 $L['FirewallObject_cidr_Title'] = 'Réseau CIDR ${key}';
 
 $L['Show_x_outof_y_label'] = 'Présentation de ${partial} resultats en dehors de ${total}';
+$L['ActionRoute_label'] = 'Route to ${0}';
+$L['ActionRouteIndex_label'] = '${0}';
+$L['ActionLog_label'] = 'Log';
+
+$L['ShowAction_label'] = 'Show';
+$L['ShowAll_label'] = 'All';
+$L['ShowRules_label'] = 'Firewall';
+$L['ShowRoutes_label'] = 'Policy routing';
+
+$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Route rules do not allow the red zone to be set as Source.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Route rules allow only the following Destination types: zone, host, ip range, cidr, red.';

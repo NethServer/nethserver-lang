@@ -52,3 +52,4 @@ $L['salifetime_label'] = 'Время жизни ключа (сек)';
 $L['connection_label'] = 'Подключение';
 $L['Key_label'] = 'Туннель';
 $L['auth_label'] = 'Аутентификация';
+$L['valid_at_prefix_identifier'] = 'An host name prepended with "@", or IP address';

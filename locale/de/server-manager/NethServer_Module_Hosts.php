@@ -29,3 +29,4 @@ $L['Create_Alias_Header'] = 'Erstelle neuen Serveralias';
 $L['Update_Alias_Header'] = 'Update alias "${0}"';
 $L['Create_Dns_Header'] = 'Erstelle neuen Hostname';
 $L['Update_Dns_Header'] = 'Aktualisiere Host Namen "${0}"';
+$L['valid_platform,host-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The host is used by firewall rules.';

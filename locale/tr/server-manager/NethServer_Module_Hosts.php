@@ -29,3 +29,4 @@ $L['Create_Alias_Header'] = 'Sunucu kısaltması ekle';
 $L['Update_Alias_Header'] = '"${0}" kısaltmasını güncelle';
 $L['Create_Dns_Header'] = 'Sunucu adı ekle';
 $L['Update_Dns_Header'] = '"${0}" sunucu adını güncelle';
+$L['valid_platform,host-delete,fwobject-referenced,3'] = '${2} silinemedi. Sunucu güvenlik duvarı kurallarında kullanılıyor.';

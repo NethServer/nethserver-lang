@@ -4,7 +4,7 @@
 
 $L['backup_label'] = 'Ενεργό αντίγραφο ασφαλείας';
 $L['balance_label'] = 'Ισορροπημένο';
-$L['CheckIP_label'] = 'Check IP';
+$L['CheckIP_label'] = 'Έλεγχος IP';
 $L['Configure_header'] = 'Διαμόρφωση';
 $L['interface_label'] = 'Διασύνδεση';
 $L['Key_label'] = 'Πάροχος';
@@ -25,5 +25,6 @@ $L['MaxNumberPacketLoss_label'] = 'Disable provider after # lost pings (2-99)';
 $L['MaxPercentPacketLoss_label'] = 'Disable provider over % lost pings (1-100)';
 $L['PingInterval_label'] = 'Ping interval in seconds (1-60)';
 $L['NotifyWan_label'] = 'Send mail notification on provider status change'; 
-$L['NotifyWanFrom_label'] = 'From';
-$L['NotifyWanTo_label'] = 'To';
+$L['NotifyWanFrom_label'] = 'Από';
+$L['NotifyWanTo_label'] = 'Προς';
+$L['valid_platform,fwobject-provider-delete,fwobject-referenced,3'] = 'Δεν ήταν δυνατή η διαγραφή του ${2}. Ο πάροχος χρησιμοποιείται σε κανόνες του τοίχου προσστασίας';

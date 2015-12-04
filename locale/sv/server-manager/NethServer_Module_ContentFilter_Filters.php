@@ -13,3 +13,4 @@ $L['BlackList_label'] = 'Aktivera global blacklist';
 $L['WhiteList_label'] = 'Aktivera global whitelist';
 $L['BlockFileTypes_label'] = 'Blockera filändelser';
 $L['key_exists_message'] = 'Ett filter, profil eller tid med samma namn existerar redan';
+$L['BlockBuiltinRules_label'] = 'Block porn sites by regular expressions on URL';

@@ -13,5 +13,5 @@ $L['Spam messages handling'] = 'Gestione dei messaggi di spam';
 $L['SpamFolder_label'] = 'Sposta nella cartella "junkmail"'; 
 $L['TlsSecurity_label'] = 'Consenti connessioni non cifrate';
 $L['Privileged access'] = 'Accesso privilegiato';
-$L['AdminIsMaster_label'] = 'Admin può accedere impersonando un altro utente';
+$L['AdminIsMaster_label'] = 'L\'utente admin può accedere come un altro utente';
 $L['ever'] = 'sempre'; 

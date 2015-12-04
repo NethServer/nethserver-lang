@@ -12,3 +12,4 @@ $L['SmbGuestAccess_label'] = 'Acceso invitado';
 $L['SmbGuestAccessType_none_label'] = 'Ninguno';
 $L['SmbGuestAccessType_r_label'] = 'Sólo lectura';
 $L['SmbGuestAccessType_rw_label'] = 'Lectura y escritura';
+$L['SmbShareBrowseable_label'] = 'Navegable';

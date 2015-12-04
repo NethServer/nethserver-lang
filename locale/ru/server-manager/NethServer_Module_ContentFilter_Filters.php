@@ -13,3 +13,4 @@ $L['BlackList_label'] = 'Разрешить глобальный черный с
 $L['WhiteList_label'] = 'Разрешить глобальный белый список';
 $L['BlockFileTypes_label'] = 'Блокировать по расширениям файлов';
 $L['key_exists_message'] = 'Фильтр, профиль или время с таким же названием уже есть';
+$L['BlockBuiltinRules_label'] = 'Block porn sites by regular expressions on URL';

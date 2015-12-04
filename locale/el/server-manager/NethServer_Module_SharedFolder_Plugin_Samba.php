@@ -12,3 +12,4 @@ $L['SmbGuestAccess_label'] = 'Πρόσβαση επισκέπτη';
 $L['SmbGuestAccessType_none_label'] = 'Τίποτα';
 $L['SmbGuestAccessType_r_label'] = 'Μόνο για ανάγνωση';
 $L['SmbGuestAccessType_rw_label'] = 'Για ανάγνωση και εγγραφή';
+$L['SmbShareBrowseable_label'] = 'Browseable';

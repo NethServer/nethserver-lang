@@ -13,3 +13,4 @@ $L['BlackList_label'] = 'Globális feketelista engedélyezése';
 $L['WhiteList_label'] = 'Globális fehérlista engedélyezése';
 $L['BlockFileTypes_label'] = 'Fájlkiterjesztések blokkolása';
 $L['key_exists_message'] = 'Egy szűrő, profil vagy időpont már létezik ugyanazzal a névvel';
+$L['BlockBuiltinRules_label'] = 'Block porn sites by regular expressions on URL';

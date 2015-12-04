@@ -13,3 +13,4 @@ $L['BlackList_label'] = 'Gebruik globale zwarte lijst ';
 $L['WhiteList_label'] = 'Gebruik globale witte lijst';
 $L['BlockFileTypes_label'] = 'Blokkeer bestands extenties';
 $L['key_exists_message'] = 'Een filter, profiel of tijd met dezelfde naam bestaat al';
+$L['BlockBuiltinRules_label'] = 'Blokker pornografische websites door middel van een reguliere expressie van de URL';

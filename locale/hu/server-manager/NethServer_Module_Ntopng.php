@@ -9,3 +9,4 @@ $L['Ntopng_Tags'] = 'ntop bandwidth monitor usage';
 $L['Ntopng_Title'] = 'Sávszélesség monitor';
 $L['Authentication_enabled_label'] = 'Hitelesítés bekapcsolás';
 $L['Authentication_disabled_label'] = 'Disable authentication';
+$L['Interfaces_label'] = 'Interfaces';

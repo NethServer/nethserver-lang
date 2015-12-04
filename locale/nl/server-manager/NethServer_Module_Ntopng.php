@@ -9,3 +9,4 @@ $L['Ntopng_Tags'] = 'ntop bandwidth monitor usage';
 $L['Ntopng_Title'] = 'Bandwidth monitor';
 $L['Authentication_enabled_label'] = 'Schakel authenticatie in';
 $L['Authentication_disabled_label'] = 'Schakel authenticatie uit';
+$L['Interfaces_label'] = 'Interfaces';
