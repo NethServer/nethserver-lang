@@ -28,5 +28,5 @@ $L['OriDst_label'] = "WAN IP (κόκκινη διασύδεση)";
 $L['any_label'] = "Οποιοσδήποτε";
 $L['PickDestination_label'] = 'Διάλεξε προορισμό...';
 $L['HairpinNat_label'] = 'Hairpin NAT';
-$L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Destination host can\'t be empty.';
-$L['duplicate_pfw'] = 'A port forward with same WAN IP and origin port already exists.';
+$L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Ο προορισμός φορέα δεν μπορεί να είναι κενό';
+$L['duplicate_pfw'] = 'Μια θύρα προώθησης με το ίδιο WAN IP και θύρα προέλευσης υπάρχει ήδη.';

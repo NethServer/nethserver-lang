@@ -8,4 +8,4 @@ $L['ChrootDir_label'] = 'Προσαρμοσμένος φάκελος chroot (π.
 $L['Update_User_Header'] = 'Επεξεργασία χρήστη';
 $L['Create_User_Header'] = 'Δημιουργία χρήστη';
 $L['Users_Title'] = 'Χρήστες';
-$L['valid_platform,user-create,uniq-account,3'] = 'User name `${1}` has been already registered';
+$L['valid_platform,user-create,uniq-account,3'] = 'Το όνομα χρήση `${1}` έχει ήδη εγγραφεί';

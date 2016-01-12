@@ -46,8 +46,8 @@ $L['DeleteAll_label'] = 'Διαγραφή όλων';
 $L['DeleteAll_Header'] = 'Διαγραφή όλων';
 $L['DeleteAll_Message'] = 'Διαγραφή όλων των μηνυμάτων που βρίσκονται σε σειρά (${0}) ';
 
-$L['SmtpAccess_Title'] = 'SMTP access';
-$L['SMTP connections policy'] = 'SMTP connections policy';
-$L['AccessBypassList_label'] = 'Allow relay from IP addresses';
-$L['AccessPolicyTrustedNetworks_label'] = 'Allow relay from trusted networks';
-$L['AccessPolicySmtpAuth_label'] = 'Enable authentication on port 25';
+$L['SmtpAccess_Title'] = 'Πρόσβαση SMTP';
+$L['SMTP connections policy'] = 'Πολιτική συνδέσεων SMTP';
+$L['AccessBypassList_label'] = 'Να επιτρέπεται αναμετάδοση από διευθύνσεις IP';
+$L['AccessPolicyTrustedNetworks_label'] = 'Να επιτρέπεται αναμετάδοση από έμπιστα δίκτυα';
+$L['AccessPolicySmtpAuth_label'] = 'Ενεργοποίηση εξουσιοδότησης στην θύρα 25';

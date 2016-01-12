@@ -26,5 +26,5 @@ $L['port_label'] = 'Θύρα UDP';
 $L['AdvancedConfiguration_label'] = 'Ρύθμιση για προχωρημένους';
 $L['used_network'] = 'Το δίκτυο χρησιμοποιείται ήδη';
 $L['Connection_label'] = 'Παράμετροι σύνδεσης';
-$L['Remote_label'] = 'Contact this server on public IP / host';
+$L['Remote_label'] = 'Επικοινωνήστε με αυτόν το διακομιστή στην δημόσια IP / host';
 

@@ -57,4 +57,4 @@ $L['VFSType_nfs_label'] = 'NFS Freigabe';
 $L['VFSType_usb_label'] = 'USB disk';
 $L['mounted_label'] = 'Eingehängt';
 $L['invalid_pipe_char'] = 'das Feld kann "|" Zeichen enthalten ';
-$L['invalid_last_char'] = 'Last character can\'t be a backslash "\\"';
+$L['invalid_last_char'] = 'Das letzte Zeichen darf kein Backslash "\\" sein';

@@ -16,5 +16,5 @@ $L['network_title'] = 'Netzwerk';
 $L['speed_label'] = 'Geschwindigkeit';
 $L['link_label'] = 'Link';
 $L['role_label'] = 'Rolle';
-$L['none_label'] = 'Static';
+$L['none_label'] = 'Statische';
 $L['dhcp_label'] = 'DHCP';

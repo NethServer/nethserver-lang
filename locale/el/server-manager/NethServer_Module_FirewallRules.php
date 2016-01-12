@@ -86,14 +86,14 @@ $L['FirewallObject_iprange_Title'] = 'Εμβέλεια IP ${key}';
 $L['FirewallObject_cidr_Title'] = 'Δίκτυο CIDR ${key}';
 
 $L['Show_x_outof_y_label'] = 'Εμφανίζονται ${partial} αποτελέσματα από ${total}';
-$L['ActionRoute_label'] = 'Route to ${0}';
+$L['ActionRoute_label'] = 'Δρομολόγηση προς ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Ιστορικό';
 
 $L['ShowAction_label'] = 'Εμφάνιση';
 $L['ShowAll_label'] = 'Όλα';
 $L['ShowRules_label'] = 'Τείχος προστασίας';
-$L['ShowRoutes_label'] = 'Policy routing';
+$L['ShowRoutes_label'] = 'Πολιτική δρομολόγησης';
 
-$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Route rules do not allow the red zone to be set as Source.';
-$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Route rules allow only the following Destination types: zone, host, ip range, cidr, red.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Οι κανόνες δρομολόγησης δεν επιτρέπουν την κόκκινη ζώνη να τεθεί ως Πηγή.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Οι κανόνες δρομολόγησης επιτρέπουν μόνο τους ακόλουθους τύπους Προορισμών: ζώνη, φορέας, εύρος διευθύνσεων IP, cidr, κόκκινο.';

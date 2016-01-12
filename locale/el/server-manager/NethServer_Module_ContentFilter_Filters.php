@@ -13,4 +13,4 @@ $L['BlackList_label'] = 'Ενεργοποίηση καθολικής μαύρη�
 $L['WhiteList_label'] = 'Ενεργοποίηση καθολικής άσπρης λίστας';
 $L['BlockFileTypes_label'] = 'Αποκλεισμός επεκτάσεων αρχείων';
 $L['key_exists_message'] = 'Ένα φίλτρο, προφίλ ή ώρα με το ίδιο όνομα, υπάρχει';
-$L['BlockBuiltinRules_label'] = 'Block porn sites by regular expressions on URL';
+$L['BlockBuiltinRules_label'] = 'Αποκλεισμός ιστοσελίδων πορνό με regular expressions στο URL';
