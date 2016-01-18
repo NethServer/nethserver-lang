@@ -49,7 +49,7 @@ $L['valid_platform,fwobject-fwservice-delete,fwobject-referenced,3'] = 'Kann nic
 $L['valid_platform,fwobject-host-delete,fwobject-referenced,3'] = 'Kann nicht gelöscht werden: ${2}. Der Rechner ist in Benutzung durch die Firewall.';
 $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'Kann nicht gelöscht werden: ${2}.  Die host group ist in Benutzung durch die Firewall.';
 $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The CIDR is used by firewall rules.';
-$L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The IP range is used by firewall rules.';
+$L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Kann nicht gelöscht werden: ${2}. Die IP-Zone ist in Benutzung durch die Firewall.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Could not delete ${2}: it is the last member of host group ${${reason}}.';
 $L['valid_iprange_outofbounds'] = 'Start-IP muss niedriger sein als End-IP';
 
@@ -57,7 +57,7 @@ $L['Cidr_Title'] = 'CIDR Subnets';
 $L['Address_label'] = 'Netzwerk';
 $L['Cidr_create_label'] = 'erstelle CIDR subnet';
 $L['Cidr_update_label'] = 'Update CIDR subne';
-$L['Cidr_key_exists_message'] = 'An object with the same name already exists inside the hosts database';
+$L['Cidr_key_exists_message'] = 'Ein Objekt mit demselben Namen ist bereits in der Systemdatenbank vorhanden';
 $L['Cidr_CreateCidr_label'] = 'erstelle CIDR network';
 $L['CidrKey_label'] = 'CIDR';
 
@@ -66,6 +66,6 @@ $L['Start_label'] = 'Start IP';
 $L['End_label'] = 'Ende IP';
 $L['IpRange_create_label'] = 'erstelle IP Bereich';
 $L['IpRange_update_label'] = 'Update IP Bereich';
-$L['IpRange_key_exists_message'] = 'An object with the same name already exists inside the hosts database';
+$L['IpRange_key_exists_message'] = 'Ein Objekt mit demselben Namem ist bereits in der Systemdatenbank vorhanden';
 $L['IpRange_CreateIpRange_label'] = 'erstelle IP Bereich';
 $L['IpRangeKey_label'] = ' IP Bereich';
