@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.0.16
+Version: 1.0.17
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -181,6 +181,9 @@ NethServer Swedish language support (sv)
 
 
 %changelog
+* Mon Jan 18 2016 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.17-1
+- Release 1.0.17
+
 * Fri Dec 04 2015 Davide Principi <davide.principi@nethesis.it> - 1.0.16-1
 - Specify network interfaces for ntopng - Enhancement #3325 [NethServer]
 - Builtin filter rules for squidguard - Feature #3320 [NethServer]
