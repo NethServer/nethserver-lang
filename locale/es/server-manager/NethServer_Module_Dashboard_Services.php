@@ -55,3 +55,12 @@ $L['winbind_Description'] = 'Nombre Conmutador de Servicios';
 $L['xl2tpd_Description'] = 'Protocolo de Tunel de capa 2';
 $L['yum-cron_Description'] = 'Actualizaciones Automaticas';
 
+$L['Proceed with `${0}` start?'] = 'Proceder con `${0}` iniciar?';
+$L['Proceed with `${0}` restart?'] = 'Proceder con `${0}` reiniciar?';
+$L['Proceed with `${0}` stop?'] = 'Proceder con `${0}` detener?';
+$L['Restart service `${0}`'] = 'Reiniciar servicio `${0}`';
+$L['Start service `${0}`'] = 'Iniciar servicio `${0}`';
+$L['Stop service `${0}`'] = 'Detener servicio `${0}`';
+$L['restart_label'] = 'Reiniciar';
+$L['start_label'] = 'Iniciar';
+$L['stop_label'] = 'Detener';

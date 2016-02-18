@@ -1,6 +1,6 @@
 <?php
 
-$L['model_label'] = 'Model';
+$L['model_label'] = 'Modell';
 $L['status_label'] = 'Status';
 $L['temperature_label'] = 'Termperatur';
 $L['battery_chrg_label'] = 'Lade Batterie';

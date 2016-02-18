@@ -37,7 +37,7 @@ $L['PickObject_SrcRaw_header'] = 'Choose the packet source for rule "${RuleId}"'
 $L['PickObject_DstRaw_header'] = 'Choose the packet destination for rule "${RuleId}"';
 $L['PickObject_ServiceRaw_header'] = 'Choose the service protocol for rule "${RuleId}"';
 
-$L['Create_last_label'] = 'Create rule at bottom';
+$L['Create_last_label'] = 'Erstelle Regel am Ende';
 $L['Create_first_label'] = 'erstelle Regel am Anfang';
 $L['Create_header'] = 'erstelle Firewall Regel';
 $L['Copy_header'] = 'erstelle eine Kopie von #${0}';
@@ -78,22 +78,22 @@ $L['FirewallObject_any_Title'] = 'alle';
 $L['FirewallObject_host_Title'] = 'Host ${key}';
 $L['FirewallObject_local_Title'] = 'LAN host ${key}';
 $L['FirewallObject_remote_Title'] = 'Host ${key}';
-$L['FirewallObject_role_Title'] = 'Role ${key}';
+$L['FirewallObject_role_Title'] = 'Rolle ${key}';
 $L['FirewallObject_zone_Title'] = 'Zone ${key}';
-$L['FirewallObject_host-group_Title'] = 'Host group ${key}';
-$L['FirewallObject_fwservice_Title'] = 'Service ${key}';
+$L['FirewallObject_host-group_Title'] = 'Hostgruppe ${key}';
+$L['FirewallObject_fwservice_Title'] = 'Dienst ${key}';
 $L['FirewallObject_iprange_Title'] = 'IP Range ${key}';
-$L['FirewallObject_cidr_Title'] = 'CIDR network ${key}';
+$L['FirewallObject_cidr_Title'] = 'CDIR Netzwerk ${key}';
 
-$L['Show_x_outof_y_label'] = 'Showing ${partial} results out of ${total}';
-$L['ActionRoute_label'] = 'Route to ${0}';
+$L['Show_x_outof_y_label'] = 'Zeige ${partial} Resultate von ${total}';
+$L['ActionRoute_label'] = 'Leite zu ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
-$L['ActionLog_label'] = 'Log';
+$L['ActionLog_label'] = 'Loggen';
 
-$L['ShowAction_label'] = 'Show';
-$L['ShowAll_label'] = 'All';
+$L['ShowAction_label'] = 'Anzeigen';
+$L['ShowAll_label'] = 'Alle';
 $L['ShowRules_label'] = 'Firewall';
-$L['ShowRoutes_label'] = 'Policy routing';
+$L['ShowRoutes_label'] = 'Richtlinienleitung';
 
-$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Route rules do not allow the red zone to be set as Source.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Leitungsregeln verbieten das Einstellen der roten Zone als Quelle.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Route rules allow only the following Destination types: zone, host, ip range, cidr, red.';

@@ -55,3 +55,12 @@ $L['winbind_Description'] = 'Ad Hizmeti Değiştirme';
 $L['xl2tpd_Description'] = 'Layer 2 Tünel İletişim Kuralı';
 $L['yum-cron_Description'] = 'Otomatik güncellemeler';
 
+$L['Proceed with `${0}` start?'] = '`${0}` başlatılsın mı?';
+$L['Proceed with `${0}` restart?'] = '`${0}` yeniden başlatılsın mı?';
+$L['Proceed with `${0}` stop?'] = '`${0}` durdurulsun mu?';
+$L['Restart service `${0}`'] = '`${0}` hizmetini yeniden başlat';
+$L['Start service `${0}`'] = '`${0}` hizmetini başlat';
+$L['Stop service `${0}`'] = '`${0}` hizmetini durdur';
+$L['restart_label'] = 'Yeniden Başlat';
+$L['start_label'] = 'Başlat';
+$L['stop_label'] = 'Durdur';

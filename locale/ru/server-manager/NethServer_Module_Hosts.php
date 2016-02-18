@@ -29,4 +29,4 @@ $L['Create_Alias_Header'] = 'Создать новый псевдоним сер
 $L['Update_Alias_Header'] = 'Обновить псевдоним "${0}"';
 $L['Create_Dns_Header'] = 'Создать новую машину';
 $L['Update_Dns_Header'] = 'Обновить "${0}"';
-$L['valid_platform,host-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The host is used by firewall rules.';
+$L['valid_platform,host-delete,fwobject-referenced,3'] = 'Невозможно удалить ${2}. Хост задействован в правилах сетевого экрана.';

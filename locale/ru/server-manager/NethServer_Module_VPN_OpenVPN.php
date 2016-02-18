@@ -25,6 +25,6 @@ $L['Bridge_label'] = 'Мост';
 $L['port_label'] = 'UDP порт';
 $L['AdvancedConfiguration_label'] = 'Расширенная настройка';
 $L['used_network'] = 'Сеть уже используется';
-$L['Connection_label'] = 'Connection parameters';
+$L['Connection_label'] = 'Параметры соединения';
 $L['Remote_label'] = 'Contact this server on public IP / host';
 

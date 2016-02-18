@@ -30,12 +30,12 @@ $L['port_update_header_label'] = 'Aktualisiere Portregel';
 $L['Priority_label'] = 'Priorität';
 $L['Proto_label'] = 'Protokoll';
 $L['simple_label'] = 'Ja';
-$L['tc_label'] = 'Enable traffic shaping';
+$L['tc_label'] = 'Verkehrsformen aktivieren';
 $L['tcp_label'] = 'TCP';
 $L['tcp,udp_label'] = 'TCP, UDP';
-$L['TrafficShaping_Description'] = 'Manage Traffic Shaping';
+$L['TrafficShaping_Description'] = 'Verkehrsformen verwalten';
 $L['TrafficShaping_Tags'] = 'tc traffic shaping shape qos ';
-$L['TrafficShaping_Title'] = 'Traffic shaping';
+$L['TrafficShaping_Title'] = 'Verkehrsformen';
 $L['udp_label'] = 'UDO';
-$L['PickSource_label'] = 'Pick source...';
+$L['PickSource_label'] = 'Quelle auswählen...';
 

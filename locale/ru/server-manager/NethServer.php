@@ -27,4 +27,4 @@ $L['Back_label'] = 'Назад';
 $L['Profile'] = 'Профиль';
 $L['Change password'] = 'Изменить пароль';
 $L['Logout'] = 'Выйти';
-$L['valid_platform,network-create,uniq-networksdb-key,3'] = 'The name `${1}` has been already used inside the networks database';
+$L['valid_platform,network-create,uniq-networksdb-key,3'] = 'Имя `${1}` уже используется внутри базы данных сетей';

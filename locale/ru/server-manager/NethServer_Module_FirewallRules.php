@@ -86,14 +86,14 @@ $L['FirewallObject_iprange_Title'] = 'IP диапазон  ${key}';
 $L['FirewallObject_cidr_Title'] = 'CIDR сеть ${key}';
 
 $L['Show_x_outof_y_label'] = 'Показана ${partial} часть результатов из ${total}';
-$L['ActionRoute_label'] = 'Route to ${0}';
+$L['ActionRoute_label'] = 'Маршрут до ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
-$L['ActionLog_label'] = 'Log';
+$L['ActionLog_label'] = 'Лог';
 
-$L['ShowAction_label'] = 'Show';
-$L['ShowAll_label'] = 'All';
-$L['ShowRules_label'] = 'Firewall';
-$L['ShowRoutes_label'] = 'Policy routing';
+$L['ShowAction_label'] = 'Показать';
+$L['ShowAll_label'] = 'Всё';
+$L['ShowRules_label'] = 'Сетевой экран';
+$L['ShowRoutes_label'] = 'Политика маршрутизации';
 
-$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Route rules do not allow the red zone to be set as Source.';
-$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Route rules allow only the following Destination types: zone, host, ip range, cidr, red.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Правила маршрутизации не позволяют установить красную зону в качестве источника.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Правила маршрутизации допускают только следующие типы назначений: зона, хост, диапазон IP адресов, CIDR, красная зона.';

@@ -25,6 +25,6 @@ $L['Bridge_label'] = 'Brücken';
 $L['port_label'] = 'UDP port';
 $L['AdvancedConfiguration_label'] = 'Erweiterte Konfiguration';
 $L['used_network'] = 'Netzwerk schon vorhanden';
-$L['Connection_label'] = 'Connection parameters';
-$L['Remote_label'] = 'Contact this server on public IP / host';
+$L['Connection_label'] = 'Verbindungsoptionen';
+$L['Remote_label'] = 'Erreiche den Server durch die öffentliche IP';
 

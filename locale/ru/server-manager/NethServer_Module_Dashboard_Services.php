@@ -4,10 +4,10 @@
 
 $L['Key_label'] = 'Служба';
 $L['ports_label'] = 'Порты';
-$L['running_label'] = 'Работающие';
+$L['running_label'] = 'Работает';
 $L['Services_Title'] = 'Службы';
 $L['status_label'] = 'Состояние';
-$L['stopped_label'] = 'Остановленные';
+$L['stopped_label'] = 'Остановлено';
 $L['TCPPorts_label'] = 'TCP';
 $L['UDPPorts_label'] = 'UDP';
 
@@ -55,3 +55,12 @@ $L['winbind_Description'] = 'Служба преобразования имен'
 $L['xl2tpd_Description'] = 'Протокол туннелирования (уровень 2)';
 $L['yum-cron_Description'] = 'Автоматическое обновление';
 
+$L['Proceed with `${0}` start?'] = 'Приступить к запуску `${0}`?';
+$L['Proceed with `${0}` restart?'] = 'Приступить к перезапуску `${0}`?';
+$L['Proceed with `${0}` stop?'] = 'Приступить к остановке `${0}`?';
+$L['Restart service `${0}`'] = 'Перезапустить службу `${0}`';
+$L['Start service `${0}`'] = 'Запустить сервис `${0}`';
+$L['Stop service `${0}`'] = 'Остановить службу `${0}`';
+$L['restart_label'] = 'Перезапуск';
+$L['start_label'] = 'Запуск';
+$L['stop_label'] = 'Стоп';

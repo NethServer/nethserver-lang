@@ -1,6 +1,6 @@
 <?php
 
-$L['model_label'] = 'Model';
+$L['model_label'] = 'Modell';
 $L['ups_status_label'] = 'Status';
 $L['nut_title'] = 'UPS';
 $L['enabled_label'] = 'aktivieren';
@@ -10,14 +10,14 @@ $L['NutUps_Description'] = 'Konfiguartion der UPS (uninterruptible power supply)
 $L['status_label'] = 'Aktiviere NUT UPS';
 $L['ups_status_label'] = 'Status';
 $L['Password_label'] = 'Passwort';
-$L['Master_label'] = 'Master server address';
+$L['Master_label'] = 'Adresse des Master-Servers';
 $L['Mode_label'] = 'Modus';
 $L['Mode_master_label'] = 'Master';
 $L['Mode_slave_label'] = 'Slave';
 $L['Model_label'] = 'Treiber';
 $L['Device_label'] = 'Gerät';
 $L['SearchModel_label'] = 'Suche Treiber für Model';
-$L['Slave_password_label'] = 'Password for slaves: ${0}';
+$L['Slave_password_label'] = 'Passwort für die Slaves: ${0}';
 $L['Type_usb_label'] = 'Usb Verbindungen';
 $L['Type_serial_label'] = 'Serielle Verbindung';
 $L['auto_label'] = "USB (auto)";

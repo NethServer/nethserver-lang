@@ -3,11 +3,11 @@
 $L['RestoreData_Title'] = 'Daten wiederherstellen';
 $L['RestoreData_label'] = 'Wiederherstellen';
 $L['RestoreData_PlaceHolder'] = 'Suchen';
-$L['RestoreData_original'] = 'Restore data in the original path';
+$L['RestoreData_original'] = 'Daten in den ursprünglichen Pfad wiederherstellen';
 $L['RestoreData_temp'] = 'Daten in einem neuen Verzeichnis wiederherstellen';
-$L['RestoreData_String_restore'] = 'Select one or more directories or files to restore';
-$L['RestoreData_restore_message'] = 'Restored in ${0}';
+$L['RestoreData_String_restore'] = 'Wählen Sie eins oder mehrere Verzeichnisse/Dateien zur Wiederherstellung aus ';
+$L['RestoreData_restore_message'] = 'In ${0} wiederhergestellt';
 $L['path_label'] = 'Pfad';
-$L['RestoreData_file_restore'] = 'Directories or files to restore';
+$L['RestoreData_file_restore'] = 'Wiederherzustellende Verzeichnisse oder Dateien';
 $L['RestoreData_mode_restore'] = 'Wiederherstellungsmodus';
-$L['RestoreData_empty_restore'] = 'No directories or files selected';
+$L['RestoreData_empty_restore'] = 'Keine Verzeichnisse oder Dateien ausgewählt';
