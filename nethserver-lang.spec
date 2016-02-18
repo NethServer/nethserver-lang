@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.0.17
+Version: 1.0.18
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -181,6 +181,10 @@ NethServer Swedish language support (sv)
 
 
 %changelog
+* Thu Feb 18 2016 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.18-1
+- Pulled language strings from Transifex
+- Update inline help for web filter whitelist. Refs #3354
+
 * Mon Jan 18 2016 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.17-1
 - Release 1.0.17
 
