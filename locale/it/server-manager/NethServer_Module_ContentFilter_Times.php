@@ -16,3 +16,5 @@ $L['StartTime_label'] = 'Ora inizio';
 $L['EndTime_label'] = 'Ora fine';
 $L['key_exists_message'] = 'Esiste già un filtro, un profilo o una condizione temporale con lo stesso nome';
 $L['endtime_grater_than_starttime'] = 'Il tempo di fine deve essere maggiore del tempo di inizio';
+$L['TimeKey_label'] = 'Condizione temporale';
+$L['valid_platform,squidguard-obj-delete,squidguard-referenced,3'] = 'Impossibile eliminare ${2}. La condizione temporale è usata all\'interno di un profilo.';

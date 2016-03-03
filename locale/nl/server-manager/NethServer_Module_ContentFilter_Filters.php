@@ -14,3 +14,5 @@ $L['WhiteList_label'] = 'Gebruik globale witte lijst';
 $L['BlockFileTypes_label'] = 'Blokkeer bestands extenties';
 $L['key_exists_message'] = 'Een filter, profiel of tijd met dezelfde naam bestaat al';
 $L['BlockBuiltinRules_label'] = 'Blokker pornografische websites door middel van een reguliere expressie van de URL';
+$L['FilterKey_label'] = 'Filter';
+$L['valid_platform,squidguard-obj-delete,squidguard-referenced,3'] = 'Could not delete ${2}. This filter is currently used inside a profile.';

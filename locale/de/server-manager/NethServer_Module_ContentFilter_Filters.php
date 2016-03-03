@@ -14,3 +14,5 @@ $L['WhiteList_label'] = 'Globale Whitelist aktivieren';
 $L['BlockFileTypes_label'] = 'Blockiere Datei Endungen';
 $L['key_exists_message'] = 'Ein Filter Profil mit dem Namen existiert schon';
 $L['BlockBuiltinRules_label'] = 'Blockiere Porno-Internetseiten aus geläufigen Begriffen in der URL';
+$L['FilterKey_label'] = 'Filter';
+$L['valid_platform,squidguard-obj-delete,squidguard-referenced,3'] = 'Could not delete ${2}. This filter is currently used inside a profile.';

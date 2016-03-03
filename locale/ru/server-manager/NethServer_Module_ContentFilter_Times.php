@@ -16,3 +16,5 @@ $L['StartTime_label'] = 'Время начала';
 $L['EndTime_label'] = 'Время окончания';
 $L['key_exists_message'] = 'Фильтр, профиль или время с таким же названием уже есть';
 $L['endtime_grater_than_starttime'] = 'Время окончания должно быть больше чем время начала';
+$L['TimeKey_label'] = 'Time';
+$L['valid_platform,squidguard-obj-delete,squidguard-referenced,3'] = 'Could not delete ${2}. This time frame is currently used inside a profile.';

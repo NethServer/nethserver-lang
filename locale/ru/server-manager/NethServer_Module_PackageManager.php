@@ -3,7 +3,7 @@
 $L['Add_label'] = 'Установить';
 $L['PackageManager_Description'] = 'Установка и удаление модулей из системы';
 $L['PackageManager_Tags'] = 'rpm yum extras modules packages дополнения модули компоненты пакеты';
-$L['PackageManager_Title'] = 'Центр Программ';
+$L['PackageManager_Title'] = 'Центр приложений';
 $L['package_success'] = 'Операция успешно выполнена';
 $L['rpm_name'] = 'Название';
 $L['rpm_version'] = 'Версия';
@@ -32,3 +32,6 @@ $L['noupdates_message'] = 'Установленное ПО актуально';
 $L['DoUpdate_label'] = 'Загрузить и установить';
 $L['update_success_message'] = 'Обновление ПО выполнено';
 $L['Changelog_label'] = 'Список изменений обновлений';
+$L['ClearYumCache_label'] = 'Clear YUM cache';
+$L['ClearYumCache_description'] = 'The install/update may have failed due to metadata caching issues. Please clean the cache by clicking the button below and retry the install/update operation.';
+$L['An unknown installation error has occurred'] = 'An unknown installation error has occurred';

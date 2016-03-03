@@ -32,3 +32,6 @@ $L['noupdates_message'] = 'Installierte Software ist aktuell';
 $L['DoUpdate_label'] = 'Herunterladen und Installieren';
 $L['update_success_message'] = 'Software Update Fertig';
 $L['Changelog_label'] = 'Änderungsprotokoll';
+$L['ClearYumCache_label'] = 'Clear YUM cache';
+$L['ClearYumCache_description'] = 'The install/update may have failed due to metadata caching issues. Please clean the cache by clicking the button below and retry the install/update operation.';
+$L['An unknown installation error has occurred'] = 'An unknown installation error has occurred';

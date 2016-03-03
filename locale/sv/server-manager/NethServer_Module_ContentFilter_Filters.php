@@ -14,3 +14,5 @@ $L['WhiteList_label'] = 'Aktivera global whitelist';
 $L['BlockFileTypes_label'] = 'Blockera filändelser';
 $L['key_exists_message'] = 'Ett filter, profil eller tid med samma namn existerar redan';
 $L['BlockBuiltinRules_label'] = 'Block porn sites by regular expressions on URL';
+$L['FilterKey_label'] = 'Filter';
+$L['valid_platform,squidguard-obj-delete,squidguard-referenced,3'] = 'Could not delete ${2}. This filter is currently used inside a profile.';

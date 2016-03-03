@@ -14,3 +14,5 @@ $L['WhiteList_label'] = 'Genel beyaz liste kullanılsın';
 $L['BlockFileTypes_label'] = 'Dosya uzantıları engellensin';
 $L['key_exists_message'] = 'Aynı adlı bir süzgeç, profil ya da zaman zaten var.';
 $L['BlockBuiltinRules_label'] = 'Porno sitelerini İnternet adresi üzerine kurallı ifadeler uygulayarak engelle';
+$L['FilterKey_label'] = 'Süzgeç';
+$L['valid_platform,squidguard-obj-delete,squidguard-referenced,3'] = '${2} silinemedi. Süzgeç bir profilde kullanılıyor.';

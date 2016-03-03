@@ -32,3 +32,6 @@ $L['noupdates_message'] = 'Yüklü yazılımlar güncel';
 $L['DoUpdate_label'] = 'İndirip yükleyin';
 $L['update_success_message'] = 'Yazılımlar güncellendi';
 $L['Changelog_label'] = 'Güncelleme Değişiklik Günlüğü';
+$L['ClearYumCache_label'] = 'Clear YUM cache';
+$L['ClearYumCache_description'] = 'The install/update may have failed due to metadata caching issues. Please clean the cache by clicking the button below and retry the install/update operation.';
+$L['An unknown installation error has occurred'] = 'An unknown installation error has occurred';

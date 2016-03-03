@@ -55,12 +55,3 @@ $L['winbind_Description'] = 'Name Service Switch';
 $L['xl2tpd_Description'] = 'Layer 2 Tunnel Protokoll';
 $L['yum-cron_Description'] = 'automatische Updates';
 
-$L['Proceed with `${0}` start?'] = '`${0}` starten?';
-$L['Proceed with `${0}` restart?'] = '`${0}` neu starten?';
-$L['Proceed with `${0}` stop?'] = '`${0}` stoppen?';
-$L['Restart service `${0}`'] = 'Dienst `${0}` neu starten';
-$L['Start service `${0}`'] = 'Dienst `${0}` starten';
-$L['Stop service `${0}`'] = 'Dienst `${0}` stoppen';
-$L['restart_label'] = 'Neu starten';
-$L['start_label'] = 'Starten';
-$L['stop_label'] = 'Stoppen';
