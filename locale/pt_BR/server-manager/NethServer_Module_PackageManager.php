@@ -1,0 +1,37 @@
+<?php 
+
+$L['Add_label'] = 'Adicionar';
+$L['PackageManager_Description'] = 'Adiciona e remove módulos de software do sistema';
+$L['PackageManager_Tags'] = 'rpm yum adicionar pacotes de componentes de módulo extra';
+$L['PackageManager_Title'] = 'Centro de software';
+$L['package_success'] = 'Operação concluída com sucesso';
+$L['rpm_name'] = 'Nome';
+$L['rpm_version'] = 'Versão';
+$L['rpm_release'] = 'Compilação';
+$L['Modules_header'] = 'Centro de software';
+$L['Available_Title'] = 'Disponível';
+$L['Installed_Title'] = 'Instalado';
+$L['No_modules_available_message'] = '...';
+$L['No_installed_modules_message'] = '...';
+$L['Update_Title'] = 'Atualizações';
+$L['Packages_label'] = 'Pacotes';
+$L['Packages_header'] = 'Pacotes instalados';
+$L['Review_header'] = 'Confirmar as alterações do sistema';
+$L['Run_label'] = 'Aplicar alterações';
+$L['Edit_label'] = 'Editar';
+$L['Remove_label'] = 'Remover';
+$L['EditModule_header'] = 'Selecionar pacote do módulo ${0} para instalar ou remover';
+$L['Install_modules_label'] = 'Módulos para adicionar:';
+$L['Remove_modules_label'] = 'Módulos praa remover:';
+$L['Install_optionals_label'] = 'Pacotes opcionais para adicionar:';
+$L['Remove_optionals_label'] = 'Pacotes opcionais para remover:';
+$L['updates_available_message'] = 'As atualizações de software estão disponíveis';
+$L['Everything_category_label'] = 'Tudo';
+$L['Everything_category_description'] = 'Mostrar grupos de qualquer categoria';
+$L['noupdates_message'] = 'O software instalado está atualizado';
+$L['DoUpdate_label'] = 'Descarregar e instalar';
+$L['update_success_message'] = 'Atualização de software concluída';
+$L['Changelog_label'] = 'Atualiza CHANGELOG';
+$L['ClearYumCache_label'] = 'Limpar cache YUM';
+$L['ClearYumCache_description'] = 'A instalação/atualização pode ter falhado devido a problemas de cache no metadados. Por favor, limpe o cache, clicando no botão abaixo e repita a operação de instalação/atualização.';
+$L['An unknown installation error has occurred'] = 'Ocorreu um erro desconhecido na instalação';

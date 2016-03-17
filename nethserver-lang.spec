@@ -162,7 +162,7 @@ Summary: Portuguese support
 BuildArch: noarch
 %files pt -f pt.lang
 %description pt
-NethServer Portuguese language support (pt)
+NethServer Portuguese (European and Brazilian) language support (pt)
 
 %package tr
 Summary: Turkish support
