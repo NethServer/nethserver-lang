@@ -1,0 +1,32 @@
+<?php
+
+$L['Profiles_Title'] = 'Perfis';
+$L['Key_label'] = 'Nome';
+$L['name_label'] = 'Nome';
+$L['Src_label'] = 'Quem';
+$L['Filter_label'] = 'O que';
+$L['Description_label'] = 'Descrição';
+$L['Users_label'] = 'Usuarios';
+$L['UserGroups_label'] = 'Grupos de usuário';
+$L['Hosts_label'] = 'Host';
+$L['HostGroups_label'] = 'Grupos de usuário';
+$L['Zones_label'] = 'Zonas';
+$L['Time_label'] = 'Quando';
+$L['always_label'] = 'Sempre';
+$L['any_label'] = 'Qualquer Host';
+$L['host_label'] = 'Host';
+$L['host-group_label'] = 'Grupo de Hosts';
+$L['user_label'] = 'Usuario';
+$L['group_label'] = 'Grupo de usuário';
+$L['filter_label'] = 'Filtro';
+$L['time_label'] = 'Tempo';
+$L['zone_label'] = 'Zona';
+$L['role_label'] = 'Zona';
+$L['key_exists_message'] = 'Um filtro, perfil ou horário com o mesmo nome extiste';
+$L['key_doesnt_exists_message'] = 'O objeto não existe';
+$L['aduser_label'] = 'Adicionar usuário';
+$L['ADUsers_label'] = 'Adicionar usuários';
+$L['cidr_label'] = 'CIDR subnet';
+$L['Cidrs_label'] = 'CIDR subnets';
+$L['iprange_label'] = 'Range de IP';
+$L['IpRanges_label'] = 'Ranges de IP';

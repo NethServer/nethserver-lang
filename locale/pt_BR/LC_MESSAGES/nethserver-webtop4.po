@@ -1,0 +1,24 @@
+# webtop
+# This file is put in the public domain.
+# 
+# Translators:
+# cristiano barros <fcristianobarros@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: nethserver\n"
+"Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
+"POT-Creation-Date: 2015-10-08 15:44+0200\n"
+"PO-Revision-Date: 2016-02-02 21:58+0000\n"
+"Last-Translator: cristiano barros <fcristianobarros@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/nethserver/nethserver/language/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: root/etc/nethserver/todos.d/70webtop:21
+msgid ""
+"Please access WebTop to change password for the admin user. Default password"
+" is: \"admin\""
+msgstr "Acessar o topo da Web para alterar a senha para o usuário admin. Senha padrão é: \"admin\""
