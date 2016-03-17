@@ -1,7 +1,7 @@
 <?php
 
-$L['Community_label'] = 'Gemeinschaft';
-$L['SysContact_label'] = 'System Kontakt';
+$L['Community_label'] = 'Community';
+$L['SysContact_label'] = 'Systemkontakt';
 $L['SysLocation_label'] = 'System Ort';
 $L['Snmp_header'] = 'SNMP einrichten';
 $L['Snmp_Title'] = 'SNMP';
