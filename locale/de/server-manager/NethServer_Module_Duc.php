@@ -1,6 +1,6 @@
 <?php
 
-$L['Duc_Description'] = 'Verwende einen Speicher Auswertungsprogramm';
+$L['Duc_Description'] = 'Nutzungs- und Speicherplatzauswertung';
 $L['Duc_Tags'] = 'Festplattenanlyse, Festplattennutzung, Belegng';
 
 $L['Duc_label'] = 'Aktiviere Speicher Auswertungsprogramm';

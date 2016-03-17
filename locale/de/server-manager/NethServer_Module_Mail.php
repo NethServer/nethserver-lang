@@ -1,6 +1,6 @@
 <?php 
 
-$L['${0} day'] = '${0} tag'; 
+$L['${0} day'] = '${0} Tag'; 
 $L['${0} days'] = '${0} tage';
 $L['AlwaysBccStatus_label'] = 'Immer eine Kopie senden (Bcc)';
 $L['AlwaysBccAddress_label'] = 'Immer eine Kopie senden (Bcc)';

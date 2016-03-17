@@ -86,14 +86,14 @@ $L['FirewallObject_iprange_Title'] = 'Plage IP ${key}';
 $L['FirewallObject_cidr_Title'] = 'Réseau CIDR ${key}';
 
 $L['Show_x_outof_y_label'] = 'Présentation de ${partial} resultats en dehors de ${total}';
-$L['ActionRoute_label'] = 'Route to ${0}';
+$L['ActionRoute_label'] = 'Route vers ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Log';
 
-$L['ShowAction_label'] = 'Show';
-$L['ShowAll_label'] = 'All';
-$L['ShowRules_label'] = 'Firewall';
-$L['ShowRoutes_label'] = 'Policy routing';
+$L['ShowAction_label'] = 'Voir';
+$L['ShowAll_label'] = 'Tous';
+$L['ShowRules_label'] = 'Pare-feu';
+$L['ShowRoutes_label'] = 'Règle de routage';
 
-$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Route rules do not allow the red zone to be set as Source.';
-$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Route rules allow only the following Destination types: zone, host, ip range, cidr, red.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Les règles de routages ne permettent pas la zone rouge d\'être mis en temps que Source.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Les règles de routages permettes seulement le type de Destinations suivante : zone, hôte, ip, range, cidr, rouge.';
