@@ -1,0 +1,54 @@
+<?php 
+
+/* FaxServer translation, language: en */
+
+$L['AreaCode_label'] = 'Area code';
+$L['ClientShowReceived_label'] = 'Zobrazit nedávné faxy od klientů';
+$L['CountryCode_label'] = 'Country code';
+$L['DispatchFileTypeList_label'] = 'Formát příchozího faxu';
+$L['FaxDevice_label'] = 'Port modemu';
+$L['FaxDeviceType_known_label'] = 'Standard device';
+$L['FaxDeviceType_custom_label'] = 'Vlastní zařízení';
+$L['FaxDeviceCustom_label'] = '';
+$L['FaxDeviceKnown_label'] = '';
+$L['FaxName_label'] = 'Fax sender (TSI)';
+$L['FaxNumber_label'] = 'Faxové číslo';
+$L['FaxServer_Description'] = 'Configure modem and fax server (Hylafax)';
+$L['FaxServer_Extras_Title'] = 'Další funkce';
+$L['FaxServer_General_Title'] = 'Obecné';
+$L['FaxServer_Modem_Title'] = 'Modem';
+$L['FaxServer_Notification_Title'] = 'Mail notification';
+$L['FaxServer_Tags'] = 'fax faxserver hylafax modem print number sambafax';
+$L['FaxServer_Title'] = 'Fax Server';
+$L['Mode_label'] = 'Režim';
+$L['NotifyFileTypeList_label'] = 'Formát odchozího faxu';
+$L['NotifyMaster_label'] = 'Upozornit správce na odchozí a příchozí faxy';
+$L['PBXPrefix_label'] = 'Předvolba ústředny';
+$L['PrinterName_label'] = 'Název tiskárny';
+$L['PrintReceived_label'] = 'Přijaté faxy automaticky tisknout';
+$L['SambaFax_label'] = 'SambaFax';
+$L['SendReport_label'] = 'Send daily report';
+$L['SendTo_label'] = 'Přesměrovat příchozí faxy na';
+$L['SendToType_faxmaster_label'] = 'Místní skupina faxmaster';
+$L['SendToType_custom_label'] = 'External mail address';
+$L['SendToCustom_label'] = 'E-mail';
+$L['SummaryReport_label'] = 'Add summary report to outgoing fax notificaton';
+$L['WaitDialTone_label'] = 'Čekat na oznamovací tón';
+$L['always_label'] = 'Vždy';
+$L['both_label'] = 'Odeslat a přijmout';
+$L['errors_label'] = 'V případě chyb';
+$L['iax_label'] = 'Virtual (IAX)';
+$L['never_label'] = 'Nikdy';
+$L['no_printer_label'] = 'Není nastavena žádná tiskárna';
+$L['pdf_label'] = 'PDF (Portable Data Format)';
+$L['ps_label'] = 'PS (PostScript)';
+$L['receive_label'] = 'Receive only';
+$L['send_label'] = 'Send only';
+$L['tif_label'] = 'TIFF (Tagget Image File Format)';
+$L['ttyACM0_label'] = 'USB (ttyACM0)';
+$L['ttyS0_label'] = 'COM1 (ttyS0)';
+$L['ttyS1_label'] = 'COM2 (ttyS1)';
+$L['ttyS2_label'] = 'COM3 (ttyS2)';
+$L['ttyUSB0_label'] = 'USB to serial (ttyUSB0)';
+$L['ttyIAX_label'] = 'IAX modemy';
+$L['Mail2Fax_label'] = 'Brána převodu z e-mailu na fax';
