@@ -171,7 +171,6 @@ BuildArch: noarch
 %description tr
 NethServer Turkish language support (tr)
 
-
 %package sv
 Summary: Swedish support
 BuildArch: noarch
@@ -179,6 +178,12 @@ BuildArch: noarch
 %description sv
 NethServer Swedish language support (sv)
 
+%package cs
+Summary: Czech support
+BuildArch: noarch
+%files cs -f cs.lang
+%description cs
+NethServer Czech language support (cs)
 
 %changelog
 * Thu Mar 03 2016 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.19-1
