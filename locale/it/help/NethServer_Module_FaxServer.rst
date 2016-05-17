@@ -61,14 +61,9 @@ Formato fax ricevuti
     notifica di ricezione, deselezionare tutti i formati.
 
 Inoltra fax ricevuti a
-
-    * Gruppo "faxmaster"
-        Di default i fax ricevuti vengono inviati al *faxmaster*: se
-        un utente deve ricevere i fax in arrivo deve essere aggiunto a tale
-        gruppo.
-    * Indirizzo mail esterno
-        E' possibile indicare un indirizzo mail esterno nel caso si
-        vogliano inviare i fax ricevuti ad indirizzi email esterni.
+    Come operazione predefinta, i fax ricevuti vengono inviati all'utente *root*.
+    Si consiglia di creare una cartella IMAP condivisa per inoltrare i fax
+    ad un gruppo di utenti.
 
 Formato fax inviati
     Se richiesto dal client, il server inoltra una notifica d'invio sotto forma di e-mail con
