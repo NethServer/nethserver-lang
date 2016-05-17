@@ -2,11 +2,8 @@
 Profilo utente
 ==============
 
-Nome
-    È il nome dell'utente, per esempio "Mario".
-
-Cognome
-    Il cognome dell'utente, per esempio "Rossi".
+Nome completo
+    È il nome completo dell'utente, per esempio "Mario Rossi".
 
 Indirizzo email esterno
     Indirizzo email dell'utente, presso un provider di posta
@@ -14,21 +11,13 @@ Indirizzo email esterno
     utilizzato dal sistema nelle procedure di recupero e di rinnovo
     della password.
 
-Per i seguenti campi è possibile specificare un valore personalizzato,
-altrimenti vale l'impostazione effettuata dal modulo "Dati
-organizzazione", disponibile solo per l'amministratore del sistema.
-
-* Società
-* Ufficio
-* Indirizzo
-* Città
-* Telefono
-
+    Questa opzione è disponibile solo per l'utente *root*.
 
 Cambia Password
 ===============
 
 Cambia la password attuale con una nuova password.
+Questo pulsante è presente solo l'utente collegato è locale.
 
 Password attuale
     Inserire la password attuale.
