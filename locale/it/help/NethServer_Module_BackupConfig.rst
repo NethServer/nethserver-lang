@@ -13,8 +13,8 @@ Questo tipo di backup viene eseguito solo se i file sono stati modificati nelle 
 E' possibile forzare il backup a usando il pulsante *Esegui ora*.
 Il backup verrò sovrascritto solo se necessario.
 
-Ripsitino
-=========
+Ripristino
+==========
 
 Ripristina l'ultimo backup della configurazione.
 
