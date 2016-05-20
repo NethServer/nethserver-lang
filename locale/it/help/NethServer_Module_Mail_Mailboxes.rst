@@ -18,16 +18,17 @@ Consenti connessioni non cifrate
 
 Spazio disco
     Permette di limitare l'occupazione del disco da parte delle email.
+
     * Illimitato: selezionare per non imporre limiti
     * Applica quota: limita la massima occupazione di posta per ogni
       utente al valore indicato (quota email).
 
-Sposta nella cartella *junkmail*
+Sposta nella cartella *Junk*
     I messaggi email riconosciuti come spam verranno spostati nella
-    cartella *junkmail* dell'utente invece che essere consegnati nella
+    cartella *Junk* dell'utente invece che essere consegnati nella
     Posta in arrivo.
 
-Admin può accedere impersonando un altro utente
-    Quando è abilitata *admin* può impersonare *john* fornendo come
-    credenziali di accesso IMAP ``john*admin`` come nome utente e la
-    password di admin.
+Root può accedere impersonando un altro utente
+    Quando è abilitata, *root* può impersonare *john* fornendo come
+    credenziali di accesso IMAP il nome utente ``john*root`` e la
+    password di root.
