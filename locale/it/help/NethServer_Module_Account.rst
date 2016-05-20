@@ -1,18 +1,18 @@
-===========================
+==============
 Autenticazione
-===========================
+==============
 
 È possibile connettere questo sistema ad un server di autenticazione esterno LDAP o Active Directory. NON sarà possibile modificare questa impostazione una dopo aver salvato i cambiamenti. 
 È possibile anche installare un sistema di autenticazione su questo sistema, installando il pacchetto nethserver-directory (LDAP) o nethserver-dc (Active Directory)
 
 LDAP
-----
+====
 
 Server URI
     per configurare un server LDAP esterno. inserire l'URI del server, per esempio ldap://192.168.1.10:389
 
 Active Directory
------------------
+=================
 
 DNS server IP address
     idirizzo IP del DNS del domain controller (solitamente il domain controller stesso)
@@ -40,7 +40,6 @@ Ogni utente è caratterizzato da una coppia di credenziali (utente e password). 
 
 La creazione e la modifica degli utenti è disponibile solo se si installa un backend di autenticazione. Se gli utenti provengono da un sistema remoto, questa lista è in sola lettura
 
-===============
 Crea / Modifica
 ===============
 
