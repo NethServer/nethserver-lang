@@ -19,3 +19,13 @@ $L['SubjectAltName_label'] = 'Nomi alternativi';
 $L['CertificateDuration_label'] = 'Validità del certificato (giorni)';
 $L['valid_hostname_instance'] = '"${0}" è un nome di host non valido';
 $L['valid_x509_field'] = 'Non deve contenere "," e "/"';
+
++$L['Default_label'] = 'Predefinito';
++$L['Confirm_label'] = 'Conferma';
++$L['default_cert_label'] = 'Impostare il certificato selezionato come predefinito?';
++$L['certificate_label'] = 'Certificato';
++
++$L['LetsEncrypt_label'] = 'Abilita Let\'s Encrypt';
++$L['LetsEncryptMail_label'] = 'Email notifiche';
++$L['LetsEncryptDomains_label'] = 'Domini';
+
