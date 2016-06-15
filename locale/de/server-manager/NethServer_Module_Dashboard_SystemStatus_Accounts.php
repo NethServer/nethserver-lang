@@ -5,6 +5,6 @@ $L['group_label'] = 'Benutzergruppen';
 $L['user_label'] = 'Benutzer';
 $L['pseudonym_label'] = 'eMail Adressen';
 $L['ibay_label'] = 'Freigaben';
-$L['machine_label'] = 'Maschinenkonto';
+$L['machine_label'] = 'Maschinenkonten';
 $L['ftp_label'] = 'FTP-Konten';
 $L['vpn_label'] = 'VPN-Konten';

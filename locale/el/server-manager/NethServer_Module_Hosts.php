@@ -30,3 +30,4 @@ $L['Update_Alias_Header'] = 'Ενημερώθηκε ψευδώνυμου "${0}"'
 $L['Create_Dns_Header'] = 'Δημιουργία νέου όνομα φορέα';
 $L['Update_Dns_Header'] = 'Επεξεργασία ονόματος φορέα "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Δεν ήταν δυνατή η διαγραφή του ${2}. Ο φορέας χρησιμοποιείται σε κανόνες του τοίχους προστασίας';
+$L['Service_key_exists_message'] = 'This hostname is already used';

@@ -30,3 +30,4 @@ $L['Update_Alias_Header'] = 'Werk alias "${0}" bij';
 $L['Create_Dns_Header'] = 'Creëer een nieuwe hostnaam';
 $L['Update_Dns_Header'] = 'Werk de hostnaam "${0}" bij';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The host is used by firewall rules.';
+$L['Service_key_exists_message'] = 'This hostname is already used';

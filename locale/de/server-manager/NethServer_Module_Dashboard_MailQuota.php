@@ -1,6 +1,6 @@
 <?php
 
-$L['MailQuota_Title'] = 'Emailspeicher';
+$L['MailQuota_Title'] = 'Mail-Kontingent';
 $L['Key_label'] = 'Benutzer';
 $L['size_label'] = 'Größe';
 $L['max_size_label'] = 'Maximale Größe';

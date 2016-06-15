@@ -30,3 +30,4 @@ $L['Update_Alias_Header'] = 'Mettre à jour l\'alias "${0}"';
 $L['Create_Dns_Header'] = 'Créer un nouveau nom d\'hôte';
 $L['Update_Dns_Header'] = 'Mettre à jour le nom d\'hôte "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Ne peut supprimer ${2}. L\'hôte est utilisé par une règle du pare-feu.';
+$L['Service_key_exists_message'] = 'This hostname is already used';

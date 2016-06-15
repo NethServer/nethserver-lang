@@ -30,3 +30,4 @@ $L['Update_Alias_Header'] = 'Actualizar nome "${0}"';
 $L['Create_Dns_Header'] = 'Criar um nome de máquina novo';
 $L['Update_Dns_Header'] = 'Actualizar o nome de máquina "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The host is used by firewall rules.';
+$L['Service_key_exists_message'] = 'This hostname is already used';

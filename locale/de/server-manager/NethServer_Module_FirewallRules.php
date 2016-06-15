@@ -10,13 +10,13 @@ $L['general_header'] = 'Allgemein';
 $L['General_Title'] = 'Allgemeine Optionen';
 $L['ExternalPing_label'] = 'Ping vom Internet';
 $L['permissive_label'] = 'Erlaubt';
-$L['Policy_label'] = 'Traffic ins Internet (red interface)';
+$L['Policy_label'] = 'Traffic ins Internet (Schnittstelle rot)';
 $L['strict_label'] = 'Gesperrt';
 $L['enabled_label'] = 'Aktiviert';
 $L['disabled_label'] = 'Deaktiviert';
 $L['MACValidation_label'] = 'MAC Adressen Überprüfung (IP/MAC Bindung)';
-$L['MACValidationPolicy_label'] = 'Rechte für hosts ohne IP/MAC Bindung (DHCP Reservierung)';
-$L['drop_label'] = 'Gesperrter Verkehr';
+$L['MACValidationPolicy_label'] = 'Rechte für Hosts ohne IP/MAC Bindung (DHCP Reservierung)';
+$L['drop_label'] = 'Sperre Verkehr';
 $L['accept_label'] = 'Erlaube Verkehr';
 
 $L['Edit_header'] = 'Bearbeite Regel #${0}';
@@ -28,10 +28,10 @@ $L['ActionDrop_label'] = 'Verwerfen';
 $L['Source_label'] = 'Quelle';
 $L['Destination_label'] = 'Ziel';
 $L['Service_label'] = 'Dienst';
-$L['PickSource_label'] = 'Wähle eins ...';
-$L['PickDestination_label'] = 'Wähle eins ...';
-$L['PickService_label'] = 'Wähle eins ...';
-$L['LogType_label'] = 'Schreibe ins Log wen die Regel zutrifft';
+$L['PickSource_label'] = 'Wähle aus ...';
+$L['PickDestination_label'] = 'Wähle aus ...';
+$L['PickService_label'] = 'Wähle aus ...';
+$L['LogType_label'] = 'Schreibe ins Log, wenn diese Regel zutrifft';
 
 $L['PickObject_SrcRaw_header'] = 'Wähle die Paketquelle für die Regel "${RuleId}"';
 $L['PickObject_DstRaw_header'] = 'Wähle das Paketziel für die Regel "${RuleId}"';
@@ -39,19 +39,19 @@ $L['PickObject_ServiceRaw_header'] = 'Wähle das Diensteprotokoll für die Regel
 
 $L['Create_last_label'] = 'Erstelle Regel am Ende';
 $L['Create_first_label'] = 'Erstelle Regel am Anfang';
-$L['Create_header'] = 'Erstelle Firewall Regel';
+$L['Create_header'] = 'Erstelle Firewallregel';
 $L['Copy_header'] = 'Erstelle eine Kopie von #${0}';
 $L['Commit_label'] = 'Änderungen speichern';
 $L['Edit_label'] = 'Ändern';
 $L['Copy_label'] = 'Kopieren';
 $L['Delete_label'] = 'Löschen';
 $L['Index_header'] = 'Firewallregeln';
-$L['RuleText_label'] = 'Von ${Src} nach ${Dst}, service ${Service}';
+$L['RuleText_label'] = 'Von ${Src} nach ${Dst}, Dienst ${Service}';
 $L['RuleId_label'] = '#${0}';
 $L['SearchPlaceholder_label'] = 'Suchen...';
 
 $L['Delete_header'] = 'Lösche Regel #${0}';
-$L['Delete_message'] = 'Bestätige das Löschen der Firewall Regel #${id}';
+$L['Delete_message'] = 'Bestätige das Löschen der Firewallregel #${id}';
 $L['HostGroups_create'] = 'Erstelle Hostgruppe "${0}"';
 $L['Hosts_create'] = 'Erstelle Host "${0}"';
 $L['Zones_create'] = 'Erstelle Zone "${0}"';
@@ -61,7 +61,7 @@ $L['Cidr_create'] = 'Erstelle CIDR Netzwerk "${0}"';
 
 $L['A_new_rule_label'] = "Neue Regel";
 $L['Any_label'] = 'Alle';
-$L['NoRulesDefined_label'] = 'Keine Regeln definiert. Erstellen Sie jetzt die Erste!';
+$L['NoRulesDefined_label'] = 'Keine Regeln definiert. Erstellen Sie jetzt die Erste !';
 
 $L['any_service_label'] = 'Jeder Dienst';
 $L['any_src_dst_label'] = 'Jeder Host';
@@ -76,7 +76,7 @@ $L['confirm_reload_label'] = 'Es wurden keine Änderungen gespeichert.';
 
 $L['FirewallObject_any_Title'] = 'Alle';
 $L['FirewallObject_host_Title'] = 'Host ${key}';
-$L['FirewallObject_local_Title'] = 'LAN host ${key}';
+$L['FirewallObject_local_Title'] = 'LAN Host ${key}';
 $L['FirewallObject_remote_Title'] = 'Host ${key}';
 $L['FirewallObject_role_Title'] = 'Rolle ${key}';
 $L['FirewallObject_zone_Title'] = 'Zone ${key}';
@@ -96,4 +96,4 @@ $L['ShowRules_label'] = 'Firewall';
 $L['ShowRoutes_label'] = 'Leitungsregeln';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Leitungsregeln verbieten das Einstellen der roten Zone als Quelle.';
-$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Routen erlauben nur ein Ziel der folgenden Typen: Zone, Host, IP-Bereich, CIDR, rot.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Leitungsregeln erlauben nur ein Ziel der folgenden Typen: Zone, Host, IP-Bereich, CIDR, rot.';

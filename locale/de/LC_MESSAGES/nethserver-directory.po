@@ -4,14 +4,16 @@
 # Translators:
 # Andreas <master001@live.de>, 2015
 # Bernhard Weber <bernhard.weber@datenheld.at>, 2015
+# Kri Reu <kreukauff@gmx.de>, 2016
 # Mika Beckerich <beckerichmika@gmail.com>, 2016
+# Rolf Heinze <rowihei@web.de>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
 "POT-Creation-Date: 2015-05-19 16:55+0200\n"
-"PO-Revision-Date: 2016-01-25 18:17+0000\n"
-"Last-Translator: Mika Beckerich <beckerichmika@gmail.com>\n"
+"PO-Revision-Date: 2016-04-29 15:55+0000\n"
+"Last-Translator: Rolf Heinze <rowihei@web.de>\n"
 "Language-Team: German (http://www.transifex.com/nethserver/nethserver/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +24,7 @@ msgstr ""
 #: root/etc/e-smith/templates/password-expired/en/10mail_headers:3
 #, perl-format
 msgid "%s, your password is about to expire"
-msgstr "%s, ihr Kennwort wird in kürze ablaufen"
+msgstr "%s, ihr Kennwort wird in Kürze ablaufen"
 
 #: root/etc/e-smith/templates/password-expired/en/20body:1
 #, perl-format
@@ -45,4 +47,4 @@ msgstr "Web-Interface öffnen"
 
 #: root/etc/e-smith/templates/password-expired/en/template-end:3
 msgid "This message has been generated automatically, do not respond to it."
-msgstr "Diese Nachricht wurde Automatisch erstellt. Bitte Antworten Sie nicht auf die Nachricht."
+msgstr "Diese Nachricht wurde automatisch erstellt. Bitte nicht antworten."
