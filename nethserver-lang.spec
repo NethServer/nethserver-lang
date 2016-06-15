@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.0.20
+Version: 1.0.21
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -186,6 +186,10 @@ BuildArch: noarch
 NethServer Czech language support (cs)
 
 %changelog
+* Wed Jun 15 2016 Davide Principi <davide.principi@nethesis.it> - 1.0.21-1
+- Complete German translation (de)
+- Updated strings from Transifex
+
 * Fri Apr 01 2016 Davide Principi <davide.principi@nethesis.it> - 1.0.20-1
 - Updated strings
 - Portuguese Brazil pt-BR support
