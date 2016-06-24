@@ -185,6 +185,13 @@ BuildArch: noarch
 %description cs
 NethServer Czech language support (cs)
 
+%package sr
+Summary: Serbian support
+BuildArch: noarch
+%files sr -f sr.lang
+%description sr
+NethServer Serbian language support (sr)
+
 %changelog
 * Wed Jun 15 2016 Davide Principi <davide.principi@nethesis.it> - 1.0.21-1
 - Complete German translation (de)
