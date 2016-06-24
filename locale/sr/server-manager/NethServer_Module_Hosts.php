@@ -1,0 +1,33 @@
+<?php 
+
+$L['0_label'] = 'ИП адреса'; 
+$L['1_label'] = 'МАЦ адреса'; 
+$L['ServerAlias_Title'] = 'Псеудоним сервера'; 
+$L['Comment_label'] = 'Коментар'; 
+$L['Description_label'] = 'Опис'; 
+$L['Dns_Configure_header'] = 'Подеси ДНС сервере'; 
+$L['Dns_Title'] = 'Домаћини'; 
+$L['Configure_Title'] = 'ДНС сервера'; 
+$L['Empty table'] = 'Нема још увек ДНС записа'; 
+$L['Host entry'] = 'Додај домаћина';
+$L['Hosts_Description'] = 'Управљај именима домаћина';
+$L['Hosts_Tags'] = 'домаћин имедомаћина адресе псеудоним домен име домаћина'; 
+$L['Hosts_Title'] = 'ДНС'; 
+$L['IPAddress_label'] = 'ИП адреса'; 
+$L['IpAddress_label'] = 'ИП адресе'; 
+$L['Key_label'] = 'Име домаћина'; 
+$L['dns1_label'] = 'Примарни ДНС'; 
+$L['dns2_label'] = 'Секундарни ДНС'; 
+$L['host-create_failure'] = 'Креирање домаћина је неуспешно'; 
+$L['host-create_success'] = 'Домаћин је успешно креиран'; 
+$L['host-delete_failure'] = 'Брисање домаћина је неуспешно'; 
+$L['host-delete_success'] = 'Домаћин је успешно обрисан'; 
+$L['host-modify_failure'] = 'Измена домаћина је неуспешна'; 
+$L['host-modify_success'] = 'Домаћин је успешно измењен'; 
+$L['hostname_label'] = 'Име домаћина'; 
+$L['Create_Alias_Header'] = 'Креирајте нови псеудоним сервера';
+$L['Update_Alias_Header'] = 'Ажурирајте псеудоним "${0}"';
+$L['Create_Dns_Header'] = 'Креирајте ново име домаћина';
+$L['Update_Dns_Header'] = 'Ажурирај име домаћина "${0}"';
+$L['valid_platform,host-delete,fwobject-referenced,3'] = 'Не могу обрисати ${2}. Домаћин се користи у правилима заштитног зида.';
+$L['Service_key_exists_message'] = 'Име домаћина се већ користи';

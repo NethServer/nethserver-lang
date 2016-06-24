@@ -1,0 +1,32 @@
+<?php
+
+$L['Profiles_Title'] = 'Профили';
+$L['Key_label'] = 'Име';
+$L['name_label'] = 'Име';
+$L['Src_label'] = 'Ко';
+$L['Filter_label'] = 'Шта';
+$L['Description_label'] = 'Опис';
+$L['Users_label'] = 'Корисници';
+$L['UserGroups_label'] = 'Корисничке групе';
+$L['Hosts_label'] = 'Домаћини';
+$L['HostGroups_label'] = 'Групе домаћина';
+$L['Zones_label'] = 'Зоне';
+$L['Time_label'] = 'Када';
+$L['always_label'] = 'Увек';
+$L['any_label'] = 'Било који домаћин';
+$L['host_label'] = 'Домаћин';
+$L['host-group_label'] = 'Група домаћина';
+$L['user_label'] = 'Корисник';
+$L['group_label'] = 'Корисничка група';
+$L['filter_label'] = 'Филтер';
+$L['time_label'] = 'Време';
+$L['zone_label'] = 'Зона';
+$L['role_label'] = 'Зона';
+$L['key_exists_message'] = 'Филтер, профил или време са истим именом већ постоји';
+$L['key_doesnt_exists_message'] = 'Овај објекат не постоји';
+$L['aduser_label'] = 'АД корисник';
+$L['ADUsers_label'] = 'АД корисници';
+$L['cidr_label'] = 'CIDR подмрежа';
+$L['Cidrs_label'] = 'CIDR подмреже';
+$L['iprange_label'] = 'ИП опсег';
+$L['IpRanges_label'] = 'ИП опсези';

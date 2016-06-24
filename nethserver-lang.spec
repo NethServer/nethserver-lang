@@ -185,6 +185,13 @@ BuildArch: noarch
 %description cs
 NethServer Czech language support (cs)
 
+%package sr
+Summary: Serbian support
+BuildArch: noarch
+%files sr -f sr.lang
+%description sr
+NethServer Serbian language support (sr)
+
 %changelog
 * Thu Jul 07 2016 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.1.0-1
 - First NS7 release
