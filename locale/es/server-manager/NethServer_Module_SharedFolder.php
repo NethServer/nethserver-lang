@@ -2,7 +2,7 @@
 
 $L['AclRead_label'] = 'Leer'; 
 $L['AclWrite_label'] = 'Escribir'; 
-$L['Acl_Title'] = 'ACL'; 
+$L['Acl_Title'] = 'Lista de Control de Acceso'; 
 $L['locals_group_label'] = 'Usuarios locales'; 
 $L['BaseInfo_Title'] = 'General'; 
 $L['Create_Header'] = 'Crear una nueva carpeta compartida'; 

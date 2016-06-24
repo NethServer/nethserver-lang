@@ -1,10 +1,10 @@
 <?php
 
-$L['Pki_Title'] = 'Server Zertifikate';
+$L['Pki_Title'] = 'Server-Zertifikat';
 $L['Pki_Description'] = 'Verwalte SSL Server Zertifikate';
 $L['Pki_Tags'] = 'SSL Zertifikat PKI TLS X509';
-$L['Pki_Show_header'] = 'Server Zertifikate';
-$L['Pki_Generate_header'] = 'neues Zertifikat erstellen';
+$L['Pki_Show_header'] = 'Server-Zertifikate';
+$L['Pki_Generate_header'] = 'Neues Zertifikat erstellen';
 $L['GenerateLink_label'] = 'neues Zertifikat';
 $L['Generate_label'] = 'Zertifikat generieren';
 

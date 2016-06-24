@@ -8,5 +8,5 @@ $L['Restore_Title'] = 'Wiederherstellen';
 $L['RLC_header'] = 'Konfiguration wiederherstellen';
 $L['SameHardware_0_label'] = 'Unterschiedliche Hardware (Netzwerk muss neu konfiguriert werden)';
 $L['SameHardware_1_label'] = 'Gleiche Hardware (Netzwerkkonfiguration wird auch wiederhergestellt)';
-$L['SameHardware_label'] = 'Wiederherstellen an:';
+$L['SameHardware_label'] = 'Wiederherstellen auf:';
 $L['size_label'] = 'Größe';

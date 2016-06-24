@@ -7,6 +7,6 @@ $L['Ssh_Action'] = 'Listen for SSH connections on port: ${port}';
 $L['port_label'] = 'TCP port';
 $L['passwordAuth_label'] = 'Umožnit ověřování heslem';
 $L['rootLogin_label'] = 'Umožnit přihlášení správce systému (root)';
-$L['SSH_WizDescription'] = "The SSH service by default uses port 22. Using this value does not make your system insecure, however, changing the default SSH port will stop many automated attacks.";
+$L['SSH_WizDescription'] = "Služba SSH ve výchozím nastavení používá port 22. Ponechání této hodnoty neznamená nezabezpečený systém, nicméně změna na jinou zastaví mnohé automatizované útoky.";
 $L['SSH_WizWarning'] = "It's strongly advised to change the default port, e.g. 2222.";
 

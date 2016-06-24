@@ -2,7 +2,7 @@
 
 $L['0_label'] = 'IP adresa'; 
 $L['1_label'] = 'MAC adresa'; 
-$L['ServerAlias_Title'] = 'Server alias'; 
+$L['ServerAlias_Title'] = 'Alternativní název serveru'; 
 $L['Comment_label'] = 'Komentář'; 
 $L['Description_label'] = 'Popis'; 
 $L['Dns_Configure_header'] = 'Nastavit DNS servery'; 
@@ -30,4 +30,4 @@ $L['Update_Alias_Header'] = 'Update alias "${0}"';
 $L['Create_Dns_Header'] = 'Create a new host name';
 $L['Update_Dns_Header'] = 'Update host name "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The host is used by firewall rules.';
-$L['Service_key_exists_message'] = 'This hostname is already used';
+$L['Service_key_exists_message'] = 'Tento název je už používán jiným strojem na stejné síti';

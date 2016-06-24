@@ -3,7 +3,7 @@
 $L['Actions_label'] = 'Aktionen'; 
 $L['Add'] = 'hinzufügen'; 
 $L['All changes have been saved'] = 'Alle Änderungen wurden gespeichert'; 
-$L['An object with the same key already exists'] = 'Ein Objekt mit dem selben Schlüssel ist bereits vorhanden'; 
+$L['An object with the same key already exists'] = 'Ein Objekt mit diesem Schlüssel ist bereits vorhanden'; 
 $L['Apply_label'] = 'Bestätigen'; 
 $L['Cancel_label'] = 'Zurück';
 $L['Configure_label'] = 'Konfiguriere'; 

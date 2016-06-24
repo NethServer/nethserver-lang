@@ -3,7 +3,7 @@
 /* NethServer_Module_FirewallRules translation, language: en */
 
 $L['FirewallRules_Description'] = 'Spravovat pravidla brány firewall';
-$L['FirewallRules_Tags'] = 'firewall rule policy';
+$L['FirewallRules_Tags'] = 'zásada pravidla brány firewall';
 $L['FirewallRules_Title'] = 'Pravidla brány firewall';
 
 $L['general_header'] = 'Obecné';
@@ -16,7 +16,7 @@ $L['enabled_label'] = 'Zapnuto';
 $L['disabled_label'] = 'Vypnuto';
 $L['MACValidation_label'] = 'MAC validation (IP/MAC binding)';
 $L['MACValidationPolicy_label'] = 'Policy for hosts without IP/MAC binding (DHCP reservation)';
-$L['drop_label'] = 'Block traffic';
+$L['drop_label'] = 'Blokovat provoz';
 $L['accept_label'] = 'Allow trafic';
 
 $L['Edit_header'] = 'Upravit pravidlo #${0}';
@@ -40,7 +40,7 @@ $L['PickObject_ServiceRaw_header'] = 'Choose the service protocol for rule "${Ru
 $L['Create_last_label'] = 'Create rule at bottom';
 $L['Create_first_label'] = 'Create rule at top';
 $L['Create_header'] = 'Vytvořit pravidlo brány firewall';
-$L['Copy_header'] = 'Create a copy of #${0}';
+$L['Copy_header'] = 'Vytvořit kopii z #${0}';
 $L['Commit_label'] = 'Uplatnit změny';
 $L['Edit_label'] = 'Upravit';
 $L['Copy_label'] = 'Kopírovat';
@@ -50,7 +50,7 @@ $L['RuleText_label'] = 'From ${Src} to ${Dst}, service ${Service}';
 $L['RuleId_label'] = '#${0}';
 $L['SearchPlaceholder_label'] = 'Hledat…';
 
-$L['Delete_header'] = 'Delete rule #${0}';
+$L['Delete_header'] = 'Smazat pravidlo #${0}';
 $L['Delete_message'] = 'Confirm deletion of firewall rule #${id}';
 $L['HostGroups_create'] = 'Create host group "${0}"';
 $L['Hosts_create'] = 'Create host "${0}"';
@@ -61,10 +61,10 @@ $L['Cidr_create'] = 'Create CIDR network "${0}"';
 
 $L['A_new_rule_label'] = "Nové pravidlo";
 $L['Any_label'] = 'Any';
-$L['NoRulesDefined_label'] = 'No rules are defined. Create the first one now!';
+$L['NoRulesDefined_label'] = 'Nejsou určená žádná pravidla. Nejprve nějaké vytvořte!';
 
-$L['any_service_label'] = 'any service';
-$L['any_src_dst_label'] = 'any host';
+$L['any_service_label'] = 'libovolná služba';
+$L['any_src_dst_label'] = 'libovolný stroj';
 $L['all_label'] = 'any';
 $L['host_label'] = 'stroj';
 $L['zone_label'] = 'zóna';
@@ -75,14 +75,14 @@ $L['role_label'] = 'rozhraní';
 $L['confirm_reload_label'] = 'No change has been applied.';
 
 $L['FirewallObject_any_Title'] = 'Any';
-$L['FirewallObject_host_Title'] = 'Host ${key}';
+$L['FirewallObject_host_Title'] = 'Stroj ${key}';
 $L['FirewallObject_local_Title'] = 'LAN host ${key}';
-$L['FirewallObject_remote_Title'] = 'Host ${key}';
+$L['FirewallObject_remote_Title'] = 'Stroj ${key}';
 $L['FirewallObject_role_Title'] = 'Role ${key}';
 $L['FirewallObject_zone_Title'] = 'Zone ${key}';
 $L['FirewallObject_host-group_Title'] = 'Host group ${key}';
-$L['FirewallObject_fwservice_Title'] = 'Service ${key}';
-$L['FirewallObject_iprange_Title'] = 'IP range ${key}';
+$L['FirewallObject_fwservice_Title'] = 'Služba ${key}';
+$L['FirewallObject_iprange_Title'] = 'Rozsah IP adres ${key}';
 $L['FirewallObject_cidr_Title'] = 'CIDR network ${key}';
 
 $L['Show_x_outof_y_label'] = 'Showing ${partial} results out of ${total}';

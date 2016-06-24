@@ -15,4 +15,4 @@ $L['access_none_label'] = 'Access only from localhost';
 $L['DenyHosts_label'] = 'Deny hosts';
 $L['AllowHosts_label'] = 'Allow hosts';
 $L['AllowHosts_validator'] = 'Comma separated list of IP addresses, or empty';
-$L['DenyHosts_validator'] = 'Comma separated list of IP addresses, or empty';
+$L['DenyHosts_validator'] = 'Čárkou oddělený seznam IP adres, nebo nevyplněno';

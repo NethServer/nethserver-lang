@@ -1,7 +1,7 @@
 <?php
 
 $L['ovpn_server'] = "OpenVPN server";
-$L['ovpn_disabled'] = 'OpenVPN server disabled';
+$L['ovpn_disabled'] = 'OpenVPN server je vypnutý';
 $L['enabled'] = 'Zapnuto';
 $L['disabled'] = 'Vypnuto';
 $L['routed'] = 'Směrováno';

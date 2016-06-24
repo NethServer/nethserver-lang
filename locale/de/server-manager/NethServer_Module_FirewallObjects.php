@@ -1,13 +1,13 @@
 <?php 
 
-$L['FirewallObjects_Description'] = 'Verwalte Firewall Objekte';
+$L['FirewallObjects_Description'] = 'Verwalte Firewallobjekte';
 $L['FirewallObjects_Tags'] = 'Firewall Zone Host Dienst Gruppe Objekte';
 $L['FirewallObjects_Title'] = 'Firewallobjekte';
 
 $L['esp_label'] = 'ESP';
 $L['gre_label'] = 'GRE';
 $L['HostGroupsKey_label'] = 'Gruppe';
-$L['HostGroups_create_label'] = 'Erstelle Host Gruppe';
+$L['HostGroups_create_label'] = 'Erstelle Host-Gruppe';
 $L['HostGroups_CreateHostGroup_label'] = 'Erstelle Host Gruppe';
 $L['HostGroups_update_label'] = 'ändere Host Gruppe "${0}"';
 $L['HostGroups_Title'] = 'Host Gruppen';

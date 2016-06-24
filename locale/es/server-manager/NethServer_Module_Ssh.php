@@ -1,5 +1,5 @@
 <?php
-$L['Ssh_Title'] = 'SSH';
+$L['Ssh_Title'] = 'Shell Seguro - SSH';
 $L['Ssh_Description'] = 'Administrar shell seguro (SSH) de acceso al servidor';
 $L['Ssh_Tags'] = 'sshd ssh rsh shell segura telnet remoto';
 $L['Ssh_header'] = 'Acceso shell seguro';

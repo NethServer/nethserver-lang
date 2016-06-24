@@ -4,10 +4,10 @@
 
 $L['balanced_label'] = 'Balanceado';
 $L['connectivity_label'] = 'Conectividad';
-$L['IPS_Description'] = 'Administración IPS (Snort)';
-$L['IPS_header'] = 'Administración IPS';
+$L['IPS_Description'] = 'Administración de Sistema de Prevención de Intrusos (Snort)';
+$L['IPS_header'] = 'Administración de Sistema de Prevención de Intrusos';
 $L['IPS_Tags'] = 'IPS ips snort Snort';
-$L['IPS_Title'] = 'IPS';
+$L['IPS_Title'] = 'Sistema de Prevención de Intrusos';
 $L['Policy_label'] = 'Regla de política';
 $L['security_label'] = 'Seguridad';
 $L['status_label'] = 'Estado';

@@ -2,7 +2,7 @@
 
 /* NethServer_Module_NetworkAdapter translation, language: en */
 
-$L['bootproto_dhcp_label'] = 'DHCP';
+$L['bootproto_dhcp_label'] = 'Servidor DHCP';
 $L['bootproto_label'] = 'Asignación de IP';
 $L['bootproto_none_label'] = 'Estático';
 $L['blue_label'] = 'Invitados (azul)';
@@ -16,7 +16,7 @@ $L['Key_label'] = 'Dispositivo';
 $L['netmask_label'] = 'Mascara de Red';
 $L['NetworkAdapter_Description'] = 'Cambiar configuracion de red';
 $L['NetworkAdapter_Tags'] = 'adaptador de red redes ethernet';
-$L['NetworkAdapter_Title'] = 'Red';
+$L['NetworkAdapter_Title'] = 'Adaptadores de Red';
 $L['red_label'] = 'Internet (rojo)';
 $L['role_label'] = 'Rol';
 $L['update_header_label'] = 'Actualizar dispositivo';

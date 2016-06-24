@@ -2,7 +2,7 @@
 
 $L['DhcpRangeEnd_label'] = 'letzte IP';
 $L['DhcpRangeStart_label'] = 'erste IP';
-$L['Dhcp_Configure_header'] = 'aktiviere DHCP Server auf der Schnittstelle';
+$L['Dhcp_Configure_header'] = 'Aktiviere DHCP-Server auf Schnittstelle';
 $L['Dhcp_Title'] = 'DHCP'; 
 $L['Dhcp_Tags'] = 'host dhcp Reservierung MAC adresse macadresse'; 
 $L['Dhcp_create_header'] = 'feste IP-Adresse vergeben';

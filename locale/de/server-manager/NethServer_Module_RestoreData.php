@@ -2,8 +2,8 @@
 
 $L['RestoreData_Title'] = 'Daten wiederherstellen';
 $L['RestoreData_label'] = 'Wiederherstellen';
-$L['RestoreData_PlaceHolder'] = 'Suchen';
-$L['RestoreData_original'] = 'Daten in den ursprünglichen Pfad wiederherstellen';
+$L['RestoreData_PlaceHolder'] = 'Suche...';
+$L['RestoreData_original'] = 'Daten im ursprünglichen Pfad wiederherstellen';
 $L['RestoreData_temp'] = 'Daten in einem neuen Verzeichnis wiederherstellen';
 $L['RestoreData_String_restore'] = 'Wählen Sie eins oder mehrere Verzeichnisse/Dateien zur Wiederherstellung aus ';
 $L['RestoreData_restore_message'] = 'In ${0} wiederhergestellt';

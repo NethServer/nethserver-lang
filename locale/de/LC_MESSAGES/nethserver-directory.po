@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
 "POT-Creation-Date: 2015-05-19 16:55+0200\n"
-"PO-Revision-Date: 2016-04-29 15:55+0000\n"
+"PO-Revision-Date: 2016-06-19 16:37+0000\n"
 "Last-Translator: Rolf Heinze <rowihei@web.de>\n"
 "Language-Team: German (http://www.transifex.com/nethserver/nethserver/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 #: root/etc/e-smith/templates/password-expired/en/10mail_headers:3
 #, perl-format
 msgid "%s, your password is about to expire"
-msgstr "%s, ihr Kennwort wird in Kürze ablaufen"
+msgstr "%s, Ihr Kennwort wird in Kürze ablaufen"
 
 #: root/etc/e-smith/templates/password-expired/en/20body:1
 #, perl-format

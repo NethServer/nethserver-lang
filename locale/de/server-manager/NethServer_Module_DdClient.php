@@ -1,11 +1,11 @@
 <?php
 $L['DdClient_Title'] = 'Dynamischer DNS Service';
 $L['Key_label'] = 'Dynamischer DNS Hostname';
-$L['hostname_label'] = 'Dynamischer DNS Hostname';
+$L['hostname_label'] = 'Dynamischer DNS-Hostname';
 $L['DynDns_label'] = 'DDClient Protokoll';
 $L['DynServer_label'] = 'Server Adresse (FQDN)';
-$L['CustomService_label'] = 'Benutzerdefinierte DDNS Einstellungen';
-$L['KnownService_label'] = 'DynDNS Anbieter';
+$L['CustomService_label'] = 'Benutzerdefinierte Provider-Einstellungen';
+$L['KnownService_label'] = 'Offizielle Anbieter-Einstellungen';
 $L['login_label'] = 'Login';
 $L['password_label'] = 'Passwort';
 $L['mx_label'] = 'Mail Exchanger hostname';

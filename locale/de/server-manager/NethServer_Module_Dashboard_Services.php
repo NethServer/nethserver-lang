@@ -11,7 +11,7 @@ $L['stopped_label'] = 'gestoppt';
 $L['TCPPorts_label'] = 'TCP';
 $L['UDPPorts_label'] = 'UDP';
 
-$L['amavisd_Description'] = 'Mail Virus und Antispamscanner';
+$L['amavisd_Description'] = 'Mail-Virus und Antispamscanner';
 $L['asterisk_Description'] = 'VoIP PBX';
 $L['avahi-daemon_Description'] = 'Zeroconf';
 $L['chilli_Description'] = 'Hotspot';

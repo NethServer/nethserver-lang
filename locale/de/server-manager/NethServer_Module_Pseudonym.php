@@ -1,11 +1,11 @@
 <?php 
 
-$L['Access_label'] = 'Nur Lokales Netzwerk '; 
+$L['Access_label'] = 'Nur lokales Netzwerk '; 
 $L['Account_label'] = 'Benutzerkonto'; 
 $L['Create a new pseudonym'] = 'Erzeuge neues Pseudonym'; 
 $L['Current_label'] = 'Aktuelle Auswahl'; 
 $L['Description_label'] = 'Beschreibung'; 
-$L['Edit pseudonym `${0}`'] = 'ändere pseudonym `${0}`'; 
+$L['Edit pseudonym `${0}`'] = 'ändere Pseudonym `${0}`'; 
 $L['Flag_label'] = 'Eigenschaften'; 
 $L['Groups_label'] = 'Gruppen'; 
 $L['Key_label'] = 'eMail'; 

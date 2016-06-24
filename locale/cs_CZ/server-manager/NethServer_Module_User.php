@@ -40,4 +40,4 @@ $L['user-unlock_failure'] = 'Error during user "${1}" unlocking';
 $L['user-unlock_success'] = 'User "${1}" locked'; 
 $L['username_label'] = 'Uživatelské jméno'; 
 $L['valid_platform,user-create,uniq-account,3'] = 'User name `${1}` has been already registered';
-$L['valid_platform,user-create,user-length,1'] = 'Name is too long: ${reason}';
+$L['valid_platform,user-create,user-length,1'] = 'Název je příliš dlouhý: ${reason}';

@@ -53,7 +53,7 @@ $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Could not 
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Could not delete ${2}: it is the last member of host group ${${reason}}.';
 $L['valid_iprange_outofbounds'] = 'The start IP must be less than the end IP';
 
-$L['Cidr_Title'] = 'CIDR subnets';
+$L['Cidr_Title'] = 'CIDR podsítě';
 $L['Address_label'] = 'Síť';
 $L['Cidr_create_label'] = 'Create CIDR subnet';
 $L['Cidr_update_label'] = 'Update CIDR subnet';

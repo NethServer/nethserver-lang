@@ -1,6 +1,6 @@
 <?php
 $L['Ssh_Title'] = 'SSH';
-$L['Ssh_Description'] = 'Verwalte Secure Shell (SSH) Server Zugriff';
+$L['Ssh_Description'] = 'Verwalte Secure Shell (SSH) Server-Zugriff';
 $L['Ssh_Tags'] = 'sshd ssh rsh secure shell telnet remote';
 $L['Ssh_header'] = 'Secure Shell Zugriff';
 $L['Ssh_Action'] = 'Überwachung von Port:  ${port} für SSH Verbindungen';
