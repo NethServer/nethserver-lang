@@ -43,6 +43,9 @@ Proprietari
     Scegli uno o più gruppi di utenti a cui saranno concessi i permessi di lettura
     e scrittura sulla cartella condivisa.
 
+Crea alias
+    Crea automaticamente un alias pubblico per questa mailbox condivisa
+
 Accesso speciale
     Le ACL IMAP impostate mediante altri client di posta elettronica saranno 
     elencate qui.
