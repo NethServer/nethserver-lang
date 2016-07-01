@@ -10,3 +10,4 @@ $L['Others_label'] = 'Accessi speciali';
 $L['CreateAlias_label'] = 'Crea alias';
 $L['alias_label'] = 'Alias';
 $L['ExtraFields_label'] = 'Azioni aggiuntive';
+$L['ANY_DOMAIN'] = '[tutti i domini]';
