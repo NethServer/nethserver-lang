@@ -39,7 +39,7 @@ Nome
     Il nome dovrebbe essere una stringa descrittiva e sarà mostrato dai client IMAP
     e dalle applicazioni web per la posta elettronica.
 
-Proprietari
+Gruppi proprietari
     Scegli uno o più gruppi di utenti a cui saranno concessi i permessi di lettura
     e scrittura sulla cartella condivisa.
 
