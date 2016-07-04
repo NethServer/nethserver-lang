@@ -59,8 +59,8 @@ Nome
 Gruppi
     Grazie alla barra di ricerca è possibile selezionare i gruppi ai quali aggiungere l'utente. L'utente può appartenere a più gruppi.
 
-Cambia password
----------------
+Imposta password / Cambia password
+----------------------------------
 
 Permette di configurare per la prima volta, o modificare, la password dell'utente.
 

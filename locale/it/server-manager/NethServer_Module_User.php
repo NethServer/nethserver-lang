@@ -41,3 +41,4 @@ $L['user-unlock_success'] = 'L\'utente "${1}" è stat sbloccato';
 $L['username_label'] = 'Nome utente'; 
 $L['valid_platform,user-create,uniq-account,3'] = 'Il nome utente `${1}` è già registrato';
 $L['valid_platform,user-create,user-length,1'] = 'Nome troppo lungo: ${reason}';
+$L['setPassword_label'] = 'Imposta password';
