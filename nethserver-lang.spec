@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.0.21
+Version: 1.0.22
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -193,6 +193,10 @@ BuildArch: noarch
 NethServer Serbian language support (sr)
 
 %changelog
+* Thu Jul 07 2016 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.22-1
+- Added Serbian translation (Thanks to Bojan Bogdanovic)
+- Pulled strings from Transifex
+
 * Wed Jun 15 2016 Davide Principi <davide.principi@nethesis.it> - 1.0.21-1
 - Complete German translation (de)
 - Updated strings from Transifex
