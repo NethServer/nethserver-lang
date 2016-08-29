@@ -574,12 +574,6 @@ source_file = locale/en/server-manager/NethServer_Module_SharedFolder_Plugin_Htt
 source_lang = en
 type = PHP_ALT_ARRAY
 
-[nethserver.SharedFolder_Plugin_Samba]
-file_filter = locale/<lang>/server-manager/NethServer_Module_SharedFolder_Plugin_Samba.php
-source_file = locale/en/server-manager/NethServer_Module_SharedFolder_Plugin_Samba.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
 [nethserver.SharedFolder_Plugin_SambaAudit]
 file_filter = locale/<lang>/server-manager/NethServer_Module_SharedFolder_Plugin_SambaAudit.php
 source_file = locale/en/server-manager/NethServer_Module_SharedFolder_Plugin_SambaAudit.php
@@ -643,12 +637,6 @@ type = PHP_ALT_ARRAY
 [nethserver.User_Plugin_Mail]
 file_filter = locale/<lang>/server-manager/NethServer_Module_User_Plugin_Mail.php
 source_file = locale/en/server-manager/NethServer_Module_User_Plugin_Mail.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
-[nethserver.User_Plugin_Samba]
-file_filter = locale/<lang>/server-manager/NethServer_Module_User_Plugin_Samba.php
-source_file = locale/en/server-manager/NethServer_Module_User_Plugin_Samba.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
@@ -721,12 +709,6 @@ type = PHP_ALT_ARRAY
 [nethserver.Welcome]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Welcome.php
 source_file = locale/en/server-manager/NethServer_Module_Welcome.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
-[nethserver.Workgroup]
-file_filter = locale/<lang>/server-manager/NethServer_Module_Workgroup.php
-source_file = locale/en/server-manager/NethServer_Module_Workgroup.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
