@@ -11,3 +11,7 @@ $L['Mask_label'] = 'Ağ maskesi';
 $L['Router_label'] = 'Yöneltici adresi'; 
 $L['Update static ${0}`'] = '`${0}` durağan yöneltmesini güncelle'; 
 $L['network_label'] = 'Ağ adresi'; 
+$L['Device_label']='Aygıt';
+$L['any_label']='Tümü';
+$L['Advanced_label']='Gelişmiş';
+$L['Metric_label']='Ölçek';

@@ -8,3 +8,5 @@ $L['FQDN_warning_certs_selfsigned'] = "Ogni modifica ai dati inseriti causa la c
 $L['FQDN_warning_certs_custom'] = "Ogni modifica ai dati inseriti causerà la riconfigurazione dell'intero sistema.";
 $L['SystemName_label'] = 'Nome host';
 $L['DomainName_label'] = 'Dominio';
+$L['FQDN_label'] = 'Nome host e dominio (FQDN)';
+$L['valid_platform,myhostname,failifjoin,1'] = 'Provider di user e gruppi già configurato';

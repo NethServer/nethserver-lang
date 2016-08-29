@@ -1,6 +1,6 @@
 <?php 
 
-$L['Confirm deletion of'] = 'Bestätigen sie das Löschen von'; 
+$L['Confirm deletion of'] = 'Bestätigen Sie das Löschen von'; 
 $L['Create a new static route'] = 'Erstelle eine neue statische Route'; 
 $L['Description_label'] = 'Beschreibung'; 
 $L['Key_label'] = 'Netzwerk'; 
@@ -11,3 +11,7 @@ $L['Mask_label'] = 'Netzwerkmaske';
 $L['Router_label'] = 'Router Adresse'; 
 $L['Update static ${0}`'] = 'Aktualisiere statische Route `${0}`'; 
 $L['network_label'] = 'Netzwerkadresse'; 
+$L['Device_label']='Device';
+$L['any_label']='Any';
+$L['Advanced_label']='Advanced';
+$L['Metric_label']='Metric';

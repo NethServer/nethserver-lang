@@ -1,6 +1,6 @@
 <?php 
 
-$L['"${0}" is not a valid record type'] = '"${0}" geçerli bir kayıt tipi değil'; 
+$L['"${0}" is not a valid record type'] = '"${0}" geçerli bir kayıt türü değil'; 
 $L['"${0}" is not an email address or host name'] = '"${0}" bir e-posta adresi ya da sunucu adı değil'; 
 $L['AddressAcl_label'] = 'E-posta adresi kuralları'; 
 $L['Arch_label'] = 'Arşivler'; 

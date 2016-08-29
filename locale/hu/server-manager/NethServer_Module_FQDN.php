@@ -8,3 +8,5 @@ $L['FQDN_warning_certs_selfsigned'] = "Any change to these fields recreates the 
 $L['FQDN_warning_certs_custom'] = "Any change to these fields reconfigures all installed packages.";
 $L['SystemName_label'] = 'Hosztnév';
 $L['DomainName_label'] = 'Domain';
+$L['FQDN_label'] = 'Fully qualified domain name';
+$L['valid_platform,myhostname,failifjoin,1'] = 'Users and groups provider already configured';

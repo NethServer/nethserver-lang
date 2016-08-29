@@ -51,6 +51,7 @@ $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'Нев�
 $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Невозможно удалить ${2}. CIDR используется правилами файрвола.';
 $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Невозможно удалить ${2}. Диапазон IP используется правилами файрвола.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Невозможно удалить ${2}: это последний член группы хостов ${${reason}}.';
+$L['valid_platform,fwobject-zone-delete,fwzone-referenced,3'] = 'Could not delete ${2}: it is used by network services';
 $L['valid_iprange_outofbounds'] = 'Первый адрес должен быть меньше последнего.';
 
 $L['Cidr_Title'] = 'CIDR подсети';

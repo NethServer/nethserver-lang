@@ -51,6 +51,7 @@ $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'No se p
 $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'No se pudo eliminar ${2}. El CIDR es utilizado por las reglas del cortafuegos.';
 $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'No se pudo eliminar ${2}. El rango de IP es utilizada por las reglas de firewall.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'No se puede eliminar ${2}. Es el ultimo miembro de este grupo de Host ${${reason}}.';
+$L['valid_platform,fwobject-zone-delete,fwzone-referenced,3'] = 'No se pudo eliminar ${2}: es utilizado por los servicios de red';
 $L['valid_iprange_outofbounds'] = 'La IP de inicio debe ser menor que la IP final';
 
 $L['Cidr_Title'] = 'Subredes CIDR';

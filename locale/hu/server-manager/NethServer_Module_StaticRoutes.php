@@ -11,3 +11,7 @@ $L['Mask_label'] = 'Hálózati maszk';
 $L['Router_label'] = 'Router cím'; 
 $L['Update static ${0}`'] = 'Update static route `${0}`'; 
 $L['network_label'] = 'Hálózati címek'; 
+$L['Device_label']='Device';
+$L['any_label']='Any';
+$L['Advanced_label']='Advanced';
+$L['Metric_label']='Metric';

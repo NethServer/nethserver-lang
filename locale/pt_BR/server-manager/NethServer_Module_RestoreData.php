@@ -1,7 +1,8 @@
 <?php
 
-$L['RestoreData_Title'] = 'Restaurar Dados';
+$L['RestoreData_Title'] = 'Restore data';
 $L['RestoreData_label'] = 'Restaurar';
+$L['RestoreData_Description'] = 'Restore data from backup';
 $L['RestoreData_PlaceHolder'] = 'Procurar...';
 $L['RestoreData_original'] = 'Restaurar dados no seu caminho original';
 $L['RestoreData_temp'] = 'Restaurar dados em nova pasta';

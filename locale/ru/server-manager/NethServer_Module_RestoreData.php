@@ -1,7 +1,8 @@
 <?php
 
-$L['RestoreData_Title'] = 'Восстановление данных';
+$L['RestoreData_Title'] = 'Restore data';
 $L['RestoreData_label'] = 'Восстановление';
+$L['RestoreData_Description'] = 'Restore data from backup';
 $L['RestoreData_PlaceHolder'] = 'Поиск...';
 $L['RestoreData_original'] = 'Восстановить данные в оригинальное назначение';
 $L['RestoreData_temp'] = 'Восстановить данные в новую директорию';

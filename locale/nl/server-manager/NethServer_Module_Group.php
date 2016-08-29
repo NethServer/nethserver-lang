@@ -13,4 +13,4 @@ $L['PlugService_Title'] = 'Servicen';
 $L['Update group `${0}`'] = 'Werk groep `${0} bij'; 
 $L['groupname_label'] = 'Groepnaam'; 
 $L['valid_platform,group-create,group-length,1'] = 'Naam is te lang: ${reason}';
-$L['valid_platform,group-create,uniq-account,3'] = 'Groep naam `${1}` is al geregistreerd';
+$L['group_exists'] = 'The group already exists';

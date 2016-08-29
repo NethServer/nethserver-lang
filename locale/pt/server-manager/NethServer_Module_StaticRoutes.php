@@ -11,3 +11,7 @@ $L['Mask_label'] = 'Máscara de rede';
 $L['Router_label'] = 'Endereço do roteador'; 
 $L['Update static ${0}`'] = 'Actualizar a rota estática `${0}`'; 
 $L['network_label'] = 'Endereço de rede'; 
+$L['Device_label']='Device';
+$L['any_label']='Any';
+$L['Advanced_label']='Advanced';
+$L['Metric_label']='Metric';

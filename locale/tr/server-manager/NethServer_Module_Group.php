@@ -13,4 +13,4 @@ $L['PlugService_Title'] = 'Hizmetler';
 $L['Update group `${0}`'] = '`${0}` grubunu güncelle'; 
 $L['groupname_label'] = 'Grup adı'; 
 $L['valid_platform,group-create,group-length,1'] = 'Ad çok uzun: ${reason}';
-$L['valid_platform,group-create,uniq-account,3'] = '`${1}` grup adı zaten kullanılmış';
+$L['group_exists'] = 'Grup zaten var';

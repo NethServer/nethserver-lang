@@ -1,7 +1,8 @@
 <?php
 
-$L['RestoreData_Title'] = 'Adat visszaállítás';
+$L['RestoreData_Title'] = 'Restore data';
 $L['RestoreData_label'] = 'Visszaállítás';
+$L['RestoreData_Description'] = 'Restore data from backup';
 $L['RestoreData_PlaceHolder'] = 'Keresés...';
 $L['RestoreData_original'] = 'Restore data in the original path';
 $L['RestoreData_temp'] = 'Restore data in new directory';

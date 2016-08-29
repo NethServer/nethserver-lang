@@ -1,20 +1,19 @@
 <?php 
 
-$L['Access_label'] = 'Само локална мрежа'; 
-$L['Account_label'] = 'Налог'; 
-$L['Create a new pseudonym'] = 'Креирај нови псеудоним'; 
+$L['Access_label'] = 'Само локална мрежа';
+$L['Account_label'] = 'Одредишта';
+$L['Pseudonym_create_header'] = 'Креирајте нови поштански псеудоним';
 $L['Current_label'] = 'Тренутни одабир'; 
 $L['Description_label'] = 'Опис'; 
-$L['Edit pseudonym `${0}`'] = 'Измени псеудоним `${0}`'; 
+$L['Pseudonym_update_header'] = 'Измени поштански псеудоним `${0}`';
 $L['Flag_label'] = 'Особине'; 
 $L['Groups_label'] = 'Групе'; 
-$L['Key_label'] = 'Епошта'; 
-$L['Pseudonym_Description'] = 'Управљај адресама епоште за кориснике и групне налоге'; 
-$L['Pseudonym_Tags'] = 'епошта псеудоним електронска пошта прослеђивање'; 
-$L['Pseudonym_Title'] = 'Адресе епоште'; 
+$L['Key_label'] = 'Псеудоним';
 $L['Users_label'] = 'Корисници'; 
 $L['domainAddress_label'] = 'Домен'; 
 $L['localAddress_label'] = 'Адреса епоште'; 
 $L['pseudonym_label'] = 'Адреса епоште';
 $L['valid_pseudonym_unique'] = 'Адреса већ постоји';
 $L['ANY_DOMAIN'] = '[сви домени]';
+$L['ExtAddresses_label'] = 'Спољна одредишта епоште';
+$L['Destinations_label'] = 'Одредишта';

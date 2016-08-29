@@ -5,12 +5,14 @@ $L['Next_label'] = 'Volgende';
 $L['Back_label'] = 'Terug';
 $L['Skip_label'] = 'Overslaan';
 $L['Save_label'] = 'Opslaan';
-$L['Welcome_body'] = "Welkom bij \${ProductName} \${Version} \${Release}\n Deze wizard helpt je bij het instellen van een aantal systeem opties. Aan het eind zal je doorgestuurd worden naar de netwerk configuratie pagina. \n\n Om verder te gaan, klik Volgende.";
+$L['Welcome_title'] = "Welcome to  \${ProductName} \${Version} \${Release}";
+$L['Welcome_body'] = "This wizard will help you setup some system options. At the end, you will be redirected to the network configuration page.";
+$L['Welcome_next'] = "To continue, click Next.";
 $L['RootPassword_Title'] = 'Maak beheerder\'s wachtwoord';
 $L['RootPassword_Description'] = 'Kies een veilig wachtwoord voor de root gebruiker.';
 $L['RootPassword_Action'] = 'Verander beheerder\'s wachtwoord';
 $L['Hostname_Title'] = 'Bepaal de Host naam';
-$L['Hostname_Action'] = 'Bepaal de Host naam op: ${SystemName}.${DomainName}';
+$L['Hostname_Action'] = 'Set host name to: ${FQDN}';
 
 $L['Hostname_Description'] = 'Verander de de volledig gekwalificeerde domein naam (FQDN) ';
 $L['Review_Title'] = 'Bekijk de veranderingen';

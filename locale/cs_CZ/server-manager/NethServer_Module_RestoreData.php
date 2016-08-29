@@ -1,7 +1,8 @@
 <?php
 
-$L['RestoreData_Title'] = 'Obnovit data';
+$L['RestoreData_Title'] = 'Restore data';
 $L['RestoreData_label'] = 'Obnovit';
+$L['RestoreData_Description'] = 'Restore data from backup';
 $L['RestoreData_PlaceHolder'] = 'Hledat…';
 $L['RestoreData_original'] = 'Restore data in the original path';
 $L['RestoreData_temp'] = 'Restore data in new directory';

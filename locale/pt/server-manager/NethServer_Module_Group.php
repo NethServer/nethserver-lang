@@ -13,4 +13,4 @@ $L['PlugService_Title'] = 'Serviços';
 $L['Update group `${0}`'] = 'Actualizar grupo `${0}`'; 
 $L['groupname_label'] = 'Nome do grupo'; 
 $L['valid_platform,group-create,group-length,1'] = 'O nome é demasiado grande: ${reason}';
-$L['valid_platform,group-create,uniq-account,3'] = 'O nome do grupo `${1}` já está registado';
+$L['group_exists'] = 'The group already exists';

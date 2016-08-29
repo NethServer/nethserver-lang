@@ -13,4 +13,4 @@ $L['PlugService_Title'] = 'Сервиси';
 $L['Update group `${0}`'] = 'Ажурирај групу `${0}`'; 
 $L['groupname_label'] = 'Име групе'; 
 $L['valid_platform,group-create,group-length,1'] = 'Име је превише дугачко: ${reason}';
-$L['valid_platform,group-create,uniq-account,3'] = 'Име групе `${1}`  је већ регистровано';
+$L['group_exists'] = 'Група већ постоји';

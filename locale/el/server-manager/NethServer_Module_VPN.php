@@ -1,6 +1,6 @@
 <?php
 
-$L['VPN_Title'] = 'VPN';
-$L['VPN_Tags'] = 'VPN vpn εικονικό ιδιωτικό δίκτυο';
+$L['VPN_Title'] = 'OpenVPN';
+$L['VPN_Tags'] = 'OpenVPN vpn virtual private network';
 $L['VPN_Description'] = 'Διαμόρφωση διακομιστών και πελατών VPN';
-$L['VPN_Tags'] = 'VPN vpn εικονικό ιδιωτικό δίκτυο';
+$L['VPN_Tags'] = 'OpenVPN vpn virtual private network';

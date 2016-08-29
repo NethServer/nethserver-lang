@@ -8,3 +8,5 @@ $L['FQDN_warning_certs_selfsigned'] = "Bu alanlarda yapılan herhangi bir deği�
 $L['FQDN_warning_certs_custom'] = "Bu alanlarda yapılan herhangi bir değişiklik tüm yüklü paketleri yeniden yapılandırır.";
 $L['SystemName_label'] = 'Sunucu adı';
 $L['DomainName_label'] = 'Etki alanı';
+$L['FQDN_label'] = 'Tam sınıflandırılmış etki alanı adı';
+$L['valid_platform,myhostname,failifjoin,1'] = 'Kullanıcı ve grup hizmeti sağlayıcısı zaten ayarlanmış';

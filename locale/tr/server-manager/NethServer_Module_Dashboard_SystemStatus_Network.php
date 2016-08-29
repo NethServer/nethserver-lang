@@ -2,7 +2,7 @@
 
 /* NethServer_Module_Dashboard_SystemStatus_Network translation, language: en */
 
-$L['bootproto_label'] = 'Tip';
+$L['bootproto_label'] = 'Tür';
 $L['dns_label'] = 'DNS';
 $L['domain_label'] = 'Etki alanı';
 $L['gateway_label'] = 'Ağ geçidi';

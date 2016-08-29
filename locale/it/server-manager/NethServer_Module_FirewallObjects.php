@@ -51,6 +51,7 @@ $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'Impossi
 $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Impossibile eliminare ${2}. La rete CIDR è usata dalle regole del firewall.';
 $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Impossibile eliminare ${2}. Il range IP è usata dalle regole del firewall.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Impossibile eliminare ${2}: è l\'ultimo membro del gruppo di host ${${reason}}.';
+$L['valid_platform,fwobject-zone-delete,fwzone-referenced,3'] = 'Impossibile eliminare ${2}: è utilizzato da servizi di rete';
 $L['valid_iprange_outofbounds'] = 'L\'IP iniziale deve essere più piccolo di quello finale';
 
 $L['Cidr_Title'] = 'Reti CIDR';

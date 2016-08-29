@@ -30,3 +30,6 @@ $L['cidr_label'] = 'CIDR subnät';
 $L['Cidrs_label'] = 'CIDR subnät';
 $L['iprange_label'] = 'IP-intervall';
 $L['IpRanges_label'] = 'IP-intervaller';
+$L['update_header'] = 'Synchronize users and groups';
+$L['update_confirmation_label'] = 'Proceed with proxy restart?';
+$L['Update_label'] = 'Synchronize users and groups';

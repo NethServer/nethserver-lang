@@ -5,7 +5,7 @@
 $L['avail_label'] = 'Kullanılabilir';
 $L['cpu_num_label'] = 'İşlemci numarası';
 $L['days_label'] = 'g';
-$L['general_title'] = 'Genel bilgiler';
+$L['general_title'] = 'Genel Bilgiler';
 $L['hours_label'] = 's';
 $L['load_label'] = '1 / 5 / 15 dakika yükü';
 $L['mem_free_label'] = 'Boştaki bellek';

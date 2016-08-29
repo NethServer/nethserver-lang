@@ -1,7 +1,8 @@
 <?php
 
-$L['RestoreData_Title'] = 'Verileri Geri Yükle';
+$L['RestoreData_Title'] = 'Verileri geri yükle';
 $L['RestoreData_label'] = 'Geri Yükleme';
+$L['RestoreData_Description'] = 'Verileri yedekten geri yükle';
 $L['RestoreData_PlaceHolder'] = 'Arama...';
 $L['RestoreData_original'] = 'Verileri özgün yola geri yükle';
 $L['RestoreData_temp'] = 'Verileri yeni bir klasöre geri yükle';

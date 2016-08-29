@@ -11,3 +11,7 @@ $L['Mask_label'] = 'Μάσκα δικτύου';
 $L['Router_label'] = 'Διεύθυνση router'; 
 $L['Update static ${0}`'] = 'Ενημέρωση στατικής δρομολόγησης `${0}`'; 
 $L['network_label'] = 'Διεύθυνση δικτύου'; 
+$L['Device_label']='Device';
+$L['any_label']='Any';
+$L['Advanced_label']='Advanced';
+$L['Metric_label']='Metric';

@@ -30,3 +30,6 @@ $L['cidr_label'] = 'CIDR подсети';
 $L['Cidrs_label'] = 'CIDR подсети';
 $L['iprange_label'] = 'Диапазон IP';
 $L['IpRanges_label'] = 'Диапазоны IP';
+$L['update_header'] = 'Synchronize users and groups';
+$L['update_confirmation_label'] = 'Proceed with proxy restart?';
+$L['Update_label'] = 'Synchronize users and groups';

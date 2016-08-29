@@ -5,12 +5,14 @@ $L['Next_label'] = 'Следеће';
 $L['Back_label'] = 'Назад';
 $L['Skip_label'] = 'Прескочи';
 $L['Save_label'] = 'Сачувај';
-$L['Welcome_body'] = "Добродошли у  \${ProductName} \${Version} \${Release}\nОвај чаробњак ће вам помоћи да подесите неке опције система. На крају, бићете преусмерени на подешавање мреже.\n\nДа наставите, кликните на Следеће.";
+$L['Welcome_title'] = "Добродошли у \${ProductName} \${Version} \${Release}";
+$L['Welcome_body'] = "Овај чаробњак ће вам помоћи да подесите неке опције система. На крају, бићете преусмерени на подешавање мреже.";
+$L['Welcome_next'] = "Да наставите, кликните на Следеће.";
 $L['RootPassword_Title'] = 'Подесите root лозинку';
 $L['RootPassword_Description'] = 'Изаберите сигурну лозинку за root корисника';
 $L['RootPassword_Action'] = 'Измени root лозинку';
 $L['Hostname_Title'] = 'Подеси име домаћина';
-$L['Hostname_Action'] = 'Подеси име домаћина на: ${SystemName}.${DomainName}';
+$L['Hostname_Action'] = 'Подеси име домаћина на: ${FQDN}';
 
 $L['Hostname_Description'] = 'Промени домаћиново потпуно квалификовано доменско име (FQDN)';
 $L['Review_Title'] = 'Прегледај имене';

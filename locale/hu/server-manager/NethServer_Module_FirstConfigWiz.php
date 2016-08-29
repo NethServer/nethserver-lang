@@ -5,12 +5,14 @@ $L['Next_label'] = 'Következő';
 $L['Back_label'] = 'Vissza';
 $L['Skip_label'] = 'Átugrás';
 $L['Save_label'] = 'Save';
-$L['Welcome_body'] = "Welcome to  \${ProductName} \${Version} \${Release}\nThis wizard will help you setup some system options. At the end, you will be redirected to the network configuration page.\n\nTo continue, click Next.";
+$L['Welcome_title'] = "Welcome to  \${ProductName} \${Version} \${Release}";
+$L['Welcome_body'] = "This wizard will help you setup some system options. At the end, you will be redirected to the network configuration page.";
+$L['Welcome_next'] = "To continue, click Next.";
 $L['RootPassword_Title'] = 'Set root\'s password';
 $L['RootPassword_Description'] = 'Choose a secure password for the root user';
 $L['RootPassword_Action'] = 'Change root user\'s password';
 $L['Hostname_Title'] = 'Set host name';
-$L['Hostname_Action'] = 'Set host name to: ${SystemName}.${DomainName}';
+$L['Hostname_Action'] = 'Set host name to: ${FQDN}';
 
 $L['Hostname_Description'] = 'Change the host fully qualified domain name (FQDN)';
 $L['Review_Title'] = 'Review changes';

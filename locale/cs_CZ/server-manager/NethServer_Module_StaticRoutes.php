@@ -11,3 +11,7 @@ $L['Mask_label'] = 'Maska sítě';
 $L['Router_label'] = 'Adresa směrovače'; 
 $L['Update static ${0}`'] = 'Update static route `${0}`'; 
 $L['network_label'] = 'Síťová adresa'; 
+$L['Device_label']='Device';
+$L['any_label']='Any';
+$L['Advanced_label']='Advanced';
+$L['Metric_label']='Metric';

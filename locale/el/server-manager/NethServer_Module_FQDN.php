@@ -8,3 +8,5 @@ $L['FQDN_warning_certs_selfsigned'] = "Οποιαδήποτε αλλαγή σε 
 $L['FQDN_warning_certs_custom'] = "Οποιαδήποτε αλλαγή σε αυτά τα πεδία θα επαναρυθμίσει όλα τα εγκατεστημένα πακέτα.";
 $L['SystemName_label'] = 'Όνομα φορέα';
 $L['DomainName_label'] = 'Domain';
+$L['FQDN_label'] = 'Fully qualified domain name';
+$L['valid_platform,myhostname,failifjoin,1'] = 'Users and groups provider already configured';

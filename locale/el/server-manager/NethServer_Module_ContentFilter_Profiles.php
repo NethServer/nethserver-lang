@@ -30,3 +30,6 @@ $L['cidr_label'] = 'Υποδίκτυο CIDR';
 $L['Cidrs_label'] = 'Υποδίκτυα CIDR';
 $L['iprange_label'] = 'Εμβέλεια IP';
 $L['IpRanges_label'] = 'Εμβέλειες IP';
+$L['update_header'] = 'Synchronize users and groups';
+$L['update_confirmation_label'] = 'Proceed with proxy restart?';
+$L['Update_label'] = 'Synchronize users and groups';

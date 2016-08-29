@@ -30,3 +30,6 @@ $L['cidr_label'] = 'Sub-rede CIDR';
 $L['Cidrs_label'] = 'Sub-redes CIDR';
 $L['iprange_label'] = 'Gama IP';
 $L['IpRanges_label'] = 'Gamas IP';
+$L['update_header'] = 'Synchronize users and groups';
+$L['update_confirmation_label'] = 'Proceed with proxy restart?';
+$L['Update_label'] = 'Synchronize users and groups';

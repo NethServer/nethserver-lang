@@ -11,3 +11,7 @@ $L['Mask_label'] = 'Masque de sous-réseau';
 $L['Router_label'] = 'Adresse du routeur'; 
 $L['Update static ${0}`'] = 'Mettre à jour la route statique `${0}`'; 
 $L['network_label'] = 'Adresse réseau'; 
+$L['Device_label']='Device';
+$L['any_label']='Any';
+$L['Advanced_label']='Advanced';
+$L['Metric_label']='Metric';

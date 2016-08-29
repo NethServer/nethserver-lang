@@ -22,6 +22,6 @@ $L['update_header_label'] = 'İstemciyi düzenle';
 $L['User_label'] = 'Kullanıcı';
 $L['Clients_Title'] = 'İstemci';
 $L['VPNType_ipsec_label'] = 'IPsec';
-$L['VPNType_label'] = 'Tip';
+$L['VPNType_label'] = 'Tür';
 $L['VPNType_openvpn_label'] = 'OpenVPN';
 $L['Compression_label'] = 'LZO sıkıştırma kullanılsın';

@@ -8,3 +8,5 @@ $L['FQDN_warning_certs_selfsigned'] = "Любые изменения этих п
 $L['FQDN_warning_certs_custom'] = "Любые изменения этих полей приведут к перенастройке всех установленных пакетов.";
 $L['SystemName_label'] = 'Имя машины';
 $L['DomainName_label'] = 'Домен';
+$L['FQDN_label'] = 'Fully qualified domain name';
+$L['valid_platform,myhostname,failifjoin,1'] = 'Users and groups provider already configured';

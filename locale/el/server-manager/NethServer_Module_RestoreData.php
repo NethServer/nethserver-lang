@@ -1,7 +1,8 @@
 <?php
 
-$L['RestoreData_Title'] = 'Ανάκτηση Δεδομένων';
+$L['RestoreData_Title'] = 'Restore data';
 $L['RestoreData_label'] = 'Ανέκτησε';
+$L['RestoreData_Description'] = 'Restore data from backup';
 $L['RestoreData_PlaceHolder'] = 'Αναζήτηση...';
 $L['RestoreData_original'] = 'Επαναφορά δεδομένων στην αρχική διαδρομή';
 $L['RestoreData_temp'] = 'Επαναφορά δεδομένων σε νέο κατάλογο';

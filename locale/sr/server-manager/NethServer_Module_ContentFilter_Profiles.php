@@ -30,3 +30,6 @@ $L['cidr_label'] = 'CIDR подмрежа';
 $L['Cidrs_label'] = 'CIDR подмреже';
 $L['iprange_label'] = 'ИП опсег';
 $L['IpRanges_label'] = 'ИП опсези';
+$L['update_header'] = 'Синхронизуј кориснике и групе';
+$L['update_confirmation_label'] = 'Наставити са поновним покретањем проксија?';
+$L['Update_label'] = 'Синхронизуј кориснике и групе';

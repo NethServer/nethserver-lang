@@ -51,6 +51,7 @@ $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'Не м
 $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Не могу обрисати ${2}. ЦИДР се користи у правилима заштитног зида.';
 $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Не могу обрисати ${2}. ИП опсег се користи у правилима заштитног зида.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Не могу обрисати ${2}: то је последњи члан групе домаћина ${${reason}}.';
+$L['valid_platform,fwobject-zone-delete,fwzone-referenced,3'] = 'Не могу обрисати ${2}: користи се од стране мрежних сервиса';
 $L['valid_iprange_outofbounds'] = 'Почетни ИП мора бити мањи од крајњег ИП-а';
 
 $L['Cidr_Title'] = 'ЦИДР подмреже';

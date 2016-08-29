@@ -1,7 +1,8 @@
 <?php
 
-$L['RestoreData_Title'] = 'Врати податке';
+$L['RestoreData_Title'] = 'Restore data';
 $L['RestoreData_label'] = 'Врати';
+$L['RestoreData_Description'] = 'Restore data from backup';
 $L['RestoreData_PlaceHolder'] = 'Претражи...';
 $L['RestoreData_original'] = 'Врати подаке на оригиналну путању';
 $L['RestoreData_temp'] = 'Врати податке у нови директоријум';

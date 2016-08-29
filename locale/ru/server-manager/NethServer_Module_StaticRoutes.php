@@ -11,3 +11,7 @@ $L['Mask_label'] = 'Маска сети';
 $L['Router_label'] = 'Адрес шлюза'; 
 $L['Update static ${0}`'] = 'Обновить маршрут `${0}`'; 
 $L['network_label'] = 'Адрес сети'; 
+$L['Device_label']='Device';
+$L['any_label']='Any';
+$L['Advanced_label']='Advanced';
+$L['Metric_label']='Metric';

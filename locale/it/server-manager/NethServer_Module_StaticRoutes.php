@@ -11,3 +11,7 @@ $L['Mask_label'] = 'Maschera di rete';
 $L['Router_label'] = 'Indirizzo router'; 
 $L['Update static ${0}`'] = 'Aggiorna rotta statica `${0}`'; 
 $L['network_label'] = 'Indirizzo rete'; 
+$L['Device_label']='Device';
+$L['any_label']='Any';
+$L['Advanced_label']='Advanced';
+$L['Metric_label']='Metric';

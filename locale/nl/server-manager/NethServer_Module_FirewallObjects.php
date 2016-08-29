@@ -51,6 +51,7 @@ $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'Kan ${2
 $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Kan ${2} niet verwijderen. De CIDR wordt gebruikt in firewall regels.';
 $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Kan ${2} niet verwijderen. De IP range wordt gebruikt in firewall regels.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Kan ${2} niet verwijderen: het is het laatste lid van host groep ${${reason}}.';
+$L['valid_platform,fwobject-zone-delete,fwzone-referenced,3'] = 'Could not delete ${2}: it is used by network services';
 $L['valid_iprange_outofbounds'] = 'Het begin IP adres moet lager zijn dan het eind IP adres';
 
 $L['Cidr_Title'] = 'CIDR subnetten';

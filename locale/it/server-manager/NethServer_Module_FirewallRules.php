@@ -22,6 +22,7 @@ $L['accept_label'] = 'Permetti traffico';
 $L['Edit_header'] = 'Modifica la regola #${0}';
 $L['status_label'] = 'Abilitato';
 $L['Action_label'] = 'Azione';
+$L['Rule_label'] = 'Regola';
 $L['ActionReject_label'] = 'Reject';
 $L['ActionAccept_label'] = 'Accept';
 $L['ActionDrop_label'] = 'Drop';
@@ -43,6 +44,8 @@ $L['Create_header'] = 'Crea una nuova regola per il firewall';
 $L['Copy_header'] = 'Crea una copia di #${0}';
 $L['Commit_label'] = 'Applica modifiche';
 $L['Edit_label'] = 'Modifica';
+$L['EditRule_label'] = 'Modifica regola';
+$L['EditService_label'] = 'Modifica servizio';
 $L['Copy_label'] = 'Copia';
 $L['Delete_label'] = 'Elimina';
 $L['Index_header'] = 'Regole del firewall';
@@ -61,11 +64,13 @@ $L['Cidr_create'] = 'Crea una rete CIDR "${0}"';
 
 $L['A_new_rule_label'] = "Nuova regola";
 $L['Any_label'] = 'Tutti (any)';
+$L['Fw_label'] = 'Firewall';
 $L['NoRulesDefined_label'] = 'Non è definita alcuna regola. Crea ora la prima!';
 
 $L['any_service_label'] = 'qualsiasi';
 $L['any_src_dst_label'] = 'tutti gli host';
 $L['all_label'] = 'tutti';
+$L['fw_label'] = 'firewall';
 $L['host_label'] = 'host';
 $L['zone_label'] = 'zona';
 $L['iprange_label'] = 'IP range';
@@ -75,13 +80,15 @@ $L['role_label'] = 'interfaccia';
 $L['confirm_reload_label'] = 'Le modifiche non sono state applicate.';
 
 $L['FirewallObject_any_Title'] = 'Tutti (any)';
+$L['FirewallObject_fw_Title'] = 'Firewall';
 $L['FirewallObject_host_Title'] = 'Host ${key}';
 $L['FirewallObject_local_Title'] = 'LAN host ${key}';
 $L['FirewallObject_remote_Title'] = 'Host ${key}';
 $L['FirewallObject_role_Title'] = 'Ruolo ${key}';
 $L['FirewallObject_zone_Title'] = 'Zona ${key}';
 $L['FirewallObject_host-group_Title'] = 'Gruppo di host ${key}';
-$L['FirewallObject_fwservice_Title'] = 'Servizio ${key}';
+$L['FirewallObject_fwservice_Title'] = '${key} - servizio';
+$L['FirewallObject_service_Title'] = '${key} - servizio di rete';
 $L['FirewallObject_iprange_Title'] = 'IP range ${key}';
 $L['FirewallObject_cidr_Title'] = 'Rete CIDR ${key}';
 
@@ -94,6 +101,8 @@ $L['ShowAction_label'] = 'Mostra';
 $L['ShowAll_label'] = 'Tutti';
 $L['ShowRules_label'] = 'Firewall rules';
 $L['ShowRoutes_label'] = 'Policy routing';
+$L['ShowServices_label'] = 'Servizi di rete';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Le regole di routing non consentono di utilizzare una zona red come sorgente.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Le regole di routing consentono solo i seguenti tipi di destinazione: zona, host, range ip, CIDR, red.';
+$L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Se si seleziona un Servizio di rete la destinazione deve essere Firewall';

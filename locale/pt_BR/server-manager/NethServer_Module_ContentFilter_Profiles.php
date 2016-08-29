@@ -30,3 +30,6 @@ $L['cidr_label'] = 'CIDR subnet';
 $L['Cidrs_label'] = 'CIDR subnets';
 $L['iprange_label'] = 'Range de IP';
 $L['IpRanges_label'] = 'Ranges de IP';
+$L['update_header'] = 'Sincronizar usuários e grupos';
+$L['update_confirmation_label'] = 'Prosseguir com a reinicialização do proxy?';
+$L['Update_label'] = 'Sincronizar usuários e grupos';

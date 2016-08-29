@@ -51,6 +51,7 @@ $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'Δεν 
 $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Δεν ήταν δυνατή η διαγραφή του ${2}. Το CIDR χρησιμοποιείται σε κανόνες του τοίχου προστασίας';
 $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Δεν ήταν δυνατή η διαγραφή του ${2}. H εμβέλεια IP χρησιμοποιείται σε κανόνες του τοίχου προστασίας';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Δεν ήταν δυνατή η διαγραφή του ${2}. Είναι το τελευταίο μέλος της ομάδας φορέων ${${reason}}.';
+$L['valid_platform,fwobject-zone-delete,fwzone-referenced,3'] = 'Could not delete ${2}: it is used by network services';
 $L['valid_iprange_outofbounds'] = 'Η IP έναρξης θα πρέπει να είναι μικρότερη από την IP λήξης';
 
 $L['Cidr_Title'] = 'Υποδίκτυα CIDR';

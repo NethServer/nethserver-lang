@@ -51,6 +51,7 @@ $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'Impossi
 $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Impossible de supprimer ${2}. Le CIDR est utilisé par une ou des règles du pare-feu.';
 $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Impossible de supprimer ${2}. La plage d\'IP est utilisée par une ou des règles du pare-feu.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Impossible de supprimer ${2}: c\'est le dernier membre du groupe d\'hôtes  ${${reason}}.';
+$L['valid_platform,fwobject-zone-delete,fwzone-referenced,3'] = 'Could not delete ${2}: it is used by network services';
 $L['valid_iprange_outofbounds'] = 'L\'adresse IP de début doit être inférieur à celle de fin';
 
 $L['Cidr_Title'] = 'Sous-réseaux CIDR';

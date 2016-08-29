@@ -51,6 +51,7 @@ $L['valid_platform,fwobject-host-group-delete,fwobject-referenced,3'] = 'Güvenl
 $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'CIDR güvenlik duvarı kuralları tarafından kullanıldığından ${2} silinemedi.';
 $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'IP dizisi güvenlik duvarı kuralları tarafından kullanıldığından, ${2} silinemedi.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Sunucu grubundaki son üye olduğundan ${2} silinemedi. ${${reason}}.';
+$L['valid_platform,fwobject-zone-delete,fwzone-referenced,3'] = '${2} silinemedi. Ağ hizmetleri tarafından kullanılıyor';
 $L['valid_iprange_outofbounds'] = 'Başlangıç IP adresi Bitiş IP adresinden küçük olmalı';
 
 $L['Cidr_Title'] = 'CIDR alt ağları';

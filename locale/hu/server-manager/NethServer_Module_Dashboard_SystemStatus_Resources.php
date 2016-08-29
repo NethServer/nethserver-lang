@@ -5,7 +5,7 @@
 $L['avail_label'] = 'Rendelkezésre áll';
 $L['cpu_num_label'] = 'CPU szám';
 $L['days_label'] = 'd';
-$L['general_title'] = 'Általános információk';
+$L['general_title'] = 'General information';
 $L['hours_label'] = 'h';
 $L['load_label'] = 'Terhelés 1 / 5 / 15 perce';
 $L['mem_free_label'] = 'Szabad memória';
