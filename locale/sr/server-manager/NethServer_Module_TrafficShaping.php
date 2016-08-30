@@ -36,6 +36,7 @@ $L['tcp,udp_label'] = 'ТЦП, УДП';
 $L['TrafficShaping_Description'] = 'Управљај обликовањем саобраћаја';
 $L['TrafficShaping_Tags'] = 'тц саобраћај облоковање облик кс';
 $L['TrafficShaping_Title'] = 'Обликовање саобраћаја';
+$L['TrafficShaping_General_header'] = 'Traffic shaping';
 $L['udp_label'] = 'УДП';
 $L['PickSource_label'] = 'Одабери извор...';
 

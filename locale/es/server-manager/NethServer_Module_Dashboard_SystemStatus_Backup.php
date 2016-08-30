@@ -16,5 +16,6 @@ $L['incremental'] = 'Gradual';
 $L['full'] = 'Completa';
 $L['SUCCESS'] = 'ÉXITOSO';
 $L['ERROR'] = 'ERROR';
+$L['START'] = 'INICIANDO';
 $L['backup_not_configured'] = 'Copia de seguridad no configurada';
 $L['last_backup'] = 'Última copia de seguridad';

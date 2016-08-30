@@ -36,6 +36,7 @@ $L['tcp,udp_label'] = 'TCP, UDP';
 $L['TrafficShaping_Description'] = 'Trafik Şekillendirme Yönetimi';
 $L['TrafficShaping_Tags'] = 'tc traffic shaping shape qos trafik şekillendirme hizmet kalite yönetimi';
 $L['TrafficShaping_Title'] = 'Trafik şekillendirme';
+$L['TrafficShaping_General_header'] = 'Traffic shaping';
 $L['udp_label'] = 'UDP';
 $L['PickSource_label'] = 'Kaynağı seçin...';
 

@@ -36,6 +36,7 @@ $L['tcp,udp_label'] = 'TCP, UDP';
 $L['TrafficShaping_Description'] = 'Управление полосой пропускания';
 $L['TrafficShaping_Tags'] = 'tc traffic shaping shape qos';
 $L['TrafficShaping_Title'] = 'Ограничения полосы пропускания';
+$L['TrafficShaping_General_header'] = 'Traffic shaping';
 $L['udp_label'] = 'UDP';
 $L['PickSource_label'] = 'Выбрать источник...';
 

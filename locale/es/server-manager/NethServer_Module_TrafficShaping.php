@@ -36,6 +36,7 @@ $L['tcp,udp_label'] = 'TCP, UDP';
 $L['TrafficShaping_Description'] = 'Administrar configuración de tráfico';
 $L['TrafficShaping_Tags'] = 'tc tráfico shaping shape qos';
 $L['TrafficShaping_Title'] = 'Configuración del tráfico';
+$L['TrafficShaping_General_header'] = 'Asignación de tráfico';
 $L['udp_label'] = 'UDP';
 $L['PickSource_label'] = 'Elige origen...';
 

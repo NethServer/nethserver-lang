@@ -16,5 +16,6 @@ $L['incremental'] = 'Artımlı';
 $L['full'] = 'Tam';
 $L['SUCCESS'] = 'TAMAMLANDI';
 $L['ERROR'] = 'HATA';
+$L['START'] = 'START';
 $L['backup_not_configured'] = 'Yedek ayarlanmamış';
 $L['last_backup'] = 'Son yedekleme';

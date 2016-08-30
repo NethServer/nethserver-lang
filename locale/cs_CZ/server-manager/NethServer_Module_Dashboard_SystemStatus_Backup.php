@@ -16,5 +16,6 @@ $L['incremental'] = 'Přírůstkové';
 $L['full'] = 'Full';
 $L['SUCCESS'] = 'ÚSPĚCH';
 $L['ERROR'] = 'CHYBA';
+$L['START'] = 'START';
 $L['backup_not_configured'] = 'Záloha není nastavena';
 $L['last_backup'] = 'Minulá záloha';

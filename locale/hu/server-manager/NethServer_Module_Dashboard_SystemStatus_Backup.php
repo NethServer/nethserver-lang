@@ -16,5 +16,6 @@ $L['incremental'] = 'Növekményes';
 $L['full'] = 'Teljes';
 $L['SUCCESS'] = 'SIKERES';
 $L['ERROR'] = 'HIBA';
+$L['START'] = 'START';
 $L['backup_not_configured'] = 'A mentés nincs beállítva';
 $L['last_backup'] = 'Utolsó mentés';

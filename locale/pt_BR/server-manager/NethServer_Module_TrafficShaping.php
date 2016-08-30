@@ -36,6 +36,7 @@ $L['tcp,udp_label'] = 'TCP, UDP';
 $L['TrafficShaping_Description'] = 'Gererenciar prioridade de tráfego';
 $L['TrafficShaping_Tags'] = 'tc trafego prioridade prioridade qos';
 $L['TrafficShaping_Title'] = 'Prioridades de tráfego de dados';
+$L['TrafficShaping_General_header'] = 'Traffic shaping';
 $L['udp_label'] = 'UDP';
 $L['PickSource_label'] = 'Escolha uma fonte...';
 

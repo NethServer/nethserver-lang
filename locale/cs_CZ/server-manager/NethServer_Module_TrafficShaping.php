@@ -36,6 +36,7 @@ $L['tcp,udp_label'] = 'TCP, UDP';
 $L['TrafficShaping_Description'] = 'Spravovat řízení rychlosti síťového provozu';
 $L['TrafficShaping_Tags'] = 'tc traffic shaping shape qos';
 $L['TrafficShaping_Title'] = 'Traffic shaping';
+$L['TrafficShaping_General_header'] = 'Traffic shaping';
 $L['udp_label'] = ' ';
 $L['PickSource_label'] = 'Zvolte zdroj…';
 
