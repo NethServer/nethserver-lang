@@ -724,3 +724,63 @@ source_file = locale/en/server-manager/NethServer_Module_Password.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
+[nethserver.Account]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Account.php
+source_file = locale/en/server-manager/NethServer_Module_Account.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.Account_DomainController]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Account_DomainController.php
+source_file = locale/en/server-manager/NethServer_Module_Account_DomainController.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.CGP]
+file_filter = locale/<lang>/server-manager/NethServer_Module_CGP.php
+source_file = locale/en/server-manager/NethServer_Module_CGP.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.VirtualHosts]
+file_filter = locale/<lang>/server-manager/NethServer_Module_VirtualHosts.php
+source_file = locale/en/server-manager/NethServer_Module_VirtualHosts.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.Bandwidthd]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Bandwidthd.php
+source_file = locale/en/server-manager/NethServer_Module_Bandwidthd.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.Lightsquid]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Lightsquid.php
+source_file = locale/en/server-manager/NethServer_Module_Lightsquid.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.MailQueue]
+file_filter = locale/<lang>/server-manager/NethServer_Module_MailQueue.php
+source_file = locale/en/server-manager/NethServer_Module_MailQueue.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.MailQuota]
+file_filter = locale/<lang>/server-manager/NethServer_Module_MailQuota.php
+source_file = locale/en/server-manager/NethServer_Module_MailQuota.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.Sssd]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Sssd.php
+source_file = locale/en/server-manager/NethServer_Module_Sssd.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.ProxyPass]
+file_filter = locale/<lang>/server-manager/NethServer_Module_ProxyPass.php
+source_file = locale/en/server-manager/NethServer_Module_ProxyPass.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
