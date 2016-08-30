@@ -92,6 +92,11 @@ for D in locale/*; do
       install -m 0644 -D $LD/jquery.ui.datepicker-${lang}.js %{buildroot}/usr/share/nethesis/nethserver-manager/js/jquery.ui.datepicker-${lang}.js
       echo "/usr/share/nethesis/nethserver-manager/js/jquery.ui.datepicker-${lang}.js" >> ${lang}.lang
    fi
+
+   if [ -f "$D/datatable.json" ]; then
+      install -m 0644 -D $D/datatable.json %{buildroot}/usr/share/nethesis/nethserver-manager/js/datatable-${L/_/-}.json
+      echo "/usr/share/nethesis/nethserver-manager/js/datatable-${L/_/-}.json" >> ${lang}.lang
+   fi
 done
 
 %package en
