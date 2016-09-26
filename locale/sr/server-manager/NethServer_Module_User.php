@@ -45,3 +45,4 @@ $L['user-unlock_success'] = 'Корисник "${1}" је откључан';
 $L['username_label'] = 'Корисничко име'; 
 $L['valid_platform,user-create,user-length,1'] = 'Име је предуго: ${reason}';
 $L['user_exists'] = 'Корисник већ постоји';
+$L['setPassword_label'] = 'Подеси лозинку';

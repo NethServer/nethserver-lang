@@ -11,7 +11,7 @@ $L['Provider_none_label'] = 'Aucun (Désactivé)';
 $L['Provider_ldap_label'] = 'LDAP';
 $L['Provider_ad_label'] = 'Active Directory';
 $L['AdDns_label'] = 'Adresse IP du serveur DNS';
-$L['LdapUri_label'] = 'Server URI';
+$L['LdapUri_label'] = 'Server IP address';
 $L['BindProvider_label'] = 'Bind';
 
 $L['login_label'] = 'Nom d\'utilisateur privilégié ';

@@ -10,7 +10,7 @@ $L['Provider_none_label'] = 'Ninguno (desactivado)';
 $L['Provider_ldap_label'] = 'LDAP';
 $L['Provider_ad_label'] = 'Directorio Activo';
 $L['AdDns_label'] = 'Dirección IP del servidor DNS';
-$L['LdapUri_label'] = 'Servidor URI';
+$L['LdapUri_label'] = 'Dirección IP del servidor';
 $L['BindProvider_label'] = 'Enlace';
 
 $L['login_label'] = 'Nombre de usuario con privilegios';

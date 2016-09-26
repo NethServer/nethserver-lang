@@ -34,6 +34,10 @@ $L['Service_key_exists_message'] = 'Το αναγνωριστικό του δι�
 $L['Services_CreateService_label'] = 'Δημιουργία υπηρεσίας';
 $L['Services_update_label'] = 'Επεξεργασία υπηρεσίας "${0}"';
 $L['Services_Title'] = 'Υπηρεσίες';
+$L['Times_Title'] = 'Time conditions';
+$L['Times_create_label'] = 'Create time condition';
+$L['Times_update_label'] = 'Edit time condition "${0}"';
+$L['Times_CreateTime_label'] = 'Create time condition';
 $L['tcp_label'] = 'TCP';
 $L['tcpudp_label'] = 'TCP και UDP';
 $L['udp_label'] = 'UDP';
@@ -52,6 +56,7 @@ $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Δεν ήτα
 $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Δεν ήταν δυνατή η διαγραφή του ${2}. H εμβέλεια IP χρησιμοποιείται σε κανόνες του τοίχου προστασίας';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Δεν ήταν δυνατή η διαγραφή του ${2}. Είναι το τελευταίο μέλος της ομάδας φορέων ${${reason}}.';
 $L['valid_platform,fwobject-zone-delete,fwzone-referenced,3'] = 'Could not delete ${2}: it is used by network services';
+$L['valid_platform,fwobject-time-delete,fwobject-referenced,3'] = 'Could not delete ${2}: the time condition is used by firewall rules';
 $L['valid_iprange_outofbounds'] = 'Η IP έναρξης θα πρέπει να είναι μικρότερη από την IP λήξης';
 
 $L['Cidr_Title'] = 'Υποδίκτυα CIDR';
@@ -70,3 +75,17 @@ $L['IpRange_update_label'] = 'Ανανέωση εμβέλειας IP';
 $L['IpRange_key_exists_message'] = 'Ένα αντικείμενο με το ίδιο όνομα υπάρχει ήδη μέσα στην βάση φορέων';
 $L['IpRange_CreateIpRange_label'] = 'Δημιουργία εμβέλειας IP';
 $L['IpRangeKey_label'] = 'Εμβέλεια IP';
+
+$L['TimesKey_label'] = 'Condition name';
+$L['TimeStart_label'] = 'Time start';
+$L['TimeStop_label'] = 'Time stop';
+$L['WeekDays_label'] = 'Days of the week';
+$L['TimeStop_compare_TimeStart_message'] = 'Value must be greater than "Time start" (${0})';
+
+$L['WeekDay_Sun_label'] = 'Sunday';
+$L['WeekDay_Mon_label'] = 'Monday';
+$L['WeekDay_Tue_label'] = 'Tuesday';
+$L['WeekDay_Wed_label'] = 'Wednesday';
+$L['WeekDay_Thu_label'] = 'Thursday';
+$L['WeekDay_Fri_label'] = 'Friday';
+$L['WeekDay_Sat_label'] = 'Saturday';

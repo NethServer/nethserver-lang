@@ -3,7 +3,7 @@
 /* NethServer_Module_FirewallRules translation, language: en */
 
 $L['FirewallRules_Description'] = 'Διαχειριστείτε τους κανόνες του τείχους προστασίας';
-$L['FirewallRules_Tags'] = 'τοίχος-προστασίας κανόνας πολιτική';
+$L['FirewallRules_Tags'] = 'firewall rule policy traffic shaping';
 $L['FirewallRules_Title'] = 'Κανόνες τείχους προστασίας';
 
 $L['general_header'] = 'Γενικά';
@@ -29,6 +29,7 @@ $L['ActionDrop_label'] = 'Πτώση';
 $L['Source_label'] = 'Πηγή';
 $L['Destination_label'] = 'Προορισμός';
 $L['Service_label'] = 'Υπηρεσία';
+$L['Time_label'] = 'Time condition';
 $L['PickSource_label'] = 'Διάλεξε ένα...';
 $L['PickDestination_label'] = 'Διάλεξε ένα...';
 $L['PickService_label'] = 'Διάλεξε ένα...';
@@ -37,6 +38,7 @@ $L['LogType_label'] = 'Να γίνει εγγραφή στο αρχείο κατ
 $L['PickObject_SrcRaw_header'] = 'Επιλέξτε την πηγή πακέτου για τον κανόνα  "${RuleId}"';
 $L['PickObject_DstRaw_header'] = 'Επιλέξτε τον προορισμό πακέτου για τον κανόνα  "${RuleId}"';
 $L['PickObject_ServiceRaw_header'] = 'Επιλέξτε το πρωτόκολλο υπηρεσία για τον κανόνα "${RuleId}"';
+$L['PickObject_TimeRaw_header'] = 'Choose the time condition for rule "${RuleId}"';
 
 $L['Create_last_label'] = 'Δημιουργία κανόνα στο τέλος';
 $L['Create_first_label'] = 'Δημιουργία κανόνα στην κορυφή';
@@ -49,7 +51,6 @@ $L['EditService_label'] = 'Edit service';
 $L['Copy_label'] = 'Αντιγραφή';
 $L['Delete_label'] = 'Διαγραφή';
 $L['Index_header'] = 'Κανόνες τείχους προστασίας';
-$L['RuleText_label'] = 'Από ${Src} σε ${Dst}, υπηρεσία ${Service}';
 $L['RuleId_label'] = '#${0}';
 $L['SearchPlaceholder_label'] = 'Αναζήτηση...';
 
@@ -59,18 +60,18 @@ $L['HostGroups_create'] = 'Δημιουργία ομάδας φορέων "${0}"
 $L['Hosts_create'] = 'Δημιουργία φορέα "${0}"';
 $L['Zones_create'] = 'Δημιουργία ζώνης "${0}"';
 $L['Services_create'] = 'Create service object "${0}"';
+$L['Time_create'] = 'Create time condition "${0}"';
 $L['IpRange_create'] = 'Δημιουργία εμβέλειας IP "${0}"';
 $L['Cidr_create'] = 'Δημιουργία δικτύου CIDR "${0}"';
 
 $L['A_new_rule_label'] = "Νέος κανόνας";
-$L['Any_label'] = 'Οποιοσδήποτε';
-$L['Fw_label'] = 'Firewall';
 $L['NoRulesDefined_label'] = 'Δεν βρέθηκαν κανόνες. Δημιουργία πρώτου κανόνα τώρα!';
 
 $L['any_service_label'] = 'οποιαδήποτε υπηρεσία';
 $L['any_src_dst_label'] = 'Οποιοσδήποτε φορέας';
-$L['all_label'] = 'Οποιοσδήποτε';
-$L['fw_label'] = 'firewall';
+$L['Time_always'] = 'Always';
+$L['Type_any_label'] = 'any';
+$L['Type_fw_label'] = 'firewall';
 $L['host_label'] = 'φορέας';
 $L['zone_label'] = 'ζώνη';
 $L['iprange_label'] = 'Εμβέλεια IP';
@@ -88,7 +89,9 @@ $L['FirewallObject_role_Title'] = 'Ρόλος ${key}';
 $L['FirewallObject_zone_Title'] = 'Ζώνη ${key}';
 $L['FirewallObject_host-group_Title'] = 'Ομάδα φορέα ${key}';
 $L['FirewallObject_fwservice_Title'] = '${key} - service object';
+$L['FirewallObject_time_Title'] = '${key} - time condition';
 $L['FirewallObject_service_Title'] = '${key} - network service';
+$L['FirewallObject_ndpi_Title'] = '${key} - DPI protocol';
 $L['FirewallObject_iprange_Title'] = 'Εμβέλεια IP ${key}';
 $L['FirewallObject_cidr_Title'] = 'Δίκτυο CIDR ${key}';
 
@@ -98,11 +101,18 @@ $L['ActionRouteIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Ιστορικό';
 
 $L['ShowAction_label'] = 'Εμφάνιση';
-$L['ShowAll_label'] = 'Όλα';
 $L['ShowRules_label'] = 'Τείχος προστασίας';
 $L['ShowRoutes_label'] = 'Πολιτική δρομολόγησης';
 $L['ShowServices_label'] = 'Network services';
+$L['ShowTrafficShaping_label'] = 'Traffic shaping';
+
+$L['ActionPriorityHigh_label'] = 'High priority';
+$L['ActionPriorityLow_label'] = 'Low priority';
+$L['ActionPrioLo_label'] = 'Lo-Prio';
+$L['ActionPrioHi_label'] = 'Hi-Prio';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Οι κανόνες δρομολόγησης δεν επιτρέπουν την κόκκινη ζώνη να τεθεί ως Πηγή.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Οι κανόνες δρομολόγησης επιτρέπουν μόνο τους ακόλουθους τύπους Προορισμών: ζώνη, φορέας, εύρος διευθύνσεων IP, cidr, κόκκινο.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Selecting "local service" requires the "firewall" destination.';
+$L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Traffic shaping rules do not allow the red zone to be set as source';
+$L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Traffic shaping rules allow only the following Destination types: zone, host, IP range, CIDR, red';

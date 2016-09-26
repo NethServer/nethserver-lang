@@ -6,5 +6,5 @@ $L['MailQuota_Description'] = 'Display mail quota';
 $L['Key_label'] = 'Uživatel';
 $L['size_label'] = 'Velikost';
 $L['max_size_label'] = 'Max. size';
-$L['percentage_label'] = 'Usage percentage';
+$L['percentage_label'] = 'Procento využití';
 $L['msg_number_label'] = 'Počet zpráv';

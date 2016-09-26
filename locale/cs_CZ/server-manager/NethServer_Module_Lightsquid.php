@@ -7,5 +7,5 @@ $L['Lightsquid_Title'] = 'Web proxy stats';
 $L['Settings_title'] = 'Nastavení';
 $L['Settings_label'] = 'Nastavení';
 $L['Lang_label'] = 'Jazyk';
-$L['BigFileLimit_label'] = 'Report files bigger than (MB)';
+$L['BigFileLimit_label'] = 'Hlásit soubory větší než (MB)';
 $L['PerUserTrafficLimit_label'] = 'Report if a user exceed traffic day limit (MB)';

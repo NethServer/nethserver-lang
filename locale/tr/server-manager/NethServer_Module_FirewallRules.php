@@ -3,7 +3,7 @@
 /* NethServer_Module_FirewallRules translation, language: en */
 
 $L['FirewallRules_Description'] = 'Güvenlik duvarı kuralları yönetimi';
-$L['FirewallRules_Tags'] = 'güvenlik duvarı ilkesi';
+$L['FirewallRules_Tags'] = 'firewall rule policy traffic shaping güvenlik duvarı ilke trafik kısıtlama';
 $L['FirewallRules_Title'] = 'Güvenlik duvarı kuralları';
 
 $L['general_header'] = 'Genel';
@@ -29,6 +29,7 @@ $L['ActionDrop_label'] = 'Düşür';
 $L['Source_label'] = 'Kaynak';
 $L['Destination_label'] = 'Hedef';
 $L['Service_label'] = 'Hizmet';
+$L['Time_label'] = 'Süre koşulu';
 $L['PickSource_label'] = 'Birini seçin...';
 $L['PickDestination_label'] = 'Birini seçin...';
 $L['PickService_label'] = 'Birini seçin...';
@@ -37,6 +38,7 @@ $L['LogType_label'] = 'Bu kural uyuşursa günlük dosyasına yazılsın';
 $L['PickObject_SrcRaw_header'] = '"${RuleId}" kuralı için paket kaynağını seçin';
 $L['PickObject_DstRaw_header'] = '"${RuleId}" kuralı için paket hedefini seçin';
 $L['PickObject_ServiceRaw_header'] = '"${RuleId}" kuralı için hizmet iletişim kuralını seçin';
+$L['PickObject_TimeRaw_header'] = '"${RuleId}" kuralı için süre koşulunu seçin';
 
 $L['Create_last_label'] = 'En alta kural ekle';
 $L['Create_first_label'] = 'En üste kural ekle';
@@ -49,7 +51,6 @@ $L['EditService_label'] = 'Hizmeti düzenle';
 $L['Copy_label'] = 'Kopyala';
 $L['Delete_label'] = 'Sil';
 $L['Index_header'] = 'Güvenlik duvarı kuralları';
-$L['RuleText_label'] = '${Src} kaynağından ${Dst} hedefine ${Service} hizmeti';
 $L['RuleId_label'] = '#${0}';
 $L['SearchPlaceholder_label'] = 'Arama...';
 
@@ -59,18 +60,18 @@ $L['HostGroups_create'] = '"${0}" sunucu grubunu ekle';
 $L['Hosts_create'] = '"${0}" sunucusunu ekle';
 $L['Zones_create'] = '"${0}" bölgesini ekle';
 $L['Services_create'] = '"${0}" hizmet nesnesini ekle';
+$L['Time_create'] = '"${0}" süre koşulunu ekle';
 $L['IpRange_create'] = '"${0}" IP aralığını ekle';
 $L['Cidr_create'] = '"${0}" CIDR ağını ekle';
 
 $L['A_new_rule_label'] = "Kural ekle";
-$L['Any_label'] = 'Tümü';
-$L['Fw_label'] = 'Güvenlik duvarı';
 $L['NoRulesDefined_label'] = 'Henüz bir kural tanımlanmamış. Yeni bir kural ekleyebilirsiniz!';
 
 $L['any_service_label'] = 'tüm hizmetler';
 $L['any_src_dst_label'] = 'tüm sunucular';
-$L['all_label'] = 'tümü';
-$L['fw_label'] = 'güvenlik duvarı';
+$L['Time_always'] = 'Her zaman';
+$L['Type_any_label'] = 'tümü';
+$L['Type_fw_label'] = 'güvenlik duvarı';
 $L['host_label'] = 'sunucu';
 $L['zone_label'] = 'bölge';
 $L['iprange_label'] = 'IP aralığı';
@@ -88,7 +89,9 @@ $L['FirewallObject_role_Title'] = 'Rol ${key}';
 $L['FirewallObject_zone_Title'] = 'Bölge ${key}';
 $L['FirewallObject_host-group_Title'] = 'Sunucu grubu ${key}';
 $L['FirewallObject_fwservice_Title'] = '${key} - hizmet nesnesi';
+$L['FirewallObject_time_Title'] = '${key} - süre koşulu';
 $L['FirewallObject_service_Title'] = '${key} - ağ hizmeti';
+$L['FirewallObject_ndpi_Title'] = '${key} - DPI iletişim kuralı';
 $L['FirewallObject_iprange_Title'] = 'IP aralığı ${key}';
 $L['FirewallObject_cidr_Title'] = 'CIDR ağı ${key}';
 
@@ -98,11 +101,18 @@ $L['ActionRouteIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Günlük';
 
 $L['ShowAction_label'] = 'Görüntüle';
-$L['ShowAll_label'] = 'Tümü';
 $L['ShowRules_label'] = 'Güvenlik Duvarı';
 $L['ShowRoutes_label'] = 'İlke yöneltmesi';
 $L['ShowServices_label'] = 'Ağ hizmetleri';
+$L['ShowTrafficShaping_label'] = 'Trafik kısıtlama';
+
+$L['ActionPriorityHigh_label'] = 'Yüksek öncelikli';
+$L['ActionPriorityLow_label'] = 'Düşük öncelikli';
+$L['ActionPrioLo_label'] = 'Düş-Önc';
+$L['ActionPrioHi_label'] = 'Yük-Önc';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Yöneltici kuralları kırmızı bölgenin kaynak olarak kullanılmasına izin vermiyor.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Yöneltici kuralları yalnız şu hedef türlerinin kullanılmasına izin veriyor: zone, host, ip range, cidr, red.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = '"Yerel hizmet" olarak seçildiğinde hedef "Güvenlik duvarı" olmalıdır.';
+$L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Trafik kısıtlama kuralları kırmızı bölgenin kaynak olarak kullanılmasına izin vermiyor';
+$L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Trafik kısıtlama kuralları yalnız şu hedef türlerinin kullanılmasına izin veriyor: zone, host, ip range, cidr, red.';

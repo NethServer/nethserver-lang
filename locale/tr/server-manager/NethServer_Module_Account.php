@@ -10,7 +10,7 @@ $L['Provider_none_label'] = 'Yok (Devre Dışı)';
 $L['Provider_ldap_label'] = 'LDAP';
 $L['Provider_ad_label'] = 'Aktif Dizin';
 $L['AdDns_label'] = 'DNS sunucu IP adresi';
-$L['LdapUri_label'] = 'Sunucu İnternet Adresi';
+$L['LdapUri_label'] = 'Sunucu IP adresi';
 $L['BindProvider_label'] = 'Bind';
 
 $L['login_label'] = 'Ayrıcalıklı kullanıcı adı';

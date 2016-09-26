@@ -7,6 +7,6 @@ $L['Welcome_Title'] = 'Vítejte';
 $L['Welcome_Body'] = 'ATTENTION: this is an ALPHA relase! NethServer is based on SME Server and CentOS. See official site for further details.';
 $L['License'] = 'Licence';
 $L['Links'] = 'Odkazy';
-$L['official_site'] = 'NethServer official site';
+$L['official_site'] = 'Stránky projektu NethServer';
 $L['technical_documentation'] = 'Technická dokumentace';
  

@@ -45,3 +45,4 @@ $L['user-unlock_success'] = '"${1}" kullanıcısının kilidi açıldı';
 $L['username_label'] = 'Kullanıcı adı'; 
 $L['valid_platform,user-create,user-length,1'] = 'Ad çok uzun: ${reason}';
 $L['user_exists'] = 'Kullanıcı zaten var';
+$L['setPassword_label'] = 'Parolayı ayarla';

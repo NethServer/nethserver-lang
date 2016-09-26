@@ -34,6 +34,10 @@ $L['Service_key_exists_message'] = 'Service identificatie is al in gebruik';
 $L['Services_CreateService_label'] = 'Creëer service';
 $L['Services_update_label'] = 'Service "${0}" bewerken';
 $L['Services_Title'] = 'Services';
+$L['Times_Title'] = 'Time conditions';
+$L['Times_create_label'] = 'Create time condition';
+$L['Times_update_label'] = 'Edit time condition "${0}"';
+$L['Times_CreateTime_label'] = 'Create time condition';
 $L['tcp_label'] = 'TCP';
 $L['tcpudp_label'] = 'TCP en UDP';
 $L['udp_label'] = 'UDP';
@@ -52,6 +56,7 @@ $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Kan ${2} niet
 $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Kan ${2} niet verwijderen. De IP range wordt gebruikt in firewall regels.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Kan ${2} niet verwijderen: het is het laatste lid van host groep ${${reason}}.';
 $L['valid_platform,fwobject-zone-delete,fwzone-referenced,3'] = 'Could not delete ${2}: it is used by network services';
+$L['valid_platform,fwobject-time-delete,fwobject-referenced,3'] = 'Could not delete ${2}: the time condition is used by firewall rules';
 $L['valid_iprange_outofbounds'] = 'Het begin IP adres moet lager zijn dan het eind IP adres';
 
 $L['Cidr_Title'] = 'CIDR subnetten';
@@ -70,3 +75,17 @@ $L['IpRange_update_label'] = 'Pas IP bereik aan';
 $L['IpRange_key_exists_message'] = 'Een object met dezelfde naam bestaat al in de host database';
 $L['IpRange_CreateIpRange_label'] = 'Creëer IP-adressen bereik';
 $L['IpRangeKey_label'] = 'IP bereik';
+
+$L['TimesKey_label'] = 'Condition name';
+$L['TimeStart_label'] = 'Time start';
+$L['TimeStop_label'] = 'Time stop';
+$L['WeekDays_label'] = 'Days of the week';
+$L['TimeStop_compare_TimeStart_message'] = 'Value must be greater than "Time start" (${0})';
+
+$L['WeekDay_Sun_label'] = 'Sunday';
+$L['WeekDay_Mon_label'] = 'Monday';
+$L['WeekDay_Tue_label'] = 'Tuesday';
+$L['WeekDay_Wed_label'] = 'Wednesday';
+$L['WeekDay_Thu_label'] = 'Thursday';
+$L['WeekDay_Fri_label'] = 'Friday';
+$L['WeekDay_Sat_label'] = 'Saturday';

@@ -10,7 +10,7 @@ $L['Provider_none_label'] = 'Ништа (онемогућено)';
 $L['Provider_ldap_label'] = 'ЛДАП';
 $L['Provider_ad_label'] = 'Активни директоријум';
 $L['AdDns_label'] = 'ИП адреса ДНС сервера';
-$L['LdapUri_label'] = 'Линк сервера';
+$L['LdapUri_label'] = 'ИП адреса сервера';
 $L['BindProvider_label'] = 'Везати';
 
 $L['login_label'] = 'Привилеговано корисничко име';

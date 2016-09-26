@@ -2,13 +2,13 @@
 
 $L['Access_label'] = 'Yalnız yerel ağ';
 $L['Account_label'] = 'Hedefler';
-$L['Pseudonym_create_header'] = 'Posta kısaltması ekle';
+$L['Pseudonym_create_header'] = 'Posta takma adı ekle';
 $L['Current_label'] = 'Geçerli seçim'; 
 $L['Description_label'] = 'Açıklama'; 
-$L['Pseudonym_update_header'] = '`${0}` posta kısaltmasını düzenle';
+$L['Pseudonym_update_header'] = '`${0}` posta takma adını düzenle';
 $L['Flag_label'] = 'Öznitelikler'; 
 $L['Groups_label'] = 'Gruplar'; 
-$L['Key_label'] = 'Kısaltma';
+$L['Key_label'] = 'Takma ad';
 $L['Users_label'] = 'Kullanıcılar'; 
 $L['domainAddress_label'] = 'Etki alanı'; 
 $L['localAddress_label'] = 'E-posta adresi'; 

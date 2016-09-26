@@ -45,3 +45,4 @@ $L['user-unlock_success'] = 'O utilizador "${1}" está bloqueado';
 $L['username_label'] = 'Nome do utilizador'; 
 $L['valid_platform,user-create,user-length,1'] = 'Nome demasiado longo: ${reason}';
 $L['user_exists'] = 'The user already exists';
+$L['setPassword_label'] = 'Set password';

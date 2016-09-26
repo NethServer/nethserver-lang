@@ -45,3 +45,4 @@ $L['user-unlock_success'] = 'Ο χρήστης "${1}" έχει κλειδωθε�
 $L['username_label'] = 'Όνομα χρήστη'; 
 $L['valid_platform,user-create,user-length,1'] = 'Το όνομα είναι πολύ μεγάλο: ${reason}';
 $L['user_exists'] = 'The user already exists';
+$L['setPassword_label'] = 'Set password';

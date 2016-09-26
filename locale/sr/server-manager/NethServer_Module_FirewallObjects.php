@@ -34,6 +34,10 @@ $L['Service_key_exists_message'] = 'Идентификатор сервиса ј
 $L['Services_CreateService_label'] = 'Креирај сервис';
 $L['Services_update_label'] = 'Измени сервис "${0}"';
 $L['Services_Title'] = 'Сервиси';
+$L['Times_Title'] = 'Временски услови';
+$L['Times_create_label'] = 'Креирајте временски услов';
+$L['Times_update_label'] = 'Измените временски услов "${0}"';
+$L['Times_CreateTime_label'] = 'Креирајте временски услов';
 $L['tcp_label'] = 'ТЦП';
 $L['tcpudp_label'] = 'ТЦП и УДП';
 $L['udp_label'] = 'УДП';
@@ -52,6 +56,7 @@ $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Не могу
 $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Не могу обрисати ${2}. ИП опсег се користи у правилима заштитног зида.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Не могу обрисати ${2}: то је последњи члан групе домаћина ${${reason}}.';
 $L['valid_platform,fwobject-zone-delete,fwzone-referenced,3'] = 'Не могу обрисати ${2}: користи се од стране мрежних сервиса';
+$L['valid_platform,fwobject-time-delete,fwobject-referenced,3'] = 'Не могу обрисати ${2}: временски услов се користи у правилима заштитног зида.';
 $L['valid_iprange_outofbounds'] = 'Почетни ИП мора бити мањи од крајњег ИП-а';
 
 $L['Cidr_Title'] = 'ЦИДР подмреже';
@@ -70,3 +75,17 @@ $L['IpRange_update_label'] = 'Ажурирај ИП опсег';
 $L['IpRange_key_exists_message'] = 'Објекат са истим именом већ постоји унутар базе домаћина';
 $L['IpRange_CreateIpRange_label'] = 'Креирај ИП опсег';
 $L['IpRangeKey_label'] = 'ИП опсег';
+
+$L['TimesKey_label'] = 'Име услова';
+$L['TimeStart_label'] = 'Време почетка';
+$L['TimeStop_label'] = 'Време краја';
+$L['WeekDays_label'] = 'Дани у недељи';
+$L['TimeStop_compare_TimeStart_message'] = 'Вредност мора битивећа од "Време почетка" (${0})';
+
+$L['WeekDay_Sun_label'] = 'Недеља';
+$L['WeekDay_Mon_label'] = 'Понедељак';
+$L['WeekDay_Tue_label'] = 'Уторак';
+$L['WeekDay_Wed_label'] = 'Среда';
+$L['WeekDay_Thu_label'] = 'Четвртак';
+$L['WeekDay_Fri_label'] = 'Петак';
+$L['WeekDay_Sat_label'] = 'Субота';

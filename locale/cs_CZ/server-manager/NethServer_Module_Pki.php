@@ -17,35 +17,35 @@ $L['valid_hostname_instance'] = '"${0}" is an invalid host name';
 $L['valid_x509_field'] = 'Nemůže obsahovat znaky „,“ (čárka) a „/“ (dopředné lomítko)';
 
 $L['Generate_label'] = 'Edit self-signed certificate';
-$L['Upload_label'] = 'Upload certificate';
-$L['GenerateLe_label'] = 'Request Let\'s Encrypt certificate';
+$L['Upload_label'] = 'Nahrát certifikát';
+$L['GenerateLe_label'] = 'Zažádat o certifikát od autority Let\'s Encrypt';
 
-$L['GenerateLe_Header'] = 'Request a new Let\'s Encrypt certificate';
+$L['GenerateLe_Header'] = 'Zažádat o nový certifikát od autority Let\'s Encrypt';
 $L['Generate_Header'] = 'Edit self-signed certificate';
-$L['Upload_Header'] = 'Upload a certificate file to the server';
+$L['Upload_Header'] = 'Nahrát soubor s certifikátem na server';
 
-$L['Show_label'] = 'Show';
-$L['Show_header'] = 'Show certificate ${0}';
-$L['SetDefault_label'] = 'Set as default';
+$L['Show_label'] = 'Zobrazit';
+$L['Show_header'] = 'Zobrazit certifikát ${0}';
+$L['SetDefault_label'] = 'Nastavit jako výchozí';
 
-$L['Key_label'] = 'Name';
-$L['Issuer_label'] = 'Issuer';
-$L['ExpireDate_label'] = 'Expires';
-$L['Actions_label'] = 'Actions';
-$L['Default_label'] = 'Default';
-$L['Confirm_label'] = 'Confirm';
+$L['Key_label'] = 'Název';
+$L['Issuer_label'] = 'Vydavatel';
+$L['ExpireDate_label'] = 'Platnost končí';
+$L['Actions_label'] = 'Akce';
+$L['Default_label'] = 'Výchozí';
+$L['Confirm_label'] = 'Potvrdit';
 $L['default_cert_label'] = 'Set selected certificate as default?';
-$L['certificate_label'] = 'Certificate';
+$L['certificate_label'] = 'Certifikát';
 
 $L['LetsEncryptMail_label'] = 'Notification email';
-$L['LetsEncryptDomains_label'] = 'Domains';
+$L['LetsEncryptDomains_label'] = 'Domény';
 
-$L['UploadCrt_label'] = 'Certificate';
-$L['UploadKey_label'] = 'Private key';
+$L['UploadCrt_label'] = 'Certifikát';
+$L['UploadKey_label'] = 'Soukromá část klíče';
 $L['UploadChain_label'] = 'Chain file (optional)';
-$L['UploadName_label'] = 'Name';
+$L['UploadName_label'] = 'Název';
 
-$L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 certificate';
-$L['valid_platform,rsa-key,rsa-key,1'] = 'Private RSA key';
+$L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 certifikát';
+$L['valid_platform,rsa-key,rsa-key,1'] = 'Soukromá část RSA klíče';
 
-$L['vaild_UploadName_file_exists'] = 'The file already exists';
+$L['vaild_UploadName_file_exists'] = 'Soubor už existuje';

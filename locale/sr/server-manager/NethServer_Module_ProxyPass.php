@@ -1,18 +1,18 @@
 <?php
 
-$L['ProxyPass_Description'] = 'Configure reverse proxy';
-$L['ProxyPass_Tags'] = 'reverse proxy proxypass proxy pass';
-$L['ProxyPass_Title'] = 'Reverse proxy';
-$L['Key_label'] = 'Name';
-$L['Name_label'] = 'Name';
-$L['Target_label'] = 'Target URL';
-$L['Protocol_label'] = 'Protocols';
-$L['HTTP_label'] = 'Require SSL encrypted connection';
-$L['HTTPS_label'] = 'HTTPS';
-$L['ValidFrom_label'] = 'Access from CIDR networks';
-$L['Update proxy pass `${0}`'] = 'Update reverse proxy `${0}`';
-$L['Create a new proxy pass'] = 'Create a new reverse proxy path';
-$L['Invalid_Protocol'] = 'One protocol must be set at least';
-$L['Invalid_Target'] = 'Invalid URL syntax';
-$L['ValidFrom_validator'] = 'One or more comma-separated networks in CIDR notation';
-$L['Name_Already_Exists'] = 'The given name already exists';
+$L['ProxyPass_Description'] = 'Подеси реверзни прокси';
+$L['ProxyPass_Tags'] = 'реверзни прокси проксипас прокси пролаз';
+$L['ProxyPass_Title'] = 'Реверзни прокси';
+$L['Key_label'] = 'Име';
+$L['Name_label'] = 'Име';
+$L['Target_label'] = 'Циљани УРЛ';
+$L['Protocol_label'] = 'Протоколи';
+$L['HTTP_label'] = 'Захтевај конекцију са ССЛ енкрипцијом';
+$L['HTTPS_label'] = 'ХТТПС';
+$L['ValidFrom_label'] = 'Приступи са ЦИДР мрежа';
+$L['Update proxy pass `${0}`'] = 'Ажурирај реверзни прокси `${0}`';
+$L['Create a new proxy pass'] = 'Креирај нову реверзну прокси путању';
+$L['Invalid_Protocol'] = 'Мора бити подешен барем један протокол';
+$L['Invalid_Target'] = 'Неисправна УРЛ синтакса';
+$L['ValidFrom_validator'] = 'Једна или више одвојене-зарезом мреже у ЦИДР обележавању';
+$L['Name_Already_Exists'] = 'Дато име већ постоји';

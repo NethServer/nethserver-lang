@@ -34,6 +34,10 @@ $L['Service_key_exists_message'] = 'Идентификатор службы уж
 $L['Services_CreateService_label'] = 'Создать службу';
 $L['Services_update_label'] = 'Изменить службу "${0}"';
 $L['Services_Title'] = 'Службы';
+$L['Times_Title'] = 'Time conditions';
+$L['Times_create_label'] = 'Create time condition';
+$L['Times_update_label'] = 'Edit time condition "${0}"';
+$L['Times_CreateTime_label'] = 'Create time condition';
 $L['tcp_label'] = 'TCP';
 $L['tcpudp_label'] = 'TCP и UDP';
 $L['udp_label'] = 'UDP';
@@ -52,6 +56,7 @@ $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Невозм�
 $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Невозможно удалить ${2}. Диапазон IP используется правилами файрвола.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Невозможно удалить ${2}: это последний член группы хостов ${${reason}}.';
 $L['valid_platform,fwobject-zone-delete,fwzone-referenced,3'] = 'Could not delete ${2}: it is used by network services';
+$L['valid_platform,fwobject-time-delete,fwobject-referenced,3'] = 'Could not delete ${2}: the time condition is used by firewall rules';
 $L['valid_iprange_outofbounds'] = 'Первый адрес должен быть меньше последнего.';
 
 $L['Cidr_Title'] = 'CIDR подсети';
@@ -70,3 +75,17 @@ $L['IpRange_update_label'] = 'Обновить IP диапазон';
 $L['IpRange_key_exists_message'] = 'Объект с таким именем уже существует в базе данных хостов';
 $L['IpRange_CreateIpRange_label'] = 'Создать IP диапазон';
 $L['IpRangeKey_label'] = 'Диапазон IP';
+
+$L['TimesKey_label'] = 'Condition name';
+$L['TimeStart_label'] = 'Time start';
+$L['TimeStop_label'] = 'Time stop';
+$L['WeekDays_label'] = 'Days of the week';
+$L['TimeStop_compare_TimeStart_message'] = 'Value must be greater than "Time start" (${0})';
+
+$L['WeekDay_Sun_label'] = 'Sunday';
+$L['WeekDay_Mon_label'] = 'Monday';
+$L['WeekDay_Tue_label'] = 'Tuesday';
+$L['WeekDay_Wed_label'] = 'Wednesday';
+$L['WeekDay_Thu_label'] = 'Thursday';
+$L['WeekDay_Fri_label'] = 'Friday';
+$L['WeekDay_Sat_label'] = 'Saturday';

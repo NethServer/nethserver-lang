@@ -16,6 +16,6 @@ $L['incremental'] = 'Инкрементална';
 $L['full'] = 'Пуна';
 $L['SUCCESS'] = 'УСПЕШНО';
 $L['ERROR'] = 'ГРЕШКА';
-$L['START'] = 'START';
+$L['START'] = 'Старт';
 $L['backup_not_configured'] = 'Резервна копија није подешена';
 $L['last_backup'] = 'Последња резервна копија';
