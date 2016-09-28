@@ -52,4 +52,4 @@ $L['salifetime_label'] = 'Anahtar ömrü (saniye)';
 $L['connection_label'] = 'Bağlantı';
 $L['Key_label'] = 'Tünel';
 $L['auth_label'] = 'Kimlik doğrulama';
-$L['valid_at_prefix_identifier'] = 'Bir sunucu adı "a" ya da IP adresi ile başlamalıdır';
+

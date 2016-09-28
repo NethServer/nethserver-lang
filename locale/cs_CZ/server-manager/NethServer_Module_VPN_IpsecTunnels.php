@@ -52,4 +52,4 @@ $L['salifetime_label'] = 'Key life time (seconds)';
 $L['connection_label'] = 'Spojení';
 $L['Key_label'] = 'Tunel';
 $L['auth_label'] = 'Ověřování';
-$L['valid_at_prefix_identifier'] = 'An host name prepended with "@", or IP address';
+

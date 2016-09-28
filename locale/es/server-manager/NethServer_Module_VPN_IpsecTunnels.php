@@ -52,4 +52,4 @@ $L['salifetime_label'] = 'Tiempo de vida de claves (segundos)';
 $L['connection_label'] = 'Conexión';
 $L['Key_label'] = 'Túnel';
 $L['auth_label'] = 'Autenticación';
-$L['valid_at_prefix_identifier'] = 'Un nombre de host antepuesto con "@", o la dirección IP';
+

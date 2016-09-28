@@ -11,7 +11,7 @@ $L['left_label'] = 'Локална ИП';
 $L['leftsubnets_label'] = 'Локалне подмреже';
 $L['leftnexthop_label'] = 'левиследећискок';
 $L['leftid_label'] = 'Локални идентификатор';
-$L['right_label'] = 'Удањена ИП';
+$L['right_label'] = 'Удаљена ИП';
 $L['rightsubnets_label'] = 'Удаљене подмреже';
 $L['rightnexthop_label'] = 'десниследећискок';
 $L['rightid_label'] = 'Удаљени идентификатор';
@@ -52,4 +52,4 @@ $L['salifetime_label'] = 'Животни век кључа (секунде)';
 $L['connection_label'] = 'Конекција';
 $L['Key_label'] = 'Тунел';
 $L['auth_label'] = 'Аутентификација';
-$L['valid_at_prefix_identifier'] = 'Име домаћин са префиксом "@", или ИП адресом';
+

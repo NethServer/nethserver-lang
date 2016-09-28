@@ -2,15 +2,15 @@
 # This file is put in the public domain.
 # 
 # Translators:
-# Jose Gregorio Jimenez Sanchez <josegjimenez@gmail.com>, 2015
+# Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
 "POT-Creation-Date: 2015-10-08 15:44+0200\n"
-"PO-Revision-Date: 2015-10-08 18:18+0000\n"
-"Last-Translator: Jose Gregorio Jimenez Sanchez <josegjimenez@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/nethserver/nethserver/language/es/)\n"
+"PO-Revision-Date: 2015-10-08 14:13+0000\n"
+"Last-Translator: Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>, 2016\n"
+"Language-Team: Spanish (https://www.transifex.com/nethserver/teams/35834/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,4 +21,6 @@ msgstr ""
 msgid ""
 "Please access WebTop to change password for the admin user. Default password"
 " is: \"admin\""
-msgstr "Por favor, acceder al WebTop para cambiar la contraseña para el usuario admin. La contraseña por defecto es: \"admin\""
+msgstr ""
+"Por favor, acceder al WebTop para cambiar la contraseña para el usuario "
+"admin. La contraseña por defecto es: \"admin\""

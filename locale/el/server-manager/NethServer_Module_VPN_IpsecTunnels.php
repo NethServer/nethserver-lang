@@ -52,4 +52,4 @@ $L['salifetime_label'] = 'Ζωή κλειδιού (δευτερόλεπτα) ';
 $L['connection_label'] = 'Σύνδεση';
 $L['Key_label'] = 'Tunnel';
 $L['auth_label'] = 'Εξουσιοδότηση';
-$L['valid_at_prefix_identifier'] = 'Προστέθηκε το πρόθεμα "@", ή διεύθυνση IP στο όνομα ενός φορέα ';
+

@@ -9,7 +9,7 @@ $L['Services_Title'] = 'Služby';
 $L['status_label'] = 'Stav';
 $L['stopped_label'] = 'Zastaveno';
 $L['TCPPorts_label'] = 'TCP';
-$L['UDPPorts_label'] = ' ';
+$L['UDPPorts_label'] = 'UDP';
 
 $L['amavisd_Description'] = 'Mail virus and antispam scanner';
 $L['asterisk_Description'] = 'VoIP pobočková ústředna';

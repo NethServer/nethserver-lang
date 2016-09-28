@@ -1,18 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
 # This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Fajka József <senki75@gmail.com>, 2015
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nethserver\n"
+"Project-Id-Version: nethserver-samba 1.4.10-3-g5de0c94\n"
 "Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
 "POT-Creation-Date: 2015-02-11 18:22+0100\n"
-"PO-Revision-Date: 2015-11-09 12:11+0000\n"
-"Last-Translator: Fajka József <senki75@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/nethserver/nethserver/language/hu/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>, 2016\n"
+"Language-Team: Hungarian (https://www.transifex.com/nethserver/teams/35834/hu/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"

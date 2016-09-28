@@ -1,19 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
 # This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Vasco Castelo Branco, 2015
-# Vasco Castelo Branco, 2015
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nethserver\n"
+"Project-Id-Version: nethserver-directory 2.2.1-2-g7318ea4\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
 "POT-Creation-Date: 2015-05-19 16:55+0200\n"
-"PO-Revision-Date: 2015-07-23 21:29+0000\n"
-"Last-Translator: Vasco Castelo Branco\n"
-"Language-Team: Portuguese (http://www.transifex.com/nethserver/nethserver/language/pt/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>, 2016\n"
+"Language-Team: Portuguese (https://www.transifex.com/nethserver/teams/35834/pt/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -31,8 +30,12 @@ msgid ""
 msgid_plural ""
 "You have %s days left to change your password before your account will be "
 "blocked."
-msgstr[0] "Tem 1 dia para alterar a sua palavra-passe e evitar que a sua conta seja bloqueada"
-msgstr[1] "Tem %s dias para alterar a sua palavra-passe e evitar que a sua conta seja bloqueada"
+msgstr[0] ""
+"Tem 1 dia para alterar a sua palavra-passe e evitar que a sua conta seja "
+"bloqueada"
+msgstr[1] ""
+"Tem %s dias para alterar a sua palavra-passe e evitar que a sua conta seja "
+"bloqueada"
 
 #: root/etc/e-smith/templates/password-expired/en/20body:3
 msgid "Available methods to change your password:"
@@ -44,4 +47,6 @@ msgstr "Aceder ao interface web"
 
 #: root/etc/e-smith/templates/password-expired/en/template-end:3
 msgid "This message has been generated automatically, do not respond to it."
-msgstr "Esta mensagem foi gerada automaticamente, as respostas a esta mensagem não são monitorizadas."
+msgstr ""
+"Esta mensagem foi gerada automaticamente, as respostas a esta mensagem não "
+"são monitorizadas."

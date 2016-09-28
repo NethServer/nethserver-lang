@@ -52,4 +52,4 @@ $L['salifetime_label'] = 'Schlüssel-Gültigkeit in Sekunden';
 $L['connection_label'] = 'Verbindung';
 $L['Key_label'] = 'Tunnel';
 $L['auth_label'] = 'Authentifizierung';
-$L['valid_at_prefix_identifier'] = 'Ein Hostname beginnt mit "@", oder einer IP-Adresse';
+

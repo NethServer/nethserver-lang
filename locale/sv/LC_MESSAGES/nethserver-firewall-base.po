@@ -1,15 +1,17 @@
 # firewall-base
 # This file is put in the public domain.
+# Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>, 2014
 # 
 # Translators:
+# Ali Rasol <ali.rasol@gmail.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: nethserver\n"
+"Project-Id-Version: nethserver-firewall-base\n"
 "Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
 "POT-Creation-Date: 2015-02-11 18:22+0100\n"
-"PO-Revision-Date: 2015-04-16 12:17+0000\n"
-"Last-Translator: Giacomo Sanchiettti <giacomo.sanchietti@nethesis.it>\n"
-"Language-Team: Swedish (Sweden) (http://www.transifex.com/nethserver/nethserver/language/sv_SE/)\n"
+"PO-Revision-Date: 2015-02-11 18:27+0100\n"
+"Last-Translator: Ali Rasol <ali.rasol@gmail.com>, 2016\n"
+"Language-Team: Swedish (Sweden) (https://www.transifex.com/nethserver/teams/35834/sv_SE/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,7 +20,7 @@ msgstr ""
 "X-Generator: Poedit 1.7.3\n"
 
 msgid "The firewall is NOT running"
-msgstr ""
+msgstr "Brandväggen är INTE igång"
 
 msgid "Check firewall rules"
-msgstr ""
+msgstr "Kontrollera brandväggsregler"

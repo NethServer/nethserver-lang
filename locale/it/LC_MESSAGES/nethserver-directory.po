@@ -1,18 +1,18 @@
 # SOME DESCRIPTIVE TITLE.
 # This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>, 2015
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nethserver\n"
+"Project-Id-Version: nethserver-directory 2.2.1-2-g7318ea4\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
 "POT-Creation-Date: 2015-05-19 16:55+0200\n"
-"PO-Revision-Date: 2015-05-20 07:56+0000\n"
-"Last-Translator: Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/nethserver/language/it/)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>, 2016\n"
+"Language-Team: Italian (https://www.transifex.com/nethserver/teams/35834/it/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -30,8 +30,12 @@ msgid ""
 msgid_plural ""
 "You have %s days left to change your password before your account will be "
 "blocked."
-msgstr[0] "Ti è rimasto un solo giorno per cambiare la password prima che il tuo account venga bloccato."
-msgstr[1] "Sono rimasti %s giorni per cambiare la password prima che il tuo account venga bloccato."
+msgstr[0] ""
+"Ti è rimasto un solo giorno per cambiare la password prima che il tuo "
+"account venga bloccato."
+msgstr[1] ""
+"Sono rimasti %s giorni per cambiare la password prima che il tuo account "
+"venga bloccato."
 
 #: root/etc/e-smith/templates/password-expired/en/20body:3
 msgid "Available methods to change your password:"
@@ -43,4 +47,6 @@ msgstr "Accesso all'interfaccia web"
 
 #: root/etc/e-smith/templates/password-expired/en/template-end:3
 msgid "This message has been generated automatically, do not respond to it."
-msgstr "Questo messaggio è stato generato automaticamente, non rispondere direttamente."
+msgstr ""
+"Questo messaggio è stato generato automaticamente, non rispondere "
+"direttamente."
