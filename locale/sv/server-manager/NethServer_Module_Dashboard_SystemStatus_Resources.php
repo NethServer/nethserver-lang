@@ -2,11 +2,11 @@
 
 /* NethServer_Module_Dashboard_SystemStatus_Resources translation, language: en */
 
-$L['avail_label'] = 'Available';
+$L['avail_label'] = 'Tillgänglig';
 $L['cpu_num_label'] = 'CPU number';
 $L['days_label'] = 'd';
 $L['general_title'] = 'General information';
-$L['hours_label'] = 'h';
+$L['hours_label'] = 't';
 $L['load_label'] = 'Load 1 / 5 / 15 minutes';
 $L['mem_free_label'] = 'Free memory';
 $L['memory_avail_label'] = 'Available memory';

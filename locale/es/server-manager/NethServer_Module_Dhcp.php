@@ -3,7 +3,7 @@
 $L['DhcpRangeEnd_label'] = 'Fin del rango de IP';
 $L['DhcpRangeStart_label'] = ' Inicio del rango IP';
 $L['Dhcp_Configure_header'] = 'Habilitar servidor DHCP en las interfaces';
-$L['Dhcp_Title'] = 'DHCP'; 
+$L['Dhcp_Title'] = 'Servidor DHCP'; 
 $L['Dhcp_Tags'] = 'host dhcp reservacion direccion mac maccaddress'; 
 $L['Dhcp_create_header'] = ' Crear una reserva de dirección IP';
 $L['Dhcp_update_header'] = 'Cambiar dirección IP reservada para el host "${0}"';

@@ -4,7 +4,7 @@
 
 $L['GreenMode_authenticated_label'] = 'Authentifiziert';
 $L['GreenMode_manual_label'] = 'Handbuch';
-$L['GreenMode_label'] = 'Modus für grüne Zone und Sichere Netzwerke';
+$L['GreenMode_label'] = 'Modus für grüne Zone und sichere Netzwerke';
 $L['GreenMode_transparent_label'] = 'Transparent';
 $L['GreenMode_transparent_ssl_label'] = 'Transparent mit SSL';
 $L['BlueMode_authenticated_label'] = 'Authentifiziert';

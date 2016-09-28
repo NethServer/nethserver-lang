@@ -1,5 +1,5 @@
 <?php 
 
-$L['BackupConfig_Description'] = 'Verwaltung der Konfigurationssicherung';
-$L['BackupConfig_Tags'] = 'Konfigurieren der automatischen Wiederherstellung';
+$L['BackupConfig_Description'] = 'Konfigurationssicherung einrichten';
+$L['BackupConfig_Tags'] = 'Automatische Wiederherstellung einrichten';
 $L['BackupConfig_Title'] = 'Datensicherung (Konfiguration)';

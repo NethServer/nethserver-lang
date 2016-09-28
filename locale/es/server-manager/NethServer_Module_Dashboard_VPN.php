@@ -1,4 +1,4 @@
 <?php
 
-$L['VPN_Title'] = "VPN";
+$L['VPN_Title'] = "Servidor Red Privada Virtual - VPN";
 

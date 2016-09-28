@@ -1,6 +1,6 @@
 <?php
 
-$L['ServerStatus_label'] = 'Aktivierung des openVPN-Server';
+$L['ServerStatus_label'] = 'Aktivierung des OpenVPN-Server';
 $L['OpenVPN_Description'] = 'OpenVPN einrichten';
 $L['OpenVPN_Tags'] = 'vpn virtuelles privates netzwerk openvpn roadwarrior';
 $L['OpenVPN_Title'] = 'OpenVPN';

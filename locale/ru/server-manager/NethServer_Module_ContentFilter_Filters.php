@@ -14,5 +14,5 @@ $L['WhiteList_label'] = 'Разрешить глобальный белый сп
 $L['BlockFileTypes_label'] = 'Блокировать по расширениям файлов';
 $L['key_exists_message'] = 'Фильтр, профиль или время с таким же названием уже есть';
 $L['BlockBuiltinRules_label'] = 'Блокировать порно сайты регулярными выражениями для URL';
-$L['FilterKey_label'] = 'Filter';
-$L['valid_platform,squidguard-obj-delete,squidguard-referenced,3'] = 'Could not delete ${2}. This filter is currently used inside a profile.';
+$L['FilterKey_label'] = 'Фильтр';
+$L['valid_platform,squidguard-obj-delete,squidguard-referenced,3'] = 'Невозможно удалить ${2}. Этот фильтр в данный момент используется в профиле.';

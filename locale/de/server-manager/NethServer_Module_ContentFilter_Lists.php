@@ -9,5 +9,5 @@ $L['Lists_custom_label'] = 'benutzerdefiniert';
 $L['CustomListURL_label'] = 'Benutzerdefinierte URL';
 $L['Download_label'] = 'Download';
 $L['Download_header'] = 'Download';
-$L['Download_message'] = 'Der Prozess kann eine Weile dauern. Fortfahren mit dem Download?';
-$L['save_and_download_label'] = 'Speichern und Herunterladen';
+$L['Download_message'] = 'Der Prozess kann eine Weile dauern. Download fortsetzen ?';
+$L['save_and_download_label'] = 'Speichern und herunterladen';

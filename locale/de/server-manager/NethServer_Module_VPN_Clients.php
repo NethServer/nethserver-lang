@@ -4,12 +4,12 @@
 
 $L['AuthMode_certificate_label'] = 'Zertifikat';
 $L['AuthMode_label'] = 'Authentifizierung';
-$L['AuthMode_password-certificate_label'] = 'Benutzername, passwort und zertifikat';
+$L['AuthMode_password-certificate_label'] = 'Benutzername, Passwort und Zertifikat';
 $L['AuthMode_password_label'] = 'Benutzer und Passwort';
 $L['AuthMode_psk_label'] = 'Pre-shared key';
-$L['Mode_bridged_label'] = 'überbrückt (Bridged)';
+$L['Mode_bridged_label'] = 'gebrückt (Bridged)';
 $L['create_header_label'] = 'Neuen Cient erstellen';
-$L['Crt_label'] = 'Zertifikat content';
+$L['Crt_label'] = 'Zertifikat-Inhalt';
 $L['Key_label'] = 'Name';
 $L['Mode_label'] = 'Modus';
 $L['name_label'] = 'Name';

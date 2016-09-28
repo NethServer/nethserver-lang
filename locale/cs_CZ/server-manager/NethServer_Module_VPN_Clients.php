@@ -5,7 +5,7 @@
 $L['AuthMode_certificate_label'] = 'Certifikát';
 $L['AuthMode_label'] = 'Ověřování';
 $L['AuthMode_password-certificate_label'] = 'Uživatel, heslo a certifikát';
-$L['AuthMode_password_label'] = 'User and password';
+$L['AuthMode_password_label'] = 'Uživatelské jméno a heslo';
 $L['AuthMode_psk_label'] = 'Předsdílený klíč';
 $L['Mode_bridged_label'] = 'Přemostěné';
 $L['create_header_label'] = 'Vytvořit nového klienta';
@@ -16,7 +16,7 @@ $L['name_label'] = 'Název';
 $L['Password_label'] = 'Heslo';
 $L['Psk_label'] = 'Klíč';
 $L['RemoteHost_label'] = 'Remote host';
-$L['RemotePort_label'] = 'Remote port';
+$L['RemotePort_label'] = 'Číslo portu na protistraně';
 $L['Mode_routed_label'] = 'Směrováno';
 $L['update_header_label'] = 'Upravit klienta';
 $L['User_label'] = 'Uživatel';

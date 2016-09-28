@@ -2,7 +2,7 @@
 
 /* NethServer_Module_Dashboard_SystemStatus_RaidStatus.php, language: en */
 
-$L['devs'] = 'Gerät';
+$L['devs'] = 'Geräte';
 $L['raidstatus_title'] = 'Software RAID Status';
 $L['no_raid'] = 'kein Software RAID eingerichtet';
 $L['ok'] = 'OK';

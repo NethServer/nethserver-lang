@@ -11,7 +11,7 @@ $L['ANY_VHOST'] = 'Tout';
 
 $L['Alias_label'] = 'Adresse Web (URL)';
 $L['AliasType_default_label'] = 'Nom de dossier';
-$L['AliasType_root_label'] = 'Web site root';
+$L['AliasType_root_label'] = 'Racine du site web';
 $L['AliasType_custom_label'] = 'Personalisé';
 $L['generated-url_url'] = 'URL générées:';
 $L['ForceSsl_label'] = 'Nécessite une connexion SSL cryptée';

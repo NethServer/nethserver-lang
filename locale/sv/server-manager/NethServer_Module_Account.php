@@ -14,7 +14,7 @@ $L['LdapUri_label'] = 'Server IP address';
 $L['BindProvider_label'] = 'Bind';
 
 $L['login_label'] = 'Privileged user name';
-$L['password_label'] = 'Password';
+$L['password_label'] = 'Lösenord';
 $L['Join_label'] = 'Join';
 $L['Authenticate_header'] = 'Join the AD domain with privileged user credentials';
 

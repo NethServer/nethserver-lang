@@ -5,7 +5,7 @@
 $L['avail_label'] = 'Verfügbar';
 $L['cpu_num_label'] = 'CPU Anzahl';
 $L['days_label'] = 'd';
-$L['general_title'] = 'allgemeine Informationen';
+$L['general_title'] = 'Allgemeine Informationen';
 $L['hours_label'] = 'h';
 $L['load_label'] = 'Last 1 / 5 / 15 Minuten';
 $L['mem_free_label'] = 'freier Speicher';
@@ -17,7 +17,7 @@ $L['minutes_label'] = 'm';
 $L['phys_memory_title'] = 'Physikalischer Speicher';
 $L['Resources_Title'] = 'Quellen';
 $L['root_title'] = 'Root Partition';
-$L['seconds_label'] = 'Sekunde';
+$L['seconds_label'] = 'Sekunden';
 $L['swap_avail_label'] = 'verfügbarer Auslagerungsspeicher';
 $L['swap_free_label'] = 'freier Auslagerungsspeicher';
 $L['swap_title'] = 'virtueller Speicher (Auslagerungsspeicher)';

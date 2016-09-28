@@ -1,13 +1,13 @@
 <?php
 
-$L['P3Scan_Description'] = 'Konfiguriere POP3 proxy'; 
+$L['P3Scan_Description'] = 'Konfiguriere POP3-Proxy'; 
 $L['P3Scan_Tags'] = 'pop pop3 pop3s proxy'; 
-$L['P3Scan_Title'] = 'POP3 proxy';
+$L['P3Scan_Title'] = 'POP3 Proxy';
 $L['P3Scan_header'] = 'POP3 Proxy';
 $L['VirusScan_label'] = 'Antivirus';
 $L['SpamScan_label'] = 'Antispam';
 $L['SSLScan_enabled_label'] = 'aktiviert';
-$L['SSLScan_disabled_label'] = 'deaktivieren';
+$L['SSLScan_disabled_label'] = 'deaktiviert';
 $L['Template_label'] = 'Mailvorlagen-Sprache';
 $L['lang_en_label'] = 'Englisch';
 $L['lang_it_label'] = 'Italien';

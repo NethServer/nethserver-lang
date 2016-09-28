@@ -2,15 +2,15 @@
 # This file is put in the public domain.
 # 
 # Translators:
-# Alex Lalaque <alex.lalaque@gmail.com>, 2015
+# Alecks, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
 "POT-Creation-Date: 2015-03-11 16:20+0100\n"
 "PO-Revision-Date: 2015-04-15 14:53+0000\n"
-"Last-Translator: Alex Lalaque <alex.lalaque@gmail.com>\n"
-"Language-Team: French (France) (http://www.transifex.com/projects/p/nethserver/language/fr_FR/)\n"
+"Last-Translator: Alecks\n"
+"Language-Team: French (France) (http://www.transifex.com/nethserver/nethserver/language/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"

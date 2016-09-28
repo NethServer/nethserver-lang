@@ -2,7 +2,7 @@
 
 $L['NethServer_Welcome_Header'] = 'Willkommen beim NethServer'; 
 $L['Welcome_Description'] = 'Willkommensseite'; 
-$L['Welcome_Tags'] = 'willkommen'; 
+$L['Welcome_Tags'] = 'Willkommen'; 
 $L['Welcome_Title'] = 'Willkommen';
 $L['Welcome_Body'] = 'Achtung:
 Das ist eine ALPHA-Version!

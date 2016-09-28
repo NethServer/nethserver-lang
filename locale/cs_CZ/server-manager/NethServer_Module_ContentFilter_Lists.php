@@ -1,7 +1,7 @@
 <?php
 
 $L['Lists_Title'] = 'Seznam zakázaných';
-$L['Lists_selector'] = 'Available lists';
+$L['Lists_selector'] = 'Seznamy k dispozici';
 $L['Lists_shalla_label'] = 'Shalla (free for non-commercial use)';
 $L['Lists_urlblacklist_label'] = 'UrlBlacklist.com (komerční)';
 $L['Lists_toulouse_label'] = 'Université Toulouse (free)';
