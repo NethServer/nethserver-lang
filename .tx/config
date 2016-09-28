@@ -45,7 +45,7 @@ source_file = locale/en/LC_MESSAGES/nethserver-webtop4.pot
 source_lang = en
 type = PO
 
-[nethserver-v6.Nethgui]
+[nethserver-v6.nethgui]
 file_filter = locale/<lang>/nethgui/Nethgui.php
 source_file = locale/en/nethgui/Nethgui.php
 source_lang = en
