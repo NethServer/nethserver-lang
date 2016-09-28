@@ -735,3 +735,20 @@ source_file = locale/en/server-manager/NethServer_Module_Password.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
+[nethserver-v6.FirewallObjects_Cidr]
+file_filter = locale/<lang>/server-manager/NethServer_Module_FirewallObjects_Cidr.php
+source_file = locale/en/server-manager/NethServer_Module_FirewallObjects_Cidr.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver-v6.FirewallObjects_IpRange]
+file_filter = locale/<lang>/server-manager/NethServer_Module_FirewallObjects_IpRange.php
+source_file = locale/en/server-manager/NethServer_Module_FirewallObjects_IpRange.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver-v6.FirstConfigWiz_PhoneHome]
+file_filter = locale/<lang>/server-manager/NethServer_Module_FirstConfigWiz_PhoneHome.php
+source_file = locale/en/server-manager/NethServer_Module_FirstConfigWiz_PhoneHome.php
+source_lang = en
+type = PHP_ALT_ARRAY
