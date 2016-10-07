@@ -1,6 +1,6 @@
 <?php 
 
-$L['${0} day'] = 'one day'; 
+$L['${0} day'] = 'En dag'; 
 $L['${0} days'] = '${0} days'; 
 $L['Hold for ${0}'] = 'Hold for ${0}'; 
 $L['MailForwardAddress_label'] = 'Email address'; 

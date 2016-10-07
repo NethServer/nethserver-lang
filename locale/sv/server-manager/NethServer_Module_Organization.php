@@ -1,6 +1,6 @@
 <?php
 
-$L['City_label'] = 'City';
+$L['City_label'] = 'Stad';
 $L['Company_label'] = 'Company';
 $L['Department_label'] = 'Department';
 $L['Organization_Title'] = 'Organization contacts';
