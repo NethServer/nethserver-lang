@@ -306,12 +306,6 @@ source_file = locale/en/server-manager/NethServer_Module_FaxServer.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
-[nethserver.Fetchmail]
-file_filter = locale/<lang>/server-manager/NethServer_Module_Fetchmail.php
-source_file = locale/en/server-manager/NethServer_Module_Fetchmail.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
 [nethserver.FirewallObjects]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FirewallObjects.php
 source_file = locale/en/server-manager/NethServer_Module_FirewallObjects.php
