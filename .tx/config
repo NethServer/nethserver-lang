@@ -354,6 +354,12 @@ source_file = locale/en/server-manager/NethServer_Module_FirstConfigWiz.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
+[nethserver.FirstConfigWiz_PhoneHome]
+file_filter = locale/<lang>/server-manager/NethServer_Module_FirstConfigWiz_PhoneHome.php
+source_file = locale/en/server-manager/NethServer_Module_FirstConfigWiz_PhoneHome.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
 [nethserver.FQDN]
 file_filter = locale/<lang>/server-manager/NethServer_Module_FQDN.php
 source_file = locale/en/server-manager/NethServer_Module_FQDN.php
