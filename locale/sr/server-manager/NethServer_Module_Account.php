@@ -12,6 +12,7 @@ $L['Provider_ad_label'] = 'Активни директоријум';
 $L['AdDns_label'] = 'ИП адреса ДНС сервера';
 $L['LdapUri_label'] = 'ИП адреса сервера';
 $L['BindProvider_label'] = 'Везати';
+$L['NetbiosDomain_label'] = 'НетБИОС домен';
 
 $L['login_label'] = 'Привилеговано корисничко име';
 $L['password_label'] = 'Лозинка';

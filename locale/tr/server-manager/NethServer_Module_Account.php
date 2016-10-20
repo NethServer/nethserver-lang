@@ -12,6 +12,7 @@ $L['Provider_ad_label'] = 'Aktif Dizin';
 $L['AdDns_label'] = 'DNS sunucu IP adresi';
 $L['LdapUri_label'] = 'Sunucu IP adresi';
 $L['BindProvider_label'] = 'Bind';
+$L['NetbiosDomain_label'] = 'NetBIOS Etki Alanı';
 
 $L['login_label'] = 'Ayrıcalıklı kullanıcı adı';
 $L['password_label'] = 'Parola';

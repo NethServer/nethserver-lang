@@ -3,7 +3,7 @@
 /* NethServer_Module_FirewallRules translation, language: en */
 
 $L['FirewallRules_Description'] = 'Verwalte Firewallregeln';
-$L['FirewallRules_Tags'] = 'firewall rule policy traffic shaping';
+$L['FirewallRules_Tags'] = 'Firewall Regel Policy Traffic Shaping';
 $L['FirewallRules_Title'] = 'Firewallregeln';
 
 $L['general_header'] = 'Allgemein';
@@ -29,7 +29,7 @@ $L['ActionDrop_label'] = 'Verwerfen';
 $L['Source_label'] = 'Quelle';
 $L['Destination_label'] = 'Ziel';
 $L['Service_label'] = 'Dienst';
-$L['Time_label'] = 'Time condition';
+$L['Time_label'] = 'Zeitbedingung';
 $L['PickSource_label'] = 'Wähle aus ...';
 $L['PickDestination_label'] = 'Wähle aus ...';
 $L['PickService_label'] = 'Wähle aus ...';
@@ -38,7 +38,7 @@ $L['LogType_label'] = 'Schreibe ins Log, wenn diese Regel zutrifft';
 $L['PickObject_SrcRaw_header'] = 'Wähle die Paketquelle für die Regel "${RuleId}"';
 $L['PickObject_DstRaw_header'] = 'Wähle das Paketziel für die Regel "${RuleId}"';
 $L['PickObject_ServiceRaw_header'] = 'Wähle das Diensteprotokoll für die Regel "${RuleId}"';
-$L['PickObject_TimeRaw_header'] = 'Choose the time condition for rule "${RuleId}"';
+$L['PickObject_TimeRaw_header'] = 'Wähle die Zeitbedingung für die Regel "${Ruled}"';
 
 $L['Create_last_label'] = 'Erstelle Regel am Ende';
 $L['Create_first_label'] = 'Erstelle Regel am Anfang';
@@ -60,7 +60,7 @@ $L['HostGroups_create'] = 'Erstelle Hostgruppe "${0}"';
 $L['Hosts_create'] = 'Erstelle Host "${0}"';
 $L['Zones_create'] = 'Erstelle Zone "${0}"';
 $L['Services_create'] = 'Erstelle Dienstobjekt "${0}"';
-$L['Time_create'] = 'Create time condition "${0}"';
+$L['Time_create'] = 'Erstelle Zeitbedingung "${0}"';
 $L['IpRange_create'] = 'Erstelle IP-Bereich "${0}"';
 $L['Cidr_create'] = 'Erstelle CIDR Netzwerk "${0}"';
 
@@ -69,9 +69,9 @@ $L['NoRulesDefined_label'] = 'Keine Regeln definiert. Erstellen Sie jetzt die Er
 
 $L['any_service_label'] = 'Jeder Dienst';
 $L['any_src_dst_label'] = 'Jeder Host';
-$L['Time_always'] = 'Always';
-$L['Type_any_label'] = 'any';
-$L['Type_fw_label'] = 'firewall';
+$L['Time_always'] = 'Immer';
+$L['Type_any_label'] = 'alle';
+$L['Type_fw_label'] = 'Firewall';
 $L['host_label'] = 'Host';
 $L['zone_label'] = 'Zone';
 $L['iprange_label'] = 'IP-Bereich';
@@ -89,9 +89,9 @@ $L['FirewallObject_role_Title'] = 'Rolle ${key}';
 $L['FirewallObject_zone_Title'] = 'Zone ${key}';
 $L['FirewallObject_host-group_Title'] = 'Hostgruppe ${key}';
 $L['FirewallObject_fwservice_Title'] = '${key} - Dienstobjekt';
-$L['FirewallObject_time_Title'] = '${key} - time condition';
+$L['FirewallObject_time_Title'] = '${key} - Zeitbedingung';
 $L['FirewallObject_service_Title'] = '${key} - Netzwerkdienst';
-$L['FirewallObject_ndpi_Title'] = '${key} - DPI protocol';
+$L['FirewallObject_ndpi_Title'] = '${key} - DPI Protokol';
 $L['FirewallObject_iprange_Title'] = 'IP-Bereich ${key}';
 $L['FirewallObject_cidr_Title'] = 'CDIR Netzwerk ${key}';
 
@@ -104,15 +104,15 @@ $L['ShowAction_label'] = 'Anzeigen';
 $L['ShowRules_label'] = 'Firewall';
 $L['ShowRoutes_label'] = 'Leitungsregeln';
 $L['ShowServices_label'] = 'Netzwerkdienste';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping';
+$L['ShowTrafficShaping_label'] = 'Traffic Shaping';
 
-$L['ActionPriorityHigh_label'] = 'High priority';
-$L['ActionPriorityLow_label'] = 'Low priority';
+$L['ActionPriorityHigh_label'] = 'Hohe Priorität';
+$L['ActionPriorityLow_label'] = 'Niedrige Priorität';
 $L['ActionPrioLo_label'] = 'Lo-Prio';
 $L['ActionPrioHi_label'] = 'Hi-Prio';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Leitungsregeln verbieten das Einstellen der roten Zone als Quelle.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Leitungsregeln erlauben nur ein Ziel der folgenden Typen: Zone, Host, IP-Bereich, CIDR, rot.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Die Auswahl von "Lokaler Dienst" setzt "Firewall" als Ziel voraus';
-$L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Traffic shaping rules do not allow the red zone to be set as source';
-$L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Traffic shaping rules allow only the following Destination types: zone, host, IP range, CIDR, red';
+$L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Traffic Shaping Regeln erlauben es nicht die rote Zone als Quelle zu setzen';
+$L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Traffic Shaping Regeln erlauben nur die folgenden Zielzonen: Zone, Host, IP-Adressbereich, CIDR, Rot';

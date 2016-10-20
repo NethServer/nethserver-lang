@@ -1,10 +1,10 @@
 <?php
 
-$L['RestoreData_Title'] = 'Restore data';
+$L['RestoreData_Title'] = 'Obnovit data';
 $L['RestoreData_label'] = 'Obnovit';
-$L['RestoreData_Description'] = 'Restore data from backup';
+$L['RestoreData_Description'] = 'Obnovit data ze zálohy';
 $L['RestoreData_PlaceHolder'] = 'Hledat…';
-$L['RestoreData_original'] = 'Restore data in the original path';
+$L['RestoreData_original'] = 'Obnovit data do původního umístění';
 $L['RestoreData_temp'] = 'Obnovit data do nové složky';
 $L['RestoreData_String_restore'] = 'Select one or more directories or files to restore';
 $L['RestoreData_restore_message'] = 'Restored in ${0}';

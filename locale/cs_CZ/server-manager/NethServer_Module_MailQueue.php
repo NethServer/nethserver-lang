@@ -1,9 +1,9 @@
 <?php 
 
-$L['Delete_label'] = 'Delete';
-$L['Delete_Header'] = 'Delete message ${0}';
+$L['Delete_label'] = 'Smazat';
+$L['Delete_Header'] = 'Smazat zprávu ${0}';
 $L['Delete_Message'] = 'Confirm deletion of message ${0}?';
-$L['MailQueue_Description'] = 'Manage mail queue'; 
+$L['MailQueue_Description'] = 'Spravovat frontu e-mailů'; 
 $L['MailQueue_Tags'] = 'mail email queue postfix mailqueue'; 
 $L['MailQueue_Title'] = 'Mail queue'; 
 $L['AndXMore'] = '..and ${0} more';

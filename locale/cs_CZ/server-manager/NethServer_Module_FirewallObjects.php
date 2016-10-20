@@ -1,7 +1,7 @@
 <?php 
 
 $L['FirewallObjects_Description'] = 'Spravovat objekty brány firewall';
-$L['FirewallObjects_Tags'] = 'Firewall zone host service group objects';
+$L['FirewallObjects_Tags'] = 'Brána firewal stroj služba skupina objekty';
 $L['FirewallObjects_Title'] = 'Objekty brány firewall';
 
 $L['esp_label'] = 'ESP';
@@ -76,16 +76,16 @@ $L['IpRange_key_exists_message'] = 'An object with the same name already exists 
 $L['IpRange_CreateIpRange_label'] = 'Create IP range';
 $L['IpRangeKey_label'] = 'Rozsah IP adres';
 
-$L['TimesKey_label'] = 'Condition name';
+$L['TimesKey_label'] = 'Název podmínky';
 $L['TimeStart_label'] = 'Time start';
 $L['TimeStop_label'] = 'Time stop';
 $L['WeekDays_label'] = 'Days of the week';
 $L['TimeStop_compare_TimeStart_message'] = 'Value must be greater than "Time start" (${0})';
 
-$L['WeekDay_Sun_label'] = 'Sunday';
-$L['WeekDay_Mon_label'] = 'Monday';
-$L['WeekDay_Tue_label'] = 'Tuesday';
-$L['WeekDay_Wed_label'] = 'Wednesday';
-$L['WeekDay_Thu_label'] = 'Thursday';
-$L['WeekDay_Fri_label'] = 'Friday';
-$L['WeekDay_Sat_label'] = 'Saturday';
+$L['WeekDay_Sun_label'] = 'neděle';
+$L['WeekDay_Mon_label'] = 'pondělí';
+$L['WeekDay_Tue_label'] = 'úterý';
+$L['WeekDay_Wed_label'] = 'středa';
+$L['WeekDay_Thu_label'] = 'čtvrtek';
+$L['WeekDay_Fri_label'] = 'pátek';
+$L['WeekDay_Sat_label'] = 'sobota';

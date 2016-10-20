@@ -2,9 +2,9 @@
 
 /* FaxServer translation, language: en */
 
-$L['AreaCode_label'] = 'Area code';
+$L['AreaCode_label'] = 'Kód oblasti';
 $L['ClientShowReceived_label'] = 'Zobrazit nedávné faxy od klientů';
-$L['CountryCode_label'] = 'Country code';
+$L['CountryCode_label'] = 'Kód země';
 $L['DispatchFileTypeList_label'] = 'Formát příchozího faxu';
 $L['FaxDevice_label'] = 'Port modemu';
 $L['FaxDeviceType_known_label'] = 'Běžné zařízení';

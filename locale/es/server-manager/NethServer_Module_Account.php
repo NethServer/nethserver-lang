@@ -12,6 +12,7 @@ $L['Provider_ad_label'] = 'Directorio Activo';
 $L['AdDns_label'] = 'Dirección IP del servidor DNS';
 $L['LdapUri_label'] = 'Dirección IP del servidor';
 $L['BindProvider_label'] = 'Enlace';
+$L['NetbiosDomain_label'] = 'Dominio NetBIOS';
 
 $L['login_label'] = 'Nombre de usuario con privilegios';
 $L['password_label'] = 'Contraseña';

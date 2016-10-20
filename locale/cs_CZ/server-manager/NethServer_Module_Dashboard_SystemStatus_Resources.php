@@ -5,7 +5,7 @@
 $L['avail_label'] = 'K dispozici';
 $L['cpu_num_label'] = 'Číslo procesoru';
 $L['days_label'] = 'd';
-$L['general_title'] = 'General information';
+$L['general_title'] = 'Obecné informace';
 $L['hours_label'] = 'h';
 $L['load_label'] = 'Load 1 / 5 / 15 minutes';
 $L['mem_free_label'] = 'Volná paměť';

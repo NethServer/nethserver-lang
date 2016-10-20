@@ -119,3 +119,6 @@ $L['Weight_label'] = 'Bağlantı ağırlığı';
 $L['ProviderName_label'] = 'Bağlantı adı';
 $L['UpstreamProxy_label'] = 'Vekil sunucu ayarları';
 $L['DNS_label'] = 'DNS sunucular';
+$L['trafficshaping_label'] = 'Trafik Şekillendirme';
+$L['FwInBandwidth_label'] = 'Gelen bant genişliği (kbps)';
+$L['FwOutBandwidth_label'] = 'Giden bant genişliği (kbps)';

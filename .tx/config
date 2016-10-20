@@ -774,12 +774,6 @@ source_file = locale/en/server-manager/NethServer_Module_MailQueue.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
-[nethserver.MailQuota]
-file_filter = locale/<lang>/server-manager/NethServer_Module_MailQuota.php
-source_file = locale/en/server-manager/NethServer_Module_MailQuota.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
 [nethserver.Sssd]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Sssd.php
 source_file = locale/en/server-manager/NethServer_Module_Sssd.php

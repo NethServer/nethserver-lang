@@ -119,3 +119,6 @@ $L['Weight_label'] = 'Peso do Link';
 $L['ProviderName_label'] = 'Nome do Link';
 $L['UpstreamProxy_label'] = 'Configurações do Proxy';
 $L['DNS_label'] = 'Servidores DNS';
+$L['trafficshaping_label'] = 'Traffic Shaping';
+$L['FwInBandwidth_label'] = 'Inbound bandwidth (kbps)';
+$L['FwOutBandwidth_label'] = 'Outbound bandwidth (kbps)';

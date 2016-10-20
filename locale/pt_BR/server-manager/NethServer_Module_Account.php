@@ -10,8 +10,9 @@ $L['Provider_none_label'] = 'Nenhum (desabilitado)';
 $L['Provider_ldap_label'] = 'LDAP';
 $L['Provider_ad_label'] = 'Active Directory';
 $L['AdDns_label'] = 'Endereço IP do servidor DNS ';
-$L['LdapUri_label'] = 'Server IP address';
+$L['LdapUri_label'] = 'Endereço IP do Servidor';
 $L['BindProvider_label'] = 'Bind';
+$L['NetbiosDomain_label'] = 'NetBIOS domain';
 
 $L['login_label'] = 'Nome do usuário privilegiado';
 $L['password_label'] = 'Senha';

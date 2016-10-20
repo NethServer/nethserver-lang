@@ -3,14 +3,14 @@
 /* NethServer_Module_FirewallRules translation, language: en */
 
 $L['FirewallRules_Description'] = 'Spravovat pravidla brány firewall';
-$L['FirewallRules_Tags'] = 'firewall rule policy traffic shaping';
+$L['FirewallRules_Tags'] = 'pravidlo brány firewall zásada omezování provozu';
 $L['FirewallRules_Title'] = 'Pravidla brány firewall';
 
 $L['general_header'] = 'Obecné';
 $L['General_Title'] = 'Obecné předvolby';
-$L['ExternalPing_label'] = 'Ping from Internet';
+$L['ExternalPing_label'] = 'Ping z Internetu';
 $L['permissive_label'] = 'Allowed';
-$L['Policy_label'] = 'Traffic to Internet (red interface)';
+$L['Policy_label'] = 'Provoz do Internetu (červené rozhraní)';
 $L['strict_label'] = 'Blokováno';
 $L['enabled_label'] = 'Zapnuto';
 $L['disabled_label'] = 'Vypnuto';
@@ -69,9 +69,9 @@ $L['NoRulesDefined_label'] = 'Nejsou určená žádná pravidla. Nejprve nějak�
 
 $L['any_service_label'] = 'libovolná služba';
 $L['any_src_dst_label'] = 'libovolný stroj';
-$L['Time_always'] = 'Always';
+$L['Time_always'] = 'Vždy';
 $L['Type_any_label'] = 'any';
-$L['Type_fw_label'] = 'firewall';
+$L['Type_fw_label'] = 'brána firewall';
 $L['host_label'] = 'stroj';
 $L['zone_label'] = 'zóna';
 $L['iprange_label'] = 'Rozsah IP adres';
@@ -81,7 +81,7 @@ $L['role_label'] = 'rozhraní';
 $L['confirm_reload_label'] = 'No change has been applied.';
 
 $L['FirewallObject_any_Title'] = 'Any';
-$L['FirewallObject_fw_Title'] = 'Firewall';
+$L['FirewallObject_fw_Title'] = 'Brána firewall';
 $L['FirewallObject_host_Title'] = 'Stroj ${key}';
 $L['FirewallObject_local_Title'] = 'LAN host ${key}';
 $L['FirewallObject_remote_Title'] = 'Stroj ${key}';
@@ -106,8 +106,8 @@ $L['ShowRoutes_label'] = 'Policy routing';
 $L['ShowServices_label'] = 'Síťové služby';
 $L['ShowTrafficShaping_label'] = 'Traffic shaping';
 
-$L['ActionPriorityHigh_label'] = 'High priority';
-$L['ActionPriorityLow_label'] = 'Low priority';
+$L['ActionPriorityHigh_label'] = 'Vysoká priorita';
+$L['ActionPriorityLow_label'] = 'Nízká priorita';
 $L['ActionPrioLo_label'] = 'Lo-Prio';
 $L['ActionPrioHi_label'] = 'Hi-Prio';
 

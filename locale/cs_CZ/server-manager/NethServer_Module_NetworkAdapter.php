@@ -5,7 +5,7 @@
 $L['bootproto_dhcp_label'] = 'DHCP';
 $L['bootproto_label'] = 'Přiřazení IP adres';
 $L['bootproto_none_label'] = 'Statické';
-$L['blue_label'] = 'Guests (blue)';
+$L['blue_label'] = 'Hosté (modrá)';
 $L['device_label'] = 'Zařízení';
 $L['gateway_label'] = 'Brána';
 $L['green_label'] = 'LAN (green)';
@@ -118,4 +118,7 @@ $L['multiwan_label'] = 'Multi WAN';
 $L['Weight_label'] = 'Link weight';
 $L['ProviderName_label'] = 'Název spojení';
 $L['UpstreamProxy_label'] = 'Nastavení proxy';
-$L['DNS_label'] = 'DNS servers';
+$L['DNS_label'] = 'DNS servery';
+$L['trafficshaping_label'] = 'Traffic Shaping';
+$L['FwInBandwidth_label'] = 'Inbound bandwidth (kbps)';
+$L['FwOutBandwidth_label'] = 'Outbound bandwidth (kbps)';

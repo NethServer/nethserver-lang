@@ -7,4 +7,4 @@ $L['pseudonym_label'] = 'E-mailové adresy';
 $L['ibay_label'] = 'Sdílené složky';
 $L['machine_label'] = 'Účty strojů';
 $L['ftp_label'] = 'FTP accounts';
-$L['vpn_label'] = 'VPN accounts';
+$L['vpn_label'] = 'VPN účty';

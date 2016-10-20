@@ -1,11 +1,11 @@
 <?php
 
-$L['SharedMailbox_create_header'] = 'Create a new shared mailbox';
-$L['SharedMailbox_modify_header'] = 'Edit the shared mailbox `${0}`';
-$L['Name_label'] = 'Name';
-$L['Key_label'] = 'Mailbox';
-$L['OwnersSelector_label'] = 'Owner groups';
-$L['Owners_label'] = 'Owner groups';
+$L['SharedMailbox_create_header'] = 'Vytvořit novou sdílenou e-mailovou schránku';
+$L['SharedMailbox_modify_header'] = 'Upravit sdílenou e-mailovou schránku „${0}“';
+$L['Name_label'] = 'Název';
+$L['Key_label'] = 'E-mailová schránka';
+$L['OwnersSelector_label'] = 'Skupiny vlastníků';
+$L['Owners_label'] = 'Skupiny vlastníků';
 $L['Others_label'] = 'Special access';
 $L['CreateAlias_label'] = 'Create alias';
 $L['alias_label'] = 'Alias';

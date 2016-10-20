@@ -2,7 +2,7 @@
 
 $L['"${0}" is not a valid record type'] = '${0} není platným typem záznamu'; 
 $L['"${0}" is not an email address or host name'] = '${0} není e-mailová adresa či název stroje'; 
-$L['AddressAcl_label'] = 'Rules by mail address'; 
+$L['AddressAcl_label'] = 'Pravidle dle e-mailové adresy'; 
 $L['Arch_label'] = 'Archivy'; 
 $L['BlockAttachmentCustomList_label'] = 'Vlastní seznam'; 
 $L['BlockAttachmentCustomStatus_label'] = 'Vlastní seznam'; 

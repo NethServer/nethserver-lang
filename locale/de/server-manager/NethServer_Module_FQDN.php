@@ -10,3 +10,5 @@ $L['SystemName_label'] = 'Hostname';
 $L['DomainName_label'] = 'Domain';
 $L['FQDN_label'] = 'Fully qualified domain name';
 $L['valid_platform,myhostname,failifjoin,1'] = 'Benutzer- und Gruppenanbieter ist bereits konfiguriert';
+$L['valid_platform,myhostname,hostname-length,3'] = 'Der Host-Name darf bis zu 15 Zeichen lang sein';
+$L['valid_platform,myhostname,hostname-length,4'] = 'Es sind nur Buchstaben, Zahlen und Bindestriche im Host-Namen erlaubt';

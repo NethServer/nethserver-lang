@@ -1,6 +1,6 @@
 <?php
 
-$L['Duc_Description'] = 'Usage and space analyzer';
+$L['Duc_Description'] = 'Analyzátor využití a prostoru';
 $L['Duc_Tags'] = 'disk analysis space usage duc';
 
 $L['Duc_label'] = 'Zapnout analýzu využití datového úložiště';

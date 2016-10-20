@@ -1,7 +1,7 @@
 <?php 
 
 $L['Access_label'] = 'Pouze místní síť';
-$L['Account_label'] = 'Destinations';
+$L['Account_label'] = 'Cíle';
 $L['Pseudonym_create_header'] = 'Create a new mail alias';
 $L['Current_label'] = 'Stávající výběr'; 
 $L['Description_label'] = 'Popis'; 

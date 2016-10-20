@@ -3,7 +3,7 @@
 $L['AclRead_label'] = 'Číst'; 
 $L['AclWrite_label'] = 'Zápis'; 
 $L['Acl_Title'] = 'ACL'; 
-$L['locals_group_label'] = 'Local users'; 
+$L['locals_group_label'] = 'Místní uživatelé'; 
 $L['BaseInfo_Title'] = 'Obecné'; 
 $L['Create_Header'] = 'Vytvořit novou sdílenou složku'; 
 $L['GroupAccess_label'] = 'Allow write permission to owning group'; 
@@ -33,6 +33,6 @@ $L['SmbGuestAccess_label'] = 'Guest access';
 $L['SmbGuestAccessType_none_label'] = 'Žádné';
 $L['SmbGuestAccessType_r_label'] = 'Pouze pro čtení';
 $L['SmbGuestAccessType_rw_label'] = 'Číst a zapisovat';
-$L['SmbShareBrowseable_label'] = 'Browseable';
+$L['SmbShareBrowseable_label'] = 'Možné procházet';
 $L['Advanced_label'] = 'Pokročilé';
 $L['domain_users_group_label'] = 'Doménoví uživatelé';

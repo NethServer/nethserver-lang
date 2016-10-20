@@ -1,6 +1,6 @@
 <?php 
 
-$L['Disk space'] = 'Disk space'; 
+$L['Disk space'] = 'Diskový prostor'; 
 $L['Hold for ${0}'] = 'Hold for ${0}'; 
 $L['ImapStatus_label'] = 'IMAP'; 
 $L['Mailbox access protocols'] = 'Protokoly pro přístup k e-mailové schránce'; 

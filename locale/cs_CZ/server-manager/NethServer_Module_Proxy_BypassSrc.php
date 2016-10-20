@@ -1,6 +1,6 @@
 <?php
 
-$L['BypassSrc_Title'] = 'Hosts without proxy';
+$L['BypassSrc_Title'] = 'Stroje bez proxy';
 $L['Key_label'] = 'Název';
 $L['name_label'] = 'Název';
 $L['status_label'] = 'Zapnuto';

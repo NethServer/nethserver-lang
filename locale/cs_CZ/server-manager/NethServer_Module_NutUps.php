@@ -2,11 +2,11 @@
 
 $L['model_label'] = 'Model';
 $L['ups_status_label'] = 'Stav';
-$L['nut_title'] = 'UPS';
+$L['nut_title'] = 'UPS zdro';
 $L['enabled_label'] = 'Zapnout';
 $L['disabled_label'] = 'Vypnout';
-$L['NutUps_Title'] = 'UPS';
-$L['NutUps_Description'] = 'Configure uninterruptible power supply (UPS) unit';
+$L['NutUps_Title'] = 'UPS zdroj';
+$L['NutUps_Description'] = 'Nastavit zdroj nepřerušovaného napájení (UPS)';
 $L['status_label'] = 'Enable NUT UPS';
 $L['ups_status_label'] = 'Stav';
 $L['Password_label'] = 'Heslo';

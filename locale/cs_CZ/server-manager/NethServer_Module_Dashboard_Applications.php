@@ -4,6 +4,6 @@
 
 $L['Applications_Title'] = 'Aplikace';
 $L['Applications_Tags'] = 'Applications application applications web';
-$L['Applications_Description'] = 'Installed applications';
-$L['Open_label'] = 'Open';
+$L['Applications_Description'] = 'Nainstalované aplikace';
+$L['Open_label'] = 'Otevřít';
 $L['no_application_installed'] = 'Není nainstalována žádná aplikace';
