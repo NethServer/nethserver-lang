@@ -1,6 +1,6 @@
 <?php 
 
-$L['Access_label'] = 'Local network only';
+$L['Access_label'] = 'Endast lokalt nätverk';
 $L['Account_label'] = 'Destinations';
 $L['Pseudonym_create_header'] = 'Create a new mail alias';
 $L['Current_label'] = 'Current selection'; 

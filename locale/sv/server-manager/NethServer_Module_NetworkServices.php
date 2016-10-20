@@ -1,6 +1,6 @@
 <?php 
 
-$L['Key_label'] = 'Service';
+$L['Key_label'] = 'Tjänst';
 $L['access_label'] = 'Access';
 $L['ports_label'] = 'Ports';
 

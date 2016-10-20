@@ -1,10 +1,10 @@
 <?php
 
-$L['Config_Title'] = 'Önbellek';
-$L['DiskCache_label'] = 'Disk önbellekleme';
-$L['DiskCache_enabled_label'] = 'Disk önbelleği kullanılsın';
-$L['DiskCache_disabled_label'] = 'Disk önbelleği devre dışı bırakılsın';
-$L['DiskCacheSize_label'] = 'Disk önbellek boyutu (MB)';
+$L['Config_Title'] = 'Ön bellek';
+$L['DiskCache_label'] = 'Disk ön bellekleme';
+$L['DiskCache_enabled_label'] = 'Disk ön belleği kullanılsın';
+$L['DiskCache_disabled_label'] = 'Disk ön belleği devre dışı bırakılsın';
+$L['DiskCacheSize_label'] = 'Disk ön bellek boyutu (MB)';
 $L['MinObjSize_label'] = 'En küçük nesne boyutu (kB)';
 $L['MaxObjSize_label'] = 'En büyük nesne boyutu (kB)';
-$L['ClearCache_label'] = 'Önbelleği boşalt';
+$L['ClearCache_label'] = 'Ön belleği boşalt';

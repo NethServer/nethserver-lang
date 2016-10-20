@@ -10,3 +10,5 @@ $L['SystemName_label'] = 'Име домаина';
 $L['DomainName_label'] = 'Домен';
 $L['FQDN_label'] = 'Потпуно квалфиковано доменско име';
 $L['valid_platform,myhostname,failifjoin,1'] = 'Добављач Корисника и група је већ подешен';
+$L['valid_platform,myhostname,hostname-length,3'] = 'Дужина имена домаћина мора бити највише 15 карактера дугачка';
+$L['valid_platform,myhostname,hostname-length,4'] = 'Само слова, бројеви и повлаке су дозвољене у имену домаћина';

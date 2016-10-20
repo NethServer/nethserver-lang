@@ -8,7 +8,7 @@ $L['DateTime_Action'] = 'Saat dilimini şuna ayarla: ${timezone}';
 $L['date_label'] = 'Tarih'; 
 $L['server_label'] = 'Zaman Sunucusu'; 
 $L['Status_disabled_label'] = 'El ile ayarlama'; 
-$L['Status_enabled_label'] = 'Ağ eşleştirmesi'; 
+$L['Status_enabled_label'] = 'Ağ eşitlemesi'; 
 $L['time_label'] = 'Saat ve dakika'; 
 $L['timezone_label'] = 'Saat dilimi'; 
 

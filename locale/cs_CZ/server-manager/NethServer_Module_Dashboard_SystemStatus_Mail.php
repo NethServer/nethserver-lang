@@ -1,4 +1,4 @@
 <?php
 
-$L['mail_title'] = 'Mail server';
+$L['mail_title'] = 'Poštovní server';
 $L['domain_list'] = 'Nastavit domény';

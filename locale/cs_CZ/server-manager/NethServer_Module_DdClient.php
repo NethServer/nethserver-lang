@@ -1,5 +1,5 @@
 <?php
-$L['DdClient_Title'] = 'Dynamic DNS Service';
+$L['DdClient_Title'] = 'Služba dynamického DNS';
 $L['Key_label'] = 'Dynamic DNS hostname';
 $L['hostname_label'] = 'Dynamic DNS hostname';
 $L['DynDns_label'] = 'Ddclient protocol';

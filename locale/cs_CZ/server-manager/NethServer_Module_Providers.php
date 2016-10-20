@@ -2,15 +2,15 @@
 
 /* NethServer_Module_Providers translation, language: en */
 
-$L['backup_label'] = 'Active backup';
-$L['balance_label'] = 'Balance';
+$L['backup_label'] = 'Aktivní záloha';
+$L['balance_label'] = 'Vyvážit';
 $L['CheckIP_label'] = 'Check IP';
 $L['Configure_header'] = 'Nastavit';
 $L['interface_label'] = 'Rozhraní';
 $L['Key_label'] = 'Poskytovatel';
 $L['name_label'] = 'Název';
 $L['provider_create_header'] = 'Vytvořit nového poskytovatele';
-$L['Providers_Description'] = 'Manage multi wan connections';
+$L['Providers_Description'] = 'Spravovat vícenásobné připojení do Internetu';
 $L['Providers_Tags'] = 'Provider multiwan wan red';
 $L['Providers_Title'] = 'Multi WAN';
 $L['ProviderAdvanced_label'] = 'Pokročilé';

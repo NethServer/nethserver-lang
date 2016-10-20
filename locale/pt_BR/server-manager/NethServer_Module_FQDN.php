@@ -10,3 +10,5 @@ $L['SystemName_label'] = 'Nome de máquina';
 $L['DomainName_label'] = 'Domínio';
 $L['FQDN_label'] = 'Nome de domínio totalmente qualificado';
 $L['valid_platform,myhostname,failifjoin,1'] = 'Usuários e provedor de grupos já configurado';
+$L['valid_platform,myhostname,hostname-length,3'] = 'The host name part length must be up to 15 characters long';
+$L['valid_platform,myhostname,hostname-length,4'] = 'Only letters, digits and hyphens are allowed in the host name part';

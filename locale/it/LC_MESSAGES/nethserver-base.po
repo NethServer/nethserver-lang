@@ -2,12 +2,13 @@
 # This file is put in the public domain.
 # 
 # Translators:
+# Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
-"POT-Creation-Date: 2015-02-27 15:17+0100\n"
-"PO-Revision-Date: 2015-06-25 13:27+0000\n"
+"POT-Creation-Date: 2016-10-20 12:00+0200\n"
+"PO-Revision-Date: 2016-10-20 10:06+0000\n"
 "Last-Translator: Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>\n"
 "Language-Team: Italian (http://www.transifex.com/nethserver/nethserver/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -22,9 +23,19 @@ msgid_plural "Assign roles to network interfaces"
 msgstr[0] "Assegna il ruolo ad una interfaccia di rete"
 msgstr[1] "Assegna i ruoli alle interfacce di rete"
 
-#: root/etc/nethserver/todos.d/10eth-unmapped:47
+#: root/etc/nethserver/todos.d/10eth-unmapped:48
 #, python-brace-format
 msgid "A role must be assigned to a new network card"
 msgid_plural "There are {0} roles to be assigned to network cards"
 msgstr[0] "C'è un ruolo da assegnare ad una interfaccia di rete"
 msgstr[1] "Ci sono {0} ruoli da assegnare alle interfacce di rete"
+
+#: root/etc/nethserver/todos.d/10green-dhcp:52
+msgid "One or more green interfaces use DHCP"
+msgstr "Una o più interfacce di rete utilizzano il DHCP."
+
+#: root/etc/nethserver/todos.d/10green-dhcp:56
+msgid ""
+"Using DHCP on green interfaces leads to unexpected behavior. Please, change "
+"the interface to static if possible"
+msgstr "Usare il DHCP sulle interfacce di rete green può portare a comportamenti inaspettati. Se possibile, assegnare un indirizzo di rete statico."

@@ -4,7 +4,7 @@
 
 $L['devs'] = 'Aygıtlar';
 $L['raidstatus_title'] = 'Yazılım RAID durumu';
-$L['no_raid'] = 'Henüz bir yazılım RAID yapılandırması yok';
+$L['no_raid'] = 'Henüz bir yazılım RAID ayarı yok';
 $L['ok'] = 'Tamam';
 $L['level'] = 'Düzey';
 $L['critical'] = 'KRİTİK';

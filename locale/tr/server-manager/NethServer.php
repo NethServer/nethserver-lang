@@ -1,7 +1,7 @@
 <?php 
 
 $L['Administration'] = 'Yönetim'; 
-$L['Configuration'] = 'Yapılandırma'; 
+$L['Configuration'] = 'Ayarlar'; 
 $L['Management'] = 'Yönetim'; 
 $L['Other modules'] = 'Diğer modüller'; 
 $L['Security'] = 'Güvenlik';

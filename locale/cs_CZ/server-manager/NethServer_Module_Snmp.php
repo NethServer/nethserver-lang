@@ -1,7 +1,7 @@
 <?php
 
 $L['Community_label'] = 'Komunita';
-$L['SysContact_label'] = 'System contact';
+$L['SysContact_label'] = 'Za systém zodpovídá';
 $L['SysLocation_label'] = 'Umístění systému';
 $L['Snmp_header'] = 'Nastavení SNMP';
 $L['Snmp_Title'] = 'SNMP';

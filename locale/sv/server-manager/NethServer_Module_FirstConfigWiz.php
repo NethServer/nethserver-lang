@@ -1,6 +1,6 @@
 <?php
 
-$L['Cover_Title'] = 'Welcome';
+$L['Cover_Title'] = 'Välkommen';
 $L['Next_label'] = 'Next';
 $L['Back_label'] = 'Back';
 $L['Skip_label'] = 'Skip';

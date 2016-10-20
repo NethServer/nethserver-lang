@@ -119,3 +119,6 @@ $L['Weight_label'] = 'Тежина линка';
 $L['ProviderName_label'] = 'Име линка';
 $L['UpstreamProxy_label'] = 'Прокси подешавања';
 $L['DNS_label'] = 'ДНС сервери';
+$L['trafficshaping_label'] = 'Обликовање саобраћаја';
+$L['FwInBandwidth_label'] = 'Долазни проток (кбпс)';
+$L['FwOutBandwidth_label'] = 'Одлазни проток (кбпс)';
