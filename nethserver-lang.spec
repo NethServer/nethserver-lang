@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.1.4
+Version: 1.1.5
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -198,6 +198,10 @@ BuildArch: noarch
 NethServer Serbian language support (sr)
 
 %changelog
+* Thu Oct 20 2016 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.1.5-1
+- Added PhoneHome resource
+- Updated language strings
+
 * Wed Sep 28 2016 Davide Principi <davide.principi@nethesis.it> - 1.1.4-1
 - Fixed missing Smarthost MailAccount DomainController Mail Ndpi resources
 - Updated language strings
