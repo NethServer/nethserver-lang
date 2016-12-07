@@ -1,0 +1,29 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nethserver-dc 1.0.0\n"
+"Report-Msgid-Bugs-To: translations@nethserver.org\n"
+"POT-Creation-Date: 2016-12-07 12:31+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Jose G. Jimenez S. <josegjimenez@gmail.com>, 2016\n"
+"Language-Team: Spanish (https://www.transifex.com/nethserver/teams/35834/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: root/etc/nethserver/todos.d/40nethserver-dc:35
+msgid "Configure Samba Active Directory"
+msgstr "Configurar Directorio Activo Samba"
+
+#: root/etc/nethserver/todos.d/40nethserver-dc:38
+msgid ""
+"The Domain Controller (DC) container must be configured before being started"
+msgstr ""
+"El contenedor del controlador de dominio (DC) debe estar configurado antes "
+"de ser iniciado"

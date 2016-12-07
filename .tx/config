@@ -48,10 +48,15 @@ source_file = locale/en/LC_MESSAGES/nethserver-webtop4.pot
 source_lang = en
 type = PO
 
-
 [nethserver.nethserver-ndpipot]
 file_filter = locale/<lang>/LC_MESSAGES/nethserver.nethserver-ndpipot.po
 source_file = locale/en/LC_MESSAGES/nethserver-ndpipot
+source_lang = en
+type = PO
+
+[nethserver.nethserver-dcpot]
+file_filter = locale/<lang>/LC_MESSAGES/nethserver.nethserver-dcpot.po
+source_file = locale/en/LC_MESSAGES/nethserver-dcpot
 source_lang = en
 type = PO
 
