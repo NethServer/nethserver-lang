@@ -57,4 +57,4 @@ $L['VFSType_nfs_label'] = 'NFS gedeelde map';
 $L['VFSType_usb_label'] = 'USB schijf';
 $L['mounted_label'] = 'Aangekoppeld';
 $L['invalid_pipe_char'] = 'Het veld mag geen pipe "|" karakter bevatten';
-$L['invalid_last_char'] = 'Last character can\'t be a backslash "\\"';
+$L['invalid_last_char'] = 'Laatste symbool mag geen backslash zijn "\\"';

@@ -31,5 +31,5 @@ $L['Cidrs_label'] = 'CIDR podsítě';
 $L['iprange_label'] = 'Rozsah IP adres';
 $L['IpRanges_label'] = 'Rozsahy IP adres';
 $L['update_header'] = 'Synchronizovat uživatele a skupiny';
-$L['update_confirmation_label'] = 'Proceed with proxy restart?';
+$L['update_confirmation_label'] = 'Restartovat proxy?';
 $L['Update_label'] = 'Synchronizovat uživatele a skupiny';

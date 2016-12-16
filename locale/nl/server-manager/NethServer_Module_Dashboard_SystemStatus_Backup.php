@@ -16,6 +16,6 @@ $L['incremental'] = 'Incremental';
 $L['full'] = 'Volledige';
 $L['SUCCESS'] = 'SUCCESVOL';
 $L['ERROR'] = 'FOUT';
-$L['START'] = 'START';
+$L['START'] = 'STARTEN';
 $L['backup_not_configured'] = 'Backup niet ingesteld';
 $L['last_backup'] = 'Laatste backup';

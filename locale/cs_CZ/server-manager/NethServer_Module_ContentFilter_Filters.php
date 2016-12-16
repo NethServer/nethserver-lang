@@ -15,4 +15,4 @@ $L['BlockFileTypes_label'] = 'Blokování souborů dle přípony';
 $L['key_exists_message'] = 'A filter, profile or time with the same name already exists';
 $L['BlockBuiltinRules_label'] = 'Blokovat pornostránky pomocí analýzy (regulární výrazy) URL adresy';
 $L['FilterKey_label'] = 'Filtr';
-$L['valid_platform,squidguard-obj-delete,squidguard-referenced,3'] = 'Could not delete ${2}. This filter is currently used inside a profile.';
+$L['valid_platform,squidguard-obj-delete,squidguard-referenced,3'] = '${2} není možné smazat. Tento filtr je stále používán v profilu.';

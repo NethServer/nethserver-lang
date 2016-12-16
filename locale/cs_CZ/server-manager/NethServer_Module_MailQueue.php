@@ -14,9 +14,9 @@ $L['Size_label'] = 'Velikost';
 $L['Timestamp_label'] = 'Datum';
 $L['Recipients_label'] = 'Příjemci';
 $L['Flush_label'] = 'Pokusit se odeslat';
-$L['Flush_Header'] = 'Attempt to send all queued messages';
+$L['Flush_Header'] = 'Pokusit se odeslat veškeré zprávy, nashromážděné ve frontě';
 $L['Flush_Message'] = 'Try to send again all queued messages';
 $L['DeleteAll_label'] = 'Smazat vše';
 $L['DeleteAll_Header'] = 'Smazat vše';
-$L['DeleteAll_Message'] = 'Delete all queued messages (${0})';
+$L['DeleteAll_Message'] = 'Smazat veškeré zprávy, nashromážděné ve frontě (${0})';
 

@@ -1,11 +1,11 @@
 <?php
 
-$L['Lightsquid_Description'] = 'Web proxy statistics';
-$L['Lightsquid_Tags'] = 'statistics stats analysis graph squid web proxy';
+$L['Lightsquid_Description'] = 'Web proxy statistieken';
+$L['Lightsquid_Tags'] = 'Grafische analyse statistiek Squid Web Proxy';
 
-$L['Lightsquid_Title'] = 'Web proxy stats';
-$L['Settings_title'] = 'Settings';
-$L['Settings_label'] = 'Settings';
-$L['Lang_label'] = 'Language';
-$L['BigFileLimit_label'] = 'Report files bigger than (MB)';
-$L['PerUserTrafficLimit_label'] = 'Report if a user exceed traffic day limit (MB)';
+$L['Lightsquid_Title'] = 'Web Proxy Statistiek';
+$L['Settings_title'] = 'Instellingen';
+$L['Settings_label'] = 'Instellingen';
+$L['Lang_label'] = 'Taal';
+$L['BigFileLimit_label'] = 'Rapporteer bestanden groter dan  (MB)';
+$L['PerUserTrafficLimit_label'] = 'Rapporteer als gebruiker over zijn dag limiet zit (MB)';

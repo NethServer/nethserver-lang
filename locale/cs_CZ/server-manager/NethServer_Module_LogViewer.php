@@ -10,4 +10,4 @@ $L['Empty_label'] = 'Prázdné';
 $L['Stop_label'] = 'Zastavit';
 $L['Clear_label'] = 'Zrušit filtr';
 $L['Results_Filtered_label'] = '${0} filtrovaných výsdledků';
-$L['Result_Filtered_label'] = 'one filtered result';
+$L['Result_Filtered_label'] = 'jeden odfiltrovaný výsledek';

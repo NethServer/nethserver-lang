@@ -1,15 +1,15 @@
 <?php
 
-$L['SharedMailbox_create_header'] = 'Create a new shared mailbox';
-$L['SharedMailbox_modify_header'] = 'Edit the shared mailbox `${0}`';
-$L['Name_label'] = 'Name';
-$L['Key_label'] = 'Mailbox';
-$L['OwnersSelector_label'] = 'Owner groups';
-$L['Owners_label'] = 'Owner groups';
-$L['Others_label'] = 'Special access';
-$L['CreateAlias_label'] = 'Create alias';
-$L['alias_label'] = 'Alias';
-$L['ExtraFields_label'] = 'Additional actions';
-$L['ANY_DOMAIN'] = '[all domains]';
-$L['localAddress_label'] = 'Local address';
-$L['valid_email,malformed-localpart'] = 'Invalid email alias';
+$L['SharedMailbox_create_header'] = 'Criar uma caixa de entrada compartilhada';
+$L['SharedMailbox_modify_header'] = 'Editar a caixa de entrada compartilhada `${0}`';
+$L['Name_label'] = 'Nome';
+$L['Key_label'] = 'Caixa de entrada';
+$L['OwnersSelector_label'] = 'Grupo proprietário';
+$L['Owners_label'] = 'Grupo proprietário';
+$L['Others_label'] = 'Acesso especial';
+$L['CreateAlias_label'] = 'Criar apelido';
+$L['alias_label'] = 'Nome';
+$L['ExtraFields_label'] = 'Ações adicionais';
+$L['ANY_DOMAIN'] = '[todos os domínios]';
+$L['localAddress_label'] = 'Endereços locais';
+$L['valid_email,malformed-localpart'] = 'nome de email inválido';

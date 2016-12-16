@@ -12,6 +12,6 @@ $L['CIDRs_label'] = 'CIDR';
 $L['host_label'] = 'Stroj';
 $L['host-group_label'] = 'Host group';
 $L['iprange_label'] = 'Rozsah IP adres';
-$L['cidr_label'] = 'CIDR subnet';
+$L['cidr_label'] = 'CIDR podsíť';
 $L['key_exists_message'] = 'A bypass with the same name already exists';
 $L['key_doesnt_exists_message'] = 'Nebyl nalezen žádný stroj s takový názvem';

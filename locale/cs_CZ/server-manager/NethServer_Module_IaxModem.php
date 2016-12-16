@@ -17,5 +17,5 @@ $L['mode_label'] = 'Režim';
 $L['mode_send_label'] = 'Pouze odesílat'; 
 $L['mode_receive_label'] = 'Pouze příjem'; 
 $L['mode_both_label'] = 'Odeslat a přijmout'; 
-$L['Create a new IAX modem'] = 'Create a new IAX modem';
-$L['Update IAX modem'] = 'Update IAX modem';
+$L['Create a new IAX modem'] = 'Vytvořit nový IAX modem';
+$L['Update IAX modem'] = 'Aktualizovat IAX modem';

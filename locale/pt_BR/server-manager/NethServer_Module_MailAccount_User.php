@@ -1,19 +1,19 @@
 <?php
 
-$L['Modify_header'] = 'Edit preferences for `${0}`';
-$L['${0} day'] = 'one day'; 
-$L['${0} days'] = '${0} days'; 
-$L['Hold for ${0}'] = 'Hold for ${0}'; 
-$L['MailForwardAddress_label'] = 'Forward email address'; 
-$L['MailForwardKeepMessageCopy_label'] = 'Keep a message copy on this server'; 
-$L['MailForwardStatus_label'] = 'Forward messages';
-$L['MailQuotaCustom_label'] = 'Custom mail quota';
-$L['MailSpamRetentionTime_label'] = 'Custom spam retention';
-$L['MailQuotaType_label'] = 'Custom mailbox quota'; 
-$L['MailSpamRetentionStatus_label'] = 'Customize spam message retention'; 
-$L['MailStatus_label'] = 'Access to email services';
-$L['Unlimited_quota'] = 'Unlimited'; 
-$L['ever'] = 'ever';
-$L['CreateMailAddresses_label'] = 'Create default email addresses';
-$L['MailAddressList_label'] = 'Mail addresses';
-$L['Key_label'] = 'User';
+$L['Modify_header'] = 'Editar preferências para `${0}`';
+$L['${0} day'] = 'um dia'; 
+$L['${0} days'] = '${0} dias'; 
+$L['Hold for ${0}'] = 'aguardar durante ${0}'; 
+$L['MailForwardAddress_label'] = 'Endereço de email encaminhado'; 
+$L['MailForwardKeepMessageCopy_label'] = 'Manter uma cópia da mensagem neste servidor'; 
+$L['MailForwardStatus_label'] = 'Reencaminhar mensagens';
+$L['MailQuotaCustom_label'] = 'Quota de email personalizada';
+$L['MailSpamRetentionTime_label'] = 'Personalizar a retenção de mensagens spam';
+$L['MailQuotaType_label'] = 'Quota de email personalizada'; 
+$L['MailSpamRetentionStatus_label'] = 'Personalizar a retenção de mensagens spam'; 
+$L['MailStatus_label'] = 'Acesso para serviço de email';
+$L['Unlimited_quota'] = 'Ilimitado'; 
+$L['ever'] = 'sempre';
+$L['CreateMailAddresses_label'] = 'Novos endereços de email pré-definidos';
+$L['MailAddressList_label'] = 'Endereços de email';
+$L['Key_label'] = 'Usuário';

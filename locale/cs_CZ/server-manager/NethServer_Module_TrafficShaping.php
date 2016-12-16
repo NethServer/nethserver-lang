@@ -13,7 +13,7 @@ $L['enabled_label'] = 'enabled_label';
 $L['Gateway'] = 'Brána';
 $L['General_Title'] = 'Obecné';
 $L['icmp_label'] = 'ICMP';
-$L['In_label'] = 'Inbound bandwidth (kbps)';
+$L['In_label'] = 'Příchozí rychlost (kb/s)';
 $L['interface_create_header_label'] = 'Vytvořit pravidlo pro rozhraní';
 $L['interface_label'] = 'Rozhraní';
 $L['Interfaces_Title'] = 'Pravidla pro rozhraní';
@@ -36,7 +36,7 @@ $L['tcp,udp_label'] = 'TCP, UDP';
 $L['TrafficShaping_Description'] = 'Spravovat řízení rychlosti síťového provozu';
 $L['TrafficShaping_Tags'] = 'tc traffic shaping shape qos';
 $L['TrafficShaping_Title'] = 'Omezování rychlosti síťového provozu';
-$L['TrafficShaping_General_header'] = 'Traffic shaping';
+$L['TrafficShaping_General_header'] = 'Omezování provozu';
 $L['udp_label'] = ' ';
 $L['PickSource_label'] = 'Zvolte zdroj…';
 

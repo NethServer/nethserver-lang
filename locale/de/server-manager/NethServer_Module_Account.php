@@ -19,4 +19,13 @@ $L['password_label'] = 'Passwort';
 $L['Join_label'] = 'Beitreten';
 $L['Authenticate_header'] = 'Trete der AD Domäne mit priviligierten Anmeldedaten bei';
 
+$L['NoConfig_header'] = 'Domain ${0}';
+
+$L['AccountProvider_Error_32'] = 'Account provider error: no entries found. Check the LDAP bind credentials and Base DN in Accounts provider configuration';
+$L['AccountProvider_Error_49'] = 'Account provider error: invalid credentials (${0})';
+$L['AccountProvider_Error_49_710'] = 'Insufficent access rights (49/710): specify alternative LDAP bind credentials in Accounts provider configuration';
+$L['AccountProvider_Error_4'] = 'Account provider warning: size limit exceeded (${0})';
+$L['AccountProvider_Error_110'] = 'Account provider connection timed out';
+$L['AccountProvider_Error_111'] = 'Account provider connection refused';
+
 $L['valid_platform,ad-dns,srv_record,1'] = 'Dies scheint kein Active Directory Domain Controller zu sein';

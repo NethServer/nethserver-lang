@@ -14,10 +14,10 @@ $L['Policy_label'] = 'Provoz do Internetu (červené rozhraní)';
 $L['strict_label'] = 'Blokováno';
 $L['enabled_label'] = 'Zapnuto';
 $L['disabled_label'] = 'Vypnuto';
-$L['MACValidation_label'] = 'MAC validation (IP/MAC binding)';
+$L['MACValidation_label'] = 'Ověřování MAC adresy (spojování IP/MAC adrese)';
 $L['MACValidationPolicy_label'] = 'Policy for hosts without IP/MAC binding (DHCP reservation)';
 $L['drop_label'] = 'Blokovat provoz';
-$L['accept_label'] = 'Allow trafic';
+$L['accept_label'] = 'Umožnit provoz';
 
 $L['Edit_header'] = 'Upravit pravidlo #${0}';
 $L['status_label'] = 'Zapnuto';
@@ -29,19 +29,19 @@ $L['ActionDrop_label'] = 'Zahodit';
 $L['Source_label'] = 'Zdroj';
 $L['Destination_label'] = 'Cíl';
 $L['Service_label'] = 'Služba';
-$L['Time_label'] = 'Time condition';
+$L['Time_label'] = 'Časová podmínka';
 $L['PickSource_label'] = 'Zvolte jedno…';
 $L['PickDestination_label'] = 'Zvolte jedno…';
 $L['PickService_label'] = 'Zvolte jedno…';
-$L['LogType_label'] = 'Write to log if this rule matches';
+$L['LogType_label'] = 'Pokud je toto pravidlo uplatněno, zapsat do záznamu událostí';
 
-$L['PickObject_SrcRaw_header'] = 'Choose the packet source for rule "${RuleId}"';
-$L['PickObject_DstRaw_header'] = 'Choose the packet destination for rule "${RuleId}"';
-$L['PickObject_ServiceRaw_header'] = 'Choose the service protocol for rule "${RuleId}"';
-$L['PickObject_TimeRaw_header'] = 'Choose the time condition for rule "${RuleId}"';
+$L['PickObject_SrcRaw_header'] = 'Zvolte zdroj paketů pro pravidlo „${RuleId}“';
+$L['PickObject_DstRaw_header'] = 'Zvolte cíl paketů pro pravidlo „${RuleId}“';
+$L['PickObject_ServiceRaw_header'] = 'Zvolte servisní protokol pro pravidlo „${RuleId}“';
+$L['PickObject_TimeRaw_header'] = 'Zvolte časovou podmínku pro pravidlo „${RuleId}“';
 
-$L['Create_last_label'] = 'Create rule at bottom';
-$L['Create_first_label'] = 'Create rule at top';
+$L['Create_last_label'] = 'Vytvořit pravidlo na konci seznamu';
+$L['Create_first_label'] = 'Vytvořit pravidlo na začátku seznamu';
 $L['Create_header'] = 'Vytvořit pravidlo brány firewall';
 $L['Copy_header'] = 'Vytvořit kopii z #${0}';
 $L['Commit_label'] = 'Uplatnit změny';
@@ -55,12 +55,12 @@ $L['RuleId_label'] = '#${0}';
 $L['SearchPlaceholder_label'] = 'Hledat…';
 
 $L['Delete_header'] = 'Smazat pravidlo #${0}';
-$L['Delete_message'] = 'Confirm deletion of firewall rule #${id}';
+$L['Delete_message'] = 'Potvrzení odstranění pravidla brány firewall #${id}';
 $L['HostGroups_create'] = 'Create host group "${0}"';
-$L['Hosts_create'] = 'Create host "${0}"';
-$L['Zones_create'] = 'Create zone"${0}"';
+$L['Hosts_create'] = 'Vytvořit stroj „${0}“';
+$L['Zones_create'] = 'Vytvořit zónu „${0}“';
 $L['Services_create'] = 'Create service object "${0}"';
-$L['Time_create'] = 'Create time condition "${0}"';
+$L['Time_create'] = 'Vytvořit časovou podmínku „${0}“';
 $L['IpRange_create'] = 'Create IP range "${0}"';
 $L['Cidr_create'] = 'Create CIDR network "${0}"';
 

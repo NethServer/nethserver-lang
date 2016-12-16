@@ -1,6 +1,6 @@
 <?php 
 
-$L['Delete_label'] = 'Delete';
+$L['Delete_label'] = 'Verwijder';
 $L['Delete_Header'] = 'Delete message ${0}';
 $L['Delete_Message'] = 'Confirm deletion of message ${0}?';
 $L['MailQueue_Description'] = 'Manage mail queue'; 

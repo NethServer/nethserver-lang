@@ -12,11 +12,20 @@ $L['Provider_ad_label'] = 'Active Directory';
 $L['AdDns_label'] = 'IP adresa jmenného (DNS) serveru';
 $L['LdapUri_label'] = 'IP adresa serveru';
 $L['BindProvider_label'] = 'Bind';
-$L['NetbiosDomain_label'] = 'NetBIOS domain';
+$L['NetbiosDomain_label'] = 'NetBIOS doména';
 
-$L['login_label'] = 'Privileged user name';
+$L['login_label'] = 'Privilegované uživatelské jméno';
 $L['password_label'] = 'Heslo';
 $L['Join_label'] = 'Připojit';
-$L['Authenticate_header'] = 'Join the AD domain with privileged user credentials';
+$L['Authenticate_header'] = 'Připojit k doméně Active Directory s pověřeními privilegovaného uživatele';
 
-$L['valid_platform,ad-dns,srv_record,1'] = 'Does not seem an Active Directory domain controller';
+$L['NoConfig_header'] = 'Domain ${0}';
+
+$L['AccountProvider_Error_32'] = 'Account provider error: no entries found. Check the LDAP bind credentials and Base DN in Accounts provider configuration';
+$L['AccountProvider_Error_49'] = 'Account provider error: invalid credentials (${0})';
+$L['AccountProvider_Error_49_710'] = 'Insufficent access rights (49/710): specify alternative LDAP bind credentials in Accounts provider configuration';
+$L['AccountProvider_Error_4'] = 'Account provider warning: size limit exceeded (${0})';
+$L['AccountProvider_Error_110'] = 'Account provider connection timed out';
+$L['AccountProvider_Error_111'] = 'Account provider connection refused';
+
+$L['valid_platform,ad-dns,srv_record,1'] = 'Nezdá se být řadičem domény Active Directory';

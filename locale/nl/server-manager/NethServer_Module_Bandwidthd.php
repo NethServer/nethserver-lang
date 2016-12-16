@@ -1,8 +1,8 @@
 <?php
 
-$L['Bandwidthd_Description'] = 'Bandwidth usage';
-$L['Bandwidthd_Tags'] = 'statistics stats analysis graph bandwidthd bandidth';
-$L['Bandwidthd_Title'] = 'Bandwidth usage';
-$L['Settings_title'] = 'Settings';
-$L['Settings_label'] = 'Settings';
-$L['Subnets_label'] = 'Collect data from interfaces';
+$L['Bandwidthd_Description'] = 'Bandbreedte gebruik';
+$L['Bandwidthd_Tags'] = 'statistieken stats analyse grafiek bandwidthd bandidth';
+$L['Bandwidthd_Title'] = 'Bandbreedte gebruik';
+$L['Settings_title'] = 'Instellignen';
+$L['Settings_label'] = 'Instellingen';
+$L['Subnets_label'] = 'Verzamel data van interfaces';

@@ -62,4 +62,4 @@ $L['winbind_Description'] = 'Switch do nome de serviço';
 $L['xl2tpd_Description'] = 'Protocolo Layer 2 Tunneling';
 $L['yum-cron_Description'] = 'Atualizações automáticas';
 $L['vsftpd_Description'] = 'Servidor FTP';
-$L['sssd_Description'] = 'System Security Services Daemon';
+$L['sssd_Description'] = 'Daemon de Serviços de Segurança do Sistema';

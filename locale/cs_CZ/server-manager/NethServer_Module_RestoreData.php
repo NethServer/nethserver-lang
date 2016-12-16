@@ -12,5 +12,5 @@ $L['RestoreData_restore_original_message'] = 'Restored in the original position'
 $L['path_label'] = 'Umístění';
 $L['RestoreData_file_restore'] = 'Složky či soubory, které obnovit';
 $L['RestoreData_mode_restore'] = 'Restore mode';
-$L['RestoreData_empty_restore'] = 'No directories or files selected';
-$L['backupFileList_label'] = 'Backup file';
+$L['RestoreData_empty_restore'] = 'Nejsou vybrány žádné složky nebo soubory';
+$L['backupFileList_label'] = 'Soubor se zálohou';

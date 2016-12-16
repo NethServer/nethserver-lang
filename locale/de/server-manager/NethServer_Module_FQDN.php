@@ -1,6 +1,6 @@
 <?php
 
-$L['FQDN_Description'] = 'Server und Domainname bearbeiten'; 
+$L['FQDN_Description'] = 'Konfiguriere Server und Domainname'; 
 $L['FQDN_Tags'] = 'Hostname Host Name Domainname Domain FQDN'; 
 $L['FQDN_Title'] = 'Servername';
 $L['FQDN_header'] = 'Host und Domain Name';

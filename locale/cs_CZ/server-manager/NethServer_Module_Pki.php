@@ -13,15 +13,15 @@ $L['CN_label'] = 'Common name';
 $L['EmailAddress_label'] = 'E-mailová adresa';
 $L['SubjectAltName_label'] = 'Alternativní názvy';
 $L['CertificateDuration_label'] = 'Platnost certifikátu (dny)';
-$L['valid_hostname_instance'] = '"${0}" is an invalid host name';
+$L['valid_hostname_instance'] = '„${0}“ není platný název stroje';
 $L['valid_x509_field'] = 'Nemůže obsahovat znaky „,“ (čárka) a „/“ (dopředné lomítko)';
 
-$L['Generate_label'] = 'Edit self-signed certificate';
+$L['Generate_label'] = 'Upravit sám sebou podepsaný certifikát';
 $L['Upload_label'] = 'Nahrát certifikát';
 $L['GenerateLe_label'] = 'Zažádat o certifikát od autority Let\'s Encrypt';
 
 $L['GenerateLe_Header'] = 'Zažádat o nový certifikát od autority Let\'s Encrypt';
-$L['Generate_Header'] = 'Edit self-signed certificate';
+$L['Generate_Header'] = 'Upravit sám sebou podepsaný certifikát';
 $L['Upload_Header'] = 'Nahrát soubor s certifikátem na server';
 
 $L['Show_label'] = 'Zobrazit';
@@ -34,7 +34,7 @@ $L['ExpireDate_label'] = 'Platnost končí';
 $L['Actions_label'] = 'Akce';
 $L['Default_label'] = 'Výchozí';
 $L['Confirm_label'] = 'Potvrdit';
-$L['default_cert_label'] = 'Set selected certificate as default?';
+$L['default_cert_label'] = 'Nastavit označený certifikát jako výchozí?';
 $L['certificate_label'] = 'Certifikát';
 
 $L['LetsEncryptMail_label'] = 'Notification email';

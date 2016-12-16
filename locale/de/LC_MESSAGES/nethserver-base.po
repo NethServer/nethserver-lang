@@ -2,14 +2,15 @@
 # This file is put in the public domain.
 # 
 # Translators:
+# Kristian <kreukauff@gmx.de>, 2016
 # Mika Beckerich <beckerichmika@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
 "POT-Creation-Date: 2016-10-20 12:00+0200\n"
-"PO-Revision-Date: 2016-10-20 10:01+0000\n"
-"Last-Translator: Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>\n"
+"PO-Revision-Date: 2016-10-24 13:48+0000\n"
+"Last-Translator: Kristian <kreukauff@gmx.de>\n"
 "Language-Team: German (http://www.transifex.com/nethserver/nethserver/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,10 +33,10 @@ msgstr[1] "Den Netzwerkkarten müssen noch {0} Funktionen zugewiesen werden"
 
 #: root/etc/nethserver/todos.d/10green-dhcp:52
 msgid "One or more green interfaces use DHCP"
-msgstr ""
+msgstr "Einer oder mehrere grüne Netzwerkadapter nutzen DHCP"
 
 #: root/etc/nethserver/todos.d/10green-dhcp:56
 msgid ""
 "Using DHCP on green interfaces leads to unexpected behavior. Please, change "
 "the interface to static if possible"
-msgstr ""
+msgstr "Die Nutzung von DHCP auf grünen Netzwerkadaptern führt zu unvorhergesehenen Verhalten. Der Netzwerkadapter sollte, wenn möglich, auf statisch geändert werden."

@@ -15,5 +15,5 @@ $L['localAddress_label'] = 'E-mailová adresa';
 $L['pseudonym_label'] = 'E-mailová adresa';
 $L['valid_pseudonym_unique'] = 'Tato adresa už existuje';
 $L['ANY_DOMAIN'] = '[všechny domény]';
-$L['ExtAddresses_label'] = 'External email destinations';
+$L['ExtAddresses_label'] = 'Cíle e-mailu venku';
 $L['Destinations_label'] = 'Cíle';

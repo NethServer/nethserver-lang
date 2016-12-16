@@ -2,13 +2,13 @@
 # This file is put in the public domain.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2015
+# Kaya Zeren <kayazeren@gmail.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
 "POT-Creation-Date: 2015-05-19 16:55+0200\n"
-"PO-Revision-Date: 2015-05-24 10:53+0000\n"
+"PO-Revision-Date: 2016-12-07 20:17+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/nethserver/nethserver/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "Parolanızı değiştirmek için kullanabileceğiniz yöntemler:"
 
 #: root/etc/e-smith/templates/password-expired/en/30_accesswebui:1
 msgid "Access the web interface"
-msgstr "Web arayüzüne erişim"
+msgstr "Web arayüzü erişimi"
 
 #: root/etc/e-smith/templates/password-expired/en/template-end:3
 msgid "This message has been generated automatically, do not respond to it."

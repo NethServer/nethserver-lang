@@ -1,6 +1,6 @@
 <?php
 
-$L['ProxyPass_Description'] = 'Configure reverse proxy';
+$L['ProxyPass_Description'] = 'Instellen Reverse Proxy';
 $L['ProxyPass_Tags'] = 'reverse proxy proxypass proxy pass';
 $L['ProxyPass_Title'] = 'Reverse proxy';
 $L['Key_label'] = 'Name';

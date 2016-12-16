@@ -19,4 +19,13 @@ $L['password_label'] = 'Password';
 $L['Join_label'] = 'Join';
 $L['Authenticate_header'] = 'Join al dominio AD con credenziali utente privilegiato';
 
+$L['NoConfig_header'] = 'Dominio ${0}';
+
+$L['AccountProvider_Error_32'] = 'Errore account provider: nessun risultato trovato. Controllare le credenziali per il bind LDAP e il Base DN nella configurazione di Account provider';
+$L['AccountProvider_Error_49'] = 'Errore account provider: credenziali non valide (${0})';
+$L['AccountProvider_Error_49_710'] = 'Diritti di accesso non sufficienti (49/710): specificare delle credenziali alternative per il bind LDAP nella configurazione Account provider';
+$L['AccountProvider_Error_4'] = 'Avviso Account provider: limite di dimensione superato (${0})';
+$L['AccountProvider_Error_110'] = 'Time out della connessione con l\'Account provider';
+$L['AccountProvider_Error_111'] = 'Connessione rifiutata con l\'Account provider';
+
 $L['valid_platform,ad-dns,srv_record,1'] = 'Non sembra essere un controller di dominio Active Directory';
