@@ -19,13 +19,16 @@ $L['password_label'] = 'Senha';
 $L['Join_label'] = 'Entrar';
 $L['Authenticate_header'] = 'Entrar no domínio AD com credenciais de usuário privilegiado';
 
-$L['NoConfig_header'] = 'Domain ${0}';
+$L['NoConfig_header'] = 'Domínio ${0}';
 
-$L['AccountProvider_Error_32'] = 'Account provider error: no entries found. Check the LDAP bind credentials and Base DN in Accounts provider configuration';
-$L['AccountProvider_Error_49'] = 'Account provider error: invalid credentials (${0})';
-$L['AccountProvider_Error_49_710'] = 'Insufficent access rights (49/710): specify alternative LDAP bind credentials in Accounts provider configuration';
-$L['AccountProvider_Error_4'] = 'Account provider warning: size limit exceeded (${0})';
-$L['AccountProvider_Error_110'] = 'Account provider connection timed out';
-$L['AccountProvider_Error_111'] = 'Account provider connection refused';
+$L['AccountProvider_Error_22'] = 'Account provider error: invalid DN. Check Base DN, Groups DN and Users DN in Accounts provider configuration';
+$L['AccountProvider_Error_32'] = 'Erro do provedor de conta: nenhuma entrada encontrada. Verifique as credenciais de vinculação LDAP e a base DN na configuração do provedor de Contas';
+$L['AccountProvider_Error_34'] = 'Account provider error: invalid machine password. Check the server is correctly joined to a domain';
+$L['AccountProvider_Error_49'] = 'Erro do provedor de conta: credenciais inválidas (${0})';
+$L['AccountProvider_Error_49_710'] = 'Direitos de acesso insuficientes (49/710): especifique credenciais de ligação LDAP alternativas na configuração do provedor de Contas';
+$L['AccountProvider_Error_4'] = 'Aviso do provedor de conta: limite de tamanho excedido (${0})';
+$L['AccountProvider_Error_104'] = 'Account provider connection reset by peer: check if the server supports SSL/TLS connections';
+$L['AccountProvider_Error_110'] = 'A ligação do provedor da conta expirou';
+$L['AccountProvider_Error_111'] = 'Conexão do provedor de conta recusada';
 
 $L['valid_platform,ad-dns,srv_record,1'] = 'Não parece um controlador de domínio do Active Directory';

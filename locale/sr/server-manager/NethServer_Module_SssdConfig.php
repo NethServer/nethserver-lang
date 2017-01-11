@@ -1,18 +1,18 @@
 <?php
 
-$L['SssdConfig_Title'] = 'Accounts provider';
-$L['SssdConfig_Description'] = 'Configure user and groups domain accounts provider';
-$L['SssdConfig_Tags'] = 'sssd domain account user group ldap kerberos active directory';
+$L['SssdConfig_Title'] = 'Пружалац налога';
+$L['SssdConfig_Description'] = 'Подеси корисника и групе пружаоца налога домена';
+$L['SssdConfig_Tags'] = 'сссд домен налог корисник група лдап креберос активни директоријум';
 
-$L['SssdConfig_Advanced_label'] = 'Advanced settings';
-$L['BindDN_label'] = 'LDAP or Windows user name';
-$L['BindPassword_label'] = 'Password';
-$L['BaseDN_label'] = 'Base DN';
-$L['UserDN_label'] = 'User DN';
-$L['GroupDN_label'] = 'Group DN';
-$L['RawLdapUri_label'] = 'LDAP connection URI';
-$L['StartTls_label'] = 'STARTTLS';
-$L['starttls_auto'] = 'Default';
-$L['starttls_enabled'] = 'Yes';
-$L['starttls_disabled'] = 'No';
+$L['SssdConfig_Advanced_label'] = 'Напредна подешавања';
+$L['BindDN_label'] = 'ЛДП и Виндоус корисничко име';
+$L['BindPassword_label'] = 'Лозинка';
+$L['BaseDN_label'] = 'Базни ДН';
+$L['UserDN_label'] = 'Кориснички ДН';
+$L['GroupDN_label'] = 'Групни ДН';
+$L['RawLdapUri_label'] = 'Линк ЛДАП конекције';
+$L['StartTls_label'] = 'СТАРТТЛС';
+$L['starttls_auto'] = 'Подразумевано';
+$L['starttls_enabled'] = 'Да';
+$L['starttls_disabled'] = 'Не';
 

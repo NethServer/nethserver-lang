@@ -19,13 +19,16 @@ $L['password_label'] = 'Parola';
 $L['Join_label'] = 'Katıl';
 $L['Authenticate_header'] = 'Aktif Dizin etki alanına ayrıcalıklı kullanıcı kimlik doğrulama bilgileri ile katıl';
 
-$L['NoConfig_header'] = 'Domain ${0}';
+$L['NoConfig_header'] = '${0} Etki Alanı';
 
-$L['AccountProvider_Error_32'] = 'Account provider error: no entries found. Check the LDAP bind credentials and Base DN in Accounts provider configuration';
-$L['AccountProvider_Error_49'] = 'Account provider error: invalid credentials (${0})';
-$L['AccountProvider_Error_49_710'] = 'Insufficent access rights (49/710): specify alternative LDAP bind credentials in Accounts provider configuration';
-$L['AccountProvider_Error_4'] = 'Account provider warning: size limit exceeded (${0})';
-$L['AccountProvider_Error_110'] = 'Account provider connection timed out';
-$L['AccountProvider_Error_111'] = 'Account provider connection refused';
+$L['AccountProvider_Error_22'] = 'Account provider error: invalid DN. Check Base DN, Groups DN and Users DN in Accounts provider configuration';
+$L['AccountProvider_Error_32'] = 'Hesap hizmeti sağlayıcısı hatası: Herhangi bir kayıt bulunamadı. Hesap sağlayıcı ayarlarındaki LDAP bağlantı bilgilerini ve Base DN ayarlarını denetleyin';
+$L['AccountProvider_Error_34'] = 'Account provider error: invalid machine password. Check the server is correctly joined to a domain';
+$L['AccountProvider_Error_49'] = 'Hesap hizmeti sağlayıcı hatası: Kimlik doğrulama bilgileri geçersiz (${0})';
+$L['AccountProvider_Error_49_710'] = 'Erişim izinleri yetersiz (49/710): Hesap hizmeti sağlayıcısı ayarlarından alternatif LDAP bağlantısı bilgilerini belirtin';
+$L['AccountProvider_Error_4'] = 'Hesap hizmeti sağlayıcı uyarısı: Boyut sınırı aşıldı (${0})';
+$L['AccountProvider_Error_104'] = 'Account provider connection reset by peer: check if the server supports SSL/TLS connections';
+$L['AccountProvider_Error_110'] = 'Hesap hizmeti sağlayıcı bağlantısı zaman aşımına uğradı';
+$L['AccountProvider_Error_111'] = 'Hesap hizmeti sağlayıcısı bağlantıyı reddetti';
 
 $L['valid_platform,ad-dns,srv_record,1'] = 'Bir Aktif Dizin etki alanı denetleyicisi gibi görünmüyor';
