@@ -102,4 +102,4 @@ Push updated sources to Transifex::
    
 Refer to Internationalization_ chapter on the Developer's Manual.
 
-.. _Internationalization: http://docs.nethserver.org/projects/nethserver-devel/en/latest/i18n.htm
+.. _Internationalization: http://docs.nethserver.org/projects/nethserver-devel/en/latest/i18n.html
