@@ -9,7 +9,7 @@ $L['gre_label'] = 'GRE';
 $L['HostGroupsKey_label'] = 'Skupina';
 $L['HostGroups_create_label'] = 'Create host group';
 $L['HostGroups_CreateHostGroup_label'] = 'Create host group';
-$L['HostGroups_update_label'] = 'Edit host group "${0}"';
+$L['HostGroups_update_label'] = 'Upravit skupinu stroje „${0}“';
 $L['HostGroups_Title'] = 'Skupiny stroje';
 
 $L['HostsKey_label'] = 'Stroj';

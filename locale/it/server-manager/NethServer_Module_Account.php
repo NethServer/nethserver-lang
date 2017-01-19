@@ -21,13 +21,13 @@ $L['Authenticate_header'] = 'Join al dominio AD con credenziali utente privilegi
 
 $L['NoConfig_header'] = 'Dominio ${0}';
 
-$L['AccountProvider_Error_22'] = 'Account provider error: invalid DN. Check Base DN, Groups DN and Users DN in Accounts provider configuration';
+$L['AccountProvider_Error_22'] = 'Errore account provider: DN non valido. Controllare Base DN, Group DN, User DN nella configurazione di Account provider';
 $L['AccountProvider_Error_32'] = 'Errore account provider: nessun risultato trovato. Controllare le credenziali per il bind LDAP e il Base DN nella configurazione di Account provider';
-$L['AccountProvider_Error_34'] = 'Account provider error: invalid machine password. Check the server is correctly joined to a domain';
+$L['AccountProvider_Error_34'] = 'Errore account provider: machine password non valida. Verificare che il sistema sia membro del dominio';
 $L['AccountProvider_Error_49'] = 'Errore account provider: credenziali non valide (${0})';
 $L['AccountProvider_Error_49_710'] = 'Diritti di accesso non sufficienti (49/710): specificare delle credenziali alternative per il bind LDAP nella configurazione Account provider';
 $L['AccountProvider_Error_4'] = 'Avviso Account provider: limite di dimensione superato (${0})';
-$L['AccountProvider_Error_104'] = 'Account provider connection reset by peer: check if the server supports SSL/TLS connections';
+$L['AccountProvider_Error_104'] = 'Connessione all\'Account provider interrotta: verificare i parametri della connessione SSL/TLS';
 $L['AccountProvider_Error_110'] = 'Time out della connessione con l\'Account provider';
 $L['AccountProvider_Error_111'] = 'Connessione rifiutata con l\'Account provider';
 

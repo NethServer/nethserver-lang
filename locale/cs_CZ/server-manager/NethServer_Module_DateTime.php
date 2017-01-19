@@ -8,7 +8,7 @@ $L['DateTime_Action'] = 'Nastavit časovou zónu na: ${timezone}';
 $L['date_label'] = 'Datum'; 
 $L['server_label'] = 'Časový (NTP) server'; 
 $L['Status_disabled_label'] = 'Ruční nastavení'; 
-$L['Status_enabled_label'] = 'Network synchronization'; 
+$L['Status_enabled_label'] = 'Synchronizace po síti'; 
 $L['time_label'] = 'Hodiny a minuty'; 
 $L['timezone_label'] = 'Časová zóna'; 
 
