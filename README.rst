@@ -43,6 +43,10 @@ Build the RPMs:
 
      tx pull -a
 
+1. (optional) clean up partially translated languages: ::
+
+     git clean -f -d
+
 2. Commit changes to git repository: ::
 
      git commit -a -m 'Pulled translation strings from Transifex'
