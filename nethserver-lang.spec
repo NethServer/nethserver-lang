@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.1.6
+Version: 1.1.7
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -198,6 +198,9 @@ BuildArch: noarch
 NethServer Serbian language support (sr)
 
 %changelog
+* Mon Jan 30 2017 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.1.7-1
+- Update language strings
+
 * Fri Dec 16 2016 Davide Principi <davide.principi@nethesis.it> - 1.1.6-1
 - New SssdConfig module translations
 - Update language strings
