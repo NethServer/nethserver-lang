@@ -1,11 +1,11 @@
 <?php
 
-$L['RestoreData_Title'] = 'Restore data';
+$L['RestoreData_Title'] = 'Restore files';
 $L['RestoreData_label'] = 'Restore';
 $L['RestoreData_Description'] = 'Restore data from backup';
 $L['RestoreData_PlaceHolder'] = 'Zoeken...';
-$L['RestoreData_original'] = 'Restore data in the original path';
-$L['RestoreData_temp'] = 'Restore data in new directory';
+$L['RestoreData_original'] = 'Restore files in the original path';
+$L['RestoreData_temp'] = 'Restore files in new directory';
 $L['RestoreData_String_restore'] = 'Select one or more directories or files to restore';
 $L['RestoreData_restore_message'] = 'Restored in ${0}';
 $L['RestoreData_restore_original_message'] = 'Restored in the original position';

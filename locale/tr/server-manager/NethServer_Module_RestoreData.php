@@ -1,11 +1,11 @@
 <?php
 
-$L['RestoreData_Title'] = 'Verileri geri yükle';
+$L['RestoreData_Title'] = 'Dosyaları geri yükle';
 $L['RestoreData_label'] = 'Geri Yükleme';
 $L['RestoreData_Description'] = 'Verileri yedekten geri yükle';
 $L['RestoreData_PlaceHolder'] = 'Arama...';
-$L['RestoreData_original'] = 'Verileri özgün yola geri yükle';
-$L['RestoreData_temp'] = 'Verileri yeni bir klasöre geri yükle';
+$L['RestoreData_original'] = 'Dosyaları özgün konuma geri yükle';
+$L['RestoreData_temp'] = 'Dosyaları yeni klasöre geri yükle';
 $L['RestoreData_String_restore'] = 'Geri yüklenecek bir ya da bir kaç dosya ya da klasör seçin';
 $L['RestoreData_restore_message'] = '${0} içine geri yüklendi';
 $L['RestoreData_restore_original_message'] = 'Özgün konuma geri yüklendi';

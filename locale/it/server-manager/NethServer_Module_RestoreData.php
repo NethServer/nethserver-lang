@@ -1,11 +1,11 @@
 <?php
 
-$L['RestoreData_Title'] = 'Ripristino dati';
+$L['RestoreData_Title'] = 'Ripristino file';
 $L['RestoreData_label'] = 'Ripristino';
 $L['RestoreData_Description'] = 'Ripristino dati dal backup';
 $L['RestoreData_PlaceHolder'] = 'Cerca...';
-$L['RestoreData_original'] = 'Ripristina dati nella posizione originale';
-$L['RestoreData_temp'] = 'Ripristina dati in una nuova directory';
+$L['RestoreData_original'] = 'Ripristina i file nella posizione originale';
+$L['RestoreData_temp'] = 'Ripristina i file in una nuova directory';
 $L['RestoreData_String_restore'] = 'Selezionare uno o più file da ripristinare';
 $L['RestoreData_restore_message'] = 'Ripristinato in ${0}';
 $L['RestoreData_restore_original_message'] = 'Ripristina dati nella posizione originale';

@@ -1,11 +1,11 @@
 <?php
 
-$L['RestoreData_Title'] = 'Restore data';
+$L['RestoreData_Title'] = 'Restore files';
 $L['RestoreData_label'] = 'Восстановление';
 $L['RestoreData_Description'] = 'Restore data from backup';
 $L['RestoreData_PlaceHolder'] = 'Поиск...';
-$L['RestoreData_original'] = 'Восстановить данные в оригинальное назначение';
-$L['RestoreData_temp'] = 'Восстановить данные в новую директорию';
+$L['RestoreData_original'] = 'Restore files in the original path';
+$L['RestoreData_temp'] = 'Restore files in new directory';
 $L['RestoreData_String_restore'] = 'Выберите одну или более директорий или файлов для восстановления';
 $L['RestoreData_restore_message'] = 'Восстановлено в ${0}';
 $L['RestoreData_restore_original_message'] = 'Restored in the original position';

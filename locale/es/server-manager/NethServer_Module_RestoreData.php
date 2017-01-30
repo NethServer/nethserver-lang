@@ -1,11 +1,11 @@
 <?php
 
-$L['RestoreData_Title'] = 'Restaurar data';
+$L['RestoreData_Title'] = 'Restaurar archivos';
 $L['RestoreData_label'] = 'Restaurar';
 $L['RestoreData_Description'] = 'Restaurar los datos desde la copia de seguridad';
 $L['RestoreData_PlaceHolder'] = 'Buscar...';
-$L['RestoreData_original'] = 'Restaurar datos en la ruta original';
-$L['RestoreData_temp'] = 'Restaurar datos en un nuevo directorio';
+$L['RestoreData_original'] = 'Restaurar archivos en la ruta original';
+$L['RestoreData_temp'] = 'Restaurar archivos en nuevo directorio';
 $L['RestoreData_String_restore'] = 'Seleccione uno o más directorios o archivos para restaurar';
 $L['RestoreData_restore_message'] = 'Restaurado en ${0}';
 $L['RestoreData_restore_original_message'] = 'Restaurada en la posición original';

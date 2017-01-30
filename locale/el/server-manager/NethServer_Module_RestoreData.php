@@ -1,11 +1,11 @@
 <?php
 
-$L['RestoreData_Title'] = 'Restore data';
+$L['RestoreData_Title'] = 'Restore files';
 $L['RestoreData_label'] = 'Ανέκτησε';
 $L['RestoreData_Description'] = 'Restore data from backup';
 $L['RestoreData_PlaceHolder'] = 'Αναζήτηση...';
-$L['RestoreData_original'] = 'Επαναφορά δεδομένων στην αρχική διαδρομή';
-$L['RestoreData_temp'] = 'Επαναφορά δεδομένων σε νέο κατάλογο';
+$L['RestoreData_original'] = 'Restore files in the original path';
+$L['RestoreData_temp'] = 'Restore files in new directory';
 $L['RestoreData_String_restore'] = 'Επιλέξτε έναν ή περισσότερους καταλόγους για επαναφορά';
 $L['RestoreData_restore_message'] = 'Ανακτήθηκε σε ${0}';
 $L['RestoreData_restore_original_message'] = 'Restored in the original position';
