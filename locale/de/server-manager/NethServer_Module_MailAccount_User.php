@@ -17,3 +17,4 @@ $L['ever'] = 'immer';
 $L['CreateMailAddresses_label'] = 'Erstelle Standard-Mailadresse';
 $L['MailAddressList_label'] = 'Mailadressen';
 $L['Key_label'] = 'Benutzer';
+$L['valid_mailbox_pseudonym_conflict'] = 'Ein E-Mail Alias mit dem selben Namen existiert bereits. Entferne diesen zuerst.';

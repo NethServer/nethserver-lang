@@ -17,3 +17,4 @@ $L['valid_pseudonym_unique'] = 'Адреса већ постоји';
 $L['ANY_DOMAIN'] = '[сви домени]';
 $L['ExtAddresses_label'] = 'Спољна одредишта епоште';
 $L['Destinations_label'] = 'Одредишта';
+$L['valid_pseudonym_mailbox_conflict'] = 'An user account with the same name already exists';

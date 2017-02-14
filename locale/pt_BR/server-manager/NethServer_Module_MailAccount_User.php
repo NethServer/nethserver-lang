@@ -17,3 +17,4 @@ $L['ever'] = 'sempre';
 $L['CreateMailAddresses_label'] = 'Novos endereços de email pré-definidos';
 $L['MailAddressList_label'] = 'Endereços de email';
 $L['Key_label'] = 'Usuário';
+$L['valid_mailbox_pseudonym_conflict'] = 'A mail alias with the same name already exists. Remove it first.';

@@ -36,3 +36,5 @@ $L['DynDns_FREEDNS_label'] = 'Adresses dynamiques ';
 $L['DynDns_DYNDNSFREE_label'] = 'Adresses dynamiques ';
 $L['DynDns_Credentials_Title'] = 'Certificats des DNS dynamique';
 $L['DynDns_Provider_Title'] = 'Fournisseurs d\'adresses dynamiques';
+$L['DynDns_SELFHOST_label'] = 'Selfhost (selfhost.eu) dynamic adresses';
+

@@ -2,7 +2,7 @@
 
 $L['Account_Title'] = 'Benutzer und Gruppen';
 $L['Account_Description'] = 'Verwalte Benutzer und Gruppen, konfiguriere die Domäne sowie Authentifizierungsanbieter';
-$L['Account_Tags'] = 'sssd user group realm domain account kerberos ldap benutzer gruppen domäne konto konten';
+$L['Account_Tags'] = 'sssd Benutzer Gruppe Bereich Domäne Konto Kerberos LDAP';
 $L['Select_Title'] = 'Backendwahl';
 
 $L['AuthProvider_header'] = 'Wähle den Provider für Benutzer und Gruppen der Domäne "${0}"';
@@ -32,3 +32,14 @@ $L['AccountProvider_Error_110'] = 'Zeitüberschreitung der Verbindung zum Accoun
 $L['AccountProvider_Error_111'] = 'Verbindung zum Accountprovider wurde abgelehnt.';
 
 $L['valid_platform,ad-dns,srv_record,1'] = 'Dies scheint kein Active Directory Domain Controller zu sein';
+
+$L['ChooseProvider_1'] = 'Users and groups are available through an accounts provider. You can connect this server to a remote accounts provider, or install a local one.';
+$L['ChooseProvider_2'] = 'There are two kinds of accounts provider:';
+$L['ChooseProvider_3'] = 'Active Directory: ideal for Windows networks, users can access shared folders with their own credentials';
+$L['ChooseProvider_4'] = 'LDAP: easy to install and configure, shared folders are accessible without user authentication';
+$L['ChooseProvider_5'] = 'Configure a remote accounts provider';
+$L['ChooseProvider_6'] = 'Install a local accounts provider; once installed, it must not be removed';
+$L['ChooseProvider_7'] = 'Shared folders are available by installing the "File server" module.';
+$L['configureButton_label'] = 'Configure';
+$L['softwareCenterButton_label'] = 'Install';
+$L['dismissButton_label'] = 'No, thanks!';

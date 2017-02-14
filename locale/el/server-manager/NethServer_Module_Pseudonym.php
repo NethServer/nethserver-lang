@@ -17,3 +17,4 @@ $L['valid_pseudonym_unique'] = 'Αυτή η διεύθυνση υπάρχει ή
 $L['ANY_DOMAIN'] = '[all domains]';
 $L['ExtAddresses_label'] = 'External email destinations';
 $L['Destinations_label'] = 'Destinations';
+$L['valid_pseudonym_mailbox_conflict'] = 'An user account with the same name already exists';

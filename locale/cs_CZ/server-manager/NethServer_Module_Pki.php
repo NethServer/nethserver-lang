@@ -37,7 +37,7 @@ $L['Confirm_label'] = 'Potvrdit';
 $L['default_cert_label'] = 'Nastavit označený certifikát jako výchozí?';
 $L['certificate_label'] = 'Certifikát';
 
-$L['LetsEncryptMail_label'] = 'Notification email';
+$L['LetsEncryptMail_label'] = 'Upozorňovací e-mail';
 $L['LetsEncryptDomains_label'] = 'Domény';
 
 $L['UploadCrt_label'] = 'Certifikát';

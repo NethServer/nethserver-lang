@@ -32,3 +32,14 @@ $L['AccountProvider_Error_110'] = 'Time out della connessione con l\'Account pro
 $L['AccountProvider_Error_111'] = 'Connessione rifiutata con l\'Account provider';
 
 $L['valid_platform,ad-dns,srv_record,1'] = 'Non sembra essere un controller di dominio Active Directory';
+
+$L['ChooseProvider_1'] = 'Utenti e gruppi sono disponibli attraverso un Account provider. Si può collegare questo server a un account provider remoto oppure installarne uno locale.';
+$L['ChooseProvider_2'] = 'Esisitono due tipi di account provider:';
+$L['ChooseProvider_3'] = 'Active Directory: ideale per reti Windows, gli utenti possono accedere alle cartelle condivise con le proprie credenziali';
+$L['ChooseProvider_4'] = 'LDAP: semplice da installare e configurare, le cartelle condivise sono accesibili senza autenticazione';
+$L['ChooseProvider_5'] = 'Configura un Account provider remoto';
+$L['ChooseProvider_6'] = 'Installa un Account provider locale; non è possibile rimuoverlo dopo l\'installazione';
+$L['ChooseProvider_7'] = 'Le cartelle condivise sono disponibli installando il modulo "File server".';
+$L['configureButton_label'] = 'Configura';
+$L['softwareCenterButton_label'] = 'Installa';
+$L['dismissButton_label'] = 'No, grazie!';

@@ -32,3 +32,14 @@ $L['AccountProvider_Error_110'] = 'Tiempo de conexión del proveedor de cuenta a
 $L['AccountProvider_Error_111'] = 'Se ha rechazado la conexión del proveedor de cuenta';
 
 $L['valid_platform,ad-dns,srv_record,1'] = 'No parece un controlador de dominio de Active Directory';
+
+$L['ChooseProvider_1'] = 'Users and groups are available through an accounts provider. You can connect this server to a remote accounts provider, or install a local one.';
+$L['ChooseProvider_2'] = 'There are two kinds of accounts provider:';
+$L['ChooseProvider_3'] = 'Active Directory: ideal for Windows networks, users can access shared folders with their own credentials';
+$L['ChooseProvider_4'] = 'LDAP: easy to install and configure, shared folders are accessible without user authentication';
+$L['ChooseProvider_5'] = 'Configure a remote accounts provider';
+$L['ChooseProvider_6'] = 'Install a local accounts provider; once installed, it must not be removed';
+$L['ChooseProvider_7'] = 'Shared folders are available by installing the "File server" module.';
+$L['configureButton_label'] = 'Configure';
+$L['softwareCenterButton_label'] = 'Install';
+$L['dismissButton_label'] = 'No, thanks!';

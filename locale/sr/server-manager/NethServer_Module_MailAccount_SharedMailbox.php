@@ -13,3 +13,4 @@ $L['ExtraFields_label'] = 'Додатне акције';
 $L['ANY_DOMAIN'] = '[сви домени]';
 $L['localAddress_label'] = 'Локалне адресе';
 $L['valid_email,malformed-localpart'] = 'Неисправни псеудоним епоште';
+$L['no_special_access_label'] = 'No extra ACL set';

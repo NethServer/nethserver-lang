@@ -70,7 +70,7 @@ $L['NoRulesDefined_label'] = 'Nejsou určená žádná pravidla. Nejprve nějak�
 $L['any_service_label'] = 'libovolná služba';
 $L['any_src_dst_label'] = 'libovolný stroj';
 $L['Time_always'] = 'Vždy';
-$L['Type_any_label'] = 'any';
+$L['Type_any_label'] = 'libovolné';
 $L['Type_fw_label'] = 'brána firewall';
 $L['host_label'] = 'stroj';
 $L['zone_label'] = 'zóna';
@@ -80,13 +80,13 @@ $L['host-group_label'] = 'skupina';
 $L['role_label'] = 'rozhraní';
 $L['confirm_reload_label'] = 'No change has been applied.';
 
-$L['FirewallObject_any_Title'] = 'Any';
+$L['FirewallObject_any_Title'] = 'Libovolné';
 $L['FirewallObject_fw_Title'] = 'Brána firewall';
 $L['FirewallObject_host_Title'] = 'Stroj ${key}';
 $L['FirewallObject_local_Title'] = 'LAN host ${key}';
 $L['FirewallObject_remote_Title'] = 'Stroj ${key}';
 $L['FirewallObject_role_Title'] = 'Role ${key}';
-$L['FirewallObject_zone_Title'] = 'Zone ${key}';
+$L['FirewallObject_zone_Title'] = 'Oblast ${key}';
 $L['FirewallObject_host-group_Title'] = 'Host group ${key}';
 $L['FirewallObject_fwservice_Title'] = '${key} - service object';
 $L['FirewallObject_time_Title'] = '${key} - time condition';
@@ -96,7 +96,7 @@ $L['FirewallObject_iprange_Title'] = 'Rozsah IP adres ${key}';
 $L['FirewallObject_cidr_Title'] = 'CIDR network ${key}';
 
 $L['Show_x_outof_y_label'] = 'Showing ${partial} results out of ${total}';
-$L['ActionRoute_label'] = 'Route to ${0}';
+$L['ActionRoute_label'] = 'Trasa do ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Záznam událostí';
 
@@ -104,7 +104,7 @@ $L['ShowAction_label'] = 'Zobrazit';
 $L['ShowRules_label'] = 'Brána firewall';
 $L['ShowRoutes_label'] = 'Policy routing';
 $L['ShowServices_label'] = 'Síťové služby';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping';
+$L['ShowTrafficShaping_label'] = 'Omezování rychlosti síťového provozu';
 
 $L['ActionPriorityHigh_label'] = 'Vysoká priorita';
 $L['ActionPriorityLow_label'] = 'Nízká priorita';

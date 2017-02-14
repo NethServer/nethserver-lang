@@ -13,3 +13,4 @@ $L['ExtraFields_label'] = 'Ek işlemler';
 $L['ANY_DOMAIN'] = '[tüm etki alanları]';
 $L['localAddress_label'] = 'Yerel adres';
 $L['valid_email,malformed-localpart'] = 'E-posta takma adı geçersiz';
+$L['no_special_access_label'] = 'Ek EDL kümesi yok';

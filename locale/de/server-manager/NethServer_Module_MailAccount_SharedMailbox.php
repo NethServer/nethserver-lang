@@ -13,3 +13,4 @@ $L['ExtraFields_label'] = 'Zusätzliche Aktionen';
 $L['ANY_DOMAIN'] = '[Alle Domänen]';
 $L['localAddress_label'] = 'Lokale Adresse';
 $L['valid_email,malformed-localpart'] = 'ungültiger eMail-Alias';
+$L['no_special_access_label'] = 'Keine zusätzliche ACL gesetzt';

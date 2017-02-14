@@ -17,3 +17,4 @@ $L['ever'] = 'увек';
 $L['CreateMailAddresses_label'] = 'Креирај подразумеване поштанске адресе';
 $L['MailAddressList_label'] = 'Поштанске адресе';
 $L['Key_label'] = 'Корисник';
+$L['valid_mailbox_pseudonym_conflict'] = 'A mail alias with the same name already exists. Remove it first.';

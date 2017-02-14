@@ -36,3 +36,5 @@ $L['DynDns_FREEDNS_label'] = 'Direcciones dinámicas FreeDNS (freedns.afraid.org
 $L['DynDns_DYNDNSFREE_label'] = 'Direcciones dinámicas Dyndnsfree (dyndnsfree.de)';
 $L['DynDns_Credentials_Title'] = 'Credenciales DNS dinámico';
 $L['DynDns_Provider_Title'] = 'Proveedores DNS dinámico';
+$L['DynDns_SELFHOST_label'] = 'Selfhost (selfhost.eu) direcciones dinamicas';
+

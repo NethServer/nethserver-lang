@@ -17,3 +17,4 @@ $L['ever'] = 'Alguna vez';
 $L['CreateMailAddresses_label'] = 'Crear direcciones de correo electrónico por defecto';
 $L['MailAddressList_label'] = 'Direcciones de correo';
 $L['Key_label'] = 'Usuario';
+$L['valid_mailbox_pseudonym_conflict'] = 'Ya existe un alias de correo con el mismo nombre. Quítelo primero.';

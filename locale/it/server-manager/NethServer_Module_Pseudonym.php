@@ -17,3 +17,4 @@ $L['valid_pseudonym_unique'] = 'Questo indirizzo esiste già';
 $L['ANY_DOMAIN'] = '[tutti i domini]';
 $L['ExtAddresses_label'] = 'Indirizzi email esterni';
 $L['Destinations_label'] = 'Destinazioni';
+$L['valid_pseudonym_mailbox_conflict'] = 'Un account utente con lo stesso nome esiste già';

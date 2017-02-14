@@ -17,3 +17,4 @@ $L['ever'] = 'her zaman';
 $L['CreateMailAddresses_label'] = 'Varsayılan e-posta adresleri oluşturulsun';
 $L['MailAddressList_label'] = 'Posta adresleri';
 $L['Key_label'] = 'Kullanıcı';
+$L['valid_mailbox_pseudonym_conflict'] = 'Aynı adlı bir e-posta kısaltması zaten var. Önce onu kaldırmalısınız.';

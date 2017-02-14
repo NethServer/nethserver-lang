@@ -36,3 +36,5 @@ $L['DynDns_FREEDNS_label'] = 'Динамические адреса FreeDNS (fre
 $L['DynDns_DYNDNSFREE_label'] = 'Динамические адреса Dyndnsfree (dyndnsfree.de)';
 $L['DynDns_Credentials_Title'] = 'Полномочия Dynamic DNS';
 $L['DynDns_Provider_Title'] = 'Провайдеры Dynamic DNS';
+$L['DynDns_SELFHOST_label'] = 'Selfhost (selfhost.eu) dynamic adresses';
+

@@ -17,3 +17,4 @@ $L['valid_pseudonym_unique'] = 'Bu e-posta adresi zaten var';
 $L['ANY_DOMAIN'] = '[tüm etki alanları]';
 $L['ExtAddresses_label'] = 'Dış e-posta hedefleri';
 $L['Destinations_label'] = 'Hedefler';
+$L['valid_pseudonym_mailbox_conflict'] = 'Aynı adlı bir kullanıcı hesabı zaten var';
