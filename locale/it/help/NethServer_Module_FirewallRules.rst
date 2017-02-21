@@ -77,6 +77,8 @@ Azione
     * *Reject*: blocca il traffico ed informa il mittente che la richiesta effettuata non è permessa
     * *Drop*: blocca il traffico, i pacchetti vengono scartati e il mittente non viene notificato
     * *Devia ...*: devia il traffico su uno specifico provider WAN
+    * *Hi-Prio*: marca il traffico ad alta priorità
+    * *Low-Prio*: marca il traffico a bassa priorità
 
 
 Origine
