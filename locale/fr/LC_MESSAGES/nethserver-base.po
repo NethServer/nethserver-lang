@@ -3,13 +3,14 @@
 # 
 # Translators:
 # Alecks, 2015
+# Bruno JACQ <bruno@bjq.fr>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
 "POT-Creation-Date: 2016-10-20 12:00+0200\n"
-"PO-Revision-Date: 2016-10-20 10:01+0000\n"
-"Last-Translator: Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>\n"
+"PO-Revision-Date: 2017-02-28 22:02+0000\n"
+"Last-Translator: Bruno JACQ <bruno@bjq.fr>\n"
 "Language-Team: French (France) (http://www.transifex.com/nethserver/nethserver/language/fr_FR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,10 +33,10 @@ msgstr[1] "Il y a {0} rôles à affecter aux cartes réseaux"
 
 #: root/etc/nethserver/todos.d/10green-dhcp:52
 msgid "One or more green interfaces use DHCP"
-msgstr ""
+msgstr "Une ou plusieurs interfaces internes utilisent DHCP"
 
 #: root/etc/nethserver/todos.d/10green-dhcp:56
 msgid ""
 "Using DHCP on green interfaces leads to unexpected behavior. Please, change "
 "the interface to static if possible"
-msgstr ""
+msgstr "Utiliser DHCP sur une interface interne peut entraines des comportements inattendus. Merci de changer l'interface en adresse statique si possible."

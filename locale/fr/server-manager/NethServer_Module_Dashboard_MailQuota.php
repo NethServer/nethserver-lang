@@ -1,8 +1,8 @@
 <?php
 
 $L['MailQuota_Title'] = 'Quota emails';
-$L['MailQuota_Tags'] = 'Mail quota mail quota';
-$L['MailQuota_Description'] = 'Display mail quota';
+$L['MailQuota_Tags'] = 'Quota mails quota mails';
+$L['MailQuota_Description'] = 'Afficher les quota mails';
 $L['Key_label'] = 'Utilisateur';
 $L['size_label'] = 'Taille';
 $L['max_size_label'] = 'Taille Max.';

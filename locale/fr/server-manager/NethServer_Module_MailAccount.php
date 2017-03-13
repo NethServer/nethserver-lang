@@ -1,9 +1,10 @@
 <?php
 
-$L['MailAccount_Description'] = 'Manage email addresses for user and group accounts';
-$L['MailAccount_Tags'] = 'email alias account electronic mail forward shared mailbox';
-$L['MailAccount_Title'] = 'Email addresses';
+$L['MailAccount_Description'] = 'Gestion des adresses mail pour les utilisateurs et groupes.';
+$L['MailAccount_Tags'] = 'mail alias compte electronique mail faire suivre partagée 
+boite aux lettres';
+$L['MailAccount_Title'] = 'Adresse mail';
 
-$L['Pseudonym_Title'] = 'Mail aliases';
-$L['SharedMailbox_Title'] = 'Shared mailboxes';
-$L['User_Title'] = 'User mailboxes';
+$L['Pseudonym_Title'] = 'Alias de messagerie';
+$L['SharedMailbox_Title'] = 'Boites aux lettres partagées';
+$L['User_Title'] = 'Boites aux lettres utilisateurs';

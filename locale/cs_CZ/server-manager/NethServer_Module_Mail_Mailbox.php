@@ -14,4 +14,4 @@ $L['SpamFolder_label'] = 'Přesunout do složky „Koš“';
 $L['TlsSecurity_label'] = 'Umožnit i nešifrovaná spojení';
 $L['Privileged access'] = 'Privilegovaný přístup';
 $L['AdminIsMaster_label'] = 'Root can log in as another user';
-$L['ever'] = 'ever'; 
+$L['ever'] = 'vůbec kdy'; 

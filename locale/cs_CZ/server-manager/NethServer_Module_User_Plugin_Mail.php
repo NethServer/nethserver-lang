@@ -10,6 +10,6 @@ $L['MailQuotaType_label'] = 'Custom mailbox quota';
 $L['MailSpamRetentionStatus_label'] = 'Customize spam message retention'; 
 $L['MailStatus_label'] = 'E-mailová schránka';
 $L['Unlimited_quota'] = 'Neomezeno'; 
-$L['ever'] = 'ever';
+$L['ever'] = 'kdy';
 $L['CreateMailAddresses_label'] = 'Vytvořit výchozí e-mailové adresy';
 $L['MailAddressList_label'] = 'E-mailová adresa';
