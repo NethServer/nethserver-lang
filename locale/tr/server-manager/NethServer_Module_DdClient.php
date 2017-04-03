@@ -37,4 +37,4 @@ $L['DynDns_DYNDNSFREE_label'] = 'Dyndnsfree (dyndnsfree.de) devingen adresleri';
 $L['DynDns_Credentials_Title'] = 'Devingen DNS Kimliği';
 $L['DynDns_Provider_Title'] = 'Devingen DNS Sağlayıcıları';
 $L['DynDns_SELFHOST_label'] = 'Selfhost (selfhost.eu) devingen adresleri';
-
+$L['DynDns_CLOUDFLARE_label'] = 'Cloudflare (cloudflare.com) devingen adresleri';

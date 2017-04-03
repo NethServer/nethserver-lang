@@ -8,7 +8,7 @@ $L['Webvirt_label'] = 'Virtuele machines manager';
 $L['WebvirtStatus_enabled_label'] = 'Inschakelen';
 $L['WebvirtStatus_disabled_label'] = 'Uitschakelen';
 
-$L['Novnc_label'] = 'Web console';
+$L['Novnc_label'] = 'Web-console';
 $L['NovncStatus_enabled_label'] = 'Inschakelen';
 $L['NovncStatus_disabled_label'] = 'Uitschakelen';
 

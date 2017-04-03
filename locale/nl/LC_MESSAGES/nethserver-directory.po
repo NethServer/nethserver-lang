@@ -2,14 +2,15 @@
 # This file is put in the public domain.
 # 
 # Translators:
+# Bart K <bartonline@xs4all.nl>, 2017
 # Eryk Wolniewicz <info@erwis.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
 "POT-Creation-Date: 2015-05-19 16:55+0200\n"
-"PO-Revision-Date: 2015-05-25 09:34+0000\n"
-"Last-Translator: Eryk Wolniewicz <info@erwis.com>\n"
+"PO-Revision-Date: 2017-03-20 09:41+0000\n"
+"Last-Translator: Bart K <bartonline@xs4all.nl>\n"
 "Language-Team: Dutch (http://www.transifex.com/nethserver/nethserver/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,17 +31,17 @@ msgid ""
 msgid_plural ""
 "You have %s days left to change your password before your account will be "
 "blocked."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Het wachtwoord moet binnen een dag gewijzigd worden of het account wordt geblokkeerd."
+msgstr[1] "Het wachtwoord moet binnen %s dagen gewijzigd worden of het account wordt geblokkeerd."
 
 #: root/etc/e-smith/templates/password-expired/en/20body:3
 msgid "Available methods to change your password:"
-msgstr ""
+msgstr "Manieren om het wachtwoord te wijzigen:"
 
 #: root/etc/e-smith/templates/password-expired/en/30_accesswebui:1
 msgid "Access the web interface"
-msgstr ""
+msgstr "Gebruik de webinterface"
 
 #: root/etc/e-smith/templates/password-expired/en/template-end:3
 msgid "This message has been generated automatically, do not respond to it."
-msgstr ""
+msgstr "Dit is een automatisch gegenereerd bericht, er kan niet op worden gereageerd."

@@ -1,17 +1,17 @@
 <?php 
 
-$L['Disk space'] = 'Disk ruimte'; 
-$L['Hold for ${0}'] = 'Behoud voor ${0}'; 
+$L['Disk space'] = 'Schijfruimte'; 
+$L['Hold for ${0}'] = 'Bewaar gedurende ${0}'; 
 $L['ImapStatus_label'] = 'IMAP'; 
-$L['Mailbox access protocols'] = 'Mailbox access protocols'; 
+$L['Mailbox access protocols'] = 'Mailbox toegangsprotokollen'; 
 $L['Mailbox_Title'] = 'Mailboxes'; 
 $L['PopStatus_label'] = 'POP3'; 
-$L['Quota default size ${0}'] = 'Default value size ${0}'; 
-$L['QuotaStatus_disabled_label'] = 'Unlimited'; 
+$L['Quota default size ${0}'] = 'Standaard afmeting quotum ${0}'; 
+$L['QuotaStatus_disabled_label'] = 'Onbeperkt'; 
 $L['QuotaStatus_enabled_label'] = 'Quota toepassen'; 
-$L['Spam messages handling'] = 'Spam messages handling'; 
-$L['SpamFolder_label'] = 'Move to "Junk" folder';
-$L['TlsSecurity_label'] = 'Allow unencrypted connections';
-$L['Privileged access'] = 'Privileged access';
-$L['AdminIsMaster_label'] = 'Root can log in as another user';
-$L['ever'] = 'ever'; 
+$L['Spam messages handling'] = 'Behandeling van spam-berichten'; 
+$L['SpamFolder_label'] = 'Verplaats naar map "${0}"';
+$L['TlsSecurity_label'] = 'Sta onversleutelde verbindingen toe';
+$L['Privileged access'] = 'Toegang met beheerdersrechten';
+$L['AdminIsMaster_label'] = 'Admingebruiker \'root\' mag inloggen als andere gebruiker';
+$L['ever'] = 'ooit'; 

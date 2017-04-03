@@ -1,51 +1,51 @@
 <?php
 
 $L['Pki_Title'] = 'Server certificaat';
-$L['Pki_Description'] = 'Manage TLS/SSL server certificates';
-$L['Pki_Tags'] = 'SSL certificate PKI TLS X509 X.509';
+$L['Pki_Description'] = 'Beheer TLS/SSL server-certificaten';
+$L['Pki_Tags'] = 'SSL certificaat PKI TLS X509 X.509';
 
-$L['C_label'] = 'Land code';
+$L['C_label'] = 'Landcode';
 $L['ST_label'] = 'State';
 $L['L_label'] = 'Locality';
 $L['O_label'] = 'Organisatie';
 $L['OU_label'] = 'Organizational unit';
 $L['CN_label'] = 'Common name';
-$L['EmailAddress_label'] = 'Email address';
-$L['SubjectAltName_label'] = 'Alternative names';
-$L['CertificateDuration_label'] = 'Certificate validity (days)';
-$L['valid_hostname_instance'] = '"${0}" is an invalid host name';
-$L['valid_x509_field'] = 'Must not contain "," and "/"';
+$L['EmailAddress_label'] = 'Email adres';
+$L['SubjectAltName_label'] = 'Alternatieve namen';
+$L['CertificateDuration_label'] = 'Geldigheidsduur van het certificaat (dagen)';
+$L['valid_hostname_instance'] = '"${0}" is een ongeldige hostnaam';
+$L['valid_x509_field'] = 'Mag geen "," en "/" bevatten';
 
-$L['Generate_label'] = 'Edit self-signed certificate';
-$L['Upload_label'] = 'Upload certificate';
-$L['GenerateLe_label'] = 'Request Let\'s Encrypt certificate';
+$L['Generate_label'] = 'Beheer self-signed certificaat';
+$L['Upload_label'] = 'Upload certificaat';
+$L['GenerateLe_label'] = 'Vraag Let\'s Encrypt-certificaat aan';
 
-$L['GenerateLe_Header'] = 'Request a new Let\'s Encrypt certificate';
-$L['Generate_Header'] = 'Edit self-signed certificate';
-$L['Upload_Header'] = 'Upload a certificate file to the server';
+$L['GenerateLe_Header'] = 'Vraag een nieuw Let\'s Encrypt-certificaat aan';
+$L['Generate_Header'] = 'Beheer self-signed certificaat';
+$L['Upload_Header'] = 'Upload een certificaat-bestand naar de server';
 
-$L['Show_label'] = 'Show';
-$L['Show_header'] = 'Show certificate ${0}';
-$L['SetDefault_label'] = 'Set as default';
+$L['Show_label'] = 'Laat zien';
+$L['Show_header'] = 'Laat certificaat ${0} zien';
+$L['SetDefault_label'] = 'Maak default';
 
-$L['Key_label'] = 'Name';
-$L['Issuer_label'] = 'Issuer';
-$L['ExpireDate_label'] = 'Expires';
-$L['Actions_label'] = 'Actions';
+$L['Key_label'] = 'Naam';
+$L['Issuer_label'] = 'Issuer / Uitgever';
+$L['ExpireDate_label'] = 'Expires / Verloopt';
+$L['Actions_label'] = 'Acties';
 $L['Default_label'] = 'Default';
-$L['Confirm_label'] = 'Confirm';
-$L['default_cert_label'] = 'Set selected certificate as default?';
-$L['certificate_label'] = 'Certificate';
+$L['Confirm_label'] = 'Bevestigen';
+$L['default_cert_label'] = 'Het geselecteerde certificaat het default certificaat maken?';
+$L['certificate_label'] = 'Certificaat';
 
-$L['LetsEncryptMail_label'] = 'Notification email';
-$L['LetsEncryptDomains_label'] = 'Domains';
+$L['LetsEncryptMail_label'] = 'Notificatie-mail';
+$L['LetsEncryptDomains_label'] = 'Domeinen';
 
-$L['UploadCrt_label'] = 'Certificate';
+$L['UploadCrt_label'] = 'Certificaat';
 $L['UploadKey_label'] = 'Private key';
-$L['UploadChain_label'] = 'Chain file (optional)';
-$L['UploadName_label'] = 'Name';
+$L['UploadChain_label'] = 'Chain file (optioneel)';
+$L['UploadName_label'] = 'Naam';
 
-$L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 certificate';
+$L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 certificaat';
 $L['valid_platform,rsa-key,rsa-key,1'] = 'Private RSA key';
 
-$L['vaild_UploadName_file_exists'] = 'The file already exists';
+$L['vaild_UploadName_file_exists'] = 'Het bestand bestaat al';

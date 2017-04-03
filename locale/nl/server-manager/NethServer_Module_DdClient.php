@@ -3,7 +3,7 @@ $L['DdClient_Title'] = 'DNS Service';
 $L['Key_label'] = 'DNS hostnaam';
 $L['hostname_label'] = 'DNS hostnaam';
 $L['DynDns_label'] = 'Ddclient protocol';
-$L['DynServer_label'] = 'Server Name (FQDN)';
+$L['DynServer_label'] = 'Server naam (FQDN)';
 $L['CustomService_label'] = 'Aangepaste Provider instellingen';
 $L['KnownService_label'] = 'Officiele Providers instellingen';
 $L['login_label'] = 'Login';
@@ -36,5 +36,5 @@ $L['DynDns_FREEDNS_label'] = 'FreeDNS (freedns.afraid.org) dynamische adressen';
 $L['DynDns_DYNDNSFREE_label'] = 'Dyndnsfree (dyndnsfree.de) dynamische adressen';
 $L['DynDns_Credentials_Title'] = 'Dynamische DNS Authenticatie gegevens';
 $L['DynDns_Provider_Title'] = 'Dynamische DNS providers';
-$L['DynDns_SELFHOST_label'] = 'Selfhost (selfhost.eu) dynamic adresses';
-
+$L['DynDns_SELFHOST_label'] = 'Selfhost (selfhost.eu) dynamische adressen';
+$L['DynDns_CLOUDFLARE_label'] = 'Cloudflare (cloudflare.com) dynamische adressen';

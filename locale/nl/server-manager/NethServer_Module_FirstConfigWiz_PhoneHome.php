@@ -1,7 +1,7 @@
 <?php
 
-$L['PhoneHome_Title'] = 'Gebruik Statistieken';
-$L['PhoneHome_Action'] = 'Contribute to usage statistics: ${Status}';
-$L['Status_enabled_label'] = 'Contribute to usage statistics!';
-$L['Status_disabled_label'] = 'No, thanks.';
-$L['description'] = "Periodically send usage statistics to nethserver.org.\n - Data is sent into anonymous form;\n - Only IP address and ${product} release number are collected.";
+$L['PhoneHome_Title'] = 'Gebruiksstatistieken';
+$L['PhoneHome_Action'] = 'Verzamelen van gebruiksstatistiken: ${Status}';
+$L['Status_enabled_label'] = 'Draag bij aan het verzamelen van gebruiksstatistieken!';
+$L['Status_disabled_label'] = 'Nee, bedankt.';
+$L['description'] = "Stuur periodiek gebruiksstatistieken naar nethserver.org.\n - De data wordt geanonimiseerd;\n - Enkel het IP-adres en het versienummer van ${product} worden verzameld.";

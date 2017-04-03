@@ -37,4 +37,4 @@ $L['DynDns_DYNDNSFREE_label'] = 'Direcciones dinámicas Dyndnsfree (dyndnsfree.d
 $L['DynDns_Credentials_Title'] = 'Credenciales DNS dinámico';
 $L['DynDns_Provider_Title'] = 'Proveedores DNS dinámico';
 $L['DynDns_SELFHOST_label'] = 'Selfhost (selfhost.eu) direcciones dinamicas';
-
+$L['DynDns_CLOUDFLARE_label'] = 'Direcciones dinámicas Cloudflare (cloudflare.com)';

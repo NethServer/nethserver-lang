@@ -1,10 +1,10 @@
 <?php 
 
 $L['SmartHost_Title'] = 'Smarthost'; 
-$L['SmartHostName_label'] = 'Hostname'; 
-$L['SmartHostPassword_label'] = 'Password'; 
-$L['SmartHostPort_label'] = 'Port'; 
-$L['SmartHostStatus_label'] = 'Send mail using a smarthost'; 
-$L['SmartHostTlsStatus_label'] = 'Allow unencrypted connections';
-$L['SmartHostUsername_label'] = 'Username';
-$L['SmartHost_Action'] = 'Send mail using a smarthost';
+$L['SmartHostName_label'] = 'Hostnaam'; 
+$L['SmartHostPassword_label'] = 'Wachtwoord'; 
+$L['SmartHostPort_label'] = 'Poort'; 
+$L['SmartHostStatus_label'] = 'Verstuur mail via een smarthost'; 
+$L['SmartHostTlsStatus_label'] = 'Sta onversleutelde verbindingen toe';
+$L['SmartHostUsername_label'] = 'Gebruikersnaam';
+$L['SmartHost_Action'] = 'Verstuur mail via een smarthost';

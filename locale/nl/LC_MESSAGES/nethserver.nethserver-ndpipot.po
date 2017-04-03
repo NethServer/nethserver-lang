@@ -9,6 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: davide.principi@nethesis.it\n"
 "POT-Creation-Date: 2016-09-14 10:48+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Bart K <bartonline@xs4all.nl>, 2017\n"
 "Language-Team: Dutch (https://www.transifex.com/nethserver/teams/35834/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
@@ -18,8 +19,9 @@ msgstr ""
 
 #: root/etc/nethserver/todos.d/50ndpi:35
 msgid "Deep Packet Inspection (DPI) module is not available"
-msgstr ""
+msgstr "De Deep Packet Inspection (DPI) module is niet beschikbaar"
 
 #: root/etc/nethserver/todos.d/50ndpi:35
 msgid "Restart the system and select a Linux kernel with DPI module support"
 msgstr ""
+"Herstart het systeem en kies een Linux kernel met DPI-module-ondersteuning"
