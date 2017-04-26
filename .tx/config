@@ -54,12 +54,6 @@ source_file = locale/en/LC_MESSAGES/nethserver-ndpipot
 source_lang = en
 type = PO
 
-[nethserver.nethserver-dcpot]
-file_filter = locale/<lang>/LC_MESSAGES/nethserver.nethserver-dcpot.po
-source_file = locale/en/LC_MESSAGES/nethserver-dcpot
-source_lang = en
-type = PO
-
 
 #
 # PHP arrays
@@ -740,12 +734,6 @@ type = PHP_ALT_ARRAY
 [nethserver.Account]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Account.php
 source_file = locale/en/server-manager/NethServer_Module_Account.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
-[nethserver.DomainController]
-file_filter = locale/<lang>/server-manager/NethServer_Module_Account_DomainController.php
-source_file = locale/en/server-manager/NethServer_Module_Account_DomainController.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
