@@ -41,3 +41,4 @@ $L['status_label'] = 'Включить Fetchmail';
 $L['update_header_label'] = 'Обновить внешнюю почтовую учетную запись';
 $L['Users_label'] = 'Пользователи';
 $L['YES_label'] = 'Да';
+$L['active_label'] = 'Enabled';

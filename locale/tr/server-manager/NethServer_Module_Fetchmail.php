@@ -41,3 +41,4 @@ $L['status_label'] = 'Fetchmail kullanılsın';
 $L['update_header_label'] = 'Dış e-posta hesabını güncelle';
 $L['Users_label'] = 'Kullanıcılar';
 $L['YES_label'] = 'Evet';
+$L['active_label'] = 'Etkin';

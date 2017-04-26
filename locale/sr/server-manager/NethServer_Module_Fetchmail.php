@@ -41,3 +41,4 @@ $L['status_label'] = 'Омогући Фечмејл';
 $L['update_header_label'] = 'Ажурирај спољни поштански налог';
 $L['Users_label'] = 'Корисници';
 $L['YES_label'] = 'Да';
+$L['active_label'] = 'Омогућено';

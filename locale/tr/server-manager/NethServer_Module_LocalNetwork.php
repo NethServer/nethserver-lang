@@ -1,6 +1,6 @@
 <?php 
 
-$L['Confirm deletion of'] = 'Şunu silmeyi onayla'; 
+$L['Confirm deletion of'] = 'Şunu silmeyi onaylayın'; 
 $L['Create a new network'] = 'Ağ ekle'; 
 $L['Description_label'] = 'Açıklama'; 
 $L['Key_label'] = 'Ağ'; 

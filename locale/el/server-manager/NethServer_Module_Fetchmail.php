@@ -41,3 +41,4 @@ $L['status_label'] = 'Ενεργοποίηση Fetchmail';
 $L['update_header_label'] = 'Ενημέρωση εξωτερικού λογαριασμού mail';
 $L['Users_label'] = 'Χρήστες';
 $L['YES_label'] = 'Ναι';
+$L['active_label'] = 'Enabled';

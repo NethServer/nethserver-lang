@@ -1,6 +1,6 @@
 <?php
 
-$L['Httpd_Title'] = 'Беб приступ';
+$L['Httpd_Title'] = 'Веб приступ';
 $L['Status_label'] = 'Омогући веб приступ';
 $L['CgiBin_label'] = 'Изврши скрипте (ЦГИ, ПХП, ССИ)';
 $L['PasswordStatus_label'] = 'Заштити лозинком';

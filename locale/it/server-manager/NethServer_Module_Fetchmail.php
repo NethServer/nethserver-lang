@@ -41,3 +41,4 @@ $L['status_label'] = 'Abilita Fetchmail';
 $L['update_header_label'] = 'Modifica indirizzo mail esterno';
 $L['Users_label'] = 'Utenti';
 $L['YES_label'] = 'Si';
+$L['active_label'] = 'Abilitato';
