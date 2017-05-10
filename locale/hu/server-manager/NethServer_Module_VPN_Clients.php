@@ -5,7 +5,6 @@
 $L['AuthMode_certificate_label'] = 'Tanúsítvány';
 $L['AuthMode_label'] = 'Hitelesítés';
 $L['AuthMode_password-certificate_label'] = 'Felhasználó, jelszó és tanúsítvány';
-$L['AuthMode_password_label'] = 'Felhasználó név és jelszó';
 $L['AuthMode_psk_label'] = 'Pre-shared key';
 $L['Mode_bridged_label'] = 'Bridged';
 $L['create_header_label'] = 'Új kliens létrehozása';
@@ -21,7 +20,4 @@ $L['Mode_routed_label'] = 'Routed';
 $L['update_header_label'] = 'Modify client';
 $L['User_label'] = 'Felhasználó';
 $L['Clients_Title'] = 'Kliens';
-$L['VPNType_ipsec_label'] = 'IPsec';
-$L['VPNType_label'] = 'Type';
-$L['VPNType_openvpn_label'] = 'OpenVPN';
 $L['Compression_label'] = 'Enable LZO compression';

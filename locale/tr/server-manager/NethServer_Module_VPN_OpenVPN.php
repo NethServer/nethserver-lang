@@ -1,7 +1,7 @@
 <?php
 
 $L['ServerStatus_label'] = 'Roadwarrior sunucusu kullanılsın';
-$L['OpenVPN_Description'] = 'OpenVPN ayarları';
+$L['OpenVPN_Description'] = 'OpenVPN yapılandırması';
 $L['OpenVPN_Tags'] = 'vpn virtual private network openvpn roadwarrior sanal özel ağ';
 $L['OpenVPN_Title'] = 'OpenVPN';
 $L['AuthMode_label'] = 'Kimlik doğrulama kipi';
@@ -23,7 +23,7 @@ $L['RoutedAdvanced_label'] = 'Gelişmiş';
 $L['Compression_label'] = 'LZO sıkıştırması kullanılsın';
 $L['Bridge_label'] = 'Köprü';
 $L['port_label'] = 'UDP kapısı';
-$L['AdvancedConfiguration_label'] = 'Gelişmiş ayarlar';
+$L['AdvancedConfiguration_label'] = 'Gelişmiş yapılandırma';
 $L['used_network'] = 'Ağ zaten kullanılıyor';
 $L['Connection_label'] = 'Bağlantı parametreleri';
 $L['Remote_label'] = 'Bu sunucuya herkese açık IP / sunucu üzerinden bağlantı:';

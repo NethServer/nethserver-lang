@@ -3,44 +3,15 @@
 $L['Account_Title'] = 'Utilisateurs et groupes';
 $L['Account_Description'] = '
 ';
-$L['Account_Tags'] = 'sssd user group realm domain account kerberos ldap';
-$L['Select_Title'] = 'Backend choice';
+$L['Account_Tags'] = 'sssd utilisateur groupe royaume domaine compte kerberos ldap';
 
-$L['AuthProvider_header'] = 'Select the users and groups provider of domain "${0}"';
-$L['Provider_none_label'] = 'Aucun (Désactivé)';
-$L['Provider_ldap_label'] = 'LDAP';
-$L['Provider_ad_label'] = 'Active Directory';
-$L['AdDns_label'] = 'Adresse IP du serveur DNS';
-$L['LdapUri_label'] = 'Server IP address';
-$L['BindProvider_label'] = 'Bind';
-$L['NetbiosDomain_label'] = 'NetBIOS domain';
+$L['AccountProvider_Error_22'] = 'Erreur du fournisseur de compte: DN invalide. Vérifier le nom unique de Base, le nom unique de groupes et le nom unique d\'utilisateurs dans la configuration de fournisseur de compte.';
+$L['AccountProvider_Error_32'] = 'Erreur du fournisseur de compte: aucune entrée trouvée. vérifier les identifiants de liaison LDAP et le Base DN dans la configuration du fournisseur de compte';
+$L['AccountProvider_Error_34'] = 'Erreur du fournisseur de compte: mot de passe machine invalide. Vérifier que le serveur est correctement joint au domaine.';
+$L['AccountProvider_Error_49'] = 'Erreur du fournisseur de compte: identifiants invalides (${0})';
+$L['AccountProvider_Error_49_710'] = 'droits d’accès insuffisants (49/710): spécifier d\'autres identifiants LDAP dans la configuration du fournisseur de compte.';
+$L['AccountProvider_Error_4'] = 'Avertissement du fournisseur de compte : taille limite dépassée (${0})';
+$L['AccountProvider_Error_104'] = 'Connexion au fournisseur de compte réinitialisée par l\'hôte distant : vérifier si le serveur supporte les connexions SSL/TLS.';
+$L['AccountProvider_Error_110'] = 'Délai d\'attente dépassé pour le fournisseur de compte';
+$L['AccountProvider_Error_111'] = 'Connexion refusée par le fournisseur de compte';
 
-$L['login_label'] = 'Nom d\'utilisateur privilégié ';
-$L['password_label'] = 'Mot de passe';
-$L['Join_label'] = 'Rejoindre';
-$L['Authenticate_header'] = 'Join the AD domain with privileged user credentials';
-
-$L['NoConfig_header'] = 'Domain ${0}';
-
-$L['AccountProvider_Error_22'] = 'Account provider error: invalid DN. Check Base DN, Groups DN and Users DN in Accounts provider configuration';
-$L['AccountProvider_Error_32'] = 'Account provider error: no entries found. Check the LDAP bind credentials and Base DN in Accounts provider configuration';
-$L['AccountProvider_Error_34'] = 'Account provider error: invalid machine password. Check the server is correctly joined to a domain';
-$L['AccountProvider_Error_49'] = 'Account provider error: invalid credentials (${0})';
-$L['AccountProvider_Error_49_710'] = 'Insufficent access rights (49/710): specify alternative LDAP bind credentials in Accounts provider configuration';
-$L['AccountProvider_Error_4'] = 'Account provider warning: size limit exceeded (${0})';
-$L['AccountProvider_Error_104'] = 'Account provider connection reset by peer: check if the server supports SSL/TLS connections';
-$L['AccountProvider_Error_110'] = 'Account provider connection timed out';
-$L['AccountProvider_Error_111'] = 'Account provider connection refused';
-
-$L['valid_platform,ad-dns,srv_record,1'] = 'Does not seem an Active Directory domain controller';
-
-$L['ChooseProvider_1'] = 'Users and groups are available through an accounts provider. You can connect this server to a remote accounts provider, or install a local one.';
-$L['ChooseProvider_2'] = 'There are two kinds of accounts provider:';
-$L['ChooseProvider_3'] = 'Active Directory: ideal for Windows networks, users can access shared folders with their own credentials';
-$L['ChooseProvider_4'] = 'LDAP: easy to install and configure, shared folders are accessible without user authentication';
-$L['ChooseProvider_5'] = 'Configure a remote accounts provider';
-$L['ChooseProvider_6'] = 'Install a local accounts provider; once installed, it must not be removed';
-$L['ChooseProvider_7'] = 'Shared folders are available by installing the "File server" module.';
-$L['configureButton_label'] = 'Configure';
-$L['softwareCenterButton_label'] = 'Install';
-$L['dismissButton_label'] = 'No, thanks!';

@@ -2,14 +2,14 @@
 # This file is put in the public domain.
 # 
 # Translators:
-# Kaya Zeren <kayazeren@gmail.com>, 2015-2016
+# Kaya Zeren <kayazeren@gmail.com>, 2015-2017
 # Ozancan Karataş <inactive+OzancanKaratas96@transifex.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
 "POT-Creation-Date: 2015-03-11 16:20+0100\n"
-"PO-Revision-Date: 2016-10-17 21:50+0000\n"
+"PO-Revision-Date: 2017-05-07 05:20+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/nethserver/nethserver/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -24,4 +24,4 @@ msgstr "Yedekleme kullanılsın"
 
 #: root/etc/nethserver/todo.d/80backup-data:44
 msgid "Proceed with configuration of data backup"
-msgstr "Veri yedekleme ayarlarına geç"
+msgstr "Veri yedekleme yapılandırmasına geç"

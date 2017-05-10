@@ -5,7 +5,6 @@
 $L['AuthMode_certificate_label'] = 'Sertifika';
 $L['AuthMode_label'] = 'Kimlik doğrulama';
 $L['AuthMode_password-certificate_label'] = 'Kullanıcı, parola ve sertifika';
-$L['AuthMode_password_label'] = 'Kullanıcı ve parola';
 $L['AuthMode_psk_label'] = 'Önceden paylaşılmış anahtar';
 $L['Mode_bridged_label'] = 'Köprülenmiş';
 $L['create_header_label'] = 'Yeni istemci ekle';
@@ -21,7 +20,4 @@ $L['Mode_routed_label'] = 'Yöneltilmiş';
 $L['update_header_label'] = 'İstemciyi düzenle';
 $L['User_label'] = 'Kullanıcı';
 $L['Clients_Title'] = 'İstemci';
-$L['VPNType_ipsec_label'] = 'IPsec';
-$L['VPNType_label'] = 'Tür';
-$L['VPNType_openvpn_label'] = 'OpenVPN';
 $L['Compression_label'] = 'LZO sıkıştırma kullanılsın';

@@ -5,7 +5,6 @@
 $L['AuthMode_certificate_label'] = 'Certificat';
 $L['AuthMode_label'] = 'Authentification';
 $L['AuthMode_password-certificate_label'] = 'Utilisateur, mot de passe et certificat';
-$L['AuthMode_password_label'] = 'Utlisateur et mot de passe';
 $L['AuthMode_psk_label'] = 'Clé pré-partagée';
 $L['Mode_bridged_label'] = 'Bridgé';
 $L['create_header_label'] = 'Créer un nouveau client';
@@ -21,7 +20,4 @@ $L['Mode_routed_label'] = 'Routé';
 $L['update_header_label'] = 'Modifier le client';
 $L['User_label'] = 'Utilisateur';
 $L['Clients_Title'] = 'Client';
-$L['VPNType_ipsec_label'] = 'IPsec';
-$L['VPNType_label'] = 'Type';
-$L['VPNType_openvpn_label'] = 'OpenVPN';
 $L['Compression_label'] = 'Activer la compression LZO';

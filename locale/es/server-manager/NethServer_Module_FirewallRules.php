@@ -65,7 +65,7 @@ $L['IpRange_create'] = 'Crear rando IP "${0}"';
 $L['Cidr_create'] = 'Crear red CIDR "${0}"';
 
 $L['A_new_rule_label'] = "Nueva regla";
-$L['NoRulesDefined_label'] = 'No hay reglas definidas. Crear la primera ahora!';
+$L['NoRulesDefined_label'] = 'No hay reglas definidas. ¡Crear la primera ahora!';
 
 $L['any_service_label'] = 'cualquier servicio';
 $L['any_src_dst_label'] = 'cualquier host';
@@ -77,7 +77,7 @@ $L['zone_label'] = 'zona';
 $L['iprange_label'] = 'Rango de IP';
 $L['cidr_label'] = 'Red CIDR';
 $L['host-group_label'] = 'grupo';
-$L['role_label'] = 'Interfaz';
+$L['role_label'] = 'interfaz';
 $L['confirm_reload_label'] = 'No se han aplicado los cambios.';
 
 $L['FirewallObject_any_Title'] = 'Cualquiera';

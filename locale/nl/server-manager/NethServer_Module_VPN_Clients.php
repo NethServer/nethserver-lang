@@ -5,7 +5,6 @@
 $L['AuthMode_certificate_label'] = 'Certificaat';
 $L['AuthMode_label'] = 'Authenticatie ';
 $L['AuthMode_password-certificate_label'] = 'Gebruiker, wachtwoord en certificaat';
-$L['AuthMode_password_label'] = 'Gebruiker en wachtwoord';
 $L['AuthMode_psk_label'] = 'Pre-Shared Key';
 $L['Mode_bridged_label'] = 'Bridged';
 $L['create_header_label'] = 'Maak een nieuwe client aan';
@@ -21,7 +20,4 @@ $L['Mode_routed_label'] = 'Gerouteerd';
 $L['update_header_label'] = 'Wijzig client';
 $L['User_label'] = 'Gebruiker';
 $L['Clients_Title'] = 'Client';
-$L['VPNType_ipsec_label'] = 'IPsec';
-$L['VPNType_label'] = 'Type';
-$L['VPNType_openvpn_label'] = 'OpenVPN';
 $L['Compression_label'] = 'Schakel LZO-compressie in';

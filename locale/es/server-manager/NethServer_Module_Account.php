@@ -3,23 +3,6 @@
 $L['Account_Title'] = 'Usuarios y Grupos';
 $L['Account_Description'] = 'Administrar usuarios y grupos, configurar la identidad de dominio y proveedores de autenticación';
 $L['Account_Tags'] = 'sssd usuario grupo nombre dominio cuenta kerberos ldap';
-$L['Select_Title'] = 'Elección de backend';
-
-$L['AuthProvider_header'] = 'Seleccione los usuarios y grupos del proveedor de dominio "${0}"';
-$L['Provider_none_label'] = 'Ninguno (desactivado)';
-$L['Provider_ldap_label'] = 'LDAP';
-$L['Provider_ad_label'] = 'Directorio Activo';
-$L['AdDns_label'] = 'Dirección IP del servidor DNS';
-$L['LdapUri_label'] = 'Dirección IP del servidor';
-$L['BindProvider_label'] = 'Enlazar';
-$L['NetbiosDomain_label'] = 'Dominio NetBIOS';
-
-$L['login_label'] = 'Nombre de usuario con privilegios';
-$L['password_label'] = 'Contraseña';
-$L['Join_label'] = 'Unirse';
-$L['Authenticate_header'] = 'Unirse al dominio de AD con credenciales de usuario con privilegios';
-
-$L['NoConfig_header'] = 'Dominio ${0}';
 
 $L['AccountProvider_Error_22'] = 'Proveedor de Cuenta - Error: DN no válido. Comprobar DN de base, DN de grupos y DN de usuarios en la configuración del proveedor de cuentas';
 $L['AccountProvider_Error_32'] = 'Error del proveedor de cuenta: no se encontraron registros. Compruebe las credenciales de enlace LDAP y el base DN en la configuración del proveedor de Cuentas';
@@ -31,15 +14,3 @@ $L['AccountProvider_Error_104'] = 'Conexión del proveedor de cuenta restablecid
 $L['AccountProvider_Error_110'] = 'Tiempo de conexión del proveedor de cuenta agotado';
 $L['AccountProvider_Error_111'] = 'Se ha rechazado la conexión del proveedor de cuenta';
 
-$L['valid_platform,ad-dns,srv_record,1'] = 'No parece un controlador de dominio de Active Directory';
-
-$L['ChooseProvider_1'] = 'Users and groups are available through an accounts provider. You can connect this server to a remote accounts provider, or install a local one.';
-$L['ChooseProvider_2'] = 'There are two kinds of accounts provider:';
-$L['ChooseProvider_3'] = 'Active Directory: ideal for Windows networks, users can access shared folders with their own credentials';
-$L['ChooseProvider_4'] = 'LDAP: easy to install and configure, shared folders are accessible without user authentication';
-$L['ChooseProvider_5'] = 'Configure a remote accounts provider';
-$L['ChooseProvider_6'] = 'Install a local accounts provider; once installed, it must not be removed';
-$L['ChooseProvider_7'] = 'Shared folders are available by installing the "File server" module.';
-$L['configureButton_label'] = 'Configure';
-$L['softwareCenterButton_label'] = 'Install';
-$L['dismissButton_label'] = 'No, thanks!';

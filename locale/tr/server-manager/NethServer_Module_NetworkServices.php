@@ -20,6 +20,6 @@ $L['red_label'] = 'Internet (kırmızı)';
 $L['zones_label'] = 'Yalnız şu bölgelerden erişilebilsin';
 $L['ServiceStatus_enabled_label'] = 'Durum: Etkin';
 $L['ServiceStatus_disabled_label'] = 'Durum: Devre Dışı';
-$L['configuration_label'] = 'Hizmet ayarları';
+$L['configuration_label'] = 'Hizmet yapılandırması';
 $L['TCP_ports_label'] = 'TCP kapısı: ${0}';
 $L['UDP_ports_label'] = 'UDP kapısı: ${0}';
