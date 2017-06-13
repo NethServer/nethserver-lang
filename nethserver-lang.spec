@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.1.10
+Version: 1.1.11
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -198,6 +198,9 @@ BuildArch: noarch
 NethServer Serbian language support (sr)
 
 %changelog
+* Tue Jun 13 2017 Davide Principi <davide.principi@nethesis.it> - 1.1.11-1
+- Pull strings from Transifex
+
 * Wed May 10 2017 Davide Principi <davide.principi@nethesis.it> - 1.1.10-1
 - Accounts provider guided configuration - NethServer/dev#5253
 
