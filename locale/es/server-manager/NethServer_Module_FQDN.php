@@ -12,3 +12,4 @@ $L['FQDN_label'] = 'Nombre ompleto de dominio calificado';
 $L['valid_platform,myhostname,failifjoin,1'] = 'Proveedores de Usuarios y Grupos estan configurados';
 $L['valid_platform,myhostname,hostname-length,3'] = 'La parte del nombre del host debe poseer hasta 15 caracteres de longitud';
 $L['valid_platform,myhostname,hostname-length,4'] = 'Sólo letras, dígitos y guiones están permitidos en la parte del nombre del host';
+$L['valid_hostname_fqdn_long'] = 'must contain at least two dots, like "myhost.example.com"';

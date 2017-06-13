@@ -1,8 +1,8 @@
 <?php
 
-$L['ProxyPass_Description'] = 'Configure reverse proxy';
+$L['ProxyPass_Description'] = 'Nastavit reverzní proxy';
 $L['ProxyPass_Tags'] = 'reverse proxy proxypass proxy pass';
-$L['ProxyPass_Title'] = 'Reverse proxy';
+$L['ProxyPass_Title'] = 'Reverzní proxy';
 $L['Key_label'] = 'Název';
 $L['Name_label'] = 'Název';
 $L['Target_label'] = 'Cílová URL adresa';

@@ -18,3 +18,7 @@ $L['ANY_DOMAIN'] = '[tutti i domini]';
 $L['ExtAddresses_label'] = 'Indirizzi email esterni';
 $L['Destinations_label'] = 'Destinazioni';
 $L['valid_pseudonym_mailbox_conflict'] = 'Un account utente con lo stesso nome esiste già';
+$L['valid_pseudonym_empty_destination'] = 'Inserire almeno un elemento';
+$L['SharedMailbox_selector_label'] = '${0} (casella di posta condivisa)';
+$L['Yes'] = 'Si';
+$L['No'] = 'No';

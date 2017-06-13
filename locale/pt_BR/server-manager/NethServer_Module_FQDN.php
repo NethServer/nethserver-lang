@@ -12,3 +12,4 @@ $L['FQDN_label'] = 'Nome de domínio totalmente qualificado';
 $L['valid_platform,myhostname,failifjoin,1'] = 'Usuários e provedor de grupos já configurado';
 $L['valid_platform,myhostname,hostname-length,3'] = 'O comprimento da parte nome do host deve ser de até 15 caracteres';
 $L['valid_platform,myhostname,hostname-length,4'] = 'Somente letras, dígitos e hifens são permitidos na parte do nome do anfitrião';
+$L['valid_hostname_fqdn_long'] = 'deve conter pelo menos dois pontos, como "meuhost.exemplo.com"';

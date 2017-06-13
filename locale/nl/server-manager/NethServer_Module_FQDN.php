@@ -12,3 +12,4 @@ $L['FQDN_label'] = 'Volledig gekwalificeerde domeinnaam, FQDN ';
 $L['valid_platform,myhostname,failifjoin,1'] = 'Providers voor gebruikers en groepen al geconfigureerd';
 $L['valid_platform,myhostname,hostname-length,3'] = 'Het hostnaam-deel mag tot 15 tekens lang zijn';
 $L['valid_platform,myhostname,hostname-length,4'] = 'In het hostnaam-gedeelte zijn enkel letters, cijfers en mintekens toegestaan ';
+$L['valid_hostname_fqdn_long'] = 'must contain at least two dots, like "myhost.example.com"';

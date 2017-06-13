@@ -37,4 +37,4 @@ $L['DynDns_DYNDNSFREE_label'] = 'Δυναμικές διευθύνσεις Dyndn
 $L['DynDns_Credentials_Title'] = 'Διαπιστευτήρια Δυναμικού DNS';
 $L['DynDns_Provider_Title'] = 'Πάροχοι δυναμικού DNS';
 $L['DynDns_SELFHOST_label'] = 'Selfhost (selfhost.eu) dynamic adresses';
-
+$L['DynDns_CLOUDFLARE_label'] = 'Cloudflare (cloudflare.com) dynamic adresses';

@@ -2,7 +2,7 @@
 
 /* NethServer_Module_FirewallRules translation, language: en */
 
-$L['FirewallRules_Description'] = 'Verwalte Firewallregeln';
+$L['FirewallRules_Description'] = 'Firewallregeln verwalten';
 $L['FirewallRules_Tags'] = 'Firewall Regel Policy Traffic Shaping';
 $L['FirewallRules_Title'] = 'Firewallregeln';
 

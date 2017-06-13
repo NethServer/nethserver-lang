@@ -96,7 +96,7 @@ $L['AdDns_label'] = 'AD DNS server';
 $L['AdRealm_label'] = 'DNS domain name';
 $L['AdWorkgroup_label'] = 'NetBIOS domain name';
 $L['AdJoinMemberCredentials_label'] = 'Credentials for joining the domain';
-$L['AdUsername_label'] = 'User name';
+$L['AdUsername_label'] = 'Nome de usuário';
 $L['AdPassword_label'] = 'Senha';
 $L['AdJoinMember_label'] = 'Entrar';
 
@@ -124,6 +124,6 @@ $L['installSuccessAd_notification'] = 'Active Directory local accounts provider 
 $L['LocalAdProvider_header'] = 'Active Directory local accounts provider for ${0}';
 $L['LocalAdUpdate_label'] = 'Atualizar DC';
 $L['LocalAdProviderUninstall_label'] = 'Desinstalar';
-$L['sambaUpdateIsAvailable_notification'] = "An update to the Domain Controller package is available";
+$L['sambaUpdateIsAvailable_notification'] = "Um pacote de atualização esta disponível para o Controlador de Domínio";
 $L['LocalAdUpdate_header'] = 'Atualizar DC';
 $L['LocalAdUpdate_message'] = 'This operation might require the download of additional packages. The Domain Controller will be restarted after the software has been updated';

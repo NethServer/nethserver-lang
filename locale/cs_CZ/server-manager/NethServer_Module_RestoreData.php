@@ -1,6 +1,6 @@
 <?php
 
-$L['RestoreData_Title'] = 'Restore files';
+$L['RestoreData_Title'] = 'Obnovit soubory';
 $L['RestoreData_label'] = 'Obnovit';
 $L['RestoreData_Description'] = 'Obnovit data ze zálohy';
 $L['RestoreData_PlaceHolder'] = 'Hledat…';

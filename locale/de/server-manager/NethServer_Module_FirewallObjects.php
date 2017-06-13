@@ -1,6 +1,6 @@
 <?php 
 
-$L['FirewallObjects_Description'] = 'Verwalte Firewallobjekte';
+$L['FirewallObjects_Description'] = 'Firewallobjekte verwalten';
 $L['FirewallObjects_Tags'] = 'Firewall Zone Host Dienst Gruppe Objekte';
 $L['FirewallObjects_Title'] = 'Firewallobjekte';
 

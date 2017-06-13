@@ -18,3 +18,7 @@ $L['ANY_DOMAIN'] = '[todos los dominios]';
 $L['ExtAddresses_label'] = 'Destinos de correo electrónico externos';
 $L['Destinations_label'] = 'Destinos';
 $L['valid_pseudonym_mailbox_conflict'] = 'Ya existe una cuenta de usuario con el mismo nombre';
+$L['valid_pseudonym_empty_destination'] = 'One element must be set at least';
+$L['SharedMailbox_selector_label'] = '${0} (shared mailbox)';
+$L['Yes'] = 'Yes';
+$L['No'] = 'No';

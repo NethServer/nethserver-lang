@@ -1,6 +1,6 @@
 <?php
 
-$L['Lists_Title'] = 'Blacklists';
+$L['Lists_Title'] = 'Schwarze Listen';
 $L['Lists_selector'] = 'Verfügbare Listen';
 $L['Lists_shalla_label'] = 'Shalla (frei zur privaten Nutzung)';
 $L['Lists_urlblacklist_label'] = 'UrlBlacklist.com (kommerziell)';

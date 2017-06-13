@@ -18,3 +18,7 @@ $L['ANY_DOMAIN'] = '[alle domains]';
 $L['ExtAddresses_label'] = 'Externe E-Mail Ziele';
 $L['Destinations_label'] = 'Ziele';
 $L['valid_pseudonym_mailbox_conflict'] = 'Ein Benutzerkonto mit diesem Namen ist bereits vorhanden';
+$L['valid_pseudonym_empty_destination'] = 'Mindestens ein Element muss gesetzt sein';
+$L['SharedMailbox_selector_label'] = '${0} (freigegebenes Postfach)';
+$L['Yes'] = 'Ja';
+$L['No'] = 'Nein';

@@ -37,4 +37,4 @@ $L['DynDns_DYNDNSFREE_label'] = 'Динамические адреса Dyndnsfre
 $L['DynDns_Credentials_Title'] = 'Полномочия Dynamic DNS';
 $L['DynDns_Provider_Title'] = 'Провайдеры Dynamic DNS';
 $L['DynDns_SELFHOST_label'] = 'Selfhost (selfhost.eu) dynamic adresses';
-
+$L['DynDns_CLOUDFLARE_label'] = 'Cloudflare (cloudflare.com) dynamic adresses';

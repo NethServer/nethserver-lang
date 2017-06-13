@@ -12,3 +12,4 @@ $L['FQDN_label'] = 'Nome host e dominio (FQDN)';
 $L['valid_platform,myhostname,failifjoin,1'] = 'Provider di user e gruppi già configurato';
 $L['valid_platform,myhostname,hostname-length,3'] = 'Il nome host ha una lunghezza massima di 15 caratteri.';
 $L['valid_platform,myhostname,hostname-length,4'] = 'Solo lettere, numeri e trattini sono permessi nel nome host.';
+$L['valid_hostname_fqdn_long'] = 'deve contere almeno due punti, esempio "myhost.example.com"';

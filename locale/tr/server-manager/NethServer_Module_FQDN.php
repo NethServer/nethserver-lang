@@ -12,3 +12,4 @@ $L['FQDN_label'] = 'Tam sınıflandırılmış etki alanı adı';
 $L['valid_platform,myhostname,failifjoin,1'] = 'Kullanıcı ve grup hizmeti sağlayıcısı zaten ayarlanmış';
 $L['valid_platform,myhostname,hostname-length,3'] = 'Sunucu adı bölümünün uzunluğu en fazla 15 karakter olabilir';
 $L['valid_platform,myhostname,hostname-length,4'] = 'Sunucu adı bölümünde yalnız harf, rakam ve tire karakteri kullanılabilir';
+$L['valid_hostname_fqdn_long'] = 'en az iki nokta bulunmalıdır "sunucum.sitem.com" gibi';

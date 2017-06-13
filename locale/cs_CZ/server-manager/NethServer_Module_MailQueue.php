@@ -2,7 +2,7 @@
 
 $L['Delete_label'] = 'Smazat';
 $L['Delete_Header'] = 'Smazat zprávu ${0}';
-$L['Delete_Message'] = 'Confirm deletion of message ${0}?';
+$L['Delete_Message'] = 'Opravdu smazat zprávu ${0}?';
 $L['MailQueue_Description'] = 'Spravovat frontu e-mailů'; 
 $L['MailQueue_Tags'] = 'mail email queue postfix mailqueue'; 
 $L['MailQueue_Title'] = 'Mail queue'; 
