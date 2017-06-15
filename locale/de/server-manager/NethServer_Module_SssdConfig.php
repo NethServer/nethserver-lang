@@ -17,13 +17,13 @@ $L['password_label'] = 'Passwort';
 $L['Join_label'] = 'Beitreten';
 $L['Authenticate_header'] = 'AD beitreten mit privilegierten Anmeldedaten';
 
-$L['Wizard_header'] = 'Konfigurieren von Benutzern und Gruppen für Domain $ {0}';
-$L['Local_header'] = 'Installiere einen lokalen Account-Provider';
+$L['Wizard_header'] = 'Konfigurieren von Benutzern und Gruppen für Domain ${0}';
+$L['Local_header'] = 'Installiere einen lokalen Kontoanbieter';
 $L['Install_label'] = 'Installieren';
 $L['Bind_label'] = 'Verknüpfen';
 
 
-$L['ChooseProvider_general'] = 'Benutzer und Gruppen sind über einen Kontenanbieter verfügbar.  Sie können diesen Server mit einem Remote-Account-Provider verbinden oder einen lokale installieren.  Einige Funktionen sind je nach Kontenanbietertyp verfügbar.';
+$L['ChooseProvider_general'] = 'Benutzer und Gruppen sind über einen Kontenanbieter verfügbar.  Du kannst diesen Server mit einem entfernten Kontenanbieter verbinden oder einen lokalen installieren.  Einige Funktionen sind vom Kontenanbietertyp abhängig.';
 $L['ChooseProvider_ldap'] = 'Einfach zu konfigurieren, unterstützt keinen authentifizierten Zugriff auf freigegebene Ordner';
 $L['ChooseProvider_ad'] = 'Ermöglicht alle Funktionen für freigegebene Ordner, erfordert erweiterte Konfigurationsoptionen';
 $L['configAd_label'] = 'Active Directory';

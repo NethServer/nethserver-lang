@@ -13,20 +13,20 @@ $L['BindProvider_label'] = 'Bind';
 $L['NetbiosDomain_label'] = 'NetBIOS domain';
 
 $L['login_label'] = 'Privileged user name';
-$L['password_label'] = 'Password';
-$L['Join_label'] = 'Join';
+$L['password_label'] = 'Contraseña';
+$L['Join_label'] = 'Unir';
 $L['Authenticate_header'] = 'Join the AD domain with privileged user credentials';
 
 $L['Wizard_header'] = 'Configure users and groups for domain ${0}';
 $L['Local_header'] = 'Install a local accounts provider';
-$L['Install_label'] = 'Install';
+$L['Install_label'] = 'Instalar';
 $L['Bind_label'] = 'Bind';
 
 
 $L['ChooseProvider_general'] = 'Users and groups are available through an accounts provider. You can connect this server to a remote accounts provider, or install a local one. Some features are available depending on the accounts provider type.';
 $L['ChooseProvider_ldap'] = 'Easy to configure, does not support authenticated access to shared folders';
 $L['ChooseProvider_ad'] = 'Enables all shared folders features, requires advanced configuration options';
-$L['configAd_label'] = 'Active Directory';
+$L['configAd_label'] = 'Directorio Activo';
 $L['configLdap_label'] = 'LDAP';
 
 $L['Ad_header'] = 'Active Directory accounts provider';
@@ -35,9 +35,9 @@ $L['ChooseAd_general'] = 'Computers in an Active Directory domain can be simple 
 $L['ChooseAd_joinmember'] = 'Become a member of an existing domain';
 $L['ChooseAd_joindc'] = 'Become a DC of an existing domain';
 $L['ChooseAd_newforest'] = 'Initialize a new domain and become DC';
-$L['configAdJoinMember_label'] = 'Join a domain';
+$L['configAdJoinMember_label'] = 'Unirse a un Dominio';
 $L['configAdJoinDc_label'] = 'Add DC to domain';
-$L['configAdNewDomain_label'] = 'Create a new domain';
+$L['configAdNewDomain_label'] = 'Crear un nuevo dominio';
 
 $L['LocalLdapProvider_header'] = 'LDAP local accounts provider for ${0}';
 $L['RemoteLdapProvider_header'] = 'LDAP remote accounts provider for ${0}';

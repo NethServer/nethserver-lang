@@ -8,6 +8,6 @@ $L['port_label'] = 'TCP port';
 $L['passwordAuth_label'] = 'Erlaube Passwortauthentifizierung';
 $L['rootLogin_label'] = 'Erlaube Root Login';
 $L['SSH_WizDescription'] = "Der SSH-Dienst verwendet standardmäßig Port 22. 
-Wenn Sie den Standart Port ändern, kann das System ggf. sicherer werden.";
-$L['SSH_WizWarning'] = "Es wird dringend empfohlen, den standardmäßigen Port zu ändern, z.B. 2222";
+Wenn Sie den Standardport ändern, kann das System ggf. sicherer werden.";
+$L['SSH_WizWarning'] = "Es wird dringend empfohlen, den Standardport zu ändern, z.B. 2222";
 
