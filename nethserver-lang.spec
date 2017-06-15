@@ -197,6 +197,13 @@ BuildArch: noarch
 %description sr
 NethServer Serbian language support (sr)
 
+%package ro
+Summary: Romanian support
+BuildArch: noarch
+%files ro -f ro.lang
+%description ro
+NethServer Romanian language support (ro)
+
 %changelog
 * Tue Jun 13 2017 Davide Principi <davide.principi@nethesis.it> - 1.1.11-1
 - Pull strings from Transifex

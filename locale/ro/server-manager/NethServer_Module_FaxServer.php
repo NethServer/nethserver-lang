@@ -1,0 +1,51 @@
+<?php 
+
+/* FaxServer translation, language: en */
+
+$L['AreaCode_label'] = 'Cod de zonă';
+$L['ClientShowReceived_label'] = 'Arată fax-urile primite de la clienți';
+$L['CountryCode_label'] = 'Cod de țară';
+$L['DispatchFileTypeList_label'] = 'Format fax intrat';
+$L['FaxDevice_label'] = 'Port modem';
+$L['FaxDeviceType_known_label'] = 'Dispozitiv standard';
+$L['FaxDeviceType_custom_label'] = 'Dispozitiv personalizat';
+$L['FaxDeviceCustom_label'] = '';
+$L['FaxDeviceKnown_label'] = '';
+$L['FaxName_label'] = 'Expeditor fax (TSI)';
+$L['FaxNumber_label'] = 'Număr de fax';
+$L['FaxServer_Description'] = 'Configurare modem și server de fax (Hylafax)';
+$L['FaxServer_Extras_Title'] = 'Funcții suplimentare';
+$L['FaxServer_General_Title'] = 'General';
+$L['FaxServer_Modem_Title'] = 'Modem';
+$L['FaxServer_Notification_Title'] = 'Notificare mail';
+$L['FaxServer_Tags'] = 'fax server fax hylafax modem imprimare număr sambafax';
+$L['FaxServer_Title'] = 'Server fax';
+$L['Mode_label'] = 'Mod';
+$L['NotifyFileTypeList_label'] = 'Format fax expediat';
+$L['NotifyMaster_label'] = 'Notifică administratorul despre faxurile recepționate și expediate';
+$L['PBXPrefix_label'] = 'Prefix PBX';
+$L['PrinterName_label'] = 'Nume imprimantă';
+$L['PrintReceived_label'] = 'Listează automat faxurile primite';
+$L['SambaFax_label'] = 'SambaFax';
+$L['SendReport_label'] = 'Trimite raport zilnic';
+$L['SendTo_label'] = 'Înaintează fax-urile primite către';
+$L['SummaryReport_label'] = 'Adaugă raportul de sinteză la notificarea de expediere fax';
+$L['WaitDialTone_label'] = 'Așteaptă tonul';
+$L['always_label'] = 'Întotdeauna';
+$L['both_label'] = 'Expediază și primește';
+$L['errors_label'] = 'Erori pornite';
+$L['iax_label'] = 'Virtual (IAX)';
+$L['never_label'] = 'Niciodată';
+$L['no_printer_label'] = 'Nici o imprimantă configurată';
+$L['pdf_label'] = 'PDF (Portable Data Format)';
+$L['ps_label'] = 'PS (PostScript)';
+$L['receive_label'] = 'Numai primire';
+$L['send_label'] = 'Numai trimitere';
+$L['tif_label'] = 'TIFF (Tagget Image File Format)';
+$L['ttyACM0_label'] = 'USB (ttyACM0)';
+$L['ttyS0_label'] = 'COM1 (ttyS0)';
+$L['ttyS1_label'] = 'COM2 (ttyS1)';
+$L['ttyS2_label'] = 'COM3 (ttyS2)';
+$L['ttyUSB0_label'] = 'USB către serial (ttyUSB0)';
+$L['ttyIAX_label'] = 'Modem-uri IAX';
+$L['Mail2Fax_label'] = 'Gateway mail către fax';

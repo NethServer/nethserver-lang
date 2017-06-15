@@ -1,0 +1,28 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nethserver-ndpi 1.0.0\n"
+"Report-Msgid-Bugs-To: davide.principi@nethesis.it\n"
+"POT-Creation-Date: 2016-09-14 10:48+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: rox roxor <ceardaaa@gmail.com>, 2017\n"
+"Language-Team: Romanian (https://www.transifex.com/nethserver/teams/35834/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: root/etc/nethserver/todos.d/50ndpi:35
+msgid "Deep Packet Inspection (DPI) module is not available"
+msgstr ""
+"Modul de inspecție cu pachete de mare capacitate (DPI) nu este disponibil"
+
+#: root/etc/nethserver/todos.d/50ndpi:35
+msgid "Restart the system and select a Linux kernel with DPI module support"
+msgstr ""
+"Reporniți sistemul și selectați un kernel Linux cu suport pentru modulul DPI"

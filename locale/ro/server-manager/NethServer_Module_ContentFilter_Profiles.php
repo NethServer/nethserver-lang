@@ -1,0 +1,35 @@
+<?php
+
+$L['Profiles_Title'] = 'Profiluri';
+$L['Key_label'] = 'Nume';
+$L['name_label'] = 'Nume';
+$L['Src_label'] = 'Care';
+$L['Filter_label'] = 'Ce';
+$L['Description_label'] = 'Descriere';
+$L['Users_label'] = 'Utilizatori';
+$L['UserGroups_label'] = 'Grupuri de utilizatori';
+$L['Hosts_label'] = 'Gazdele';
+$L['HostGroups_label'] = 'Grupuri gazdă';
+$L['Zones_label'] = 'Zonele';
+$L['Time_label'] = 'Cand';
+$L['always_label'] = 'Mereu';
+$L['any_label'] = 'Orice gazdă';
+$L['host_label'] = 'Gazdă';
+$L['host-group_label'] = 'Grup gazdă';
+$L['user_label'] = 'Utilizator';
+$L['group_label'] = 'Grup de utilizatori';
+$L['filter_label'] = 'Filtru';
+$L['time_label'] = 'Timp';
+$L['zone_label'] = 'Zona';
+$L['role_label'] = 'Zona';
+$L['key_exists_message'] = 'Un filtru, un profil sau un timp cu același nume există deja';
+$L['key_doesnt_exists_message'] = 'Acest obiect nu există';
+$L['aduser_label'] = 'Utilizator AD';
+$L['ADUsers_label'] = 'Utilizatori AD';
+$L['cidr_label'] = 'Subnetul CIDR';
+$L['Cidrs_label'] = 'Subdrepturi CIDR';
+$L['iprange_label'] = 'Interval IP';
+$L['IpRanges_label'] = 'Intervalele IP';
+$L['update_header'] = 'Sincronizați utilizatorii și grupurile';
+$L['update_confirmation_label'] = 'Continuare cu repornirea proxy-ului?';
+$L['Update_label'] = 'Sincronizare utilizatorii și grupurile';
