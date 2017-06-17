@@ -808,3 +808,87 @@ file_filter = locale/<lang>/server-manager/NethServer_Module_Mail_SmartHost.php
 source_file = locale/en/server-manager/NethServer_Module_Mail_SmartHost.php
 source_lang = en
 type = PHP_ALT_ARRAY
+
+[nethserver.Awstats]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Awstats.php
+source_file = locale/en/server-manager/NethServer_Module_Awstats.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.ClamScan]
+file_filter = locale/<lang>/server-manager/NethServer_Module_ClamScan.php
+source_file = locale/en/server-manager/NethServer_Module_ClamScan.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.Fail2Ban]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Fail2Ban.php
+source_file = locale/en/server-manager/NethServer_Module_Fail2Ban.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.Transmission]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Transmission.php
+source_file = locale/en/server-manager/NethServer_Module_Transmission.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.ShellInaBox]
+file_filter = locale/<lang>/server-manager/NethServer_Module_ShellInaBox.php
+source_file = locale/en/server-manager/NethServer_Module_ShellInaBox.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.Shell]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Shell.php
+source_file = locale/en/server-manager/NethServer_Module_Shell.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.VirtualHosts_ModifyPlugin_PhpScl]
+file_filter = locale/<lang>/server-manager/NethServer_Module_VirtualHosts_ModifyPlugin_PhpScl.php
+source_file = locale/en/server-manager/NethServer_Module_VirtualHosts_ModifyPlugin_PhpScl.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.VirtualHosts_PhpAdjustableValues_Php2Httpd]
+file_filter = locale/<lang>/server-manager/NethServer_Module_PhpAdjustableValues_Php2Httpd.php
+source_file = locale/en/server-manager/NethServer_Module_PhpAdjustableValues_Php2Httpd.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.VirtualHosts_PhpAdjustableValues_Php56]
+file_filter = locale/<lang>/server-manager/NethServer_Module_PhpAdjustableValues_Php56.php
+source_file = locale/en/server-manager/NethServer_Module_PhpAdjustableValues_Php56.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.VirtualHosts_PhpAdjustableValues_Php70]
+file_filter = locale/<lang>/server-manager/NethServer_Module_PhpAdjustableValues_Php70.php
+source_file = locale/en/server-manager/NethServer_Module_PhpAdjustableValues_Php70.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.VirtualHosts_PhpAdjustableValues_Php71]
+file_filter = locale/<lang>/server-manager/NethServer_Module_PhpAdjustableValues_Php71.php
+source_file = locale/en/server-manager/NethServer_Module_PhpAdjustableValues_Php71.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.PhpAdjustableValues]
+file_filter = locale/<lang>/server-manager/NethServer_Module_PhpAdjustableValues.php
+source_file = locale/en/server-manager/NethServer_Module_PhpAdjustableValues.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.VirtualHosts_ModifyPlugin_PhpSettings]
+file_filter = locale/<lang>/server-manager/NethServer_Module_VirtualHosts_ModifyPlugin_PhpSettings.php
+source_file = locale/en/server-manager/NethServer_Module_VirtualHosts_ModifyPlugin_PhpSettings.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.VirtualHosts_ModifyPlugin_PhpSettings]
+file_filter = locale/<lang>/server-manager/NethServer_Module_VirtualHosts_ModifyPlugin_PhpSettings.php
+source_file = locale/en/server-manager/NethServer_Module_VirtualHosts_ModifyPlugin_PhpSettings.php
+source_lang = en
+type = PHP_ALT_ARRAY
