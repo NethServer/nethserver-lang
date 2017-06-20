@@ -1,0 +1,19 @@
+<?php
+$L['Php71_Title'] = 'Php V7.1 SCL';
+$L['Php71AdjustableValues_Title'] = 'Administrar configuracion de Php 71';
+$L['AllowUrlFopen_label'] = 'Permitir Acceso a archivos remotos a php';
+$L['Php memory limit (${0})'] = 'Maximo Disponible de Memoria (${0})';
+$L['Maximum upload file size (${0})'] = 'Maximo tamaño de subida de archivos (${0})';
+$L['Maximum post size (${0})'] = 'Maximo tamaño de datos en post permitidos (${0})';
+$L['Maximum execution time (${0})'] = 'Tiempo maximo de ejecucion de scripts (${0})';
+$L['Maximum number of files (${0})'] = 'Maximo nro de archivos subido (${0})';
+$L['Maximum input time (${0})'] = 'Maximo tiempo para procesar datos ingresados (${0})';
+$L['MemoryLimit_label'] = 'Aviso de Limite de Memoria';
+$L['MemoryLimitLabelMustBeSuperiorThanPostMaxSize'] = 'El maximo de memoria disponible debe ser mayor al maximo tamaño de datos post permitidos.';
+$L['PostMaxSize_label'] = 'Aviso de Limite Maximo de datos post';
+$L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'El maximo tamaño de datos post permitidos debe ser superior al tamaño maximo de archivos subidos.';
+$L['default'] = 'valor por defecto';
+$L['${0} MB'] = '${0} Megabytes';
+$L['${0} seconds'] = '${0} segundos';
+$L['Php71MemoryLimit_label'] = 'Errores de limite de memoria';
+$L['Php71PostMaxSize_label'] = 'Errores de maximo tamaño de datos post.';

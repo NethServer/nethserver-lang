@@ -1,0 +1,19 @@
+<?php
+$L['Php70_Title'] = 'Php V7.0 SCL';
+$L['Php70AdjustableValues_Title'] = 'Beheer de Php70-instellingen';
+$L['AllowUrlFopen_label'] = 'Sta php de toegang tot remote bestanden toe';
+$L['Php memory limit (${0})'] = 'Maximum van het beschikbare geheugen (${0})';
+$L['Maximum upload file size (${0})'] = 'Maximale upload bestandsgrootte (${0})';
+$L['Maximum post size (${0})'] = 'Maximale omvang van toegestane post data (${0})';
+$L['Maximum execution time (${0})'] = 'Maximale tijd dat scripts over hun uitvoering mogen doen (${0})';
+$L['Maximum number of files (${0})'] = 'Maximum aantal ge-uploade bestanden (${0})';
+$L['Maximum input time (${0})'] = 'Maximale tijd die het parsen van inputdata mag duren (${0})';
+$L['MemoryLimit_label'] = 'Waarschuwing geheugen-limiet ';
+$L['MemoryLimitLabelMustBeSuperiorThanPostMaxSize'] = 'Het maximaal beschikbare geheugen moet groter zijn dan de toegestane post data.';
+$L['PostMaxSize_label'] = 'Waarschuwing maximaal post-limiet';
+$L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'De maximale grootte van de toegestane post data moet meer zijn dan de upload bestandsgrootte';
+$L['default'] = 'default';
+$L['${0} MB'] = '${0} Megabytes';
+$L['${0} seconds'] = '${0} seconden';
+$L['Php70MemoryLimit_label'] = 'Foutmelding \'geheugenlimiet\'';
+$L['Php70PostMaxSize_label'] = 'Foutmelding \'post maximum afmeting\'';
