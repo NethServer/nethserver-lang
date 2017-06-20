@@ -1,0 +1,23 @@
+<?php
+$L['PhpDefault_Title'] = 'Versión predeterminada de PHP';
+$L['PhpDefaultAdjustableValues_Title'] = 'Gestionar configuración predeterminada de PHP';
+$L['PhpAdjustableValues_Title'] = 'Configuración de PHP';
+$L['AllowUrlFopen_label'] = 'Permitir que PHP acceda a archivos remotos';
+$L['Php memory limit (${0})'] = 'Máximo de memoria disponible (${0})';
+$L['Maximum upload file size (${0})'] = 'Tamaño máximo de archivos a cargar (${0})';
+$L['Maximum post size (${0})'] = 'Tamaño máximo permitido de datos cargados por formulario (${0})';
+$L['Maximum execution time (${0})'] = 'Tiempo máximo de ejecución de secuencia de comandos (${0})';
+$L['Maximum number of files (${0})'] = 'Número máximo de archivos cargados (${0})';
+$L['Maximum input time (${0})'] = 'Tiempo máximo para analizar datos cargados (${0})';
+$L['MemoryLimit_label'] = 'Advertencia de Límite de Memoria';
+$L['MemoryLimitLabelMustBeSuperiorThanPostMaxSize'] = 'La cantidad de memoria máxima disponible tiene que ser superior al tamaño máximo permitido de datos cargados en un formulario. ';
+$L['PostMaxSize_label'] = 'Advertencia de límite de datos cargados en formulario';
+$L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'La cantidad máxima permitida de datos cargados en un formulario debe ser superior al tamaño máximo de archivos a cargar';
+$L['default'] = 'predeterminado';
+$L['${0} MB'] = ' ${0} Megabytes';
+$L['${0} G'] = '${0} Gigabytes';
+$L['${0} seconds'] = '${0} segundos';
+$L['PhpVersion_default_label'] = 'Versión de PHP predeterminada';
+$L['unlimited'] = 'ilimitado';
+$L['PhpMemoryLimit_label'] = 'Errores de límite de memoria';
+$L['PhpPostMaxSize_label'] = 'Errores de límite de datos cargados en formulario';
