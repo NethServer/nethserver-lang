@@ -752,3 +752,57 @@ file_filter = locale/<lang>/server-manager/NethServer_Module_FirstConfigWiz_Phon
 source_file = locale/en/server-manager/NethServer_Module_FirstConfigWiz_PhoneHome.php
 source_lang = en
 type = PHP_ALT_ARRAY
+
+[nethserver.ClamScan]
+file_filter = locale/<lang>/server-manager/NethServer_Module_ClamScan.php
+source_file = locale/en/server-manager/NethServer_Module_ClamScan.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.CronTab]
+file_filter = locale/<lang>/server-manager/NethServer_Module_CronTab.php
+source_file = locale/en/server-manager/NethServer_Module_CronTab.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.Fail2Ban]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Fail2Ban.php
+source_file = locale/en/server-manager/NethServer_Module_Fail2Ban.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.Transmission]
+file_filter = locale/<lang>/server-manager/NethServer_Module_User_Plugin_Transmission.php
+source_file = locale/en/server-manager/NethServer_Module_User_Plugin_Transmission.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.PhpAdjustableValues]
+file_filter = locale/<lang>/server-manager/NethServer_Module_PhpAdjustableValues.php
+source_file = locale/en/server-manager/NethServer_Module_PhpAdjustableValues.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.SharedFolder_Plugin_PhpScl]
+file_filter = locale/<lang>/server-manager/SharedFolder_Plugin_PhpScl.php
+source_file = locale/en/server-manager/SharedFolder_Plugin_PhpScl.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.SharedFolder_Plugin_PhpSettings]
+file_filter = locale/<lang>/server-manager/NethServer_Module_SharedFolder_Plugin_PhpSettings.php
+source_file = locale/en/server-manager/NethServer_Module_SharedFolder_Plugin_PhpSettings.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.ShellInaBox]
+file_filter = locale/<lang>/server-manager/NethServer_Module_ShellInaBox.php
+source_file = locale/en/server-manager/NethServer_Module_ShellInaBox.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.User_Plugin_ShellInaBox]
+file_filter = locale/<lang>/server-manager/NethServer_Module_User_Plugin_ShellInaBox.php
+source_file = locale/en/server-manager/NethServer_Module_User_Plugin_ShellInaBox.php
+source_lang = en
+type = PHP_ALT_ARRAY
