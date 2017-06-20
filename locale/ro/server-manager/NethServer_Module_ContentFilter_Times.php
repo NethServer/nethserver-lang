@@ -1,9 +1,9 @@
 <?php
 
-$L['Times_Title'] = 'Timpuri';
+$L['Times_Title'] = 'Perioade';
 $L['Key_label'] = 'Nume';
 $L['name_label'] = 'Nume';
-$L['Days_label'] = 'Zilele saptamanii';
+$L['Days_label'] = 'Zilele săptămânii';
 $L['Description_label'] = 'Descriere';
 $L['s_label'] = 'Duminică';
 $L['m_label'] = 'Luni';

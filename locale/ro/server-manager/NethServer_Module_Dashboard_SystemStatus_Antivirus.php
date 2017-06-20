@@ -1,6 +1,6 @@
 <?php
 
-$L['antivirus_title'] = 'Baza de date antivirusi';
+$L['antivirus_title'] = 'Bază de date antivirus';
 $L['status_label'] = 'Stare';
 $L['warning_label'] = 'Neactualizat';
 $L['ok_label'] = 'Actualizat';
