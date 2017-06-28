@@ -806,3 +806,10 @@ file_filter = locale/<lang>/server-manager/NethServer_Module_User_Plugin_ShellIn
 source_file = locale/en/server-manager/NethServer_Module_User_Plugin_ShellInaBox.php
 source_lang = en
 type = PHP_ALT_ARRAY
+
+
+[nethserver-v6.YumCron]
+file_filter = locale/<lang>/server-manager/NethServer_Module_YumCron.php
+source_file = locale/en/server-manager/NethServer_Module_YumCron.php
+source_lang = en
+type = PHP_ALT_ARRAY
