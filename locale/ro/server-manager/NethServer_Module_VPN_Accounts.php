@@ -2,8 +2,8 @@
 
 /* NethServer_Module_VPN_VPNAccounts translation, language: en */
 
-$L['bridged_label'] = 'conectat';
-$L['create_header_label'] = 'Creează un cont nou';
+$L['bridged_label'] = 'Legat';
+$L['create_header_label'] = 'Creează cont nou';
 $L['Key_label'] = 'Nume';
 $L['name_label'] = 'Nume';
 $L['VPNRemoteNetmask_label'] = 'Mască rețea';

@@ -34,10 +34,10 @@ $L['Service_key_exists_message'] = 'Identificator serviciu deja în uz';
 $L['Services_CreateService_label'] = 'Crează serviciu';
 $L['Services_update_label'] = 'Editează serviciu "${0}"';
 $L['Services_Title'] = 'Servicii';
-$L['Times_Title'] = 'Condiții temporale';
-$L['Times_create_label'] = 'Crează condiții temporale';
-$L['Times_update_label'] = 'Editează condiția temporală "${0}"';
-$L['Times_CreateTime_label'] = 'Crează condiție temporală';
+$L['Times_Title'] = 'Condiții interval timp';
+$L['Times_create_label'] = 'Crează condiție de timp';
+$L['Times_update_label'] = 'Editează condiția de timp "${0}"';
+$L['Times_CreateTime_label'] = 'Crează condiție de timp';
 $L['tcp_label'] = 'TCP';
 $L['tcpudp_label'] = 'TCP și UDP';
 $L['udp_label'] = 'UDP';
@@ -56,7 +56,7 @@ $L['valid_platform,fwobject-cidr-delete,fwobject-referenced,3'] = 'Nu se poate �
 $L['valid_platform,fwobject-iprange-delete,fwobject-referenced,3'] = 'Nu se poate șterge ${2}. Intervalul IP este utilizat de regulile firewall.';
 $L['valid_platform,fwobject-host-delete,fwobject-hostgroup-remove-member,3'] = 'Nu se poate șterge ${2}: este ultimul membru al grupului gazdă ${${reason}}.';
 $L['valid_platform,fwobject-zone-delete,fwzone-referenced,3'] = 'Nu se poate șterge ${2}: este utilizat de serviciile de rețea.';
-$L['valid_platform,fwobject-time-delete,fwobject-referenced,3'] = 'Nu se poate șterge ${2}: condiția temporală este utilizată de către regulile firewall.';
+$L['valid_platform,fwobject-time-delete,fwobject-referenced,3'] = 'Nu se poate șterge ${2}: condiția de timp este utilizată de către regulile firewall.';
 $L['valid_iprange_outofbounds'] = 'IP-ul de pornire trebuie sa fie mai mic decât IP-ul de final';
 
 $L['Cidr_Title'] = 'Subrețele CIDR';
@@ -77,10 +77,10 @@ $L['IpRange_CreateIpRange_label'] = 'Crează interval IP';
 $L['IpRangeKey_label'] = 'Interval IP';
 
 $L['TimesKey_label'] = 'Nume condiție';
-$L['TimeStart_label'] = 'Timp pornire';
-$L['TimeStop_label'] = 'Timp oprire';
+$L['TimeStart_label'] = 'Oră pornire';
+$L['TimeStop_label'] = 'Oră oprire';
 $L['WeekDays_label'] = 'Zilele săptămânii';
-$L['TimeStop_compare_TimeStart_message'] = 'Valoarea trebuie să fie mai mare decât "Time start" (${0})';
+$L['TimeStop_compare_TimeStart_message'] = 'Valoarea trebuie să fie mai mare decât "Ora de pornire" (${0})';
 
 $L['WeekDay_Sun_label'] = 'Duminică';
 $L['WeekDay_Mon_label'] = 'Luni';

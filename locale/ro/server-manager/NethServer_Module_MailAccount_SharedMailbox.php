@@ -1,7 +1,7 @@
 <?php
 
 $L['SharedMailbox_create_header'] = 'Crează o nouă căsuță poștală partajată';
-$L['SharedMailbox_modify_header'] = 'Editează căsuța poștală `${0}`';
+$L['SharedMailbox_modify_header'] = 'Editează căsuța poștală partajată `${0}`';
 $L['Name_label'] = 'Nume';
 $L['Key_label'] = 'Căsuță poștală';
 $L['OwnersSelector_label'] = 'Grupurile deținătorului';

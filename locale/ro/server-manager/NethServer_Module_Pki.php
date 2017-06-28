@@ -1,7 +1,7 @@
 <?php
 
 $L['Pki_Title'] = 'Certificat server';
-$L['Pki_Description'] = 'Administrează certificatele serverului TSL/SSL';
+$L['Pki_Description'] = 'Administrează certificatele TSL/SSL ale serverului ';
 $L['Pki_Tags'] = 'SSL certificat PKI TLS X509 X.509';
 
 $L['C_label'] = 'Cod de țară';
@@ -14,7 +14,7 @@ $L['EmailAddress_label'] = 'Adresă e-mail';
 $L['SubjectAltName_label'] = 'Nume alternative';
 $L['CertificateDuration_label'] = 'Valabilitate certificat (zile)';
 $L['valid_hostname_instance'] = '"${0}" este un nume de gazdă invalid';
-$L['valid_x509_field'] = 'Nu trebuie să conțină "," și "/"';
+$L['valid_x509_field'] = 'Trebuie să nu conțină "," și "/"';
 
 $L['Generate_label'] = 'Editează certificatul semnat în nume propriu';
 $L['Upload_label'] = 'Încarcă certificat';

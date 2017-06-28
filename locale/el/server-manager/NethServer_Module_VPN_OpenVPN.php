@@ -3,7 +3,7 @@
 $L['ServerStatus_label'] = 'Ενεργόποιηση διακομιστή roadwarrior';
 $L['OpenVPN_Description'] = 'Ρύθμιση OpenVPN';
 $L['OpenVPN_Tags'] = 'vpn virtual ιδιωτικό δίκτυο openvpn roadwarrior';
-$L['OpenVPN_Title'] = 'OpenVPN';
+$L['OpenVPN_Title'] = 'Server';
 $L['AuthMode_label'] = 'Λειτουργία ελέγχου ταυτότητας';
 $L['password_mode_label'] = 'Όνομα χρήστη και κωδικός';
 $L['certificate_mode_label'] = 'Πιστοποιητικό';
@@ -27,4 +27,10 @@ $L['AdvancedConfiguration_label'] = 'Ρύθμιση για προχωρημέν�
 $L['used_network'] = 'Το δίκτυο χρησιμοποιείται ήδη';
 $L['Connection_label'] = 'Παράμετροι σύνδεσης';
 $L['Remote_label'] = 'Επικοινωνήστε με αυτόν το διακομιστή στην δημόσια IP / host';
-
+$L['Advanced_label'] = 'Advanced';
+$L['PushExtraRoutes_label'] = 'Push all static routes';
+$L['Dhcp_label'] = 'DHCP options';
+$L['PushDomain_label'] = 'Domain';
+$L['PushDns_label'] = 'DNS';
+$L['PushWins_label'] = 'WINS';
+$L['PushNbdd_label'] = 'NBDD';

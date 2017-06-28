@@ -1,6 +1,6 @@
 <?php
 
-$L['FQDN_Description'] = 'Configurează gazda serverului și numele domeniului'; 
+$L['FQDN_Description'] = 'Configurează serverul-gazdă și numele domeniului'; 
 $L['FQDN_Tags'] = 'nume de gazdă nume domeniu domeniu fqdn'; 
 $L['FQDN_Title'] = 'Nume server';
 $L['FQDN_header'] = 'Gazdă și nume domeniu';

@@ -3,7 +3,7 @@
 $L['ServerStatus_label'] = 'Enable roadwarrior server';
 $L['OpenVPN_Description'] = 'Nastavení OpenVPN';
 $L['OpenVPN_Tags'] = 'vpn virtual private network openvpn roadwarrior';
-$L['OpenVPN_Title'] = 'OpenVPN';
+$L['OpenVPN_Title'] = 'Server';
 $L['AuthMode_label'] = 'Režim ověřování';
 $L['password_mode_label'] = 'Uživatelské jméno a heslo';
 $L['certificate_mode_label'] = 'Certifikát';
@@ -27,4 +27,10 @@ $L['AdvancedConfiguration_label'] = 'Pokročilá nastavení';
 $L['used_network'] = 'Network already in use';
 $L['Connection_label'] = 'Parametry spojení';
 $L['Remote_label'] = 'Kontaktovat tento server na veřejné IP adrese / názvu stroje';
-
+$L['Advanced_label'] = 'Advanced';
+$L['PushExtraRoutes_label'] = 'Push all static routes';
+$L['Dhcp_label'] = 'DHCP options';
+$L['PushDomain_label'] = 'Domain';
+$L['PushDns_label'] = 'DNS';
+$L['PushWins_label'] = 'WINS';
+$L['PushNbdd_label'] = 'NBDD';

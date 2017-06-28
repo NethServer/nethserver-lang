@@ -4,7 +4,7 @@ $L['SssdConfig_Title'] = 'Furnizor conturi';
 $L['SssdConfig_Description'] = 'Configurează utilizatorul și furnizorul de grupuri de conturi de domeniu';
 $L['SssdConfig_Tags'] = 'sssd domeniu cont utilizator grup ldap kerberos activ director';
 
-$L['valid_platform,ad-dns,srv_record,1'] = 'Nu s-a putut găsi un control pentru domeniul Active Directory';
+$L['valid_platform,ad-dns,srv_record,1'] = 'Nu s-a putut găsi un controller pentru domeniul Active Directory';
 
 $L['Select_Title'] = 'Opțiune pentru backend';
 
@@ -15,36 +15,36 @@ $L['NetbiosDomain_label'] = 'Domeniu NetBIOS';
 $L['login_label'] = 'Nume utilizator cu drepturi speciale';
 $L['password_label'] = 'Parolă';
 $L['Join_label'] = 'Aderare';
-$L['Authenticate_header'] = 'Aderă domeniului AD cu acreditări de utilizator cu drepturi speciale';
+$L['Authenticate_header'] = 'Aderă domeniului AD cu datele de conectare de utilizator cu drepturi speciale';
 
 $L['Wizard_header'] = 'Configurează utilizatorii și grupurile pentru domeniul ${0}';
 $L['Local_header'] = 'Instalează un furnizor local de conturi';
 $L['Install_label'] = 'Instalează';
-$L['Bind_label'] = 'Bind';
+$L['Bind_label'] = 'Legat';
 
 
 $L['ChooseProvider_general'] = 'Utilizatorii și grupurile sunt disponibile printr-un furnizor de conturi. Poți conecta acest server la un furnizor remote de conturi sau poți instala unul local. Anumite caracteristici sunt disponibile în funcție de tipul de furnizor.';
-$L['ChooseProvider_ldap'] = 'Ușor de configurat dar nu suportă acces autentificat la directoarele partajate.';
-$L['ChooseProvider_ad'] = 'Activează toate caracteristicile de partajare a directoarelor dar necesită opțiuni de configurare avansate.';
+$L['ChooseProvider_ldap'] = 'Ușor de configurat dar nu suportă acces autentificat la dosarele partajate.';
+$L['ChooseProvider_ad'] = 'Activează toate caracteristicile de partajare a dosarelor dar necesită opțiuni de configurare avansate.';
 $L['configAd_label'] = 'Active Directory';
 $L['configLdap_label'] = 'LDAP';
 
 $L['Ad_header'] = 'Furnizor de conturi Active Directory';
 $L['Ldap_header'] = 'Furnizor de conturi LDAP';
-$L['ChooseAd_general'] = 'Computerele din domeniul Active Directory pot fi simpli membri sau controlere de domeniu (DC)';
+$L['ChooseAd_general'] = 'Computerele din domeniul Active Directory pot fi simpli membri sau controlori de domeniu (DC)';
 $L['ChooseAd_joinmember'] = 'Devin-o membru al unui domeniu existent';
-$L['ChooseAd_joindc'] = 'Devin-o controler de domeniu al unui domeniu existent';
+$L['ChooseAd_joindc'] = 'Devin-o DC al unui domeniu existent';
 $L['ChooseAd_newforest'] = 'Inițializează un domeniu nou și devin-o DC';
 $L['configAdJoinMember_label'] = 'Aderă la un domeniu';
 $L['configAdJoinDc_label'] = 'Adaugă DC la domeniu';
 $L['configAdNewDomain_label'] = 'Crează domeniu nou';
 
 $L['LocalLdapProvider_header'] = 'Furnizor de conturi LDAP locale pentru ${0}';
-$L['RemoteLdapProvider_header'] = 'Furnizor de conturi LDAP la distanță pentru ${0}';
+$L['RemoteLdapProvider_header'] = 'Furnizor de conturi LDAP remote pentru ${0}';
 $L['ChooseLdap_general'] = 'O bază de date LDAP poate stoca utilizatori, grupuri și parole. Este necesară o schemă LDAP compatibilă RFC2307.';
 $L['ChooseLdap_remote'] = 'Leagă la un server LDAP la distanță';
 $L['ChooseLdap_local'] = 'Instalează un server OpenLDAP';
-$L['configLdapRemote_label'] = 'Leagă la distanță';
+$L['configLdapRemote_label'] = 'Leagă remote';
 $L['configLdapLocal_label'] = 'Instalează local';
 
 $L['LdapRemoteIpAddress_label'] = 'Nume de gazdă sau IP';
@@ -56,7 +56,7 @@ $L['valid_platform,ldap-probe,ldap-check-connect,1'] = 'Eroare conexiune la serv
 
 $L['BindType_anonymous_label'] = 'Legat anonim';
 $L['BindType_authenticated_label'] = 'Legat autentificat';
-$L['BindType_label'] = 'Acreditări BIND în citire';
+$L['BindType_label'] = 'Date autentificare doar în citire';
 $L['BindDN_label'] = 'DN Bind';
 $L['BindPassword_label'] = 'Parolă BIND';
 
@@ -84,18 +84,18 @@ $L['unbindSuccess_notification'] = 'Furnizorul la distanță de conturi a fost d
 $L['LocalLdapProviderUpgrade_label'] = 'Îmbunătățire prin trecere la Active Directory';
 $L['LocalLdapUpgrade_header'] = 'Îmbunătățire prin trecere la Active Directory';
 $L['LocalLdapUpgrade_message1'] = 'Această operațiune nu este reversibilă. Baza de date LDAP poate fi trecută la un furnizor local de conturi Active Directory ';
-$L['LocalLdapUpgrade_PDC_message1'] = 'Utilizatorii, parolele, grupurile și conturile de computer sunt păstrate. Conexiunile la directoarele partajate pot solicitate alte acreditări.';
-$L['LocalLdapUpgrade_PDC_message2'] = 'La conectarea la un director partajat, numele de domeniu NETBIOS trebuie să fie menționat în fața numelui de utilizator (de ex. "DOMENIULMEU\numedeutilizator")';
-$L['LocalLdapUpgrade_WS_message1'] = 'Utilizatorii, parolele și grupurile sunt păstrate. Totuși, conexiunile la directoarele partajate necesită alte acreditări.';
-$L['LocalLdapUpgrade_WS_message2'] = 'La conectarea la un director partajat, numele de domeniu NETBIOS trebuie să fie menționat în fața numelui de utilizator (de ex. "DOMENIULMEU\numedeutilizator")';
-$L['LdapUpgradeButton_label'] = 'Îmbunătățit';
+$L['LocalLdapUpgrade_PDC_message1'] = 'Utilizatorii, parolele, grupurile și conturile de computer sunt păstrate. Conexiunile la dosarele partajate pot solicita alte date de conectare.';
+$L['LocalLdapUpgrade_PDC_message2'] = 'La conectarea la un dosar partajat, numele de domeniu NETBIOS trebuie să fie menționat în fața numelui de utilizator (de ex. "DOMENIULMEU\numedeutilizator")';
+$L['LocalLdapUpgrade_WS_message1'] = 'Utilizatorii, parolele și grupurile sunt păstrate. Totuși, conexiunile la dosarele partajate necesită alte date de conectare.';
+$L['LocalLdapUpgrade_WS_message2'] = 'La conectarea la un dosar partajat, numele de domeniu NETBIOS trebuie să fie menționat în fața numelui de utilizator (de ex. "DOMENIULMEU\numedeutilizator")';
+$L['LdapUpgradeButton_label'] = 'Îmbunătățire';
 $L['canUpgradeToSamba_notification'] = 'Furnizorul local de conturi LDAP poate fi îmbunătățit prin trecerea la Samba Active Directory';
 
 $L['AdJoinMember_header'] = 'Aderă la Active Directory ca membru';
 $L['AdDns_label'] = 'Server AD DNS';
 $L['AdRealm_label'] = 'Nume de domeniu DNS';
 $L['AdWorkgroup_label'] = 'Nume de domeniu NetBIOS';
-$L['AdJoinMemberCredentials_label'] = 'Acreditări pentru aderarea la domeniu';
+$L['AdJoinMemberCredentials_label'] = 'Date de conectare pentru conectarea la domeniu';
 $L['AdUsername_label'] = 'Nume de utilizator';
 $L['AdPassword_label'] = 'Parolă';
 $L['AdJoinMember_label'] = 'Aderare';

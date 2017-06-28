@@ -9,7 +9,7 @@ $L['valid_platform,ad-dns,srv_record,1'] = 'Could not find an Active Directory d
 $L['Select_Title'] = 'Backend choice';
 
 $L['LdapUri_label'] = 'LDAP server URI';
-$L['BindProvider_label'] = 'Bind';
+$L['BindProvider_label'] = 'Enlazar';
 $L['NetbiosDomain_label'] = 'NetBIOS domain';
 
 $L['login_label'] = 'Privileged user name';
@@ -20,7 +20,7 @@ $L['Authenticate_header'] = 'Join the AD domain with privileged user credentials
 $L['Wizard_header'] = 'Configure users and groups for domain ${0}';
 $L['Local_header'] = 'Install a local accounts provider';
 $L['Install_label'] = 'Instalar';
-$L['Bind_label'] = 'Bind';
+$L['Bind_label'] = 'Enlazar';
 
 
 $L['ChooseProvider_general'] = 'Users and groups are available through an accounts provider. You can connect this server to a remote accounts provider, or install a local one. Some features are available depending on the accounts provider type.';

@@ -19,8 +19,7 @@ msgstr ""
 
 #: root/etc/nethserver/todos.d/50ndpi:35
 msgid "Deep Packet Inspection (DPI) module is not available"
-msgstr ""
-"Modul de inspecție cu pachete de mare capacitate (DPI) nu este disponibil"
+msgstr "Modulul de inspecție profundă a pachetelor (DPI) nu este disponibil"
 
 #: root/etc/nethserver/todos.d/50ndpi:35
 msgid "Restart the system and select a Linux kernel with DPI module support"

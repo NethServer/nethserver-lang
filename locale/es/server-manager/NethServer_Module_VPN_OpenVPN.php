@@ -3,7 +3,7 @@
 $L['ServerStatus_label'] = 'Habilitar modo roadwarrior en el servidor ';
 $L['OpenVPN_Description'] = 'Configuración OpenVPN';
 $L['OpenVPN_Tags'] = 'vpn red privada virtual openvpn roadwarrior';
-$L['OpenVPN_Title'] = 'OpenVPN';
+$L['OpenVPN_Title'] = 'Server';
 $L['AuthMode_label'] = 'Modo de autenticación';
 $L['password_mode_label'] = 'Usuario y contraseña';
 $L['certificate_mode_label'] = 'Certificado';
@@ -27,4 +27,10 @@ $L['AdvancedConfiguration_label'] = 'Configuración avanzada';
 $L['used_network'] = 'Red ya esta en uso';
 $L['Connection_label'] = 'Parámetros de conexión';
 $L['Remote_label'] = 'Contacte este servidor con IP / host público';
-
+$L['Advanced_label'] = 'Advanced';
+$L['PushExtraRoutes_label'] = 'Push all static routes';
+$L['Dhcp_label'] = 'DHCP options';
+$L['PushDomain_label'] = 'Domain';
+$L['PushDns_label'] = 'DNS';
+$L['PushWins_label'] = 'WINS';
+$L['PushNbdd_label'] = 'NBDD';

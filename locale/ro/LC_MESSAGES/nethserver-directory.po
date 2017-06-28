@@ -3,13 +3,14 @@
 # 
 # Translators:
 # liviu iordache <liviu_marian_iordache@yahoo.com>, 2017
+# Sergiu Crisan <sergiu.crisan8@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
 "POT-Creation-Date: 2015-05-19 16:55+0200\n"
-"PO-Revision-Date: 2017-06-13 13:03+0000\n"
-"Last-Translator: liviu iordache <liviu_marian_iordache@yahoo.com>\n"
+"PO-Revision-Date: 2017-06-23 15:47+0000\n"
+"Last-Translator: Sebastian\n"
 "Language-Team: Romanian (http://www.transifex.com/nethserver/nethserver/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +21,7 @@ msgstr ""
 #: root/etc/e-smith/templates/password-expired/en/10mail_headers:3
 #, perl-format
 msgid "%s, your password is about to expire"
-msgstr "%s parola ta urmează să expire"
+msgstr "%s, parola ta urmează să expire"
 
 #: root/etc/e-smith/templates/password-expired/en/20body:1
 #, perl-format
@@ -30,9 +31,9 @@ msgid ""
 msgid_plural ""
 "You have %s days left to change your password before your account will be "
 "blocked."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Mai aveţi o zi ca să vă schimbaţi parola după care account-ul vostru va fi blocat."
+msgstr[1] "Mai aveţi %s zile ca să vă schimbaţi parola după care account-ul vostru va fi blocat."
+msgstr[2] "Mai aveți %s zile ca să vă schimbați parola, după care contul vostru va fi blocat."
 
 #: root/etc/e-smith/templates/password-expired/en/20body:3
 msgid "Available methods to change your password:"

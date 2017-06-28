@@ -3,7 +3,7 @@
 $L['ServerStatus_label'] = 'Enable roadwarrior server';
 $L['OpenVPN_Description'] = 'OpenVPN beállítás';
 $L['OpenVPN_Tags'] = 'vpn virtual private network openvpn roadwarrior';
-$L['OpenVPN_Title'] = 'OpenVPN';
+$L['OpenVPN_Title'] = 'Server';
 $L['AuthMode_label'] = 'Hitelesítés mód';
 $L['password_mode_label'] = 'Username and password';
 $L['certificate_mode_label'] = 'Tanúsítvány';
@@ -27,4 +27,10 @@ $L['AdvancedConfiguration_label'] = 'Advanced configuration';
 $L['used_network'] = 'Network already in use';
 $L['Connection_label'] = 'Connection parameters';
 $L['Remote_label'] = 'Contact this server on public IP / host';
-
+$L['Advanced_label'] = 'Advanced';
+$L['PushExtraRoutes_label'] = 'Push all static routes';
+$L['Dhcp_label'] = 'DHCP options';
+$L['PushDomain_label'] = 'Domain';
+$L['PushDns_label'] = 'DNS';
+$L['PushWins_label'] = 'WINS';
+$L['PushNbdd_label'] = 'NBDD';

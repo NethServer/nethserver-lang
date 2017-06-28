@@ -15,5 +15,5 @@ $L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'Dimensiunea maximă a datelo
 $L['default'] = 'Mod implicit';
 $L['${0} MB'] = '${0} Megaocteți';
 $L['${0} seconds'] = '${0} secunde';
-$L['Php56MemoryLimit_label'] = 'Erori limită de memorie';
+$L['Php56MemoryLimit_label'] = 'Erori de limită memorie';
 $L['Php56PostMaxSize_label'] = 'Erori dimensiune maximă date postate';

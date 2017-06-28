@@ -2,7 +2,7 @@
 $L['PhpDefault_Title'] = 'Versiune implicită PHP';
 $L['PhpDefaultAdjustableValues_Title'] = 'Gestionează setările implicite PHP';
 $L['PhpAdjustableValues_Title'] = 'Setări PHP';
-$L['AllowUrlFopen_label'] = 'Permite PHP să acceseze fișierele la distanță (remote)';
+$L['AllowUrlFopen_label'] = 'Permite accesul PHP la fișierele la distanță (remote)';
 $L['Php memory limit (${0})'] = 'Memorie maximă disponibilă (${0})';
 $L['Maximum upload file size (${0})'] = 'Dimensiunea maximă a fișierele încărcate (${0})';
 $L['Maximum post size (${0})'] = 'Dimensiunea maximă permisă pentru datele postate';
@@ -19,5 +19,5 @@ $L['${0} G'] = '${0} Gigaocteți';
 $L['${0} seconds'] = '${0} secunde';
 $L['PhpVersion_default_label'] = 'Versiunea implicită PHP';
 $L['unlimited'] = 'Nelimitat';
-$L['PhpMemoryLimit_label'] = 'Erori limită de memorie';
+$L['PhpMemoryLimit_label'] = 'Erori de limită memorie';
 $L['PhpPostMaxSize_label'] = 'Erori dimensiune maximă post';

@@ -4,9 +4,9 @@
 
 $L['AuthMode_certificate_label'] = 'Certificat';
 $L['AuthMode_label'] = 'Autentificare';
-$L['AuthMode_password-certificate_label'] = 'Nume de utilizator, parola și certificat';
+$L['AuthMode_password-certificate_label'] = 'Nume de utilizator, parolă și certificat';
 $L['AuthMode_psk_label'] = 'Cheie pre-partajată';
-$L['Mode_bridged_label'] = 'conectat';
+$L['Mode_bridged_label'] = 'Legat';
 $L['create_header_label'] = 'Crează client nou';
 $L['Crt_label'] = 'Conținut certificat';
 $L['Key_label'] = 'Nume';

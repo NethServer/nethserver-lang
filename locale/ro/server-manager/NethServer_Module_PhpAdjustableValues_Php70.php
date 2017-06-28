@@ -15,5 +15,5 @@ $L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'Dimensiunea maximă a datelo
 $L['default'] = 'Implicit';
 $L['${0} MB'] = '${0} Megaocteți';
 $L['${0} seconds'] = '${0} secunde';
-$L['Php70MemoryLimit_label'] = 'Erori limită de memorie';
+$L['Php70MemoryLimit_label'] = 'Erori de limită memorie';
 $L['Php70PostMaxSize_label'] = 'Erori dimensiune maximă date postate';

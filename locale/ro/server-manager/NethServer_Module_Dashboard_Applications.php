@@ -2,8 +2,8 @@
 
 /* NethServer_Module_Dashboard_Applications translation, language: en */
 
-$L['Applications_Title'] = 'Aplicatii';
-$L['Applications_Tags'] = 'Aplicații aplicații web aplicații';
-$L['Applications_Description'] = 'Aplicatii instalate';
+$L['Applications_Title'] = 'Aplicații';
+$L['Applications_Tags'] = 'Aplicații aplicație aplicații web';
+$L['Applications_Description'] = 'Aplicații instalate';
 $L['Open_label'] = 'Deschide';
-$L['no_application_installed'] = 'Nici o aplicatie instalata';
+$L['no_application_installed'] = 'Nici o aplicație instalată';

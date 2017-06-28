@@ -1,11 +1,11 @@
 <?php 
 
-$L['Access_label'] = 'Numai rețeaua locala';
+$L['Access_label'] = 'Numai rețeaua locală';
 $L['Account_label'] = 'Destinații';
 $L['Pseudonym_create_header'] = 'Crează un nou alias pentru mail';
 $L['Current_label'] = 'Selecția curentă'; 
 $L['Description_label'] = 'Descriere'; 
-$L['Pseudonym_update_header'] = 'Editează alias email  `${0}`';
+$L['Pseudonym_update_header'] = 'Editează alias mail  `${0}`';
 $L['Flag_label'] = 'Atribute'; 
 $L['Groups_label'] = 'Grupuri'; 
 $L['Key_label'] = 'Alias';

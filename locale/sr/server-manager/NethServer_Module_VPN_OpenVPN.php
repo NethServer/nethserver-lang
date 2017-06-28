@@ -3,7 +3,7 @@
 $L['ServerStatus_label'] = 'Могући сервер друмског ратника';
 $L['OpenVPN_Description'] = 'ОпенВПН подешавање';
 $L['OpenVPN_Tags'] = 'впн виртуелна приватна мрежа опенвпн друмскиратник';
-$L['OpenVPN_Title'] = 'ОпенВПН';
+$L['OpenVPN_Title'] = 'Server';
 $L['AuthMode_label'] = 'Режим аутентификације';
 $L['password_mode_label'] = 'Корисничко име и лозинка';
 $L['certificate_mode_label'] = 'Сертификат';
@@ -27,4 +27,10 @@ $L['AdvancedConfiguration_label'] = 'Напредно подешавање';
 $L['used_network'] = 'Мрежа је већ у употреби';
 $L['Connection_label'] = 'Параметри конекције';
 $L['Remote_label'] = 'Контактирај овај сервер на јавној ИП / домаћину';
-
+$L['Advanced_label'] = 'Advanced';
+$L['PushExtraRoutes_label'] = 'Push all static routes';
+$L['Dhcp_label'] = 'DHCP options';
+$L['PushDomain_label'] = 'Domain';
+$L['PushDns_label'] = 'DNS';
+$L['PushWins_label'] = 'WINS';
+$L['PushNbdd_label'] = 'NBDD';

@@ -1,7 +1,7 @@
 <?php 
 
 $L['AlwaysBccAddress_label'] = ''; 
-$L['AlwaysBccStatus_label'] = 'Copie de informare confidenţială (Bcc)'; 
+$L['AlwaysBccStatus_label'] = 'Copie ascunsă (Bcc)'; 
 $L['Current_label'] = 'Selecția curentă'; 
 $L['Groups_label'] = 'Grupuri'; 
 $L['TransportType_LocalDelivery_label'] = 'Livrează local'; 

@@ -3,7 +3,7 @@
 $L['ServerStatus_label'] = 'Roadwarrior sunucusu kullanılsın';
 $L['OpenVPN_Description'] = 'OpenVPN yapılandırması';
 $L['OpenVPN_Tags'] = 'vpn virtual private network openvpn roadwarrior sanal özel ağ';
-$L['OpenVPN_Title'] = 'OpenVPN';
+$L['OpenVPN_Title'] = 'Sunucu';
 $L['AuthMode_label'] = 'Kimlik doğrulama kipi';
 $L['password_mode_label'] = 'Kullanıcı adı ve parola';
 $L['certificate_mode_label'] = 'Sertifika';
@@ -27,4 +27,10 @@ $L['AdvancedConfiguration_label'] = 'Gelişmiş yapılandırma';
 $L['used_network'] = 'Ağ zaten kullanılıyor';
 $L['Connection_label'] = 'Bağlantı parametreleri';
 $L['Remote_label'] = 'Bu sunucuya herkese açık IP / sunucu üzerinden bağlantı:';
-
+$L['Advanced_label'] = 'Gelişmiş';
+$L['PushExtraRoutes_label'] = 'Tüm durağan yöneltmeleri gönder';
+$L['Dhcp_label'] = 'DHCP ayarları';
+$L['PushDomain_label'] = 'Etki alanı';
+$L['PushDns_label'] = 'DNS';
+$L['PushWins_label'] = 'WINS';
+$L['PushNbdd_label'] = 'NBDD';

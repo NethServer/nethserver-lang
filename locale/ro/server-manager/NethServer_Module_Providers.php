@@ -2,8 +2,8 @@
 
 /* NethServer_Module_Providers translation, language: en */
 
-$L['backup_label'] = 'Copie de rezerva activă';
-$L['balance_label'] = 'Balanță';
+$L['backup_label'] = 'Copie de siguranță activă';
+$L['balance_label'] = 'Echilibrat';
 $L['CheckIP_label'] = 'Verifică IP';
 $L['Configure_header'] = 'Configurează';
 $L['interface_label'] = 'Interfață';

@@ -4,7 +4,7 @@
 
 $L['GreenMode_authenticated_label'] = 'Autentificat';
 $L['GreenMode_manual_label'] = 'Manual';
-$L['GreenMode_label'] = 'Modul pentru rețelele verzi și rețelele de încredere';
+$L['GreenMode_label'] = 'Modul pentru zonele verzi și rețelele de încredere';
 $L['GreenMode_transparent_label'] = 'Transparent';
 $L['GreenMode_transparent_ssl_label'] = 'Transparent cu SSL';
 $L['BlueMode_authenticated_label'] = 'Autentificat';

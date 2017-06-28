@@ -1,6 +1,6 @@
 <?php
 
-$L['Lists_Title'] = 'Lista neagra';
+$L['Lists_Title'] = 'Listă-neagră';
 $L['Lists_selector'] = 'Liste valabile';
 $L['Lists_shalla_label'] = 'Shalla (gratuit pentru uz non-comercial)';
 $L['Lists_urlblacklist_label'] = 'UrlBlacklist.com (comercial)';
