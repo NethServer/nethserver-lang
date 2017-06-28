@@ -892,3 +892,9 @@ file_filter = locale/<lang>/server-manager/NethServer_Module_VirtualHosts_Modify
 source_file = locale/en/server-manager/NethServer_Module_VirtualHosts_ModifyPlugin_PhpSettings.php
 source_lang = en
 type = PHP_ALT_ARRAY
+
+[nethserver.YumCron]
+file_filter = locale/<lang>/server-manager/NethServer_Module_YumCron.php
+source_file = locale/en/server-manager/NethServer_Module_YumCron.php
+source_lang = en
+type = PHP_ALT_ARRAY
