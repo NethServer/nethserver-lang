@@ -19,4 +19,3 @@ $L['Squid_status'] = 'Κατάσταση Squid';
 $L['Squid_Title'] = 'Διαμεσολαβητής';
 $L['status_label'] = 'Ενεργοποίηση διαμεσολαβητή';
 $L['PortBlock_label'] = 'Φραγή θυρών HTTP και HTTPS';
-$L['ca_download'] = 'Λήψη πιστοποιητικού για λειτουργία διαφανής SSL:';

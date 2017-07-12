@@ -1,20 +1,20 @@
 <?php
 
-$L['phpsettings_Title'] = 'Php Settings';
-$L['AllowUrlfOpen_label'] = 'Allow php access to remote files';
-$L['Status_label'] = 'Enable web access';
-$L['Php memory limit (${0})'] = 'Maximum of available memory (${0})';
-$L['Maximum upload file size (${0})'] = 'Maximum upload file size (${0})';
-$L['Maximum post size (${0})'] = 'Maximum size of post data allowed (${0})';
-$L['Maximum execution time (${0})'] = 'Maximum execution time of scripts (${0})';
-$L['Maximum file uploads (${0})'] = 'Maximum number of uploaded files (${0})';
-$L['MemoryLimit_label'] = 'Memory Limit Warning';
-$L['MemoryLimitLabelMustBeSuperiorThanUpPostMaxSize'] = 'The Maximum of available memory must be superior than the Maximum size of post data allowed';
-$L['PostMaxSize_label'] = 'Post Maximum Limit Warning';
-$L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'The Maximum size of post data allowed must be superior than the Maximum upload file size';
-$L['default'] = 'default';
+$L['phpsettings_Title'] = 'Configurações Php';
+$L['AllowUrlfOpen_label'] = 'Permitir acesso php a arquivos remotos';
+$L['Status_label'] = 'Permitir acesso à web';
+$L['Php memory limit (${0})'] = 'Máximo de memória disponível (${0})';
+$L['Maximum upload file size (${0})'] = 'Tamanho máximo do arquivo para envio (${0})';
+$L['Maximum post size (${0})'] = 'Tamanho máximo de dados de publicação permitido (${0})';
+$L['Maximum execution time (${0})'] = 'Tempo máximo de execução dos scripts (${0})';
+$L['Maximum file uploads (${0})'] = 'Número máximo de arquivos enviados (${0})';
+$L['MemoryLimit_label'] = 'Alerta de Limite de Memória';
+$L['MemoryLimitLabelMustBeSuperiorThanUpPostMaxSize'] = 'O máximo de memória disponível deve ser superior ao tamanho máximo de dados de publicação permitido';
+$L['PostMaxSize_label'] = 'Aviso de Alerta de Limite Máximo';
+$L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'O tamanho máximo de dados de publicação permitido deve ser superior ao tamanho máximo do arquivo enviado';
+$L['default'] = 'padão';
 $L['${0} MB'] = '${0} Megabytes';
 $L['${0} G'] = '${0} Gigabytes';
-$L['PhpMemoryLimit_label'] = 'Memory limit errors';
-$L['PhpPostMaxSize_label'] = 'Post maximum size errors';
-$L['default_php_warning_label'] = 'Apache must be the handler of PHP if you want to modify the values here, otherwise use the Php Settings panel';
+$L['PhpMemoryLimit_label'] = 'Erros de limite de memória';
+$L['PhpPostMaxSize_label'] = 'Exibir erros de tamanho máximo';
+$L['default_php_warning_label'] = 'O Apache deve ser o manipulador do PHP se desejar modificar os valores aqui, caso contrário, use o painel de Configurações Php';

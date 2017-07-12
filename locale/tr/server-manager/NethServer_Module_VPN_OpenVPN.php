@@ -34,3 +34,4 @@ $L['PushDomain_label'] = 'Etki alanı';
 $L['PushDns_label'] = 'DNS';
 $L['PushWins_label'] = 'WINS';
 $L['PushNbdd_label'] = 'NBDD';
+$L['no_bridge_label'] = 'Henüz bir köprü yapılandırılmamış. Lütfen "Ağ" bölümünden bir köprü oluşturup bu sayfaya geri gelin';

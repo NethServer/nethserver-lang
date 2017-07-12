@@ -4,36 +4,36 @@ $L['SssdConfig_Title'] = 'Fornecedor de conta';
 $L['SssdConfig_Description'] = 'Configurar o provedor de contas de domínio de usuários e grupos';
 $L['SssdConfig_Tags'] = 'sssd domínio conta usuário grupo ldap kerberos diretório ativo';
 
-$L['valid_platform,ad-dns,srv_record,1'] = 'Could not find an Active Directory domain controller';
+$L['valid_platform,ad-dns,srv_record,1'] = 'Não foi possível encontrar um controlador de domínio do Active Directory';
 
-$L['Select_Title'] = 'Backend choice';
+$L['Select_Title'] = 'Escolha do backend';
 
-$L['LdapUri_label'] = 'LDAP server URI';
+$L['LdapUri_label'] = 'Servidor LDAP URI';
 $L['BindProvider_label'] = 'Bind';
-$L['NetbiosDomain_label'] = 'NetBIOS domain';
+$L['NetbiosDomain_label'] = 'Domínio NetBIOS';
 
-$L['login_label'] = 'Privileged user name';
+$L['login_label'] = 'Nome de usuário privilegiado';
 $L['password_label'] = 'Senha';
 $L['Join_label'] = 'Entrar';
-$L['Authenticate_header'] = 'Join the AD domain with privileged user credentials';
+$L['Authenticate_header'] = 'Junte-se ao AD do domínio com credenciais de usuário privilegiadas';
 
-$L['Wizard_header'] = 'Configure users and groups for domain ${0}';
-$L['Local_header'] = 'Install a local accounts provider';
+$L['Wizard_header'] = 'Configure usuários e grupos para o domínio ${0}';
+$L['Local_header'] = 'Instalar um provedor de contas local';
 $L['Install_label'] = 'Instalar';
 $L['Bind_label'] = 'Bind';
 
 
-$L['ChooseProvider_general'] = 'Users and groups are available through an accounts provider. You can connect this server to a remote accounts provider, or install a local one. Some features are available depending on the accounts provider type.';
-$L['ChooseProvider_ldap'] = 'Easy to configure, does not support authenticated access to shared folders';
-$L['ChooseProvider_ad'] = 'Enables all shared folders features, requires advanced configuration options';
+$L['ChooseProvider_general'] = 'Usuários e grupos estão disponíveis através de um provedor de contas. Você pode conectar este servidor a um fornecedor de contas remoto ou instalar um local. Alguns recursos estão disponíveis dependendo do tipo de provedor de contas.';
+$L['ChooseProvider_ldap'] = 'Fácil de configurar, não suporta acesso autenticado a pastas compartilhadas';
+$L['ChooseProvider_ad'] = 'Permite todos os recursos das pastas compartilhadas, requer opções de configuração avançada';
 $L['configAd_label'] = 'Active Directory';
 $L['configLdap_label'] = 'LDAP';
 
 $L['Ad_header'] = 'Fornecedor de contas Active Directory';
 $L['Ldap_header'] = 'Fornecedor de conta LDAP';
-$L['ChooseAd_general'] = 'Computers in an Active Directory domain can be simple members or domain controllers (DC)';
-$L['ChooseAd_joinmember'] = 'Become a member of an existing domain';
-$L['ChooseAd_joindc'] = 'Become a DC of an existing domain';
+$L['ChooseAd_general'] = 'Computadores em um domínio do Active Directory podem ser membros simples ou controladores de domínio (DC)';
+$L['ChooseAd_joinmember'] = 'Torne-se membro de um domínio existente';
+$L['ChooseAd_joindc'] = 'Torne-se um DC de um domínio existente';
 $L['ChooseAd_newforest'] = 'Initialize a new domain and become DC';
 $L['configAdJoinMember_label'] = 'Entrar em um domínio';
 $L['configAdJoinDc_label'] = 'Adicionar DC a um domínio';
@@ -101,7 +101,7 @@ $L['AdPassword_label'] = 'Senha';
 $L['AdJoinMember_label'] = 'Entrar';
 
 $L['RemoteAdProvider_header'] = 'Active Directory remote accounts provider for ${0}';
-$L['AdNewDomain_header'] = 'Create a new Active Directory domain';
+$L['AdNewDomain_header'] = 'Crie um novo domínio do Active Directory';
 $L['AdJoinMemberError_label'] = 'Failed to join Active Directory (${0})';
 $L['Save_label'] = 'Salvar';
 $L['RemoteProviderUnbind_label'] = 'Unbind...';
@@ -111,13 +111,13 @@ $L['UnbindButton_label'] = 'Unbind';
 $L['bindAdSuccess_notification'] = 'Active Directory domain ${0} was joined successfully';
 
 $L['valid_platform,dcipaddr,ipgreenandbridged,3'] = 'Must be different from 127.0.0.1 or any other IP address used by the server';
-$L['valid_platform,dcipaddr,ipgreenandbridged,4'] = 'Must be part of a green network';
-$L['valid_platform,dcipaddr,ipgreenandbridged,5'] = 'Must be a free IP address';
+$L['valid_platform,dcipaddr,ipgreenandbridged,4'] = 'Deve ser parte de uma rede verde';
+$L['valid_platform,dcipaddr,ipgreenandbridged,5'] = 'Deve ser um endereço IP livre';
 $L['valid_starttls_urischeme'] = 'Conflicts with "ldaps://" URI scheme';
 $L['AdIpAddress_help1'] = 'The chosen IP address must satisfy all of the below conditions:';
 $L['AdIpAddress_help2'] = 'the IP address must be in the same subnet range of a green network: ${0}';
 $L['AdIpAddress_help3'] = 'the IP address must be unused currently';
-$L['AdIpAddress_label'] = "Domain Controller IP address";
+$L['AdIpAddress_label'] = "Endereço IP do Controlador de Domínio";
 $L['CreateDomain_label'] = 'Novo domínio';
 
 $L['installSuccessAd_notification'] = 'Active Directory local accounts provider was installed correctly';
@@ -126,4 +126,4 @@ $L['LocalAdUpdate_label'] = 'Atualizar DC';
 $L['LocalAdProviderUninstall_label'] = 'Desinstalar';
 $L['sambaUpdateIsAvailable_notification'] = "Um pacote de atualização esta disponível para o Controlador de Domínio";
 $L['LocalAdUpdate_header'] = 'Atualizar DC';
-$L['LocalAdUpdate_message'] = 'This operation might require the download of additional packages. The Domain Controller will be restarted after the software has been updated';
+$L['LocalAdUpdate_message'] = 'Esta operação pode exigir baixar pacotes adicionais. O controlador de domínio será reiniciado após o software ter sido atualizado';

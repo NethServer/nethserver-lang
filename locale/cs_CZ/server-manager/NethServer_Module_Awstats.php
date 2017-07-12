@@ -1,19 +1,19 @@
 <?php
 $L['Awstats_Title'] = 'Web Statistic';
 $L['Settings_Title'] = 'Nastavení';
-$L['Statistics_Title'] = 'Statistics';
+$L['Statistics_Title'] = 'Statistiky';
 $L['AwstatsStatistics_Title'] = 'Consult Web Statistics';
 $L['VirtualhostsStatistics_label'] = 'Virtualhost statistics';
 $L['Virtualhosts_label'] = 'Virtualhosts';
-$L['AwstatsDomainURL_label'] = 'Domains';
-$L['status_label'] = 'Status';
+$L['AwstatsDomainURL_label'] = 'Domény';
+$L['status_label'] = 'Stav';
 $L['access_private_label'] = 'Consult statistic pages only from your LAN';
 $L['access_public_label'] = 'Consult statistic pages outside of your LAN';
 $L['Minute_label'] = 'Run analysis each minute';
 $L['Users_label'] = 'Allowed users to consult web statistic';
 $L['AwstatsSettings_header'] = 'Settings of the logfile analyser';
 $L['AwstatDisabledByProp_label'] = 'Awstats is disabled';
-$L['Advanced_label'] = 'Advanced settings';
+$L['Advanced_label'] = 'Pokročilá nastavení';
 $L['skipPrivateIp_label'] = 'Ignore hits from your local/trusted networks';
 $L['MaxNbOfDomain_label'] = 'Max. number of domains show';
 $L['MinHitDomain_label'] = 'Only show domains with min. hits';

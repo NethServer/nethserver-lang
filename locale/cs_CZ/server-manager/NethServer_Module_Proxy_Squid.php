@@ -19,4 +19,3 @@ $L['Squid_status'] = 'Status Squid proxy';
 $L['Squid_Title'] = 'Proxy';
 $L['status_label'] = 'Zapnout proxy';
 $L['PortBlock_label'] = ' Blokovat HTTP a HTTPS porty';
-$L['ca_download'] = 'Stáhnout certifikát pro transparentní SSL režim:';

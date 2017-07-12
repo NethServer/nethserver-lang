@@ -19,4 +19,3 @@ $L['Squid_status'] = 'Estado do Squid';
 $L['Squid_Title'] = 'Proxy';
 $L['status_label'] = 'Activar proxy';
 $L['PortBlock_label'] = 'Bloquear portos HTTP e HTTPS';
-$L['ca_download'] = 'Descarregar certificado para o modo transparente SSL';

@@ -5,7 +5,7 @@
 $L['Allow_label'] = 'Umožnit pouze z';
 $L['check-rules_Header'] = 'Zkontrolovat pravidla brány firewall';
 $L['CheckRules_label'] = 'Zkontrolovat bránu firewall';
-$L['create_header_label'] = 'Create port forward';
+$L['create_header_label'] = 'Vytvořit předávání portu';
 $L['Description_label'] = 'Popis';
 $L['disable_label'] = 'Vypnout';
 $L['DstHost_label'] = 'Cílový stroj';

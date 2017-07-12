@@ -1,6 +1,5 @@
 <?php
 
-$L['VPN_Title'] = 'OpenVPN';
-$L['VPN_Tags'] = 'OpenVPN vpn virtual private network sanal özel ağ';
-$L['VPN_Description'] = 'VPN sunucu ve istemci ayarları';
-$L['VPN_Tags'] = 'OpenVPN vpn virtual private network sanal özel ağ';
+$L['VPN_Title'] = 'OpenVPN roadwarrior';
+$L['VPN_Tags'] = 'OpenVPN vpn virtual private network vpn VPN vpns roadwarrior';
+$L['VPN_Description'] = 'OpenVPN roadwarrior yapılandırması';

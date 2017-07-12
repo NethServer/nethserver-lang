@@ -19,4 +19,3 @@ $L['Squid_status'] = 'Stare Squid';
 $L['Squid_Title'] = 'Proxy';
 $L['status_label'] = 'Activează proxy';
 $L['PortBlock_label'] = 'Blochează porturile HTTP și HTTPS';
-$L['ca_download'] = 'Descarcă certificat pentru modul SSL transparent';

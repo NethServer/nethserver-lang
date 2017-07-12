@@ -73,7 +73,7 @@ $L['End_label'] = 'End IP';
 $L['IpRange_create_label'] = 'Vytvořit rozsah IP adres';
 $L['IpRange_update_label'] = 'Aktualizovat rozsah IP adres';
 $L['IpRange_key_exists_message'] = 'An object with the same name already exists inside the hosts database';
-$L['IpRange_CreateIpRange_label'] = 'Create IP range';
+$L['IpRange_CreateIpRange_label'] = 'Vytvořit IP rozsah';
 $L['IpRangeKey_label'] = 'Rozsah IP adres';
 
 $L['TimesKey_label'] = 'Název podmínky';

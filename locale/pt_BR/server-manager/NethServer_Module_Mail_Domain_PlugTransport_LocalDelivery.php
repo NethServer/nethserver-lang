@@ -8,4 +8,4 @@ $L['TransportType_LocalDelivery_label'] = 'Entregar localmente';
 $L['UnknownRecipientsActionDeliverMailbox_label'] = 'Entregar a'; 
 $L['UnknownRecipientsActionType_label'] = 'Aceitar destinatários desconhecidos';
 $L['Users_label'] = 'Usuários';
-$L['valid_catchall_mailbox_primary'] = 'A local mailbox identifier, like "root", or "username@${0}"';
+$L['valid_catchall_mailbox_primary'] = 'Um identificador de caixa de correio local, como "root", ou "username@${0}"';
