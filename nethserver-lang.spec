@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.1.12
+Version: 1.2.0
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -205,6 +205,9 @@ BuildArch: noarch
 NethServer Romanian language support (ro)
 
 %changelog
+* Wed Jul 12 2017 Davide Principi <davide.principi@nethesis.it> - 1.2.0-1
+- Backup config history - NethServer/dev#5314
+
 * Wed Jun 28 2017 Davide Principi <davide.principi@nethesis.it> - 1.1.12-1
 - Add Romanian translation
 - Pull strings from Transifex
