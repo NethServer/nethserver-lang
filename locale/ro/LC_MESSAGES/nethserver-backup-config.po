@@ -1,0 +1,25 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nethserver-backup-config 1.0.0\n"
+"Report-Msgid-Bugs-To: translations@nethserver.org\n"
+"POT-Creation-Date: 2017-06-15 18:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: Romanian (https://www.transifex.com/nethserver/teams/35834/ro/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+
+#: root/etc/nethserver/todos.d/50restore-modules:47
+msgid "Install missing modules"
+msgstr ""
+
+#: root/etc/nethserver/todos.d/50restore-modules:50
+msgid "Complete the restore procedure by installing additional modules"
+msgstr ""

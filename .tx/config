@@ -54,6 +54,11 @@ source_file = locale/en/LC_MESSAGES/nethserver-ndpipot
 source_lang = en
 type = PO
 
+[nethserver.nethserver-backup-configpot]
+file_filter = locale/<lang>/LC_MESSAGES/nethserver-backup-config.po
+source_file = locale/en/LC_MESSAGES/nethserver-backup-config.pot
+source_lang = en
+type = PO
 
 #
 # PHP arrays
@@ -68,18 +73,6 @@ type = PHP_ALT_ARRAY
 [nethserver.BackupConfig]
 file_filter = locale/<lang>/server-manager/NethServer_Module_BackupConfig.php
 source_file = locale/en/server-manager/NethServer_Module_BackupConfig.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
-[nethserver.BackupConfig_Backup]
-file_filter = locale/<lang>/server-manager/NethServer_Module_BackupConfig_Backup.php
-source_file = locale/en/server-manager/NethServer_Module_BackupConfig_Backup.php
-source_lang = en
-type = PHP_ALT_ARRAY
-
-[nethserver.BackupConfig_Restore]
-file_filter = locale/<lang>/server-manager/NethServer_Module_BackupConfig_Restore.php
-source_file = locale/en/server-manager/NethServer_Module_BackupConfig_Restore.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
