@@ -2,30 +2,31 @@
 Backup (configurazione)
 =======================
 
-Esegue e ripristina il backup della configurazione.
+Il backup della configurazione contiene solo lo stato della configurazione del
+sistema, affinché richieda poco spazio disco e possa essere ripristinato
+velocemente.
 
-Backup
+Crea backup
+===========
+
+Crea un'istantanea dell'attuale configurazione del sistema e la salva.
+
+Carica
 ======
 
-Il backup della configurazione contiene solo i file di configurazione.
-Questo tipo di backup viene eseguito solo se i file sono stati modificati nelle ultime 24 ore.
+Carica un archivio di backup.
 
-E' possibile forzare il backup a usando il pulsante *Esegui ora*.
-Il backup verrò sovrascritto solo se necessario.
+Configura
+=========
 
-Ripristino
+Ogni giorno un task programmato archivia un'istantanea se la configurazione è
+stata modificata nel giorno precedente. Il cursore :guilabel:`Backup automatici
+da conservare` imposta quante di queste istantanee saranno conservate.
+
+Ripristina
 ==========
 
-Ripristina l'ultimo backup della configurazione.
-
-Quando si esegue un ripristino, selezionare una delle seguenti opzioni:
-
-* Stesso hardware (la configurazione di rete verrà ripristinata)
-* Hardware diverso (la rete dovrà essere riconfigurata)
-
-Il processo di ripristino riconfigura l'intero sistema.
-
-.. raw:: html
-
-   {{{INCLUDE NethServer_Module_BackupConfig_*.html}}}
+Ripristina il backup della configurazione dall'elemento selezionato. Se l'opzione
+:guilabel:`Scarica i moduli automaticamente` è abilitata, i moduli aggiuntivi
+vengono scaricati e installati automaticamente.
 
