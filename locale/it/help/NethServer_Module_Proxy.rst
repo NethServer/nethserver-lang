@@ -30,9 +30,7 @@ Trasparente
 
 Trasparente con SSL
     Tutto il traffico HTTP e HTTPS verrà rediretto attraverso il proxy.
-    Il certificato del server (CA) deve essere installato in ogni client per permettere
-    il traffico HTTPS.
-
+    Non è necessario eseguire configurazioni sul client.
 Blocca porte HTTP e HTTPS
     Se abilitato, i client non potranno bypassare il proxy.
     Le porte 80 e 443 saranno raggiungibili solo utilizzando il proxy.
