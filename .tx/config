@@ -430,6 +430,24 @@ source_file = locale/en/server-manager/NethServer_Module_Mail_Domain_PlugTranspo
 source_lang = en
 type = PHP_ALT_ARRAY
 
+[nethserver.Mail_Domain]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Mail_Domain.php
+source_file = locale/en/server-manager/NethServer_Module_Mail_Domain.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.Mail_Message]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Mail_Message.php
+source_file = locale/en/server-manager/NethServer_Module_Mail_Message.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.Mail_SmtpAccess]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Mail_SmtpAccess.php
+source_file = locale/en/server-manager/NethServer_Module_Mail_SmtpAccess.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
 [nethserver.Mail_Filter]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Mail_Filter.php
 source_file = locale/en/server-manager/NethServer_Module_Mail_Filter.php
