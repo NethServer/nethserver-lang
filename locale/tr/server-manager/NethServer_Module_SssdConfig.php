@@ -18,12 +18,12 @@ $L['Join_label'] = 'Katıl';
 $L['Authenticate_header'] = 'Aktif Dizin etki alanına ayrıcalıklı kullanıcı kimlik doğrulama bilgileri ile katıl';
 
 $L['Wizard_header'] = '${0} etki alanı için kullanıcı ve grupları ayarla';
-$L['Local_header'] = 'Bir yerel hesap hizmeti sağlayıcı ayarlayın';
+$L['Local_header'] = 'Bir yerel hesap hizmeti sağlayıcı kurun';
 $L['Install_label'] = 'Kur';
 $L['Bind_label'] = 'Bağlan';
 
 
-$L['ChooseProvider_general'] = 'Kullanıcı ve gruplar bir hesap hizmeti sağlayıcı üzerinden kullanılır. Bu sunucuyu uzak hesap hizmeti sağlayıcısına bağlayabilir ya da yeni bir yerel hesap hizmeti sağlayıcısı kurabilirsiniz. Bazı özelilkler hizmet sağlayıcı türüne bağlı olarak kullanılabilir ya da kullanılamaz.';
+$L['ChooseProvider_general'] = 'Kullanıcı ve gruplar bir hesap hizmeti sağlayıcı üzerinden kullanılır. Bu sunucuyu uzak hesap hizmeti sağlayıcısına bağlayabilir ya da yeni bir yerel hesap hizmeti sağlayıcısı kurabilirsiniz. Bazı özellikler hizmet sağlayıcı türüne bağlı olarak kullanılabilir ya da kullanılamaz.';
 $L['ChooseProvider_ldap'] = 'Ayarlaması kolay, paylaşılmış klasörlere kimlik doğrulaması ile erişimi desteklemez';
 $L['ChooseProvider_ad'] = 'Tüm paylaşılmış klasör özelliklerini etkinleştirir, gelişmiş yapılandırma ayarlarının yapılması gerekir';
 $L['configAd_label'] = 'Aktif Dizin';
@@ -45,7 +45,7 @@ $L['ChooseLdap_general'] = 'Bir LDAP veritabanında kullanıcılar, gruplar ve p
 $L['ChooseLdap_remote'] = 'Uzak bir LDAP sunucusuna bağlan';
 $L['ChooseLdap_local'] = 'Bir OpenLDAP sunucusu kur';
 $L['configLdapRemote_label'] = 'Uzak sunucuya bağlan';
-$L['configLdapLocal_label'] = 'Yerel sunucuya bağlan';
+$L['configLdapLocal_label'] = 'Yerel olarak kur';
 
 $L['LdapRemoteIpAddress_label'] = 'Sunucu Adı ya da IP';
 $L['LdapRemoteTcpPort_label'] = 'TCP Kapısı';
@@ -113,6 +113,7 @@ $L['bindAdSuccess_notification'] = '${0} Aktif Dizin etki alanı katıldı';
 $L['valid_platform,dcipaddr,ipgreenandbridged,3'] = '127.0.0.1 ve sunucu tarafından kullanılan diğer IP adreslerinden farklı olmalıdır';
 $L['valid_platform,dcipaddr,ipgreenandbridged,4'] = 'Yeşik ağın bir parçası olmalıdır';
 $L['valid_platform,dcipaddr,ipgreenandbridged,5'] = 'Boşta bir IP adresi olmalıdır';
+$L['valid_platform,dcrealm,differhostname,3'] = 'Sunucunun tam etki alanı adından farklı olmalıdır';
 $L['valid_starttls_urischeme'] = '"ldaps://" adres şeması ile çakışıyor';
 $L['AdIpAddress_help1'] = 'Seçilmiş IP adresi şu 3 koşulu sağlamalıdır:';
 $L['AdIpAddress_help2'] = 'IP adresi yeşil ağ ile aynı alt ağ aralığında olmalıdır: ${0}';
@@ -127,3 +128,8 @@ $L['LocalAdProviderUninstall_label'] = 'Kaldır';
 $L['sambaUpdateIsAvailable_notification'] = "Etki Alanı Denetçisi paketi için bir güncelleme yayınlanmış";
 $L['LocalAdUpdate_header'] = 'DC Güncelle';
 $L['LocalAdUpdate_message'] = 'Bu işlemin tamamlanması için ek paketlerin indirilmesi gerekebilir. Yazılım güncellendikten sonra Etki Alanı Denetçisi yeniden başlatılacak';
+$L['LocalAdProviderDcChangeIp_header'] = 'Etki Alanı Denetçisinin IP adresini değiştir';
+$L['LocalAdProviderDcChangeIp_label'] = 'IP değiştir';
+$L['ChangeIPButton_label'] = 'IP değiştir';
+$L['LocalAdProviderDcChangeIp_message1'] = 'Etki Alanı Denetçisinin IP adresinin değiştirilmesi Aktif Dizin istemcileri açısından sorunlara yol açabilir. İstemciler bir dış DNS sunucusu kullanıyorsa yeni IP adresini kullanacakları şekilde güncelleyin.';
+$L['dcChangeIpSuccess_notification'] = 'Etki Alanı Denetçisi IP adresi değiştirildi';

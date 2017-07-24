@@ -122,3 +122,4 @@ $L['DNS_label'] = 'Server DNS';
 $L['trafficshaping_label'] = 'Gestione banda';
 $L['FwInBandwidth_label'] = 'Banda entrante (kbps)';
 $L['FwOutBandwidth_label'] = 'Banda uscente (kbps)';
+$L['valid_platform,logical-interface-create,dhcp-conflicts,3'] = 'Alcune interfacce hanno intervalli DHCP associati: questi devono essere fissati manualmente dalla pagina DHCP';
