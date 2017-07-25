@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.2.0
+Version: 1.2.1
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -205,6 +205,10 @@ BuildArch: noarch
 NethServer Romanian language support (ro)
 
 %changelog
+* Tue Jul 25 2017 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.2.1-1
+- Add missing DiagTools and mail resources
+- Updated language strings
+
 * Wed Jul 12 2017 Davide Principi <davide.principi@nethesis.it> - 1.2.0-1
 - Backup config history - NethServer/dev#5314
 
