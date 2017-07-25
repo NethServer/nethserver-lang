@@ -280,6 +280,12 @@ source_file = locale/en/server-manager/NethServer_Module_Dhcp.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
+[nethserver.DiagTools]
+file_filter = locale/<lang>/server-manager/NethServer_Module_DiagTools.php
+source_file = locale/en/server-manager/NethServer_Module_DiagTools.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
 [nethserver.Duc]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Duc.php
 source_file = locale/en/server-manager/NethServer_Module_Duc.php
