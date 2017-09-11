@@ -1,25 +1,47 @@
 # SOME DESCRIPTIVE TITLE.
-# This file is put in the public domain.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nethserver-backup-config 1.0.0\n"
-"Report-Msgid-Bugs-To: translations@nethserver.org\n"
-"POT-Creation-Date: 2017-06-15 18:24+0200\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-24 14:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: French (France) (https://www.transifex.com/nethserver/teams/35834/fr_FR/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr_FR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: root/etc/nethserver/todos.d/50restore-modules:47
+#: root/etc/nethserver/todos.d/40restore-incomplete:42
+msgid "Do not reboot the system! Run the \"restore-data\" procedure"
+msgstr ""
+
+#: root/etc/nethserver/todos.d/40restore-incomplete:44
+msgid ""
+"Complete the restore procedure by running the \"restore-data\" command from "
+"a root shell"
+msgstr ""
+
+#: root/etc/nethserver/todos.d/40restore-incomplete:52
+msgid "Do not reboot the system! Restore procedure is incomplete"
+msgstr ""
+
+#: root/etc/nethserver/todos.d/40restore-incomplete:55
+msgid ""
+"Either enable backup and run \"restore-data\" or complete the restore "
+"procedure by running the \"signal-event post-restore-data\" command from a "
+"root shell"
+msgstr ""
+
+#: root/etc/nethserver/todos.d/50restore-modules:51
 msgid "Install missing modules"
 msgstr ""
 
-#: root/etc/nethserver/todos.d/50restore-modules:50
+#: root/etc/nethserver/todos.d/50restore-modules:54
 msgid "Complete the restore procedure by installing additional modules"
 msgstr ""

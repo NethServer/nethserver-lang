@@ -122,3 +122,4 @@ $L['DNS_label'] = 'Servidores DNS';
 $L['trafficshaping_label'] = 'Prioridades de tráfego de dados';
 $L['FwInBandwidth_label'] = 'Largura de banda de entrada (kbps)';
 $L['FwOutBandwidth_label'] = 'Largura de banda de saída (kbps)';
+$L['valid_platform,logical-interface-create,dhcp-conflicts,3'] = 'Algumas interfaces possuem intervalos DHCP associados: eles devem ser corrigidos manualmente a partir da página DHCP';

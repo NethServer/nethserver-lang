@@ -59,4 +59,5 @@ $L['Advanced_disabled_label'] = 'Configuracion Simplificada';
 $L['Advanced_enabled_label'] = 'Opciones avanzadas';
 $L['Mail_label_checkbox'] = 'Enviar notificaciones a root por correo';
 $L['Service_key_exists_message'] = 'Ese nombre ya esta en uso.';
-
+$L['Enabled_label'] = 'Habilitado';
+$L['Disabled_label'] = 'Deshabilitado';

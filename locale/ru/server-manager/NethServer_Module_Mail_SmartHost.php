@@ -1,10 +1,10 @@
 <?php 
 
-$L['SmartHost_Title'] = 'Smarthost'; 
-$L['SmartHostName_label'] = 'Hostname'; 
-$L['SmartHostPassword_label'] = 'Password'; 
-$L['SmartHostPort_label'] = 'Port'; 
-$L['SmartHostStatus_label'] = 'Send mail using a smarthost'; 
-$L['SmartHostTlsStatus_label'] = 'Allow unencrypted connections';
-$L['SmartHostUsername_label'] = 'Username';
-$L['SmartHost_Action'] = 'Send mail using a smarthost';
+$L['SmartHost_Title'] = 'Смарт-хост'; 
+$L['SmartHostName_label'] = 'Имя хоста'; 
+$L['SmartHostPassword_label'] = 'Пароль'; 
+$L['SmartHostPort_label'] = 'Порт'; 
+$L['SmartHostStatus_label'] = 'Отправлять почту через смарт-хост'; 
+$L['SmartHostTlsStatus_label'] = 'Разрешить незашифрованные соединения';
+$L['SmartHostUsername_label'] = 'Имя пользователя';
+$L['SmartHost_Action'] = 'Отправлять почту через смарт-хост';

@@ -4,6 +4,7 @@ $L['DhcpRangeEnd_label'] = 'Λήξη εμβέλειας IP';
 $L['DhcpRangeStart_label'] = 'Έναρξη εμβέλειας ΙP';
 $L['Dhcp_Configure_header'] = 'Ενεργόποιησε τον διακομιστή DHCP στα interfaces';
 $L['Dhcp_Title'] = 'DHCP'; 
+$L['Dhcp_Description'] = 'Configure DHCP server'; 
 $L['Dhcp_Tags'] = 'φορέας dhcp κράτηση mac διεύθυνση macaddress'; 
 $L['Dhcp_create_header'] = 'Δημιουργία μια κράτησης διεύθυνσης IP';
 $L['Dhcp_update_header'] = 'Άλλαξε την κράτηση της διεύθυνσης IP για τον φορέα "${0}"';

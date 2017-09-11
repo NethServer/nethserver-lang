@@ -34,4 +34,4 @@ $L['PushDomain_label'] = 'Dominio';
 $L['PushDns_label'] = 'DNS';
 $L['PushWins_label'] = 'WINS';
 $L['PushNbdd_label'] = 'NBDD';
-$L['no_bridge_label'] = 'No configured bridge. Please create a bridge inside the "Network" section, then return to this page';
+$L['no_bridge_label'] = 'Nessuna interfaccia di rete bridge configurata. Creare un bridge dal menu "Rete" quindi tornare in questa pagina';

@@ -2,14 +2,15 @@
 # This file is put in the public domain.
 # 
 # Translators:
+# Gregory Malets <gregory.malets@me.com>, 2017
 # mishell baranov <baranov.mishell@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
 "POT-Creation-Date: 2016-10-20 12:00+0200\n"
-"PO-Revision-Date: 2016-10-20 10:01+0000\n"
-"Last-Translator: Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>\n"
+"PO-Revision-Date: 2017-07-12 17:33+0000\n"
+"Last-Translator: Gregory Malets <gregory.malets@me.com>\n"
 "Language-Team: Russian (Russia) (http://www.transifex.com/nethserver/nethserver/language/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,10 +37,10 @@ msgstr[3] "Есть {0} ролей для назначения сетевым п
 
 #: root/etc/nethserver/todos.d/10green-dhcp:52
 msgid "One or more green interfaces use DHCP"
-msgstr ""
+msgstr "Один или несколько зеленых интерфейсов используют DHCP"
 
 #: root/etc/nethserver/todos.d/10green-dhcp:56
 msgid ""
 "Using DHCP on green interfaces leads to unexpected behavior. Please, change "
 "the interface to static if possible"
-msgstr ""
+msgstr "Использование DHCP на зеленых интерфейсах  может привести к неожиданному поведению. Пожалуйста, измените интерфейс на статический, если возможно"

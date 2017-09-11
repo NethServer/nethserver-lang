@@ -122,3 +122,4 @@ $L['DNS_label'] = 'ДНС сервери';
 $L['trafficshaping_label'] = 'Обликовање саобраћаја';
 $L['FwInBandwidth_label'] = 'Долазни проток (кбпс)';
 $L['FwOutBandwidth_label'] = 'Одлазни проток (кбпс)';
+$L['valid_platform,logical-interface-create,dhcp-conflicts,3'] = 'Some interfaces have DHCP ranges associated: they must be fixed manually from the DHCP page';

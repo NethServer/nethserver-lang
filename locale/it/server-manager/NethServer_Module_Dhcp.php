@@ -4,6 +4,7 @@ $L['DhcpRangeEnd_label'] = 'Fine intervallo IP';
 $L['DhcpRangeStart_label'] = 'Inizio intervallo IP';
 $L['Dhcp_Configure_header'] = 'Interfacce con DHCP server abilitato';
 $L['Dhcp_Title'] = 'DHCP'; 
+$L['Dhcp_Description'] = 'Configura server DHCP'; 
 $L['Dhcp_Tags'] = 'host dhcp reservation mac address macaddress'; 
 $L['Dhcp_create_header'] = 'Crea un nuovo indirizzo IP riservato';
 $L['Dhcp_update_header'] = 'Cambia l\'indirizzo IP riservato per l\'host "${0}"';

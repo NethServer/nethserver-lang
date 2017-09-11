@@ -4,6 +4,7 @@ $L['DhcpRangeEnd_label'] = 'IP tartomány vége';
 $L['DhcpRangeStart_label'] = 'IP tartomány kezdete';
 $L['Dhcp_Configure_header'] = 'DHCP szerver engedélyezése az interfészeken';
 $L['Dhcp_Title'] = 'DHCP'; 
+$L['Dhcp_Description'] = 'Configure DHCP server'; 
 $L['Dhcp_Tags'] = 'hoszt dhcp foglaltság mac cím mac-cím'; 
 $L['Dhcp_create_header'] = 'Egy IP címtartomány foglalás létrehozása';
 $L['Dhcp_update_header'] = 'IP cím foglalás módosítása a "${0}" hoszt számára';

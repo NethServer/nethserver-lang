@@ -1,26 +1,54 @@
 # SOME DESCRIPTIVE TITLE.
-# This file is put in the public domain.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: nethserver-backup-config 1.0.0\n"
-"Report-Msgid-Bugs-To: translations@nethserver.org\n"
-"POT-Creation-Date: 2017-06-15 18:24+0200\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-24 14:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Davide Principi <davide.principi@nethesis.it>, 2017\n"
+"Last-Translator: Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>, 2017\n"
 "Language-Team: Italian (https://www.transifex.com/nethserver/teams/35834/it/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: root/etc/nethserver/todos.d/50restore-modules:47
+#: root/etc/nethserver/todos.d/40restore-incomplete:42
+msgid "Do not reboot the system! Run the \"restore-data\" procedure"
+msgstr "Non riavviare il sistema! Eseguire la procedura \"restore-data\""
+
+#: root/etc/nethserver/todos.d/40restore-incomplete:44
+msgid ""
+"Complete the restore procedure by running the \"restore-data\" command from "
+"a root shell"
+msgstr ""
+"Completare la procedura di ripristino eseguendo il comando \"restore-data\" "
+"da una shell di root"
+
+#: root/etc/nethserver/todos.d/40restore-incomplete:52
+msgid "Do not reboot the system! Restore procedure is incomplete"
+msgstr ""
+"Non riavviare il sistema! La procedura di ripristino non è stata completata"
+
+#: root/etc/nethserver/todos.d/40restore-incomplete:55
+msgid ""
+"Either enable backup and run \"restore-data\" or complete the restore "
+"procedure by running the \"signal-event post-restore-data\" command from a "
+"root shell"
+msgstr ""
+"Abilitare il backup ed eseguire \"restore-data\" oppure completare la "
+"procedura di ripristino eseguendo il comando \"signal-event post-restore-"
+"data\" da una shell di root"
+
+#: root/etc/nethserver/todos.d/50restore-modules:51
 msgid "Install missing modules"
 msgstr "Ripristina i moduli mancanti"
 
-#: root/etc/nethserver/todos.d/50restore-modules:50
+#: root/etc/nethserver/todos.d/50restore-modules:54
 msgid "Complete the restore procedure by installing additional modules"
 msgstr "Completa la procedura di ripristino installando i moduli aggiuntivi"

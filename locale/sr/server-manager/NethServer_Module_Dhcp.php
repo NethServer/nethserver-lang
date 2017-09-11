@@ -4,6 +4,7 @@ $L['DhcpRangeEnd_label'] = 'Крај ИП опсега';
 $L['DhcpRangeStart_label'] = 'Почетак ИП опсега';
 $L['Dhcp_Configure_header'] = 'Омогући ДХЦП сервер на интерфејсима';
 $L['Dhcp_Title'] = 'ДХЦП'; 
+$L['Dhcp_Description'] = 'Configure DHCP server'; 
 $L['Dhcp_Tags'] = 'домаћин дхцп резервација мац адреса мацадреса'; 
 $L['Dhcp_create_header'] = 'Креирај резервацију ИП адресе';
 $L['Dhcp_update_header'] = 'Измени резервацију ИП адресе за домаћина "${0}"';

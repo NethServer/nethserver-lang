@@ -122,3 +122,4 @@ $L['DNS_label'] = 'DNS servery';
 $L['trafficshaping_label'] = 'Omezování rychlosti síťového provozu';
 $L['FwInBandwidth_label'] = 'Rychlost příjmu (kb/s)';
 $L['FwOutBandwidth_label'] = 'Rychlost odesílání (kb/s)';
+$L['valid_platform,logical-interface-create,dhcp-conflicts,3'] = 'Some interfaces have DHCP ranges associated: they must be fixed manually from the DHCP page';

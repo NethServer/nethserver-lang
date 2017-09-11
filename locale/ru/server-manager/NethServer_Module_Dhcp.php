@@ -4,6 +4,7 @@ $L['DhcpRangeEnd_label'] = 'Конец IP диапазона';
 $L['DhcpRangeStart_label'] = 'Начало IP диапазона';
 $L['Dhcp_Configure_header'] = 'Включить сервер DHCP на интерфейсах';
 $L['Dhcp_Title'] = 'DHCP'; 
+$L['Dhcp_Description'] = 'Configure DHCP server'; 
 $L['Dhcp_Tags'] = 'host dhcp reservation mac address macaddress резервация адресов адреса хост'; 
 $L['Dhcp_create_header'] = 'Создать резерв IP адресов';
 $L['Dhcp_update_header'] = 'Изменить резервирование IP для хоста "${0}"';

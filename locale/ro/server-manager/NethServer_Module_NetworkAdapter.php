@@ -122,3 +122,4 @@ $L['DNS_label'] = 'Servere DNS';
 $L['trafficshaping_label'] = 'Configurare trafic';
 $L['FwInBandwidth_label'] = 'Lățime bandă de intrare (kilobiți pe secundă)';
 $L['FwOutBandwidth_label'] = 'Lățime bandă de ieșire (kilobiți pe secundă)';
+$L['valid_platform,logical-interface-create,dhcp-conflicts,3'] = 'Unele interfețe au asociate intervale de adrese atribuite prin DHCP: acestea trebuie să fie stabilite manual din pagina DHCP';

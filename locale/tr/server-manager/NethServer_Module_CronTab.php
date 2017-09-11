@@ -59,4 +59,5 @@ $L['Advanced_disabled_label'] = 'Temel Ayarlar';
 $L['Advanced_enabled_label'] = 'Gelişmiş Ayarlar';
 $L['Mail_label_checkbox'] = 'root kullanıcısına e-posta bildirimi gönderilsin';
 $L['Service_key_exists_message'] = 'Bu ad zaten kullanılmış';
-
+$L['Enabled_label'] = 'Etkin';
+$L['Disabled_label'] = 'Devre dışı';

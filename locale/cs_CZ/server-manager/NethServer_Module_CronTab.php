@@ -59,4 +59,5 @@ $L['Advanced_disabled_label'] = 'Zjednodušená nastavení';
 $L['Advanced_enabled_label'] = 'Pokročilá nastavení';
 $L['Mail_label_checkbox'] = 'Email notifications to root';
 $L['Service_key_exists_message'] = 'Tento název je už používán';
-
+$L['Enabled_label'] = 'Zapnuto';
+$L['Disabled_label'] = 'Vypnuto';

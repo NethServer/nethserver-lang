@@ -4,6 +4,7 @@ $L['DhcpRangeEnd_label'] = 'IP aralığı sonu';
 $L['DhcpRangeStart_label'] = 'IP aralığı başlangıcı';
 $L['Dhcp_Configure_header'] = 'DHCP sunucusu kullanılacak arabirimler';
 $L['Dhcp_Title'] = 'DHCP'; 
+$L['Dhcp_Description'] = 'DHCP sunucusunu ayarla'; 
 $L['Dhcp_Tags'] = 'sunucu dhcp ayırma mac adresi macadresi'; 
 $L['Dhcp_create_header'] = 'IP adresi ayır';
 $L['Dhcp_update_header'] = '"${0}" sunucusu için ayrılmış IP adresini değiştir';

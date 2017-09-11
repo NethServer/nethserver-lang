@@ -1,8 +1,8 @@
 <?php
 
 $L['Pki_Title'] = 'Сертификат сервера';
-$L['Pki_Description'] = 'Manage TLS/SSL server certificates';
-$L['Pki_Tags'] = 'SSL certificate PKI TLS X509 X.509';
+$L['Pki_Description'] = 'Управление TLS/SSL сертификатами сервера';
+$L['Pki_Tags'] = 'SSL сертификат PKI TLS X509 X.509';
 
 $L['C_label'] = 'Код страны';
 $L['ST_label'] = 'Область';
@@ -16,36 +16,36 @@ $L['CertificateDuration_label'] = 'Срок действия сертифика�
 $L['valid_hostname_instance'] = '"${0}" не верное имя машины';
 $L['valid_x509_field'] = 'Не должно содержать "," и "/"';
 
-$L['Generate_label'] = 'Edit self-signed certificate';
-$L['Upload_label'] = 'Upload certificate';
-$L['GenerateLe_label'] = 'Request Let\'s Encrypt certificate';
+$L['Generate_label'] = 'Редактировать самоподписанный сертификат';
+$L['Upload_label'] = 'Загрузить сертификат';
+$L['GenerateLe_label'] = 'Запросить сертификат Let\'s Encrypt';
 
-$L['GenerateLe_Header'] = 'Request a new Let\'s Encrypt certificate';
-$L['Generate_Header'] = 'Edit self-signed certificate';
-$L['Upload_Header'] = 'Upload a certificate file to the server';
+$L['GenerateLe_Header'] = 'Запросить новый сертификат Let\'s Encrypt';
+$L['Generate_Header'] = 'Редактировать самоподписанный сертификат сертификат';
+$L['Upload_Header'] = 'Загрузка файла сертификата на сервер';
 
-$L['Show_label'] = 'Show';
-$L['Show_header'] = 'Show certificate ${0}';
-$L['SetDefault_label'] = 'Set as default';
+$L['Show_label'] = 'Показать';
+$L['Show_header'] = 'Показать сертификат ${0}';
+$L['SetDefault_label'] = 'Установить по умолчанию';
 
-$L['Key_label'] = 'Name';
-$L['Issuer_label'] = 'Issuer';
-$L['ExpireDate_label'] = 'Expires';
-$L['Actions_label'] = 'Actions';
-$L['Default_label'] = 'Default';
-$L['Confirm_label'] = 'Confirm';
-$L['default_cert_label'] = 'Set selected certificate as default?';
-$L['certificate_label'] = 'Certificate';
+$L['Key_label'] = 'Название';
+$L['Issuer_label'] = 'Издатель';
+$L['ExpireDate_label'] = 'Истекает';
+$L['Actions_label'] = 'Действия';
+$L['Default_label'] = 'По-умолчанию';
+$L['Confirm_label'] = 'Подтвердить';
+$L['default_cert_label'] = 'Установить выбранный сертификат по умолчанию?';
+$L['certificate_label'] = 'Сертификат';
 
-$L['LetsEncryptMail_label'] = 'Notification email';
-$L['LetsEncryptDomains_label'] = 'Domains';
+$L['LetsEncryptMail_label'] = 'Электронная почта для уведомлений';
+$L['LetsEncryptDomains_label'] = 'Домены';
 
-$L['UploadCrt_label'] = 'Certificate';
-$L['UploadKey_label'] = 'Private key';
-$L['UploadChain_label'] = 'Chain file (optional)';
-$L['UploadName_label'] = 'Name';
+$L['UploadCrt_label'] = 'Сертификат';
+$L['UploadKey_label'] = 'Приватный ключ';
+$L['UploadChain_label'] = 'Файл цепочки (необязательно)';
+$L['UploadName_label'] = 'Название';
 
-$L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 certificate';
-$L['valid_platform,rsa-key,rsa-key,1'] = 'Private RSA key';
+$L['valid_platform,pem-certificate,pem-certificate,1'] = 'Сертификат X.509';
+$L['valid_platform,rsa-key,rsa-key,1'] = 'Приватный RSA ключ';
 
-$L['vaild_UploadName_file_exists'] = 'The file already exists';
+$L['vaild_UploadName_file_exists'] = 'Файл уже существует';

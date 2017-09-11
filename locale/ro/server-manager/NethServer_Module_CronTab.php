@@ -59,4 +59,5 @@ $L['Advanced_disabled_label'] = 'Setări simplificate';
 $L['Advanced_enabled_label'] = 'Setări avansate';
 $L['Mail_label_checkbox'] = 'Notificări e-mail la root';
 $L['Service_key_exists_message'] = 'Acest nume este deja în uz';
-
+$L['Enabled_label'] = 'Activat';
+$L['Disabled_label'] = 'Dezactivat';

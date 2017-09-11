@@ -122,3 +122,4 @@ $L['DNS_label'] = 'DNS sunucular';
 $L['trafficshaping_label'] = 'Trafik Şekillendirme';
 $L['FwInBandwidth_label'] = 'Gelen bant genişliği (kbps)';
 $L['FwOutBandwidth_label'] = 'Giden bant genişliği (kbps)';
+$L['valid_platform,logical-interface-create,dhcp-conflicts,3'] = 'Bazı arabirimler için DHCP aralıkları atanmış, bunları DHCP bölümünden düzeltmelisiniz';

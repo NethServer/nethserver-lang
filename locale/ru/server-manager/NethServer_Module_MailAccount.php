@@ -1,9 +1,9 @@
 <?php
 
-$L['MailAccount_Description'] = 'Manage email addresses for user and group accounts';
-$L['MailAccount_Tags'] = 'email alias account electronic mail forward shared mailbox';
-$L['MailAccount_Title'] = 'Email addresses';
+$L['MailAccount_Description'] = 'Управление адресами почты для учетных записей пользователей и групп';
+$L['MailAccount_Tags'] = 'почта псевдоним учетная запись электронное письмо переслать общий почтовый ящик';
+$L['MailAccount_Title'] = 'Адреса эл.почты';
 
-$L['Pseudonym_Title'] = 'Mail aliases';
-$L['SharedMailbox_Title'] = 'Shared mailboxes';
-$L['User_Title'] = 'User mailboxes';
+$L['Pseudonym_Title'] = 'Почтовые псевдонимы';
+$L['SharedMailbox_Title'] = 'Общие почтовые ящики';
+$L['User_Title'] = 'Почтовые ящики пользователей';

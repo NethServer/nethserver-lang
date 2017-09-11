@@ -4,6 +4,7 @@ $L['DhcpRangeEnd_label'] = 'Finalul intervalului IP';
 $L['DhcpRangeStart_label'] = 'Începutul intervalului IP';
 $L['Dhcp_Configure_header'] = 'Activează serverul DHCP pe interfețele';
 $L['Dhcp_Title'] = 'DHCP'; 
+$L['Dhcp_Description'] = 'Configurați serverul DHCP'; 
 $L['Dhcp_Tags'] = 'gazdă dhcp rezervare mac adresă adresă-mac'; 
 $L['Dhcp_create_header'] = 'Crează o rezervare de adresă IP';
 $L['Dhcp_update_header'] = 'Schimbă adresa de IP rezervată pentru gazda "${0}"';

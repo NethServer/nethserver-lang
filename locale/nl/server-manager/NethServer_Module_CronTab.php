@@ -59,4 +59,5 @@ $L['Advanced_disabled_label'] = 'Vereenvoudigde instellingen';
 $L['Advanced_enabled_label'] = 'Geavanceerde instellingen';
 $L['Mail_label_checkbox'] = 'Mail-notificatie naar root';
 $L['Service_key_exists_message'] = 'De naam is al in gebruik';
-
+$L['Enabled_label'] = 'Enabled';
+$L['Disabled_label'] = 'Disabled';

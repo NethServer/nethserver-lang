@@ -4,6 +4,7 @@ $L['DhcpRangeEnd_label'] = 'Konec rozsahu IP adres';
 $L['DhcpRangeStart_label'] = 'Začátek rozsahu IP adres';
 $L['Dhcp_Configure_header'] = 'Zapnout DHCP server na tomto rozhraní';
 $L['Dhcp_Title'] = 'DHCP'; 
+$L['Dhcp_Description'] = 'Configure DHCP server'; 
 $L['Dhcp_Tags'] = 'host dhcp reservation mac address macaddress'; 
 $L['Dhcp_create_header'] = 'Vytvořit rezervaci IP adresy';
 $L['Dhcp_update_header'] = 'Change IP address reservation for host "${0}"';

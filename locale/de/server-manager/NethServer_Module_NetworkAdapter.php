@@ -123,3 +123,4 @@ $L['DNS_label'] = 'DNS Server';
 $L['trafficshaping_label'] = 'Traffic Shaping';
 $L['FwInBandwidth_label'] = 'Eingehende Bandbreite (kbps)';
 $L['FwOutBandwidth_label'] = 'Ausgehende Bandbreite (kbps)';
+$L['valid_platform,logical-interface-create,dhcp-conflicts,3'] = 'Einige Schnittstellen haben DHCP-Bereiche zugeordnet: sie müssen manuell von der DHCP-Seite behoben werden';

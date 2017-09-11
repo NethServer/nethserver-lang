@@ -1,7 +1,7 @@
 <?php 
 
 $L['Disk space'] = 'Размер почтового ящика'; 
-$L['Hold for ${0}'] = 'Удалять спам из этой папки через ${0}'; 
+$L['Hold for ${0}'] = 'Хранить спам в папке: ${0}'; 
 $L['ImapStatus_label'] = 'IMAP'; 
 $L['Mailbox access protocols'] = 'Параметры почтового ящика'; 
 $L['Mailbox_Title'] = 'Почтовый ящик'; 
@@ -10,8 +10,8 @@ $L['Quota default size ${0}'] = 'Размер по умолчанию ${0}';
 $L['QuotaStatus_disabled_label'] = 'Неограниченно'; 
 $L['QuotaStatus_enabled_label'] = 'Ограничить до'; 
 $L['Spam messages handling'] = 'Обработка Спам-сообщений'; 
-$L['SpamFolder_label'] = 'Move to "${0}" folder';
+$L['SpamFolder_label'] = 'Переместить в папку "${0}"';
 $L['TlsSecurity_label'] = 'Разрешить нешифрованные соединения';
 $L['Privileged access'] = 'Привилегированный доступ';
-$L['AdminIsMaster_label'] = 'Root can log in as another user';
+$L['AdminIsMaster_label'] = 'Администратор может войти как другой пользователь';
 $L['ever'] = 'всегда'; 

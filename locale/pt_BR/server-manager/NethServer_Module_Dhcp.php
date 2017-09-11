@@ -4,6 +4,7 @@ $L['DhcpRangeEnd_label'] = 'Fim da faixa de IP';
 $L['DhcpRangeStart_label'] = 'Inicio da faixa de IP';
 $L['Dhcp_Configure_header'] = 'Ativar servidor DHCP nas interfaces';
 $L['Dhcp_Title'] = 'DHCP'; 
+$L['Dhcp_Description'] = 'Configurar o servidor DHCP'; 
 $L['Dhcp_Tags'] = 'máquina dhcp reserva endereço mac endereçomac'; 
 $L['Dhcp_create_header'] = 'Criar reserva de endereço IP';
 $L['Dhcp_update_header'] = 'Alterar reserva de endereço IP para a máquina "${0}"';
