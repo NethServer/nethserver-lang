@@ -14,9 +14,9 @@ $L['RootPassword_Action'] = 'Změnit heslo k účtu správce systému (root)';
 $L['Hostname_Title'] = 'Nastavit název stroje';
 $L['Hostname_Action'] = 'Nastavit název stroje na: ${FQDN}';
 
-$L['Hostname_Description'] = 'Change the host fully qualified domain name (FQDN)';
+$L['Hostname_Description'] = 'Změnit úplný doménový název (FQDN) stroje';
 $L['Review_Title'] = 'Prohlédnout změny';
 $L['Review_Description'] = 'Použít změny a zabezpečit tak nastavení serveru';
 $L['Changes_label'] = 'Učinit následující změny:';
 
-$L['redirect_message'] = 'Proceed with network interfaces configuration page, after changes have been applied.';
+$L['redirect_message'] = 'Po aplikaci změn pokračujte na stránce nastavení rozhraní.';

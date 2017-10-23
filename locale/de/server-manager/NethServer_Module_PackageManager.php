@@ -38,3 +38,4 @@ $L['ClearYumCache_label'] = 'Lösche YUM Cache';
 $L['ClearYumCache_description'] = 'Die Installation/Update ist wegen Fehlern der zwischengespeicherten Metadaten fehlgeschlagen.
 Bitte den Cache durch Klicken der unten stehenden Schaltfläche löschen und erneut probieren.';
 $L['An unknown installation error has occurred'] = 'Ein unbekannter Installationsfehler ist aufgetreten.';
+$L['upgrade_available_message'] = 'Die neue Distributionsveröffentlichung ${nextRelease} ist verfügbar. Updates vor der Anwendung prüfen!';

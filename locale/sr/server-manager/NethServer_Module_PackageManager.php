@@ -37,3 +37,4 @@ $L['Changelog_label'] = 'ДНЕВНИК ИЗМЕНА ажурирања';
 $L['ClearYumCache_label'] = 'Очисти привремену оставу YUM';
 $L['ClearYumCache_description'] = 'Инсталација/ажурирање може бити неуспешно због проблема са кеширањем метаподатака. Молимо да очистите привремену оставу тако што ћете кликнути на дугме испод и покушати поново операцију инсталације/ажурирања.';
 $L['An unknown installation error has occurred'] = 'Догодила се непозната грешка инсталације';
+$L['upgrade_available_message'] = 'The new distribution release ${nextRelease} is available. Review the updates before applying them!';

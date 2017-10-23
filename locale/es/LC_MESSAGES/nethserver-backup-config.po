@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-24 14:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Martin Abeleira <mabeleira@gmail.com>, 2017\n"
+"Last-Translator: Adrián Prado <adrian.prado@gmail.com>, 2017\n"
 "Language-Team: Spanish (https://www.transifex.com/nethserver/teams/35834/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,17 +20,20 @@ msgstr ""
 
 #: root/etc/nethserver/todos.d/40restore-incomplete:42
 msgid "Do not reboot the system! Run the \"restore-data\" procedure"
-msgstr ""
+msgstr "¡No reinicie el sistema! Ejecute el procedimiento \"restore-data\""
 
 #: root/etc/nethserver/todos.d/40restore-incomplete:44
 msgid ""
 "Complete the restore procedure by running the \"restore-data\" command from "
 "a root shell"
 msgstr ""
+"Complete el procedimiento de restauración ejecutando el comando \"restore-"
+"data\" desde una shell como root"
 
 #: root/etc/nethserver/todos.d/40restore-incomplete:52
 msgid "Do not reboot the system! Restore procedure is incomplete"
 msgstr ""
+"¡No reinicie el sistema! El procedimiento de restauración está incompleto"
 
 #: root/etc/nethserver/todos.d/40restore-incomplete:55
 msgid ""
@@ -38,6 +41,9 @@ msgid ""
 "procedure by running the \"signal-event post-restore-data\" command from a "
 "root shell"
 msgstr ""
+"Permita la copia de seguridad y ejecute \"restore-data\" o complete el "
+"procedimiento de restauración ejecutando el comando \"signal-event post-"
+"restore-data\" desde una shell como root"
 
 #: root/etc/nethserver/todos.d/50restore-modules:51
 msgid "Install missing modules"

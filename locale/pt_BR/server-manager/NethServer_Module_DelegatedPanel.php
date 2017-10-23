@@ -1,5 +1,5 @@
 <?php
-$L['DelegatedPanel_Title'] = 'Delegation of authority';
+$L['DelegatedPanel_Title'] = 'Delegação de autoridade';
 $L['DelegatedPanel_Description'] = 'Conceda grupos ou usuários para gerenciar seu sistema';
 $L['AdminAllPanels_label'] = 'Delegar todos os painéis';
 $L['AdminPanels_label'] = 'Delegate each panel';

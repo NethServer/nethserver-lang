@@ -125,13 +125,10 @@ $L['CreateDomain_label'] = 'Crea dominio';
 
 $L['installSuccessAd_notification'] = 'L\'account provider locale Active Directory è stato correttamente installato';
 $L['LocalAdProvider_header'] = 'Account provider Active Directory locale per ${0}';
-$L['LocalAdUpdate_label'] = 'Aggiorna DC';
 $L['LocalAdProviderUninstall_label'] = 'Disinstalla';
-$L['sambaUpdateIsAvailable_notification'] = "E' disponibile un aggiornamento per il Domain Controller";
-$L['LocalAdUpdate_header'] = 'Aggiorna DC';
-$L['LocalAdUpdate_message'] = 'Questa operazione può richiedere il download di pacchetti addizionali. Il Domain Controller sarà riavviato dopo l\'aggiornamento del software';
 $L['LocalAdProviderDcChangeIp_header'] = 'Cambia l\'indirizzo IP del Domain Controller';
 $L['LocalAdProviderDcChangeIp_label'] = 'Cambia IP';
 $L['ChangeIPButton_label'] = 'Cambia IP';
 $L['LocalAdProviderDcChangeIp_message1'] = 'Modificare l\'indirizzo IP del Domain Controller può causare problemi ai client di Active Directory. Se utilizzano un server DNS esterno, aggiornarlo per utilizzare il nuovo indirizzo IP.';
 $L['dcChangeIpSuccess_notification'] = 'L\'indirizzo IP del Domain Controller è stato modificato correttamente';
+$L['AdNsSambaRpmVersion_label'] = 'Versione Samba DC';

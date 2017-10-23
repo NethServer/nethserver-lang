@@ -4,6 +4,7 @@ $L['Account_Title'] = 'Gebruikers en groepen';
 $L['Account_Description'] = 'Beheer gebruikers en groepen, configureer het domein en authenticatie providers';
 $L['Account_Tags'] = 'sssd gebruiker groep realm domein account kerberos ldap';
 
+$L['AccountProvider_Error_1'] = 'Account provider generic error: SSSD exit code 1';
 $L['AccountProvider_Error_22'] = 'Account provider fout: ongeldige DN. Controleer Base DN, Groups DN en Users DN in Accounts provider configuratie';
 $L['AccountProvider_Error_32'] = 'Account provider fout: geen inschrijving gevonden. Controleer de LDAP bind rechten en de Base DN in Accounts provider';
 $L['AccountProvider_Error_34'] = 'Account provider fout: onjuist wachtwoord. Verifieer dat de server op de juiste wijze verbonden is met een domein';

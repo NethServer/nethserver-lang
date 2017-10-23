@@ -2,7 +2,7 @@
 
 $L['model_label'] = 'Model';
 $L['ups_status_label'] = 'Stav';
-$L['nut_title'] = 'UPS zdro';
+$L['nut_title'] = 'UPS zdroj';
 $L['enabled_label'] = 'Zapnout';
 $L['disabled_label'] = 'Vypnout';
 $L['NutUps_Title'] = 'UPS zdroj';
@@ -24,4 +24,4 @@ $L['/dev/ttyS2_label'] = "COM3 (ttyS2)";
 $L['/dev/ttyUSB0_label'] = "USB2Serial (ttysUSB0)";
 $L['/dev/ttyUSB1_label'] = "USB2Serial (ttysUSB1)";
 $L['Mode_enabled_label'] = 'Místní';
-$L['Mode_disabled_label'] = 'Remote';
+$L['Mode_disabled_label'] = 'Vzdálené';

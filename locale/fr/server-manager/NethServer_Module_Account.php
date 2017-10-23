@@ -5,6 +5,7 @@ $L['Account_Description'] = '
 ';
 $L['Account_Tags'] = 'sssd utilisateur groupe royaume domaine compte kerberos ldap';
 
+$L['AccountProvider_Error_1'] = 'Account provider generic error: SSSD exit code 1';
 $L['AccountProvider_Error_22'] = 'Erreur du fournisseur de compte: DN invalide. Vérifier le nom unique de Base, le nom unique de groupes et le nom unique d\'utilisateurs dans la configuration de fournisseur de compte.';
 $L['AccountProvider_Error_32'] = 'Erreur du fournisseur de compte: aucune entrée trouvée. vérifier les identifiants de liaison LDAP et le Base DN dans la configuration du fournisseur de compte';
 $L['AccountProvider_Error_34'] = 'Erreur du fournisseur de compte: mot de passe machine invalide. Vérifier que le serveur est correctement joint au domaine.';

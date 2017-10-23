@@ -20,7 +20,7 @@ msgstr ""
 
 #: root/etc/nethserver/todos.d/40restore-incomplete:42
 msgid "Do not reboot the system! Run the \"restore-data\" procedure"
-msgstr ""
+msgstr "Systém NErestartujte! Spusťte proceduru „restore-data“"
 
 #: root/etc/nethserver/todos.d/40restore-incomplete:44
 msgid ""
@@ -30,7 +30,7 @@ msgstr ""
 
 #: root/etc/nethserver/todos.d/40restore-incomplete:52
 msgid "Do not reboot the system! Restore procedure is incomplete"
-msgstr ""
+msgstr "Systém NErestartujte! Procedura obnovení není hotová"
 
 #: root/etc/nethserver/todos.d/40restore-incomplete:55
 msgid ""

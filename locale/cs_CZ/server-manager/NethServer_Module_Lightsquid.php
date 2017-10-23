@@ -1,7 +1,7 @@
 <?php
 
 $L['Lightsquid_Description'] = 'Statistiky webové proxy';
-$L['Lightsquid_Tags'] = 'statistics stats analysis graph squid web proxy';
+$L['Lightsquid_Tags'] = 'statistiky analýza graf webová proxy squid';
 
 $L['Lightsquid_Title'] = 'Statistiky webové proxy';
 $L['Settings_title'] = 'Nastavení';

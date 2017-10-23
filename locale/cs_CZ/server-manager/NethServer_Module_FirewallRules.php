@@ -19,10 +19,10 @@ $L['MACValidationPolicy_label'] = 'Policy for hosts without IP/MAC binding (DHCP
 $L['drop_label'] = 'Blokovat provoz';
 $L['accept_label'] = 'Umožnit provoz';
 
-$L['Edit_header'] = 'Upravit pravidlo #${0}';
+$L['Edit_header'] = 'Upravit pravidlo č. ${0}';
 $L['status_label'] = 'Zapnuto';
 $L['Action_label'] = 'Akce';
-$L['Rule_label'] = 'Pravidl';
+$L['Rule_label'] = 'Pravidlo';
 $L['ActionReject_label'] = 'Odmítnout';
 $L['ActionAccept_label'] = 'Přimout';
 $L['ActionDrop_label'] = 'Zahodit';
@@ -54,12 +54,12 @@ $L['Index_header'] = 'Pravidla brány firewall';
 $L['RuleId_label'] = '#${0}';
 $L['SearchPlaceholder_label'] = 'Hledat…';
 
-$L['Delete_header'] = 'Smazat pravidlo #${0}';
+$L['Delete_header'] = 'Smazat pravidlo č. ${0}';
 $L['Delete_message'] = 'Potvrzení odstranění pravidla brány firewall #${id}';
 $L['HostGroups_create'] = 'Create host group "${0}"';
 $L['Hosts_create'] = 'Vytvořit stroj „${0}“';
 $L['Zones_create'] = 'Vytvořit zónu „${0}“';
-$L['Services_create'] = 'Create service object "${0}"';
+$L['Services_create'] = 'Vytvořit objekt služby „${0}“';
 $L['Time_create'] = 'Vytvořit časovou podmínku „${0}“';
 $L['IpRange_create'] = 'Create IP range "${0}"';
 $L['Cidr_create'] = 'Create CIDR network "${0}"';

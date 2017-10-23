@@ -4,6 +4,7 @@ $L['Account_Title'] = 'Utenti e gruppi';
 $L['Account_Description'] = 'Gestisci utenti e gruppi, configura l\'identità di dominio e i fornitori di autenticazione';
 $L['Account_Tags'] = 'sssd user group realm domain account kerberos ldap dominio';
 
+$L['AccountProvider_Error_1'] = 'Errore generico account provider: SSSD terminato con codice 1';
 $L['AccountProvider_Error_22'] = 'Errore account provider: DN non valido. Controllare Base DN, Group DN, User DN nella configurazione di Account provider';
 $L['AccountProvider_Error_32'] = 'Errore account provider: nessun risultato trovato. Controllare le credenziali per il bind LDAP e il Base DN nella configurazione di Account provider';
 $L['AccountProvider_Error_34'] = 'Errore account provider: machine password non valida. Verificare che il sistema sia membro del dominio';

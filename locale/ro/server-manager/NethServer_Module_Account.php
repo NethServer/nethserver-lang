@@ -4,6 +4,7 @@ $L['Account_Title'] = 'Utilizatori și grupuri';
 $L['Account_Description'] = 'Gestionare utilizatori și grupuri, configurare furnizori de identitate și autentificare ai domeniului';
 $L['Account_Tags'] = 'sssd grup de utilizatori domeniu domeniu cont kerberos ldap';
 
+$L['AccountProvider_Error_1'] = 'Account provider generic error: SSSD exit code 1';
 $L['AccountProvider_Error_22'] = 'Eroare furnizor de cont: DN nevalid. Verificați DN de bază, DN grupuri și DN utilizatori din configurația furnizorului de conturi';
 $L['AccountProvider_Error_32'] = 'Eroare furnizor de cont: nu au fost găsite înregistrări. Verificați datele de conectare LDAP și bază DN în configurația furnizorului de conturi';
 $L['AccountProvider_Error_34'] = 'Eroare furnizor de cont: parola nevalidă a mașinii. Verificați dacă serverul este conectat corect la un domeniu';

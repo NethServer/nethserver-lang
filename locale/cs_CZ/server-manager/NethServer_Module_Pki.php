@@ -2,11 +2,11 @@
 
 $L['Pki_Title'] = 'Serverový certifikát';
 $L['Pki_Description'] = 'Spravovat TLS/SSL serverové certifikáty';
-$L['Pki_Tags'] = 'SSL certificate PKI TLS X509 X.509';
+$L['Pki_Tags'] = 'SSL certifikát PKI TLS X509 X.509';
 
 $L['C_label'] = 'Kód země';
 $L['ST_label'] = 'Stav';
-$L['L_label'] = 'Locality';
+$L['L_label'] = 'Lokalita';
 $L['O_label'] = 'Organizace';
 $L['OU_label'] = 'Organizační jednotka';
 $L['CN_label'] = 'Běžný název';

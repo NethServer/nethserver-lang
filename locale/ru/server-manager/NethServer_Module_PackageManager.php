@@ -37,3 +37,4 @@ $L['Changelog_label'] = 'Список изменений обновлений';
 $L['ClearYumCache_label'] = 'Очистить кэш YUM';
 $L['ClearYumCache_description'] = 'Установка/обновление могла быть неудачной из-за проблем с кэшированием метаданных. Пожалуйста, очистите кэш нажатием кнопки ниже и повторите операцию установки\обновления.';
 $L['An unknown installation error has occurred'] = 'Произошла неизвестная ошибка установки.';
+$L['upgrade_available_message'] = 'The new distribution release ${nextRelease} is available. Review the updates before applying them!';

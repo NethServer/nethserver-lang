@@ -12,4 +12,4 @@ $L['FQDN_label'] = 'Úplný doménový název';
 $L['valid_platform,myhostname,failifjoin,1'] = 'Poskytovatel uživatelů a skupin je už nastavený';
 $L['valid_platform,myhostname,hostname-length,3'] = 'Je třeba, aby část s názvem stroje nebyla delší než 15 znaků';
 $L['valid_platform,myhostname,hostname-length,4'] = 'V části s názvem stroje je možné použít pouze písmena, číslice a spojovníky';
-$L['valid_hostname_fqdn_long'] = 'must contain at least two dots, like "myhost.example.com"';
+$L['valid_hostname_fqdn_long'] = 'je třeba, aby obsahovalo přinejmenším dvě tečky, jako např. „mujstroj.example.com“';

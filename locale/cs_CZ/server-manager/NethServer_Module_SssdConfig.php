@@ -4,58 +4,58 @@ $L['SssdConfig_Title'] = 'Poskytovatel účtů';
 $L['SssdConfig_Description'] = 'Nastavit poskytovatele doménových účtů uživatelů a skupin';
 $L['SssdConfig_Tags'] = 'sssd doména účet uživatel skupina ldap kerberos active directory';
 
-$L['valid_platform,ad-dns,srv_record,1'] = 'Could not find an Active Directory domain controller';
+$L['valid_platform,ad-dns,srv_record,1'] = 'Nedaří se nalézt řadič domény Active Directory';
 
 $L['Select_Title'] = 'Volba podpůrné vrstvy (backend)';
 
 $L['LdapUri_label'] = 'URI adresa LDAP serveru';
 $L['BindProvider_label'] = 'Bind';
-$L['NetbiosDomain_label'] = 'NetBIOS domain';
+$L['NetbiosDomain_label'] = 'NetBIOS doména';
 
-$L['login_label'] = 'Privileged user name';
+$L['login_label'] = 'Uživatelské jméno privilegovaného účtu';
 $L['password_label'] = 'Heslo';
 $L['Join_label'] = 'Připojit';
-$L['Authenticate_header'] = 'Join the AD domain with privileged user credentials';
+$L['Authenticate_header'] = 'Přidat do domény Active Directory pomocí přihlašovacích údajů privilegovaného uživatele';
 
-$L['Wizard_header'] = 'Configure users and groups for domain ${0}';
-$L['Local_header'] = 'Install a local accounts provider';
+$L['Wizard_header'] = 'Nastavit uživatele a skupiny pro doménu $[0]';
+$L['Local_header'] = 'Nainstalovat místního poskytovatele účtů';
 $L['Install_label'] = 'Instalovat';
-$L['Bind_label'] = 'Bind';
+$L['Bind_label'] = 'Spojit';
 
 
-$L['ChooseProvider_general'] = 'Users and groups are available through an accounts provider. You can connect this server to a remote accounts provider, or install a local one. Some features are available depending on the accounts provider type.';
-$L['ChooseProvider_ldap'] = 'Easy to configure, does not support authenticated access to shared folders';
-$L['ChooseProvider_ad'] = 'Enables all shared folders features, requires advanced configuration options';
+$L['ChooseProvider_general'] = 'Uživatelé a skupiny jsou k dostupní skrze poskytovatele účtů. Je možné tento server připojit na vzdáleného poskytovatele účtů nebo nainstalovat místní. Některé funkce jsou dostupné v závislosti na typu poskytovatele účtů.';
+$L['ChooseProvider_ldap'] = 'Snadno nastavitelné, nepodporuje ověřený přístup ke sdíleným složkám';
+$L['ChooseProvider_ad'] = 'Zapíná všechny funkce sdílených složek, vyžaduje pokročilé volby nastavení';
 $L['configAd_label'] = 'Active Directory';
 $L['configLdap_label'] = 'LDAP';
 
 $L['Ad_header'] = 'Poskytovatel účtů Active Directory';
-$L['Ldap_header'] = 'LDAP accounts provider';
+$L['Ldap_header'] = 'Poskytovatel LDAP účtů';
 $L['ChooseAd_general'] = 'Computers in an Active Directory domain can be simple members or domain controllers (DC)';
-$L['ChooseAd_joinmember'] = 'Become a member of an existing domain';
-$L['ChooseAd_joindc'] = 'Become a DC of an existing domain';
-$L['ChooseAd_newforest'] = 'Initialize a new domain and become DC';
+$L['ChooseAd_joinmember'] = 'Připojit se do stávající domény';
+$L['ChooseAd_joindc'] = 'Stát se řadičem existující domény';
+$L['ChooseAd_newforest'] = 'Inicializovat novou doménu a stát se jejím řadičem (DC)';
 $L['configAdJoinMember_label'] = 'Připojit k doméně';
 $L['configAdJoinDc_label'] = 'Přidat doménový řadič do domény';
 $L['configAdNewDomain_label'] = 'Vytvořit novou doménu';
 
 $L['LocalLdapProvider_header'] = 'LDAP local accounts provider for ${0}';
 $L['RemoteLdapProvider_header'] = 'LDAP remote accounts provider for ${0}';
-$L['ChooseLdap_general'] = 'An LDAP database can store users, groups and passwords. It is required a RFC2307 compatible LDAP schema.';
-$L['ChooseLdap_remote'] = 'Bind to a remote LDAP server';
+$L['ChooseLdap_general'] = 'V LDAP databázi mohou být uloženy uživatelské účty, skupiny a hesla. Je vyžadováno LDAP schema dle normy RFC2307.';
+$L['ChooseLdap_remote'] = 'Spojit se vzdáleným LDAP serverem';
 $L['ChooseLdap_local'] = 'Nainstalovat OpenLDAP server';
-$L['configLdapRemote_label'] = 'Bind remotely';
-$L['configLdapLocal_label'] = 'Install locally';
+$L['configLdapRemote_label'] = 'Spojit vzdáleně';
+$L['configLdapLocal_label'] = 'Nainstalovat lokálně';
 
 $L['LdapRemoteIpAddress_label'] = 'Název stroje nebo IP adresa';
 $L['LdapRemoteTcpPort_label'] = 'TCP port';
 $L['LdapRemoteIp_header'] = 'Spojit s LDAP serverem na jiném stroji';
 $L['LdapRemoteBind_label'] = 'Zkontrolovat nastavení';
-$L['probeLdapSuccess_warning'] = 'Review and save the LDAP settings to finish the configuration';
-$L['valid_platform,ldap-probe,ldap-check-connect,1'] = 'Server connection error or invalid service port';
+$L['probeLdapSuccess_warning'] = 'Zkontrolujte a uložte nastavení LDAP a dokončete tak nastavení';
+$L['valid_platform,ldap-probe,ldap-check-connect,1'] = 'Chyba připojení k serveru nebo neplatný port služby';
 
-$L['BindType_anonymous_label'] = 'Anonymous bind';
-$L['BindType_authenticated_label'] = 'Authenticated bind';
+$L['BindType_anonymous_label'] = 'Anonymní spojení';
+$L['BindType_authenticated_label'] = 'Spojení s ověřováním';
 $L['BindType_label'] = 'Read-only bind credentials';
 $L['BindDN_label'] = 'Bind DN';
 $L['BindPassword_label'] = 'Spojovací heslo';
@@ -95,14 +95,14 @@ $L['AdJoinMember_header'] = 'Připojit do Active Directory jako nový člen';
 $L['AdDns_label'] = 'AD DNS server';
 $L['AdRealm_label'] = 'DNS domain name';
 $L['AdWorkgroup_label'] = 'NetBIOS domain name';
-$L['AdJoinMemberCredentials_label'] = 'Credentials for joining the domain';
+$L['AdJoinMemberCredentials_label'] = 'Přihlašovací údaje pro přidání do domény';
 $L['AdUsername_label'] = 'Uživatelské jméno';
 $L['AdPassword_label'] = 'Heslo';
 $L['AdJoinMember_label'] = 'Připojit';
 
 $L['RemoteAdProvider_header'] = 'Active Directory remote accounts provider for ${0}';
 $L['AdNewDomain_header'] = 'Vytvořit novou doménu Active Directory';
-$L['AdJoinMemberError_label'] = 'Failed to join Active Directory (${0})';
+$L['AdJoinMemberError_label'] = 'Přidání do Active Directory se nezdařilo (${0})';
 $L['Save_label'] = 'Uložit';
 $L['RemoteProviderUnbind_label'] = 'Unbind...';
 $L['RemoteProviderUnbind_header'] = 'Unbind accounts provider';
@@ -111,8 +111,8 @@ $L['UnbindButton_label'] = 'Unbind';
 $L['bindAdSuccess_notification'] = 'Active Directory domain ${0} was joined successfully';
 
 $L['valid_platform,dcipaddr,ipgreenandbridged,3'] = 'Must be different from 127.0.0.1 or any other IP address used by the server';
-$L['valid_platform,dcipaddr,ipgreenandbridged,4'] = 'Must be part of a green network';
-$L['valid_platform,dcipaddr,ipgreenandbridged,5'] = 'Must be a free IP address';
+$L['valid_platform,dcipaddr,ipgreenandbridged,4'] = 'Je třeba, aby bylo součástí zelené (vnitřní) sítě';
+$L['valid_platform,dcipaddr,ipgreenandbridged,5'] = 'Je třeba, aby se jednalo o doposud nepoužívanou IP adresu';
 $L['valid_platform,dcrealm,differhostname,3'] = 'Must differ from the host FQDN';
 $L['valid_starttls_urischeme'] = 'Conflicts with "ldaps://" URI scheme';
 $L['AdIpAddress_help1'] = 'Je třeba, aby zvolená IP adresa splňovala veškeré níže uvedené podmínky:';
@@ -123,13 +123,10 @@ $L['CreateDomain_label'] = 'Vytvořit doménu';
 
 $L['installSuccessAd_notification'] = 'Active Directory local accounts provider was installed correctly';
 $L['LocalAdProvider_header'] = 'Active Directory local accounts provider for ${0}';
-$L['LocalAdUpdate_label'] = 'Update DC';
 $L['LocalAdProviderUninstall_label'] = 'Odinstalovat';
-$L['sambaUpdateIsAvailable_notification'] = "An update to the Domain Controller package is available";
-$L['LocalAdUpdate_header'] = 'Update DC';
-$L['LocalAdUpdate_message'] = 'This operation might require the download of additional packages. The Domain Controller will be restarted after the software has been updated';
-$L['LocalAdProviderDcChangeIp_header'] = 'Change IP address of Domain Controller';
-$L['LocalAdProviderDcChangeIp_label'] = 'Change IP';
-$L['ChangeIPButton_label'] = 'Change IP';
+$L['LocalAdProviderDcChangeIp_header'] = 'Změnit IP adresu řadiče domény';
+$L['LocalAdProviderDcChangeIp_label'] = 'Změnit IP adresu';
+$L['ChangeIPButton_label'] = 'Změnit IP adresu';
 $L['LocalAdProviderDcChangeIp_message1'] = 'Changing the Domain Controller IP address can cause problems to Active Directory clients. If they use an external DNS server, update it to use the new IP address.';
-$L['dcChangeIpSuccess_notification'] = 'Domain Controller IP address successfully changed';
+$L['dcChangeIpSuccess_notification'] = 'IP adresa řadiče domény úspěšně změněna';
+$L['AdNsSambaRpmVersion_label'] = 'Samba DC version';

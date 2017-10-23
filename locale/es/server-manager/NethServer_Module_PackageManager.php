@@ -37,3 +37,4 @@ $L['Changelog_label'] = 'Actualizaciones CAMBIOS';
 $L['ClearYumCache_label'] = 'Limpiar caché YUM';
 $L['ClearYumCache_description'] = 'La instalación / actualización puede haber fallado debido a problemas de almacenamiento en caché de metadatos. Por favor, limpiar la caché haciendo clic en el botón de abajo y vuelva a intentar la operación de instalación / actualización.';
 $L['An unknown installation error has occurred'] = 'Se ha producido un error desconocido durante la instalación';
+$L['upgrade_available_message'] = 'El lanzamiento de la nueva distribución ${nextRelease} está disponible. ¡Revisa las actualizaciones antes de aplicarlas!';

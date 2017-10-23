@@ -4,6 +4,7 @@ $L['Account_Title'] = 'Benutzer und Gruppen';
 $L['Account_Description'] = 'Verwalte Benutzer und Gruppen, konfiguriere die Domänen- sowie Authentifizierungsanbieter';
 $L['Account_Tags'] = 'sssd Benutzer Gruppe Bereich Domäne Konto Kerberos LDAP';
 
+$L['AccountProvider_Error_1'] = 'Generischer Konto-Fehler: SSSD-Exit-Code 1';
 $L['AccountProvider_Error_22'] = 'Fehler im Accountprovider: Fehlerhafte DN. Überprüfe die Base DN, Groups DN und Users DN in der Accountprovider Konfiguration';
 $L['AccountProvider_Error_32'] = 'Fehler im Accountprovider: Keine Einträge gefunden. Überprüfe die Zugangsdaten für das LDAP und die Base DN in der Accountprovider Konfiguration';
 $L['AccountProvider_Error_34'] = 'Fehler im Accountprovider: Ungültiges Kennwort. Bitte überprüfe, ob der Server der Domäne ordnungsgemäß beigetreten ist.';

@@ -1,7 +1,7 @@
 <?php
 
 $L['LogViewer_Title'] = 'Prohlížeč záznamu událostí';
-$L['LogViewer_Tags'] = 'log file inspect show';
+$L['LogViewer_Tags'] = 'zobrazit inspekci souboru se záznamem událostí (log)';
 $L['LogViewer_Description'] = 'Najít a zobrazit obsah souboru se záznamy událostí';
 $L['Find_Title'] = 'Hledat v souborech se záznamem událostí';
 $L['Read_Title'] = 'Zobrazit ${0}';

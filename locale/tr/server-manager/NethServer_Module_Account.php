@@ -4,6 +4,7 @@ $L['Account_Title'] = 'Kullanıcılar ve gruplar';
 $L['Account_Description'] = 'Kullanıcı ve grup yönetimi, etki alanı kimliği ve kimlik doğrulama hizmeti sağlayıcıların ayarları ';
 $L['Account_Tags'] = 'sssd user group realm domain account kerberos ldap kullanıcı grup etki alanı hesap';
 
+$L['AccountProvider_Error_1'] = 'Hesap hizmeti sağlayıcı hatası: SSSD çıkış kodu 1';
 $L['AccountProvider_Error_22'] = 'Hesap hizmeti sağlayıcısı hatası: DN geçersiz. Hesap sağlayıcı yapılandırmasındaki Base DN, Groups DN ve Users DN ayarlarını denetleyin';
 $L['AccountProvider_Error_32'] = 'Hesap hizmeti sağlayıcısı hatası: Herhangi bir kayıt bulunamadı. Hesap sağlayıcı yapılandırmasındaki LDAP bağlantı bilgilerini ve Base DN ayarlarını denetleyin';
 $L['AccountProvider_Error_34'] = 'Hesap hizmeti sağlayıcısı hatası: Makina parolası geçersiz. Sunucunun etki alanına doğru şekilde katılmış olup olmadığını denetleyin';

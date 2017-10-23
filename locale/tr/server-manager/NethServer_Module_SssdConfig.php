@@ -123,13 +123,10 @@ $L['CreateDomain_label'] = 'Etki alanı ekle';
 
 $L['installSuccessAd_notification'] = 'Aktif Dizin yerel hesap hizmeti sağlayıcısı düzgün şekilde kuruldu';
 $L['LocalAdProvider_header'] = '${0} için Aktif Dizin yerel hesap hizmeti sağlayıcısı';
-$L['LocalAdUpdate_label'] = 'DC Güncelle';
 $L['LocalAdProviderUninstall_label'] = 'Kaldır';
-$L['sambaUpdateIsAvailable_notification'] = "Etki Alanı Denetçisi paketi için bir güncelleme yayınlanmış";
-$L['LocalAdUpdate_header'] = 'DC Güncelle';
-$L['LocalAdUpdate_message'] = 'Bu işlemin tamamlanması için ek paketlerin indirilmesi gerekebilir. Yazılım güncellendikten sonra Etki Alanı Denetçisi yeniden başlatılacak';
 $L['LocalAdProviderDcChangeIp_header'] = 'Etki Alanı Denetçisinin IP adresini değiştir';
 $L['LocalAdProviderDcChangeIp_label'] = 'IP değiştir';
 $L['ChangeIPButton_label'] = 'IP değiştir';
 $L['LocalAdProviderDcChangeIp_message1'] = 'Etki Alanı Denetçisinin IP adresinin değiştirilmesi Aktif Dizin istemcileri açısından sorunlara yol açabilir. İstemciler bir dış DNS sunucusu kullanıyorsa yeni IP adresini kullanacakları şekilde güncelleyin.';
 $L['dcChangeIpSuccess_notification'] = 'Etki Alanı Denetçisi IP adresi değiştirildi';
+$L['AdNsSambaRpmVersion_label'] = 'Samba Etki Alanı Denetçisi Sürümü';

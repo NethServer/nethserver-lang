@@ -2,7 +2,7 @@
 
 $L['Lists_Title'] = 'Seznam zakázaných';
 $L['Lists_selector'] = 'Seznamy k dispozici';
-$L['Lists_shalla_label'] = 'Shalla (free for non-commercial use)';
+$L['Lists_shalla_label'] = 'Shalla (zdarma pro nekomerční použití)';
 $L['Lists_urlblacklist_label'] = 'UrlBlacklist.com (komerční)';
 $L['Lists_toulouse_label'] = 'Université Toulouse (free)';
 $L['Lists_custom_label'] = 'Vlastní';

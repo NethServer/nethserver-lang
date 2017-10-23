@@ -1,7 +1,7 @@
 <?php
 
 $L['IpsecTunnelsStatus_Title'] = 'IPsec tunely';
-$L['IpsecTunnelsStatus_Tags'] = 'IPsec tunnel tunnels status ipsec';
+$L['IpsecTunnelsStatus_Tags'] = 'IPsec tunel tunely stav ipsec';
 $L['IpsecTunnelsStatus_Description'] = 'Zobrazit stav IPsec tunelu';
 $L['name_label'] = 'Název tunelu';
 $L['localnets_label'] = 'Místní sítě';

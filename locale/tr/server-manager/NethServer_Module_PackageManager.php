@@ -37,3 +37,4 @@ $L['Changelog_label'] = 'Güncelleme Değişiklik Günlüğü';
 $L['ClearYumCache_label'] = 'YUM ön belleğini temizle';
 $L['ClearYumCache_description'] = 'Üst veri ön bellek sorunları nedeniyle kurulum/güncelleme işlemi tamamlanamayabilir. Lütfen aşağıdaki düğmeye tıklayarak ön belleği temizleyin ve kurulum/güncelleme işlemini yeniden deneyin.';
 $L['An unknown installation error has occurred'] = 'Bilinmeyen bir kurulum sorunu çıktı';
+$L['upgrade_available_message'] = '${nextRelease} yeni dağıtım sürümü yayınlanmış. Yüklemeden önce güncellemeleri gözden geçirin!';
