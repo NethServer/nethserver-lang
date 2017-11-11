@@ -830,3 +830,9 @@ file_filter = locale/<lang>/server-manager/NethServer_Module_User_Plugin_Delegat
 source_file = locale/en/server-manager/NethServer_Module_User_Plugin_DelegatedUserPanel.php
 source_lang = en
 type = PHP_ALT_ARRAY
+
+[nethserver-v6.SharedFolder_Plugin_Nfs]
+file_filter = locale/<lang>/server-manager/NethServer_Module_SharedFolder_Plugin_Nfs.php
+source_file = locale/en/server-manager/NethServer_Module_SharedFolder_Plugin_Nfs.php
+source_lang = en
+type = PHP_ALT_ARRAY
