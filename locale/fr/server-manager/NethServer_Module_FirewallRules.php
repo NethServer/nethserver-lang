@@ -69,8 +69,8 @@ $L['NoRulesDefined_label'] = 'Aucune règle définie. Créez la première mainte
 
 $L['any_service_label'] = 'Tout les services';
 $L['any_src_dst_label'] = 'Tous les hôtes';
-$L['Time_always'] = 'Always';
-$L['Type_any_label'] = 'any';
+$L['Time_always'] = 'Toujours';
+$L['Type_any_label'] = 'tout';
 $L['Type_fw_label'] = 'firewall';
 $L['host_label'] = 'hôte';
 $L['zone_label'] = 'zone';
@@ -81,7 +81,7 @@ $L['role_label'] = 'interface';
 $L['confirm_reload_label'] = 'Aucun changement n\'a été appliqué.';
 
 $L['FirewallObject_any_Title'] = 'Tout';
-$L['FirewallObject_fw_Title'] = 'Firewall';
+$L['FirewallObject_fw_Title'] = 'Pare-feu';
 $L['FirewallObject_host_Title'] = 'Hôte ${key}';
 $L['FirewallObject_local_Title'] = 'LAN hôte ${key}';
 $L['FirewallObject_remote_Title'] = 'Hôte ${key}';
@@ -103,8 +103,8 @@ $L['ActionLog_label'] = 'Log';
 $L['ShowAction_label'] = 'Voir';
 $L['ShowRules_label'] = 'Pare-feu';
 $L['ShowRoutes_label'] = 'Règle de routage';
-$L['ShowServices_label'] = 'Network services';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping';
+$L['ShowServices_label'] = 'Services réseau';
+$L['ShowTrafficShaping_label'] = 'Lissage du trafic';
 
 $L['ActionPriorityHigh_label'] = 'High priority';
 $L['ActionPriorityLow_label'] = 'Low priority';

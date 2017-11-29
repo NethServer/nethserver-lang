@@ -5,3 +5,4 @@ $L['status_label'] = 'Activare transmisie';
 $L['Webaccess_private_label'] = 'Acces privat';
 $L['Webaccess_public_label'] = 'Acces public';
 $L['Users_label'] = 'Specificați câte un utilizator permis pe linie';
+$L['Must be a user name'] = '${0} nu este un nume de utilizator valid';

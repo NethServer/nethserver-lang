@@ -129,4 +129,4 @@ $L['LocalAdProviderDcChangeIp_label'] = 'Schimbați adresa IP';
 $L['ChangeIPButton_label'] = 'Schimbați adresa IP';
 $L['LocalAdProviderDcChangeIp_message1'] = 'Schimbarea adresei IP a Controller-ului de Domeniu poate cauza probleme clienților Active Directory. Dacă acestia utilizează un server DNS extern, actualizați-l pentru a utiliza noua adresă IP.';
 $L['dcChangeIpSuccess_notification'] = 'Adresa IP a Controller-ului de Domeniu a fost schimbata cu succes';
-$L['AdNsSambaRpmVersion_label'] = 'Samba DC version';
+$L['AdNsSambaRpmVersion_label'] = 'Versiune Samba DC';

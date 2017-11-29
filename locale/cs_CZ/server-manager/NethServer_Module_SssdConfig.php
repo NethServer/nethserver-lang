@@ -9,7 +9,7 @@ $L['valid_platform,ad-dns,srv_record,1'] = 'Nedaří se nalézt řadič domény 
 $L['Select_Title'] = 'Volba podpůrné vrstvy (backend)';
 
 $L['LdapUri_label'] = 'URI adresa LDAP serveru';
-$L['BindProvider_label'] = 'Bind';
+$L['BindProvider_label'] = 'Spojit';
 $L['NetbiosDomain_label'] = 'NetBIOS doména';
 
 $L['login_label'] = 'Uživatelské jméno privilegovaného účtu';
@@ -31,7 +31,7 @@ $L['configLdap_label'] = 'LDAP';
 
 $L['Ad_header'] = 'Poskytovatel účtů Active Directory';
 $L['Ldap_header'] = 'Poskytovatel LDAP účtů';
-$L['ChooseAd_general'] = 'Computers in an Active Directory domain can be simple members or domain controllers (DC)';
+$L['ChooseAd_general'] = 'Počítače v doméně Active Directory mohou být pouhými členy  nebo řadiči domény (DC)';
 $L['ChooseAd_joinmember'] = 'Připojit se do stávající domény';
 $L['ChooseAd_joindc'] = 'Stát se řadičem existující domény';
 $L['ChooseAd_newforest'] = 'Inicializovat novou doménu a stát se jejím řadičem (DC)';
@@ -117,7 +117,7 @@ $L['valid_platform,dcrealm,differhostname,3'] = 'Must differ from the host FQDN'
 $L['valid_starttls_urischeme'] = 'Conflicts with "ldaps://" URI scheme';
 $L['AdIpAddress_help1'] = 'Je třeba, aby zvolená IP adresa splňovala veškeré níže uvedené podmínky:';
 $L['AdIpAddress_help2'] = 'the IP address must be in the same subnet range of a green network: ${0}';
-$L['AdIpAddress_help3'] = 'the IP address must be unused currently';
+$L['AdIpAddress_help3'] = 'je třeba, aby tato IP adresa už nebyla používána';
 $L['AdIpAddress_label'] = "IP adresa řadiče domény";
 $L['CreateDomain_label'] = 'Vytvořit doménu';
 
@@ -129,4 +129,4 @@ $L['LocalAdProviderDcChangeIp_label'] = 'Změnit IP adresu';
 $L['ChangeIPButton_label'] = 'Změnit IP adresu';
 $L['LocalAdProviderDcChangeIp_message1'] = 'Changing the Domain Controller IP address can cause problems to Active Directory clients. If they use an external DNS server, update it to use the new IP address.';
 $L['dcChangeIpSuccess_notification'] = 'IP adresa řadiče domény úspěšně změněna';
-$L['AdNsSambaRpmVersion_label'] = 'Samba DC version';
+$L['AdNsSambaRpmVersion_label'] = 'Verze Samba doménového řadiče';

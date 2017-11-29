@@ -2,7 +2,7 @@
 
 $L['Key_label'] = 'Tjänst';
 $L['access_label'] = 'Access';
-$L['ports_label'] = 'Ports';
+$L['ports_label'] = 'Portar';
 
 $L['NetworkServices_Title'] = 'Network services';
 $L['NetworkServices_Tags'] = 'Network services service firewall local';

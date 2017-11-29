@@ -1,8 +1,9 @@
 <?php
 $L['Fail2Ban_Title'] = 'Fail2ban';
+$L['Fail2Ban_Description'] = 'Ochránit server před útoky vedené zkoušením všech kombinací hesel';
 $L['Fail2BanSettings_Title'] = 'Služba';
 $L['Fail2Ban_header'] = 'Nastavení služby';
-$L['Fail2BanUnban_Title'] = 'Blacklist';
+$L['Fail2BanUnban_Title'] = 'Seznam odepřených (blacklist)';
 $L['Fail2BanUnBan_header'] = 'Spravovat blokované IP adresy';
 $L['UnBanIP_label'] = 'Unban the specified IP';
 $L['SUBMIT/REFRESH_label'] = 'Submit/Refresh';
@@ -39,7 +40,7 @@ $L['EjabberAuth_status_label'] = 'Ejabber Auth';
 $L['MysqldAuth_status_label'] = 'Mysqld Auth';
 $L['NginxBotSearch_status_label'] = 'Nginx Bot Search';
 $L['NginxHttpAuth_status_label'] = 'Nginx Http Auth';
-$L['PamGeneric_status_label'] = 'Pam Generic';
+$L['PamGeneric_status_label'] = 'Pam obecné';
 $L['PostfixRbl_status_label'] = 'Postfix Rbl';
 $L['Postfix_status_label'] = 'Postfix';
 $L['Recidive_status_label'] = 'Recidive';
@@ -65,3 +66,5 @@ $L['Urbackup_status_label'] = 'Urbackup Auth';
 $L['ApachePhpMyAdmin_status_label'] = 'PhpMyAdmin Auth';
 $L['OpenVpnAuth_status_label'] = 'OpenVPN Auth';
 $L['VPNStatus_label'] = 'VPN Jails';
+$L['Not an IP'] = '„${0}“ není IP adresa';
+$L['Not an email'] = '"${0}" is not an email';

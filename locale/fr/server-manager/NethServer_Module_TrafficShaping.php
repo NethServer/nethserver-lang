@@ -36,7 +36,7 @@ $L['tcp,udp_label'] = 'TCP,UDP';
 $L['TrafficShaping_Description'] = 'Gérer le lissage du trafic';
 $L['TrafficShaping_Tags'] = 'tc traffic shaping gestionnaire de bande passante';
 $L['TrafficShaping_Title'] = 'Lissage du trafic';
-$L['TrafficShaping_General_header'] = 'Traffic shaping';
+$L['TrafficShaping_General_header'] = 'Lissage du trafic';
 $L['udp_label'] = 'UDP';
 $L['PickSource_label'] = 'Choisir la source...';
 

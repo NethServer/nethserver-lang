@@ -20,5 +20,5 @@ $L['Destinations_label'] = 'Одредишта';
 $L['valid_pseudonym_mailbox_conflict'] = 'Кориснички налог са истим именом већ постоји';
 $L['valid_pseudonym_empty_destination'] = 'One element must be set at least';
 $L['SharedMailbox_selector_label'] = '${0} (shared mailbox)';
-$L['Yes'] = 'Yes';
-$L['No'] = 'No';
+$L['Yes'] = 'Да';
+$L['No'] = 'Не';

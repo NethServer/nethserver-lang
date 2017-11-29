@@ -1,7 +1,7 @@
 <?php 
 
-$L['DhcpRangeEnd_label'] = 'IP range end';
-$L['DhcpRangeStart_label'] = 'IP range start';
+$L['DhcpRangeEnd_label'] = 'IP intervall slut';
+$L['DhcpRangeStart_label'] = 'IP intervall början';
 $L['Dhcp_Configure_header'] = 'Enable DHCP server on interfaces';
 $L['Dhcp_Title'] = 'DHCP'; 
 $L['Dhcp_Description'] = 'Configure DHCP server'; 
@@ -29,7 +29,7 @@ $L['Key_label'] = 'Host name';
 $L['DhcpAdvanced_label'] = 'Advanced options';
 $L['DhcpGatewayIP_label'] = 'Gateway IP';
 $L['DhcpLeaseTime_label'] = 'Lease time';
-$L['DhcpDomain_label'] = 'Domain';
+$L['DhcpDomain_label'] = 'Domän';
 $L['DhcpDNS_label'] = 'DNS servers';
 $L['DhcpWINS_label'] = 'WINS servers';
 $L['DhcpNTP_label'] = 'NTP servers';

@@ -36,7 +36,7 @@ $L['tcp,udp_label'] = 'TCP, UDP';
 $L['TrafficShaping_Description'] = 'Διαχείρηση διαμόρφωση κίνησης';
 $L['TrafficShaping_Tags'] = 'tc traffic shaping shape qos';
 $L['TrafficShaping_Title'] = 'Διαμόρφωση Κίνησης';
-$L['TrafficShaping_General_header'] = 'Traffic shaping';
+$L['TrafficShaping_General_header'] = 'Διαμόρφωση Κίνησης';
 $L['udp_label'] = 'UDP';
 $L['PickSource_label'] = 'Επιλογή πηγής...';
 

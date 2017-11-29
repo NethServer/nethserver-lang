@@ -24,26 +24,26 @@ $L['GenerateLe_Header'] = 'Request a new Let\'s Encrypt certificate';
 $L['Generate_Header'] = 'Edit self-signed certificate';
 $L['Upload_Header'] = 'Upload a certificate file to the server';
 
-$L['Show_label'] = 'Show';
+$L['Show_label'] = 'Voir';
 $L['Show_header'] = 'Show certificate ${0}';
 $L['SetDefault_label'] = 'Set as default';
 
-$L['Key_label'] = 'Name';
+$L['Key_label'] = 'Nom';
 $L['Issuer_label'] = 'Issuer';
 $L['ExpireDate_label'] = 'Expires';
 $L['Actions_label'] = 'Actions';
-$L['Default_label'] = 'Default';
+$L['Default_label'] = 'Défaut';
 $L['Confirm_label'] = 'Confirm';
 $L['default_cert_label'] = 'Set selected certificate as default?';
-$L['certificate_label'] = 'Certificate';
+$L['certificate_label'] = 'Certificat';
 
 $L['LetsEncryptMail_label'] = 'Notification email';
-$L['LetsEncryptDomains_label'] = 'Domains';
+$L['LetsEncryptDomains_label'] = 'Domaines';
 
-$L['UploadCrt_label'] = 'Certificate';
+$L['UploadCrt_label'] = 'Certificat';
 $L['UploadKey_label'] = 'Private key';
 $L['UploadChain_label'] = 'Chain file (optional)';
-$L['UploadName_label'] = 'Name';
+$L['UploadName_label'] = 'Nom';
 
 $L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 certificate';
 $L['valid_platform,rsa-key,rsa-key,1'] = 'Private RSA key';

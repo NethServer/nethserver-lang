@@ -2,8 +2,8 @@
 
 $L['SharedMailbox_create_header'] = 'Create a new shared mailbox';
 $L['SharedMailbox_modify_header'] = 'Edit the shared mailbox `${0}`';
-$L['Name_label'] = 'Name';
-$L['Key_label'] = 'Mailbox';
+$L['Name_label'] = 'Név';
+$L['Key_label'] = 'Postafiók';
 $L['OwnersSelector_label'] = 'Owner groups';
 $L['Owners_label'] = 'Owner groups';
 $L['Others_label'] = 'Special access';

@@ -2,14 +2,14 @@
 # This file is put in the public domain.
 # 
 # Translators:
-# liviu iordache <liviu_marian_iordache@yahoo.com>, 2017
+# liviu iordache <liviu.marian.iordache@gmail.com>, 2017
 # rox roxor <ceardaaa@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
 "POT-Creation-Date: 2015-03-11 16:20+0100\n"
-"PO-Revision-Date: 2017-09-23 22:17+0000\n"
+"PO-Revision-Date: 2017-11-29 15:19+0000\n"
 "Last-Translator: Sebastian\n"
 "Language-Team: Romanian (http://www.transifex.com/nethserver/nethserver/language/ro/)\n"
 "MIME-Version: 1.0\n"

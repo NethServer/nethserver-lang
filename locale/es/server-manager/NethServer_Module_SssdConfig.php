@@ -6,7 +6,7 @@ $L['SssdConfig_Tags'] = 'sssd dominio cuenta usuario grupo ldap kerberos directo
 
 $L['valid_platform,ad-dns,srv_record,1'] = 'No se encuentra ningún controlador de dominio de Active Directory';
 
-$L['Select_Title'] = 'Eleccion de Backend';
+$L['Select_Title'] = 'Opción de backend';
 
 $L['LdapUri_label'] = 'URI de servidor LDAP';
 $L['BindProvider_label'] = 'Enlazar';
@@ -129,4 +129,4 @@ $L['LocalAdProviderDcChangeIp_label'] = 'Cambiar IP';
 $L['ChangeIPButton_label'] = 'Cambiar IP';
 $L['LocalAdProviderDcChangeIp_message1'] = 'Cambiar la IP del controlador de dominio puede causar problemas a los clientes de Active Directory. Si ellos usan un servidor de DNS externo, actualizelo para usar la nueva direccion IP';
 $L['dcChangeIpSuccess_notification'] = 'IP del controlador de dominio se cambio exitosamente';
-$L['AdNsSambaRpmVersion_label'] = 'Samba DC version';
+$L['AdNsSambaRpmVersion_label'] = 'Version Samba DC';

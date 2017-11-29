@@ -11,3 +11,4 @@ $L['TransportType_Reject_label'] = 'Respinge';
 $L['TransportType_Relay_label'] = 'Transfer la alt server'; 
 $L['Update domain `${0}`'] = 'Actualizează domeniul `$ {0}`'; 
 $L['domain_label'] = 'Domeniu';
+$L['valid_relay_notprimarydomain'] = 'Domeniul cutiei poștale locale nu poate fi retransmis';

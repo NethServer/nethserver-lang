@@ -25,5 +25,5 @@ $L['Upload_label'] = 'Nahrát';
 $L['Upload_Header'] = 'Nahrát';
 $L['UploadArc_label'] = 'Upload tunnel client configuration';
 $L['Remote_label'] = 'Připojení ke vzdálenému serveru';
-$L['Remote_advanced_label'] = 'Extra connection rules';
+$L['Remote_advanced_label'] = 'Další pravidla pro spojení';
 $L['RemoteExtra_label'] = 'Formát: <red_interface> <remote_host_address> <remote_host_port> <protocol>';

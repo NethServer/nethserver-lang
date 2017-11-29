@@ -3,7 +3,7 @@
 $L['${0} day'] = '${0} den'; 
 $L['${0} days'] = '${0} dnů';
 $L['AlwaysBccStatus_label'] = 'Vždy poslat skrytou kopii (Bcc)';
-$L['AlwaysBccAddress_label'] = 'Always send a copy (Bcc)';
+$L['AlwaysBccAddress_label'] = 'Vždy poslat skrytou kopii (Bcc)';
 $L['Message_Title'] = 'Zprávy'; 
 $L['Messages to domain ${0}'] = 'Zprávy @${0}'; 
 $L['Messages to this domain'] = 'Zprávy do této domény'; 

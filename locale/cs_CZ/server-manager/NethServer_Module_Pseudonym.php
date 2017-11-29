@@ -2,7 +2,7 @@
 
 $L['Access_label'] = 'Pouze místní síť';
 $L['Account_label'] = 'Cíle';
-$L['Pseudonym_create_header'] = 'Create a new mail alias';
+$L['Pseudonym_create_header'] = 'Vytvořit nový alternativní e-mail';
 $L['Current_label'] = 'Stávající výběr'; 
 $L['Description_label'] = 'Popis'; 
 $L['Pseudonym_update_header'] = 'Edit mail alias `${0}`';

@@ -1,6 +1,6 @@
 <?php
 
-$L['model_label'] = 'Model';
+$L['model_label'] = 'Modell';
 $L['ups_status_label'] = 'Status';
 $L['nut_title'] = 'UPS';
 $L['enabled_label'] = 'Enable';
@@ -12,7 +12,7 @@ $L['ups_status_label'] = 'Status';
 $L['Password_label'] = 'Password';
 $L['Master_label'] = 'Master server address';
 $L['Model_label'] = 'Driver';
-$L['Device_label'] = 'Device';
+$L['Device_label'] = 'Enhet';
 $L['SearchModel_label'] = 'Search driver for model';
 $L['Slave_password_label'] = 'Password for slaves: ${0}';
 $L['Type_usb_label'] = 'Usb connection';

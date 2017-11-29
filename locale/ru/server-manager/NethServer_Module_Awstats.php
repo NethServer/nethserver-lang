@@ -1,12 +1,12 @@
 <?php
 $L['Awstats_Title'] = 'Web Statistic';
-$L['Settings_Title'] = 'Settings';
-$L['Statistics_Title'] = 'Statistics';
+$L['Settings_Title'] = 'Настройки';
+$L['Statistics_Title'] = 'Статистика';
 $L['AwstatsStatistics_Title'] = 'Consult Web Statistics';
 $L['VirtualhostsStatistics_label'] = 'Virtualhost statistics';
 $L['Virtualhosts_label'] = 'Virtualhosts';
-$L['AwstatsDomainURL_label'] = 'Domains';
-$L['status_label'] = 'Status';
+$L['AwstatsDomainURL_label'] = 'Домены';
+$L['status_label'] = 'Состояние';
 $L['access_private_label'] = 'Consult statistic pages only from your LAN';
 $L['access_public_label'] = 'Consult statistic pages outside of your LAN';
 $L['Minute_label'] = 'Run analysis each minute';
@@ -41,3 +41,4 @@ $L['MaxNbOfKeywordsShown_label'] = 'Max. number of keywords show';
 $L['MinHitKeyword_label'] = 'Only show keywords with min. hits';
 $L['DnsLookup_label'] = 'Report host by name (DnsLookup)';
 $L['GeoIP_label'] = 'Report host by country (GeoIP database)';
+$L['Must be a user name'] = '"${0}" is not a valid user name';

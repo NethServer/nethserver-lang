@@ -11,3 +11,4 @@ $L['TransportType_Reject_label'] = 'Rechazar';
 $L['TransportType_Relay_label'] = 'Retransmitir a otro servidor'; 
 $L['Update domain `${0}`'] = 'Actualizar dominio  `${0}` '; 
 $L['domain_label'] = 'Dominio';
+$L['valid_relay_notprimarydomain'] = 'El dominio del correo local no se puede retransmitir';

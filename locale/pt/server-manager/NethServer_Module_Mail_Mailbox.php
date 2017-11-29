@@ -12,6 +12,6 @@ $L['QuotaStatus_enabled_label'] = 'Aplicar quota';
 $L['Spam messages handling'] = 'Manipulação das mensagens de spam'; 
 $L['SpamFolder_label'] = 'Move to "${0}" folder';
 $L['TlsSecurity_label'] = 'Permitir ligações não cifradas';
-$L['Privileged access'] = 'Privileged access';
+$L['Privileged access'] = 'Acesso privilegiado';
 $L['AdminIsMaster_label'] = 'Root can log in as another user';
 $L['ever'] = 'sempre'; 

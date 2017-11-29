@@ -6,5 +6,5 @@ $L['SmartHostPassword_label'] = 'Password';
 $L['SmartHostPort_label'] = 'Port'; 
 $L['SmartHostStatus_label'] = 'Send mail using a smarthost'; 
 $L['SmartHostTlsStatus_label'] = 'Allow unencrypted connections';
-$L['SmartHostUsername_label'] = 'Username';
+$L['SmartHostUsername_label'] = 'Användarnamn';
 $L['SmartHost_Action'] = 'Send mail using a smarthost';

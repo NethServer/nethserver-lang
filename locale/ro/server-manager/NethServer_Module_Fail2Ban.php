@@ -1,5 +1,6 @@
 <?php
 $L['Fail2Ban_Title'] = 'Fail2ban';
+$L['Fail2Ban_Description'] = 'Protejează-ți server-ul de atacurile de tip brute-force';
 $L['Fail2BanSettings_Title'] = 'Serviciu';
 $L['Fail2Ban_header'] = 'Setări serviciu';
 $L['Fail2BanUnban_Title'] = 'Listă neagră';
@@ -65,3 +66,5 @@ $L['Urbackup_status_label'] = 'Autentificare Urbackup';
 $L['ApachePhpMyAdmin_status_label'] = 'Autentificare PhpMyAdmin';
 $L['OpenVpnAuth_status_label'] = 'Autentificare OpenVPN';
 $L['VPNStatus_label'] = 'Jails VPN';
+$L['Not an IP'] = '"${0}" nu este un IP';
+$L['Not an email'] = '"${0}" nu este un email';

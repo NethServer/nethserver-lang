@@ -6,20 +6,20 @@ $L['SssdConfig_Tags'] = 'sssd domein account gebruiker groep ldap kerberos activ
 
 $L['valid_platform,ad-dns,srv_record,1'] = 'Could not find an Active Directory domain controller';
 
-$L['Select_Title'] = 'Backend choice';
+$L['Select_Title'] = 'Backend keuze';
 
 $L['LdapUri_label'] = 'LDAP server URI';
 $L['BindProvider_label'] = 'Bind';
-$L['NetbiosDomain_label'] = 'NetBIOS domain';
+$L['NetbiosDomain_label'] = 'NetBIOS domein';
 
-$L['login_label'] = 'Privileged user name';
-$L['password_label'] = 'Password';
-$L['Join_label'] = 'Join';
-$L['Authenticate_header'] = 'Join the AD domain with privileged user credentials';
+$L['login_label'] = 'Gebruikersnaam met admin rechten';
+$L['password_label'] = 'Wachtwoord';
+$L['Join_label'] = 'Toevoegen';
+$L['Authenticate_header'] = 'Voeg toe aan het AD domein met admin gebruikers rechten';
 
 $L['Wizard_header'] = 'Configure users and groups for domain ${0}';
 $L['Local_header'] = 'Install a local accounts provider';
-$L['Install_label'] = 'Install';
+$L['Install_label'] = 'Installeer';
 $L['Bind_label'] = 'Bind';
 
 
@@ -37,7 +37,7 @@ $L['ChooseAd_joindc'] = 'Become a DC of an existing domain';
 $L['ChooseAd_newforest'] = 'Initialize a new domain and become DC';
 $L['configAdJoinMember_label'] = 'Join a domain';
 $L['configAdJoinDc_label'] = 'Add DC to domain';
-$L['configAdNewDomain_label'] = 'Create a new domain';
+$L['configAdNewDomain_label'] = 'Maak een nieuw domein';
 
 $L['LocalLdapProvider_header'] = 'LDAP local accounts provider for ${0}';
 $L['RemoteLdapProvider_header'] = 'LDAP remote accounts provider for ${0}';
@@ -48,7 +48,7 @@ $L['configLdapRemote_label'] = 'Bind remotely';
 $L['configLdapLocal_label'] = 'Install locally';
 
 $L['LdapRemoteIpAddress_label'] = 'Host name or IP';
-$L['LdapRemoteTcpPort_label'] = 'TCP port';
+$L['LdapRemoteTcpPort_label'] = 'TCP poort';
 $L['LdapRemoteIp_header'] = 'Bind to a remote LDAP server';
 $L['LdapRemoteBind_label'] = 'Check configuration';
 $L['probeLdapSuccess_warning'] = 'Review and save the LDAP settings to finish the configuration';
@@ -96,14 +96,14 @@ $L['AdDns_label'] = 'AD DNS server';
 $L['AdRealm_label'] = 'DNS domain name';
 $L['AdWorkgroup_label'] = 'NetBIOS domain name';
 $L['AdJoinMemberCredentials_label'] = 'Credentials for joining the domain';
-$L['AdUsername_label'] = 'User name';
-$L['AdPassword_label'] = 'Password';
-$L['AdJoinMember_label'] = 'Join';
+$L['AdUsername_label'] = 'Gebruikersnaam';
+$L['AdPassword_label'] = 'Wachtwoord';
+$L['AdJoinMember_label'] = 'Toevoegen';
 
 $L['RemoteAdProvider_header'] = 'Active Directory remote accounts provider for ${0}';
 $L['AdNewDomain_header'] = 'Create a new Active Directory domain';
 $L['AdJoinMemberError_label'] = 'Failed to join Active Directory (${0})';
-$L['Save_label'] = 'Save';
+$L['Save_label'] = 'Opslaan';
 $L['RemoteProviderUnbind_label'] = 'Unbind...';
 $L['RemoteProviderUnbind_header'] = 'Unbind accounts provider';
 $L['RemoteProviderUnbind_message'] = 'Any user and group account defined by the remote accounts provider will no longer be available.';

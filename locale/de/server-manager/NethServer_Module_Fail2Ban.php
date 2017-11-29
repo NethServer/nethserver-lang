@@ -1,5 +1,6 @@
 <?php
 $L['Fail2Ban_Title'] = 'Fail2ban';
+$L['Fail2Ban_Description'] = 'Server vor Brute-Force Attacken schützen';
 $L['Fail2BanSettings_Title'] = 'Dienst';
 $L['Fail2Ban_header'] = 'Diensteinstellungen';
 $L['Fail2BanUnban_Title'] = 'Blacklist';
@@ -65,3 +66,5 @@ $L['Urbackup_status_label'] = 'Urbackup Auth';
 $L['ApachePhpMyAdmin_status_label'] = 'PhpMyAdmin Authentifizierung';
 $L['OpenVpnAuth_status_label'] = 'OpenVPN Auth';
 $L['VPNStatus_label'] = 'VPN Sperren';
+$L['Not an IP'] = '"${0}" ist keine IP';
+$L['Not an email'] = '"${0}" ist kein E-Mail';

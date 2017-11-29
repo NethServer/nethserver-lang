@@ -2,13 +2,14 @@
 # This file is put in the public domain.
 # 
 # Translators:
+# Pavel Borecki <pavel.borecki@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: nethserver@googlegroups.com\n"
 "POT-Creation-Date: 2015-10-08 15:44+0200\n"
-"PO-Revision-Date: 2015-10-08 14:13+0000\n"
-"Last-Translator: Giacomo Sanchietti <giacomo.samchietti@nethesis.it>\n"
+"PO-Revision-Date: 2017-11-29 15:21+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech (Czech Republic) (http://www.transifex.com/nethserver/nethserver/language/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,4 +21,4 @@ msgstr ""
 msgid ""
 "Please access WebTop to change password for the admin user. Default password"
 " is: \"admin\""
-msgstr ""
+msgstr "Přejděte do WebTop a změňte heslo pro správce (účet admin). Výchozí heslo je: „admin“"

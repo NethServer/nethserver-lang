@@ -1,12 +1,12 @@
 <?php
 $L['Php56_Title'] = 'Php V5.6 SCL';
-$L['Php56AdjustableValues_Title'] = 'Manage the Php56 Settings';
-$L['AllowUrlFopen_label'] = 'Allow php access to remote files';
+$L['Php56AdjustableValues_Title'] = 'Spravovat nastavení Php56';
+$L['AllowUrlFopen_label'] = 'Umožnit php přístup ke vzdáleným souborům';
 $L['Php memory limit (${0})'] = 'Maximum of available memory (${0})';
-$L['Maximum upload file size (${0})'] = 'Maximum upload file size (${0})';
+$L['Maximum upload file size (${0})'] = 'Nejvyšší umožněná velikost nahrávaného souboru (${0})';
 $L['Maximum post size (${0})'] = 'Maximum size of post data allowed (${0})';
 $L['Maximum execution time (${0})'] = 'Maximum execution time of scripts (${0})';
-$L['Maximum number of files (${0})'] = 'Maximum number of uploaded files (${0})';
+$L['Maximum number of files (${0})'] = 'Maximální počet odeslaných souborů (${0})';
 $L['Maximum input time (${0})'] = 'Maximální čas na zpracování (parse) vstupních dat (${0})';
 $L['MemoryLimit_label'] = 'Varovný limit paměti';
 $L['MemoryLimitLabelMustBeSuperiorThanPostMaxSize'] = 'The Maximum of available memory must be superior than the Maximum size of post data allowed';
@@ -15,5 +15,5 @@ $L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'The Maximum size of post dat
 $L['default'] = 'výchozí';
 $L['${0} MB'] = '${0} megabajtů';
 $L['${0} seconds'] = '${0} sekund';
-$L['Php56MemoryLimit_label'] = 'Memory limit errors';
+$L['Php56MemoryLimit_label'] = 'Chyby limitu paměti';
 $L['Php56PostMaxSize_label'] = 'Post maximum size errors';

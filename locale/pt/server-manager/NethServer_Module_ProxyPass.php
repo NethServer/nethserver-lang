@@ -3,11 +3,11 @@
 $L['ProxyPass_Description'] = 'Configure reverse proxy';
 $L['ProxyPass_Tags'] = 'reverse proxy proxypass proxy pass';
 $L['ProxyPass_Title'] = 'Reverse proxy';
-$L['Key_label'] = 'Name';
-$L['Name_label'] = 'Name';
+$L['Key_label'] = 'Nome';
+$L['Name_label'] = 'Nome';
 $L['Target_label'] = 'Target URL';
 $L['Protocol_label'] = 'Protocols';
-$L['HTTP_label'] = 'Require SSL encrypted connection';
+$L['HTTP_label'] = 'Exige ligação cifrada SSL';
 $L['HTTPS_label'] = 'HTTPS';
 $L['ValidFrom_label'] = 'Access from CIDR networks';
 $L['Update proxy pass `${0}`'] = 'Update reverse proxy `${0}`';

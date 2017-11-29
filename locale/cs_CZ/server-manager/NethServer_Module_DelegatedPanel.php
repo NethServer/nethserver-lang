@@ -2,7 +2,7 @@
 $L['DelegatedPanel_Title'] = 'Delegování autority';
 $L['DelegatedPanel_Description'] = 'Pověřit skupiny nebo uživatele správou systému';
 $L['AdminAllPanels_label'] = 'Delegate all panels';
-$L['AdminPanels_label'] = 'Delegate each panel';
+$L['AdminPanels_label'] = 'Delegovat každý z panelů';
 $L['AdminTodo'] = 'Zprávy seznamu úkolů správce';
 $L['BackupConfig'] = 'Nastavení zálohování';
 $L['BackupData'] = 'Zálohování dat';

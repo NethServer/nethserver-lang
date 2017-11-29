@@ -1,6 +1,6 @@
 <?php
 $L['ClamScan_Title'] = 'Virový skener';
-$L['ClamScan_Description'] = 'clamscan - scan files and directories for viruses';
+$L['ClamScan_Description'] = 'clamscan – skenovat soubory a složky na viry';
 $L['ClamScan_header'] = 'Skenovat soubory a složky na viry';
 $L['status_label'] = 'Zapnout skenování souborového systému';
 $L['FilesystemScan_daily_label'] = 'Provést denní sken';
@@ -37,7 +37,7 @@ $L['SATURDAY'] = 'sobota';
 $L['SUNDAY'] = 'neděle';
 $L['JobHour_label'] = 'Hodina';
 $L['JobDay_label'] = 'Den';
-$L['Freshclam_label'] = 'Refresh Database Now';
+$L['Freshclam_label'] = 'Znovunačíst databázi';
 $L['ClamScan_label'] = 'Skenovat souborový systém nyní';
 $L['AlgoDetection_label'] = 'algoritmická detekce poskytuje přesná zjištění';
 $L['BlockMacros_label'] = 'Mark OLE2 files containing VBA macros as viruses';
@@ -74,7 +74,7 @@ $L['IncludePua_label'] = 'PUA Database';
 $L['Signatures_label'] = 'Virus Database (might give false positives)';
 $L['Quarantine_Title'] = 'Izolace';
 $L['Restore_header'] = 'Obnovit soubory z karantény';
-$L['Restore_label'] = 'Refresh/Restore files';
+$L['Restore_label'] = 'Znovu načíst / obnovit soubory';
 $L['RestoreAll_label'] = 'Obnovit veškeré soubory';
 $L['restore_label'] = 'Tyto soubory jsou obnovitelné z karantény';
 $L['ListQuarantinedFiles_label'] = 'File list in /var/spool/clamav/quarantine';

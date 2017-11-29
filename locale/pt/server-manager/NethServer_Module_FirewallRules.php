@@ -69,8 +69,8 @@ $L['NoRulesDefined_label'] = 'Não está definida qualquer regra. Crie a primeir
 
 $L['any_service_label'] = 'qualquer serviço';
 $L['any_src_dst_label'] = 'qualquer máquina';
-$L['Time_always'] = 'Always';
-$L['Type_any_label'] = 'any';
+$L['Time_always'] = 'Sempre';
+$L['Type_any_label'] = 'qualquer';
 $L['Type_fw_label'] = 'firewall';
 $L['host_label'] = 'máquina';
 $L['zone_label'] = 'zona';
@@ -103,8 +103,8 @@ $L['ActionLog_label'] = 'Log';
 $L['ShowAction_label'] = 'Show';
 $L['ShowRules_label'] = 'Firewall';
 $L['ShowRoutes_label'] = 'Policy routing';
-$L['ShowServices_label'] = 'Network services';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping';
+$L['ShowServices_label'] = 'Serviços de rede';
+$L['ShowTrafficShaping_label'] = 'Prioridades de tráfego de dados';
 
 $L['ActionPriorityHigh_label'] = 'High priority';
 $L['ActionPriorityLow_label'] = 'Low priority';

@@ -1,7 +1,7 @@
 <?php
 
 $L['PhpScl_Title'] = 'Php Software collection';
-$L['Status_label'] = 'Enable web access';
+$L['Status_label'] = 'Activar acesso web';
 $L['PhpVersion_label'] = 'Select the php Version for this Ibay';
 $L['PhpVersion_default_label'] = 'Default Php version';
 $L['PhpVersion_php56_label'] = 'Php 56 version';

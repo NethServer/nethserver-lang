@@ -41,3 +41,4 @@ $L['MaxNbOfKeywordsShown_label'] = 'Número máximo de palabras clave a mostrar'
 $L['MinHitKeyword_label'] = 'Mostrar sólo palabras clave con la menor cantidad de accesos';
 $L['DnsLookup_label'] = 'Reporte por nombre de host (DnsLookup)';
 $L['GeoIP_label'] = 'Reporte de host por país (Base de datos de GeoIP)';
+$L['Must be a user name'] = '"${0}" no es un nombre de usuario válido';

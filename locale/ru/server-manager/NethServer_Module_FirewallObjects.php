@@ -82,10 +82,10 @@ $L['TimeStop_label'] = 'Time stop';
 $L['WeekDays_label'] = 'Days of the week';
 $L['TimeStop_compare_TimeStart_message'] = 'Value must be greater than "Time start" (${0})';
 
-$L['WeekDay_Sun_label'] = 'Sunday';
-$L['WeekDay_Mon_label'] = 'Monday';
-$L['WeekDay_Tue_label'] = 'Tuesday';
-$L['WeekDay_Wed_label'] = 'Wednesday';
-$L['WeekDay_Thu_label'] = 'Thursday';
-$L['WeekDay_Fri_label'] = 'Friday';
-$L['WeekDay_Sat_label'] = 'Saturday';
+$L['WeekDay_Sun_label'] = 'Воскресенье';
+$L['WeekDay_Mon_label'] = 'Понедельник';
+$L['WeekDay_Tue_label'] = 'Вторник';
+$L['WeekDay_Wed_label'] = 'Среда';
+$L['WeekDay_Thu_label'] = 'Четверг';
+$L['WeekDay_Fri_label'] = 'Пятница';
+$L['WeekDay_Sat_label'] = 'Суббота';

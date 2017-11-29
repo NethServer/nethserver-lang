@@ -1,22 +1,22 @@
 <?php 
 
-$L['Delete_label'] = 'Delete';
-$L['Delete_Header'] = 'Delete message ${0}';
-$L['Delete_Message'] = 'Confirm deletion of message ${0}?';
+$L['Delete_label'] = 'Eliminar';
+$L['Delete_Header'] = 'Eliminar mensagem ${0}';
+$L['Delete_Message'] = 'Confirma a eliminação da mensagem ${0}?';
 $L['MailQueue_Description'] = 'Manage mail queue'; 
 $L['MailQueue_Tags'] = 'mail email queue postfix mailqueue'; 
 $L['MailQueue_Title'] = 'Mail queue'; 
-$L['AndXMore'] = '..and ${0} more';
-$L['Refresh_label'] = 'Refresh';
+$L['AndXMore'] = '...e mais ${0}';
+$L['Refresh_label'] = 'Actualizar';
 $L['Id_label'] = 'Id';
-$L['Sender_label'] = 'Sender';
-$L['Size_label'] = 'Size';
-$L['Timestamp_label'] = 'Date';
-$L['Recipients_label'] = 'Recipients';
-$L['Flush_label'] = 'Attempt to send';
-$L['Flush_Header'] = 'Attempt to send all queued messages';
-$L['Flush_Message'] = 'Try to send again all queued messages';
-$L['DeleteAll_label'] = 'Delete all';
-$L['DeleteAll_Header'] = 'Delete all';
-$L['DeleteAll_Message'] = 'Delete all queued messages (${0})';
+$L['Sender_label'] = 'Rementente';
+$L['Size_label'] = 'Tamanho';
+$L['Timestamp_label'] = 'Data';
+$L['Recipients_label'] = 'Destinatários';
+$L['Flush_label'] = 'A tentar enviar';
+$L['Flush_Header'] = 'A tentar enviar todas as mensagens na fila';
+$L['Flush_Message'] = 'A tentar reenviar todas as mensagens na fila';
+$L['DeleteAll_label'] = 'Apagar tudo';
+$L['DeleteAll_Header'] = 'Apagar tudo';
+$L['DeleteAll_Message'] = 'Apagar todas as mensagens da fila (${0})';
 

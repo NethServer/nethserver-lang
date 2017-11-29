@@ -2,7 +2,7 @@
 
 /* NethServer_Module_VPN_VPNAccounts translation, language: en */
 
-$L['bridged_label'] = 'Bridged';
+$L['bridged_label'] = 'Bridge-elt';
 $L['create_header_label'] = 'Új fiók létrehozása';
 $L['Key_label'] = 'Név';
 $L['name_label'] = 'Név';
@@ -11,7 +11,7 @@ $L['VPNRemoteNetwork_label'] = 'Hálózati címek';
 $L['RemoteNetwork_label'] = 'Remote network';
 $L['OpenVpnIp_label'] = 'Reserved IP';
 $L['RemoteNetwork_label'] = 'Remote network';
-$L['routed_label'] = 'Routed';
+$L['routed_label'] = 'Route-olt';
 $L['update_header_label'] = 'Modify account';
 $L['Accounts_Title'] = 'Roadwarrior accounts';
 $L['AccountType_label'] = 'Fiók típus';

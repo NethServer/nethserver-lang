@@ -1,10 +1,10 @@
 <?php
 
 $L['Modify_header'] = 'Edit preferences for `${0}`';
-$L['${0} day'] = 'one day'; 
+$L['${0} day'] = 'En dag'; 
 $L['${0} days'] = '${0} days'; 
 $L['Hold for ${0}'] = 'Hold for ${0}'; 
-$L['MailForwardAddress_label'] = 'Email addresses';
+$L['MailForwardAddress_label'] = 'Epostadresser';
 $L['MailForwardKeepMessageCopy_label'] = 'Keep a message copy on this server'; 
 $L['MailForwardStatus_label'] = 'Forward messages';
 $L['MailQuotaCustom_label'] = 'Custom mail quota';
@@ -16,10 +16,10 @@ $L['Unlimited_quota'] = 'Unlimited';
 $L['ever'] = 'ever';
 $L['CreateMailAddresses_label'] = 'Create default email addresses';
 $L['MailAddressList_label'] = 'Mail addresses';
-$L['Key_label'] = 'User';
+$L['Key_label'] = 'Användaren';
 $L['valid_mailbox_pseudonym_conflict'] = 'A mail alias with the same name already exists. Remove it first.';
 $L['valid_mailforward_address'] = '"${0}" is not a valid email address';
 $L['EditProfile_label'] = 'Edit profile';
-$L['MailAccess_label'] = 'Local network only';
+$L['MailAccess_label'] = 'Endast lokalt nätverk';
 $L['Yes'] = 'Yes';
 $L['No'] = 'No';

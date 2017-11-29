@@ -13,7 +13,7 @@ $L['BindProvider_label'] = 'Bind';
 $L['NetbiosDomain_label'] = 'NetBIOS domain';
 
 $L['login_label'] = 'Privileged user name';
-$L['password_label'] = 'Password';
+$L['password_label'] = 'Jelszó';
 $L['Join_label'] = 'Join';
 $L['Authenticate_header'] = 'Join the AD domain with privileged user credentials';
 
@@ -65,9 +65,9 @@ $L['UserDN_label'] = 'User DN';
 $L['GroupDN_label'] = 'Group DN';
 
 $L['StartTls_label'] = 'STARTTLS';
-$L['starttls_auto'] = 'Default';
-$L['starttls_enabled'] = 'Yes';
-$L['starttls_disabled'] = 'No';
+$L['starttls_auto'] = 'Alapértelmezett';
+$L['starttls_enabled'] = 'Igen';
+$L['starttls_disabled'] = 'Nem';
 
 $L['LdapLocalInstall_header'] = 'Install an OpenLDAP server';
 $L['LdapLocalInstall_message'] = 'Download and configure OpenLDAP server as local LDAP accounts provider';
@@ -96,8 +96,8 @@ $L['AdDns_label'] = 'AD DNS server';
 $L['AdRealm_label'] = 'DNS domain name';
 $L['AdWorkgroup_label'] = 'NetBIOS domain name';
 $L['AdJoinMemberCredentials_label'] = 'Credentials for joining the domain';
-$L['AdUsername_label'] = 'User name';
-$L['AdPassword_label'] = 'Password';
+$L['AdUsername_label'] = 'Felhasználó név';
+$L['AdPassword_label'] = 'Jelszó';
 $L['AdJoinMember_label'] = 'Join';
 
 $L['RemoteAdProvider_header'] = 'Active Directory remote accounts provider for ${0}';

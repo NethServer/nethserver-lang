@@ -4,7 +4,7 @@ $L['Account_Title'] = 'Usuários e grupos';
 $L['Account_Description'] = 'Gerenciar usuários e grupos, configurar a identidade do domínio e os provedores de autenticação';
 $L['Account_Tags'] = 'sssd usuário grupo reino domínio conta kerberos ldap';
 
-$L['AccountProvider_Error_1'] = 'Account provider generic error: SSSD exit code 1';
+$L['AccountProvider_Error_1'] = 'Erro genérico no Provedor de Contas: SSSD exit code 1';
 $L['AccountProvider_Error_22'] = 'Erro do provedor de conta: DN inválido. Verificar DN de base, DN de grupos e DN de usuários na configuração do provedor de contas';
 $L['AccountProvider_Error_32'] = 'Erro do provedor de conta: nenhuma entrada encontrada. Verifique as credenciais de vinculação LDAP e a base DN na configuração do provedor de Contas';
 $L['AccountProvider_Error_34'] = 'Erro do provedor de conta: senha de máquina inválida. Verifique se o servidor está corretamente unido a um domínio';

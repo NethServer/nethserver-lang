@@ -1,13 +1,13 @@
 <?php
 
 $L['phpsettings_Title'] = 'Nastavení PHP';
-$L['AllowUrlfOpen_label'] = 'Allow php access to remote files';
+$L['AllowUrlfOpen_label'] = 'Umožnit php přístup ke vzdáleným souborům';
 $L['Status_label'] = 'Umožnit přístup na web';
 $L['Php memory limit (${0})'] = 'Maximum of available memory (${0})';
-$L['Maximum upload file size (${0})'] = 'Maximum upload file size (${0})';
+$L['Maximum upload file size (${0})'] = 'Nejvyšší umožněná velikost nahrávaného souboru (${0})';
 $L['Maximum post size (${0})'] = 'Maximum size of post data allowed (${0})';
 $L['Maximum execution time (${0})'] = 'Maximum execution time of scripts (${0})';
-$L['Maximum file uploads (${0})'] = 'Maximum number of uploaded files (${0})';
+$L['Maximum file uploads (${0})'] = 'Maximální počet odeslaných souborů (${0})';
 $L['MemoryLimit_label'] = 'Varovný limit paměti';
 $L['MemoryLimitLabelMustBeSuperiorThanUpPostMaxSize'] = 'The Maximum of available memory must be superior than the Maximum size of post data allowed';
 $L['PostMaxSize_label'] = 'Post Maximum Limit Warning';
