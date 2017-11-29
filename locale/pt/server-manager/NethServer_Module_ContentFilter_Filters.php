@@ -14,5 +14,5 @@ $L['WhiteList_label'] = 'Activar lista branca global';
 $L['BlockFileTypes_label'] = 'Bloquear extensões de ficheiros';
 $L['key_exists_message'] = 'Já existe um filtro, perfil ou hora com o mesmo nome';
 $L['BlockBuiltinRules_label'] = 'Block porn sites by regular expressions on URL';
-$L['FilterKey_label'] = 'Filter';
+$L['FilterKey_label'] = 'Filtro';
 $L['valid_platform,squidguard-obj-delete,squidguard-referenced,3'] = 'Could not delete ${2}. This filter is currently used inside a profile.';

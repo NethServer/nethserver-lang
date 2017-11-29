@@ -37,4 +37,4 @@ $L['Changelog_label'] = 'Actualizări CHANGELOG';
 $L['ClearYumCache_label'] = 'Curăță cache-ul YUM';
 $L['ClearYumCache_description'] = 'Instalarea/actualizarea a eșuat datorită problemelor de caching metadata. Te rog curăță cache-ul dând click pe butonul de mai jos și reîncearcă operația de instalare/actualizare.';
 $L['An unknown installation error has occurred'] = 'A apărut o eroare necunoscută la instalare';
-$L['upgrade_available_message'] = 'The new distribution release ${nextRelease} is available. Review the updates before applying them!';
+$L['upgrade_available_message'] = 'Este disponibilă o nouă versiune a distribuției: ${nextRelease}. Revizuiește actualizările înainte de a le aplica!';

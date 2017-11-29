@@ -1,6 +1,6 @@
 <?php 
 
-$L['Delete_label'] = 'Delete';
+$L['Delete_label'] = 'Törlés';
 $L['Delete_Header'] = 'Delete message ${0}';
 $L['Delete_Message'] = 'Confirm deletion of message ${0}?';
 $L['MailQueue_Description'] = 'Manage mail queue'; 
@@ -10,8 +10,8 @@ $L['AndXMore'] = '..and ${0} more';
 $L['Refresh_label'] = 'Refresh';
 $L['Id_label'] = 'Id';
 $L['Sender_label'] = 'Sender';
-$L['Size_label'] = 'Size';
-$L['Timestamp_label'] = 'Date';
+$L['Size_label'] = 'Méret';
+$L['Timestamp_label'] = 'Dátum';
 $L['Recipients_label'] = 'Recipients';
 $L['Flush_label'] = 'Attempt to send';
 $L['Flush_Header'] = 'Attempt to send all queued messages';

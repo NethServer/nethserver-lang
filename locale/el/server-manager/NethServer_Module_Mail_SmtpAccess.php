@@ -1,8 +1,8 @@
 <?php 
 
-$L['SmtpAccess_Title'] = 'SMTP access';
-$L['SMTP connections policy'] = 'SMTP connections policy';
-$L['AccessBypassList_label'] = 'Allow relay from IP addresses';
-$L['AccessPolicyTrustedNetworks_label'] = 'Allow relay from trusted networks';
-$L['AccessPolicySmtpAuth_label'] = 'Enable authentication on port 25';
-$L['Advanced options'] = 'Advanced options';
+$L['SmtpAccess_Title'] = 'Πρόσβαση SMTP';
+$L['SMTP connections policy'] = 'Πολιτική συνδέσεων SMTP';
+$L['AccessBypassList_label'] = 'Να επιτρέπεται αναμετάδοση από διευθύνσεις IP';
+$L['AccessPolicyTrustedNetworks_label'] = 'Να επιτρέπεται αναμετάδοση από έμπιστα δίκτυα';
+$L['AccessPolicySmtpAuth_label'] = 'Ενεργοποίηση εξουσιοδότησης στην θύρα 25';
+$L['Advanced options'] = 'Επιλογές για προχωρημένους';

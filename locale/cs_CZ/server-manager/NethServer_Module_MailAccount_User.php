@@ -3,7 +3,7 @@
 $L['Modify_header'] = 'Upravit předvolby pro „${0}“';
 $L['${0} day'] = 'jeden den'; 
 $L['${0} days'] = '${0} dnů'; 
-$L['Hold for ${0}'] = 'Hold for ${0}'; 
+$L['Hold for ${0}'] = 'Zadržet na ${0}'; 
 $L['MailForwardAddress_label'] = 'E-mailové adresy';
 $L['MailForwardKeepMessageCopy_label'] = 'Zanechat kopii zprávy na tomto serveru'; 
 $L['MailForwardStatus_label'] = 'Přeposlat zprávy';

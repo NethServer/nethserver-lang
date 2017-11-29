@@ -3,8 +3,8 @@
 $L['ProxyPass_Description'] = 'Configure reverse proxy';
 $L['ProxyPass_Tags'] = 'reverse proxy proxypass proxy pass';
 $L['ProxyPass_Title'] = 'Reverse proxy';
-$L['Key_label'] = 'Name';
-$L['Name_label'] = 'Name';
+$L['Key_label'] = 'Név';
+$L['Name_label'] = 'Név';
 $L['Target_label'] = 'Target URL';
 $L['Protocol_label'] = 'Protocols';
 $L['HTTP_label'] = 'Require SSL encrypted connection';

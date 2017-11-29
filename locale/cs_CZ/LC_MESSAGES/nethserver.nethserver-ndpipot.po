@@ -23,4 +23,4 @@ msgstr "Modul pro dúkladnou prohlídku paketů (DPI) není k dispozici"
 
 #: root/etc/nethserver/todos.d/50ndpi:35
 msgid "Restart the system and select a Linux kernel with DPI module support"
-msgstr ""
+msgstr "Restartujte systém a vyberte linuxové jádro s podporou modulu DPI"

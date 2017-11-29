@@ -1,8 +1,8 @@
 <?php 
 
-$L['SmtpAccess_Title'] = 'SMTP access';
-$L['SMTP connections policy'] = 'SMTP connections policy';
-$L['AccessBypassList_label'] = 'Allow relay from IP addresses';
-$L['AccessPolicyTrustedNetworks_label'] = 'Allow relay from trusted networks';
-$L['AccessPolicySmtpAuth_label'] = 'Enable authentication on port 25';
-$L['Advanced options'] = 'Advanced options';
+$L['SmtpAccess_Title'] = 'Acesso SMTP';
+$L['SMTP connections policy'] = 'Política de ligações SMTP';
+$L['AccessBypassList_label'] = 'Permitir retransmissão a partir dos endereços IP';
+$L['AccessPolicyTrustedNetworks_label'] = 'Permitir retransmissão a partir de redes de confiança';
+$L['AccessPolicySmtpAuth_label'] = 'Activar autenticação no porto 25';
+$L['Advanced options'] = 'Opções avançadas';

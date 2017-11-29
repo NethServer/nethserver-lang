@@ -28,7 +28,7 @@ $L['Show_label'] = 'Show';
 $L['Show_header'] = 'Show certificate ${0}';
 $L['SetDefault_label'] = 'Set as default';
 
-$L['Key_label'] = 'Name';
+$L['Key_label'] = 'Namn';
 $L['Issuer_label'] = 'Issuer';
 $L['ExpireDate_label'] = 'Expires';
 $L['Actions_label'] = 'Actions';
@@ -38,12 +38,12 @@ $L['default_cert_label'] = 'Set selected certificate as default?';
 $L['certificate_label'] = 'Certificate';
 
 $L['LetsEncryptMail_label'] = 'Notification email';
-$L['LetsEncryptDomains_label'] = 'Domains';
+$L['LetsEncryptDomains_label'] = 'Domäner';
 
 $L['UploadCrt_label'] = 'Certificate';
 $L['UploadKey_label'] = 'Private key';
 $L['UploadChain_label'] = 'Chain file (optional)';
-$L['UploadName_label'] = 'Name';
+$L['UploadName_label'] = 'Namn';
 
 $L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 certificate';
 $L['valid_platform,rsa-key,rsa-key,1'] = 'Private RSA key';

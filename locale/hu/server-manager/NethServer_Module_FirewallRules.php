@@ -27,7 +27,7 @@ $L['ActionReject_label'] = 'Reject';
 $L['ActionAccept_label'] = 'Accept';
 $L['ActionDrop_label'] = 'Drop';
 $L['Source_label'] = 'Forrás';
-$L['Destination_label'] = 'Destination';
+$L['Destination_label'] = 'Cél';
 $L['Service_label'] = 'Szolgáltatás';
 $L['Time_label'] = 'Time condition';
 $L['PickSource_label'] = 'Pick one...';
@@ -69,19 +69,19 @@ $L['NoRulesDefined_label'] = 'No rules are defined. Create the first one now!';
 
 $L['any_service_label'] = 'any service';
 $L['any_src_dst_label'] = 'any host';
-$L['Time_always'] = 'Always';
+$L['Time_always'] = 'Mindíg';
 $L['Type_any_label'] = 'any';
 $L['Type_fw_label'] = 'firewall';
 $L['host_label'] = 'host';
 $L['zone_label'] = 'zone';
-$L['iprange_label'] = 'IP range';
+$L['iprange_label'] = 'IP tartomány';
 $L['cidr_label'] = 'CIDR network';
 $L['host-group_label'] = 'group';
 $L['role_label'] = 'interface';
 $L['confirm_reload_label'] = 'No change has been applied.';
 
 $L['FirewallObject_any_Title'] = 'Any';
-$L['FirewallObject_fw_Title'] = 'Firewall';
+$L['FirewallObject_fw_Title'] = 'Tűzfal';
 $L['FirewallObject_host_Title'] = 'Host ${key}';
 $L['FirewallObject_local_Title'] = 'LAN host ${key}';
 $L['FirewallObject_remote_Title'] = 'Host ${key}';
@@ -101,9 +101,9 @@ $L['ActionRouteIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Log';
 
 $L['ShowAction_label'] = 'Show';
-$L['ShowRules_label'] = 'Firewall';
+$L['ShowRules_label'] = 'Tűzfal';
 $L['ShowRoutes_label'] = 'Policy routing';
-$L['ShowServices_label'] = 'Network services';
+$L['ShowServices_label'] = 'Hálózati szolgáltatások';
 $L['ShowTrafficShaping_label'] = 'Traffic shaping';
 
 $L['ActionPriorityHigh_label'] = 'High priority';

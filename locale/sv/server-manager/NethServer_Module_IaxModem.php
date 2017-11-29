@@ -3,17 +3,17 @@
 /* NethServer_Module_IaxModem translation, language: en */
 
 
-$L['Key_label'] = 'Name'; 
+$L['Key_label'] = 'Namn'; 
 $L['IaxModem_Description'] = 'Configure IAX modems'; 
 $L['IaxModem_Tags'] = 'iax iax2 modem modems'; 
 $L['IaxModem_Title'] = 'IAX modems'; 
 $L['cidName_label'] = 'Caller name'; 
 $L['cidNumber_label'] = 'Caller number'; 
 $L['extension_label'] = 'Extension'; 
-$L['name_label'] = 'Name'; 
+$L['name_label'] = 'Namn'; 
 $L['server_label'] = 'Server IP'; 
 $L['mail_label'] = 'Mail'; 
-$L['mode_label'] = 'Mode'; 
+$L['mode_label'] = 'Läge'; 
 $L['mode_send_label'] = 'Send only'; 
 $L['mode_receive_label'] = 'Receive only'; 
 $L['mode_both_label'] = 'Send and receive'; 

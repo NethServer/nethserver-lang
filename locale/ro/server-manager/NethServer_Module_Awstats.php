@@ -41,3 +41,4 @@ $L['MaxNbOfKeywordsShown_label'] = 'Arată numărul maxim de cuvinte-cheie';
 $L['MinHitKeyword_label'] = 'Arată numai cuvintele-cheie cu numărul minim de accesări';
 $L['DnsLookup_label'] = 'Afișați gazda după nume (DnsLookup)';
 $L['GeoIP_label'] = 'Afișați gazda după țară (baza de date GeoIP)';
+$L['Must be a user name'] = '"${0}" nu este un nume de utilizator valid';

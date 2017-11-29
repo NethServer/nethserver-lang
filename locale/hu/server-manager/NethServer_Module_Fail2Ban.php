@@ -1,6 +1,7 @@
 <?php
 $L['Fail2Ban_Title'] = 'Fail2ban';
-$L['Fail2BanSettings_Title'] = 'Service';
+$L['Fail2Ban_Description'] = 'Protect your server from brute-force attacks';
+$L['Fail2BanSettings_Title'] = 'Szolgáltatás';
 $L['Fail2Ban_header'] = 'Service settings';
 $L['Fail2BanUnban_Title'] = 'Blacklist';
 $L['Fail2BanUnBan_header'] = 'Manage blocked IP';
@@ -10,8 +11,8 @@ $L['status_label'] = 'Enable the Service';
 $L['Maximum find time (${0})'] = 'Maximum find time (${0})';
 $L['${0} week'] = '${0} week';
 $L['${0} weeks'] = '${0} weeks';
-$L['${0} days'] = '${0} days';
-$L['${0} day'] = '${0} day';
+$L['${0} days'] = '${0} nap';
+$L['${0} day'] = '${0} nap';
 $L['${0} hours'] = '${0} hours';
 $L['${0} hour'] = '${0} hour';
 $L['${0} seconds'] = '${0} seconds';
@@ -65,3 +66,5 @@ $L['Urbackup_status_label'] = 'Urbackup Auth';
 $L['ApachePhpMyAdmin_status_label'] = 'PhpMyAdmin Auth';
 $L['OpenVpnAuth_status_label'] = 'OpenVPN Auth';
 $L['VPNStatus_label'] = 'VPN Jails';
+$L['Not an IP'] = '"${0}" is not an IP';
+$L['Not an email'] = '"${0}" is not an email';

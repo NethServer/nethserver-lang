@@ -6,21 +6,21 @@ $L['SssdConfig_Tags'] = 'sssd domain account user group ldap kerberos active dir
 
 $L['valid_platform,ad-dns,srv_record,1'] = 'Could not find an Active Directory domain controller';
 
-$L['Select_Title'] = 'Backend choice';
+$L['Select_Title'] = 'choix du fournisseur de compte ';
 
 $L['LdapUri_label'] = 'LDAP server URI';
-$L['BindProvider_label'] = 'Bind';
-$L['NetbiosDomain_label'] = 'NetBIOS domain';
+$L['BindProvider_label'] = 'liaison';
+$L['NetbiosDomain_label'] = 'domaine NetBIOS';
 
-$L['login_label'] = 'Privileged user name';
-$L['password_label'] = 'Password';
-$L['Join_label'] = 'Join';
-$L['Authenticate_header'] = 'Join the AD domain with privileged user credentials';
+$L['login_label'] = 'Nom d\'utilisateur privilégié ';
+$L['password_label'] = 'Mot de passe';
+$L['Join_label'] = 'Rejoindre';
+$L['Authenticate_header'] = 'Joindre le domaine AD avec l\'identifiant et le mot de passe d\'un utilisateur autorisé';
 
 $L['Wizard_header'] = 'Configure users and groups for domain ${0}';
 $L['Local_header'] = 'Install a local accounts provider';
-$L['Install_label'] = 'Install';
-$L['Bind_label'] = 'Bind';
+$L['Install_label'] = 'Installer';
+$L['Bind_label'] = 'liaison';
 
 
 $L['ChooseProvider_general'] = 'Users and groups are available through an accounts provider. You can connect this server to a remote accounts provider, or install a local one. Some features are available depending on the accounts provider type.';
@@ -37,7 +37,7 @@ $L['ChooseAd_joindc'] = 'Become a DC of an existing domain';
 $L['ChooseAd_newforest'] = 'Initialize a new domain and become DC';
 $L['configAdJoinMember_label'] = 'Join a domain';
 $L['configAdJoinDc_label'] = 'Add DC to domain';
-$L['configAdNewDomain_label'] = 'Create a new domain';
+$L['configAdNewDomain_label'] = 'Créer un nouveau domaine';
 
 $L['LocalLdapProvider_header'] = 'LDAP local accounts provider for ${0}';
 $L['RemoteLdapProvider_header'] = 'LDAP remote accounts provider for ${0}';
@@ -48,7 +48,7 @@ $L['configLdapRemote_label'] = 'Bind remotely';
 $L['configLdapLocal_label'] = 'Install locally';
 
 $L['LdapRemoteIpAddress_label'] = 'Host name or IP';
-$L['LdapRemoteTcpPort_label'] = 'TCP port';
+$L['LdapRemoteTcpPort_label'] = 'port TCP';
 $L['LdapRemoteIp_header'] = 'Bind to a remote LDAP server';
 $L['LdapRemoteBind_label'] = 'Check configuration';
 $L['probeLdapSuccess_warning'] = 'Review and save the LDAP settings to finish the configuration';
@@ -65,9 +65,9 @@ $L['UserDN_label'] = 'User DN';
 $L['GroupDN_label'] = 'Group DN';
 
 $L['StartTls_label'] = 'STARTTLS';
-$L['starttls_auto'] = 'Default';
-$L['starttls_enabled'] = 'Yes';
-$L['starttls_disabled'] = 'No';
+$L['starttls_auto'] = 'Défaut';
+$L['starttls_enabled'] = 'Oui';
+$L['starttls_disabled'] = 'Non';
 
 $L['LdapLocalInstall_header'] = 'Install an OpenLDAP server';
 $L['LdapLocalInstall_message'] = 'Download and configure OpenLDAP server as local LDAP accounts provider';
@@ -96,14 +96,14 @@ $L['AdDns_label'] = 'AD DNS server';
 $L['AdRealm_label'] = 'DNS domain name';
 $L['AdWorkgroup_label'] = 'NetBIOS domain name';
 $L['AdJoinMemberCredentials_label'] = 'Credentials for joining the domain';
-$L['AdUsername_label'] = 'User name';
-$L['AdPassword_label'] = 'Password';
-$L['AdJoinMember_label'] = 'Join';
+$L['AdUsername_label'] = 'Nom d\'utilisateur';
+$L['AdPassword_label'] = 'Mot de passe';
+$L['AdJoinMember_label'] = 'Rejoindre';
 
 $L['RemoteAdProvider_header'] = 'Active Directory remote accounts provider for ${0}';
 $L['AdNewDomain_header'] = 'Create a new Active Directory domain';
 $L['AdJoinMemberError_label'] = 'Failed to join Active Directory (${0})';
-$L['Save_label'] = 'Save';
+$L['Save_label'] = 'Sauvegarder';
 $L['RemoteProviderUnbind_label'] = 'Unbind...';
 $L['RemoteProviderUnbind_header'] = 'Unbind accounts provider';
 $L['RemoteProviderUnbind_message'] = 'Any user and group account defined by the remote accounts provider will no longer be available.';

@@ -82,10 +82,10 @@ $L['TimeStop_label'] = 'Time stop';
 $L['WeekDays_label'] = 'Days of the week';
 $L['TimeStop_compare_TimeStart_message'] = 'Value must be greater than "Time start" (${0})';
 
-$L['WeekDay_Sun_label'] = 'Sunday';
-$L['WeekDay_Mon_label'] = 'Monday';
-$L['WeekDay_Tue_label'] = 'Tuesday';
-$L['WeekDay_Wed_label'] = 'Wednesday';
-$L['WeekDay_Thu_label'] = 'Thursday';
-$L['WeekDay_Fri_label'] = 'Friday';
-$L['WeekDay_Sat_label'] = 'Saturday';
+$L['WeekDay_Sun_label'] = 'Κυριακή';
+$L['WeekDay_Mon_label'] = 'Δευτέρα';
+$L['WeekDay_Tue_label'] = 'Τρίτη';
+$L['WeekDay_Wed_label'] = 'Τετάρτη';
+$L['WeekDay_Thu_label'] = 'Πέμπτη';
+$L['WeekDay_Fri_label'] = 'Παρασκευή';
+$L['WeekDay_Sat_label'] = 'Σάββατο';

@@ -14,5 +14,5 @@ $L['WhiteList_label'] = 'Ενεργοποίηση καθολικής άσπρη�
 $L['BlockFileTypes_label'] = 'Αποκλεισμός επεκτάσεων αρχείων';
 $L['key_exists_message'] = 'Ένα φίλτρο, προφίλ ή ώρα με το ίδιο όνομα, υπάρχει';
 $L['BlockBuiltinRules_label'] = 'Αποκλεισμός ιστοσελίδων πορνό με regular expressions στο URL';
-$L['FilterKey_label'] = 'Filter';
+$L['FilterKey_label'] = 'Φίλτρο';
 $L['valid_platform,squidguard-obj-delete,squidguard-referenced,3'] = 'Could not delete ${2}. This filter is currently used inside a profile.';

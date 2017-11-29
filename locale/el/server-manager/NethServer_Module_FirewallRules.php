@@ -69,8 +69,8 @@ $L['NoRulesDefined_label'] = 'Δεν βρέθηκαν κανόνες. Δημιο
 
 $L['any_service_label'] = 'οποιαδήποτε υπηρεσία';
 $L['any_src_dst_label'] = 'Οποιοσδήποτε φορέας';
-$L['Time_always'] = 'Always';
-$L['Type_any_label'] = 'any';
+$L['Time_always'] = 'Πάντα';
+$L['Type_any_label'] = 'Οποιοσδήποτε';
 $L['Type_fw_label'] = 'firewall';
 $L['host_label'] = 'φορέας';
 $L['zone_label'] = 'ζώνη';
@@ -81,7 +81,7 @@ $L['role_label'] = 'διασύνδεση';
 $L['confirm_reload_label'] = 'Καμία αλλαγή δεν έχει εφαρμοστεί.';
 
 $L['FirewallObject_any_Title'] = 'Οποιοσδήποτε';
-$L['FirewallObject_fw_Title'] = 'Firewall';
+$L['FirewallObject_fw_Title'] = 'Τείχος προστασίας';
 $L['FirewallObject_host_Title'] = 'Φορέας ${key}';
 $L['FirewallObject_local_Title'] = 'Φορέας LAN ${key}';
 $L['FirewallObject_remote_Title'] = 'Φορέας ${key}';
@@ -103,8 +103,8 @@ $L['ActionLog_label'] = 'Ιστορικό';
 $L['ShowAction_label'] = 'Εμφάνιση';
 $L['ShowRules_label'] = 'Τείχος προστασίας';
 $L['ShowRoutes_label'] = 'Πολιτική δρομολόγησης';
-$L['ShowServices_label'] = 'Network services';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping';
+$L['ShowServices_label'] = 'Υπηρεσίες δικτύου';
+$L['ShowTrafficShaping_label'] = 'Διαμόρφωση Κίνησης';
 
 $L['ActionPriorityHigh_label'] = 'High priority';
 $L['ActionPriorityLow_label'] = 'Low priority';

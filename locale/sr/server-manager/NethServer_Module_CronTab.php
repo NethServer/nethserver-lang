@@ -59,5 +59,5 @@ $L['Advanced_disabled_label'] = 'Упрошћена подешавања';
 $L['Advanced_enabled_label'] = 'Напредна подешавања';
 $L['Mail_label_checkbox'] = 'Поштанско обавештење рут-у';
 $L['Service_key_exists_message'] = 'Ово име се већ користи';
-$L['Enabled_label'] = 'Enabled';
-$L['Disabled_label'] = 'Disabled';
+$L['Enabled_label'] = 'Омогућен';
+$L['Disabled_label'] = 'Онемогућен';

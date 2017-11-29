@@ -3,22 +3,22 @@
 /* NethServer_Module_VPN_VPNClients translation, language: en */
 
 $L['AuthMode_certificate_label'] = 'Certificate';
-$L['AuthMode_label'] = 'Authentication';
+$L['AuthMode_label'] = 'Autentisering';
 $L['AuthMode_password-certificate_label'] = 'User, password and certificate';
 $L['AuthMode_psk_label'] = 'Pre-shared key';
-$L['Mode_bridged_label'] = 'Bridged';
+$L['Mode_bridged_label'] = 'Bryggad';
 $L['create_header_label'] = 'Create new client';
 $L['Crt_label'] = 'Certificate content';
-$L['Key_label'] = 'Name';
-$L['Mode_label'] = 'Mode';
-$L['name_label'] = 'Name';
+$L['Key_label'] = 'Namn';
+$L['Mode_label'] = 'Läge';
+$L['name_label'] = 'Namn';
 $L['Password_label'] = 'Password';
 $L['Psk_label'] = 'Key';
 $L['RemoteHost_label'] = 'Remote hosts';
 $L['RemotePort_label'] = 'Remote port';
 $L['Mode_routed_label'] = 'Routed';
 $L['update_header_label'] = 'Modify client';
-$L['User_label'] = 'User';
+$L['User_label'] = 'Användaren';
 $L['Clients_Title'] = 'Tunnel clients';
 $L['Compression_label'] = 'Enable LZO compression';
 $L['Upload_label'] = 'Upload';

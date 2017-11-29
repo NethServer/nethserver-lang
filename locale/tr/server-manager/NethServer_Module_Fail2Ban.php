@@ -1,5 +1,6 @@
 <?php
 $L['Fail2Ban_Title'] = 'Fail2ban';
+$L['Fail2Ban_Description'] = 'Sunucunuzu Brute-Force saldırılarından koruyun';
 $L['Fail2BanSettings_Title'] = 'Hizmet';
 $L['Fail2Ban_header'] = 'Hizmet Ayarları';
 $L['Fail2BanUnban_Title'] = 'Kara Liste';
@@ -65,3 +66,5 @@ $L['Urbackup_status_label'] = 'Urbackup Auth';
 $L['ApachePhpMyAdmin_status_label'] = 'PhpMyAdmin Auth';
 $L['OpenVpnAuth_status_label'] = 'OpenVPN Kimlik Doğrulaması';
 $L['VPNStatus_label'] = 'VPN Jails';
+$L['Not an IP'] = '"${0}" bir IP adresi değil';
+$L['Not an email'] = '"${0}" bir e-posta adresi değil';

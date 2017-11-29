@@ -2,7 +2,7 @@
 $L['Awstats_Title'] = 'Webové statistiky';
 $L['Settings_Title'] = 'Nastavení';
 $L['Statistics_Title'] = 'Statistiky';
-$L['AwstatsStatistics_Title'] = 'Consult Web Statistics';
+$L['AwstatsStatistics_Title'] = 'Konzultovat webové statistiky';
 $L['VirtualhostsStatistics_label'] = 'Virtualhost statistics';
 $L['Virtualhosts_label'] = 'Virtualhosts';
 $L['AwstatsDomainURL_label'] = 'Domény';
@@ -41,3 +41,4 @@ $L['MaxNbOfKeywordsShown_label'] = 'Zobrazit nejvíce tolik klíčových slov';
 $L['MinHitKeyword_label'] = 'Only show keywords with min. hits';
 $L['DnsLookup_label'] = 'Report host by name (DnsLookup)';
 $L['GeoIP_label'] = 'Report host by country (GeoIP database)';
+$L['Must be a user name'] = '„${0}“ není platné uživatelské jméno';

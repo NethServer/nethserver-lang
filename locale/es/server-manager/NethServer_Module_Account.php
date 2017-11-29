@@ -4,7 +4,7 @@ $L['Account_Title'] = 'Usuarios y Grupos';
 $L['Account_Description'] = 'Administrar usuarios y grupos, configurar la identidad de dominio y proveedores de autenticación';
 $L['Account_Tags'] = 'sssd usuario grupo nombre dominio cuenta kerberos ldap';
 
-$L['AccountProvider_Error_1'] = 'Account provider generic error: SSSD exit code 1';
+$L['AccountProvider_Error_1'] = 'Error genérico del proveedor de cuenta: código de salida SSSD 1';
 $L['AccountProvider_Error_22'] = 'Proveedor de Cuenta - Error: DN no válido. Comprobar DN de base, DN de grupos y DN de usuarios en la configuración del proveedor de cuentas';
 $L['AccountProvider_Error_32'] = 'Error del proveedor de cuenta: no se encontraron registros. Compruebe las credenciales de enlace LDAP y el base DN en la configuración del proveedor de Cuentas';
 $L['AccountProvider_Error_34'] = 'Proveedor de Cuenta - Error: contraseña de máquina no válida. Compruebe que el servidor está correctamente unido a un dominio';

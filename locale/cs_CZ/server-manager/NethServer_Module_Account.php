@@ -1,10 +1,10 @@
 <?php
 
 $L['Account_Title'] = 'Uživatelé a skupiny';
-$L['Account_Description'] = 'Manage users and groups, configure the domain identity and authentication providers';
+$L['Account_Description'] = 'Spravovat uživatele a skupiny, nastavit poskytovatelů domény pro identitu a ověření';
 $L['Account_Tags'] = 'sssd user group realm domain account kerberos ldap';
 
-$L['AccountProvider_Error_1'] = 'Account provider generic error: SSSD exit code 1';
+$L['AccountProvider_Error_1'] = 'Obecná chyba poskytovatele účtů: SSSD skončilo s návratovým stavem 1';
 $L['AccountProvider_Error_22'] = 'Account provider error: invalid DN. Check Base DN, Groups DN and Users DN in Accounts provider configuration';
 $L['AccountProvider_Error_32'] = 'Account provider error: no entries found. Check the LDAP bind credentials and Base DN in Accounts provider configuration';
 $L['AccountProvider_Error_34'] = 'Account provider error: invalid machine password. Check the server is correctly joined to a domain';

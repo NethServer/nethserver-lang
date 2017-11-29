@@ -69,8 +69,8 @@ $L['NoRulesDefined_label'] = 'Не определены правила. Созд
 
 $L['any_service_label'] = 'любая служба';
 $L['any_src_dst_label'] = 'любой хост';
-$L['Time_always'] = 'Always';
-$L['Type_any_label'] = 'any';
+$L['Time_always'] = 'Всегда';
+$L['Type_any_label'] = 'любой';
 $L['Type_fw_label'] = 'firewall';
 $L['host_label'] = 'хост';
 $L['zone_label'] = 'зона';
@@ -81,7 +81,7 @@ $L['role_label'] = 'интерфейс';
 $L['confirm_reload_label'] = 'Нет примененных изменений.';
 
 $L['FirewallObject_any_Title'] = 'Любой';
-$L['FirewallObject_fw_Title'] = 'Firewall';
+$L['FirewallObject_fw_Title'] = 'Сетевой экран';
 $L['FirewallObject_host_Title'] = 'Хост ${key}';
 $L['FirewallObject_local_Title'] = 'Сетевой (LAN) хост ${key}';
 $L['FirewallObject_remote_Title'] = 'Хост ${key}';
@@ -103,8 +103,8 @@ $L['ActionLog_label'] = 'Лог';
 $L['ShowAction_label'] = 'Показать';
 $L['ShowRules_label'] = 'Сетевой экран';
 $L['ShowRoutes_label'] = 'Политика маршрутизации';
-$L['ShowServices_label'] = 'Network services';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping';
+$L['ShowServices_label'] = 'Сетевые службы';
+$L['ShowTrafficShaping_label'] = 'Ограничения полосы пропускания';
 
 $L['ActionPriorityHigh_label'] = 'High priority';
 $L['ActionPriorityLow_label'] = 'Low priority';

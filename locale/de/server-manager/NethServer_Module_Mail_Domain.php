@@ -11,3 +11,4 @@ $L['TransportType_Reject_label'] = 'Ablehnen';
 $L['TransportType_Relay_label'] = 'Weiterleiten auf anderen Server'; 
 $L['Update domain `${0}`'] = 'Aktualisiere Domäne `${0}`'; 
 $L['domain_label'] = 'Domäne';
+$L['valid_relay_notprimarydomain'] = 'Die lokale Mailbox kann nicht übermittelt werden';

@@ -41,3 +41,4 @@ $L['MaxNbOfKeywordsShown_label'] = 'Görüntülenecek en fazla anahtar sözcük 
 $L['MinHitKeyword_label'] = 'Yalnız en az ziyaret sayısı aşılan anahtar sözcükler görüntülensin';
 $L['DnsLookup_label'] = 'Sunucu adına göre rapor (DnsLookup)';
 $L['GeoIP_label'] = 'Ülkeye göre rapor (GeoIP database)';
+$L['Must be a user name'] = '"${0}" geçerli bir kullanıcı adı değil';

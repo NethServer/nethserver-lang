@@ -11,3 +11,4 @@ $L['TransportType_Reject_label'] = 'Odmítnout';
 $L['TransportType_Relay_label'] = 'Předávat na jiný server'; 
 $L['Update domain `${0}`'] = 'Aktualizovat doménu „${0}“'; 
 $L['domain_label'] = 'Doména';
+$L['valid_relay_notprimarydomain'] = 'The local mailbox domain cannot be relayed';

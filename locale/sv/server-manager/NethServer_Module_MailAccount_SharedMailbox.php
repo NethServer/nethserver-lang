@@ -2,7 +2,7 @@
 
 $L['SharedMailbox_create_header'] = 'Create a new shared mailbox';
 $L['SharedMailbox_modify_header'] = 'Edit the shared mailbox `${0}`';
-$L['Name_label'] = 'Name';
+$L['Name_label'] = 'Namn';
 $L['Key_label'] = 'Mailbox';
 $L['OwnersSelector_label'] = 'Owner groups';
 $L['Owners_label'] = 'Owner groups';
