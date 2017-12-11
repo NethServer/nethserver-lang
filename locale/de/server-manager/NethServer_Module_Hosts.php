@@ -27,3 +27,6 @@ $L['Create_Dns_Header'] = 'Erstelle neuen Hostname';
 $L['Update_Dns_Header'] = 'Aktualisiere Host Namen "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Konnte $(2) nicht löschen. Der Host wird von den Firewall-Regeln benutzt.';
 $L['Service_key_exists_message'] = 'Der Hostname wird bereits verwendet';
+$L['WildcardMode_label'] = 'wildcard dns record';
+$L['Enabled_label'] = 'aktivieren';
+$L['Disabled_label'] = 'Deaktivieren';

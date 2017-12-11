@@ -27,3 +27,6 @@ $L['Create_Dns_Header'] = 'Создать новую машину';
 $L['Update_Dns_Header'] = 'Обновить "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Невозможно удалить ${2}. Хост задействован в правилах сетевого экрана.';
 $L['Service_key_exists_message'] = 'Имя машины уже используется';
+$L['WildcardMode_label'] = 'wildcard dns record';
+$L['Enabled_label'] = 'Включено';
+$L['Disabled_label'] = 'Выключено';

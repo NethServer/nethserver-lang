@@ -27,3 +27,6 @@ $L['Create_Dns_Header'] = 'Vytvořit nový název stroje';
 $L['Update_Dns_Header'] = 'Aktualizovat název stroje „${0}“';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = '${2} není možné smazat. Stroje je používán v pravidlech brány firewall.';
 $L['Service_key_exists_message'] = 'Tento název je už používán jiným strojem na stejné síti';
+$L['WildcardMode_label'] = 'wildcard dns record';
+$L['Enabled_label'] = 'Zapnuto';
+$L['Disabled_label'] = 'Vypnuto';

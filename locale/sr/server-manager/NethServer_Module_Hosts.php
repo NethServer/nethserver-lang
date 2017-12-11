@@ -27,3 +27,6 @@ $L['Create_Dns_Header'] = 'Креирајте ново име домаћина';
 $L['Update_Dns_Header'] = 'Ажурирај име домаћина "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Не могу обрисати ${2}. Домаћин се користи у правилима заштитног зида.';
 $L['Service_key_exists_message'] = 'Име домаћина се већ користи';
+$L['WildcardMode_label'] = 'wildcard dns record';
+$L['Enabled_label'] = 'Омогућен';
+$L['Disabled_label'] = 'Онемогућен';

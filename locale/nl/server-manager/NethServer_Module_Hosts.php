@@ -27,3 +27,6 @@ $L['Create_Dns_Header'] = 'Creëer een nieuwe hostnaam';
 $L['Update_Dns_Header'] = 'Werk de hostnaam "${0}" bij';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Kan ${2} niet verwijderen. De host wordt gebruikt in firewall regels.';
 $L['Service_key_exists_message'] = 'De hostnaam is al in gebruik';
+$L['WildcardMode_label'] = 'wildcard dns record';
+$L['Enabled_label'] = 'Ingeschakeld';
+$L['Disabled_label'] = 'Uitgeschakeld';

@@ -27,3 +27,6 @@ $L['Create_Dns_Header'] = 'Créer un nouveau nom d\'hôte';
 $L['Update_Dns_Header'] = 'Mettre à jour le nom d\'hôte "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Ne peut supprimer ${2}. L\'hôte est utilisé par une règle du pare-feu.';
 $L['Service_key_exists_message'] = 'Ce nom d\'hôte est déjà utilisé';
+$L['WildcardMode_label'] = 'wildcard dns record';
+$L['Enabled_label'] = 'Activé';
+$L['Disabled_label'] = 'Desactivé';

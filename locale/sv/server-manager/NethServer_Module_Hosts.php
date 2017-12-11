@@ -27,3 +27,6 @@ $L['Create_Dns_Header'] = 'Create a new host name';
 $L['Update_Dns_Header'] = 'Update host name "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The host is used by firewall rules.';
 $L['Service_key_exists_message'] = 'This hostname is already used';
+$L['WildcardMode_label'] = 'wildcard dns record';
+$L['Enabled_label'] = 'Enabled';
+$L['Disabled_label'] = 'Disabled';

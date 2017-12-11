@@ -27,3 +27,6 @@ $L['Create_Dns_Header'] = 'Criar um nome de máquina novo';
 $L['Update_Dns_Header'] = 'Actualizar o nome de máquina "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Não é possível apagar ${2}. Esta máquina é usada nas regras da firewall';
 $L['Service_key_exists_message'] = 'This hostname is already used';
+$L['WildcardMode_label'] = 'wildcard dns record';
+$L['Enabled_label'] = 'Activo';
+$L['Disabled_label'] = 'Desactivado';

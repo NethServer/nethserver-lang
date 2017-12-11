@@ -27,3 +27,6 @@ $L['Create_Dns_Header'] = 'Criar um nome de máquina novo';
 $L['Update_Dns_Header'] = 'Atualizar o nome de máquina "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Não foi possível excluir ${2}. O host é usado por regras de firewall.';
 $L['Service_key_exists_message'] = 'Este hostname já está em uso';
+$L['WildcardMode_label'] = 'wildcard dns record';
+$L['Enabled_label'] = 'Habilitado';
+$L['Disabled_label'] = 'Desabilitado';

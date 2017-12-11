@@ -68,3 +68,4 @@ $L['OpenVpnAuth_status_label'] = 'Autenticazione OpenVPN';
 $L['VPNStatus_label'] = 'Jail VPN';
 $L['Not an IP'] = '"${0}" is not an IP';
 $L['Not an email'] = '"${0}" is not an email';
+$L['RestartFail2ban_label'] = 'Restart Fail2ban';

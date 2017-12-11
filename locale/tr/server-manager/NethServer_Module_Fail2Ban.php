@@ -68,3 +68,4 @@ $L['OpenVpnAuth_status_label'] = 'OpenVPN Kimlik Doğrulaması';
 $L['VPNStatus_label'] = 'VPN Jails';
 $L['Not an IP'] = '"${0}" bir IP adresi değil';
 $L['Not an email'] = '"${0}" bir e-posta adresi değil';
+$L['RestartFail2ban_label'] = 'Fail2Ban Yeniden Başlatılsın';

@@ -27,3 +27,6 @@ $L['Create_Dns_Header'] = 'Create a new host name';
 $L['Update_Dns_Header'] = 'Update host name "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = '${2} nem törölhető.A hoszt tűzfalszabályok között szerepel.';
 $L['Service_key_exists_message'] = 'This hostname is already used';
+$L['WildcardMode_label'] = 'wildcard dns record';
+$L['Enabled_label'] = 'Engedélyezve';
+$L['Disabled_label'] = 'Letiltva';
