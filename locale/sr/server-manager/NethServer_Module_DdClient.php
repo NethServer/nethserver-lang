@@ -38,3 +38,4 @@ $L['DynDns_Credentials_Title'] = 'Креденцијали динамичног 
 $L['DynDns_Provider_Title'] = 'Добављачи динамичног ДНС-а';
 $L['DynDns_SELFHOST_label'] = 'Selfhost (selfhost.eu) динамична адреса';
 $L['DynDns_CLOUDFLARE_label'] = 'Cloudflare (cloudflare.com) динамична адреса';
+$L['DynDns_STRATO_label'] = 'Strato (strato.com) dynamic adresses';

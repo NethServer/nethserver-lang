@@ -1,6 +1,6 @@
 <?php
 $L['Fail2Ban_Title'] = 'Fail2ban';
-$L['Fail2Ban_Description'] = 'Protect your server from brute-force attacks';
+$L['Fail2Ban_Description'] = 'Proteja seu servidor de ataques de força bruta';
 $L['Fail2BanSettings_Title'] = 'Serviço';
 $L['Fail2Ban_header'] = 'Configurações do serviço';
 $L['Fail2BanUnban_Title'] = 'Blacklist';
@@ -66,6 +66,6 @@ $L['Urbackup_status_label'] = 'Urbackup Auth';
 $L['ApachePhpMyAdmin_status_label'] = 'PhpMyAdmin Auth';
 $L['OpenVpnAuth_status_label'] = 'OpenVPN Auth';
 $L['VPNStatus_label'] = 'VPN Jails';
-$L['Not an IP'] = '"${0}" is not an IP';
-$L['Not an email'] = '"${0}" is not an email';
-$L['RestartFail2ban_label'] = 'Restart Fail2ban';
+$L['Not an IP'] = '"${0}" não é um IP';
+$L['Not an email'] = '"${0}" não é um email';
+$L['RestartFail2ban_label'] = 'Reiniciar Fail2ban';

@@ -27,6 +27,6 @@ $L['Create_Dns_Header'] = 'Crează un nou nume de gazdă';
 $L['Update_Dns_Header'] = 'Actualizează numele de gazdă "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Nu se poate șterge ${2}. Gazda este utilizată de către regulile firewall.';
 $L['Service_key_exists_message'] = 'Acest nume de gazdă este deja în uz';
-$L['WildcardMode_label'] = 'wildcard dns record';
+$L['WildcardMode_label'] = 'înregistrare dns wildcard';
 $L['Enabled_label'] = 'Activat';
 $L['Disabled_label'] = 'Dezactivat';

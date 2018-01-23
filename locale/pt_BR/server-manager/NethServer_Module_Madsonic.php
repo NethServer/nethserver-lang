@@ -5,4 +5,4 @@ $L['status_label'] = 'enable Madsonic';
 $L['webaccess_private_label'] = 'Private access';
 $L['webaccess_public_label'] = 'Public access';
 $L['SambaUsers_label'] = 'Samba user access to the media folder ';
-$L['Must be a user name'] = '"${0}" is not a valid user name';
+$L['Must be a user name'] = '"${0}" não é um nome de usuário válido';

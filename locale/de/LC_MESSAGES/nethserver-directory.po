@@ -6,13 +6,13 @@
 # Bernhard Weber <bernhard.weber@datenheld.at>, 2015
 # Kri Reu <kreukauff@gmx.de>, 2016
 # Mika Beckerich <beckerichmika@gmail.com>, 2016
-# Rolf Heinze <rowihei@web.de>, 2016
+# Rolf Heinze <rowihei@web.de>, 2016,2018
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
-"POT-Creation-Date: 2015-05-19 16:55+0200\n"
-"PO-Revision-Date: 2017-11-29 15:21+0000\n"
+"POT-Creation-Date: 2017-12-12 17:02+0100\n"
+"PO-Revision-Date: 2018-01-17 17:36+0000\n"
 "Last-Translator: Rolf Heinze <rowihei@web.de>\n"
 "Language-Team: German (http://www.transifex.com/nethserver/nethserver/language/de/)\n"
 "MIME-Version: 1.0\n"
@@ -21,30 +21,28 @@ msgstr ""
 "Language: de\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: root/etc/e-smith/templates/password-expired/en/10mail_headers:3
-#, perl-format
-msgid "%s, your password is about to expire"
-msgstr "%s, Ihr Kennwort wird in Kürze ablaufen"
+#: root/etc/nethserver/todos.d/20ad_credentials:40
+msgid "Set authentication credentials for LDAP applications"
+msgstr "Authentifizierungsdaten für LDAP-Anwendungen festlegen"
 
-#: root/etc/e-smith/templates/password-expired/en/20body:1
-#, perl-format
+#: root/etc/nethserver/todos.d/20ad_credentials:40
 msgid ""
-"You have one day left to change your password before your account will be "
-"blocked."
-msgid_plural ""
-"You have %s days left to change your password before your account will be "
-"blocked."
-msgstr[0] "Sie haben noch einen Tag Zeit, um Ihr Passwort zu ändern, bevor ihr Benutzerkonto gesperrt wird."
-msgstr[1] "Sie haben noch %s Tage Zeit, um Ihr Passwort zu ändern, bevor ihr Benutzerkonto gesperrt wird. "
+"Some applications require simple LDAP authentication credentials to browse "
+"the AD LDAP database and work properly."
+msgstr "Einige Anwendungen erfordern einfache LDAP-Authentifizierungsdaten, um die AD LDAP-Datenbank zu durchsuchen und richtig zu funktionieren."
 
-#: root/etc/e-smith/templates/password-expired/en/20body:3
-msgid "Available methods to change your password:"
-msgstr "Verfügbare Methoden um das Passwort zu ändern:"
+#: root/etc/nethserver/todos.d/20admin-user:50
+msgid "Enable admin user"
+msgstr "Benutzer Admin aktivieren"
 
-#: root/etc/e-smith/templates/password-expired/en/30_accesswebui:1
-msgid "Access the web interface"
-msgstr "Web-Interface öffnen"
+#: root/etc/nethserver/todos.d/20admin-user:53
+msgid "Enable and set a password for the admin user."
+msgstr "Benutzer Admin aktivieren und Passwort festlegen."
 
-#: root/etc/e-smith/templates/password-expired/en/template-end:3
-msgid "This message has been generated automatically, do not respond to it."
-msgstr "Diese Nachricht wurde automatisch erstellt. Bitte nicht antworten."
+#: root/etc/nethserver/todos.d/40password_strength:40
+msgid "Change password strength"
+msgstr "Passwortstärke ändern"
+
+#: root/etc/nethserver/todos.d/40password_strength:40
+msgid "Password policy is too weak"
+msgstr "Passwortrichtlinie zu schwach"

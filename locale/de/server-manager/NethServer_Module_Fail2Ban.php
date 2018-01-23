@@ -68,4 +68,4 @@ $L['OpenVpnAuth_status_label'] = 'OpenVPN Auth';
 $L['VPNStatus_label'] = 'VPN Sperren';
 $L['Not an IP'] = '"${0}" ist keine IP';
 $L['Not an email'] = '"${0}" ist kein E-Mail';
-$L['RestartFail2ban_label'] = 'Restart Fail2ban';
+$L['RestartFail2ban_label'] = 'Fail2ban neu starten';

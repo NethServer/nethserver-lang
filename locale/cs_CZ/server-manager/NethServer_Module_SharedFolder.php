@@ -41,3 +41,5 @@ $L['migrate-vhost_Header'] = 'Přesunout sdílenou složku „${0}“';
 $L['migrate-vhost_Message'] = 'This shared folder will be deleted and all data will be moved inside the virtual host. Migrate the shared folder to virtual host `${0}`?';
 $L['Migrate_label'] = 'Přesunout';
 $L['__ANY__'] = 'výchozí';
+$L['valid_platform,ibay-create,ibay-name,3'] = 'The following characters are not allowed \ / : * ? " < > | ] [';
+$L['valid_platform,ibay-create,ibay-length,3'] = 'Provide a value';

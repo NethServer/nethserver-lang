@@ -56,7 +56,12 @@ $L['valid_platform,ldap-probe,ldap-check-connect,1'] = 'Erro de conexão do serv
 
 $L['BindType_anonymous_label'] = 'Ligação anônima';
 $L['BindType_authenticated_label'] = 'Ligação autenticada';
-$L['BindType_label'] = 'Credenciais de ligação somente leitura';
+$L['BindType_label'] = 'Authentication credentials for LDAP applications';
+$L['valid_adldapcredentials_required'] = 'Set BindDN and BindPassword fields';
+$L['valid_platform,ldap-credentials,ldaptestbind,49'] = 'Invalid LDAP credentials';
+$L['valid_platform,ldap-credentials,ldaptestbind,1'] = 'LDAP connection error';
+$L['valid_platform,ldap-credentials,ldaptestbind,32'] = 'Base DN was not found or insufficient rights';
+$L['valid_platform,ldap-credentials,ldaptestbind,34'] = 'Invalid DN syntax';
 $L['BindDN_label'] = 'Vincular DN';
 $L['BindPassword_label'] = 'Bind Password';
 

@@ -68,4 +68,4 @@ $L['OpenVpnAuth_status_label'] = 'Autentificare OpenVPN';
 $L['VPNStatus_label'] = 'Jails VPN';
 $L['Not an IP'] = '"${0}" nu este un IP';
 $L['Not an email'] = '"${0}" nu este un email';
-$L['RestartFail2ban_label'] = 'Restart Fail2ban';
+$L['RestartFail2ban_label'] = 'Repornește Fail2ban';

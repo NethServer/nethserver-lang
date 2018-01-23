@@ -41,3 +41,5 @@ $L['migrate-vhost_Header'] = 'Migra la cartella condivisa `${0}`';
 $L['migrate-vhost_Message'] = 'Questa cartella condivisa sarà eliminata e tutti i dati saranno spostati nel virtual host. Migrare la cartella condivisa al virtual host `${0}`?';
 $L['Migrate_label'] = 'Migra';
 $L['__ANY__'] = 'default';
+$L['valid_platform,ibay-create,ibay-name,3'] = 'The following characters are not allowed \ / : * ? " < > | ] [';
+$L['valid_platform,ibay-create,ibay-length,3'] = 'Provide a value';

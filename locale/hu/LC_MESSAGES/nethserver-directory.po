@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
-"POT-Creation-Date: 2015-05-19 16:55+0200\n"
-"PO-Revision-Date: 2015-05-20 07:55+0000\n"
+"POT-Creation-Date: 2017-12-12 17:02+0100\n"
+"PO-Revision-Date: 2017-12-15 11:36+0000\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: Hungarian (http://www.transifex.com/nethserver/nethserver/language/hu/)\n"
 "MIME-Version: 1.0\n"
@@ -16,30 +16,28 @@ msgstr ""
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: root/etc/e-smith/templates/password-expired/en/10mail_headers:3
-#, perl-format
-msgid "%s, your password is about to expire"
+#: root/etc/nethserver/todos.d/20ad_credentials:40
+msgid "Set authentication credentials for LDAP applications"
 msgstr ""
 
-#: root/etc/e-smith/templates/password-expired/en/20body:1
-#, perl-format
+#: root/etc/nethserver/todos.d/20ad_credentials:40
 msgid ""
-"You have one day left to change your password before your account will be "
-"blocked."
-msgid_plural ""
-"You have %s days left to change your password before your account will be "
-"blocked."
-msgstr[0] ""
-msgstr[1] ""
-
-#: root/etc/e-smith/templates/password-expired/en/20body:3
-msgid "Available methods to change your password:"
+"Some applications require simple LDAP authentication credentials to browse "
+"the AD LDAP database and work properly."
 msgstr ""
 
-#: root/etc/e-smith/templates/password-expired/en/30_accesswebui:1
-msgid "Access the web interface"
+#: root/etc/nethserver/todos.d/20admin-user:50
+msgid "Enable admin user"
 msgstr ""
 
-#: root/etc/e-smith/templates/password-expired/en/template-end:3
-msgid "This message has been generated automatically, do not respond to it."
+#: root/etc/nethserver/todos.d/20admin-user:53
+msgid "Enable and set a password for the admin user."
+msgstr ""
+
+#: root/etc/nethserver/todos.d/40password_strength:40
+msgid "Change password strength"
+msgstr ""
+
+#: root/etc/nethserver/todos.d/40password_strength:40
+msgid "Password policy is too weak"
 msgstr ""

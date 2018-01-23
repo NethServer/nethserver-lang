@@ -41,3 +41,5 @@ $L['migrate-vhost_Header'] = 'Migrieren des freigegebenen Ordners `${0}`';
 $L['migrate-vhost_Message'] = 'Dieser freigegebene Ordner wird gelöscht und alle Daten werden innerhalb des virtuellen Hosts verschoben.  Migration des freigegebenen Ordners zum virtuellen Host `${0}`?';
 $L['Migrate_label'] = 'Migrieren';
 $L['__ANY__'] = 'Standard';
+$L['valid_platform,ibay-create,ibay-name,3'] = 'Die folgenden Zeichen sind nicht erlaubt \ /: *? "<> |] [';
+$L['valid_platform,ibay-create,ibay-length,3'] = 'Bitte einen Wert angeben';

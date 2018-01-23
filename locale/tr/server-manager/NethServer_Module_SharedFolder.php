@@ -41,3 +41,5 @@ $L['migrate-vhost_Header'] = '`${0}` paylaşılmış klasörünü aktar';
 $L['migrate-vhost_Message'] = 'Bu paylaşılmış klasör silinecek ve tüm veriler sanal sunucu üzerine aktarılacak. Paylaşılmış klasör `${0}` sanal sunucuna aktarılsın mı?';
 $L['Migrate_label'] = 'Aktar';
 $L['__ANY__'] = 'varsayılan';
+$L['valid_platform,ibay-create,ibay-name,3'] = 'Şu karakterler kullanılamaz \ / : * ? " < > | ] [';
+$L['valid_platform,ibay-create,ibay-length,3'] = 'Bir değer yazın';

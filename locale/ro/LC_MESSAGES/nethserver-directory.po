@@ -2,14 +2,15 @@
 # This file is put in the public domain.
 # 
 # Translators:
+# liviu iordache <liviu.marian.iordache@gmail.com>, 2018
 # liviu iordache <liviu.marian.iordache@gmail.com>, 2017
 # Sergiu Crisan <sergiu.crisan8@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
-"POT-Creation-Date: 2015-05-19 16:55+0200\n"
-"PO-Revision-Date: 2017-11-29 15:21+0000\n"
+"POT-Creation-Date: 2017-12-12 17:02+0100\n"
+"PO-Revision-Date: 2018-01-10 08:23+0000\n"
 "Last-Translator: Sebastian\n"
 "Language-Team: Romanian (http://www.transifex.com/nethserver/nethserver/language/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -18,31 +19,28 @@ msgstr ""
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: root/etc/e-smith/templates/password-expired/en/10mail_headers:3
-#, perl-format
-msgid "%s, your password is about to expire"
-msgstr "%s, parola ta urmează să expire"
+#: root/etc/nethserver/todos.d/20ad_credentials:40
+msgid "Set authentication credentials for LDAP applications"
+msgstr "Setează datele de conectare pentru aplicațiile LDAP"
 
-#: root/etc/e-smith/templates/password-expired/en/20body:1
-#, perl-format
+#: root/etc/nethserver/todos.d/20ad_credentials:40
 msgid ""
-"You have one day left to change your password before your account will be "
-"blocked."
-msgid_plural ""
-"You have %s days left to change your password before your account will be "
-"blocked."
-msgstr[0] "Mai aveţi o zi ca să vă schimbaţi parola după care account-ul vostru va fi blocat."
-msgstr[1] "Mai aveţi %s zile ca să vă schimbaţi parola după care account-ul vostru va fi blocat."
-msgstr[2] "Mai aveți %s zile ca să vă schimbați parola, după care contul vostru va fi blocat."
+"Some applications require simple LDAP authentication credentials to browse "
+"the AD LDAP database and work properly."
+msgstr "Unele aplicații necesită date de conectare LDAP simple pentru a funcționa corespunzător și pentru a naviga în baza de date AD LDAP"
 
-#: root/etc/e-smith/templates/password-expired/en/20body:3
-msgid "Available methods to change your password:"
-msgstr "Metode disponibile pentru a schimba parola:"
+#: root/etc/nethserver/todos.d/20admin-user:50
+msgid "Enable admin user"
+msgstr "Activează utilizatorul admin"
 
-#: root/etc/e-smith/templates/password-expired/en/30_accesswebui:1
-msgid "Access the web interface"
-msgstr "Accesează interfața web"
+#: root/etc/nethserver/todos.d/20admin-user:53
+msgid "Enable and set a password for the admin user."
+msgstr "Activează și setează o parolă pentru utilizatorul admin."
 
-#: root/etc/e-smith/templates/password-expired/en/template-end:3
-msgid "This message has been generated automatically, do not respond to it."
-msgstr "Acest mesaj a fost generat automat; nu răspunde la el."
+#: root/etc/nethserver/todos.d/40password_strength:40
+msgid "Change password strength"
+msgstr "Modificați puterea parolei"
+
+#: root/etc/nethserver/todos.d/40password_strength:40
+msgid "Password policy is too weak"
+msgstr "Politica privind parola este prea slabă"

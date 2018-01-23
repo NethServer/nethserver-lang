@@ -41,3 +41,5 @@ $L['migrate-vhost_Header'] = 'Migrar pasta compartilhada `${0}`';
 $L['migrate-vhost_Message'] = 'Essa pasta compartilhada será apagada e todos os dados será movido para a maquina virtual. Migrar a pasta compartilhada para maquina virtual `${0}`?';
 $L['Migrate_label'] = 'Migrar';
 $L['__ANY__'] = 'padrão';
+$L['valid_platform,ibay-create,ibay-name,3'] = 'The following characters are not allowed \ / : * ? " < > | ] [';
+$L['valid_platform,ibay-create,ibay-length,3'] = 'Provide a value';

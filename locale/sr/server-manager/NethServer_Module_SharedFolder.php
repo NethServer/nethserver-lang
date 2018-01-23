@@ -41,3 +41,5 @@ $L['migrate-vhost_Header'] = 'Мигрирај дељени директориј
 $L['migrate-vhost_Message'] = 'Овај дељени директоријум ће бити обрисан и сви подаци биће померени унутар виртуелног домаћина. Мигрирај дељени директоријум на виртуелног домаћина `${0}`?';
 $L['Migrate_label'] = 'Мигрирај';
 $L['__ANY__'] = 'подразумевано';
+$L['valid_platform,ibay-create,ibay-name,3'] = 'The following characters are not allowed \ / : * ? " < > | ] [';
+$L['valid_platform,ibay-create,ibay-length,3'] = 'Provide a value';

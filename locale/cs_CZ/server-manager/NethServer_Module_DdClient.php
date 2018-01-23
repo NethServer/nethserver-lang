@@ -38,3 +38,4 @@ $L['DynDns_Credentials_Title'] = 'Přihlašovací údaje do dynamické DNS';
 $L['DynDns_Provider_Title'] = 'Poskytovatelé služby dynamická DNS';
 $L['DynDns_SELFHOST_label'] = 'Selfhost (selfhost.eu) dynamic adresses';
 $L['DynDns_CLOUDFLARE_label'] = 'Cloudflare (cloudflare.com) dynamic adresses';
+$L['DynDns_STRATO_label'] = 'Strato (strato.com) dynamic adresses';

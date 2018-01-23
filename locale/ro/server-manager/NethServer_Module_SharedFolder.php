@@ -41,3 +41,5 @@ $L['migrate-vhost_Header'] = 'Migrează dosarul partajat `${0}`';
 $L['migrate-vhost_Message'] = 'Acest dosar partajat va fi șters și toate datele vor fi mutate în gazda virtuală. Migrez dosarul partajat la gazda virtuală `${0}`?';
 $L['Migrate_label'] = 'Migrez';
 $L['__ANY__'] = 'implicit';
+$L['valid_platform,ibay-create,ibay-name,3'] = 'Următoarele caractere nu sunt permise: \ / : * ? " < > | ] [';
+$L['valid_platform,ibay-create,ibay-length,3'] = 'Precizează o valoare';

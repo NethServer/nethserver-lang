@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
-"POT-Creation-Date: 2015-05-19 16:55+0200\n"
-"PO-Revision-Date: 2017-11-29 15:21+0000\n"
-"Last-Translator: Bojan Bogdanović (Бојан Богдановић)\n"
+"POT-Creation-Date: 2017-12-12 17:02+0100\n"
+"PO-Revision-Date: 2017-12-15 11:36+0000\n"
+"Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: Serbian (http://www.transifex.com/nethserver/nethserver/language/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,31 +17,28 @@ msgstr ""
 "Language: sr\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: root/etc/e-smith/templates/password-expired/en/10mail_headers:3
-#, perl-format
-msgid "%s, your password is about to expire"
-msgstr "%s, ваша лозинка ускоро истиче"
+#: root/etc/nethserver/todos.d/20ad_credentials:40
+msgid "Set authentication credentials for LDAP applications"
+msgstr ""
 
-#: root/etc/e-smith/templates/password-expired/en/20body:1
-#, perl-format
+#: root/etc/nethserver/todos.d/20ad_credentials:40
 msgid ""
-"You have one day left to change your password before your account will be "
-"blocked."
-msgid_plural ""
-"You have %s days left to change your password before your account will be "
-"blocked."
-msgstr[0] "Преостао је један дан да промените лозинку пре него што налог буде закључан."
-msgstr[1] "Преостало је %s дана да промените лозинку пре него што налог буде закључан."
-msgstr[2] "Преостало је %s дана да промените лозинку пре него што налог буде закључан."
+"Some applications require simple LDAP authentication credentials to browse "
+"the AD LDAP database and work properly."
+msgstr ""
 
-#: root/etc/e-smith/templates/password-expired/en/20body:3
-msgid "Available methods to change your password:"
-msgstr "Доступне методе да измените вашу лозинку"
+#: root/etc/nethserver/todos.d/20admin-user:50
+msgid "Enable admin user"
+msgstr ""
 
-#: root/etc/e-smith/templates/password-expired/en/30_accesswebui:1
-msgid "Access the web interface"
-msgstr "Приступи веб интерфејсу"
+#: root/etc/nethserver/todos.d/20admin-user:53
+msgid "Enable and set a password for the admin user."
+msgstr ""
 
-#: root/etc/e-smith/templates/password-expired/en/template-end:3
-msgid "This message has been generated automatically, do not respond to it."
-msgstr "Ова порука је аутоматски генерисана, немојте одговарати на њу."
+#: root/etc/nethserver/todos.d/40password_strength:40
+msgid "Change password strength"
+msgstr "Проверите јачину лозинке"
+
+#: root/etc/nethserver/todos.d/40password_strength:40
+msgid "Password policy is too weak"
+msgstr "Полиса лозинке је превише слаба"

@@ -56,7 +56,12 @@ $L['valid_platform,ldap-probe,ldap-check-connect,1'] = 'Eroare conexiune la serv
 
 $L['BindType_anonymous_label'] = 'Legat anonim';
 $L['BindType_authenticated_label'] = 'Legat autentificat';
-$L['BindType_label'] = 'Date autentificare doar în citire';
+$L['BindType_label'] = 'Date de conectare pentru aplicații LDAP';
+$L['valid_adldapcredentials_required'] = 'Setează câmpurile BindDN și BindPassword';
+$L['valid_platform,ldap-credentials,ldaptestbind,49'] = 'Date conectare LDAP invalide';
+$L['valid_platform,ldap-credentials,ldaptestbind,1'] = 'Eroare conectare LDAP';
+$L['valid_platform,ldap-credentials,ldaptestbind,32'] = 'DN de bază nu a fost găsit sau drepturi insuficiente';
+$L['valid_platform,ldap-credentials,ldaptestbind,34'] = 'Sintaxă DN invalidă';
 $L['BindDN_label'] = 'DN Bind';
 $L['BindPassword_label'] = 'Parolă BIND';
 

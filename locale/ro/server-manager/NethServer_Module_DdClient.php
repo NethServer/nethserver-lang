@@ -38,3 +38,4 @@ $L['DynDns_Credentials_Title'] = 'Date conectare Dynamic DNS';
 $L['DynDns_Provider_Title'] = 'Furnizori Dynamic DNS';
 $L['DynDns_SELFHOST_label'] = 'Adresele dinamice Selfhost (selfhost.eu)';
 $L['DynDns_CLOUDFLARE_label'] = 'Adresele dinamice Cloudflare (cloudflare.com)';
+$L['DynDns_STRATO_label'] = 'Adresă dinamică Strato (strato.com)';

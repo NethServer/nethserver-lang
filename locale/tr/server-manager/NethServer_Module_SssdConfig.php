@@ -56,7 +56,12 @@ $L['valid_platform,ldap-probe,ldap-check-connect,1'] = 'Sunucuya bağlantı hata
 
 $L['BindType_anonymous_label'] = 'Anonim bağlantı';
 $L['BindType_authenticated_label'] = 'Kimlik doğrulamalı bağlantı';
-$L['BindType_label'] = 'Salt okunur bağlantı kimlik doğrulama bilgileri';
+$L['BindType_label'] = 'LDAP uygulamaları için kimlik doğrulama bilgileri';
+$L['valid_adldapcredentials_required'] = 'BindDN ve BindPassword alanlarını doldurun';
+$L['valid_platform,ldap-credentials,ldaptestbind,49'] = 'LDAP kimlik doğrulama bilgileri geçersiz';
+$L['valid_platform,ldap-credentials,ldaptestbind,1'] = 'LDAP bağlantı hatası';
+$L['valid_platform,ldap-credentials,ldaptestbind,32'] = 'Base DN bulunamadı ya da izinler yetersiz';
+$L['valid_platform,ldap-credentials,ldaptestbind,34'] = 'DN söz dizimi hatalı';
 $L['BindDN_label'] = 'Bağlantı Ayrılmış Adı (Bind DN)';
 $L['BindPassword_label'] = 'Bağlantı Parolası';
 

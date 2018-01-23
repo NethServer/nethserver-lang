@@ -41,3 +41,5 @@ $L['migrate-vhost_Header'] = 'Migrar carpeta compartida `${0}`';
 $L['migrate-vhost_Message'] = 'Esta carpeta compartida se eliminará y todos los datos se moverán dentro del host virtual. Migrar la carpeta compartida al host virtual `${0}`?';
 $L['Migrate_label'] = 'Migrar';
 $L['__ANY__'] = 'predeterminado';
+$L['valid_platform,ibay-create,ibay-name,3'] = 'Los siguientes caracteres no están permitidos \ / : * ? " < > | ] [';
+$L['valid_platform,ibay-create,ibay-length,3'] = 'Introduce un valor';
