@@ -10,6 +10,7 @@ $L['disabled_label'] = 'Tillåt alla, blockera valt innehåll';
 $L['Categories_label'] = 'Kategorier';
 $L['BlockIpAccess_label'] = 'Blockera tillgång till webbsidor som använder ip-adress';
 $L['BlackList_label'] = 'Aktivera global blacklist';
+$L['CheckAll_label'] = 'Check all';
 $L['WhiteList_label'] = 'Aktivera global whitelist';
 $L['BlockFileTypes_label'] = 'Blockera filändelser';
 $L['key_exists_message'] = 'Ett filter, profil eller tid med samma namn existerar redan';

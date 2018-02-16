@@ -1,6 +1,6 @@
 <?php
 $L['Nfs_Title'] = 'NFS';
-$L['NfsStatus_label'] = 'Enable NFS';
+$L['NfsStatus_label'] = 'Ativar NFS';
 $L['NfsLocalNetwork_label'] = 'Allow in read-only on your LAN';
 $L['AllowedIP_label'] = 'Allowed IP client list';
 $L['NfsSync_label'] = 'Write synchronously (sync)';

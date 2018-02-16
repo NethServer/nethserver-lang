@@ -16,3 +16,4 @@ $L['Block URL'] = 'Blockera URL';
 $L['Expressions_label'] = 'Aktivera uttryck som matchar på URL';
 $L['General_Title'] = 'Allmänt';
 $L['status_label'] = 'Aktivera filtret';
+$L['squid_disabled_label'] = 'Please access the "Web proxy" page and enable the proxy before configuring the content filter.';

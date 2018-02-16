@@ -1,6 +1,6 @@
 <?php
 
-$L['PhoneHome_Title'] = 'Usage statistics';
+$L['PhoneHome_Title'] = 'Estatísticas de utilização';
 $L['PhoneHome_Action'] = 'Contribute to usage statistics: ${Status}';
 $L['Status_enabled_label'] = 'Contribute to usage statistics!';
 $L['Status_disabled_label'] = 'No, thanks.';

@@ -1,7 +1,7 @@
 <?php
 $L['PhpDefault_Title'] = 'Php default version';
 $L['PhpDefaultAdjustableValues_Title'] = 'Manage the default Php Settings';
-$L['PhpAdjustableValues_Title'] = 'Php Settings';
+$L['PhpAdjustableValues_Title'] = 'Php - Configurações';
 $L['AllowUrlFopen_label'] = 'Allow php access to remote files';
 $L['Php memory limit (${0})'] = 'Maximum of available memory (${0})';
 $L['Maximum upload file size (${0})'] = 'Maximum upload file size (${0})';

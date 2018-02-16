@@ -16,3 +16,4 @@ $L['Block URL'] = 'URL blokkolása';
 $L['Expressions_label'] = 'Reguláris kifejezések engedélyezése az URL-en';
 $L['General_Title'] = 'Általános';
 $L['status_label'] = 'Szűrő engedélyezése';
+$L['squid_disabled_label'] = 'Please access the "Web proxy" page and enable the proxy before configuring the content filter.';

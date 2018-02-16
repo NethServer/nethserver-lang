@@ -4,7 +4,7 @@ $L['SssdConfig_Title'] = 'Accounts provider';
 $L['SssdConfig_Description'] = 'Configure user and groups domain accounts provider';
 $L['SssdConfig_Tags'] = 'sssd домен учетная запись группа LDAP kerberos active directory';
 
-$L['valid_platform,ad-dns,srv_record,1'] = 'Could not find an Active Directory domain controller';
+$L['valid_platform,ad-dns,srv_record,1'] = 'Не найден контроллер AD';
 
 $L['Select_Title'] = 'Backend choice';
 
@@ -31,7 +31,7 @@ $L['configLdap_label'] = 'LDAP';
 
 $L['Ad_header'] = 'Active Directory accounts provider';
 $L['Ldap_header'] = 'LDAP accounts provider';
-$L['ChooseAd_general'] = 'Computers in an Active Directory domain can be simple members or domain controllers (DC)';
+$L['ChooseAd_general'] = 'Компьютер в домене AD может быть членом домена или контроллером домена (DC)';
 $L['ChooseAd_joinmember'] = 'Become a member of an existing domain';
 $L['ChooseAd_joindc'] = 'Become a DC of an existing domain';
 $L['ChooseAd_newforest'] = 'Initialize a new domain and become DC';
@@ -106,8 +106,8 @@ $L['AdPassword_label'] = 'Пароль';
 $L['AdJoinMember_label'] = 'Join';
 
 $L['RemoteAdProvider_header'] = 'Active Directory remote accounts provider for ${0}';
-$L['AdNewDomain_header'] = 'Create a new Active Directory domain';
-$L['AdJoinMemberError_label'] = 'Failed to join Active Directory (${0})';
+$L['AdNewDomain_header'] = 'Создать новый домен AD';
+$L['AdJoinMemberError_label'] = 'Ошибка присоединения к AD (${0})';
 $L['Save_label'] = 'Сохранить';
 $L['RemoteProviderUnbind_label'] = 'Unbind...';
 $L['RemoteProviderUnbind_header'] = 'Unbind accounts provider';
@@ -124,7 +124,7 @@ $L['AdIpAddress_help1'] = 'The chosen IP address must satisfy all of the below c
 $L['AdIpAddress_help2'] = 'the IP address must be in the same subnet range of a green network: ${0}';
 $L['AdIpAddress_help3'] = 'the IP address must be unused currently';
 $L['AdIpAddress_label'] = "Domain Controller IP address";
-$L['CreateDomain_label'] = 'Create domain';
+$L['CreateDomain_label'] = 'Создать домен';
 
 $L['installSuccessAd_notification'] = 'Active Directory local accounts provider was installed correctly';
 $L['LocalAdProvider_header'] = 'Active Directory local accounts provider for ${0}';
@@ -133,5 +133,5 @@ $L['LocalAdProviderDcChangeIp_header'] = 'Change IP address of Domain Controller
 $L['LocalAdProviderDcChangeIp_label'] = 'Change IP';
 $L['ChangeIPButton_label'] = 'Change IP';
 $L['LocalAdProviderDcChangeIp_message1'] = 'Changing the Domain Controller IP address can cause problems to Active Directory clients. If they use an external DNS server, update it to use the new IP address.';
-$L['dcChangeIpSuccess_notification'] = 'Domain Controller IP address successfully changed';
+$L['dcChangeIpSuccess_notification'] = 'IP адрес контроллера домена изменён';
 $L['AdNsSambaRpmVersion_label'] = 'Samba DC version';

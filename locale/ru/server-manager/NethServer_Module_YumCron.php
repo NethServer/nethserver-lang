@@ -1,8 +1,8 @@
 <?php
 $L['valid_mailforward_address'] = '"${0}" неверный адрес эл.почты';
-$L['messages_label'] = 'Send an email to the system administrator';
-$L['download_label'] = 'Download updates';
-$L['applyUpdate_label'] = 'Install updates automatically';
+$L['messages_label'] = 'Отправить email системному администратору';
+$L['download_label'] = 'Загрузка обновлений';
+$L['applyUpdate_label'] = 'Устанавливать обновления автоматически';
 $L['customMail_label'] = 'Add custom recipients';
 $L['YumCron_header'] = 'Settings of yum-cron';
 $L['YumCron_Title'] = 'Автоматическое обновление';

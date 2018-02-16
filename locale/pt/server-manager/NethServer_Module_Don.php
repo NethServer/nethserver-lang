@@ -1,6 +1,6 @@
 <?php
 
-$L['Don_Title'] = 'Remote support';
+$L['Don_Title'] = 'Apoio remoto';
 $L['Don_Description'] = 'Start a secure channel for remote support';
 $L['Don_Tags'] = 'helpdesk remote access help support issue problem bug';
 

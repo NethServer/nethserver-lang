@@ -16,3 +16,4 @@ $L['Block URL'] = 'Блокировать URL';
 $L['Expressions_label'] = 'Разрешить соответствия выражений в URL';
 $L['General_Title'] = 'Общие';
 $L['status_label'] = 'Включить фильтр';
+$L['squid_disabled_label'] = 'Включите прокси на странице "Web proxy", прежде чем настраивать контентные фильтры.';

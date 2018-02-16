@@ -16,3 +16,4 @@ $L['Block URL'] = 'URL blockieren';
 $L['Expressions_label'] = 'Aktiviere Wort Filter für die URL';
 $L['General_Title'] = 'Allgemein';
 $L['status_label'] = 'Aktiviere Filter';
+$L['squid_disabled_label'] = 'Bitte die Seite "Web-Proxy" aufrufen und den Proxy aktivieren, bevor Inhaltsfilter konfiguriert werden.';

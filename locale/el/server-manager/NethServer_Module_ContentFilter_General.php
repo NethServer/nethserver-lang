@@ -16,3 +16,4 @@ $L['Block URL'] = 'Αποκλεισμός URL';
 $L['Expressions_label'] = 'Ενεργοποίηση φράσης στο URL';
 $L['General_Title'] = 'Γενικά';
 $L['status_label'] = 'Ενεργοποίηση φίλτρου';
+$L['squid_disabled_label'] = 'Please access the "Web proxy" page and enable the proxy before configuring the content filter.';

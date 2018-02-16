@@ -16,3 +16,4 @@ $L['Block URL'] = 'Blochează URL';
 $L['Expressions_label'] = 'Activați potrivirea expresiei pe adresa URL';
 $L['General_Title'] = 'General';
 $L['status_label'] = 'Activează filtru';
+$L['squid_disabled_label'] = 'Te rugăm să accesezi pagina "Proxy web" și activează proxy-ul înainte de a configura filtrul de conținut';

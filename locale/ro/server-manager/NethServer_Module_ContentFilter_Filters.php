@@ -10,6 +10,7 @@ $L['disabled_label'] = 'Permiteți tot, blocați conținutul selectat';
 $L['Categories_label'] = 'Categorii';
 $L['BlockIpAccess_label'] = 'Blochează accesul la site-uri web folosind adresa IP';
 $L['BlackList_label'] = 'Activați lista neagră globală';
+$L['CheckAll_label'] = 'Verificați tot';
 $L['WhiteList_label'] = 'Activați lista albă globală';
 $L['BlockFileTypes_label'] = 'Blocați extensiile de fișiere';
 $L['key_exists_message'] = 'Un filtru, un profil sau un timp cu același nume există deja';

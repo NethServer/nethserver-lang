@@ -1,6 +1,6 @@
 <?php
 
-$L['SssdConfig_Title'] = 'Accounts provider';
+$L['SssdConfig_Title'] = 'Fornecedor de contas';
 $L['SssdConfig_Description'] = 'Configure user and groups domain accounts provider';
 $L['SssdConfig_Tags'] = 'sssd domain account user group ldap kerberos active directory';
 
@@ -37,7 +37,7 @@ $L['ChooseAd_joindc'] = 'Become a DC of an existing domain';
 $L['ChooseAd_newforest'] = 'Initialize a new domain and become DC';
 $L['configAdJoinMember_label'] = 'Join a domain';
 $L['configAdJoinDc_label'] = 'Add DC to domain';
-$L['configAdNewDomain_label'] = 'Novo domínio';
+$L['configAdNewDomain_label'] = 'Criar um novo domínio';
 
 $L['LocalLdapProvider_header'] = 'LDAP local accounts provider for ${0}';
 $L['RemoteLdapProvider_header'] = 'LDAP remote accounts provider for ${0}';
@@ -48,7 +48,7 @@ $L['configLdapRemote_label'] = 'Bind remotely';
 $L['configLdapLocal_label'] = 'Install locally';
 
 $L['LdapRemoteIpAddress_label'] = 'Host name or IP';
-$L['LdapRemoteTcpPort_label'] = 'Porto TCP';
+$L['LdapRemoteTcpPort_label'] = 'Porta de TCP';
 $L['LdapRemoteIp_header'] = 'Bind to a remote LDAP server';
 $L['LdapRemoteBind_label'] = 'Check configuration';
 $L['probeLdapSuccess_warning'] = 'Review and save the LDAP settings to finish the configuration';
@@ -70,7 +70,7 @@ $L['UserDN_label'] = 'User DN';
 $L['GroupDN_label'] = 'Group DN';
 
 $L['StartTls_label'] = 'STARTTLS';
-$L['starttls_auto'] = 'Pré-definido';
+$L['starttls_auto'] = 'Predefinição';
 $L['starttls_enabled'] = 'Sim';
 $L['starttls_disabled'] = 'Não';
 

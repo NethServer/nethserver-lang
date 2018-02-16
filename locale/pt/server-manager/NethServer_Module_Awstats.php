@@ -1,10 +1,10 @@
 <?php
-$L['Awstats_Title'] = 'Web Statistic';
-$L['Settings_Title'] = 'Settings';
+$L['Awstats_Title'] = 'Estatísticas da Web';
+$L['Settings_Title'] = 'Configurações';
 $L['Statistics_Title'] = 'Estatísticas';
-$L['AwstatsStatistics_Title'] = 'Consult Web Statistics';
-$L['VirtualhostsStatistics_label'] = 'Virtualhost statistics';
-$L['Virtualhosts_label'] = 'Virtualhosts';
+$L['AwstatsStatistics_Title'] = 'Consultar Estatísticas da Web';
+$L['VirtualhostsStatistics_label'] = 'Estatísticas do hospedeiro virtual';
+$L['Virtualhosts_label'] = 'Hospedeiros virtuais';
 $L['AwstatsDomainURL_label'] = 'Domínios';
 $L['status_label'] = 'Estado';
 $L['access_private_label'] = 'Consult statistic pages only from your LAN';
@@ -12,8 +12,8 @@ $L['access_public_label'] = 'Consult statistic pages outside of your LAN';
 $L['Minute_label'] = 'Run analysis each minute';
 $L['Users_label'] = 'Allowed users to consult web statistic';
 $L['AwstatsSettings_header'] = 'Settings of the logfile analyser';
-$L['AwstatDisabledByProp_label'] = 'Awstats is disabled';
-$L['Advanced_label'] = 'Advanced settings';
+$L['AwstatDisabledByProp_label'] = 'Awstats está desativado';
+$L['Advanced_label'] = 'Configurações Avançadas';
 $L['skipPrivateIp_label'] = 'Ignore hits from your local/trusted networks';
 $L['MaxNbOfDomain_label'] = 'Max. number of domains show';
 $L['MinHitDomain_label'] = 'Only show domains with min. hits';

@@ -10,6 +10,7 @@ $L['disabled_label'] = 'Να επιτρέπονται όλα, να αποτρέ�
 $L['Categories_label'] = 'Κατηγορίες';
 $L['BlockIpAccess_label'] = 'Αποκλεισμός πρόσβασης σε ιστοσελίδες, χρησιμοποιώντας τη διεύθυνση IP';
 $L['BlackList_label'] = 'Ενεργοποίηση καθολικής μαύρης λίστας';
+$L['CheckAll_label'] = 'Check all';
 $L['WhiteList_label'] = 'Ενεργοποίηση καθολικής άσπρης λίστας';
 $L['BlockFileTypes_label'] = 'Αποκλεισμός επεκτάσεων αρχείων';
 $L['key_exists_message'] = 'Ένα φίλτρο, προφίλ ή ώρα με το ίδιο όνομα, υπάρχει';

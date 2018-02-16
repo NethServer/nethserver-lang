@@ -1,5 +1,5 @@
 <?php
-$L['ClamScan_Title'] = 'Antivirus Scanner';
+$L['ClamScan_Title'] = 'Analisador de Antivírus';
 $L['ClamScan_Description'] = 'clamscan - scan files and directories for viruses';
 $L['ClamScan_header'] = 'Scan files and directories for viruses';
 $L['status_label'] = 'Enable file system scan';
@@ -9,7 +9,7 @@ $L['DetectPua_label'] = 'Detect PUA';
 $L['ExcludePua_label'] = 'Exclude one or some categories(comma separated)';
 $L['PuaText_label'] = 'PUA are applications that can be used in an unwanted context';
 $L['Bytecode_label'] = 'Enable Bytecode signatures';
-$L['ClamScanAdvanced_label'] = 'Advanced settings';
+$L['ClamScanAdvanced_label'] = 'Configurações Avançadas';
 $L['Quarantine_label'] = 'Move detected files to quarantine';
 $L['reallyWantToMove_label'] = 'Yes, I am really sure';
 $L['FilesystemScanExclude_label'] = 'Files/Folders to exclude';
@@ -81,9 +81,9 @@ $L['ListQuarantinedFiles_label'] = 'File list in /var/spool/clamav/quarantine';
 $L['database_label'] = 'Viruse database';
 $L['Updated'] = 'updated';
 $L['NotUpdated'] = 'not updated';
-$L['timestamp_label'] = 'Ultima actualização';
+$L['timestamp_label'] = 'Ultima atualização';
 $L['ClamScanRunning_label'] = 'Virus Scanning';
 $L['NotRunning'] = 'Parado';
-$L['Running'] = 'A correr';
+$L['Running'] = 'Em execução';
 $L['FilesystemScan_now_label'] = 'Perform a scan now';
 $L['FilesystemScanFilesystems_label'] = 'Folder to scan';

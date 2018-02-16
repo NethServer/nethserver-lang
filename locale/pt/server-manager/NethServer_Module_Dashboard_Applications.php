@@ -4,6 +4,6 @@
 
 $L['Applications_Title'] = 'Aplicações';
 $L['Applications_Tags'] = 'Applications application applications web';
-$L['Applications_Description'] = 'Installed applications';
+$L['Applications_Description'] = 'Aplicações instaladas';
 $L['Open_label'] = 'Open';
 $L['no_application_installed'] = 'No application installed';

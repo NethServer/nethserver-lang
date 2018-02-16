@@ -1,7 +1,7 @@
 <?php 
 
 $L['Access_label'] = 'Somente rede local';
-$L['Account_label'] = 'Destinations';
+$L['Account_label'] = 'Destinos';
 $L['Pseudonym_create_header'] = 'Create a new mail alias';
 $L['Current_label'] = 'Selecção actual'; 
 $L['Description_label'] = 'Descrição'; 

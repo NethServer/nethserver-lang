@@ -1,5 +1,5 @@
 <?php 
-$L['Create a new Job'] = 'Create a new Job'; 
+$L['Create a new Job'] = 'Criar um novo Trabalho'; 
 $L['Description_label'] = 'Descrição'; 
 $L['CronTab_Title'] = 'Crontab Manager'; 
 $L['Key_label'] = 'Cron Job name'; 
@@ -59,5 +59,5 @@ $L['Advanced_disabled_label'] = 'Simplified Settings';
 $L['Advanced_enabled_label'] = 'Advanced Settings';
 $L['Mail_label_checkbox'] = 'Email notifications to root';
 $L['Service_key_exists_message'] = 'This name is already used';
-$L['Enabled_label'] = 'Activo';
-$L['Disabled_label'] = 'Desactivado';
+$L['Enabled_label'] = 'Ativado';
+$L['Disabled_label'] = 'Desativado';

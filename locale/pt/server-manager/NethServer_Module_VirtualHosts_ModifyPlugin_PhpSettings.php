@@ -1,8 +1,8 @@
 <?php
 
-$L['phpsettings_Title'] = 'Php Settings';
+$L['phpsettings_Title'] = 'Php - Configurações';
 $L['AllowUrlfOpen_label'] = 'Allow php access to remote files';
-$L['Status_label'] = 'Activar acesso web';
+$L['Status_label'] = 'Ativar acesso à Web';
 $L['Php memory limit (${0})'] = 'Maximum of available memory (${0})';
 $L['Maximum upload file size (${0})'] = 'Maximum upload file size (${0})';
 $L['Maximum post size (${0})'] = 'Maximum size of post data allowed (${0})';

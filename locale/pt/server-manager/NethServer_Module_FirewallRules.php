@@ -104,7 +104,7 @@ $L['ShowAction_label'] = 'Show';
 $L['ShowRules_label'] = 'Firewall';
 $L['ShowRoutes_label'] = 'Policy routing';
 $L['ShowServices_label'] = 'Serviços de rede';
-$L['ShowTrafficShaping_label'] = 'Prioridades de tráfego de dados';
+$L['ShowTrafficShaping_label'] = 'Prioridades do tráfego de dados';
 
 $L['ActionPriorityHigh_label'] = 'High priority';
 $L['ActionPriorityLow_label'] = 'Low priority';

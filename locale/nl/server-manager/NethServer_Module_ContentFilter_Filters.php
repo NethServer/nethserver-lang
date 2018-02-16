@@ -10,6 +10,7 @@ $L['disabled_label'] = 'Alles toestaan, alleen geselecteerde content blokkeren';
 $L['Categories_label'] = 'Categoriën';
 $L['BlockIpAccess_label'] = 'Blokkeer toegang tot websites op basis van IP adres';
 $L['BlackList_label'] = 'Gebruik globale zwarte lijst ';
+$L['CheckAll_label'] = 'Check all';
 $L['WhiteList_label'] = 'Gebruik globale witte lijst';
 $L['BlockFileTypes_label'] = 'Blokkeer bestands extenties';
 $L['key_exists_message'] = 'Een filter, profiel of tijd met dezelfde naam bestaat al';

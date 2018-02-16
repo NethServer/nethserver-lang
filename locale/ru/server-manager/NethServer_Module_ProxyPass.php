@@ -2,7 +2,7 @@
 
 $L['ProxyPass_Description'] = 'Configure reverse proxy';
 $L['ProxyPass_Tags'] = 'reverse proxy proxypass proxy pass';
-$L['ProxyPass_Title'] = 'Reverse proxy';
+$L['ProxyPass_Title'] = 'Обратный прокси';
 $L['Key_label'] = 'Название';
 $L['Name_label'] = 'Название';
 $L['Target_label'] = 'Target URL';

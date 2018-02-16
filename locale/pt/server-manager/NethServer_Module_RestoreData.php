@@ -1,6 +1,6 @@
 <?php
 
-$L['RestoreData_Title'] = 'Restore files';
+$L['RestoreData_Title'] = 'Restaurar ficheiros';
 $L['RestoreData_label'] = 'Restaurar';
 $L['RestoreData_Description'] = 'Restore data from backup';
 $L['RestoreData_PlaceHolder'] = 'Procurar...';

@@ -1,7 +1,7 @@
 <?php
 
 $L['Pki_Title'] = 'Certificado do servidor';
-$L['Pki_Description'] = 'Manage TLS/SSL server certificates';
+$L['Pki_Description'] = 'Gerir certificados de servidor TLS/SSL';
 $L['Pki_Tags'] = 'SSL certificate PKI TLS X509 X.509';
 
 $L['C_label'] = 'Código de país';
@@ -31,8 +31,8 @@ $L['SetDefault_label'] = 'Set as default';
 $L['Key_label'] = 'Nome';
 $L['Issuer_label'] = 'Issuer';
 $L['ExpireDate_label'] = 'Expires';
-$L['Actions_label'] = 'Acções';
-$L['Default_label'] = 'Pré-definido';
+$L['Actions_label'] = 'Ações';
+$L['Default_label'] = 'Predefinição';
 $L['Confirm_label'] = 'Confirm';
 $L['default_cert_label'] = 'Set selected certificate as default?';
 $L['certificate_label'] = 'Certificado';

@@ -1,6 +1,6 @@
 <?php
 
-$L['Account_Title'] = 'Users and groups';
+$L['Account_Title'] = 'Utilizadores e grupos';
 $L['Account_Description'] = 'Manage users and groups, configure the domain identity and authentication providers';
 $L['Account_Tags'] = 'sssd user group realm domain account kerberos ldap';
 

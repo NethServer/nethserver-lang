@@ -10,6 +10,7 @@ $L['disabled_label'] = 'Allow all, block selected content';
 $L['Categories_label'] = 'Kategorie';
 $L['BlockIpAccess_label'] = 'Blokovat přístup k webům na základě IP adres';
 $L['BlackList_label'] = 'Používat globální seznam odepřených';
+$L['CheckAll_label'] = 'Zkontrolovat vše';
 $L['WhiteList_label'] = 'Zapnout globální seznam umožněných';
 $L['BlockFileTypes_label'] = 'Blokování souborů dle přípony';
 $L['key_exists_message'] = 'Filtr, profil nebo čas se stejným názvem už existuje';

@@ -1,5 +1,5 @@
 <?php
-$L['DiagTools_Title'] = 'Diagnostics';
+$L['DiagTools_Title'] = 'Diagnósticos';
 $L['DiagTools_Description'] = 'Network Utilities for Diagnostics';
 $L['IpAddr_Title'] = 'Network addresses';
 $L['DiagToolsIpAdd_header'] = 'Protocol (IP or IPv6) address on a device.';

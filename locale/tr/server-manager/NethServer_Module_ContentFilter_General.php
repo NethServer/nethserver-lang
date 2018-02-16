@@ -16,3 +16,4 @@ $L['Block URL'] = 'İnternet adresini engelle';
 $L['Expressions_label'] = 'İnternet adresi üzerinde ifade uyuşması kullanılsın';
 $L['General_Title'] = 'Genel';
 $L['status_label'] = 'Süzgeç kullanılsın';
+$L['squid_disabled_label'] = 'Lütfen içerik süzgecini yapılandırmadan önce "Web vekil sunucu" sayfasına gidin ve vekil sunucuyu etkinleştirin.';

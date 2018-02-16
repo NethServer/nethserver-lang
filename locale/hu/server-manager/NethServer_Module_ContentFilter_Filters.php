@@ -10,6 +10,7 @@ $L['disabled_label'] = 'Minden engedélyezése, kivéve a tiltottakat';
 $L['Categories_label'] = 'Ketagóriák';
 $L['BlockIpAccess_label'] = 'Weboldalak tiltása IP cím alapján';
 $L['BlackList_label'] = 'Globális feketelista engedélyezése';
+$L['CheckAll_label'] = 'Check all';
 $L['WhiteList_label'] = 'Globális fehérlista engedélyezése';
 $L['BlockFileTypes_label'] = 'Fájlkiterjesztések blokkolása';
 $L['key_exists_message'] = 'Egy szűrő, profil vagy időpont már létezik ugyanazzal a névvel';

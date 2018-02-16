@@ -16,3 +16,4 @@ $L['Block URL'] = 'Блокирај УРЛ';
 $L['Expressions_label'] = 'Омогући израз поклапања са УРЛ';
 $L['General_Title'] = 'Опште';
 $L['status_label'] = 'Омогући филтер';
+$L['squid_disabled_label'] = 'Please access the "Web proxy" page and enable the proxy before configuring the content filter.';

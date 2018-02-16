@@ -10,6 +10,7 @@ $L['disabled_label'] = 'Tümüne izin verilsin, seçilen içerik engellensin';
 $L['Categories_label'] = 'Kategoriler';
 $L['BlockIpAccess_label'] = 'Belli IP adresini kullanan sitelere erişilemesin';
 $L['BlackList_label'] = 'Genel kara liste kullanılsın';
+$L['CheckAll_label'] = 'Tümünü seç';
 $L['WhiteList_label'] = 'Genel beyaz liste kullanılsın';
 $L['BlockFileTypes_label'] = 'Dosya uzantıları engellensin';
 $L['key_exists_message'] = 'Aynı adlı bir süzgeç, profil ya da zaman zaten var.';

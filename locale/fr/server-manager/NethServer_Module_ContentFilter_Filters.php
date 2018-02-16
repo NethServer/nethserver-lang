@@ -10,6 +10,7 @@ $L['disabled_label'] = 'Autoriser tout, bloquer le contenu sélectionné';
 $L['Categories_label'] = 'Catégories';
 $L['BlockIpAccess_label'] = 'Bloquer l\'accès aux sites web en utlisant l\'adresse IP';
 $L['BlackList_label'] = 'Activer une liste noire globale';
+$L['CheckAll_label'] = 'Check all';
 $L['WhiteList_label'] = 'Activer une liste blanche globale';
 $L['BlockFileTypes_label'] = 'Bloquer les extensions de fichier';
 $L['key_exists_message'] = 'Un filtre, un profile ou une période existent déjà avec le même nom';

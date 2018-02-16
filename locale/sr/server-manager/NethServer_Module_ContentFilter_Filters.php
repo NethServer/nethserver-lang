@@ -10,6 +10,7 @@ $L['disabled_label'] = 'Дозволи све, блокирај изабрани
 $L['Categories_label'] = 'Категорије';
 $L['BlockIpAccess_label'] = 'Блокирај приступ интернет страницама користећи ИП адресу';
 $L['BlackList_label'] = 'Омогући глобалну црну листу';
+$L['CheckAll_label'] = 'Check all';
 $L['WhiteList_label'] = 'Омогући глобалну белу листу';
 $L['BlockFileTypes_label'] = 'Блокирај екстензије докумената';
 $L['key_exists_message'] = 'Филтер, профил или време са истим именом већ постоји';

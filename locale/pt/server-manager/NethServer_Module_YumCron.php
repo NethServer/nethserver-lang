@@ -1,11 +1,11 @@
 <?php
 $L['valid_mailforward_address'] = '"${0}" is not a valid email address';
 $L['messages_label'] = 'Send an email to the system administrator';
-$L['download_label'] = 'Download updates';
+$L['download_label'] = 'Transferir atualizações';
 $L['applyUpdate_label'] = 'Install updates automatically';
 $L['customMail_label'] = 'Add custom recipients';
 $L['YumCron_header'] = 'Settings of yum-cron';
-$L['YumCron_Title'] = 'Actualizações automáticas';
+$L['YumCron_Title'] = 'Atualizações automáticas';
 $L['command_label'] = 'What kind of update to use';
 $L['default'] = 'default';
 $L['security'] = 'security';
