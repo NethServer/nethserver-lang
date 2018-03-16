@@ -940,7 +940,6 @@ source_file = locale/en/server-manager/NethServer_Module_Don.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
-
 [nethserver.Subscription]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Subscription.php
 source_file = locale/en/server-manager/NethServer_Module_Subscription.php
@@ -956,5 +955,11 @@ type = PHP_ALT_ARRAY
 [nethserver.Alerts]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Alerts.php
 source_file = locale/en/server-manager/NethServer_Module_Alerts.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.FileServer]
+file_filter = locale/<lang>/server-manager/NethServer_Module_FileServer.php
+source_file = locale/en/server-manager/NethServer_Module_FileServer.php
 source_lang = en
 type = PHP_ALT_ARRAY
