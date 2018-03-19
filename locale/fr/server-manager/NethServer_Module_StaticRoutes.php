@@ -14,4 +14,4 @@ $L['network_label'] = 'Adresse réseau';
 $L['Device_label']='Périphérique';
 $L['any_label']='Tout';
 $L['Advanced_label']='Avancé';
-$L['Metric_label']='Metric';
+$L['Metric_label']='Métrique';

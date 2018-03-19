@@ -3,9 +3,9 @@
 $L['Delete_label'] = 'Supprimer';
 $L['Delete_Header'] = 'Supprimer le message ${0}';
 $L['Delete_Message'] = 'Confirmer la suppression du message ${0}?';
-$L['MailQueue_Description'] = 'Manage mail queue'; 
-$L['MailQueue_Tags'] = 'mail email queue postfix mailqueue'; 
-$L['MailQueue_Title'] = 'Mail queue'; 
+$L['MailQueue_Description'] = 'Gérer la queue d\'e-mail'; 
+$L['MailQueue_Tags'] = 'mail e-mail queue postfix mailqueue'; 
+$L['MailQueue_Title'] = 'Queue d\'e-mail'; 
 $L['AndXMore'] = '..et ${0} autres de plus';
 $L['Refresh_label'] = 'Rafraîchir';
 $L['Id_label'] = 'Id';

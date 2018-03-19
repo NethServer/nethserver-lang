@@ -24,14 +24,14 @@ $L['Bind_label'] = 'liaison';
 
 
 $L['ChooseProvider_general'] = 'Users and groups are available through an accounts provider. You can connect this server to a remote accounts provider, or install a local one. Some features are available depending on the accounts provider type.';
-$L['ChooseProvider_ldap'] = 'Easy to configure, does not support authenticated access to shared folders';
-$L['ChooseProvider_ad'] = 'Enables all shared folders features, requires advanced configuration options';
+$L['ChooseProvider_ldap'] = 'Facile à configurer, ne permet pas l\'accès authentifié aux dossiers partagés';
+$L['ChooseProvider_ad'] = 'Active toutes les fonctions des dossiers partagés, requiert des options de configuration avancées';
 $L['configAd_label'] = 'Active Directory';
 $L['configLdap_label'] = 'LDAP';
 
 $L['Ad_header'] = 'Active Directory accounts provider';
 $L['Ldap_header'] = 'LDAP accounts provider';
-$L['ChooseAd_general'] = 'Computers in an Active Directory domain can be simple members or domain controllers (DC)';
+$L['ChooseAd_general'] = 'Les ordinateurs dans un domaine Active Directory peuvent être de simples membres ou des contrôleurs de domaine (DC).';
 $L['ChooseAd_joinmember'] = 'Become a member of an existing domain';
 $L['ChooseAd_joindc'] = 'Become a DC of an existing domain';
 $L['ChooseAd_newforest'] = 'Initialize a new domain and become DC';
@@ -75,7 +75,7 @@ $L['starttls_enabled'] = 'Oui';
 $L['starttls_disabled'] = 'Non';
 
 $L['LdapLocalInstall_header'] = 'Install an OpenLDAP server';
-$L['LdapLocalInstall_message'] = 'Download and configure OpenLDAP server as local LDAP accounts provider';
+$L['LdapLocalInstall_message'] = 'Télécharger et configurer le serveur OpenLDAP en tant que fournisseur de comptes LDAP locaux';
 $L['LocalLdapProviderUninstall_label'] = 'Uninstall';
 
 $L['LocalProviderUninstall_header'] = 'Uninstall the local accounts provider';
@@ -99,8 +99,8 @@ $L['canUpgradeToSamba_notification'] = 'The local LDAP accounts provider can be 
 $L['AdJoinMember_header'] = 'Join Active Directory as new member';
 $L['AdDns_label'] = 'AD DNS server';
 $L['AdRealm_label'] = 'DNS domain name';
-$L['AdWorkgroup_label'] = 'NetBIOS domain name';
-$L['AdJoinMemberCredentials_label'] = 'Credentials for joining the domain';
+$L['AdWorkgroup_label'] = 'Nom de domaine NetBIOS';
+$L['AdJoinMemberCredentials_label'] = 'Identifiants pour joindre le domaine';
 $L['AdUsername_label'] = 'Nom d\'utilisateur';
 $L['AdPassword_label'] = 'Mot de passe';
 $L['AdJoinMember_label'] = 'Rejoindre';
@@ -122,8 +122,8 @@ $L['valid_platform,dcrealm,differhostname,3'] = 'Must differ from the host FQDN'
 $L['valid_starttls_urischeme'] = 'Conflicts with "ldaps://" URI scheme';
 $L['AdIpAddress_help1'] = 'The chosen IP address must satisfy all of the below conditions:';
 $L['AdIpAddress_help2'] = 'the IP address must be in the same subnet range of a green network: ${0}';
-$L['AdIpAddress_help3'] = 'the IP address must be unused currently';
-$L['AdIpAddress_label'] = "Domain Controller IP address";
+$L['AdIpAddress_help3'] = 'L\'adresse IP doit être inutilisée actuellement';
+$L['AdIpAddress_label'] = "Adresse IP du contrôleur de domaine";
 $L['CreateDomain_label'] = 'Create domain';
 
 $L['installSuccessAd_notification'] = 'Active Directory local accounts provider was installed correctly';

@@ -1,17 +1,17 @@
 <?php
 
 $L['Account_Title'] = 'Utilizadores e grupos';
-$L['Account_Description'] = 'Manage users and groups, configure the domain identity and authentication providers';
+$L['Account_Description'] = 'Gerir utilizadores e grupos, configurar a identidade de domínio e os provedores de autenticação';
 $L['Account_Tags'] = 'sssd user group realm domain account kerberos ldap';
 
-$L['AccountProvider_Error_1'] = 'Account provider generic error: SSSD exit code 1';
-$L['AccountProvider_Error_22'] = 'Account provider error: invalid DN. Check Base DN, Groups DN and Users DN in Accounts provider configuration';
-$L['AccountProvider_Error_32'] = 'Account provider error: no entries found. Check the LDAP bind credentials and Base DN in Accounts provider configuration';
-$L['AccountProvider_Error_34'] = 'Account provider error: invalid machine password. Check the server is correctly joined to a domain';
-$L['AccountProvider_Error_49'] = 'Account provider error: invalid credentials (${0})';
-$L['AccountProvider_Error_49_710'] = 'Insufficent access rights (49/710): specify alternative LDAP bind credentials in Accounts provider configuration';
-$L['AccountProvider_Error_4'] = 'Account provider warning: size limit exceeded (${0})';
-$L['AccountProvider_Error_104'] = 'Account provider connection reset by peer: check if the server supports SSL/TLS connections';
-$L['AccountProvider_Error_110'] = 'Account provider connection timed out';
-$L['AccountProvider_Error_111'] = 'Account provider connection refused';
+$L['AccountProvider_Error_1'] = 'Erro genérico do provedor de conta: código de saída 1 SSSD';
+$L['AccountProvider_Error_22'] = 'Erro do provedor de conta: DN inválido. Verifique DN de Base, DN de Grupos e DN de Utilizadores na configuração do provedor de \'Contas\'';
+$L['AccountProvider_Error_32'] = 'Erro do provedor de conta: não foram encontradas entradas. Verifique as credenciais de ligação LDAP e DN de Base na configuração do provedor de \'Contas\'';
+$L['AccountProvider_Error_34'] = 'Erro do provedor de conta: palavra-passe da máquina inválida. Verifique se o servidor está associado corretamente a um domínio';
+$L['AccountProvider_Error_49'] = 'Erro do provedor de conta: credenciais inválidas ($ {0})';
+$L['AccountProvider_Error_49_710'] = 'Direitos de acesso insuficientes (49/710): especifique as credenciais de ligação LDAP alternativas na configuração do provedor de \'Contas\'';
+$L['AccountProvider_Error_4'] = 'Aviso do provedor de conta: limite de tamanho excedido ($ {0})';
+$L['AccountProvider_Error_104'] = 'Ligação do provedor de conta redefinida pelo peer: verifique se o servidor possui ligações SSL / TLS';
+$L['AccountProvider_Error_110'] = 'Ligação do provedor de conta expirou';
+$L['AccountProvider_Error_111'] = 'Ligação do provedor de conta recusada';
 

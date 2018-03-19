@@ -16,12 +16,12 @@ $L['CertificateDuration_label'] = 'Validité du certificat (en jours)';
 $L['valid_hostname_instance'] = '"${0}" est un nom d\'hôte invalide';
 $L['valid_x509_field'] = 'Ne doit pas contenir "," et "/"';
 
-$L['Generate_label'] = 'Edit self-signed certificate';
-$L['Upload_label'] = 'Upload certificate';
-$L['GenerateLe_label'] = 'Request Let\'s Encrypt certificate';
+$L['Generate_label'] = 'Éditer le certificat auto-signé';
+$L['Upload_label'] = 'Téléverser certificat';
+$L['GenerateLe_label'] = 'Requête de certificat Let\'s Encrypt';
 
 $L['GenerateLe_Header'] = 'Request a new Let\'s Encrypt certificate';
-$L['Generate_Header'] = 'Edit self-signed certificate';
+$L['Generate_Header'] = 'Éditer le certificat auto-signé';
 $L['Upload_Header'] = 'Upload a certificate file to the server';
 
 $L['Show_label'] = 'Voir';
@@ -30,18 +30,18 @@ $L['SetDefault_label'] = 'Set as default';
 
 $L['Key_label'] = 'Nom';
 $L['Issuer_label'] = 'Issuer';
-$L['ExpireDate_label'] = 'Expires';
+$L['ExpireDate_label'] = 'Expire';
 $L['Actions_label'] = 'Actions';
 $L['Default_label'] = 'Défaut';
 $L['Confirm_label'] = 'Confirm';
 $L['default_cert_label'] = 'Set selected certificate as default?';
 $L['certificate_label'] = 'Certificat';
 
-$L['LetsEncryptMail_label'] = 'Notification email';
+$L['LetsEncryptMail_label'] = 'Notification e-mail';
 $L['LetsEncryptDomains_label'] = 'Domaines';
 
 $L['UploadCrt_label'] = 'Certificat';
-$L['UploadKey_label'] = 'Private key';
+$L['UploadKey_label'] = 'Clé privée';
 $L['UploadChain_label'] = 'Chain file (optional)';
 $L['UploadName_label'] = 'Nom';
 
