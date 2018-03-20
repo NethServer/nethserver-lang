@@ -2,45 +2,44 @@
 # This file is put in the public domain.
 # 
 # Translators:
-# liviu iordache <liviu.marian.iordache@gmail.com>, 2018
-# liviu iordache <liviu.marian.iordache@gmail.com>, 2017
-# Sergiu Crisan <sergiu.crisan8@gmail.com>, 2017
+# Jose G. Jimenez S. <josegjimenez@gmail.com>, 2015
+# Martin Abeleira <mabeleira@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
-"POT-Creation-Date: 2017-12-12 17:02+0100\n"
-"PO-Revision-Date: 2018-01-10 08:23+0000\n"
-"Last-Translator: Sebastian\n"
-"Language-Team: Romanian (http://www.transifex.com/nethserver/nethserver/language/ro/)\n"
+"POT-Creation-Date: 2018-03-20 10:41+0100\n"
+"PO-Revision-Date: 2018-01-11 12:07+0000\n"
+"Last-Translator: Martin Abeleira <mabeleira@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/nethserver/nethserver/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ro\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: root/etc/nethserver/todos.d/20ad_credentials:40
 msgid "Set authentication credentials for LDAP applications"
-msgstr "Setează datele de conectare pentru aplicațiile LDAP"
+msgstr "Configurar credenciales de autenticacion para aplicaciones LDAP"
 
 #: root/etc/nethserver/todos.d/20ad_credentials:40
 msgid ""
 "Some applications require simple LDAP authentication credentials to browse "
 "the AD LDAP database and work properly."
-msgstr "Unele aplicații necesită date de conectare LDAP simple pentru a funcționa corespunzător și pentru a naviga în baza de date AD LDAP"
+msgstr "Algunas aplicaciones solo credenciales de autenticacion LDAP para navegar la base de AD o LDAP y funcionar correctamente"
 
 #: root/etc/nethserver/todos.d/20admin-user:50
 msgid "Enable admin user"
-msgstr "Activează utilizatorul admin"
+msgstr "Habilitar el usuario administrador"
 
 #: root/etc/nethserver/todos.d/20admin-user:53
 msgid "Enable and set a password for the admin user."
-msgstr "Activează și setează o parolă pentru utilizatorul admin."
+msgstr "Habilitar y configurar la password del usuario administrador"
 
 #: root/etc/nethserver/todos.d/40password_strength:40
 msgid "Change password strength"
-msgstr "Modificați puterea parolei"
+msgstr "Cambiar fortaleza de la contraseña"
 
 #: root/etc/nethserver/todos.d/40password_strength:40
 msgid "Password policy is too weak"
-msgstr "Politica privind parola este prea slabă"
+msgstr "Política de contraseñas es demasiado débil"

@@ -2,47 +2,43 @@
 # This file is put in the public domain.
 # 
 # Translators:
-# Andreas <master001@live.de>, 2015
-# Bernhard Weber <bernhard.weber@datenheld.at>, 2015
-# Kri Reu <kreukauff@gmx.de>, 2016
-# Mika Beckerich <beckerichmika@gmail.com>, 2016
-# Rolf Heinze <rowihei@web.de>, 2016,2018
+# Kaya Zeren <kayazeren@gmail.com>, 2015-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
-"POT-Creation-Date: 2017-12-12 17:02+0100\n"
-"PO-Revision-Date: 2018-01-17 17:36+0000\n"
-"Last-Translator: Rolf Heinze <rowihei@web.de>\n"
-"Language-Team: German (http://www.transifex.com/nethserver/nethserver/language/de/)\n"
+"POT-Creation-Date: 2018-03-20 10:41+0100\n"
+"PO-Revision-Date: 2017-12-16 02:38+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/nethserver/nethserver/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: root/etc/nethserver/todos.d/20ad_credentials:40
 msgid "Set authentication credentials for LDAP applications"
-msgstr "Authentifizierungsdaten für LDAP-Anwendungen festlegen"
+msgstr "LDAP uygulamaları için kimlik doğrulama bilgilerini yazın"
 
 #: root/etc/nethserver/todos.d/20ad_credentials:40
 msgid ""
 "Some applications require simple LDAP authentication credentials to browse "
 "the AD LDAP database and work properly."
-msgstr "Einige Anwendungen erfordern einfache LDAP-Authentifizierungsdaten, um die AD LDAP-Datenbank zu durchsuchen und richtig zu funktionieren."
+msgstr "Bazı uygulamaların düzgün çalışması için AD LDAP veritabanına bağlanabilecekleri basit LDAP kimlik doğrulama bilgileri gereklidir."
 
 #: root/etc/nethserver/todos.d/20admin-user:50
 msgid "Enable admin user"
-msgstr "Benutzer Admin aktivieren"
+msgstr "Admin kullanıcısını etkinleştir"
 
 #: root/etc/nethserver/todos.d/20admin-user:53
 msgid "Enable and set a password for the admin user."
-msgstr "Benutzer Admin aktivieren und Passwort festlegen."
+msgstr "Admin kullanıcısını etkinleştirir ve bir parola atar."
 
 #: root/etc/nethserver/todos.d/40password_strength:40
 msgid "Change password strength"
-msgstr "Passwortstärke ändern"
+msgstr "Parola zorluğunu değiştirin"
 
 #: root/etc/nethserver/todos.d/40password_strength:40
 msgid "Password policy is too weak"
-msgstr "Passwortrichtlinie zu schwach"
+msgstr "Parola ilkesi çok zayıf"
