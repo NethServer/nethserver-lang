@@ -2,13 +2,14 @@
 # This file is put in the public domain.
 # 
 # Translators:
+# Davide Principi <davide.principi@nethesis.it>, 2018
 # Giacomo Sanchietti <giacomo.sanchietti@nethesis.it>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
 "Report-Msgid-Bugs-To: translations@nethserver.org\n"
-"POT-Creation-Date: 2017-12-12 17:02+0100\n"
-"PO-Revision-Date: 2017-12-15 11:36+0000\n"
+"POT-Creation-Date: 2018-03-20 10:41+0100\n"
+"PO-Revision-Date: 2018-03-20 10:10+0000\n"
 "Last-Translator: Davide Principi <davide.principi@nethesis.it>\n"
 "Language-Team: Italian (http://www.transifex.com/nethserver/nethserver/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -19,21 +20,21 @@ msgstr ""
 
 #: root/etc/nethserver/todos.d/20ad_credentials:40
 msgid "Set authentication credentials for LDAP applications"
-msgstr ""
+msgstr "Impostare le credenziali di autenticazione per le applicazioni LDAP"
 
 #: root/etc/nethserver/todos.d/20ad_credentials:40
 msgid ""
 "Some applications require simple LDAP authentication credentials to browse "
 "the AD LDAP database and work properly."
-msgstr ""
+msgstr "Alcune applicazioni richiedono le credenziali di autenticazione LDAP semplice per accedere al database LDAP di Active Directory e funzionare correttamente."
 
 #: root/etc/nethserver/todos.d/20admin-user:50
 msgid "Enable admin user"
-msgstr ""
+msgstr "Abilitare l'utente admin"
 
 #: root/etc/nethserver/todos.d/20admin-user:53
 msgid "Enable and set a password for the admin user."
-msgstr ""
+msgstr "Abilitare e impostare una password per l'utente admin."
 
 #: root/etc/nethserver/todos.d/40password_strength:40
 msgid "Change password strength"
