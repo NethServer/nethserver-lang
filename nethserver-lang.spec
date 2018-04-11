@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.2.8
+Version: 1.2.9
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -205,6 +205,9 @@ BuildArch: noarch
 NethServer Romanian language support (ro)
 
 %changelog
+* Wed Apr 11 2018 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.2.9-1
+- Add missing proxy modules
+
 * Wed Apr 11 2018 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.2.8-1
 - Add hotspot and mattermost
 - Updated language strings
