@@ -1,8 +1,8 @@
 <?php
 
-$L['Duc_Description'] = 'Usage and space analyzer';
-$L['Duc_Tags'] = 'disk analysis space usage duc';
+$L['Duc_Description'] = 'Användning och utrymmes analysering';
+$L['Duc_Tags'] = 'disk analyser utrymme användning duc';
 
-$L['Duc_label'] = 'Enable disk usage analysis';
-$L['DucStatus_enabled_label'] = 'Enable';
-$L['DucStatus_disabled_label'] = 'Disable';
+$L['Duc_label'] = 'Aktivering disk användning analys';
+$L['DucStatus_enabled_label'] = 'Aktivera';
+$L['DucStatus_disabled_label'] = 'Avaktiverad';

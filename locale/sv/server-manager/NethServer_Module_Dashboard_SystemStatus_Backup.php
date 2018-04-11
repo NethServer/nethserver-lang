@@ -16,6 +16,6 @@ $L['incremental'] = 'inkrementell';
 $L['full'] = 'Full';
 $L['SUCCESS'] = 'SUCCÉ';
 $L['ERROR'] = 'FEL';
-$L['START'] = 'START';
+$L['START'] = 'STARTA';
 $L['backup_not_configured'] = 'Säkerhetskopiering inte konfigurerad';
 $L['last_backup'] = 'Sista säkerhetskopiering';

@@ -13,7 +13,7 @@ $L['Advanced_label'] = 'Advanced';
 $L['Alerts_label'] = 'Enable alerts';
 $L['Interfaces_label'] = 'Gränssnitt';
 
-$L['NtopngStatus_Title'] = 'Bandwidth usage';
+$L['NtopngStatus_Title'] = 'Bandbredds användning';
 $L['NtopngStatus_Header'] = 'Real-time bandwidth usage';
 $L['NtopngStatus_ntopng_error_message'] = 'Could not communicate with ntopng. See /var/log/messages for details';
 $L['NtopngStatus_ntopng_disabled_message'] = 'The ntopng service is disabled';

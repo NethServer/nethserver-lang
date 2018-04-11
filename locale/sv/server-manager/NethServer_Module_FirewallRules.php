@@ -100,11 +100,11 @@ $L['ActionRoute_label'] = 'Route to ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Log';
 
-$L['ShowAction_label'] = 'Show';
+$L['ShowAction_label'] = 'Visa';
 $L['ShowRules_label'] = 'Brandvägg';
 $L['ShowRoutes_label'] = 'Policy routing';
-$L['ShowServices_label'] = 'Network services';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping';
+$L['ShowServices_label'] = 'Nätverks tjänster';
+$L['ShowTrafficShaping_label'] = 'Trafik förbättringar';
 
 $L['ActionPriorityHigh_label'] = 'High priority';
 $L['ActionPriorityLow_label'] = 'Low priority';

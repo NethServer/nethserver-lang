@@ -14,9 +14,9 @@ $L['TCPPorts_label'] = 'TCP';
 $L['UDPPorts_label'] = 'UDP';
 $L['enabled_label'] = 'Enabled';
 $L['disabled_label'] = 'Disabled';
-$L['restart_label'] = 'Restart';
-$L['start_label'] = 'Start';
-$L['stop_label'] = 'Stop';
+$L['restart_label'] = 'Omstart';
+$L['start_label'] = 'Startar';
+$L['stop_label'] = 'Stopp';
 
 $L['amavisd_Description'] = 'Mail virus och antispam skanner';
 $L['asterisk_Description'] = 'VoIP PBX';

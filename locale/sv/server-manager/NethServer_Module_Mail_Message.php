@@ -1,7 +1,7 @@
 <?php 
 
-$L['${0} day'] = '${0} day'; 
-$L['${0} days'] = '${0} days';
+$L['${0} day'] = '${0} dag'; 
+$L['${0} days'] = '${0} dagar';
 $L['AlwaysBccStatus_label'] = 'Always send a copy (Bcc)';
 $L['AlwaysBccAddress_label'] = 'Always send a copy (Bcc)';
 $L['Message_Title'] = 'Messages'; 

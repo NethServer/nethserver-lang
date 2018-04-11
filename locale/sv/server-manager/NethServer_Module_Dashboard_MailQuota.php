@@ -1,8 +1,8 @@
 <?php
 
 $L['MailQuota_Title'] = 'Post kvot';
-$L['MailQuota_Tags'] = 'Mail quota mail quota';
-$L['MailQuota_Description'] = 'Display mail quota';
+$L['MailQuota_Tags'] = 'Post kvot post kvot';
+$L['MailQuota_Description'] = 'Visa post kvot';
 $L['Key_label'] = 'Användaren';
 $L['size_label'] = 'Storlek';
 $L['max_size_label'] = 'Max. storlek';

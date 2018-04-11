@@ -1,10 +1,10 @@
 <?php
 
 $L['Cover_Title'] = 'Välkommen';
-$L['Next_label'] = 'Next';
+$L['Next_label'] = 'Nästa';
 $L['Back_label'] = 'Back';
 $L['Skip_label'] = 'Skip';
-$L['Save_label'] = 'Save';
+$L['Save_label'] = 'Spara';
 $L['Welcome_title'] = "Welcome to  \${ProductName} \${Version} \${Release}";
 $L['Welcome_body'] = "This wizard will help you setup some system options. At the end, you will be redirected to the network configuration page.";
 $L['Welcome_next'] = "To continue, click Next.";

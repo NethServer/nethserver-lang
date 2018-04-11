@@ -4,7 +4,7 @@ $L['Key_label'] = 'Tjänst';
 $L['access_label'] = 'Access';
 $L['ports_label'] = 'Portar';
 
-$L['NetworkServices_Title'] = 'Network services';
+$L['NetworkServices_Title'] = 'Nätverks tjänster';
 $L['NetworkServices_Tags'] = 'Network services service firewall local';
 $L['NetworkServices_Description'] = 'Manage network services running on this machine';
 $L['TCPPorts_label'] = 'TCP';

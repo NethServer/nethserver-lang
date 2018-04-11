@@ -1,8 +1,8 @@
 <?php 
 
 $L['Administration'] = 'Administration'; 
-$L['Configuration'] = 'Configuration'; 
-$L['Management'] = 'Management'; 
+$L['Configuration'] = 'Konfiguration'; 
+$L['Management'] = 'Hantering'; 
 $L['Other modules'] = 'Other modules'; 
 $L['Security'] = 'Security';
 $L['Status'] = 'Status';
