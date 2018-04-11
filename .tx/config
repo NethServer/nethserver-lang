@@ -574,6 +574,18 @@ source_file = locale/en/server-manager/NethServer_Module_Proxy_Squid.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
+[nethserver.Proxy_BypassDomains]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Proxy_BypassDomains.php
+source_file = locale/en/server-manager/NethServer_Module_Proxy_BypassDomains.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
+[nethserver.Proxy_Rules]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Proxy_Rules.php
+source_file = locale/en/server-manager/NethServer_Module_Proxy_Rules.php
+source_lang = en
+type = PHP_ALT_ARRAY
+
 [nethserver.Pseudonym]
 file_filter = locale/<lang>/server-manager/NethServer_Module_Pseudonym.php
 source_file = locale/en/server-manager/NethServer_Module_Pseudonym.php
