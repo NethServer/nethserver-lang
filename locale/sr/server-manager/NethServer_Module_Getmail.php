@@ -1,0 +1,50 @@
+<?php 
+
+/* NethServer_Module_Getmail translation, language: en */
+
+$L['10_label'] = '10 минута';
+$L['15_label'] = '15 минута';
+$L['30_label'] = '30 минута';
+$L['5_label'] = '5 минута';
+$L['60_label'] = '60 минута';
+$L['-1d_label'] = 'Никада';
+$L['0d_label'] = 'Одмах';
+$L['1d_label'] = 'После 1 дана';
+$L['2d_label'] = 'После 2 дана';
+$L['3d_label'] = 'После 3 дана';
+$L['7d_label'] = 'После 1 недеље';
+$L['30d_label'] = 'После 1 месеца';
+$L['90d_label'] = 'После 3 месеца';
+$L['360d_label'] = 'После 1 године';
+$L['Account_label'] = 'Испоручи поруке';
+$L['Accounts_Title'] = 'Налози';
+$L['create_header_label'] = 'Креирај спољни поштански налог';
+$L['disable_label'] = 'Онемогући';
+$L['disabled_label'] = 'Онемогућен';
+$L['Disable external mail account'] = 'Онемогући спољни поштански налог';
+$L['enable_label'] = 'Омогући';
+$L['enabled_label'] = 'Омогућен';
+$L['Enable external mail account'] = 'Омогући спољни поштански налог';
+$L['Getmail_Description'] = 'Управљај спољним поштанским налогом';
+$L['Getmail_Tags'] = 'Гетмејл спољни поштански налози фечмејл';
+$L['Getmail_Title'] = 'POP3 конектор';
+$L['Key_label'] = 'Налог';
+$L['mail_label'] = 'Поштанска адреса';
+$L['Server_label'] = 'Адреса сервера';
+$L['proto_label'] = 'Протокол';
+$L['Proceed with account disable?'] = 'Настави са онемогућавањем налога?';
+$L['Proceed with account enable?'] = 'Настави са омогућавањем налога?';
+$L['update_header_label'] = 'Ажурирај спољни поштански налог';
+$L['Users_label'] = 'Корисници';
+$L['Retriever_label'] = 'Протокол';
+$L['SimplePOP3Retriever_label'] = 'POP3';
+$L['SimpleIMAPRetriever_label'] = 'ИМАП';
+$L['SimplePOP3SSLRetriever_label'] = 'ПОП3 са ССЛ';
+$L['SimpleIMAPSSLRetriever_label'] = 'ИМАП са ССЛ';
+$L['Time_label'] = 'Провери овај налог сваких';
+$L['Delete_label'] = 'Обриши преузете поруке';
+$L['Username_label'] = 'Корисничко име';
+$L['Password_label'] = 'Лозинка';
+$L['Advanced_label'] = 'Напредно';
+$L['SpamCheck_label'] = 'Провери поруке на СПАМ';
+$L['VirusCheck_label'] = 'Провери поруке на вирусе';

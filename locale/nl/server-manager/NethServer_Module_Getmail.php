@@ -1,0 +1,50 @@
+<?php 
+
+/* NethServer_Module_Getmail translation, language: en */
+
+$L['10_label'] = '10 minuten';
+$L['15_label'] = '15 minuten';
+$L['30_label'] = '30 minuten';
+$L['5_label'] = '5 minuten';
+$L['60_label'] = '60 minuten';
+$L['-1d_label'] = 'Nooit';
+$L['0d_label'] = 'Onmiddelijk';
+$L['1d_label'] = 'Na 1 dag';
+$L['2d_label'] = 'Na 2 dagen';
+$L['3d_label'] = 'Na 3 dagen';
+$L['7d_label'] = 'Na 1 week';
+$L['30d_label'] = 'Na 1 maand';
+$L['90d_label'] = 'Na 3 maanden';
+$L['360d_label'] = 'Na 1 jaar';
+$L['Account_label'] = 'Verstuur berichten naar';
+$L['Accounts_Title'] = 'Accounts';
+$L['create_header_label'] = 'Maak extern mailaccount';
+$L['disable_label'] = 'Uitschakelen';
+$L['disabled_label'] = 'Uitgeschakeld';
+$L['Disable external mail account'] = 'Extern mailaccount uitschakelen';
+$L['enable_label'] = 'Inschakelen';
+$L['enabled_label'] = 'Ingeschakeld';
+$L['Enable external mail account'] = 'Schakel extern mailaccount in';
+$L['Getmail_Description'] = 'Beheer extern mailaccount';
+$L['Getmail_Tags'] = 'Getmail extern mail account fetchmail';
+$L['Getmail_Title'] = 'POP3 connector';
+$L['Key_label'] = 'Account';
+$L['mail_label'] = 'Mailadres';
+$L['Server_label'] = 'Serveradres';
+$L['proto_label'] = 'Protocol';
+$L['Proceed with account disable?'] = 'Doorgaan met uitschakelen van het account?';
+$L['Proceed with account enable?'] = 'Doorgaan met inschakelen van het account?';
+$L['update_header_label'] = 'Wijzig extern mail account';
+$L['Users_label'] = 'Gebruikers';
+$L['Retriever_label'] = 'Protocol';
+$L['SimplePOP3Retriever_label'] = 'POP3';
+$L['SimpleIMAPRetriever_label'] = 'IMAP';
+$L['SimplePOP3SSLRetriever_label'] = 'POP3 met SSL';
+$L['SimpleIMAPSSLRetriever_label'] = 'IMAP met SSL';
+$L['Time_label'] = 'Contoleer dit account om de';
+$L['Delete_label'] = 'Verwijder opgehaalde berichten';
+$L['Username_label'] = 'Gebruikersnaam';
+$L['Password_label'] = 'Wachtwoord';
+$L['Advanced_label'] = 'Geavanceerd';
+$L['SpamCheck_label'] = 'Controleer berichten op SPAM';
+$L['VirusCheck_label'] = 'Controleer berichten op virussen';

@@ -1,0 +1,50 @@
+<?php 
+
+/* NethServer_Module_Getmail translation, language: en */
+
+$L['10_label'] = '10 minut';
+$L['15_label'] = '15 minut';
+$L['30_label'] = '30 minut';
+$L['5_label'] = 'Pět minut';
+$L['60_label'] = 'Hodina';
+$L['-1d_label'] = 'Nikdy';
+$L['0d_label'] = 'Okamžitě';
+$L['1d_label'] = 'Po jednom dni';
+$L['2d_label'] = 'Za dva dny';
+$L['3d_label'] = 'Za tři dny';
+$L['7d_label'] = 'Za jeden týden';
+$L['30d_label'] = 'Za jeden měsíc';
+$L['90d_label'] = 'Za tři měsíce';
+$L['360d_label'] = 'Za jeden rok';
+$L['Account_label'] = 'Zprávy doručit na';
+$L['Accounts_Title'] = 'Účty';
+$L['create_header_label'] = 'Vytvořit e-mailový účet na jiném serveru';
+$L['disable_label'] = 'Vypnout';
+$L['disabled_label'] = 'Vypnuto';
+$L['Disable external mail account'] = 'Nepoužívat e-mailový účet na jiném serveru';
+$L['enable_label'] = 'Zapnout';
+$L['enabled_label'] = 'Zapnuto';
+$L['Enable external mail account'] = 'Enable external mail account';
+$L['Getmail_Description'] = 'Spravovat e-mailový účet na jiném serveru';
+$L['Getmail_Tags'] = 'Getmail external mail accounts fetchmail';
+$L['Getmail_Title'] = 'POP3 connector';
+$L['Key_label'] = 'Účet';
+$L['mail_label'] = 'E-mailová adresa';
+$L['Server_label'] = 'Adresa serveru';
+$L['proto_label'] = 'Protokol';
+$L['Proceed with account disable?'] = 'Znepřístupnit tento účet?';
+$L['Proceed with account enable?'] = 'Zpřístupnit účet?';
+$L['update_header_label'] = 'Aktualizovat vnější e-mailový účet';
+$L['Users_label'] = 'Uživatelé';
+$L['Retriever_label'] = 'Protokol';
+$L['SimplePOP3Retriever_label'] = 'POP3';
+$L['SimpleIMAPRetriever_label'] = 'IMAP';
+$L['SimplePOP3SSLRetriever_label'] = 'POP3 s SSL';
+$L['SimpleIMAPSSLRetriever_label'] = 'IMAP s SSL';
+$L['Time_label'] = 'Zkontrolovat tento účet každou';
+$L['Delete_label'] = 'Smazat stažené zprávy';
+$L['Username_label'] = 'Uživatelské jméno';
+$L['Password_label'] = 'Heslo';
+$L['Advanced_label'] = 'Pokročilé';
+$L['SpamCheck_label'] = 'Zkontrolovat zprávy na nevyžádané zprávy (SPAM)';
+$L['VirusCheck_label'] = 'Zkontrolovat zprávy na viry';

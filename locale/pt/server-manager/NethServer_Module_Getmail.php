@@ -1,0 +1,50 @@
+<?php 
+
+/* NethServer_Module_Getmail translation, language: en */
+
+$L['10_label'] = '10 minutos';
+$L['15_label'] = '15 minutos';
+$L['30_label'] = '30 minutos';
+$L['5_label'] = '5 minutos';
+$L['60_label'] = '60 minutos';
+$L['-1d_label'] = 'Nunca';
+$L['0d_label'] = 'Immediately';
+$L['1d_label'] = 'After 1 day';
+$L['2d_label'] = 'After 2 days';
+$L['3d_label'] = 'After 3 days';
+$L['7d_label'] = 'After 1 week';
+$L['30d_label'] = 'After 1 month';
+$L['90d_label'] = 'After 3 months';
+$L['360d_label'] = 'After 1 year';
+$L['Account_label'] = 'Deliver messages to';
+$L['Accounts_Title'] = 'Contas';
+$L['create_header_label'] = 'Criar conta de correio externa';
+$L['disable_label'] = 'Desativar';
+$L['disabled_label'] = 'Desativado';
+$L['Disable external mail account'] = 'Desativar conta de correio externa';
+$L['enable_label'] = 'Ativar';
+$L['enabled_label'] = 'Ativado';
+$L['Enable external mail account'] = 'Ativar conta de correio externa';
+$L['Getmail_Description'] = 'Gerir contas de correio externas';
+$L['Getmail_Tags'] = 'Getmail external mail accounts fetchmail';
+$L['Getmail_Title'] = 'Conetor POP3';
+$L['Key_label'] = 'Conta';
+$L['mail_label'] = 'Endereço de e-mail';
+$L['Server_label'] = 'Endereço do servidor';
+$L['proto_label'] = 'Protocolo';
+$L['Proceed with account disable?'] = 'Prosseguir com a conta desativada?';
+$L['Proceed with account enable?'] = 'Prosseguir com a ativação da conta?';
+$L['update_header_label'] = 'Atualiza a conta de correio externa';
+$L['Users_label'] = 'Utilizadores';
+$L['Retriever_label'] = 'Protocolo';
+$L['SimplePOP3Retriever_label'] = 'POP3';
+$L['SimpleIMAPRetriever_label'] = 'IMAP';
+$L['SimplePOP3SSLRetriever_label'] = 'POP3 with SSL';
+$L['SimpleIMAPSSLRetriever_label'] = 'IMAP with SSL';
+$L['Time_label'] = 'Check this account every';
+$L['Delete_label'] = 'Eliminar mensagens transferidas';
+$L['Username_label'] = 'Nome de Utilizador';
+$L['Password_label'] = 'Palavra-passe';
+$L['Advanced_label'] = 'Avançado';
+$L['SpamCheck_label'] = 'Check messags for SPAM';
+$L['VirusCheck_label'] = 'Check messags for virus';

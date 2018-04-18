@@ -1,0 +1,50 @@
+<?php 
+
+/* NethServer_Module_Getmail translation, language: en */
+
+$L['10_label'] = '10 minuti';
+$L['15_label'] = '15 minuti';
+$L['30_label'] = '30 minuti';
+$L['5_label'] = '5 minuti';
+$L['60_label'] = '60 minuti';
+$L['-1d_label'] = 'Mai';
+$L['0d_label'] = 'Subito';
+$L['1d_label'] = 'Dopo 1 giorno';
+$L['2d_label'] = 'Dopo 2 giorni';
+$L['3d_label'] = 'Dopo 3 giorni';
+$L['7d_label'] = 'Dopo 1 settimana';
+$L['30d_label'] = 'Dopo 1 mese';
+$L['90d_label'] = 'Dopo 3 mesi';
+$L['360d_label'] = 'Dopo 1 anno';
+$L['Account_label'] = 'Consegna i messaggi a';
+$L['Accounts_Title'] = 'Indirizzi esterni';
+$L['create_header_label'] = 'Crea indirizzo mail esterno';
+$L['disable_label'] = 'Disabilita';
+$L['disabled_label'] = 'Disabilitato';
+$L['Disable external mail account'] = 'Disabilita indirizzo mail esterno';
+$L['enable_label'] = 'Abilita';
+$L['enabled_label'] = 'Abilitato';
+$L['Enable external mail account'] = 'Abilita indirizzo esterno';
+$L['Getmail_Description'] = 'Gestisci indirizzi mail esterni';
+$L['Getmail_Tags'] = 'getmail Getmail Fetchmail indirizzi mail esterni fetchmail';
+$L['Getmail_Title'] = 'Connettore POP3';
+$L['Key_label'] = 'Account';
+$L['mail_label'] = 'Indirizzo email';
+$L['Server_label'] = 'Indirizzo server';
+$L['proto_label'] = 'Protocollo';
+$L['Proceed with account disable?'] = 'Procedere con la disibilitazione?';
+$L['Proceed with account enable?'] = 'Procedere con l\'attivazione?';
+$L['update_header_label'] = 'Modifica indirizzo mail esterno';
+$L['Users_label'] = 'Utenti';
+$L['Retriever_label'] = 'Protocollo';
+$L['SimplePOP3Retriever_label'] = 'POP3';
+$L['SimpleIMAPRetriever_label'] = 'IMAP';
+$L['SimplePOP3SSLRetriever_label'] = 'POP3 con SSL';
+$L['SimpleIMAPSSLRetriever_label'] = 'IMAP con SSL';
+$L['Time_label'] = 'Controlla questo account ogni';
+$L['Delete_label'] = 'Elimina messaggi scaricati';
+$L['Username_label'] = 'Nome utente';
+$L['Password_label'] = 'Password';
+$L['Advanced_label'] = 'Avanzate';
+$L['SpamCheck_label'] = 'Abilita controllo anti SPAM';
+$L['VirusCheck_label'] = 'Abilita controllo anti virus';

@@ -1,0 +1,50 @@
+<?php 
+
+/* NethServer_Module_Getmail translation, language: en */
+
+$L['10_label'] = '10 minutos';
+$L['15_label'] = '15 minutos';
+$L['30_label'] = '30 minutos';
+$L['5_label'] = '5 minutos';
+$L['60_label'] = '60 minutos';
+$L['-1d_label'] = 'Nunca';
+$L['0d_label'] = 'Imediatamente';
+$L['1d_label'] = 'Após 1 dia';
+$L['2d_label'] = 'Após 2 dias';
+$L['3d_label'] = 'Após 3 dias';
+$L['7d_label'] = 'Após 1 semana';
+$L['30d_label'] = 'Após 1 mês';
+$L['90d_label'] = 'Após 3 meses ';
+$L['360d_label'] = 'Após 1 ano';
+$L['Account_label'] = 'Entregar mensagens para';
+$L['Accounts_Title'] = 'Contas';
+$L['create_header_label'] = 'Criar conta de email externa';
+$L['disable_label'] = 'Desabilitar';
+$L['disabled_label'] = 'Desabilitado';
+$L['Disable external mail account'] = 'Desabilitar conta de email externa';
+$L['enable_label'] = 'Habilitar';
+$L['enabled_label'] = 'Habilitado';
+$L['Enable external mail account'] = 'Ativar conta de email externa';
+$L['Getmail_Description'] = 'Gerenciar contas de email externas';
+$L['Getmail_Tags'] = 'Pegar contas de email externas pegar';
+$L['Getmail_Title'] = 'Conector POP3';
+$L['Key_label'] = 'Conta';
+$L['mail_label'] = 'Endereço de email';
+$L['Server_label'] = 'Endereço do servidor';
+$L['proto_label'] = 'Protocolo';
+$L['Proceed with account disable?'] = 'Prosseguir com a conta desativada?';
+$L['Proceed with account enable?'] = 'Prosseguir com a conta ativa?';
+$L['update_header_label'] = 'Atualiza conta de email externa';
+$L['Users_label'] = 'Usuarios';
+$L['Retriever_label'] = 'Protocolo';
+$L['SimplePOP3Retriever_label'] = 'POP3';
+$L['SimpleIMAPRetriever_label'] = 'IMAP';
+$L['SimplePOP3SSLRetriever_label'] = 'POP3 com SSL';
+$L['SimpleIMAPSSLRetriever_label'] = 'IMAP com SSL';
+$L['Time_label'] = 'Verificar contas a cada';
+$L['Delete_label'] = 'Apagar mensagens descarregadas';
+$L['Username_label'] = 'Usuário';
+$L['Password_label'] = 'Senha';
+$L['Advanced_label'] = 'Avançado';
+$L['SpamCheck_label'] = 'Verificar mensagens por SPAM';
+$L['VirusCheck_label'] = 'Verificar mensagens por virus';

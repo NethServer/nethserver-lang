@@ -1,0 +1,50 @@
+<?php 
+
+/* NethServer_Module_Getmail translation, language: en */
+
+$L['10_label'] = '10 minute';
+$L['15_label'] = '15 minute';
+$L['30_label'] = '30 de minute';
+$L['5_label'] = '5 minute';
+$L['60_label'] = '60 de minute';
+$L['-1d_label'] = 'Niciodată';
+$L['0d_label'] = 'Imediat';
+$L['1d_label'] = 'După 1 zi';
+$L['2d_label'] = 'După 2 zile';
+$L['3d_label'] = 'După 3 zile';
+$L['7d_label'] = 'După 1 săptămână';
+$L['30d_label'] = 'După 1 lună';
+$L['90d_label'] = 'După 3 luni';
+$L['360d_label'] = 'După 1 an';
+$L['Account_label'] = 'Livrează mesajele la';
+$L['Accounts_Title'] = 'Conturi';
+$L['create_header_label'] = 'Crează cont extern de mail';
+$L['disable_label'] = 'Dezactivează';
+$L['disabled_label'] = 'Dezactivat';
+$L['Disable external mail account'] = 'Dezactivează cont extern de mail';
+$L['enable_label'] = 'Activează';
+$L['enabled_label'] = 'Activat';
+$L['Enable external mail account'] = 'Activează cont extern de mail';
+$L['Getmail_Description'] = 'Gestionează cont extern de mail';
+$L['Getmail_Tags'] = 'Getmail extern mail conturi fetchmail';
+$L['Getmail_Title'] = 'Conector POP3';
+$L['Key_label'] = 'Cont';
+$L['mail_label'] = 'Adresă mail';
+$L['Server_label'] = 'Adresă server';
+$L['proto_label'] = 'Protocol';
+$L['Proceed with account disable?'] = 'Continui cu dezactivarea contului?';
+$L['Proceed with account enable?'] = 'Continui cu activarea contului?';
+$L['update_header_label'] = 'Actualizează cont extern de mail';
+$L['Users_label'] = 'Utilizatori';
+$L['Retriever_label'] = 'Protocol';
+$L['SimplePOP3Retriever_label'] = 'POP3';
+$L['SimpleIMAPRetriever_label'] = 'IMAP';
+$L['SimplePOP3SSLRetriever_label'] = 'POP3 cu SSL';
+$L['SimpleIMAPSSLRetriever_label'] = 'IMAP cu SSL';
+$L['Time_label'] = 'Verifică acest cont la fiecare';
+$L['Delete_label'] = 'Șterge mesajele decărcate';
+$L['Username_label'] = 'Nume utilizator';
+$L['Password_label'] = 'Parolă';
+$L['Advanced_label'] = 'Avansat';
+$L['SpamCheck_label'] = 'Verifică mesajele pentru SPAM';
+$L['VirusCheck_label'] = 'Verifică mesajele pentru viruși';
