@@ -107,3 +107,24 @@ Push updated sources to Transifex::
 Refer to Internationalization_ chapter on the Developer's Manual.
 
 .. _Internationalization: http://docs.nethserver.org/projects/nethserver-devel/en/latest/i18n.html
+
+Adding new resources
+--------------------
+
+After the developer has pushed sources to Transifex, the new resources must be added inside ``.tx/config``.
+
+Add the relevant configuration, for PHP resources something like: ::
+
+  [nethserver.MyModule]
+  file_filter = locale/<lang>/server-manager/NethServer_Module_MyModule.php
+  source_file = locale/en/server-manager/NethServer_Module_MyModule.php
+  source_lang = en
+  type = PHP_ALT_ARRAY
+
+Then retrieve all files: ::
+
+  tx pull -r nethserver.MyModule -a
+
+Finally, add all files to the repository: ::
+
+  git add *NethServer_Module_MyModule*
