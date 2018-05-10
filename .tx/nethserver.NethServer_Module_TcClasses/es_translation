@@ -1,0 +1,24 @@
+<?php
+$L['TcClasses_Title'] = 'Priorización del tráfico';
+$L['TcClasses_Description'] = 'Configuración de la Priorización del tráfico';
+$L['TcClasses_Tags'] = 'priorización de tráfico tc qos';
+$L['configure_header'] = 'Configuración';
+$L['Options_label'] = 'Opciones';
+$L['Key_label'] = 'Nombre de categoría';
+$L['Name_label'] = 'Nombre de categoría';
+$L['Mark_label'] = 'Marcar';
+$L['MaxInputRate_label'] = 'Máximo de descarga (%)';
+$L['MaxOutputRate_label'] = 'Máximo de subida (%)';
+$L['MinInputRate_label'] = 'Mínimo de descarga (%)';
+$L['MinOutputRate_label'] = 'Mínimo de subida (%)';
+$L['Download_label'] = 'Tasa de descarga';
+$L['Upload_label'] = 'Tasa de subida';
+$L['Min_label'] = 'Mín.';
+$L['Max_label'] = 'Máx.';
+$L['create_header_label'] = 'Crear categoría de priorización del tráfico';
+$L['update_header_label'] = 'Actualizar categoría de priorización del tráfico';
+$L['Inbound_bandwidth_limits_label'] = 'Límites de ancho de banda de descarga';
+$L['Outbound_bandwidth_limits_label'] = 'Límites de ancho de banda de subida';
+$L['duplicate_class'] = 'Ya existe una categoría con el mismo nombre';
+$L['input_overcommit'] = 'La suma de la tasa de descarga mínima excede el 100%. Ten en cuenta también el ancho de banda reservado para VoIP';
+$L['output_overcommit'] = 'La suma de la tasa de subida mínima excede el 100%. Ten en cuenta también el ancho de banda reservado para VoIP';
