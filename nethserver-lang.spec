@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.2.10
+Version: 1.2.11
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -205,6 +205,9 @@ BuildArch: noarch
 NethServer Romanian language support (ro)
 
 %changelog
+* Wed May 16 2018 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.2.11-1
+- Release for NS 7.5
+
 * Thu Apr 26 2018 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.2.10-1
 - Add Mattermost resource
 - Add Getmail resource
