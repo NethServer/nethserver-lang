@@ -46,5 +46,4 @@ $L['Delete_label'] = 'Nachrichten nach dem Herunterladen löschen';
 $L['Username_label'] = 'Benutzername';
 $L['Password_label'] = 'Passwort';
 $L['Advanced_label'] = 'Erweitert';
-$L['SpamCheck_label'] = 'Überprüfe Nachrichten auf Spam';
-$L['VirusCheck_label'] = 'Überprüfe Nachrichten auf Viren';
+$L['FilterCheck_label'] = 'Nachrichten mit E-Mail-Filter scannen';

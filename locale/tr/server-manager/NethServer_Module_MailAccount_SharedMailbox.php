@@ -1,6 +1,6 @@
 <?php
 
-$L['SharedMailbox_create_header'] = 'Yeni bir paylaşılan posta kutusu ekle';
+$L['SharedMailbox_create_header'] = 'Yeni bir paylaşılmış posta kutusu ekle';
 $L['SharedMailbox_modify_header'] = '`${0}` paylaşılmış posta kutusunu düzenle';
 $L['Name_label'] = 'Ad';
 $L['Key_label'] = 'Posta kutusu';

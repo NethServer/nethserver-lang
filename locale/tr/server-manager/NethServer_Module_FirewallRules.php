@@ -98,21 +98,24 @@ $L['FirewallObject_cidr_Title'] = 'CIDR ağı ${key}';
 $L['Show_x_outof_y_label'] = '${partial} / ${total} sonuç görüntüleniyor';
 $L['ActionRoute_label'] = '${0} yöneltmesi';
 $L['ActionRouteIndex_label'] = '${0}';
+$L['ActionPriorityIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Günlük';
 
 $L['ShowAction_label'] = 'Görüntüle';
-$L['ShowRules_label'] = 'Güvenlik Duvarı';
-$L['ShowRoutes_label'] = 'İlke yöneltmesi';
-$L['ShowServices_label'] = 'Ağ hizmetleri';
-$L['ShowTrafficShaping_label'] = 'Trafik kısıtlama';
+$L['ShowRules_label'] = 'Güvenlik duvarı (${0})';
+$L['ShowRoutes_label'] = 'İlke yöneltmesi (${0})';
+$L['ShowServices_label'] = 'Ağ hizmetleri (${0})';
+$L['ShowTrafficShaping_label'] = 'Trafik şekillendirme (${0})';
 
 $L['ActionPriorityHigh_label'] = 'Yüksek öncelikli';
 $L['ActionPriorityLow_label'] = 'Düşük öncelikli';
+$L['ActionPriority_label'] = 'Öncelik ${0}';
 $L['ActionPrioLo_label'] = 'Düş-Önc';
 $L['ActionPrioHi_label'] = 'Yük-Önc';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Yöneltici kuralları kırmızı bölgenin kaynak olarak kullanılmasına izin vermiyor.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Yöneltici kuralları yalnız şu hedef türlerinin kullanılmasına izin veriyor: zone, host, ip range, cidr, red.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Yöneltici kuralları DPI iletişim kuralının hizmet olarak kullanılmasına izin vermiyor.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = '"Yerel hizmet" olarak seçildiğinde hedef "Güvenlik duvarı" olmalıdır.';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Trafik kısıtlama kuralları kırmızı bölgenin kaynak olarak kullanılmasına izin vermiyor';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Trafik kısıtlama kuralları yalnız şu hedef türlerinin kullanılmasına izin veriyor: zone, host, ip range, cidr, red.';

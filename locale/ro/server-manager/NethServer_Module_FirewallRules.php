@@ -98,21 +98,24 @@ $L['FirewallObject_cidr_Title'] = 'Rețea CIDR ${key}';
 $L['Show_x_outof_y_label'] = 'Arată rezultate ${partial} din ${total}';
 $L['ActionRoute_label'] = 'Rută către ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
+$L['ActionPriorityIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Jurnal';
 
 $L['ShowAction_label'] = 'Arată';
-$L['ShowRules_label'] = 'Firewall';
-$L['ShowRoutes_label'] = 'Politică rutare';
-$L['ShowServices_label'] = 'Servicii de rețea';
-$L['ShowTrafficShaping_label'] = 'Configurare trafic';
+$L['ShowRules_label'] = 'Firewall (${0})';
+$L['ShowRoutes_label'] = 'Politică rutare (${0})';
+$L['ShowServices_label'] = 'Servicii rețea (${0})';
+$L['ShowTrafficShaping_label'] = 'Modelare trafic';
 
 $L['ActionPriorityHigh_label'] = 'Prioritate înaltă';
 $L['ActionPriorityLow_label'] = 'Prioritate scăzută';
+$L['ActionPriority_label'] = 'Prioritate ${0}';
 $L['ActionPrioLo_label'] = 'Lo-Prio';
 $L['ActionPrioHi_label'] = 'Hi-Prio';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Regulile de rutare nu permit zonei roșii să fie setată drept sursă';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Regulile de rutare permit numai următoarele tipuri de destinații: zonă, gazdă, interval IP, cidr, roșu.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Regulile rutei nu permit setarea unui protocol DPI drept serviciu';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Selectarea "serviciului local" necesită destinația "firewall"';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Regulile de configurare a traficului nu permit zonei roșii să fie setată drept sursă';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Regulile de configurare a traficului permit numai următoarele tipuri de destinații: zonă, gazdă, interval IP, CIDR, roșu.';

@@ -1,10 +1,10 @@
 <?php 
-$L['Create a new Job'] = 'Create a new Job'; 
+$L['Create a new Job'] = 'Créer une nouvelle tâche'; 
 $L['Description_label'] = 'Description'; 
-$L['CronTab_Title'] = 'Crontab Manager'; 
-$L['Key_label'] = 'Cron Job name'; 
+$L['CronTab_Title'] = 'Gestionnaire des tâches'; 
+$L['Key_label'] = 'Nom de la tâche planifiée'; 
 $L['PlugService_Title'] = 'Services'; 
-$L['Update Job `${0}`'] = 'Update Job `${0}`'; 
+$L['Update Job `${0}`'] = 'Mettre à jour la tâche `${0}`'; 
 $L['monday_label'] = 'Lundi';
 $L['tuesday_label'] = 'Mardi';
 $L['wednesday_label'] = 'Mercredi';

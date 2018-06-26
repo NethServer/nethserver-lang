@@ -30,4 +30,6 @@ $L['DiagToolsSpeedTest_header'] = 'Test din Internet bandbredd';
 $L['server_label'] = 'Server ID (se speedtest servrar)';
 $L['SpeedTest_Title'] = 'Speedtest';
 $L['SpeedTest_label'] = 'Speedtest';
-$L['LeaveBlankForAutomatic'] = 'Ta ej med de närmsta servrarna';
+$L['LeaveBlankForAutomatic'] = 'Blank for the closest server';
+$L['AUTO_FIND_NIC'] = 'Automatic';
+

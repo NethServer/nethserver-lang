@@ -1,11 +1,11 @@
 <?php
 
-$L['Subscription_Title'] = 'Subscription';
-$L['Subscription_Description'] = 'Manage NethServer subscription';
-$L['Subscription_Tags'] = 'community subscription';
-$L['buy_subscription_label'] = 'Join the subscription program!';
-$L['Subscription_header'] = 'Subscription';
-$L['subscriptions_plans'] = 'Subscribe';
+$L['Subscription_Title'] = 'Συνδρομή';
+$L['Subscription_Description'] = 'Διαχείρηση συνδρομής NethServer';
+$L['Subscription_Tags'] = 'Συμδρομή κοινότητας';
+$L['buy_subscription_label'] = 'Συμμετοχή στο πρόγραμμα συνδρομής!';
+$L['Subscription_header'] = 'Συνδρομή';
+$L['subscriptions_plans'] = 'Εγγραφή';
 $L['subscriptions_info'] = 'The NethServer Subscription by Nethesis enables exclusive access to the Stable Updates repository, monitoring tools and immediate professional support services for your NethServer deployments. It enables you to successfully deploy, monitor and manage your NethServer instances, complementing your IT resources and increasing the efficiency and reliability of your services';
 $L['Register_label'] = 'Register now';
 $L['paste_label'] = 'Do you already have a registration token? Copy and paste it in the field below';

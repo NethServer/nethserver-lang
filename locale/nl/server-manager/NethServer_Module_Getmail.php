@@ -46,5 +46,4 @@ $L['Delete_label'] = 'Verwijder opgehaalde berichten';
 $L['Username_label'] = 'Gebruikersnaam';
 $L['Password_label'] = 'Wachtwoord';
 $L['Advanced_label'] = 'Geavanceerd';
-$L['SpamCheck_label'] = 'Controleer berichten op SPAM';
-$L['VirusCheck_label'] = 'Controleer berichten op virussen';
+$L['FilterCheck_label'] = 'Scan messages with email filter';

@@ -98,21 +98,24 @@ $L['FirewallObject_cidr_Title'] = 'Red CIDR ${key}';
 $L['Show_x_outof_y_label'] = 'Mostrando ${partial} resultados de ${total}';
 $L['ActionRoute_label'] = 'Ruta a ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
+$L['ActionPriorityIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Registro';
 
 $L['ShowAction_label'] = 'Mostrar';
-$L['ShowRules_label'] = 'Firewall';
-$L['ShowRoutes_label'] = 'Política de enrutamiento';
-$L['ShowServices_label'] = 'Servicios de red';
-$L['ShowTrafficShaping_label'] = 'Configuración del tráfico';
+$L['ShowRules_label'] = 'Firewall (${0})';
+$L['ShowRoutes_label'] = 'Política de enrutado (${0})';
+$L['ShowServices_label'] = 'Servicios de red (${0})';
+$L['ShowTrafficShaping_label'] = 'Priorización del tráfico (${0})';
 
 $L['ActionPriorityHigh_label'] = 'Prioridad Alta';
 $L['ActionPriorityLow_label'] = 'Prioridad Baja';
+$L['ActionPriority_label'] = 'Prioridad ${0}';
 $L['ActionPrioLo_label'] = 'Lo-Prio';
 $L['ActionPrioHi_label'] = 'Hi-Prio';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Reglas de ruta no permiten que la zona roja se configure como Origen.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Reglas de ruta permiten solamente los siguientes tipos de destino: zona, host, rango de ip, cidr, rojo.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Las reglas de enrutado no permiten establecer un protocolo DPI como un servicio.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'La selección de "servicio local" requiere el destino "firewall".';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Reglas de configuración de tráfico no permiten que la zona roja se configure como Origen.';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Reglas de configuración de tráfico permiten solamente los siguientes tipos de destino: zona, host, rango de IP, CIDR, rojo';

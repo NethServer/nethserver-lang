@@ -46,5 +46,4 @@ $L['Delete_label'] = 'Delete downloaded messages';
 $L['Username_label'] = 'Felhasználónév';
 $L['Password_label'] = 'Jelszó';
 $L['Advanced_label'] = 'Speciális';
-$L['SpamCheck_label'] = 'Check messags for SPAM';
-$L['VirusCheck_label'] = 'Check messags for virus';
+$L['FilterCheck_label'] = 'Scan messages with email filter';

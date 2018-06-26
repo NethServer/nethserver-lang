@@ -28,3 +28,9 @@ $L['FtpUserName_label'] = 'Benutzername';
 $L['FtpPassword_label'] = 'Passwort
 ';
 $L['ExtraFields_label'] = 'Weitere Aktionen';
+$L['any_label'] = 'Alle';
+$L['ModifyDefault_label'] = 'Bearbeiten';
+$L['VirtualHostDefault_Update_Header'] = 'Standardkonfiguration des virtuellen Hosts bearbeiten';
+$L['valid_servername_already_used'] = 'Name "${0}" wurde bereits verwendet';
+$L['Indexes_label'] = 'Stammverzeichnis-Dateilisten';
+$L['Name_Already_Exists'] = 'Name `${0}` wurde bereits verwendet';

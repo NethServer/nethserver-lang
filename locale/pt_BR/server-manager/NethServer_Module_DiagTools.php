@@ -31,3 +31,5 @@ $L['server_label'] = 'ID do Servidor (veja servidores speedtest)';
 $L['SpeedTest_Title'] = 'Teste de Velocidade';
 $L['SpeedTest_label'] = 'Teste de Velocidade';
 $L['LeaveBlankForAutomatic'] = 'Deixe em branco para auto selecionar';
+$L['AUTO_FIND_NIC'] = 'Automático';
+

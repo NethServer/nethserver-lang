@@ -1,7 +1,7 @@
 <?php
 
 $L['Account_Title'] = 'Χρήστες και ομάδες';
-$L['Account_Description'] = 'Manage users and groups, configure the domain identity and authentication providers';
+$L['Account_Description'] = 'Διαχειρειστείτε χρήστες και ομάδες, διμορφώστε την ταυτότητα του τομέα και των χορηγών πιστοποίησης';
 $L['Account_Tags'] = 'sssd user group realm domain account kerberos ldap';
 
 $L['AccountProvider_Error_1'] = 'Account provider generic error: SSSD exit code 1';

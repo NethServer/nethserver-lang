@@ -46,5 +46,4 @@ $L['Delete_label'] = 'İndirilen postaları sil';
 $L['Username_label'] = 'Kullanıcı Adı';
 $L['Password_label'] = 'Parola';
 $L['Advanced_label'] = 'Gelişmiş';
-$L['SpamCheck_label'] = 'İletiler SPAM için denetlensin';
-$L['VirusCheck_label'] = 'İletiler virüs için denetlensin';
+$L['FilterCheck_label'] = 'İletiler e-posta süzgeci ile taransın';

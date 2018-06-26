@@ -2,10 +2,10 @@
 
 $L['Access_label'] = 'Réseau local seulement';
 $L['Account_label'] = 'Destinations';
-$L['Pseudonym_create_header'] = 'Create a new mail alias';
+$L['Pseudonym_create_header'] = 'Créer un nouvel alias mail';
 $L['Current_label'] = 'Sélection en cours'; 
 $L['Description_label'] = 'Description'; 
-$L['Pseudonym_update_header'] = 'Edit mail alias `${0}`';
+$L['Pseudonym_update_header'] = 'Éditer l\'alias de mail `${0}`';
 $L['Flag_label'] = 'Attributs'; 
 $L['Groups_label'] = 'Groupes'; 
 $L['Key_label'] = 'Alias';
@@ -19,6 +19,6 @@ $L['ExtAddresses_label'] = 'External email destinations';
 $L['Destinations_label'] = 'Destinations';
 $L['valid_pseudonym_mailbox_conflict'] = 'An user account with the same name already exists';
 $L['valid_pseudonym_empty_destination'] = 'One element must be set at least';
-$L['SharedMailbox_selector_label'] = '${0} (shared mailbox)';
+$L['SharedMailbox_selector_label'] = '${0} (boîte mail partagée)';
 $L['Yes'] = 'Oui';
 $L['No'] = 'Non';

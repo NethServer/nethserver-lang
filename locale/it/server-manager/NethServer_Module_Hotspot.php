@@ -10,7 +10,7 @@ $L['Device_label'] = 'Scheda di rete';
 $L['Network_label'] = 'Indirizzo di rete';
 $L['hotspot_assigned_label'] = 'Assegnata ad hotspot';
 $L['HotspotProxy_label'] = 'Proxy web';
-$L['Proxy_label'] = 'Abilita proxy trasparente su Hotspot';
+$L['Proxy_label'] = 'Abilita proxy trasparente HTTP e HTTPS su Hotspot ';
 $L['Id_label'] = 'Istanza Hotspot';
 $L['UnitName_label'] = 'Nome dell\'unità ';
 $L['Description_label'] = 'Descrizione';
@@ -30,4 +30,8 @@ $L['Register_label'] = 'Registra';
 
 $L['Unregister_label'] = 'Rimuovi registrazione';
 $L['Unregister_header'] = 'Rimuovi registrazione unità';
-$L['Unregister_message'] = 'Vuoi registrare questa unità?';
+$L['Unregister_message'] = 'Vuoi rimuovere questa unità?';
+
+$L['info_label'] = 'L\'unità Hotspot fornisce accesso Internet  agli ospiti e può essere connessa ad ogni istanza di ';
+$L['ready_label'] = 'Sei già connesso a ';
+$L['icaro_instance'] = 'Apri';

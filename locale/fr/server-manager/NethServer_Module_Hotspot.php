@@ -5,13 +5,13 @@ $L['Hotspot_Description'] = 'Bind to a parent hotspot and configure this unit';
 $L['Hotspot_Tags'] = 'hotspot web';
 
 $L['Configuration_header'] = 'Hotspot unit ${0}';
-$L['LogTraffic_label'] = 'Log traffic';
-$L['Device_label'] = 'Network device';
+$L['LogTraffic_label'] = 'Trafic log';
+$L['Device_label'] = 'Dispositif réseau';
 $L['Network_label'] = 'Adresse réseau';
-$L['hotspot_assigned_label'] = 'hotspot assigned';
+$L['hotspot_assigned_label'] = 'hotspot assigné';
 $L['HotspotProxy_label'] = 'Proxy Web';
-$L['Proxy_label'] = 'Enable transparent proxy on hotspot';
-$L['Id_label'] = 'Parent hotspot';
+$L['Proxy_label'] = 'Activer le proxy transparent sur le Hotspot';
+$L['Id_label'] = 'Hotspot parent';
 $L['UnitName_label'] = 'Unit name';
 $L['Description_label'] = 'Description';
 $L['Save_label'] = 'Sauvegarder';
@@ -31,3 +31,7 @@ $L['Register_label'] = 'Register';
 $L['Unregister_label'] = 'Unregister';
 $L['Unregister_header'] = 'Unregister unit';
 $L['Unregister_message'] = 'Would you like to unregister this unit?';
+
+$L['info_label'] = 'The Hotspot unit controls Internet access for guest and can be connected to any instance of';
+$L['ready_label'] = 'You\'re ready to be connected to ';
+$L['icaro_instance'] = 'Ouvert';

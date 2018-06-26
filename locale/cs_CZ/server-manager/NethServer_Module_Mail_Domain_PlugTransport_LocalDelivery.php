@@ -9,3 +9,4 @@ $L['UnknownRecipientsActionDeliverMailbox_label'] = 'Doručit na';
 $L['UnknownRecipientsActionType_label'] = 'Přijímat zprávy od neznámých odesilatelů';
 $L['Users_label'] = 'Uživatelé';
 $L['valid_catchall_mailbox_primary'] = 'A local mailbox identifier, like "root", or "username@${0}"';
+$L['SharedMailbox_selector_label'] = '${0} (sdílená schránka)';

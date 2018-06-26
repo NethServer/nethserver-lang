@@ -1,6 +1,6 @@
 <?php
 
-$L['SssdConfig_Title'] = 'Accounts provider';
+$L['SssdConfig_Title'] = 'Fournisseur des comptes';
 $L['SssdConfig_Description'] = 'Configure user and groups domain accounts provider';
 $L['SssdConfig_Tags'] = 'sssd domain account user group ldap kerberos active directory';
 
@@ -17,7 +17,7 @@ $L['password_label'] = 'Mot de passe';
 $L['Join_label'] = 'Rejoindre';
 $L['Authenticate_header'] = 'Joindre le domaine AD avec l\'identifiant et le mot de passe d\'un utilisateur autorisé';
 
-$L['Wizard_header'] = 'Configure users and groups for domain ${0}';
+$L['Wizard_header'] = 'Configurer les utilisateurs et les groupes pour le domaine ${0}';
 $L['Local_header'] = 'Install a local accounts provider';
 $L['Install_label'] = 'Installer';
 $L['Bind_label'] = 'liaison';
@@ -66,8 +66,8 @@ $L['BindDN_label'] = 'Bind DN';
 $L['BindPassword_label'] = 'Bind Password';
 
 $L['BaseDN_label'] = 'Base DN';
-$L['UserDN_label'] = 'User DN';
-$L['GroupDN_label'] = 'Group DN';
+$L['UserDN_label'] = 'Utilisateur DN';
+$L['GroupDN_label'] = 'Groupe DN';
 
 $L['StartTls_label'] = 'STARTTLS';
 $L['starttls_auto'] = 'Défaut';

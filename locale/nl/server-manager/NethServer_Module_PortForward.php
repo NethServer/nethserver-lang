@@ -30,3 +30,4 @@ $L['PickDestination_label'] = 'Kies bestemming';
 $L['HairpinNat_label'] = 'Hairpin NAT';
 $L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Het veld \'destination host\' mag niet leeg zijn';
 $L['duplicate_pfw'] = 'Er bestaat al een port forward met hetzelfde WAN IP en origin port';
+$L['Log_label'] = 'Schrijf naar log als deze regel overeenkomt';

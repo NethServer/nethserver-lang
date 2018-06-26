@@ -30,3 +30,4 @@ $L['PickDestination_label'] = 'Изабери одредиште...';
 $L['HairpinNat_label'] = 'Хеирпин НАТ';
 $L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Одредишни домаћин не сме бити празан.';
 $L['duplicate_pfw'] = 'Преусмерење порта са истом WAN ИП и изворишним портом већ постоји.';
+$L['Log_label'] = 'Упиши у дневник ако се ово правило поклапа';

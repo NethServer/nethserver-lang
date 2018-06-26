@@ -1,33 +1,37 @@
 <?php
 
-$L['Hotspot_Title'] = 'Hotspot unit';
-$L['Hotspot_Description'] = 'Bind to a parent hotspot and configure this unit';
+$L['Hotspot_Title'] = 'Unitate Hotspot';
+$L['Hotspot_Description'] = 'Leagă la un hotspot părinte și configurează această unitate';
 $L['Hotspot_Tags'] = 'hotspot web';
 
-$L['Configuration_header'] = 'Hotspot unit ${0}';
-$L['LogTraffic_label'] = 'Log traffic';
-$L['Device_label'] = 'Network device';
+$L['Configuration_header'] = 'Unitate Hotspot ${0}';
+$L['LogTraffic_label'] = 'Jurnalizează traficul';
+$L['Device_label'] = 'Dispozitiv rețea';
 $L['Network_label'] = 'Adresă de rețea';
-$L['hotspot_assigned_label'] = 'hotspot assigned';
+$L['hotspot_assigned_label'] = 'hotspot atribuit';
 $L['HotspotProxy_label'] = 'Proxy web';
-$L['Proxy_label'] = 'Enable transparent proxy on hotspot';
-$L['Id_label'] = 'Parent hotspot';
-$L['UnitName_label'] = 'Unit name';
+$L['Proxy_label'] = 'Activează proxy transparent pe hotspot';
+$L['Id_label'] = 'Hotspot părinte';
+$L['UnitName_label'] = 'Nume unitate';
 $L['Description_label'] = 'Descriere';
 $L['Save_label'] = 'Salvează';
 
-$L['Auth_header'] = 'Hotspot unit registration';
+$L['Auth_header'] = 'Înregistrare unitate hotspot';
 $L['Username_label'] = 'Nume de utilizator';
 $L['Password_label'] = 'Parolă';
 $L['IcaroHost_label'] = 'Nume gazdă';
-$L['Authenticate_label'] = 'Authenticate';
-$L['authentication_validator_label'] = 'Remote authentication failed';
-$L['icaro_auth_failed'] = 'Bad user name or password';
-$L['hotspotRegistrationSuccess_notification'] = 'This unit has been registered successfully';
+$L['Authenticate_label'] = 'Autentificare';
+$L['authentication_validator_label'] = 'Autentificarea remote a eșuat';
+$L['icaro_auth_failed'] = 'Nume de utilizator sau parolă incorectă';
+$L['hotspotRegistrationSuccess_notification'] = 'Această unitate a fost înregistrată cu succes.';
 
-$L['Register_header'] = 'Register this unit on ${0}';
-$L['Register_label'] = 'Register';
+$L['Register_header'] = 'Înregistrează acestă unitate pe ${0}';
+$L['Register_label'] = 'Înregistrează';
 
-$L['Unregister_label'] = 'Unregister';
-$L['Unregister_header'] = 'Unregister unit';
-$L['Unregister_message'] = 'Would you like to unregister this unit?';
+$L['Unregister_label'] = 'Anulează înregistrarea';
+$L['Unregister_header'] = 'Anulează înregistrarea unității';
+$L['Unregister_message'] = 'Dorești să anulezi înregistrarea acestei unități?';
+
+$L['info_label'] = 'Unitatea Hotspot controlează accesul la Internet pentru oaspeți și poate fi conectată la orice instanță a';
+$L['ready_label'] = 'Ești gata pentru a fi conectat la';
+$L['icaro_instance'] = 'Deschide';

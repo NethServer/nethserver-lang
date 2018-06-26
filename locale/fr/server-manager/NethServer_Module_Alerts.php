@@ -1,18 +1,18 @@
 <?php 
 
-$L['Alerts_Title'] = 'Custom alerts';
-$L['Alerts_Description'] = 'Custom alerts from ${0}';
-$L['Alerts_header'] = 'Custom alerts from ${0}';
-$L['Alerts_Configure_header'] = 'Configure automatic download';
-$L['Update_Alerts_label'] = 'Download Custom Alerts';
-$L['Refresh_label'] = 'Download alert configuration';
+$L['Alerts_Title'] = 'Alertes personnalisées';
+$L['Alerts_Description'] = 'Alertes personnalisées pour ${0}';
+$L['Alerts_header'] = 'Alertes personnalisées pour ${0}';
+$L['Alerts_Configure_header'] = 'Configurer automatiquement le téléchargement';
+$L['Update_Alerts_label'] = 'Télécharger des Alertes Personnalisées';
+$L['Refresh_label'] = 'Configuration de l\'alerte de téléchargement';
 $L['last_update_label'] = 'Dernière mise à jour';
-$L['Type_label'] = 'Alert';
-$L['Instance_label'] = 'Parameter';
+$L['Type_label'] = 'Alerte';
+$L['Instance_label'] = 'Paramètre';
 $L['Threshold_label'] = 'Threshold';
-$L['AlertsAutoUpdates_enabled_label'] = 'Enable automatic download of customized alerts (recommended)';
-$L['AlertsAutoUpdates_disabled_label'] = 'Disable automatic download of customized alerts';
-$L['df_label'] = 'Disk free space';
+$L['AlertsAutoUpdates_enabled_label'] = 'Activer le téléchargement automatique des alertes personnalisés (recommandé)';
+$L['AlertsAutoUpdates_disabled_label'] = 'Désactiver le téléchargement automatique des alertes personnalisées';
+$L['df_label'] = 'Espace disponible du disque';
 $L['load_label'] = 'System load';
 $L['ping_droprate_label'] = 'Ping drop rate';
 $L['ping_label'] = 'Ping latency';

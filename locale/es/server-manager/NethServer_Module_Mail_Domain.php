@@ -12,3 +12,6 @@ $L['TransportType_Relay_label'] = 'Retransmitir a otro servidor';
 $L['Update domain `${0}`'] = 'Actualizar dominio  `${0}` '; 
 $L['domain_label'] = 'Dominio';
 $L['valid_relay_notprimarydomain'] = 'El dominio del correo local no se puede retransmitir';
+$L['OpenDkimStatus_label'] = 'Firmar mensajes de salida con DomainKeys Identified Mail (DKIM)';
+$L['DkimSelector_label'] = '1. Añade un registro TXT en tu proveedor de DNS con la clave "${0}"';
+$L['DkimKey_label'] = '2. Copia y pega el siguiente texto en la sección de datos del registro (RDATA)';

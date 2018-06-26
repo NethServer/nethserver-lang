@@ -1,9 +1,9 @@
 <?php 
 
 $L['${0} day'] = 'En dag'; 
-$L['${0} days'] = '${0} days'; 
+$L['${0} days'] = '${0} dagar'; 
 $L['Hold for ${0}'] = 'Hold for ${0}'; 
-$L['MailForwardAddress_label'] = 'Email address'; 
+$L['MailForwardAddress_label'] = 'Epost adress'; 
 $L['MailForwardKeepMessageCopy_label'] = 'Keep a message copy on this server'; 
 $L['MailForwardStatus_label'] = 'Forward messages'; 
 $L['MailQuotaType_label'] = 'Custom mailbox quota'; 

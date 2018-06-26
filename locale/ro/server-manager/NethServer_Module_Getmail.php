@@ -46,5 +46,4 @@ $L['Delete_label'] = 'Șterge mesajele decărcate';
 $L['Username_label'] = 'Nume utilizator';
 $L['Password_label'] = 'Parolă';
 $L['Advanced_label'] = 'Avansat';
-$L['SpamCheck_label'] = 'Verifică mesajele pentru SPAM';
-$L['VirusCheck_label'] = 'Verifică mesajele pentru viruși';
+$L['FilterCheck_label'] = 'Scan messages with email filter';

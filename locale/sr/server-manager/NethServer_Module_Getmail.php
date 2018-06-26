@@ -46,5 +46,4 @@ $L['Delete_label'] = 'Обриши преузете поруке';
 $L['Username_label'] = 'Корисничко име';
 $L['Password_label'] = 'Лозинка';
 $L['Advanced_label'] = 'Напредно';
-$L['SpamCheck_label'] = 'Провери поруке на СПАМ';
-$L['VirusCheck_label'] = 'Провери поруке на вирусе';
+$L['FilterCheck_label'] = 'Scan messages with email filter';

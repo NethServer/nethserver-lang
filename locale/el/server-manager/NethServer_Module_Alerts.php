@@ -1,14 +1,14 @@
 <?php 
 
-$L['Alerts_Title'] = 'Custom alerts';
-$L['Alerts_Description'] = 'Custom alerts from ${0}';
-$L['Alerts_header'] = 'Custom alerts from ${0}';
-$L['Alerts_Configure_header'] = 'Configure automatic download';
-$L['Update_Alerts_label'] = 'Download Custom Alerts';
+$L['Alerts_Title'] = 'Προσωποποιημένες προειδοποιήσεις';
+$L['Alerts_Description'] = 'Προσωποποιημένες ειδοποιήσεις από ${0}';
+$L['Alerts_header'] = 'Προσωποποιημένες ειδοποιήσεις από ${0}';
+$L['Alerts_Configure_header'] = 'Διαμορφώστε αυτόματο κατέβασμα';
+$L['Update_Alerts_label'] = 'Κατεβάστε προσωποποιμένες προειδοποιήσεις';
 $L['Refresh_label'] = 'Download alert configuration';
 $L['last_update_label'] = 'Τελευαταία ενημέρωση';
-$L['Type_label'] = 'Alert';
-$L['Instance_label'] = 'Parameter';
+$L['Type_label'] = 'Προειδοποίηση';
+$L['Instance_label'] = 'Παράμετρος';
 $L['Threshold_label'] = 'Threshold';
 $L['AlertsAutoUpdates_enabled_label'] = 'Enable automatic download of customized alerts (recommended)';
 $L['AlertsAutoUpdates_disabled_label'] = 'Disable automatic download of customized alerts';

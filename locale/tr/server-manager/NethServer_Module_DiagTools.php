@@ -31,3 +31,5 @@ $L['server_label'] = 'Sunucu Kodu (hız testi sunucularına bakın)';
 $L['SpeedTest_Title'] = 'Hız sınaması';
 $L['SpeedTest_label'] = 'Hız sınaması';
 $L['LeaveBlankForAutomatic'] = 'En yakın sunucu için boş bırakın';
+$L['AUTO_FIND_NIC'] = 'Otomatik';
+

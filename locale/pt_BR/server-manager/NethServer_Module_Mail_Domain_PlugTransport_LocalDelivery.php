@@ -9,3 +9,4 @@ $L['UnknownRecipientsActionDeliverMailbox_label'] = 'Entregar a';
 $L['UnknownRecipientsActionType_label'] = 'Aceitar destinatários desconhecidos';
 $L['Users_label'] = 'Usuários';
 $L['valid_catchall_mailbox_primary'] = 'Um identificador de caixa de correio local, como "root", ou "username@${0}"';
+$L['SharedMailbox_selector_label'] = '${0} (caixa de correio compartilhada)';

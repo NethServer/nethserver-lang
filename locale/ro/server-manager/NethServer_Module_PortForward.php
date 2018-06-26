@@ -30,3 +30,4 @@ $L['PickDestination_label'] = 'Alege destinația...';
 $L['HairpinNat_label'] = 'Hairpin NAT';
 $L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Gazda de destinație nu poate fi goală.';
 $L['duplicate_pfw'] = 'O redirecționare de port cu același IP de WAN și același port de origine există deja.';
+$L['Log_label'] = 'Scrie în jurnal dacă regula se potrivește';

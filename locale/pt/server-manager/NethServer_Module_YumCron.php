@@ -1,5 +1,5 @@
 <?php
-$L['valid_mailforward_address'] = '"${0}" is not a valid email address';
+$L['valid_mailforward_address'] = '"${0}" não é um endereço de e-mail válido';
 $L['messages_label'] = 'Send an email to the system administrator';
 $L['download_label'] = 'Transferir atualizações';
 $L['applyUpdate_label'] = 'Install updates automatically';

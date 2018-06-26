@@ -98,21 +98,24 @@ $L['FirewallObject_cidr_Title'] = 'ЦИДР мрежа ${key}';
 $L['Show_x_outof_y_label'] = 'Приказивање ${partial} резултата од ${total}';
 $L['ActionRoute_label'] = 'Рута ка ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
+$L['ActionPriorityIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Дневник';
 
 $L['ShowAction_label'] = 'Прикажи';
-$L['ShowRules_label'] = 'Заштитни зид';
-$L['ShowRoutes_label'] = 'Полисе рутирања';
-$L['ShowServices_label'] = 'Мрежни сервиси';
-$L['ShowTrafficShaping_label'] = 'Обликовање саобраћаја';
+$L['ShowRules_label'] = 'Firewall (${0})';
+$L['ShowRoutes_label'] = 'Policy routing (${0})';
+$L['ShowServices_label'] = 'Network services (${0})';
+$L['ShowTrafficShaping_label'] = 'Traffic shaping (${0})';
 
 $L['ActionPriorityHigh_label'] = 'Висок приоритет';
 $L['ActionPriorityLow_label'] = 'Низак приоритет';
+$L['ActionPriority_label'] = 'Priority ${0}';
 $L['ActionPrioLo_label'] = 'Ни-Прио';
 $L['ActionPrioHi_label'] = 'Ви-Прио';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Правила рутирања не дозвољавају да се црвена зона подеси за Извор.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Правила рутирања созвољавају само следећа одредишта: зона, домаћин, ип опсег, цидр, црвено.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Route rules do not allow to set a DPI protocol as Service.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Одабир "локални сервис" захтева одредиште "заштитни зид".';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Обликовање саобраћаја не фозволљава да се црвена зона подеси као извор';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Обликовање саобраћаја дозвољава једино типове Одредишта: зона, домаћин, ИП опсег, ЦИДР, црвено';

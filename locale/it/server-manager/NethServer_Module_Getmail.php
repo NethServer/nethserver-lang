@@ -46,5 +46,4 @@ $L['Delete_label'] = 'Elimina messaggi scaricati';
 $L['Username_label'] = 'Nome utente';
 $L['Password_label'] = 'Password';
 $L['Advanced_label'] = 'Avanzate';
-$L['SpamCheck_label'] = 'Abilita controllo anti SPAM';
-$L['VirusCheck_label'] = 'Abilita controllo anti virus';
+$L['FilterCheck_label'] = 'Analizza i messaggi con il filtro email';

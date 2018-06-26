@@ -2,7 +2,7 @@
 
 $L['Account_Title'] = 'Utilizadores e grupos';
 $L['Account_Description'] = 'Gerir utilizadores e grupos, configurar a identidade de domínio e os provedores de autenticação';
-$L['Account_Tags'] = 'sssd user group realm domain account kerberos ldap';
+$L['Account_Tags'] = 'sssd utilizador grupo domínio conta kerberos ldap';
 
 $L['AccountProvider_Error_1'] = 'Erro genérico do provedor de conta: código de saída 1 SSSD';
 $L['AccountProvider_Error_22'] = 'Erro do provedor de conta: DN inválido. Verifique DN de Base, DN de Grupos e DN de Utilizadores na configuração do provedor de \'Contas\'';

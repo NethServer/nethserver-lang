@@ -3,7 +3,7 @@
 /* NethServer_Module_Dashboard_Applications translation, language: en */
 
 $L['Applications_Title'] = 'Aplicações';
-$L['Applications_Tags'] = 'Applications application applications web';
+$L['Applications_Tags'] = 'Aplicações aplicação aplicações da Web';
 $L['Applications_Description'] = 'Aplicações instaladas';
-$L['Open_label'] = 'Open';
-$L['no_application_installed'] = 'No application installed';
+$L['Open_label'] = 'Abrir';
+$L['no_application_installed'] = 'Nenhuma aplicação instalada';

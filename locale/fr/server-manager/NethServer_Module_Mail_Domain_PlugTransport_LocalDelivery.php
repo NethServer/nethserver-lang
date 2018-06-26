@@ -8,4 +8,5 @@ $L['TransportType_LocalDelivery_label'] = 'Distribution locale';
 $L['UnknownRecipientsActionDeliverMailbox_label'] = 'Remettre à'; 
 $L['UnknownRecipientsActionType_label'] = 'Accepter des destinataires inconnus';
 $L['Users_label'] = 'Utilisateurs';
-$L['valid_catchall_mailbox_primary'] = 'A local mailbox identifier, like "root", or "username@${0}"';
+$L['valid_catchall_mailbox_primary'] = 'Un identifiant de boîte mail local, comme "root", ou "username@${0}"';
+$L['SharedMailbox_selector_label'] = '${0} (boîte mail partagée)';

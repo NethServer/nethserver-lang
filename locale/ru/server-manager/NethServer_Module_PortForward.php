@@ -30,3 +30,4 @@ $L['PickDestination_label'] = 'Выберите место назначения 
 $L['HairpinNat_label'] = 'Hairpin NAT';
 $L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Хост назначения не должен быть пустым.';
 $L['duplicate_pfw'] = 'Перенаправление с таким же WAN IP и исходным портом уже существует.';
+$L['Log_label'] = 'При соответствии правила сделать запись в журнал';

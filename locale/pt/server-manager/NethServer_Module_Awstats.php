@@ -41,4 +41,4 @@ $L['MaxNbOfKeywordsShown_label'] = 'Max. number of keywords show';
 $L['MinHitKeyword_label'] = 'Only show keywords with min. hits';
 $L['DnsLookup_label'] = 'Report host by name (DnsLookup)';
 $L['GeoIP_label'] = 'Report host by country (GeoIP database)';
-$L['Must be a user name'] = '"${0}" is not a valid user name';
+$L['Must be a user name'] = '${0} não é um nome de utilizador válido';

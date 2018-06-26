@@ -46,5 +46,4 @@ $L['Delete_label'] = 'Apagar mensagens descarregadas';
 $L['Username_label'] = 'Usuário';
 $L['Password_label'] = 'Senha';
 $L['Advanced_label'] = 'Avançado';
-$L['SpamCheck_label'] = 'Verificar mensagens por SPAM';
-$L['VirusCheck_label'] = 'Verificar mensagens por virus';
+$L['FilterCheck_label'] = 'Scan messages with email filter';

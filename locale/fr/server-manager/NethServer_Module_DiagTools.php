@@ -2,14 +2,14 @@
 $L['DiagTools_Title'] = 'Diagnostiques';
 $L['DiagTools_Description'] = 'Utilitaires pour les diagnostics de réseau';
 $L['IpAddr_Title'] = 'Adresses réseaux';
-$L['DiagToolsIpAdd_header'] = 'Protocol (IP or IPv6) address on a device.';
-$L['IpRoute_Title'] = 'Network route';
-$L['DiagToolsIpRoute_header'] = 'Routing table entry.';
+$L['DiagToolsIpAdd_header'] = 'Protocole (IP ou IPv6) de l\'adresse sur l\'appareil';
+$L['IpRoute_Title'] = 'Route réseau';
+$L['DiagToolsIpRoute_header'] = 'Entrée dans la table de routage.';
 $L['NsLookup_Title'] = 'Nslookup';
 $L['DiagToolsNsLookup_header'] = 'Query Internet name servers.';
 $L['NsLookup_label'] = 'Nslookup';
 $L['PingHost_Title'] = 'Ping';
-$L['DiagToolsPingHost_header'] = 'Test if a host is alive.';
+$L['DiagToolsPingHost_header'] = 'Tester si l\'hôte répond.';
 $L['Ping_label'] = 'Ping';
 $L['TraceRoute_Title'] = 'Traceroute';
 $L['DiagToolsTraceRoute_header'] = 'Print the route packets trace to network host.';
@@ -30,4 +30,6 @@ $L['DiagToolsSpeedTest_header'] = 'Test your Internet bandwidth';
 $L['server_label'] = 'Server ID (see speedtest servers)';
 $L['SpeedTest_Title'] = 'Speedtest';
 $L['SpeedTest_label'] = 'Speedtest';
-$L['LeaveBlankForAutomatic'] = 'Blank for the closer server';
+$L['LeaveBlankForAutomatic'] = 'Blank for the closest server';
+$L['AUTO_FIND_NIC'] = 'Automatique';
+

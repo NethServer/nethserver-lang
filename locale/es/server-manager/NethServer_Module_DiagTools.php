@@ -30,4 +30,6 @@ $L['DiagToolsSpeedTest_header'] = 'Haz un test del ancho de banda de Internet';
 $L['server_label'] = 'ID del Servidor (ver servidores de speedtest)';
 $L['SpeedTest_Title'] = 'Speedtest';
 $L['SpeedTest_label'] = 'Test de velocidad';
-$L['LeaveBlankForAutomatic'] = 'En blanco para el servidor de cierre';
+$L['LeaveBlankForAutomatic'] = 'En blanco para el servidor más cercano';
+$L['AUTO_FIND_NIC'] = 'Automático';
+

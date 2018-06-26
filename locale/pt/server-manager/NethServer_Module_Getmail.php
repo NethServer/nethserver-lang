@@ -46,5 +46,4 @@ $L['Delete_label'] = 'Eliminar mensagens transferidas';
 $L['Username_label'] = 'Nome de Utilizador';
 $L['Password_label'] = 'Palavra-passe';
 $L['Advanced_label'] = 'Avançado';
-$L['SpamCheck_label'] = 'Check messags for SPAM';
-$L['VirusCheck_label'] = 'Check messags for virus';
+$L['FilterCheck_label'] = 'Scan messages with email filter';

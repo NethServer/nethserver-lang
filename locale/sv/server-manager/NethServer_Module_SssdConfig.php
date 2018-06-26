@@ -19,13 +19,13 @@ $L['Authenticate_header'] = 'Join the AD domain with privileged user credentials
 
 $L['Wizard_header'] = 'Configure users and groups for domain ${0}';
 $L['Local_header'] = 'Install a local accounts provider';
-$L['Install_label'] = 'Install';
+$L['Install_label'] = 'Installera';
 $L['Bind_label'] = 'Bind';
 
 
 $L['ChooseProvider_general'] = 'Users and groups are available through an accounts provider. You can connect this server to a remote accounts provider, or install a local one. Some features are available depending on the accounts provider type.';
-$L['ChooseProvider_ldap'] = 'Easy to configure, does not support authenticated access to shared folders';
-$L['ChooseProvider_ad'] = 'Enables all shared folders features, requires advanced configuration options';
+$L['ChooseProvider_ldap'] = 'Lätt att konfigurera, har ej support för autentisering av åtkomst till delade mappar';
+$L['ChooseProvider_ad'] = 'Aktivera alla funktioner för delade mappar, kräver avancerad konfiguration';
 $L['configAd_label'] = 'Active Directory';
 $L['configLdap_label'] = 'LDAP';
 
@@ -70,12 +70,12 @@ $L['UserDN_label'] = 'User DN';
 $L['GroupDN_label'] = 'Group DN';
 
 $L['StartTls_label'] = 'STARTTLS';
-$L['starttls_auto'] = 'Default';
+$L['starttls_auto'] = 'Standard';
 $L['starttls_enabled'] = 'Yes';
 $L['starttls_disabled'] = 'No';
 
 $L['LdapLocalInstall_header'] = 'Install an OpenLDAP server';
-$L['LdapLocalInstall_message'] = 'Download and configure OpenLDAP server as local LDAP accounts provider';
+$L['LdapLocalInstall_message'] = 'Ladda ner och konfigurera OpenLDAP server som lokal LDAP kontohanterare';
 $L['LocalLdapProviderUninstall_label'] = 'Uninstall';
 
 $L['LocalProviderUninstall_header'] = 'Uninstall the local accounts provider';
@@ -99,7 +99,7 @@ $L['canUpgradeToSamba_notification'] = 'The local LDAP accounts provider can be 
 $L['AdJoinMember_header'] = 'Join Active Directory as new member';
 $L['AdDns_label'] = 'AD DNS server';
 $L['AdRealm_label'] = 'DNS domain name';
-$L['AdWorkgroup_label'] = 'NetBIOS domain name';
+$L['AdWorkgroup_label'] = 'NetBIOS domän namn';
 $L['AdJoinMemberCredentials_label'] = 'Credentials for joining the domain';
 $L['AdUsername_label'] = 'User name';
 $L['AdPassword_label'] = 'Password';
@@ -108,7 +108,7 @@ $L['AdJoinMember_label'] = 'Join';
 $L['RemoteAdProvider_header'] = 'Active Directory remote accounts provider for ${0}';
 $L['AdNewDomain_header'] = 'Create a new Active Directory domain';
 $L['AdJoinMemberError_label'] = 'Failed to join Active Directory (${0})';
-$L['Save_label'] = 'Save';
+$L['Save_label'] = 'Spara';
 $L['RemoteProviderUnbind_label'] = 'Unbind...';
 $L['RemoteProviderUnbind_header'] = 'Unbind accounts provider';
 $L['RemoteProviderUnbind_message'] = 'Any user and group account defined by the remote accounts provider will no longer be available.';
@@ -122,7 +122,7 @@ $L['valid_platform,dcrealm,differhostname,3'] = 'Must differ from the host FQDN'
 $L['valid_starttls_urischeme'] = 'Conflicts with "ldaps://" URI scheme';
 $L['AdIpAddress_help1'] = 'The chosen IP address must satisfy all of the below conditions:';
 $L['AdIpAddress_help2'] = 'the IP address must be in the same subnet range of a green network: ${0}';
-$L['AdIpAddress_help3'] = 'the IP address must be unused currently';
+$L['AdIpAddress_help3'] = 'IP adressen för ej redan användas';
 $L['AdIpAddress_label'] = "Domain Controller IP address";
 $L['CreateDomain_label'] = 'Create domain';
 

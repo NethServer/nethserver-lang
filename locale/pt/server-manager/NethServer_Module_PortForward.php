@@ -30,3 +30,4 @@ $L['PickDestination_label'] = 'Escolha um destino...';
 $L['HairpinNat_label'] = 'Gancho NAT';
 $L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Destination host can\'t be empty.';
 $L['duplicate_pfw'] = 'A port forward with same WAN IP and origin port already exists.';
+$L['Log_label'] = 'Escrever para o registo se esta regra corresponder';

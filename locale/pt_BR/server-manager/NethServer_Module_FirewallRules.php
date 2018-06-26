@@ -98,21 +98,24 @@ $L['FirewallObject_cidr_Title'] = 'Rede CIDR ${key}';
 $L['Show_x_outof_y_label'] = 'Exibir resultado parcial ${partial} de ${total}';
 $L['ActionRoute_label'] = 'Rota para ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
+$L['ActionPriorityIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Log';
 
 $L['ShowAction_label'] = 'Exibir';
-$L['ShowRules_label'] = 'Firewall';
-$L['ShowRoutes_label'] = 'política de roteamento';
-$L['ShowServices_label'] = 'Serviços de rede';
-$L['ShowTrafficShaping_label'] = 'Controle de Banda';
+$L['ShowRules_label'] = 'Firewall (${0})';
+$L['ShowRoutes_label'] = 'Policy routing (${0})';
+$L['ShowServices_label'] = 'Network services (${0})';
+$L['ShowTrafficShaping_label'] = 'Traffic shaping (${0})';
 
 $L['ActionPriorityHigh_label'] = 'Alta prioridade';
 $L['ActionPriorityLow_label'] = 'Baixa prioridade';
+$L['ActionPriority_label'] = 'Priority ${0}';
 $L['ActionPrioLo_label'] = 'B-Prior';
 $L['ActionPrioHi_label'] = 'A-Prior';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Regras de rota não permitem a zona vermelha a ser definida como Fonte.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Regras de rota permitir que apenas os seguintes tipos de destino: zona, máquina, faixa de ip, cidr, vermelha.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Route rules do not allow to set a DPI protocol as Service.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Selecionar "serviço local" requer o "firewall" como destino.';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'As regras de configuração de tráfego não permitem que a zona vermelha seja definida como fonte';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Regras de configuração de tráfego permite que apenas os seguintes tipos de destino: zona, máquina, faixa de ip, cidr, vermelha.';

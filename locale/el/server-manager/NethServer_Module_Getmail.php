@@ -46,5 +46,4 @@ $L['Delete_label'] = 'Διαγραφή μηνυμάτων που έχουν λη
 $L['Username_label'] = '¨Ονομα χρήστη';
 $L['Password_label'] = 'Κωδικός';
 $L['Advanced_label'] = 'Για προχωρημένους';
-$L['SpamCheck_label'] = 'Check messags for SPAM';
-$L['VirusCheck_label'] = 'Check messags for virus';
+$L['FilterCheck_label'] = 'Scan messages with email filter';

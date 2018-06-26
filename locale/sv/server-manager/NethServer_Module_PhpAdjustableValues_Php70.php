@@ -14,6 +14,6 @@ $L['PostMaxSize_label'] = 'Post Maximum Limit Warning';
 $L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'The Maximum size of post data allowed must be superior than the Maximum upload file size';
 $L['default'] = 'default';
 $L['${0} MB'] = '${0} Megabytes';
-$L['${0} seconds'] = '${0} seconds';
+$L['${0} seconds'] = '${0} sekunder';
 $L['Php70MemoryLimit_label'] = 'Memory limit errors';
 $L['Php70PostMaxSize_label'] = 'Post maximum size errors';

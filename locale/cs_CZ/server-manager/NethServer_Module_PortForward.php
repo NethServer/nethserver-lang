@@ -30,3 +30,4 @@ $L['PickDestination_label'] = 'Zvolte cíl…';
 $L['HairpinNat_label'] = 'Hairpin NAT';
 $L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Je třeba vyplnit kolonku cílový stroj.';
 $L['duplicate_pfw'] = 'Už existuje přeposílán portu se stejnou WAN IP adresou a portem původu.';
+$L['Log_label'] = 'Pokud je toto pravidlo uplatněno, zapsat do záznamu událostí';

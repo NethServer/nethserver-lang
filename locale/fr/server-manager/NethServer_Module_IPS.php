@@ -4,17 +4,17 @@
 
 $L['balanced_label'] = 'Equilibré';
 $L['connectivity_label'] = 'Connectivité';
-$L['IPS_Description'] = 'IPS management (Suricata)';
+$L['IPS_Description'] = 'Gestion IPS (Suricata)';
 $L['IPS_header'] = 'Gestion IPS';
 $L['IPS_Tags'] = 'IPS ips snort Snort suricata Suricata';
 $L['IPS_Title'] = 'IPS';
-$L['RuleCategories_label'] = 'Rule categories';
-$L['status_label'] = 'Enable Suricata IPS';
+$L['RuleCategories_label'] = 'Règle des catégories';
+$L['status_label'] = 'Activer l\'IPS Suricata';
 $L['IPS_status_label'] = 'Suricata';
 $L['disable_label'] = 'Désactiver';
-$L['block_label'] = 'Block';
-$L['alert_label'] = 'Alert';
-$L['Rules_label'] = 'Rule categories';
+$L['block_label'] = 'Bloquer';
+$L['alert_label'] = 'Alerte';
+$L['Rules_label'] = 'Règle des catégories';
 $L['no_rules_label'] = 'No rule categories found. Click the "Download rules" button below.';
 $L['download_label'] = 'Download rules';
 $L['see_doc_label'] = 'Description of rule categories';

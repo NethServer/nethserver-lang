@@ -1,8 +1,8 @@
 <?php
 
 $L['Pki_Title'] = 'Certificat du serveur';
-$L['Pki_Description'] = 'Manage TLS/SSL server certificates';
-$L['Pki_Tags'] = 'SSL certificate PKI TLS X509 X.509';
+$L['Pki_Description'] = 'Gérer les certificats TLS/SSL du serveur';
+$L['Pki_Tags'] = 'Certifcat SSL PKI TLS X509 X.509';
 
 $L['C_label'] = 'Code Pays';
 $L['ST_label'] = 'Statut';

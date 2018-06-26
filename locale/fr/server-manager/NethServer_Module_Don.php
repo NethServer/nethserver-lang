@@ -1,19 +1,19 @@
 <?php
 
-$L['Don_Title'] = 'Remote support';
-$L['Don_Description'] = 'Start a secure channel for remote support';
+$L['Don_Title'] = 'Support à distance';
+$L['Don_Description'] = 'Démarre un canal sécurisé pour le support distant';
 $L['Don_Tags'] = 'helpdesk remote access help support issue problem bug';
 
-$L['Don_Start_header'] = 'Start a remote support session';
-$L['Don_Stop_header'] = 'Stop the current support session';
-$L['Start_label'] = 'Start session';
-$L['Stop_label'] = 'Stop session';
-$L['Start_description'] = 'Press "Start session" button to generate a unique identifier valid for the remote support session.';
-$L['Stop_description'] = 'The remote support session can be terminated at any time, just press the "Stop session" button.';
-$L['ServerName_label'] = 'Remote support server';
-$L['IpAddr_label'] = 'Session IP address';
-$L['SessionDuration_label'] = 'Expire after (days): ${0}';
-$L['SessionHelp_label'] = 'Copy and paste the session identifier in the support request';
+$L['Don_Start_header'] = 'Commencer une session de support à distance';
+$L['Don_Stop_header'] = 'Stopper la session de support actuelle';
+$L['Start_label'] = 'Démarrer une session';
+$L['Stop_label'] = 'Stopper la session';
+$L['Start_description'] = 'Appuyer sur le bouton "Démarrer une session" pour générer un identifiant unique et valide pour la session de support a distance.';
+$L['Stop_description'] = 'La session de support a distance peut être coupée à tout moment, appuyer juste sur le bouton "Stopper la session" ';
+$L['ServerName_label'] = 'Serveur du support à distance';
+$L['IpAddr_label'] = 'Adresse IP de session';
+$L['SessionDuration_label'] = 'Expire après (days) : ${0}';
+$L['SessionHelp_label'] = 'Copier et coller l\'identifiant de session dans la demande de support';
 $L['SessionId_label'] = 'Session identifier';
 $L['SystemId_label'] = 'Server identifier';
 $L['SessionExpire_label'] = 'Session expire date';

@@ -1,12 +1,12 @@
 <?php
 
-$L['subscription_title'] = 'Subscription';
-$L['buy_subscription_label'] = 'Access to the Stable Updates repository, monitoring tools and professional support services.';
-$L['subscribe_label'] = 'Subscribe';
+$L['subscription_title'] = 'Prenumeration';
+$L['buy_subscription_label'] = 'Åtkomst till Stabila Uppdaterade förråd, övervakningsverktyg och professionella support tjänster.';
+$L['subscribe_label'] = 'Prenumerera';
 $L['systemid_label'] = 'System ID';
-$L['subscriptionplan_label'] = 'Subscription plan';
+$L['subscriptionplan_label'] = 'Prenumeration plan';
 $L['community_title'] = 'Community support';
-$L['community_support_label'] = 'Get support from the community.';
+$L['community_support_label'] = 'Ta support från communityn';
 $L['forum_label'] = 'Forum';
 $L['manual_label'] = 'Manual';
 $L['wiki_label'] = 'Wiki';

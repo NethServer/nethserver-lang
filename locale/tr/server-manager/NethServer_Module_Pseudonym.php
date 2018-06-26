@@ -19,6 +19,6 @@ $L['ExtAddresses_label'] = 'Dış e-posta hedefleri';
 $L['Destinations_label'] = 'Hedefler';
 $L['valid_pseudonym_mailbox_conflict'] = 'Aynı adlı bir kullanıcı hesabı zaten var';
 $L['valid_pseudonym_empty_destination'] = 'En az bir bileşen ayarlanmalıdır';
-$L['SharedMailbox_selector_label'] = '${0} (paylaşılan posta kutusu)';
+$L['SharedMailbox_selector_label'] = '${0} (paylaşılmış posta kutusu)';
 $L['Yes'] = 'Evet';
 $L['No'] = 'Hayır';

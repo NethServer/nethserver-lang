@@ -46,5 +46,4 @@ $L['Delete_label'] = 'Smazat stažené zprávy';
 $L['Username_label'] = 'Uživatelské jméno';
 $L['Password_label'] = 'Heslo';
 $L['Advanced_label'] = 'Pokročilé';
-$L['SpamCheck_label'] = 'Zkontrolovat zprávy na nevyžádané zprávy (SPAM)';
-$L['VirusCheck_label'] = 'Zkontrolovat zprávy na viry';
+$L['FilterCheck_label'] = 'Scan messages with email filter';

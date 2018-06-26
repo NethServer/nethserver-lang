@@ -24,7 +24,7 @@ $L['GenerateLe_Header'] = 'Request a new Let\'s Encrypt certificate';
 $L['Generate_Header'] = 'Edit self-signed certificate';
 $L['Upload_Header'] = 'Upload a certificate file to the server';
 
-$L['Show_label'] = 'Show';
+$L['Show_label'] = 'Mostrar';
 $L['Show_header'] = 'Show certificate ${0}';
 $L['SetDefault_label'] = 'Set as default';
 

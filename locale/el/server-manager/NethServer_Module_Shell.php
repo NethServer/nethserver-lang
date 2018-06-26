@@ -1,2 +1,2 @@
 <?php
-$L['Shell_Title'] = 'Terminal';
+$L['Shell_Title'] = 'Τερματικό';

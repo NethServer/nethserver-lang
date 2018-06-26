@@ -5,7 +5,7 @@
 $L['avail_label'] = 'Disponible';
 $L['cpu_num_label'] = 'N° CPU';
 $L['days_label'] = 'd';
-$L['general_title'] = 'General information';
+$L['general_title'] = 'Information générale';
 $L['hours_label'] = 'h';
 $L['load_label'] = 'Load 1 / 5 / 15 minutes';
 $L['mem_free_label'] = 'Mémoire libre (Free)';

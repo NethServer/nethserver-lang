@@ -1,6 +1,6 @@
 <?php
 
-$L['CGP_Description'] = 'System graphs';
-$L['CGP_Tags'] = 'statistics stats analysis graph graphs';
+$L['CGP_Description'] = 'System graf';
+$L['CGP_Tags'] = 'statistik stats analyser graf grafer';
 
-$L['CGP_Title'] = 'Graphs';
+$L['CGP_Title'] = 'Grafer';

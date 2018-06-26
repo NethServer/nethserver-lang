@@ -2,7 +2,7 @@
 
 /* NethServer_Module_VPN_VPNClients translation, language: en */
 
-$L['AuthMode_certificate_label'] = 'Certificate';
+$L['AuthMode_certificate_label'] = 'Certifikat';
 $L['AuthMode_label'] = 'Autentisering';
 $L['AuthMode_password-certificate_label'] = 'User, password and certificate';
 $L['AuthMode_psk_label'] = 'Pre-shared key';
@@ -21,8 +21,8 @@ $L['update_header_label'] = 'Modify client';
 $L['User_label'] = 'Användaren';
 $L['Clients_Title'] = 'Tunnel clients';
 $L['Compression_label'] = 'Enable LZO compression';
-$L['Upload_label'] = 'Upload';
-$L['Upload_Header'] = 'Upload';
+$L['Upload_label'] = 'Ladda upp';
+$L['Upload_Header'] = 'Ladda upp';
 $L['UploadArc_label'] = 'Upload tunnel client configuration';
 $L['Remote_label'] = 'Connection to remote server';
 $L['Remote_advanced_label'] = 'Extra connection rules';

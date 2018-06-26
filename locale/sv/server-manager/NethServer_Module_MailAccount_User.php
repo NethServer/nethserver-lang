@@ -2,7 +2,7 @@
 
 $L['Modify_header'] = 'Edit preferences for `${0}`';
 $L['${0} day'] = 'En dag'; 
-$L['${0} days'] = '${0} days'; 
+$L['${0} days'] = '${0} dagar'; 
 $L['Hold for ${0}'] = 'Hold for ${0}'; 
 $L['MailForwardAddress_label'] = 'Epostadresser';
 $L['MailForwardKeepMessageCopy_label'] = 'Keep a message copy on this server'; 

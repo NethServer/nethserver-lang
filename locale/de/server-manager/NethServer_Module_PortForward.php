@@ -30,3 +30,4 @@ $L['PickDestination_label'] = 'Ziel auswählen';
 $L['HairpinNat_label'] = 'Hairpin NAT';
 $L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Zielhost darf nicht leer sein.';
 $L['duplicate_pfw'] = 'Eine Portweiterleitung mit der selben WAN IP und dem selben Port existiert bereits. ';
+$L['Log_label'] = 'Schreibe ins Log, wenn diese Regel zutrifft';

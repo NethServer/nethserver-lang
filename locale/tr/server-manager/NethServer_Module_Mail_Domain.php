@@ -12,3 +12,6 @@ $L['TransportType_Relay_label'] = 'Başka bir sunucudan aktarım';
 $L['Update domain `${0}`'] = '`${0}` etki alanını güncelle'; 
 $L['domain_label'] = 'Etki alanı';
 $L['valid_relay_notprimarydomain'] = 'Yerel posta kutusu etki alanı aktarılamaz';
+$L['OpenDkimStatus_label'] = 'Giden iletiler DomainKeys Identified Mail (DKIM) ile imzalansın';
+$L['DkimSelector_label'] = '1. Herkese açık DNS hizmeti sağlayıcısına "${0}" anahtarı ile bir TXT kaydı ekleyin';
+$L['DkimKey_label'] = '2. Aşağıdaki metni kopyalayıp kayıt verisi (RDATA) bölümüne yapıştırın';

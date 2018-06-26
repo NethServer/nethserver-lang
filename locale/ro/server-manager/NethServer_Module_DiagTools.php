@@ -30,4 +30,6 @@ $L['DiagToolsSpeedTest_header'] = 'Testează-ți lătimea de bandă';
 $L['server_label'] = 'ID Server (vezi server-ele de testare lățime de bandă)';
 $L['SpeedTest_Title'] = 'Test viteză';
 $L['SpeedTest_label'] = 'Test viteză';
-$L['LeaveBlankForAutomatic'] = 'Gol pentru server-ul mai apropiat';
+$L['LeaveBlankForAutomatic'] = 'Blank for the closest server';
+$L['AUTO_FIND_NIC'] = 'Automatic';
+

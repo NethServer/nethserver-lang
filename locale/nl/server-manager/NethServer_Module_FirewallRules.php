@@ -98,21 +98,24 @@ $L['FirewallObject_cidr_Title'] = 'CIDR netwerk ${key}';
 $L['Show_x_outof_y_label'] = 'Overzicht van ${partial} resultaten van ${total}';
 $L['ActionRoute_label'] = 'Route naar ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
+$L['ActionPriorityIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Log';
 
 $L['ShowAction_label'] = 'Laat zien';
-$L['ShowRules_label'] = 'Firewall';
-$L['ShowRoutes_label'] = 'Routeer beleid';
-$L['ShowServices_label'] = 'Netwerk services';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping';
+$L['ShowRules_label'] = 'Firewall (${0})';
+$L['ShowRoutes_label'] = 'Policy routing (${0})';
+$L['ShowServices_label'] = 'Network services (${0})';
+$L['ShowTrafficShaping_label'] = 'Traffic shaping (${0})';
 
 $L['ActionPriorityHigh_label'] = 'Hoge prioriteit';
 $L['ActionPriorityLow_label'] = 'Lage prioriteit';
+$L['ActionPriority_label'] = 'Priority ${0}';
 $L['ActionPrioLo_label'] = 'Lo-Prio';
 $L['ActionPrioHi_label'] = 'Hi-Prio';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Route regels staan niet toe om een rode zone als bron the gebruiken';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Route regels staan alleen de volgende bestemming types toe: zone, host, ip range, cidr, rood.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Route rules do not allow to set a DPI protocol as Service.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Een "locale service" selecteren vereist de "firewall" als bestemming.';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Traffic shaping regels laten niet toe om de rode zone als bron te selecteren';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Traffic shaping regels staan alleen de volgende bestemming types toe: zone, host, IP range, CIDR, rood.';

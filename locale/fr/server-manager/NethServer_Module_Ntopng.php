@@ -7,10 +7,10 @@ $L['default_password_label'] = 'Mot de passe par défaut';
 $L['TCPPort_label'] = 'Port de l\'interface web'; 
 $L['Ntopng_Tags'] = 'ntop bande-passante moniteur utilisation'; 
 $L['Ntopng_Title'] = 'Moniteur de bande passante';
-$L['Ntopng_Description'] = 'Bandwidth monitor configuration';
+$L['Ntopng_Description'] = 'Configuration du moniteur de bande passante';
 $L['Authentication_label'] = 'Activer authentification';
 $L['Advanced_label'] = 'Avancé';
-$L['Alerts_label'] = 'Enable alerts';
+$L['Alerts_label'] = 'Activer les alertes';
 $L['Interfaces_label'] = 'Interfaces';
 
 $L['NtopngStatus_Title'] = 'Utilisation de la bande passante';

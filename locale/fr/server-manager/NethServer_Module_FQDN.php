@@ -12,4 +12,4 @@ $L['FQDN_label'] = 'nom de domaine pleinement qualifié';
 $L['valid_platform,myhostname,failifjoin,1'] = 'le fournisseur de compte utilisateurs et groupe est déjà configuré';
 $L['valid_platform,myhostname,hostname-length,3'] = 'La longueur de la partie hôte du nom ne dot pas dépasser 15 caractères.';
 $L['valid_platform,myhostname,hostname-length,4'] = 'Seuls les lettres, les chiffres et les traits d\'union sont autorisés dans le nom d\'hôte.';
-$L['valid_hostname_fqdn_long'] = 'must contain at least two dots, like "myhost.example.com"';
+$L['valid_hostname_fqdn_long'] = 'doit contenir au moins deux points, tel que "hote.exemple.com"';

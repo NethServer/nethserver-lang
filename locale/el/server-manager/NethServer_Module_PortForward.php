@@ -30,3 +30,4 @@ $L['PickDestination_label'] = 'Διάλεξε προορισμό...';
 $L['HairpinNat_label'] = 'Hairpin NAT';
 $L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Ο προορισμός φορέα δεν μπορεί να είναι κενό';
 $L['duplicate_pfw'] = 'Μια θύρα προώθησης με το ίδιο WAN IP και θύρα προέλευσης υπάρχει ήδη.';
+$L['Log_label'] = 'Να γίνει εγγραφή στο αρχείο καταγραφής εάν αυτός ο κανόνας εφαρμοστεί ';

@@ -1,19 +1,19 @@
 <?php
 
-$L['Subscription_Title'] = 'Subscription';
-$L['Subscription_Description'] = 'Manage NethServer subscription';
+$L['Subscription_Title'] = 'Inscription';
+$L['Subscription_Description'] = 'Gérer votre abonnement NethServer';
 $L['Subscription_Tags'] = 'community subscription';
-$L['buy_subscription_label'] = 'Join the subscription program!';
-$L['Subscription_header'] = 'Subscription';
-$L['subscriptions_plans'] = 'Subscribe';
-$L['subscriptions_info'] = 'The NethServer Subscription by Nethesis enables exclusive access to the Stable Updates repository, monitoring tools and immediate professional support services for your NethServer deployments. It enables you to successfully deploy, monitor and manage your NethServer instances, complementing your IT resources and increasing the efficiency and reliability of your services';
-$L['Register_label'] = 'Register now';
-$L['paste_label'] = 'Do you already have a registration token? Copy and paste it in the field below';
-$L['SystemId_label'] = 'System ID';
-$L['register_now_label'] = 'Register now';
-$L['Created_label'] = 'Created';
-$L['PublicIp_label'] = 'Public IP';
-$L['PlanName_label'] = 'Subscription plan';
+$L['buy_subscription_label'] = 'Rejoignez notre programme de souscription !';
+$L['Subscription_header'] = 'Abonnement';
+$L['subscriptions_plans'] = 'Abonnez vous';
+$L['subscriptions_info'] = 'L\'abonnement NethServer de Nethesis active exclusivement l\'accès au répertoire de Mise à Jour Stable, aux outils de supervision et au service de support professionnel immédiat pour vos déploiements NethServer. Il vous permet de déployer, surveiller et gérer avec succès vos instances NethServer, complétant ainsi vos ressources informatiques et augmentant l\'efficacité et la fiabilité de vos services.';
+$L['Register_label'] = 'Inscrivez vous maintenant';
+$L['paste_label'] = 'Possédez-vous déjà une clé d\'activation ? Copier et coller la dans le champ ci-dessous';
+$L['SystemId_label'] = 'ID système';
+$L['register_now_label'] = 'Inscrivez vous maintenant';
+$L['Created_label'] = 'Créé';
+$L['PublicIp_label'] = 'IP public';
+$L['PlanName_label'] = 'Programme d\'abonnement';
 $L['Validity_label'] = 'Validity';
 $L['RegistrationKey_label'] = 'Registration token';
 $L['error_network_registration_key'] = 'The token cannot be verified now: the remote procedure has failed';

@@ -9,3 +9,4 @@ $L['UnknownRecipientsActionDeliverMailbox_label'] = 'Παραλαβή στο ';
 $L['UnknownRecipientsActionType_label'] = 'Αποδοχή άγνωστων παραληπτών';
 $L['Users_label'] = 'Χρήστες';
 $L['valid_catchall_mailbox_primary'] = 'A local mailbox identifier, like "root", or "username@${0}"';
+$L['SharedMailbox_selector_label'] = '${0} (shared mailbox)';

@@ -98,21 +98,24 @@ $L['FirewallObject_cidr_Title'] = 'CDIR Netzwerk ${key}';
 $L['Show_x_outof_y_label'] = 'Zeige ${partial} Resultate von ${total}';
 $L['ActionRoute_label'] = 'Route nach ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
+$L['ActionPriorityIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Protokollieren';
 
 $L['ShowAction_label'] = 'Anzeigen';
-$L['ShowRules_label'] = 'Firewall';
-$L['ShowRoutes_label'] = 'Leitungsregeln';
-$L['ShowServices_label'] = 'Netzwerkdienste';
-$L['ShowTrafficShaping_label'] = 'Traffic Shaping';
+$L['ShowRules_label'] = 'Firewall (${0})';
+$L['ShowRoutes_label'] = 'Richtlinienrouting (${0})';
+$L['ShowServices_label'] = 'Netzwerkdienste (${0})';
+$L['ShowTrafficShaping_label'] = 'Traffic-Shaping (${0})';
 
 $L['ActionPriorityHigh_label'] = 'Hohe Priorität';
 $L['ActionPriorityLow_label'] = 'Niedrige Priorität';
+$L['ActionPriority_label'] = 'Priorität ${0}';
 $L['ActionPrioLo_label'] = 'Lo-Prio';
 $L['ActionPrioHi_label'] = 'Hi-Prio';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Leitungsregeln verbieten das Einstellen der roten Zone als Quelle.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Leitungsregeln erlauben nur ein Ziel der folgenden Typen: Zone, Host, IP-Bereich, CIDR, rot.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Bei den Routenregeln ist es nicht möglich, ein DPI-Protokoll als Dienst festzulegen.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Die Auswahl von "Lokaler Dienst" setzt "Firewall" als Ziel voraus';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Traffic Shaping Regeln erlauben es nicht die rote Zone als Quelle zu setzen';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Traffic Shaping Regeln erlauben nur die folgenden Zielzonen: Zone, Host, IP-Adressbereich, CIDR, Rot';

@@ -98,21 +98,24 @@ $L['FirewallObject_cidr_Title'] = 'CIDR network ${key}';
 $L['Show_x_outof_y_label'] = 'Showing ${partial} results out of ${total}';
 $L['ActionRoute_label'] = 'Route to ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
+$L['ActionPriorityIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Log';
 
 $L['ShowAction_label'] = 'Show';
-$L['ShowRules_label'] = 'Tűzfal';
-$L['ShowRoutes_label'] = 'Policy routing';
-$L['ShowServices_label'] = 'Hálózati szolgáltatások';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping';
+$L['ShowRules_label'] = 'Firewall (${0})';
+$L['ShowRoutes_label'] = 'Policy routing (${0})';
+$L['ShowServices_label'] = 'Network services (${0})';
+$L['ShowTrafficShaping_label'] = 'Traffic shaping (${0})';
 
 $L['ActionPriorityHigh_label'] = 'High priority';
 $L['ActionPriorityLow_label'] = 'Low priority';
+$L['ActionPriority_label'] = 'Priority ${0}';
 $L['ActionPrioLo_label'] = 'Lo-Prio';
 $L['ActionPrioHi_label'] = 'Hi-Prio';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Route rules do not allow the red zone to be set as Source.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Route rules allow only the following Destination types: zone, host, ip range, cidr, red.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Route rules do not allow to set a DPI protocol as Service.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Selecting "local service" requires the "firewall" destination.';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Traffic shaping rules do not allow the red zone to be set as source';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Traffic shaping rules allow only the following Destination types: zone, host, IP range, CIDR, red';

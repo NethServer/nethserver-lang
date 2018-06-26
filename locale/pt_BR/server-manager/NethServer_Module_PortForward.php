@@ -30,3 +30,4 @@ $L['PickDestination_label'] = 'Escolha um destino...';
 $L['HairpinNat_label'] = 'Gancho NAT';
 $L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Host de destino não pode estar vazio.';
 $L['duplicate_pfw'] = 'A porta de reencaminhamento com o mesmo WAN IP e porta origem já existe.';
+$L['Log_label'] = 'Escrever no registo se esta regra corresponder';

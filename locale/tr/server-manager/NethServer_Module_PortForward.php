@@ -30,3 +30,4 @@ $L['PickDestination_label'] = 'Hedef seçin...';
 $L['HairpinNat_label'] = 'Hairpin NAT';
 $L['valid_platform,firewall-object-exists,uniq-fwobject,255'] = 'Hedef sunucu boş olamaz.';
 $L['duplicate_pfw'] = 'Aynı WAN IP adresi için bir kapı yönlendirmesi ve kaynak kapı zaten var.';
+$L['Log_label'] = 'Bu kural uyuşursa günlük dosyasına yazılsın';

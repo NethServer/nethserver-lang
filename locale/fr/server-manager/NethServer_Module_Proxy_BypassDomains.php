@@ -1,5 +1,5 @@
 <?php
 
-$L['BypassDomains_Title'] = 'Domains without proxy';
+$L['BypassDomains_Title'] = 'Domaines sans proxy';
 $L['BypassDomains_label'] = 'Domaines';
-$L['valid_bypass'] = '"${0}" is not a valid domain';
+$L['valid_bypass'] = '"${0}" n\'est pas un domaine valide';

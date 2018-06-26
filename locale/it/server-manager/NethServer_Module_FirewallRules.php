@@ -98,21 +98,24 @@ $L['FirewallObject_cidr_Title'] = 'Rete CIDR ${key}';
 $L['Show_x_outof_y_label'] = 'Mostrati ${partial} risultati su ${total}';
 $L['ActionRoute_label'] = 'Devia su ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
+$L['ActionPriorityIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Log';
 
 $L['ShowAction_label'] = 'Mostra';
-$L['ShowRules_label'] = 'Firewall rules';
-$L['ShowRoutes_label'] = 'Policy routing';
-$L['ShowServices_label'] = 'Servizi di rete';
-$L['ShowTrafficShaping_label'] = 'Gestione banda';
+$L['ShowRules_label'] = 'Firewall (${0})';
+$L['ShowRoutes_label'] = 'Policy routing (${0})';
+$L['ShowServices_label'] = 'Servizi di rete (${0})';
+$L['ShowTrafficShaping_label'] = 'Gestione banda (${0})';
 
 $L['ActionPriorityHigh_label'] = 'Alta priorità (Hi-Prio)';
 $L['ActionPriorityLow_label'] = 'Bassa priorità (Lo-Prio)';
+$L['ActionPriority_label'] = 'Priorità ${0}';
 $L['ActionPrioLo_label'] = 'Lo-Prio';
 $L['ActionPrioHi_label'] = 'Hi-Prio';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Le regole di routing non consentono di utilizzare una zona red come sorgente.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Le regole di routing consentono solo i seguenti tipi di destinazione: zona, host, range ip, CIDR, red.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Route rules do not allow to set a DPI protocol as Service.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Se si seleziona un Servizio di rete la destinazione deve essere Firewall';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Le regole di gestione banda non consentono di utilizzare una zona red come sorgente.';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Le regole di gestione banda consentono solo i seguenti tipi di destinazione: zona, host, range ip, CIDR, red.';

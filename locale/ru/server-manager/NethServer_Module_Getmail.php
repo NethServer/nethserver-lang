@@ -46,5 +46,4 @@ $L['Delete_label'] = 'Удалить загруженные сообщения';
 $L['Username_label'] = 'Имя пользователя';
 $L['Password_label'] = 'Пароль';
 $L['Advanced_label'] = 'Расширенные';
-$L['SpamCheck_label'] = 'Check messags for SPAM';
-$L['VirusCheck_label'] = 'Check messags for virus';
+$L['FilterCheck_label'] = 'Scan messages with email filter';
