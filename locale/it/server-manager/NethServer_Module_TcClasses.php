@@ -1,0 +1,24 @@
+<?php
+$L['TcClasses_Title'] = 'Gestione banda';
+$L['TcClasses_Description'] = 'Configurazione gestione banda';
+$L['TcClasses_Tags'] = 'tc qos traffic shaping';
+$L['configure_header'] = 'Configurazione';
+$L['Options_label'] = 'Opzioni';
+$L['Key_label'] = 'Nome classe';
+$L['Name_label'] = 'Nome classe';
+$L['Mark_label'] = 'Mark';
+$L['MaxInputRate_label'] = 'Download massimo (%)';
+$L['MaxOutputRate_label'] = 'Upload massimo (%)';
+$L['MinInputRate_label'] = 'Min download (%)';
+$L['MinOutputRate_label'] = 'Upload minimo (%)';
+$L['Download_label'] = 'Tasso di download';
+$L['Upload_label'] = 'Tasso di caricamento';
+$L['Min_label'] = 'Minimo';
+$L['Max_label'] = 'Massimo';
+$L['create_header_label'] = 'Creare una classe di gestione banda';
+$L['update_header_label'] = 'Aggiornare la classe di gestione di banda';
+$L['Inbound_bandwidth_limits_label'] = 'Limiti di banda per il download';
+$L['Outbound_bandwidth_limits_label'] = 'Limiti di banda per l\'upload';
+$L['duplicate_class'] = 'Esiste già una classe con lo stesso nome';
+$L['input_overcommit'] = 'La somma della velocità minima di download supera il 100%. Si prega di considerare anche la larghezza di banda riservata per VoIP';
+$L['output_overcommit'] = 'La somma della velocità minima di upload supera il 100%. Si prega di considerare anche la larghezza di banda riservata per VoIP';

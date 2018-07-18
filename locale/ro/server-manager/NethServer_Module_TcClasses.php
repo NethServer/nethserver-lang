@@ -1,0 +1,24 @@
+<?php
+$L['TcClasses_Title'] = 'Configurare trafic';
+$L['TcClasses_Description'] = 'Configurare modelare trafic';
+$L['TcClasses_Tags'] = 'tc qos trafic modelare';
+$L['configure_header'] = 'Configurație';
+$L['Options_label'] = 'Opțiuni';
+$L['Key_label'] = 'Nume clasă';
+$L['Name_label'] = 'Nume clasă';
+$L['Mark_label'] = 'Marcă';
+$L['MaxInputRate_label'] = 'Descărcare max. (%)';
+$L['MaxOutputRate_label'] = 'Încărcare max (%)';
+$L['MinInputRate_label'] = 'Descărcare min (%)';
+$L['MinOutputRate_label'] = 'Încărcare min (%)';
+$L['Download_label'] = 'Rată descărcare';
+$L['Upload_label'] = 'Rată încărcare';
+$L['Min_label'] = 'Min';
+$L['Max_label'] = 'Max';
+$L['create_header_label'] = 'Creează clasă de modelare trafic';
+$L['update_header_label'] = 'Actualizează clasa de modelare trafic';
+$L['Inbound_bandwidth_limits_label'] = 'Limite bandă descărcare';
+$L['Outbound_bandwidth_limits_label'] = 'Limite bandă încărcare';
+$L['duplicate_class'] = 'O clasă cu același nume există deja';
+$L['input_overcommit'] = 'Suma ratelor minime de descărcare depășește 100%. Te rog să ai în vedere și banda rezervată pentru VoIP';
+$L['output_overcommit'] = 'Suma ratelor minime de încărcare depășește 100%. Te rog să ai în vedere și banda rezervată pentru VoIP';

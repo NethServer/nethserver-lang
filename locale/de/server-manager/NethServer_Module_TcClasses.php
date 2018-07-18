@@ -1,0 +1,24 @@
+<?php
+$L['TcClasses_Title'] = 'Traffic-Shaping';
+$L['TcClasses_Description'] = 'Traffic-Shaping-Konfiguration';
+$L['TcClasses_Tags'] = 'tc qos traffic shaping';
+$L['configure_header'] = 'Konfiguration';
+$L['Options_label'] = 'Optionen';
+$L['Key_label'] = 'Klassenname';
+$L['Name_label'] = 'Klassenname';
+$L['Mark_label'] = 'Kennzeichen';
+$L['MaxInputRate_label'] = 'Max. Download (%)';
+$L['MaxOutputRate_label'] = 'Max. Upload (%)';
+$L['MinInputRate_label'] = 'Min. Download (%)';
+$L['MinOutputRate_label'] = 'Min. Upload (%)';
+$L['Download_label'] = 'Downloadrate';
+$L['Upload_label'] = 'Uploadrate';
+$L['Min_label'] = 'Minimum';
+$L['Max_label'] = 'Maximum';
+$L['create_header_label'] = 'Traffic Shaping-Klasse erstellen';
+$L['update_header_label'] = 'Traffic Shaping-Klasse aktualisieren';
+$L['Inbound_bandwidth_limits_label'] = 'Download-Bandbreitenbeschränkungen';
+$L['Outbound_bandwidth_limits_label'] = 'Upload-Bandbreitenbeschränkungen';
+$L['duplicate_class'] = 'Eine Klasse mit demselben Namen existiert bereits';
+$L['input_overcommit'] = 'Die Summe der minimalen Download-Rate übersteigt die 100%. Bitte auch die für VoIP reservierte Bandbreite beachten.';
+$L['output_overcommit'] = 'Die Summe der minimalen Upload-Rate übersteigt die 100%. Bitte auch die für VoIP reservierte Bandbreite beachten';

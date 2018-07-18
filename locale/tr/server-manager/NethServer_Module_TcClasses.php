@@ -1,0 +1,24 @@
+<?php
+$L['TcClasses_Title'] = 'Trafik şekillendirme';
+$L['TcClasses_Description'] = 'Trafik şekillendirme yapılandırması';
+$L['TcClasses_Tags'] = 'tc qos traffic shaping trafik şekillendirme';
+$L['configure_header'] = 'Yapılandırma';
+$L['Options_label'] = 'Ayarlar';
+$L['Key_label'] = 'Sınıf adı';
+$L['Name_label'] = 'Sınıf adı';
+$L['Mark_label'] = 'İşaret';
+$L['MaxInputRate_label'] = 'En fazla indirme (%)';
+$L['MaxOutputRate_label'] = 'En fazla yükleme (%)';
+$L['MinInputRate_label'] = 'En az indirme (%)';
+$L['MinOutputRate_label'] = 'En az yükleme (%)';
+$L['Download_label'] = 'İndirme hızı';
+$L['Upload_label'] = 'Yükleme hızı';
+$L['Min_label'] = 'En az';
+$L['Max_label'] = 'En fazla';
+$L['create_header_label'] = 'Trafik şekillendirme sınıfı oluştur';
+$L['update_header_label'] = 'Trafik şekillendirme sınıfını güncelle';
+$L['Inbound_bandwidth_limits_label'] = 'İndirme bant genişliği sınırları';
+$L['Outbound_bandwidth_limits_label'] = 'Yükleme bant genişliği sınırları';
+$L['duplicate_class'] = 'Aynı adlı bir sınıf zaten var';
+$L['input_overcommit'] = 'En az indirme hızı %100 değerinden büyük. Lütfen VoIP için de bant genişliği ayırmayı düşünün';
+$L['output_overcommit'] = 'En az yükleme hızı %100 değerinden büyük. Lütfen VoIP için de bant genişliği ayırmayı düşünün';
