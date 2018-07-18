@@ -45,7 +45,8 @@ $L['UploadKey_label'] = 'Özel anahtar';
 $L['UploadChain_label'] = 'Zincir dosyası (isteğe bağlı)';
 $L['UploadName_label'] = 'Ad';
 
-$L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 sertifikası';
-$L['valid_platform,rsa-key,rsa-key,1'] = 'Özel RSA anahtarı';
-
+$L['valid_platform,pem-certificate,pem-certificate,1'] = 'x509 CA sertifikası (PEM kodlamalı)';
+$L['valid_platform,rsa-key,rsa-key,1'] = 'RSA ya da EC özel anahtarı (PEM kodlamalı)';
 $L['vaild_UploadName_file_exists'] = 'Dosya zaten var';
+$L['cert_safetyguard_label'] = 'Varsayılan sertifika seçimi';
+$L['valid_platform,tlspolicy-safetyguard,tlspolicy-ecdsa-cert,3'] = 'Seçilmiş ECC sertifikası geçerli TLS ilkesi ile uyumlu değil';
