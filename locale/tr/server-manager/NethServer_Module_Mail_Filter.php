@@ -31,3 +31,4 @@ $L['rspamdWebUI_red_label'] = 'Dış ağdan erişilebilsin';
 $L['RspamdURL'] = 'Web Adresi';
 $L['RspamdPassword_label'] = 'Parola';
 $L['Rspamd_WebUI_Settings_label'] = 'Rspamd kullanıcı arayüzü';
+$L['SpamSubjectPrefixString_label'] = 'Önemsiz e-posta konusuna ön ek eklensin'; 

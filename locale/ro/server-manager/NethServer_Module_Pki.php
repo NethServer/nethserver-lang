@@ -45,8 +45,8 @@ $L['UploadKey_label'] = 'Cheie privată';
 $L['UploadChain_label'] = 'Fișier legat (opțional)';
 $L['UploadName_label'] = 'Nume';
 
-$L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 certificate (PEM encoding)';
-$L['valid_platform,rsa-key,rsa-key,1'] = 'RSA or EC private key (PEM encoding)';
+$L['valid_platform,pem-certificate,pem-certificate,1'] = 'Certificat X.509 (codificare PEM)';
+$L['valid_platform,rsa-key,rsa-key,1'] = 'Cheie privată RSA sau EC (codificare PEM)';
 $L['vaild_UploadName_file_exists'] = 'Fișierul deja există';
-$L['cert_safetyguard_label'] = 'Default certificate selection';
-$L['valid_platform,tlspolicy-safetyguard,tlspolicy-ecdsa-cert,3'] = 'The selected ECC certificate is not compatible with the current TLS policy';
+$L['cert_safetyguard_label'] = 'Selectare certificat implicit';
+$L['valid_platform,tlspolicy-safetyguard,tlspolicy-ecdsa-cert,3'] = 'Certificatul EEC selectat nu este compatibil cu politica TLS curentă';

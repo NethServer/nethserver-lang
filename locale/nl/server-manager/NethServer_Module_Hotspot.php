@@ -31,3 +31,7 @@ $L['Register_label'] = 'Register';
 $L['Unregister_label'] = 'Unregister';
 $L['Unregister_header'] = 'Unregister unit';
 $L['Unregister_message'] = 'Would you like to unregister this unit?';
+
+$L['info_label'] = 'The Hotspot unit controls Internet access for guest and can be connected to any instance of';
+$L['ready_label'] = 'You\'re ready to be connected to ';
+$L['icaro_instance'] = 'Open';

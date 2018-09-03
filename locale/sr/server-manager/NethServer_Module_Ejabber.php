@@ -3,4 +3,16 @@
 $L['Ejabber_Title'] = 'Сервер ћаскања';
 $L['Ejabber_Description'] = 'Управљај сервером ћаскања';
 $L['Ejabber_Tags'] = 'ћаскање xmpp џабер еџабер';
-$L['status_label'] = 'Омогући Еџабер сервер ћаскања'; 
+$L['status_label'] = 'Омогући Еџабер сервер ћаскања';
+$L['WebAdmin_label'] = 'Administration web Interface';
+$L['Advanced_label'] = 'Напредна подешавања';
+$L['S2S_label'] = 'Enable federation (S2S)';
+$L['ShaperFast_label'] = 'File transfer maximum speed (bytes/second)';
+$L['ShaperNormal_label'] = 'File transfer normal speed (bytes/second)';
+$L['ShaperFastMustBeSuperiorThanshaperNormal'] = 'The maximum speed must be superior than the normal speed';
+$L['EjabberdURL'] = 'URL';
+$L['UsersMustBePartOfJabberadmins'] = 'Admin users must be in the jabberadmins group';
+$L['Modules_label'] = 'Additional Modules';
+$L['ModMamStatus_label'] = 'Message Archive Management (mod_mam)';
+$L['ModMamPurgeDBStatus_label'] = 'Clean old messages';
+$L['ModMamPurgeDBInterval_label'] = 'Clean messages older than X days';

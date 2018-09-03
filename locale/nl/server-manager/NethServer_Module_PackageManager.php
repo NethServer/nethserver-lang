@@ -53,11 +53,11 @@ $L['DistroUpgradeAvailable_message1'] = 'A system upgrade to ${product} ${versio
 $L['DistroUpgradeAvailable_message2'] = 'The system upgrade procedure switches the to "unlocked" software updates origin and updates all installed packages';
 $L['DistroUpgrade_label'] = 'Upgrade';
 $L['UpgradeLater_label'] = 'Ignore';
-$L['valid_mailforward_address'] = '"${0}" is not a valid email address';
-$L['messages_label'] = 'Send an email to the system administrator';
-$L['download_label'] = 'Download updates';
-$L['applyUpdate_label'] = 'Install updates automatically';
-$L['customMail_label'] = 'Add custom recipients';
+$L['valid_mailforward_address'] = '"${0}" is geen geldig email adres';
+$L['messages_label'] = 'Stuur een email naar de systeem beheerder';
+$L['download_label'] = 'Updates downloaden';
+$L['applyUpdate_label'] = 'Installeer updates automatisch';
+$L['customMail_label'] = 'Voeg ontvangers toe';
 $L['YumCron_label'] = 'When updates are available';
 
 

@@ -31,3 +31,4 @@ $L['rspamdWebUI_red_label'] = 'Zugriff von externem Netzwerk';
 $L['RspamdURL'] = 'Web URL';
 $L['RspamdPassword_label'] = 'Passwort';
 $L['Rspamd_WebUI_Settings_label'] = 'Rspamd Benutzerschnittstelle';
+$L['SpamSubjectPrefixString_label'] = 'Füge ein Präfix im Betreff der Spam Nachricht hinzu'; 

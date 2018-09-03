@@ -122,4 +122,4 @@ $L['DNS_label'] = 'DNS-servers';
 $L['trafficshaping_label'] = 'Traffic Shaping';
 $L['FwInBandwidth_label'] = 'Ingaande bandbreedte (kbps)';
 $L['FwOutBandwidth_label'] = 'Uitgaande bandbreedte (kbps)';
-$L['valid_platform,logical-interface-create,dhcp-conflicts,3'] = 'Some interfaces have DHCP ranges associated: they must be fixed manually from the DHCP page';
+$L['valid_platform,logical-interface-create,dhcp-conflicts,3'] = 'Enkele interfaces worden geassocieerd met DHCP ranges: zij moeten handmatig worden aangepast op de DHCP pagina';

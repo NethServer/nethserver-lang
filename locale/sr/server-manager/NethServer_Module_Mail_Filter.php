@@ -31,3 +31,4 @@ $L['rspamdWebUI_red_label'] = 'Access from external network';
 $L['RspamdURL'] = 'Web URL';
 $L['RspamdPassword_label'] = 'Лозинка';
 $L['Rspamd_WebUI_Settings_label'] = 'Rspamd user interface';
+$L['SpamSubjectPrefixString_label'] = 'Додај префикс у наслов спам порука'; 
