@@ -14,4 +14,4 @@ $L['AccountProvider_Error_4'] = 'Avviso Account provider: limite di dimensione s
 $L['AccountProvider_Error_104'] = 'Connessione all\'Account provider interrotta: verificare i parametri della connessione SSL/TLS';
 $L['AccountProvider_Error_110'] = 'Time out della connessione con l\'Account provider';
 $L['AccountProvider_Error_111'] = 'Connessione rifiutata con l\'Account provider';
-
+$L['AccountProvider_Error_82'] = 'Errore interno del client LDAP (AccountProvider_Error_82)';

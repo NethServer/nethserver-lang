@@ -115,7 +115,7 @@ $L['ActionPrioHi_label'] = 'Hi-Prio';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Le regole di routing non consentono di utilizzare una zona red come sorgente.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Le regole di routing consentono solo i seguenti tipi di destinazione: zona, host, range ip, CIDR, red.';
-$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Route rules do not allow to set a DPI protocol as Service.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Le regole di instradamento non consentono di selezionare un protocollo DPI come Servizio';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Se si seleziona un Servizio di rete la destinazione deve essere Firewall';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Le regole di gestione banda non consentono di utilizzare una zona red come sorgente.';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Le regole di gestione banda consentono solo i seguenti tipi di destinazione: zona, host, range ip, CIDR, red.';

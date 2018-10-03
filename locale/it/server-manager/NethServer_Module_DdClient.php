@@ -38,4 +38,4 @@ $L['DynDns_Credentials_Title'] = 'Credenziali DNS dinamico';
 $L['DynDns_Provider_Title'] = 'Provider DNS dinamico';
 $L['DynDns_SELFHOST_label'] = 'Selfhost (selfhost.eu) indirizzo dinamico';
 $L['DynDns_CLOUDFLARE_label'] = 'Cloudflare (cloudfare.com) indirizzo dinamico';
-$L['DynDns_STRATO_label'] = 'Strato (strato.com) dynamic adresses';
+$L['DynDns_STRATO_label'] = 'Indirizzi dinamici Strato (strato.com)';

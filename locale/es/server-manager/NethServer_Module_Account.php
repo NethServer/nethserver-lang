@@ -14,4 +14,4 @@ $L['AccountProvider_Error_4'] = 'Advertencia del proveedor de cuenta: se ha supe
 $L['AccountProvider_Error_104'] = 'Conexión del proveedor de cuenta restablecida por pares: compruebe si el servidor admite conexiones SSL/TLS';
 $L['AccountProvider_Error_110'] = 'Tiempo de conexión del proveedor de cuenta agotado';
 $L['AccountProvider_Error_111'] = 'Se ha rechazado la conexión del proveedor de cuenta';
-
+$L['AccountProvider_Error_82'] = 'Error interno del cliente LDAP (AccountProvider_Error_82)';

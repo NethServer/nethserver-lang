@@ -3,7 +3,7 @@
 $L['accounts_title'] = 'Fiókok';
 $L['group_label'] = 'Csoportok';
 $L['user_label'] = 'Felhasználók';
-$L['pseudonym_label'] = 'Email címek';
+$L['pseudonym_label'] = 'Mail aliases';
 $L['ibay_label'] = 'Megosztott mappák';
 $L['machine_label'] = 'Gépi fiókok';
 $L['ftp_label'] = 'FTP fiókok';

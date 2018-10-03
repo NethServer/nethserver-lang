@@ -5,7 +5,7 @@
 $L['0_label'] = 'Domingo';
 $L['1_label'] = 'Lunes';
 $L['2_label'] = 'Martes';
-$L['3_label'] = 'Miercoles';
+$L['3_label'] = 'Miércoles';
 $L['4_label'] = 'Jueves';
 $L['5_label'] = 'Viernes';
 $L['6_label'] = 'Sábado ';

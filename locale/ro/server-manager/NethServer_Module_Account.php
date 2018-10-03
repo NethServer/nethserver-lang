@@ -14,4 +14,4 @@ $L['AccountProvider_Error_4'] = 'Avertismentul furnizorului de cont: limita de d
 $L['AccountProvider_Error_104'] = 'Conectarea furnizorului de conturi reinițializată de peer: verificați dacă serverul acceptă conexiuni SSL / TLS';
 $L['AccountProvider_Error_110'] = 'Conectarea furnizorului de cont a expirat';
 $L['AccountProvider_Error_111'] = 'Conectarea furnizorului de cont a fost refuzată';
-
+$L['AccountProvider_Error_82'] = 'LDAP client internal error (AccountProvider_Error_82)';

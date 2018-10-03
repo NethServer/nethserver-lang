@@ -3,7 +3,7 @@
 $L['accounts_title'] = 'Comptes';
 $L['group_label'] = 'Groupes';
 $L['user_label'] = 'Utilisateurs';
-$L['pseudonym_label'] = 'Adresses email';
+$L['pseudonym_label'] = 'Alias de messagerie';
 $L['ibay_label'] = 'Dossiers partagés';
 $L['machine_label'] = 'Ordinateurs';
 $L['ftp_label'] = 'Comptes FTP';

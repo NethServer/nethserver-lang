@@ -30,5 +30,5 @@ $L['any_label'] = 'Qualsiasi';
 $L['ModifyDefault_label'] = 'Modifica';
 $L['VirtualHostDefault_Update_Header'] = 'Modifica della configurazione di default del virtual host ';
 $L['valid_servername_already_used'] = 'Nome "$ {0}" già utilizzato';
-$L['Indexes_label'] = 'Root directory file listings';
+$L['Indexes_label'] = 'Elenca i file nella directory radice';
 $L['Name_Already_Exists'] = 'Nome "$ {0}" già utilizzato';

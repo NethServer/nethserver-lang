@@ -44,5 +44,5 @@ $L['user-unlock_failure'] = 'Erreur pendant le déverouillage de l\'utilisateur 
 $L['user-unlock_success'] = 'Utilisateur "${1}" bloqué'; 
 $L['username_label'] = 'Nom d\'utilisateur'; 
 $L['valid_platform,user-create,user-length,1'] = 'Nom trop long: ${reason}';
-$L['user_exists'] = 'The user already exists';
-$L['setPassword_label'] = 'Set password';
+$L['user_exists'] = 'L\'utilisateur existe déjà';
+$L['setPassword_label'] = 'Définir le mot de passe';

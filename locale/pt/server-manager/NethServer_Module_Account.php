@@ -14,4 +14,4 @@ $L['AccountProvider_Error_4'] = 'Aviso do provedor de conta: limite de tamanho e
 $L['AccountProvider_Error_104'] = 'Ligação do provedor de conta redefinida pelo peer: verifique se o servidor possui ligações SSL / TLS';
 $L['AccountProvider_Error_110'] = 'Ligação do provedor de conta expirou';
 $L['AccountProvider_Error_111'] = 'Ligação do provedor de conta recusada';
-
+$L['AccountProvider_Error_82'] = 'LDAP client internal error (AccountProvider_Error_82)';

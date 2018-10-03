@@ -45,8 +45,8 @@ $L['UploadKey_label'] = 'Chiave privata';
 $L['UploadChain_label'] = 'Chain file (opzionale)';
 $L['UploadName_label'] = 'Nome';
 
-$L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 certificate (PEM encoding)';
-$L['valid_platform,rsa-key,rsa-key,1'] = 'RSA or EC private key (PEM encoding)';
+$L['valid_platform,pem-certificate,pem-certificate,1'] = 'Certificato X.509 (codifica PEM)';
+$L['valid_platform,rsa-key,rsa-key,1'] = 'Chiave privata RSA o EC (codifica PEM)';
 $L['vaild_UploadName_file_exists'] = 'Il file esiste già';
-$L['cert_safetyguard_label'] = 'Default certificate selection';
-$L['valid_platform,tlspolicy-safetyguard,tlspolicy-ecdsa-cert,3'] = 'The selected ECC certificate is not compatible with the current TLS policy';
+$L['cert_safetyguard_label'] = 'Scelta del certificato di default';
+$L['valid_platform,tlspolicy-safetyguard,tlspolicy-ecdsa-cert,3'] = 'Il certificato ECC selezionato non è compatibile con la policy TLS attuale';

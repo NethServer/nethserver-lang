@@ -14,4 +14,4 @@ $L['AccountProvider_Error_4'] = 'Varování poskytovatele účtů: překročen l
 $L['AccountProvider_Error_104'] = 'Připojení k poskytovateli účtů resetováno protějškem: zkontrolujte zda server podporuje SSL/TLS spojení';
 $L['AccountProvider_Error_110'] = 'Překročen časový limit při připojování k poskytovateli účtů';
 $L['AccountProvider_Error_111'] = 'Poskytovatel účtů odmítl spojení';
-
+$L['AccountProvider_Error_82'] = 'LDAP client internal error (AccountProvider_Error_82)';

@@ -15,4 +15,4 @@ $L['AccountProvider_Error_4'] = 'Avertissement du fournisseur de compte : taille
 $L['AccountProvider_Error_104'] = 'Connexion au fournisseur de compte réinitialisée par l\'hôte distant : vérifier si le serveur supporte les connexions SSL/TLS.';
 $L['AccountProvider_Error_110'] = 'Délai d\'attente dépassé pour le fournisseur de compte';
 $L['AccountProvider_Error_111'] = 'Connexion refusée par le fournisseur de compte';
-
+$L['AccountProvider_Error_82'] = 'LDAP client internal error (AccountProvider_Error_82)';
