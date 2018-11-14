@@ -12,4 +12,4 @@ $L['password-certificate'] = 'Parola ve sertifika';
 $L['ovpn_auth'] = 'Kimlik doğrulaması';
 $L['ovpn_mode'] = 'Kip';
 $L['ovpn_range'] = 'IP aralığı';
-$L['ovpn_port'] = 'UDP kapısı';
+$L['ovpn_port'] = 'UDP kapı numarası';

@@ -2,7 +2,7 @@
 $L['ShellInaBox_header'] = 'Shellinabox Erişim Ayarları';
 $L['ShellInaBox_Title'] = 'Uç Birim Ayarları';
 $L['status_label'] = 'Shellinabox Kullanılsın';
-$L['TCPPort_label'] = 'TCP Kapısı';
+$L['TCPPort_label'] = 'TCP kapı numarası';
 $L['PublicAccess_public_label'] = 'Herkese Açık Erişim';
 $L['PublicAccess_private_label'] = 'Özel Erişim';
 $L['PublicAccess_IP_label'] = 'IP Erişimi';

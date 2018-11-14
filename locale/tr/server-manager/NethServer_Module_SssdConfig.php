@@ -4,7 +4,7 @@ $L['SssdConfig_Title'] = 'Hesap hizmeti sağlayıcısı';
 $L['SssdConfig_Description'] = 'Hesap hizmeti sağlayıcısı üzerindeki kullanıcı ve grup ayarları';
 $L['SssdConfig_Tags'] = 'sssd etki alanı hesap kullanıcı grup ldap kerberos aktif dizin';
 
-$L['valid_platform,ad-dns,srv_record,1'] = 'Bir Aktif Dizin etki alanı denetleyicisi bulunamadı';
+$L['valid_platform,ad-dns,srv_record,1'] = 'Herhangi bir Aktif Dizin etki alanı denetleyicisi bulunamadı';
 
 $L['Select_Title'] = 'Yönetim seçimi';
 
@@ -15,7 +15,7 @@ $L['NetbiosDomain_label'] = 'NetBIOS Etki Alanı';
 $L['login_label'] = 'Ayrıcalıklı kullanıcı adı';
 $L['password_label'] = 'Parola';
 $L['Join_label'] = 'Katıl';
-$L['Authenticate_header'] = 'Aktif Dizin etki alanına ayrıcalıklı kullanıcı kimlik doğrulama bilgileri ile katıl';
+$L['Authenticate_header'] = 'Aktif Dizin etki alanına yetkili kullanıcı kimlik doğrulama bilgileri ile katıl';
 
 $L['Wizard_header'] = '${0} etki alanı için kullanıcı ve grupları ayarla';
 $L['Local_header'] = 'Bir yerel hesap hizmeti sağlayıcı kurun';
@@ -31,7 +31,7 @@ $L['configLdap_label'] = 'LDAP';
 
 $L['Ad_header'] = 'Aktif Dizin hesap hizmeti sağlayıcısı';
 $L['Ldap_header'] = 'LDAP hesap hizmeti sağlayıcısı';
-$L['ChooseAd_general'] = 'Aktif Dizin etki alanındaki bilgisayarlar basit üyesi ya da etki alanı denetçisi (DC) olabilir';
+$L['ChooseAd_general'] = 'Aktif Dizin etki alanındaki bilgisayarlar basit üyesi ya da etki alanı denetleyicisi (DC) olabilir';
 $L['ChooseAd_joinmember'] = 'Varolan bir etki alanının üyesi ol';
 $L['ChooseAd_joindc'] = 'Varolan bir etki alanı için DC ol';
 $L['ChooseAd_newforest'] = 'Yeni etki alanını hazırla ve DC ol';
@@ -48,7 +48,7 @@ $L['configLdapRemote_label'] = 'Uzak sunucuya bağlan';
 $L['configLdapLocal_label'] = 'Yerel olarak kur';
 
 $L['LdapRemoteIpAddress_label'] = 'Sunucu Adı ya da IP';
-$L['LdapRemoteTcpPort_label'] = 'TCP Kapısı';
+$L['LdapRemoteTcpPort_label'] = 'TCP kapı numarası';
 $L['LdapRemoteIp_header'] = 'Uzak bir LDAP sunucusuna bağlan';
 $L['LdapRemoteBind_label'] = 'Yapılandırmayı Denetle';
 $L['probeLdapSuccess_warning'] = 'Yapılandırmayı tamamlamak için LDAP ayarlarını gözden geçirip kaydedin';
@@ -123,15 +123,15 @@ $L['valid_starttls_urischeme'] = '"ldaps://" adres şeması ile çakışıyor';
 $L['AdIpAddress_help1'] = 'Seçilmiş IP adresi şu 3 koşulu sağlamalıdır:';
 $L['AdIpAddress_help2'] = 'IP adresi yeşil ağ ile aynı alt ağ aralığında olmalıdır: ${0}';
 $L['AdIpAddress_help3'] = 'IP adresi kullanılmıyor olmalıdır';
-$L['AdIpAddress_label'] = "Etki Alanı Denetçisi IP adresi";
+$L['AdIpAddress_label'] = "Etki Alanı Denetleyicisinin IP adresi";
 $L['CreateDomain_label'] = 'Etki alanı ekle';
 
 $L['installSuccessAd_notification'] = 'Aktif Dizin yerel hesap hizmeti sağlayıcısı düzgün şekilde kuruldu';
 $L['LocalAdProvider_header'] = '${0} için Aktif Dizin yerel hesap hizmeti sağlayıcısı';
 $L['LocalAdProviderUninstall_label'] = 'Kaldır';
-$L['LocalAdProviderDcChangeIp_header'] = 'Etki Alanı Denetçisinin IP adresini değiştir';
+$L['LocalAdProviderDcChangeIp_header'] = 'Etki Alanı Denetleyicisinin IP adresini değiştir';
 $L['LocalAdProviderDcChangeIp_label'] = 'IP değiştir';
 $L['ChangeIPButton_label'] = 'IP değiştir';
-$L['LocalAdProviderDcChangeIp_message1'] = 'Etki Alanı Denetçisinin IP adresinin değiştirilmesi Aktif Dizin istemcileri açısından sorunlara yol açabilir. İstemciler bir dış DNS sunucusu kullanıyorsa yeni IP adresini kullanacakları şekilde güncelleyin.';
-$L['dcChangeIpSuccess_notification'] = 'Etki Alanı Denetçisi IP adresi değiştirildi';
+$L['LocalAdProviderDcChangeIp_message1'] = 'Etki Alanı Denetleyicisinin IP adresinin değiştirilmesi Aktif Dizin istemcileri açısından sorunlara yol açabilir. İstemciler bir dış DNS sunucusu kullanıyorsa, ayarları yeni IP adresini kullanacakları şekilde güncelleyin.';
+$L['dcChangeIpSuccess_notification'] = 'Etki Alanı Denetleyicisinin IP adresi değiştirildi';
 $L['AdNsSambaRpmVersion_label'] = 'Samba Etki Alanı Denetçisi Sürümü';

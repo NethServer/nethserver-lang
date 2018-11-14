@@ -1,22 +1,22 @@
 <?php
 
-$L['Don_Title'] = 'Remote support';
-$L['Don_Description'] = 'Start a secure channel for remote support';
-$L['Don_Tags'] = 'helpdesk remote access help support issue problem bug';
+$L['Don_Title'] = 'Soporte Remoto';
+$L['Don_Description'] = 'Abrir un canal seguro para soporte remoto';
+$L['Don_Tags'] = 'servicio de asistencia acceso remoto ayuda apoyo problema inconveniente error';
 
-$L['Don_Start_header'] = 'Start a remote support session';
-$L['Don_Stop_header'] = 'Stop the current support session';
-$L['Start_label'] = 'Start session';
-$L['Stop_label'] = 'Stop session';
-$L['Start_description'] = 'Press "Start session" button to generate a unique identifier valid for the remote support session.';
-$L['Stop_description'] = 'The remote support session can be terminated at any time, just press the "Stop session" button.';
-$L['ServerName_label'] = 'Remote support server';
-$L['IpAddr_label'] = 'Session IP address';
-$L['SessionDuration_label'] = 'Expire after (days): ${0}';
-$L['SessionHelp_label'] = 'Copy and paste the session identifier in the support request';
-$L['SessionId_label'] = 'Session identifier';
-$L['SystemId_label'] = 'Server identifier';
-$L['SessionExpire_label'] = 'Session expire date';
-$L['Don_noconfig_header']='Remote support client is not configured!';
-$L['Noconfig_label']='Please configure Don client before proceed.';
-$L['Manual_label']='See online manual';
+$L['Don_Start_header'] = 'Inicie una sesión de soporte remoto';
+$L['Don_Stop_header'] = 'Detenga la sesión de soporte actual';
+$L['Start_label'] = 'Iniciar sesión';
+$L['Stop_label'] = 'Detener sesión';
+$L['Start_description'] = 'Pulse el botón "Iniciar sesión" para generar un identificador único válido para la sesión de soporte remoto.';
+$L['Stop_description'] = 'La sesión de soporte remoto se puede terminar en cualquier momento, basta con pulsar el botón "Detener sesión".';
+$L['ServerName_label'] = 'Servidor de soporte remoto';
+$L['IpAddr_label'] = 'Sesión de direcciones IP';
+$L['SessionDuration_label'] = 'Expira después (días): ${0}';
+$L['SessionHelp_label'] = 'Copiar y pegar el identificador de sesión en la solicitud de soporte';
+$L['SessionId_label'] = 'Identificador de sesión';
+$L['SystemId_label'] = 'Identificador de servidor';
+$L['SessionExpire_label'] = 'Fecha de caducidad de la sesión';
+$L['Don_noconfig_header']='Cliente de Soporte Remoto no esta configurado';
+$L['Noconfig_label']='Por favor configure el cliente Don antes de continuar';
+$L['Manual_label']='Ver manual en línea';

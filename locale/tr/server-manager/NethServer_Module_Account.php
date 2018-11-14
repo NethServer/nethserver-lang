@@ -14,4 +14,4 @@ $L['AccountProvider_Error_4'] = 'Hesap hizmeti sağlayıcı uyarısı: Boyut sı
 $L['AccountProvider_Error_104'] = 'Hesap hizmeti sağlayıcısı bağlantısı eş tarafından sıfırlandı: Sunucunun SSL/TLS bağlantılarını destekleyip desteklemediğini denetleyin';
 $L['AccountProvider_Error_110'] = 'Hesap hizmeti sağlayıcı bağlantısı zaman aşımına uğradı';
 $L['AccountProvider_Error_111'] = 'Hesap hizmeti sağlayıcısı bağlantıyı reddetti';
-$L['AccountProvider_Error_82'] = 'LDAP client internal error (AccountProvider_Error_82)';
+$L['AccountProvider_Error_82'] = 'İç LDAP istemci sorunu (HesapHizmetiSağlayıcı_Hata_82)';

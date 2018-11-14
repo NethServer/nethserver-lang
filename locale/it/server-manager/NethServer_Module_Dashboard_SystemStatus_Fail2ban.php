@@ -1,4 +1,4 @@
 <?php
-$L['fail2banstatus_title'] = 'Fail2ban status';
-$L['TotalBannedIP_label'] = 'Total Banned IPs';
-$L['no_fail2ban_stat_label'] = 'There is no statistic';
+$L['fail2banstatus_title'] = 'Stato Fail2ban';
+$L['TotalBannedIP_label'] = 'IP bloccati totali';
+$L['no_fail2ban_stat_label'] = 'Non ci sono statistiche';

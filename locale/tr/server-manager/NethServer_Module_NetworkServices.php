@@ -2,7 +2,7 @@
 
 $L['Key_label'] = 'Hizmet';
 $L['access_label'] = 'Erişim';
-$L['ports_label'] = 'Kapılar';
+$L['ports_label'] = 'Kapı Numaraları';
 
 $L['NetworkServices_Title'] = 'Ağ hizmetleri';
 $L['NetworkServices_Tags'] = 'Ağ hizmetleri hizmet güvenlik duvarı yerel';
@@ -21,5 +21,5 @@ $L['zones_label'] = 'Yalnız şu bölgelerden erişilebilsin';
 $L['ServiceStatus_enabled_label'] = 'Durum: Etkin';
 $L['ServiceStatus_disabled_label'] = 'Durum: Devre Dışı';
 $L['configuration_label'] = 'Hizmet yapılandırması';
-$L['TCP_ports_label'] = 'TCP kapısı: ${0}';
-$L['UDP_ports_label'] = 'UDP kapısı: ${0}';
+$L['TCP_ports_label'] = 'TCP kapı numarası: ${0}';
+$L['UDP_ports_label'] = 'UDP kapı numarası: ${0}';

@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs_CZ\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: root/etc/nethserver/todos.d/10eth-unmapped:44
 msgid "Assign role to network interface"
@@ -23,6 +23,7 @@ msgid_plural "Assign roles to network interfaces"
 msgstr[0] "Přiřadit roli síťovému rozhraní"
 msgstr[1] "Přiřadit roli síťovým rozhraním"
 msgstr[2] "Přiřadit roli síťovým rozhraním"
+msgstr[3] "Přiřadit roli síťovým rozhraním"
 
 #: root/etc/nethserver/todos.d/10eth-unmapped:48
 #, python-brace-format
@@ -31,6 +32,7 @@ msgid_plural "There are {0} roles to be assigned to network cards"
 msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
+msgstr[3] ""
 
 #: root/etc/nethserver/todos.d/10green-dhcp:52
 msgid "One or more green interfaces use DHCP"

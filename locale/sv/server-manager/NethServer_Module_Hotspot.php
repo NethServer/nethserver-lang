@@ -14,12 +14,12 @@ $L['Proxy_label'] = 'Enable transparent proxy on hotspot';
 $L['Id_label'] = 'Parent hotspot';
 $L['UnitName_label'] = 'Unit name';
 $L['Description_label'] = 'Description';
-$L['Save_label'] = 'Save';
+$L['Save_label'] = 'Spara';
 
 $L['Auth_header'] = 'Hotspot unit registration';
 $L['Username_label'] = 'User name';
 $L['Password_label'] = 'Password';
-$L['IcaroHost_label'] = 'Host name';
+$L['IcaroHost_label'] = 'Värdnamn';
 $L['Authenticate_label'] = 'Authenticate';
 $L['authentication_validator_label'] = 'Remote authentication failed';
 $L['icaro_auth_failed'] = 'Bad user name or password';
@@ -31,3 +31,7 @@ $L['Register_label'] = 'Register';
 $L['Unregister_label'] = 'Unregister';
 $L['Unregister_header'] = 'Unregister unit';
 $L['Unregister_message'] = 'Would you like to unregister this unit?';
+
+$L['info_label'] = 'The Hotspot unit controls Internet access for guest and can be connected to any instance of';
+$L['ready_label'] = 'You\'re ready to be connected to ';
+$L['icaro_instance'] = 'Öppna';

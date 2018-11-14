@@ -14,4 +14,4 @@ $L['AccountProvider_Error_4'] = 'Warnung im Accountprovider: Maximalgröße erre
 $L['AccountProvider_Error_104'] = 'Accountprovider wurde durch die Gegenstelle zurückgesetzt. Bitte überprüfen, ob die Gegenstelle SSL/TLS-Verbindungen unterstützt.';
 $L['AccountProvider_Error_110'] = 'Zeitüberschreitung der Verbindung zum Accountprovider';
 $L['AccountProvider_Error_111'] = 'Verbindung zum Accountprovider wurde abgelehnt.';
-$L['AccountProvider_Error_82'] = 'LDAP client internal error (AccountProvider_Error_82)';
+$L['AccountProvider_Error_82'] = 'Interner Fehler des LDAP-Clients (AccountProvider_Error_82)';

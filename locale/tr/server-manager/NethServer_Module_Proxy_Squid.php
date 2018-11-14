@@ -18,4 +18,4 @@ $L['proxy_label'] = 'vekil sunucu';
 $L['Squid_status'] = 'Squid durumu';
 $L['Squid_Title'] = 'Vekil sunucu';
 $L['status_label'] = 'Vekil sunucu kullanılsın';
-$L['PortBlock_label'] = 'HTTP ve HTTPS kapıları engellensin';
+$L['PortBlock_label'] = 'HTTP ve HTTPS kapı numaraları engellensin';

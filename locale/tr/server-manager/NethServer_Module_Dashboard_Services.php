@@ -3,7 +3,7 @@
 /* NethServer_Module_Dashboard_Services translation, language: en */
 
 $L['Key_label'] = 'Hizmet';
-$L['ports_label'] = 'Bağlantı noktaları';
+$L['ports_label'] = 'Kapı numaraları';
 $L['running_label'] = 'Çalışıyor';
 $L['Services_Title'] = 'Hizmetler';
 $L['Services_Description'] = 'Hizmet durumu';

@@ -3,7 +3,7 @@
 $L['SmartHost_Title'] = 'Smarthost'; 
 $L['SmartHostName_label'] = 'Sunucu Adı'; 
 $L['SmartHostPassword_label'] = 'Parola'; 
-$L['SmartHostPort_label'] = 'Kapı'; 
+$L['SmartHostPort_label'] = 'Kapı numarası'; 
 $L['SmartHostStatus_label'] = 'Smarthost üzerinden posta gönderilsin'; 
 $L['SmartHostTlsStatus_label'] = 'Şifrelenmemiş bağlantılar kullanılabilsin';
 $L['SmartHostUsername_label'] = 'Kullanıcı Adı';

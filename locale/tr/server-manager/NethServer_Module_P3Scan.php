@@ -16,5 +16,5 @@ $L['lang_ge_label'] = 'Almanca';
 $L['lang_pl_label'] = 'Lehçe';
 $L['lang_ru_label'] = 'Rusça';
 $L['lang_sp_label'] = 'İspanyolca';
-$L['ssl_label'] = 'POP3s tarama (kapı 995)';
+$L['ssl_label'] = 'POP3s tarama (kapı numarası 995)';
 $L['checks_label'] = 'Etkin denetimler';

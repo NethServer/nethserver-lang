@@ -2,17 +2,21 @@
 # This file is put in the public domain.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# liviu iordache <liviu.marian.iordache@gmail.com>, 2017
+# rox roxor <ceardaaa@gmail.com>, 2017
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver-ndpi 1.0.0\n"
 "Report-Msgid-Bugs-To: davide.principi@nethesis.it\n"
 "POT-Creation-Date: 2016-09-14 10:48+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2016-09-14 08:49+0000\n"
 "Last-Translator: rox roxor <ceardaaa@gmail.com>, 2017\n"
 "Language-Team: Romanian (https://www.transifex.com/nethserver/teams/35834/ro/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
