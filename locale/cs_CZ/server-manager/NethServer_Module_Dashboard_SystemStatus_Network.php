@@ -16,5 +16,5 @@ $L['network_title'] = 'Síť';
 $L['speed_label'] = 'Rychlost';
 $L['link_label'] = 'Odkaz';
 $L['role_label'] = 'Úloha';
-$L['none_label'] = 'Statické';
+$L['none_label'] = 'Statická';
 $L['dhcp_label'] = 'DHCP';

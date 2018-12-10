@@ -91,7 +91,7 @@ $L['FirewallObject_host-group_Title'] = 'Host groep ${key}';
 $L['FirewallObject_fwservice_Title'] = '${key} - service object';
 $L['FirewallObject_time_Title'] = '${key} - tijd conditie';
 $L['FirewallObject_service_Title'] = '${key} - netwerk service';
-$L['FirewallObject_ndpi_Title'] = '${key} - DPI protocol';
+$L['FirewallObject_ndpi_Title'] = '${name} - DPI protocol';
 $L['FirewallObject_iprange_Title'] = 'IP bereik ${key}';
 $L['FirewallObject_cidr_Title'] = 'CIDR netwerk ${key}';
 

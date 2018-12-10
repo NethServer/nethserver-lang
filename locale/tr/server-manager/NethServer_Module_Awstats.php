@@ -1,8 +1,8 @@
 <?php
-$L['Awstats_Title'] = 'Web İstatistikleri';
+$L['Awstats_Title'] = 'Awstats İstatistikleri';
 $L['Settings_Title'] = 'Ayarlar';
 $L['Statistics_Title'] = 'İstatistikler';
-$L['AwstatsStatistics_Title'] = 'Web İstatistiklerine Bakın';
+$L['AwstatsStatistics_Title'] = 'Günlük İstatistiklerine Bakın';
 $L['VirtualhostsStatistics_label'] = 'Sanal Sunucu İstatistikleri';
 $L['DefaultVirtualhost_label'] = 'Varsayılan sanal sunucu';
 $L['Virtualhosts_label'] = 'Sanal Sunucular';
@@ -46,3 +46,6 @@ $L['Must be a user name'] = '"${0}" geçerli bir kullanıcı adı değil';
 $L['ManualStatistics_label'] = 'Awstats İstatitikleri';
 $L['Configuration_label'] = 'El İle Yapılandırma';
 $L['StatisticsURL_label'] = 'İstatistikler sayfası';
+$L['MailStatistics_label'] = 'E-posta İstatistikleri';
+$L['PdfReport_label'] = 'Haftalık PDF raporları oluşturulsın (Klasör: /var/lib/nethserver/awstats)';
+$L['SendReport_label'] = 'PDF raporları root kullanıcısına gönderilsin';

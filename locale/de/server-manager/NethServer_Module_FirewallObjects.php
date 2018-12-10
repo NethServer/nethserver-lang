@@ -26,6 +26,7 @@ $L['Members'] = 'Mitglieder';
 $L['Network_label'] = 'Netzwerk';
 $L['Ports_label'] = 'Ports';
 $L['Ports_validator'] = 'Ports durch Komma getrennt eingeben';
+$L['Port_range_validator'] = 'Portbereich in der Form Lowport-Highport';
 $L['Protocol_label'] = 'Protokoll';
 $L['name_label'] = 'Name';
 $L['ServicesKey_label'] = 'Dienst';

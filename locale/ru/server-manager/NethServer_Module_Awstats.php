@@ -1,8 +1,8 @@
 <?php
-$L['Awstats_Title'] = 'Web Statistic';
+$L['Awstats_Title'] = 'Awstats Statistic';
 $L['Settings_Title'] = 'Настройки';
 $L['Statistics_Title'] = 'Статистика';
-$L['AwstatsStatistics_Title'] = 'Consult Web Statistics';
+$L['AwstatsStatistics_Title'] = 'Consult Log Statistics';
 $L['VirtualhostsStatistics_label'] = 'Virtualhost statistics';
 $L['DefaultVirtualhost_label'] = 'Default virtualhost';
 $L['Virtualhosts_label'] = 'Virtualhosts';
@@ -46,3 +46,6 @@ $L['Must be a user name'] = '"${0}" is not a valid user name';
 $L['ManualStatistics_label'] = 'Awstats Statistics';
 $L['Configuration_label'] = 'Manual Configuration';
 $L['StatisticsURL_label'] = 'Statistic page';
+$L['MailStatistics_label'] = 'Email Statistics';
+$L['PdfReport_label'] = 'Create the weekly PDF reports (Folder: /var/lib/nethserver/awstats)';
+$L['SendReport_label'] = 'Email the PDF reports to root';

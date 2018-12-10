@@ -26,6 +26,7 @@ $L['Members'] = 'Чланови';
 $L['Network_label'] = 'Мрежа';
 $L['Ports_label'] = 'Портови';
 $L['Ports_validator'] = 'Листа бројева портова одвојена зарезима';
+$L['Port_range_validator'] = 'Port range in the form lowport-highport';
 $L['Protocol_label'] = 'Протокол';
 $L['name_label'] = 'Име';
 $L['ServicesKey_label'] = 'Сервис';

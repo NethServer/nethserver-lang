@@ -26,6 +26,7 @@ $L['Members'] = 'Membros';
 $L['Network_label'] = 'Rede';
 $L['Ports_label'] = 'Portas';
 $L['Ports_validator'] = 'Lista de números de porta separados por virgula';
+$L['Port_range_validator'] = 'Port range in the form lowport-highport';
 $L['Protocol_label'] = 'Protocolo';
 $L['name_label'] = 'Nome';
 $L['ServicesKey_label'] = 'Serviço';

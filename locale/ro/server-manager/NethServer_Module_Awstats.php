@@ -1,8 +1,8 @@
 <?php
-$L['Awstats_Title'] = 'Statistici Web';
+$L['Awstats_Title'] = 'Statistică AWstats';
 $L['Settings_Title'] = 'Setări';
 $L['Statistics_Title'] = 'Statistici';
-$L['AwstatsStatistics_Title'] = 'Consultați statisticile Web';
+$L['AwstatsStatistics_Title'] = 'Consult Log Statistics';
 $L['VirtualhostsStatistics_label'] = 'Statistici Gazdă Virtuală';
 $L['DefaultVirtualhost_label'] = 'Default virtualhost';
 $L['Virtualhosts_label'] = 'Gazde Virtuale';
@@ -46,3 +46,6 @@ $L['Must be a user name'] = '"${0}" nu este un nume de utilizator valid';
 $L['ManualStatistics_label'] = 'Awstats Statistics';
 $L['Configuration_label'] = 'Manual Configuration';
 $L['StatisticsURL_label'] = 'Statistic page';
+$L['MailStatistics_label'] = 'Email Statistics';
+$L['PdfReport_label'] = 'Create the weekly PDF reports (Folder: /var/lib/nethserver/awstats)';
+$L['SendReport_label'] = 'Email the PDF reports to root';

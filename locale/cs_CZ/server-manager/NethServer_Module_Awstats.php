@@ -1,8 +1,8 @@
 <?php
-$L['Awstats_Title'] = 'Webové statistiky';
+$L['Awstats_Title'] = 'Awstats Statistic';
 $L['Settings_Title'] = 'Nastavení';
 $L['Statistics_Title'] = 'Statistiky';
-$L['AwstatsStatistics_Title'] = 'Konzultovat webové statistiky';
+$L['AwstatsStatistics_Title'] = 'Consult Log Statistics';
 $L['VirtualhostsStatistics_label'] = 'Virtualhost statistics';
 $L['DefaultVirtualhost_label'] = 'Default virtualhost';
 $L['Virtualhosts_label'] = 'Virtualhosts';
@@ -44,5 +44,8 @@ $L['DnsLookup_label'] = 'Report host by name (DnsLookup)';
 $L['GeoIP_label'] = 'Report host by country (GeoIP database)';
 $L['Must be a user name'] = '„${0}“ není platné uživatelské jméno';
 $L['ManualStatistics_label'] = 'Awstats Statistics';
-$L['Configuration_label'] = 'Manual Configuration';
+$L['Configuration_label'] = 'Ruční nastavení';
 $L['StatisticsURL_label'] = 'Statistic page';
+$L['MailStatistics_label'] = 'Email Statistics';
+$L['PdfReport_label'] = 'Create the weekly PDF reports (Folder: /var/lib/nethserver/awstats)';
+$L['SendReport_label'] = 'Email the PDF reports to root';

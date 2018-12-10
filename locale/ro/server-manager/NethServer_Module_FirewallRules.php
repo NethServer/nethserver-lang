@@ -91,7 +91,7 @@ $L['FirewallObject_host-group_Title'] = 'Grupul gazdă ${key}';
 $L['FirewallObject_fwservice_Title'] = '${key} - obiect serviciu';
 $L['FirewallObject_time_Title'] = '${key} - condiție de timp';
 $L['FirewallObject_service_Title'] = '${key} - serviciu rețea';
-$L['FirewallObject_ndpi_Title'] = '${key} - protocol DPI';
+$L['FirewallObject_ndpi_Title'] = '${name} - DPI protocol';
 $L['FirewallObject_iprange_Title'] = 'Interval IP ${key}';
 $L['FirewallObject_cidr_Title'] = 'Rețea CIDR ${key}';
 

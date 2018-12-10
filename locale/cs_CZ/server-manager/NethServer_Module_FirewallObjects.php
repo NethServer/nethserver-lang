@@ -26,6 +26,7 @@ $L['Members'] = 'Členové';
 $L['Network_label'] = 'Síť';
 $L['Ports_label'] = 'Porty';
 $L['Ports_validator'] = 'Seznam čísel portů – jednotlivé položky oddělujte čárkou';
+$L['Port_range_validator'] = 'Port range in the form lowport-highport';
 $L['Protocol_label'] = 'Protokol';
 $L['name_label'] = 'Název';
 $L['ServicesKey_label'] = 'Služba';

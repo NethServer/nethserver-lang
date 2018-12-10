@@ -4,12 +4,12 @@
 
 $L['balanced_label'] = 'Балансирано';
 $L['connectivity_label'] = 'Повезивање';
-$L['IPS_Description'] = 'IPS management (Suricata)';
+$L['IPS_Description'] = 'Управљање ИПС-ом (Суриката)';
 $L['IPS_header'] = 'Управљање ИПС-ом';
-$L['IPS_Tags'] = 'IPS ips snort Snort suricata Suricata';
+$L['IPS_Tags'] = 'IPS ипс снорт Snort суриката Suricata';
 $L['IPS_Title'] = 'ИПС';
 $L['RuleCategories_label'] = 'Rule categories';
-$L['status_label'] = 'Enable Suricata IPS';
+$L['status_label'] = 'Омогући Суриката ИПС';
 $L['IPS_status_label'] = 'Suricata';
 $L['disable_label'] = 'Онемогући';
 $L['block_label'] = 'Block';

@@ -45,8 +45,8 @@ $L['UploadKey_label'] = 'Приватни кључ';
 $L['UploadChain_label'] = 'Датотека ланца (опционо)';
 $L['UploadName_label'] = 'Име';
 
-$L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 certificate (PEM encoding)';
-$L['valid_platform,rsa-key,rsa-key,1'] = 'RSA or EC private key (PEM encoding)';
+$L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 сертификат (ПЕМ кодирање)';
+$L['valid_platform,rsa-key,rsa-key,1'] = 'РСА или ЕЦ приватни кључ (ПЕМ кодирање)';
 $L['vaild_UploadName_file_exists'] = 'Датотека већ постоји';
 $L['cert_safetyguard_label'] = 'Default certificate selection';
 $L['valid_platform,tlspolicy-safetyguard,tlspolicy-ecdsa-cert,3'] = 'The selected ECC certificate is not compatible with the current TLS policy';

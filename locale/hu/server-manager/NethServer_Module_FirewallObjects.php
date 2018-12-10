@@ -26,6 +26,7 @@ $L['Members'] = 'Tagok';
 $L['Network_label'] = 'Hálózat';
 $L['Ports_label'] = 'Portok';
 $L['Ports_validator'] = 'Comma separated list of port numbers';
+$L['Port_range_validator'] = 'Port range in the form lowport-highport';
 $L['Protocol_label'] = 'Protokoll';
 $L['name_label'] = 'Név';
 $L['ServicesKey_label'] = 'Szolgáltatás';

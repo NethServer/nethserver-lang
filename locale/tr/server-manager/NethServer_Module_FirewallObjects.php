@@ -26,6 +26,7 @@ $L['Members'] = 'Üyeler';
 $L['Network_label'] = 'Ağ';
 $L['Ports_label'] = 'Kapı numaraları';
 $L['Ports_validator'] = 'Kapı numaralarının virgül ile ayrılmış listesi';
+$L['Port_range_validator'] = 'Başlangıç-Bitiş biçiminde kapı numarası aralığı';
 $L['Protocol_label'] = 'İletişim kuralı';
 $L['name_label'] = 'Ad';
 $L['ServicesKey_label'] = 'Hizmet';

@@ -51,13 +51,13 @@ $L['Save_label'] = 'Сачувај';
 $L['DistroUpgrade_header'] = 'Software center - system upgrade';
 $L['DistroUpgradeAvailable_message1'] = 'A system upgrade to ${product} ${version} is available';
 $L['DistroUpgradeAvailable_message2'] = 'The system upgrade procedure switches the to "unlocked" software updates origin and updates all installed packages';
-$L['DistroUpgrade_label'] = 'Upgrade';
+$L['DistroUpgrade_label'] = 'Ажурирај';
 $L['UpgradeLater_label'] = 'Игнориши';
-$L['valid_mailforward_address'] = '"${0}" is not a valid email address';
-$L['messages_label'] = 'Send an email to the system administrator';
-$L['download_label'] = 'Download updates';
-$L['applyUpdate_label'] = 'Install updates automatically';
-$L['customMail_label'] = 'Add custom recipients';
+$L['valid_mailforward_address'] = '"${0}" није валидна поштанска адреса';
+$L['messages_label'] = 'Пошаљи епошту систем администратору';
+$L['download_label'] = 'Преузми ажурирања';
+$L['applyUpdate_label'] = 'Инсталирај ажурирања аутоматски';
+$L['customMail_label'] = 'Додај прилагожене примаоце';
 $L['YumCron_label'] = 'When updates are available';
 
 

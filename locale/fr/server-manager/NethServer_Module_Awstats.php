@@ -1,8 +1,8 @@
 <?php
-$L['Awstats_Title'] = 'Statistique Web';
+$L['Awstats_Title'] = 'Statistique Awstats';
 $L['Settings_Title'] = 'Configuration';
 $L['Statistics_Title'] = 'Statistiques';
-$L['AwstatsStatistics_Title'] = 'Consulter les statistiques Web';
+$L['AwstatsStatistics_Title'] = 'Consult Log Statistics';
 $L['VirtualhostsStatistics_label'] = 'Statistiques des hôtes virtuels';
 $L['DefaultVirtualhost_label'] = 'Default virtualhost';
 $L['Virtualhosts_label'] = 'Hôtes virtuels';
@@ -43,6 +43,9 @@ $L['MinHitKeyword_label'] = 'Only show keywords with min. hits';
 $L['DnsLookup_label'] = 'Report host by name (DnsLookup)';
 $L['GeoIP_label'] = 'Report host by country (GeoIP database)';
 $L['Must be a user name'] = '"${0}" n\'est pas un nom d\'utilisateur valide';
-$L['ManualStatistics_label'] = 'Awstats Statistics';
-$L['Configuration_label'] = 'Manual Configuration';
-$L['StatisticsURL_label'] = 'Statistic page';
+$L['ManualStatistics_label'] = 'Statistiques Awstats';
+$L['Configuration_label'] = 'Configuration Manuel';
+$L['StatisticsURL_label'] = 'Page de Statistiques';
+$L['MailStatistics_label'] = 'Email Statistics';
+$L['PdfReport_label'] = 'Create the weekly PDF reports (Folder: /var/lib/nethserver/awstats)';
+$L['SendReport_label'] = 'Email the PDF reports to root';

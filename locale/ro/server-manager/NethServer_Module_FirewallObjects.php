@@ -26,6 +26,7 @@ $L['Members'] = 'Membri';
 $L['Network_label'] = 'Rețea';
 $L['Ports_label'] = 'Porturi';
 $L['Ports_validator'] = 'Listă cu numerele de porturi separate prin virgulă';
+$L['Port_range_validator'] = 'Port range in the form lowport-highport';
 $L['Protocol_label'] = 'Protocol';
 $L['name_label'] = 'Nume';
 $L['ServicesKey_label'] = 'Serviciu';

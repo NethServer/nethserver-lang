@@ -91,7 +91,7 @@ $L['FirewallObject_host-group_Title'] = 'Група домаћина ${key}';
 $L['FirewallObject_fwservice_Title'] = '${key} - објекат сервиса';
 $L['FirewallObject_time_Title'] = '${key} - временски услов';
 $L['FirewallObject_service_Title'] = '${key} - мрежни сервис';
-$L['FirewallObject_ndpi_Title'] = '${key} - ДПИ протокол';
+$L['FirewallObject_ndpi_Title'] = '${name} - ДПИ протокол';
 $L['FirewallObject_iprange_Title'] = 'ИП опсег ${key}';
 $L['FirewallObject_cidr_Title'] = 'ЦИДР мрежа ${key}';
 
@@ -102,10 +102,10 @@ $L['ActionPriorityIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Дневник';
 
 $L['ShowAction_label'] = 'Прикажи';
-$L['ShowRules_label'] = 'Firewall (${0})';
-$L['ShowRoutes_label'] = 'Policy routing (${0})';
-$L['ShowServices_label'] = 'Network services (${0})';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping (${0})';
+$L['ShowRules_label'] = 'Заштитни зид (${0})';
+$L['ShowRoutes_label'] = 'Полисе рутирања (${0})';
+$L['ShowServices_label'] = 'Мрежни сервиси (${0})';
+$L['ShowTrafficShaping_label'] = 'Обликовање саобраћаја (${0})';
 
 $L['ActionPriorityHigh_label'] = 'Висок приоритет';
 $L['ActionPriorityLow_label'] = 'Низак приоритет';

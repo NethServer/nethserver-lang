@@ -26,6 +26,7 @@ $L['Members'] = 'Leden';
 $L['Network_label'] = 'Netwerk';
 $L['Ports_label'] = 'Poorten';
 $L['Ports_validator'] = 'Komma gescheiden lijst van poort nummers';
+$L['Port_range_validator'] = 'Port range in the form lowport-highport';
 $L['Protocol_label'] = 'Protocol';
 $L['name_label'] = 'Naam';
 $L['ServicesKey_label'] = 'Service';

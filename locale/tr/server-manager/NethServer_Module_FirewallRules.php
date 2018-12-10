@@ -91,7 +91,7 @@ $L['FirewallObject_host-group_Title'] = 'Sunucu grubu ${key}';
 $L['FirewallObject_fwservice_Title'] = '${key} - hizmet nesnesi';
 $L['FirewallObject_time_Title'] = '${key} - süre koşulu';
 $L['FirewallObject_service_Title'] = '${key} - ağ hizmeti';
-$L['FirewallObject_ndpi_Title'] = '${key} - DPI iletişim kuralı';
+$L['FirewallObject_ndpi_Title'] = '${name} - DPI iletişim kuralı';
 $L['FirewallObject_iprange_Title'] = 'IP aralığı ${key}';
 $L['FirewallObject_cidr_Title'] = 'CIDR ağı ${key}';
 

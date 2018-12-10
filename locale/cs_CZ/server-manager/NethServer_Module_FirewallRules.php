@@ -78,7 +78,7 @@ $L['iprange_label'] = 'Rozsah IP adres';
 $L['cidr_label'] = 'CIDR síť';
 $L['host-group_label'] = 'skupina';
 $L['role_label'] = 'rozhraní';
-$L['confirm_reload_label'] = 'No change has been applied.';
+$L['confirm_reload_label'] = 'Nebyly uplatněny žádné změny.';
 
 $L['FirewallObject_any_Title'] = 'Libovolné';
 $L['FirewallObject_fw_Title'] = 'Brána firewall';
@@ -91,7 +91,7 @@ $L['FirewallObject_host-group_Title'] = 'Host group ${key}';
 $L['FirewallObject_fwservice_Title'] = '${key} - service object';
 $L['FirewallObject_time_Title'] = '${key} - time condition';
 $L['FirewallObject_service_Title'] = '${key} - network service';
-$L['FirewallObject_ndpi_Title'] = '${key} - DPI protocol';
+$L['FirewallObject_ndpi_Title'] = '${name} - DPI protocol';
 $L['FirewallObject_iprange_Title'] = 'Rozsah IP adres ${key}';
 $L['FirewallObject_cidr_Title'] = 'CIDR network ${key}';
 

@@ -26,6 +26,7 @@ $L['Members'] = 'Μέλη';
 $L['Network_label'] = 'Δίκτυο';
 $L['Ports_label'] = 'Θύρες';
 $L['Ports_validator'] = 'Λίστα αριθμών θύρας χωρισμένα με κόμμα';
+$L['Port_range_validator'] = 'Port range in the form lowport-highport';
 $L['Protocol_label'] = 'Πρωτόκολλο';
 $L['name_label'] = 'Όνομα';
 $L['ServicesKey_label'] = 'Υπηρεσία';

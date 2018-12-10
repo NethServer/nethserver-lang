@@ -1,10 +1,10 @@
 <?php
-$L['Awstats_Title'] = 'Webstatistik';
+$L['Awstats_Title'] = 'Awstats Statistik';
 $L['Settings_Title'] = 'Einstellungen';
 $L['Statistics_Title'] = 'Statistiken';
-$L['AwstatsStatistics_Title'] = 'Webstatistiken hinzuziehen';
+$L['AwstatsStatistics_Title'] = 'Siehe Protokollstatistik';
 $L['VirtualhostsStatistics_label'] = 'Virtualhost-Statistiken';
-$L['DefaultVirtualhost_label'] = 'Default virtualhost';
+$L['DefaultVirtualhost_label'] = 'Standard-Virtual-Host';
 $L['Virtualhosts_label'] = 'Virtualhosts';
 $L['AwstatsDomainURL_label'] = 'Domänen';
 $L['status_label'] = 'Status';
@@ -43,6 +43,9 @@ $L['MinHitKeyword_label'] = 'Nur Schlüsselwörter mit min.Treffern zeigen';
 $L['DnsLookup_label'] = 'Bericht Host nach Namen (DnsLookup)';
 $L['GeoIP_label'] = 'Bericht nach Land (GeoIP-Datenbank)';
 $L['Must be a user name'] = '"${0}" ist kein gültiger Benutzername';
-$L['ManualStatistics_label'] = 'Awstats Statistics';
-$L['Configuration_label'] = 'Manual Configuration';
-$L['StatisticsURL_label'] = 'Statistic page';
+$L['ManualStatistics_label'] = 'Awstats-Statistiken';
+$L['Configuration_label'] = 'Manuelle Konfiguration';
+$L['StatisticsURL_label'] = 'Statistikseite';
+$L['MailStatistics_label'] = 'E-Mail-Statistiken';
+$L['PdfReport_label'] = 'Wöchentliche PDF-Berichte erstellen (Ordner: /var/lib/nethserver/awstats)';
+$L['SendReport_label'] = 'PDF-Berichte per E-Mail an root senden';

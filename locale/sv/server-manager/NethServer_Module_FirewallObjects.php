@@ -26,6 +26,7 @@ $L['Members'] = 'Medlemmar';
 $L['Network_label'] = 'Nätverk';
 $L['Ports_label'] = 'Portar';
 $L['Ports_validator'] = 'Komma separerar lista på portnummer';
+$L['Port_range_validator'] = 'Port range in the form lowport-highport';
 $L['Protocol_label'] = 'Protokoll';
 $L['name_label'] = 'Namn';
 $L['ServicesKey_label'] = 'Tjänst';

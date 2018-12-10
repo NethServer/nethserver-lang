@@ -26,6 +26,7 @@ $L['Members'] = 'Membri';
 $L['Network_label'] = 'Indirizzo di rete';
 $L['Ports_label'] = 'Porte';
 $L['Ports_validator'] = 'Elenco di porte separato da virgola';
+$L['Port_range_validator'] = 'Intervallo di porte nel formato portamin-portamax';
 $L['Protocol_label'] = 'Protocollo';
 $L['name_label'] = 'Nome';
 $L['ServicesKey_label'] = 'Servizio';

@@ -26,6 +26,7 @@ $L['Members'] = 'Члены';
 $L['Network_label'] = 'Сеть';
 $L['Ports_label'] = 'Порты';
 $L['Ports_validator'] = 'Разделенный запятой список портов';
+$L['Port_range_validator'] = 'Port range in the form lowport-highport';
 $L['Protocol_label'] = 'Протокол';
 $L['name_label'] = 'Название';
 $L['ServicesKey_label'] = 'Служба';
