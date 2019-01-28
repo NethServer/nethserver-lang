@@ -1,17 +1,17 @@
 <?php
 
 $L['Account_Title'] = 'Пользователи и группы';
-$L['Account_Description'] = 'Manage users and groups, configure the domain identity and authentication providers';
+$L['Account_Description'] = 'Управление пользователями и группами, настройка поставщиков идентификации и аутентификации домена';
 $L['Account_Tags'] = 'sssd user group realm domain account kerberos ldap';
 
-$L['AccountProvider_Error_1'] = 'Account provider generic error: SSSD exit code 1';
-$L['AccountProvider_Error_22'] = 'Account provider error: invalid DN. Check Base DN, Groups DN and Users DN in Accounts provider configuration';
-$L['AccountProvider_Error_32'] = 'Account provider error: no entries found. Check the LDAP bind credentials and Base DN in Accounts provider configuration';
-$L['AccountProvider_Error_34'] = 'Account provider error: invalid machine password. Check the server is correctly joined to a domain';
-$L['AccountProvider_Error_49'] = 'Account provider error: invalid credentials (${0})';
-$L['AccountProvider_Error_49_710'] = 'Недопустимые права доступа (49/710): укажите альтернативные учетные данные для LDAP в конфигурации поставщика учетных записей';
-$L['AccountProvider_Error_4'] = 'Account provider warning: size limit exceeded (${0})';
-$L['AccountProvider_Error_104'] = 'Account provider connection reset by peer: check if the server supports SSL/TLS connections';
-$L['AccountProvider_Error_110'] = 'Account provider connection timed out';
-$L['AccountProvider_Error_111'] = 'Account provider connection refused';
-$L['AccountProvider_Error_82'] = 'LDAP client internal error (AccountProvider_Error_82)';
+$L['AccountProvider_Error_1'] = 'Общая ошибка поставщика учётных записей: SSSD exit code 1';
+$L['AccountProvider_Error_22'] = 'Ошибка поставщика учётных записей: неверное DN. Проверьте Base DN, Groups DN и Users DN в настройках поставщика учётных записей.';
+$L['AccountProvider_Error_32'] = 'Ошибка поставщика учетных записей: записей не найдено. Проверьте учётные данные привязки LDAP и Base DN в настройках поставщика учётных записей';
+$L['AccountProvider_Error_34'] = 'Ошибка поставщика учетных записей: неверный пароль компьютера. Убедитесь, что сервер был корректно присоединен к домену ';
+$L['AccountProvider_Error_49'] = 'Ошибка поставщика учетных записей: неверные учетные данные (${0})';
+$L['AccountProvider_Error_49_710'] = 'Недопустимые права доступа (49/710): укажите альтернативные учетные данные привязки LDAP в настройках поставщика учетных записей';
+$L['AccountProvider_Error_4'] = 'Предупреждение от поставщика учетных записей: превышение допустимого размера (${0})';
+$L['AccountProvider_Error_104'] = 'Соединение с поставщиком учетных записей разорвано удаленной стороной: убедитесь, что сервер поддерживает SSL/TLS соединения';
+$L['AccountProvider_Error_110'] = 'Время ожидания соединения с поставщиком учетных записей истекло';
+$L['AccountProvider_Error_111'] = 'Отказано в соединении с поставщиком учётных записей';
+$L['AccountProvider_Error_82'] = 'Внутренняя ошибка клиента LDAP (AccountProvider_Error_82)';

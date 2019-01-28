@@ -2,9 +2,9 @@
 $L['Awstats_Title'] = 'Statistique Awstats';
 $L['Settings_Title'] = 'Configuration';
 $L['Statistics_Title'] = 'Statistiques';
-$L['AwstatsStatistics_Title'] = 'Consult Log Statistics';
+$L['AwstatsStatistics_Title'] = 'Consulter le journal des statistiques';
 $L['VirtualhostsStatistics_label'] = 'Statistiques des hôtes virtuels';
-$L['DefaultVirtualhost_label'] = 'Default virtualhost';
+$L['DefaultVirtualhost_label'] = 'Hôte virtuel par défaut';
 $L['Virtualhosts_label'] = 'Hôtes virtuels';
 $L['AwstatsDomainURL_label'] = 'Domaines';
 $L['status_label'] = 'Statut';
