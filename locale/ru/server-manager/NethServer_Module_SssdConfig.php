@@ -1,137 +1,137 @@
 <?php
 
-$L['SssdConfig_Title'] = 'Accounts provider';
-$L['SssdConfig_Description'] = 'Configure user and groups domain accounts provider';
+$L['SssdConfig_Title'] = 'Поставщик учетных записей';
+$L['SssdConfig_Description'] = 'Настройка пользователей и групп поставщика учетных записей домена';
 $L['SssdConfig_Tags'] = 'sssd домен учетная запись группа LDAP kerberos active directory';
 
-$L['valid_platform,ad-dns,srv_record,1'] = 'Не найден контроллер AD';
+$L['valid_platform,ad-dns,srv_record,1'] = 'Не удалось найти контроллер домена Active Directory';
 
-$L['Select_Title'] = 'Backend choice';
+$L['Select_Title'] = 'Выбор бэкэнда';
 
-$L['LdapUri_label'] = 'LDAP server URI';
-$L['BindProvider_label'] = 'Bind';
-$L['NetbiosDomain_label'] = 'NetBIOS domain';
+$L['LdapUri_label'] = 'URI LDAP-сервера';
+$L['BindProvider_label'] = 'Привязка';
+$L['NetbiosDomain_label'] = 'NetBIOS-домен';
 
-$L['login_label'] = 'Privileged user name';
+$L['login_label'] = 'Имя привилегированного пользователя';
 $L['password_label'] = 'Пароль';
-$L['Join_label'] = 'Join';
-$L['Authenticate_header'] = 'Join the AD domain with privileged user credentials';
+$L['Join_label'] = 'Присоединиться';
+$L['Authenticate_header'] = 'Присоединение к домену AD с учетными данными привилегированного пользователя';
 
-$L['Wizard_header'] = 'Configure users and groups for domain ${0}';
-$L['Local_header'] = 'Install a local accounts provider';
-$L['Install_label'] = 'Install';
-$L['Bind_label'] = 'Bind';
+$L['Wizard_header'] = 'Настройка пользователей и групп для домена ${0}';
+$L['Local_header'] = 'Установка локального поставщика учетных данных';
+$L['Install_label'] = 'Установить';
+$L['Bind_label'] = 'Привязать';
 
 
-$L['ChooseProvider_general'] = 'Users and groups are available through an accounts provider. You can connect this server to a remote accounts provider, or install a local one. Some features are available depending on the accounts provider type.';
-$L['ChooseProvider_ldap'] = 'Easy to configure, does not support authenticated access to shared folders';
-$L['ChooseProvider_ad'] = 'Enables all shared folders features, requires advanced configuration options';
+$L['ChooseProvider_general'] = 'Пользователи и группы предоставляются поставщиком учетных записей. Вы можете подключить этот сервер к удаленному поставщику учетных записей или установить локальный. Доступность некоторых функций зависит от типа поставщика учетных записей.';
+$L['ChooseProvider_ldap'] = 'Прост в настройке, не поддерживает проверку подлинности при доступе к общим папкам';
+$L['ChooseProvider_ad'] = 'Включает все возможности общих папок, требует расширенной настройки';
 $L['configAd_label'] = 'Active Directory';
 $L['configLdap_label'] = 'LDAP';
 
-$L['Ad_header'] = 'Active Directory accounts provider';
-$L['Ldap_header'] = 'LDAP accounts provider';
+$L['Ad_header'] = 'Поставщик учётных записей Active Directory';
+$L['Ldap_header'] = 'Поставщик учётных записей LDAP';
 $L['ChooseAd_general'] = 'Компьютер в домене AD может быть членом домена или контроллером домена (DC)';
-$L['ChooseAd_joinmember'] = 'Become a member of an existing domain';
-$L['ChooseAd_joindc'] = 'Become a DC of an existing domain';
-$L['ChooseAd_newforest'] = 'Initialize a new domain and become DC';
-$L['configAdJoinMember_label'] = 'Join a domain';
-$L['configAdJoinDc_label'] = 'Add DC to domain';
+$L['ChooseAd_joinmember'] = 'Стать членом существующего домена';
+$L['ChooseAd_joindc'] = 'Стать DC существующего домена';
+$L['ChooseAd_newforest'] = 'Инициализировать новый домен и стать DC';
+$L['configAdJoinMember_label'] = 'Присоединиться к домену';
+$L['configAdJoinDc_label'] = 'Добавить DC в домен';
 $L['configAdNewDomain_label'] = 'Создать новый домен';
 
-$L['LocalLdapProvider_header'] = 'LDAP local accounts provider for ${0}';
-$L['RemoteLdapProvider_header'] = 'LDAP remote accounts provider for ${0}';
-$L['ChooseLdap_general'] = 'An LDAP database can store users, groups and passwords. It is required a RFC2307 compatible LDAP schema.';
-$L['ChooseLdap_remote'] = 'Bind to a remote LDAP server';
-$L['ChooseLdap_local'] = 'Install an OpenLDAP server';
-$L['configLdapRemote_label'] = 'Bind remotely';
-$L['configLdapLocal_label'] = 'Install locally';
+$L['LocalLdapProvider_header'] = 'Локальный поставщик учетных записей LDAP для ${0}';
+$L['RemoteLdapProvider_header'] = 'Удаленный поставщик учетных записей LDAP для ${0}';
+$L['ChooseLdap_general'] = 'База данных LDAP может хранить пользователей, группы и пароли. Требуется LDAP-схема совместимая с RFC2307.';
+$L['ChooseLdap_remote'] = 'Привязать к удаленному LDAP-серверу';
+$L['ChooseLdap_local'] = 'Установить OpenLDAP-сервер';
+$L['configLdapRemote_label'] = 'Привязать к удаленному';
+$L['configLdapLocal_label'] = 'Установить локально';
 
-$L['LdapRemoteIpAddress_label'] = 'Host name or IP';
-$L['LdapRemoteTcpPort_label'] = 'Порт TCP';
-$L['LdapRemoteIp_header'] = 'Bind to a remote LDAP server';
-$L['LdapRemoteBind_label'] = 'Check configuration';
-$L['probeLdapSuccess_warning'] = 'Review and save the LDAP settings to finish the configuration';
-$L['valid_platform,ldap-probe,ldap-check-connect,1'] = 'Server connection error or invalid service port';
+$L['LdapRemoteIpAddress_label'] = 'Имя хоста или IP';
+$L['LdapRemoteTcpPort_label'] = 'TCP-порт';
+$L['LdapRemoteIp_header'] = 'Привязка к удаленному LDAP-серверу';
+$L['LdapRemoteBind_label'] = 'Проверка';
+$L['probeLdapSuccess_warning'] = 'Просмотрите и сохраните параметры LDAP для завершения настройки';
+$L['valid_platform,ldap-probe,ldap-check-connect,1'] = 'Ошибка подключения к серверу или неверный порт службы';
 
-$L['BindType_anonymous_label'] = 'Anonymous bind';
-$L['BindType_authenticated_label'] = 'Authenticated bind';
-$L['BindType_label'] = 'Authentication credentials for LDAP applications';
-$L['valid_adldapcredentials_required'] = 'Set BindDN and BindPassword fields';
-$L['valid_platform,ldap-credentials,ldaptestbind,49'] = 'Invalid LDAP credentials';
-$L['valid_platform,ldap-credentials,ldaptestbind,1'] = 'LDAP connection error';
-$L['valid_platform,ldap-credentials,ldaptestbind,32'] = 'Base DN was not found or insufficient rights';
-$L['valid_platform,ldap-credentials,ldaptestbind,34'] = 'Invalid DN syntax';
-$L['BindDN_label'] = 'Bind DN';
-$L['BindPassword_label'] = 'Bind Password';
+$L['BindType_anonymous_label'] = 'Анонимная привязка';
+$L['BindType_authenticated_label'] = 'Привязка с учетными данными';
+$L['BindType_label'] = 'Учётные данные для LDAP-приложений';
+$L['valid_adldapcredentials_required'] = 'Заполните поля "Имя для привязки (Bind DN)" и "Пароль для привязки"';
+$L['valid_platform,ldap-credentials,ldaptestbind,49'] = 'Неверные учетные данные LDAP';
+$L['valid_platform,ldap-credentials,ldaptestbind,1'] = 'Ошибка соединения с LDAP';
+$L['valid_platform,ldap-credentials,ldaptestbind,32'] = 'Base DN не найдена или недостаточно прав';
+$L['valid_platform,ldap-credentials,ldaptestbind,34'] = 'Неверный синтаксис DN';
+$L['BindDN_label'] = 'Имя для привязки (Bind DN)';
+$L['BindPassword_label'] = 'Пароль для привязки';
 
-$L['BaseDN_label'] = 'Base DN';
-$L['UserDN_label'] = 'User DN';
-$L['GroupDN_label'] = 'Group DN';
+$L['BaseDN_label'] = 'База для поиска (Base DN)';
+$L['UserDN_label'] = 'Пользователь (User DN)';
+$L['GroupDN_label'] = 'Группа (Group DN)';
 
 $L['StartTls_label'] = 'STARTTLS';
-$L['starttls_auto'] = 'По-умолчанию';
+$L['starttls_auto'] = 'По умолчанию';
 $L['starttls_enabled'] = 'Да';
 $L['starttls_disabled'] = 'Нет';
 
-$L['LdapLocalInstall_header'] = 'Install an OpenLDAP server';
-$L['LdapLocalInstall_message'] = 'Download and configure OpenLDAP server as local LDAP accounts provider';
-$L['LocalLdapProviderUninstall_label'] = 'Uninstall';
+$L['LdapLocalInstall_header'] = 'Установить OpenLDAP-сервер';
+$L['LdapLocalInstall_message'] = 'Скачать сервер OpenLDAP и настроить его в качестве локального поставщика учетных записей LDAP';
+$L['LocalLdapProviderUninstall_label'] = 'Удалить';
 
-$L['LocalProviderUninstall_header'] = 'Uninstall the local accounts provider';
-$L['LocalProviderUninstall_message'] = 'This operation is not reversible. Home directories are not erased, but any user, password, group and computer account will be lost!';
-$L['UninstallButton_label'] = 'Uninstall';
-$L['installSuccessLdap_notification'] = 'OpenLDAP local accounts provider was installed correctly';
+$L['LocalProviderUninstall_header'] = 'Удаление локального поставщика учетных записей';
+$L['LocalProviderUninstall_message'] = 'Эта операция необратима. Домашние каталоги не будут удалены, но все пользователи, пароли, группы и учетные записи компьютеров будут потеряны!';
+$L['UninstallButton_label'] = 'Удалить';
+$L['installSuccessLdap_notification'] = 'Локальный поставщик учётных записей OpenLDAP был установлен правильно';
 
-$L['uninstallSuccess_notification'] = 'The local accounts provider was successfully removed';
-$L['unbindSuccess_notification'] = 'The remote accounts provider was succesfully unbound';
+$L['uninstallSuccess_notification'] = 'Локальный поставщик учётных записей был удалён';
+$L['unbindSuccess_notification'] = 'Удалённый поставщик учётных записей был отвязан';
 
-$L['LocalLdapProviderUpgrade_label'] = 'Upgrade to Active Directory';
-$L['LocalLdapUpgrade_header'] = 'Upgrade to Active Directory';
-$L['LocalLdapUpgrade_message1'] = 'This operation is not reversible! The LDAP database can be upgraded to a local Active Directory accounts provider.';
-$L['LocalLdapUpgrade_PDC_message1'] = 'Users, passwords, groups and computer accounts are preserved. Shared folder connections may require different credentials!';
-$L['LocalLdapUpgrade_PDC_message2'] = 'When connecting to a shared folder, the NetBIOS domain name must be either prefixed to the user name (i.e. "MYDOMAIN\username"), or inserted in the specific form field.';
-$L['LocalLdapUpgrade_WS_message1'] = 'Users, passwords and groups are preserved; however shared folder connections require different credentials!';
-$L['LocalLdapUpgrade_WS_message2'] = 'When connecting to a shared folder, the NetBIOS domain name must be either prefixed to the user name (i.e. "MYDOMAIN\username"), or inserted in the specific form field.';
-$L['LdapUpgradeButton_label'] = 'Upgrade';
-$L['canUpgradeToSamba_notification'] = 'The local LDAP accounts provider can be upgraded to Samba Active Directory';
+$L['LocalLdapProviderUpgrade_label'] = 'Обновить до Active Directory';
+$L['LocalLdapUpgrade_header'] = 'Обновить до Active Directory';
+$L['LocalLdapUpgrade_message1'] = 'Эта операция необратима! База данных LDAP может быть обновлена до локального поставщика учетных записей Active Directory';
+$L['LocalLdapUpgrade_PDC_message1'] = 'Пользователи, пароли, группы и учётные записи компьютеров сохраняются. Для подключения к общим папкам могут потребоваться другие учётные данные!';
+$L['LocalLdapUpgrade_PDC_message2'] = 'При подключении к общей папке NetBIOS-имя домена либо должно быть префиксом к имени пользователя (напр.: "MYDOMAIN\username"), либо должно быть вставлено в соответствующее поле формы.';
+$L['LocalLdapUpgrade_WS_message1'] = 'Пользователи, пароли и группы сохраняются; однако для подключения к общей папке требуются другие учётные данные!';
+$L['LocalLdapUpgrade_WS_message2'] = 'При подключении к общей папке NetBIOS-имя домена либо должно быть префиксом к имени пользователя (напр.: "MYDOMAIN\username"), либо должно быть вставлено в соответствующее поле формы.';
+$L['LdapUpgradeButton_label'] = 'Обновить';
+$L['canUpgradeToSamba_notification'] = 'Локальный поставщик учётных записей LDAP может быть обновлён до Samba Active Directory';
 
-$L['AdJoinMember_header'] = 'Join Active Directory as new member';
-$L['AdDns_label'] = 'AD DNS server';
-$L['AdRealm_label'] = 'DNS domain name';
-$L['AdWorkgroup_label'] = 'NetBIOS domain name';
-$L['AdJoinMemberCredentials_label'] = 'Credentials for joining the domain';
+$L['AdJoinMember_header'] = 'Присоединиться к Active Directory в качестве нового члена';
+$L['AdDns_label'] = 'DNS-сервер AD';
+$L['AdRealm_label'] = 'DNS-имя домена';
+$L['AdWorkgroup_label'] = 'NetBIOS-имя домена';
+$L['AdJoinMemberCredentials_label'] = 'Учётные данные для присоединения к домену';
 $L['AdUsername_label'] = 'Имя пользователя';
 $L['AdPassword_label'] = 'Пароль';
-$L['AdJoinMember_label'] = 'Join';
+$L['AdJoinMember_label'] = 'Присоединиться';
 
-$L['RemoteAdProvider_header'] = 'Active Directory remote accounts provider for ${0}';
-$L['AdNewDomain_header'] = 'Создать новый домен AD';
-$L['AdJoinMemberError_label'] = 'Ошибка присоединения к AD (${0})';
+$L['RemoteAdProvider_header'] = 'Удаленный поставщик учётных записей Active Directory для ${0}';
+$L['AdNewDomain_header'] = 'Создать новый домен Active Directory';
+$L['AdJoinMemberError_label'] = 'Ошибка присоединения к Active Directory (${0})';
 $L['Save_label'] = 'Сохранить';
-$L['RemoteProviderUnbind_label'] = 'Unbind...';
-$L['RemoteProviderUnbind_header'] = 'Unbind accounts provider';
-$L['RemoteProviderUnbind_message'] = 'Any user and group account defined by the remote accounts provider will no longer be available.';
-$L['UnbindButton_label'] = 'Unbind';
-$L['bindAdSuccess_notification'] = 'Active Directory domain ${0} was joined successfully';
+$L['RemoteProviderUnbind_label'] = 'Отвязка...';
+$L['RemoteProviderUnbind_header'] = 'Отвязка поставщика учётных записей';
+$L['RemoteProviderUnbind_message'] = 'Все учётные записи пользователей и групп, определённые удалённым поставщиком станут недоступны.';
+$L['UnbindButton_label'] = 'Отвязать';
+$L['bindAdSuccess_notification'] = 'Домен Active Directory ${0} был присоединён';
 
-$L['valid_platform,dcipaddr,ipgreenandbridged,3'] = 'Must be different from 127.0.0.1 or any other IP address used by the server';
-$L['valid_platform,dcipaddr,ipgreenandbridged,4'] = 'Must be part of a green network';
-$L['valid_platform,dcipaddr,ipgreenandbridged,5'] = 'Must be a free IP address';
-$L['valid_platform,dcrealm,differhostname,3'] = 'Must differ from the host FQDN';
-$L['valid_starttls_urischeme'] = 'Conflicts with "ldaps://" URI scheme';
-$L['AdIpAddress_help1'] = 'The chosen IP address must satisfy all of the below conditions:';
-$L['AdIpAddress_help2'] = 'the IP address must be in the same subnet range of a green network: ${0}';
-$L['AdIpAddress_help3'] = 'the IP address must be unused currently';
-$L['AdIpAddress_label'] = "Domain Controller IP address";
+$L['valid_platform,dcipaddr,ipgreenandbridged,3'] = 'Должно быть отличным от 127.0.0.1 или любого другого IP-адреса, используемого сервером';
+$L['valid_platform,dcipaddr,ipgreenandbridged,4'] = 'Должен быть частью зелёной сети';
+$L['valid_platform,dcipaddr,ipgreenandbridged,5'] = 'Должен быть свободным IP-адресом';
+$L['valid_platform,dcrealm,differhostname,3'] = 'Должно отличаться от FQDN хоста';
+$L['valid_starttls_urischeme'] = 'Конфликтует с URI-схемой \'ldaps://\'';
+$L['AdIpAddress_help1'] = 'Выбранный IP-адрес должен удовлетворять нижеуказанным условиям:';
+$L['AdIpAddress_help2'] = 'IP-адрес должен быть в той же подсети, что и зелёная сеть: ${0}';
+$L['AdIpAddress_help3'] = 'IP-адрес не должен использоваться в текущий момент';
+$L['AdIpAddress_label'] = "IP-адрес контроллера домена";
 $L['CreateDomain_label'] = 'Создать домен';
 
-$L['installSuccessAd_notification'] = 'Active Directory local accounts provider was installed correctly';
-$L['LocalAdProvider_header'] = 'Active Directory local accounts provider for ${0}';
-$L['LocalAdProviderUninstall_label'] = 'Uninstall';
-$L['LocalAdProviderDcChangeIp_header'] = 'Change IP address of Domain Controller';
-$L['LocalAdProviderDcChangeIp_label'] = 'Change IP';
-$L['ChangeIPButton_label'] = 'Change IP';
-$L['LocalAdProviderDcChangeIp_message1'] = 'Changing the Domain Controller IP address can cause problems to Active Directory clients. If they use an external DNS server, update it to use the new IP address.';
-$L['dcChangeIpSuccess_notification'] = 'IP адрес контроллера домена изменён';
-$L['AdNsSambaRpmVersion_label'] = 'Samba DC version';
+$L['installSuccessAd_notification'] = 'Локальный поставщик учётных записей Active Directory был установлен правильно';
+$L['LocalAdProvider_header'] = 'Локальный поставщик учётных записей Active Directory для ${0}';
+$L['LocalAdProviderUninstall_label'] = 'Удалить';
+$L['LocalAdProviderDcChangeIp_header'] = 'Изменить IP-адрес контроллера домена';
+$L['LocalAdProviderDcChangeIp_label'] = 'Изменить IP';
+$L['ChangeIPButton_label'] = 'Изменить IP';
+$L['LocalAdProviderDcChangeIp_message1'] = 'Изменение IP-адреса контроллера домена может вызвать проблемы у клиентов Active Directory. Если они используют внешний DNS-сервер, то перенастройте их на использование нового IP-адреса.';
+$L['dcChangeIpSuccess_notification'] = 'IP-адрес контроллера домена изменён';
+$L['AdNsSambaRpmVersion_label'] = 'Версия Samba DC';

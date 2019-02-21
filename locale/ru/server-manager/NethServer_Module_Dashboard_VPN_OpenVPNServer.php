@@ -11,5 +11,5 @@ $L['certificate'] = 'Сертификат';
 $L['password-certificate'] = 'Пароль и сертификат';
 $L['ovpn_auth'] = 'Авторизация';
 $L['ovpn_mode'] = 'Режим';
-$L['ovpn_range'] = 'Интервал IP адресов';
+$L['ovpn_range'] = 'Диапазон IP';
 $L['ovpn_port'] = 'Порт UDP';

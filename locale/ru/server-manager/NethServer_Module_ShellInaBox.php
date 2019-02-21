@@ -1,11 +1,11 @@
 <?php
-$L['ShellInaBox_header'] = 'Shellinabox Access Settings';
-$L['ShellInaBox_Title'] = 'Terminal Settings';
-$L['status_label'] = 'Enable Shellinabox';
-$L['TCPPort_label'] = 'TCP Port';
-$L['PublicAccess_public_label'] = 'Public Access';
-$L['PublicAccess_private_label'] = 'Private Access';
-$L['PublicAccess_IP_label'] = 'IP Access';
-$L['FixedIP_label'] = 'Specify one IP/Network per line';
-$L['WebAuth_label'] = 'Force the user restricted access';
-$L['ShellUsers_label'] = 'Specify one allowed user per line';
+$L['ShellInaBox_header'] = 'Настройки доступа Shellinabox';
+$L['ShellInaBox_Title'] = 'Настройки терминала';
+$L['status_label'] = 'Включить Shellinabox';
+$L['TCPPort_label'] = 'TCP-порт';
+$L['PublicAccess_public_label'] = 'Публичный доступ';
+$L['PublicAccess_private_label'] = 'Закрытый доступ';
+$L['PublicAccess_IP_label'] = 'Доступ по IP';
+$L['FixedIP_label'] = 'Укажите по одному IP/Сеть на строку';
+$L['WebAuth_label'] = 'Принудительно установить ограниченный пользовательский доступ';
+$L['ShellUsers_label'] = 'Укажите по одному разрешенному пользователю на строку';

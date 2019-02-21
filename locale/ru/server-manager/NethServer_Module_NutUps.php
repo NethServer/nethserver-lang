@@ -23,5 +23,5 @@ $L['/dev/ttyS1_label'] = "COM2 (ttyS1)";
 $L['/dev/ttyS2_label'] = "COM3 (ttyS2)";
 $L['/dev/ttyUSB0_label'] = "USB2Serial (ttysUSB0)";
 $L['/dev/ttyUSB1_label'] = "USB2Serial (ttysUSB1)";
-$L['Mode_enabled_label'] = 'Local';
-$L['Mode_disabled_label'] = 'Remote';
+$L['Mode_enabled_label'] = 'Локальный';
+$L['Mode_disabled_label'] = 'Удаленный';

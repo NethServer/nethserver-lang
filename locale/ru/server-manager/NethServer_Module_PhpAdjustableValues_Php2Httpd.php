@@ -1,7 +1,7 @@
 <?php
-$L['Php2Httpd_Title'] = 'Php Apache version';
-$L['HttpdAdjustableValues_Title'] = 'Manage the Php version of Apache';
-$L['PhpVersion_default_label'] = 'Default Php Version';
-$L['PhpVersion_php56_label'] = 'Php56 SCL Version';
-$L['PhpVersion_php70_label'] = 'Php70 SCL Version';
-$L['PhpVersion_php71_label'] = 'Php71 SCL Version';
+$L['Php2Httpd_Title'] = 'Версия Php Apache';
+$L['HttpdAdjustableValues_Title'] = 'Управление Php версией Apache';
+$L['PhpVersion_default_label'] = 'Версия Php по умолчанию';
+$L['PhpVersion_php56_label'] = 'Версия Php56 SCL';
+$L['PhpVersion_php70_label'] = 'Версия Php70 SCL';
+$L['PhpVersion_php71_label'] = 'Версия Php71 SCL';

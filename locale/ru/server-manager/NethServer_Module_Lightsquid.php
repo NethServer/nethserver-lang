@@ -1,9 +1,9 @@
 <?php
 
-$L['Lightsquid_Description'] = 'Статистика веб прокси';
+$L['Lightsquid_Description'] = 'Статистика web-прокси';
 $L['Lightsquid_Tags'] = 'статистика состояние анализ график squid веб прокси';
 
-$L['Lightsquid_Title'] = 'Статистика веб прокси';
+$L['Lightsquid_Title'] = 'Статистика web-прокси';
 $L['Settings_title'] = 'Настройки';
 $L['Settings_label'] = 'Настройки';
 $L['Lang_label'] = 'Язык';

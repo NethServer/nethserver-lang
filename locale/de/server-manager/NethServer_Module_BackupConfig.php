@@ -3,7 +3,7 @@
 $L['BackupConfig_Description'] = 'Konfigurationssicherung einrichten';
 $L['BackupConfig_Tags'] = 'Automatische Wiederherstellung einrichten';
 $L['BackupConfig_Title'] = 'Datensicherung (Konfiguration)';
-$L['Restore_Title'] = 'Konfiguration der Wiederherstellung';
+$L['Restore_Title'] = 'Konfiguration wiederherstellen';
 $L['RestoreConfigStatus_label'] = 'Manuelle Konfiguration überspringen und eine Sicherungsdatei wiederherstellen';
 $L['Restore_Action_InstallPackages'] = 'Hochgeladene Konfigurationssicherung wiederherstellen, Module werden automatisch geladen und installiert';
 $L['Restore_Action_NoInstallPackages'] = 'Hochgeladene Konfigurationssicherung wiederherstellen, Module werden NICHT automatisch installiert';

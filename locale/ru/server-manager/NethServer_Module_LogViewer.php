@@ -1,9 +1,9 @@
 <?php
 
-$L['LogViewer_Title'] = 'Просмотр журналов';
-$L['LogViewer_Tags'] = 'журнал проверить показать';
-$L['LogViewer_Description'] = 'Найти и показать содержимое файла журнала';
-$L['Find_Title'] = 'Найти в журнале';
+$L['LogViewer_Title'] = 'Просмотр логов';
+$L['LogViewer_Tags'] = 'лог файл проверить показать';
+$L['LogViewer_Description'] = 'Найти и показать содержимое лог-файла';
+$L['Find_Title'] = 'Найти в лог-файлах';
 $L['Read_Title'] = 'Показать ${0}';
 $L['Follow_label'] = 'Обновлять';
 $L['Empty_label'] = 'Очистить';

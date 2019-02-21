@@ -1,20 +1,20 @@
 <?php
 
-$L['phpsettings_Title'] = 'Php Settings';
-$L['AllowUrlfOpen_label'] = 'Allow php access to remote files';
+$L['phpsettings_Title'] = 'Настройки Php';
+$L['AllowUrlfOpen_label'] = 'Разрешить php доступ к удаленным файлам';
 $L['Status_label'] = 'Разрешить web доступ';
-$L['Php memory limit (${0})'] = 'Maximum of available memory (${0})';
-$L['Maximum upload file size (${0})'] = 'Maximum upload file size (${0})';
-$L['Maximum post size (${0})'] = 'Maximum size of post data allowed (${0})';
-$L['Maximum execution time (${0})'] = 'Maximum execution time of scripts (${0})';
-$L['Maximum file uploads (${0})'] = 'Maximum number of uploaded files (${0})';
-$L['MemoryLimit_label'] = 'Memory Limit Warning';
-$L['MemoryLimitLabelMustBeSuperiorThanUpPostMaxSize'] = 'The Maximum of available memory must be superior than the Maximum size of post data allowed';
-$L['PostMaxSize_label'] = 'Post Maximum Limit Warning';
-$L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'The Maximum size of post data allowed must be superior than the Maximum upload file size';
-$L['default'] = 'default';
-$L['${0} MB'] = '${0} Megabytes';
-$L['${0} G'] = '${0} Gigabytes';
-$L['PhpMemoryLimit_label'] = 'Memory limit errors';
-$L['PhpPostMaxSize_label'] = 'Post maximum size errors';
-$L['default_php_warning_label'] = 'Apache must be the handler of PHP if you want to modify the values here, otherwise use the Php Settings panel';
+$L['Php memory limit (${0})'] = 'Максимум доступной памяти (${0})';
+$L['Maximum upload file size (${0})'] = 'Максимальный размер загружаемого файла (${0})';
+$L['Maximum post size (${0})'] = 'Максимально допустимый размер данных, отправляемых методом POST (${0})';
+$L['Maximum execution time (${0})'] = 'Максимальное время выполнения скрипта (${0})';
+$L['Maximum file uploads (${0})'] = 'Максимальное число загружаемых файлов (${0})';
+$L['MemoryLimit_label'] = 'Предупреждения ограничения памяти';
+$L['MemoryLimitLabelMustBeSuperiorThanUpPostMaxSize'] = '"Максимальный объём памяти, доступный скрипту" должен быть больше, чем "Максимально допустимый размер данных, отправляемых методом POST"';
+$L['PostMaxSize_label'] = 'Предупреждения лимита POST';
+$L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = '"Максимально допустимый размер данных, отправляемых методом POST" должен быть больше, чем "Максимальный размер закачиваемого файла"';
+$L['default'] = 'по умолчанию';
+$L['${0} MB'] = '${0} Мегабайт';
+$L['${0} G'] = '${0} Гигабайт';
+$L['PhpMemoryLimit_label'] = 'Ошибки ограничения памяти';
+$L['PhpPostMaxSize_label'] = 'Ошибки лимита POST';
+$L['default_php_warning_label'] = 'Apache должен быть обработчиком PHP, если вы хотите изменять настройки здесь, в противном случае используйте панель "Настройки Php"';

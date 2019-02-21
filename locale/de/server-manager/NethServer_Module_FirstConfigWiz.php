@@ -12,7 +12,7 @@ $L['RootPassword_Title'] = 'Root-Passwort setzen';
 $L['RootPassword_Description'] = 'Wählen Sie ein sicheres Passwort für den Benutzer root ';
 $L['RootPassword_Action'] = 'Root Passwort ändern';
 $L['Hostname_Title'] = 'Erstelle Hostname';
-$L['Hostname_Action'] = 'Setze Hostnamen auf: ${FQDN}';
+$L['Hostname_Action'] = 'Setze Hostname auf: ${FQDN}';
 
 $L['Hostname_Description'] = 'Ändere den "Fully Qualified Domain Name(FQDN)" des Hosts';
 $L['Review_Title'] = 'Überprüfe die Veränderungen';

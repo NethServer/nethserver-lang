@@ -1,21 +1,21 @@
 <?php
 
 $L['Subscription_Title'] = 'Подписка';
-$L['Subscription_Description'] = 'Manage NethServer subscription';
-$L['Subscription_Tags'] = 'community subscription';
-$L['buy_subscription_label'] = 'Join the subscription program!';
+$L['Subscription_Description'] = 'Управление подпиской NethServer';
+$L['Subscription_Tags'] = 'community subscription сообщество подписка';
+$L['buy_subscription_label'] = 'Присоединяйтесь к программе подписки!';
 $L['Subscription_header'] = 'Подписка';
 $L['subscriptions_plans'] = 'Подписка';
-$L['subscriptions_info'] = 'The NethServer Subscription by Nethesis enables exclusive access to the Stable Updates repository, monitoring tools and immediate professional support services for your NethServer deployments. It enables you to successfully deploy, monitor and manage your NethServer instances, complementing your IT resources and increasing the efficiency and reliability of your services';
-$L['Register_label'] = 'Register now';
-$L['paste_label'] = 'Do you already have a registration token? Copy and paste it in the field below';
-$L['SystemId_label'] = 'System ID';
-$L['register_now_label'] = 'Register now';
-$L['Created_label'] = 'Created';
-$L['PublicIp_label'] = 'Public IP';
+$L['subscriptions_info'] = 'Подписка NethServer от Nethesis предоставляет эксклюзивный доступ к репозиториям стабильных обновлений, инструментам мониторинга и незамедлительную профессиональную тех.поддержку для ваших экземпляров NethServer. Это позволит вам разворачивать, контролировать и управлять вашими экземплярами NethServer, дополнять IT-инфраструктуру и повышать эффективность и отказоустойчивость ваших сетевых сервисов';
+$L['Register_label'] = 'Зарегистрироваться';
+$L['paste_label'] = 'У Вас уже есть регистрационный токен? Скопируйте и вставьте его в поле ниже';
+$L['SystemId_label'] = 'ID системы';
+$L['register_now_label'] = 'Зарегистрироваться';
+$L['Created_label'] = 'Создано';
+$L['PublicIp_label'] = 'Публичный IP';
 $L['PlanName_label'] = 'План подписки';
-$L['Validity_label'] = 'Validity';
-$L['RegistrationKey_label'] = 'Registration token';
-$L['error_network_registration_key'] = 'The token cannot be verified now: the remote procedure has failed';
-$L['error_invalid_registration_key'] = 'The token has been rejected (${0})';
-$L['registerSuccess_notification'] = 'The system has been subscribed successfully';
+$L['Validity_label'] = 'Срок действия';
+$L['RegistrationKey_label'] = 'Регистрационный токен';
+$L['error_network_registration_key'] = 'Невозможно проверить токен: сбой удаленной процедуры';
+$L['error_invalid_registration_key'] = 'Токен был отклонен (${0})';
+$L['registerSuccess_notification'] = 'Система успешно подписана';

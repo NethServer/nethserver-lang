@@ -1,6 +1,6 @@
 <?php
 
-$L['IpsecTunnels_Title'] = 'IPsec туннели';
+$L['IpsecTunnels_Title'] = 'IPsec-туннели';
 $L['create_header_label'] = 'Создать туннель';
 $L['update_header_label'] = 'Редактировать существующий туннель';
 $L['general_label'] = 'Основные';

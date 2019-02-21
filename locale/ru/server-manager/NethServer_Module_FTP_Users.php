@@ -3,8 +3,8 @@
 $L['Key_label'] = 'Пользователь';
 $L['Password_label'] = 'Пароль';
 $L['status_label'] = 'Состояние';
-$L['Chroot_label'] = 'Выполнить для пользователя chroot в домашний каталог ( /var/lib/nethserver/ftp/<user> )';
-$L['ChrootDir_label'] = 'Custom chroot directory (eg. /var/lib/nethserver/vhost/<name> )';
+$L['Chroot_label'] = 'Выполнять для пользователя chroot в домашний каталог ( /var/lib/nethserver/ftp/<user> )';
+$L['ChrootDir_label'] = 'Пользовательская chroot-директория (напр. /var/lib/nethserver/vhost/<name> )';
 $L['Update_User_Header'] = 'Изменить пользователя';
 $L['Create_User_Header'] = 'Создать пользователя';
 $L['Users_Title'] = 'Пользователи';
