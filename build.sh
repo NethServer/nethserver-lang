@@ -57,14 +57,16 @@ EOF
         nethserver-lang.spec
 
     tag="${version}r${release}"
+    git config user.email "nethbot@nethesis.it"
+    git config user.name "nethbot"
     git diff nethserver-lang.spec
     git add nethserver-lang.spec
     for PACKAGE in $(sed -n -r '/^%package / { s/%package // ; p }'  nethserver-lang.spec); do
         git add locale/${PACKAGE}*
     done
-    git commit --author="nethbot <nethbot@nethesis.it>" -m "Automatic release ${version}-${release}"$'\n\n'"[skip ci]"
+    git commit -m "Automatic release ${version}-${release}"$'\n\n'"[skip ci]"
     git tag "${tag}"
-    git show --stat
+    git show --dirstat
     echo "https://nethbot:${GITHUB_TOKEN}@github.com" > ~/.git-credentials
     git config credential.helper store
     git push origin HEAD:master "${tag}"
