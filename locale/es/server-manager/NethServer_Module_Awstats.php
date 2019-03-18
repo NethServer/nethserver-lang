@@ -1,5 +1,5 @@
 <?php
-$L['Awstats_Title'] = 'Estadísticas Awstats';
+$L['Awstats_Title'] = ' Estadísticas Awstats';
 $L['Settings_Title'] = 'Configuración';
 $L['Statistics_Title'] = 'Estadística';
 $L['AwstatsStatistics_Title'] = 'Consultar estadísticas de log';

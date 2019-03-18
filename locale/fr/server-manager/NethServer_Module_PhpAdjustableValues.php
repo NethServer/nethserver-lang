@@ -19,5 +19,5 @@ $L['${0} G'] = '${0} Gigaoctets';
 $L['${0} seconds'] = '${0} secondes';
 $L['PhpVersion_default_label'] = 'Version PHP par défaut';
 $L['unlimited'] = 'unlimited';
-$L['PhpMemoryLimit_label'] = 'Memory limit errors';
+$L['PhpMemoryLimit_label'] = 'Erreurs de la limite de mémoire';
 $L['PhpPostMaxSize_label'] = 'Post maximum size errors';

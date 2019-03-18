@@ -90,7 +90,7 @@ $L['FirewallObject_zone_Title'] = 'Oblast ${key}';
 $L['FirewallObject_host-group_Title'] = 'Host group ${key}';
 $L['FirewallObject_fwservice_Title'] = '${key} - service object';
 $L['FirewallObject_time_Title'] = '${key} - time condition';
-$L['FirewallObject_service_Title'] = '${key} - network service';
+$L['FirewallObject_service_Title'] = '${key} – síťová služba';
 $L['FirewallObject_ndpi_Title'] = '${name} - DPI protocol';
 $L['FirewallObject_iprange_Title'] = 'Rozsah IP adres ${key}';
 $L['FirewallObject_cidr_Title'] = 'CIDR network ${key}';
@@ -102,14 +102,14 @@ $L['ActionPriorityIndex_label'] = '${0}';
 $L['ActionLog_label'] = 'Záznam událostí';
 
 $L['ShowAction_label'] = 'Zobrazit';
-$L['ShowRules_label'] = 'Firewall (${0})';
+$L['ShowRules_label'] = 'Brána firewall (${0})';
 $L['ShowRoutes_label'] = 'Policy routing (${0})';
-$L['ShowServices_label'] = 'Network services (${0})';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping (${0})';
+$L['ShowServices_label'] = 'Síťové služby (${0})';
+$L['ShowTrafficShaping_label'] = 'Omezování provozu (${0})';
 
 $L['ActionPriorityHigh_label'] = 'Vysoká priorita';
 $L['ActionPriorityLow_label'] = 'Nízká priorita';
-$L['ActionPriority_label'] = 'Priority ${0}';
+$L['ActionPriority_label'] = 'Priorita ${0}';
 $L['ActionPrioLo_label'] = 'Lo-Prio';
 $L['ActionPrioHi_label'] = 'Hi-Prio';
 

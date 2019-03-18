@@ -48,5 +48,5 @@ $L['UploadName_label'] = 'Název';
 $L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 certificate (PEM encoding)';
 $L['valid_platform,rsa-key,rsa-key,1'] = 'RSA or EC private key (PEM encoding)';
 $L['vaild_UploadName_file_exists'] = 'Soubor už existuje';
-$L['cert_safetyguard_label'] = 'Default certificate selection';
-$L['valid_platform,tlspolicy-safetyguard,tlspolicy-ecdsa-cert,3'] = 'The selected ECC certificate is not compatible with the current TLS policy';
+$L['cert_safetyguard_label'] = 'Výběr výchozího certifikátu';
+$L['valid_platform,tlspolicy-safetyguard,tlspolicy-ecdsa-cert,3'] = 'Označený ECC certifikát není kompatibilní se stávající zásadou pro TLS';

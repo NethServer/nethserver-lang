@@ -33,5 +33,5 @@ $L['Unregister_header'] = 'Zrušit registraci jednotky';
 $L['Unregister_message'] = 'Chcete zrušit registraci jednotky?';
 
 $L['info_label'] = 'The Hotspot unit controls Internet access for guest and can be connected to any instance of';
-$L['ready_label'] = 'You\'re ready to be connected to ';
+$L['ready_label'] = 'Jste připravení být připojení k';
 $L['icaro_instance'] = 'Otevřít';

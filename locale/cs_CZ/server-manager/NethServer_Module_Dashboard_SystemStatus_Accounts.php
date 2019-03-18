@@ -3,7 +3,7 @@
 $L['accounts_title'] = 'Účty';
 $L['group_label'] = 'Skupiny';
 $L['user_label'] = 'Uživatelé';
-$L['pseudonym_label'] = 'Mail aliases';
+$L['pseudonym_label'] = 'Alternativní e-mailové adresy';
 $L['ibay_label'] = 'Sdílené složky';
 $L['machine_label'] = 'Účty strojů';
 $L['ftp_label'] = 'FTP účty';

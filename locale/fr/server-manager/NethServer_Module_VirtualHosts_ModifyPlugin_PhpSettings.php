@@ -15,6 +15,6 @@ $L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'La taille maximum autorisée
 $L['default'] = 'défaut';
 $L['${0} MB'] = '${0} Mégaoctets';
 $L['${0} G'] = '${0} Gigaoctets';
-$L['PhpMemoryLimit_label'] = 'Memory limit errors';
+$L['PhpMemoryLimit_label'] = 'Erreurs de la limite de mémoire';
 $L['PhpPostMaxSize_label'] = 'Post maximum size errors';
 $L['default_php_warning_label'] = 'Apache must be the handler of PHP if you want to modify the values here, otherwise use the Php Settings panel';

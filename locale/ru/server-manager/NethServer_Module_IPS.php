@@ -3,7 +3,7 @@
 /* NethServer_Module_IPS translation, language: en */
 
 $L['balanced_label'] = 'Сбалансированый';
-$L['connectivity_label'] = 'Connectivity';
+$L['connectivity_label'] = 'Соединения';
 $L['IPS_Description'] = 'Управление IPS (Suricata)';
 $L['IPS_header'] = 'Управление IPS';
 $L['IPS_Tags'] = 'IPS ips snort Snort suricata Suricata';

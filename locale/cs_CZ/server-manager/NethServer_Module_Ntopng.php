@@ -1,6 +1,6 @@
 <?php 
 
-$L['status_label'] = 'Enable ntopng'; 
+$L['status_label'] = 'Zapnout ntopng'; 
 $L['ntopng_title'] = 'Bandwidth monitor: ntopng';
 $L['username_label'] = 'Uživatelské jméno'; 
 $L['default_password_label'] = 'Výchozí heslo'; 

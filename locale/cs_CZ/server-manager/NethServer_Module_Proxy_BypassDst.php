@@ -1,6 +1,6 @@
 <?php
 
-$L['BypassDst_Title'] = 'Sites without proxy';
+$L['BypassDst_Title'] = 'Stránky bez proxy';
 $L['Key_label'] = 'Název';
 $L['name_label'] = 'Název';
 $L['status_label'] = 'Zapnuto';

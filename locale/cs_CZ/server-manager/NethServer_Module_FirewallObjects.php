@@ -62,15 +62,15 @@ $L['valid_iprange_outofbounds'] = 'Je třeba, aby počáteční IP adresa byla n
 
 $L['Cidr_Title'] = 'CIDR podsítě';
 $L['Address_label'] = 'Síť';
-$L['Cidr_create_label'] = 'Create CIDR subnet';
-$L['Cidr_update_label'] = 'Update CIDR subnet';
+$L['Cidr_create_label'] = 'Vytvořit CIDR podsíť';
+$L['Cidr_update_label'] = 'Aktualizovat CIDR podsíť';
 $L['Cidr_key_exists_message'] = 'An object with the same name already exists inside the hosts database';
-$L['Cidr_CreateCidr_label'] = 'Create CIDR network';
+$L['Cidr_CreateCidr_label'] = 'Vytvořit CIDR podsíť';
 $L['CidrKey_label'] = 'CIDR';
 
 $L['IpRange_Title'] = 'Rozsahy IP adres';
-$L['Start_label'] = 'Start IP';
-$L['End_label'] = 'End IP';
+$L['Start_label'] = 'Počáteční IP adresa';
+$L['End_label'] = 'Koncová IP adresa';
 $L['IpRange_create_label'] = 'Vytvořit rozsah IP adres';
 $L['IpRange_update_label'] = 'Aktualizovat rozsah IP adres';
 $L['IpRange_key_exists_message'] = 'An object with the same name already exists inside the hosts database';

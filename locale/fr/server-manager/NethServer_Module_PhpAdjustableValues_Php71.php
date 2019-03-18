@@ -15,5 +15,5 @@ $L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'La taille maximum autorisée
 $L['default'] = 'défaut';
 $L['${0} MB'] = '${0} Mégaoctets';
 $L['${0} seconds'] = '${0} secondes';
-$L['Php71MemoryLimit_label'] = 'Memory limit errors';
+$L['Php71MemoryLimit_label'] = 'Erreurs de la limite de mémoire';
 $L['Php71PostMaxSize_label'] = 'Post maximum size errors';

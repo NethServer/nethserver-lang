@@ -2,7 +2,7 @@
 
 $L['Account_Title'] = 'Пользователи и группы';
 $L['Account_Description'] = 'Управление пользователями и группами, настройка поставщиков идентификации и аутентификации домена';
-$L['Account_Tags'] = 'sssd user group realm domain account kerberos ldap';
+$L['Account_Tags'] = 'sssd user group realm domain account kerberos ldap пользователь группа домен учетная запись';
 
 $L['AccountProvider_Error_1'] = 'Общая ошибка поставщика учётных записей: SSSD exit code 1';
 $L['AccountProvider_Error_22'] = 'Ошибка поставщика учётных записей: неверное DN. Проверьте Base DN, Groups DN и Users DN в настройках поставщика учётных записей.';
