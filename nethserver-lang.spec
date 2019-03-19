@@ -41,6 +41,8 @@ for D in locale/*; do
    done
 done
 
+# Compress Cockpit language catalogs:
+find ./ui/ -name '*.json' -exec gzip '{}' \;
 
 %install
 
@@ -97,6 +99,19 @@ for D in locale/*; do
       install -m 0644 -D $D/datatable.json %{buildroot}/usr/share/nethesis/nethserver-manager/js/datatable-${L/_/-}.json
       echo "/usr/share/nethesis/nethserver-manager/js/datatable-${L/_/-}.json" >> ${lang}.lang
    fi
+done
+
+for D in ./ui/* ; do
+    APP=$(basename $D)
+    for F in $D/language.*.json.gz ; do
+        FILE=$(basename $F)
+        lang="${FILE%%.json.gz}"
+        lang="${lang##language.}"
+        lang="${lang:0:2}"
+        lang="${lang,}"
+        install -m 0644 -D "$F" "%{buildroot}/usr/share/cockpit/${APP}/i18n/${FILE}"
+        echo "/usr/share/cockpit/${APP}/i18n/${FILE}" >> ${lang}.lang
+    done
 done
 
 %package en
