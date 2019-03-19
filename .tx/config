@@ -1000,3 +1000,8 @@ source_file = locale/en/server-manager/NethServer_Module_TcClasses.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
+[nethserver.CockpitMail]
+file_filter = ui/nethserver-mail/language.<lang>.json
+source_file = ui/nethserver-mail/language.json
+source_lang = en
+type = KEYVALUEJSON

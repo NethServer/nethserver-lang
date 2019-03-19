@@ -101,6 +101,9 @@ for D in locale/*; do
    fi
 done
 
+#
+# Install Cockpit UI language catalogs (JSON format)
+#
 for D in ./ui/* ; do
     APP=$(basename $D)
     for F in $D/language.*.json.gz ; do
