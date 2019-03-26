@@ -1012,3 +1012,9 @@ source_file = ui/nethserver/language.json
 source_lang = en
 type = KEYVALUEJSON
 
+[nethserver.CockpitFirewall]
+file_filter = ui/nethserver-firewall-base/language.<lang>.json
+source_file = ui/nethserver-firewall-base/language.json
+source_lang = en
+type = KEYVALUEJSON
+
