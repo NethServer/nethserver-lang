@@ -35,3 +35,5 @@ $L['PushDns_label'] = 'DNS';
 $L['PushWins_label'] = 'WINS';
 $L['PushNbdd_label'] = 'NBDD';
 $L['no_bridge_label'] = 'Keine Brücke konfiguriert. Bitte eine Brücke im Bereich "Netzwerk" erstellen und dann zu dieser Seite zurückkehren';
+$L['netmask_lower_than_29'] = 'Netzmaske muss 255.255.255.248 (/29) oder niedriger sein';
+$L['invalid_network'] = 'ungültige Netzwerk Adresse';

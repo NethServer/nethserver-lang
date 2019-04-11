@@ -4,7 +4,7 @@
 
 $L['bootproto_dhcp_label'] = 'DHCP';
 $L['bootproto_label'] = 'Назначение IP';
-$L['bootproto_none_label'] = 'Постояный';
+$L['bootproto_none_label'] = 'Статический';
 $L['blue_label'] = 'Гости (синий)';
 $L['device_label'] = 'Устройство';
 $L['gateway_label'] = 'Шлюз';

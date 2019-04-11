@@ -2,19 +2,19 @@
 
 /* NethServer_Module_Providers translation, language: en */
 
-$L['backup_label'] = 'Резервное копирование';
+$L['backup_label'] = 'Активный-резервный';
 $L['balance_label'] = 'Балансировка';
-$L['CheckIP_label'] = 'Проверка IP';
+$L['CheckIP_label'] = 'IP для проверки';
 $L['Configure_header'] = 'Настроить';
 $L['interface_label'] = 'Интерфейс';
-$L['Key_label'] = 'Поставщик';
+$L['Key_label'] = 'Провайдер';
 $L['name_label'] = 'Название';
-$L['provider_create_header'] = 'Создать нового поставщика';
-$L['Providers_Description'] = 'Управление несколькими поставщиками интернет';
-$L['Providers_Tags'] = 'Поставщик внешний красный multiwan';
+$L['provider_create_header'] = 'Создать нового провайдера';
+$L['Providers_Description'] = 'Управление мульти-wan подключениями';
+$L['Providers_Tags'] = 'Провайдер wan красный multiwan';
 $L['Providers_Title'] = 'Мульти-WAN';
 $L['ProviderAdvanced_label'] = 'Расширенные';
-$L['provider_update_header'] = 'Обновить поставщика';
+$L['provider_update_header'] = 'Обновить провайдера';
 $L['WanMode_header'] = 'Режим Мульти-Wan';
 $L['WanMode_label'] = 'Режим';
 $L['weight_label'] = 'Вес';

@@ -779,12 +779,8 @@
       "application_low": "applicazione",
       "categories": "Categorie",
       "selected": "Selezionato",
-      "updates_origin": "Provenienza aggiornamenti",
-      "when_updates_available": "Aggiornamenti disponibili",
-      "unlocked": "Unlocked",
-      "unlocked_description": "Ottieni gli aggiornamenti da tutti i repository software disponibili fino al successivo rilascio della distribuzione CentOS ",
-      "locked": "Locked",
-      "locked_description": "Limita gli aggiornamenti dai repository specifici della versione attuale fino al prossimo aggiornamento di sistema. Gli altri repository vengono utilizzati solo durante l'installazione di nuovi moduli.",
+      "configure_updates_header": "Configure automatic actions",
+      "when_updates_available": "Quando gli aggiornamenti sono disponibili",
       "download": "Scarica",
       "download_install": "Scarica e installa",
       "updates_repositories": "Repositories",
@@ -872,7 +868,7 @@
       "LimitAccess": "Limita accesso",
       "backup": "Backup",
       "centos_upgrade": "Un nuovo rilascio della distribuzione upstream è disponibile per l'aggiornamento. Per evitare di installarlo, modificare l'origine degli aggiornamenti software a \"Locked\"",
-      "dhcp_on_green_can_cause_unexpected_behavior": "Usare il DHCP sulle interfacce di rete green può portare a comportamenti inaspettati. Se possibile, assegnare un indirizzo di rete statico.",
+      "dhcp_on_green_can_cause_unexpected_behavior": "Using DHCP on green interfaces leads to unexpected behavior. Please, change the interface to static if possible.",
       "interface_must_be_static": "A green interface must have a static IP address"
     },
     "validation": {

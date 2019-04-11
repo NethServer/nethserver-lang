@@ -115,7 +115,11 @@ $L['ActionPrioHi_label'] = 'Hi-Prio';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Route regels staan niet toe om een rode zone als bron the gebruiken';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Route regels staan alleen de volgende bestemming types toe: zone, host, ip range, cidr, rood.';
-$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Route rules do not allow to set a DPI protocol as Service.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Een "locale service" selecteren vereist de "firewall" als bestemming.';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Traffic shaping regels laten niet toe om de rode zone als bron te selecteren';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Traffic shaping regels staan alleen de volgende bestemming types toe: zone, host, IP range, CIDR, rood.';
+
+$L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Rules using DPI protocol as a service do not allow "Any" as source nor destination.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Rules using DPI protocol as a service do not allow "Firewall" as source nor.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Route rules do not allow to set a DPI protocol as service.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'Action "Reject" is not supported for rules using a DPI protocol as service: use "Drop" action instead.';

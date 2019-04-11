@@ -35,3 +35,5 @@ $L['PushDns_label'] = 'DNS';
 $L['PushWins_label'] = 'WINS';
 $L['PushNbdd_label'] = 'NBDD';
 $L['no_bridge_label'] = 'Мост не настроен. Пожалуйста, создайте мост в разделе "Сеть" и вернитесь на эту страницу';
+$L['netmask_lower_than_29'] = 'Маска сети должна быть 255.255.255.248 (/29) или ниже';
+$L['invalid_network'] = 'Неправильный адрес сети';

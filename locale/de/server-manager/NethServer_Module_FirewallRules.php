@@ -115,7 +115,11 @@ $L['ActionPrioHi_label'] = 'Hi-Prio';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Leitungsregeln verbieten das Einstellen der roten Zone als Quelle.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Leitungsregeln erlauben nur ein Ziel der folgenden Typen: Zone, Host, IP-Bereich, CIDR, rot.';
-$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Bei den Routenregeln ist es nicht möglich, ein DPI-Protokoll als Dienst festzulegen.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Die Auswahl von "Lokaler Dienst" setzt "Firewall" als Ziel voraus';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Traffic Shaping Regeln erlauben es nicht die rote Zone als Quelle zu setzen';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Traffic Shaping Regeln erlauben nur die folgenden Zielzonen: Zone, Host, IP-Adressbereich, CIDR, Rot';
+
+$L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Regeln, die das DPI-Protokoll als Dienst verwenden, erlauben "Any" weder als Quelle noch als Ziel.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Regeln, die das DPI-Protokoll als Dienst verwenden, erlauben weder "Firewall" noch als Quelle.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Routenregeln erlauben es nicht, ein DPI-Protokoll als Dienst festzulegen.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'Die Aktion "Ablehnen" wird nicht für Regeln unterstützt, die ein DPI-Protokoll als Dienst verwenden. Bitte stattdessen die Aktion "Löschen" verwenden.';

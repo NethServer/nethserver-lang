@@ -91,7 +91,7 @@ $L['FirewallObject_host-group_Title'] = 'Grupul gazdă ${key}';
 $L['FirewallObject_fwservice_Title'] = '${key} - obiect serviciu';
 $L['FirewallObject_time_Title'] = '${key} - condiție de timp';
 $L['FirewallObject_service_Title'] = '${key} - serviciu rețea';
-$L['FirewallObject_ndpi_Title'] = '${name} - DPI protocol';
+$L['FirewallObject_ndpi_Title'] = '${name} - Protocol DPI';
 $L['FirewallObject_iprange_Title'] = 'Interval IP ${key}';
 $L['FirewallObject_cidr_Title'] = 'Rețea CIDR ${key}';
 
@@ -115,7 +115,11 @@ $L['ActionPrioHi_label'] = 'Hi-Prio';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Regulile de rutare nu permit zonei roșii să fie setată drept sursă';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Regulile de rutare permit numai următoarele tipuri de destinații: zonă, gazdă, interval IP, cidr, roșu.';
-$L['valid_platform,fwrule-modify,fwrule-route2provider,5'] = 'Regulile rutei nu permit setarea unui protocol DPI drept serviciu';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Selectarea "serviciului local" necesită destinația "firewall"';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Regulile de configurare a traficului nu permit zonei roșii să fie setată drept sursă';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Regulile de configurare a traficului permit numai următoarele tipuri de destinații: zonă, gazdă, interval IP, CIDR, roșu.';
+
+$L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Rules using DPI protocol as a service do not allow "Any" as source nor destination.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Rules using DPI protocol as a service do not allow "Firewall" as source nor.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Route rules do not allow to set a DPI protocol as service.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'Action "Reject" is not supported for rules using a DPI protocol as service: use "Drop" action instead.';
