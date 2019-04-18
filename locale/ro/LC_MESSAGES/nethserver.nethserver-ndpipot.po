@@ -3,8 +3,8 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# liviu iordache <liviu.marian.iordache@gmail.com>, 2017
 # rox roxor <ceardaaa@gmail.com>, 2017
+# liviu iordache <liviu.marian.iordache@gmail.com>, 2017
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: davide.principi@nethesis.it\n"
 "POT-Creation-Date: 2016-09-14 10:48+0200\n"
 "PO-Revision-Date: 2016-09-14 08:49+0000\n"
-"Last-Translator: rox roxor <ceardaaa@gmail.com>, 2017\n"
+"Last-Translator: liviu iordache <liviu.marian.iordache@gmail.com>, 2017\n"
 "Language-Team: Romanian (https://www.transifex.com/nethserver/teams/35834/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

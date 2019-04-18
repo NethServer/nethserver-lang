@@ -35,3 +35,5 @@ $L['PushDns_label'] = 'DNS';
 $L['PushWins_label'] = 'WINS';
 $L['PushNbdd_label'] = 'NBDD';
 $L['no_bridge_label'] = 'Geen bridge geconfigureerd. Creëer een bridge in de "Netwerk" sectie, kom vervolgens terug naar deze pagina';
+$L['netmask_lower_than_29'] = 'Netmask must be 255.255.255.248 (/29) or lower';
+$L['invalid_network'] = 'Netwerk adres ongeldig';

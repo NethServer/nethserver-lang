@@ -3,7 +3,7 @@
 /* NethServer_Module_FirewallRules translation, language: en */
 
 $L['FirewallRules_Description'] = 'Güvenlik duvarı kuralları yönetimi';
-$L['FirewallRules_Tags'] = 'firewall rule policy traffic shaping güvenlik duvarı ilke trafik kısıtlama';
+$L['FirewallRules_Tags'] = 'güvenlik duvarı kuralı trafik şekillendirme';
 $L['FirewallRules_Title'] = 'Güvenlik duvarı kuralları';
 
 $L['general_header'] = 'Genel';
@@ -116,10 +116,10 @@ $L['ActionPrioHi_label'] = 'Yük-Önc';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Yöneltici kuralları kırmızı bölgenin kaynak olarak kullanılmasına izin vermiyor.';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Yöneltici kuralları yalnız şu hedef türlerinin kullanılmasına izin veriyor: zone, host, ip range, cidr, red.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = '"Yerel hizmet" olarak seçildiğinde hedef "Güvenlik duvarı" olmalıdır.';
-$L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Trafik kısıtlama kuralları kırmızı bölgenin kaynak olarak kullanılmasına izin vermiyor';
-$L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Trafik kısıtlama kuralları yalnız şu hedef türlerinin kullanılmasına izin veriyor: zone, host, ip range, cidr, red.';
+$L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Trafik şekillendirme kuralları kırmızı bölgenin kaynak olarak kullanılmasına izin vermiyor';
+$L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Trafik şekillendirme kuralları yalnız şu hedef türlerinin kullanılmasına izin veriyor: zone, host, ip range, cidr, red.';
 
-$L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Rules using DPI protocol as a service do not allow "Any" as source nor destination.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Rules using DPI protocol as a service do not allow "Firewall" as source nor.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Route rules do not allow to set a DPI protocol as service.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'Action "Reject" is not supported for rules using a DPI protocol as service: use "Drop" action instead.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'DPI iletişim kuralını hizmet olarak kullanan kurallarda kaynak ya da hedef olarak "Tümü" kullanılamaz.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'DPI iletişim kuralını hizmet olarak kullanan kurallarda kaynak olarak "Güvenlik duvarı" kullanılamaz.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Yöneltme kuralları DPI iletişim kuralının hizmet olarak kullanılmasına izin vermiyor.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'DPI iletişim kuralını hizmet olarak kullanan kurallarda "Reddet" işlemi desteklenmez. Onun yerine "Düşür" işlemini kullanın.';

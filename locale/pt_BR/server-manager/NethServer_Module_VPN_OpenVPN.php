@@ -35,3 +35,5 @@ $L['PushDns_label'] = 'DNS';
 $L['PushWins_label'] = 'WINS';
 $L['PushNbdd_label'] = 'NBDD';
 $L['no_bridge_label'] = 'Nenhuma ponte configurada. Crie uma ponte dentro da seção "Rede" e volte a esta página';
+$L['netmask_lower_than_29'] = 'Netmask must be 255.255.255.248 (/29) or lower';
+$L['invalid_network'] = 'Endereço de rede inválido';

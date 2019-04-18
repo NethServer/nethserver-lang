@@ -34,4 +34,6 @@ $L['PushDomain_label'] = 'Etki alanı';
 $L['PushDns_label'] = 'DNS';
 $L['PushWins_label'] = 'WINS';
 $L['PushNbdd_label'] = 'NBDD';
-$L['no_bridge_label'] = 'Henüz bir köprü yapılandırılmamış. Lütfen "Ağ" bölümünden bir köprü oluşturup bu sayfaya geri gelin';
+$L['no_bridge_label'] = 'Henüz bir köprü yapılandırılmamış. Lütfen "Ağ" bölümünden bir köprü ekleyip bu sayfaya geri gelin';
+$L['netmask_lower_than_29'] = 'Ağ maskesi 255.255.255.248 (/29) ya da daha küçük olmalıdır';
+$L['invalid_network'] = 'Ağ adresi geçersiz';

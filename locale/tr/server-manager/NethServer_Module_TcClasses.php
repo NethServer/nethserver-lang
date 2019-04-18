@@ -1,7 +1,7 @@
 <?php
 $L['TcClasses_Title'] = 'Trafik şekillendirme';
 $L['TcClasses_Description'] = 'Trafik şekillendirme yapılandırması';
-$L['TcClasses_Tags'] = 'tc qos traffic shaping trafik şekillendirme';
+$L['TcClasses_Tags'] = 'hizmet kalitesi yönetimi trafik şekillendirme';
 $L['configure_header'] = 'Yapılandırma';
 $L['Options_label'] = 'Ayarlar';
 $L['Key_label'] = 'Sınıf adı';
@@ -15,7 +15,7 @@ $L['Download_label'] = 'İndirme hızı';
 $L['Upload_label'] = 'Yükleme hızı';
 $L['Min_label'] = 'En az';
 $L['Max_label'] = 'En fazla';
-$L['create_header_label'] = 'Trafik şekillendirme sınıfı oluştur';
+$L['create_header_label'] = 'Trafik şekillendirme sınıfı ekle';
 $L['update_header_label'] = 'Trafik şekillendirme sınıfını güncelle';
 $L['Inbound_bandwidth_limits_label'] = 'İndirme bant genişliği sınırları';
 $L['Outbound_bandwidth_limits_label'] = 'Yükleme bant genişliği sınırları';

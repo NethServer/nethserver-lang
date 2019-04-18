@@ -35,3 +35,5 @@ $L['PushDns_label'] = 'ДНС';
 $L['PushWins_label'] = 'WINS';
 $L['PushNbdd_label'] = 'NBDD';
 $L['no_bridge_label'] = 'Нема подешеног моста. Молимо креирајте мост унутар "Мрежа" секције, а онда се вратите на ову страницу';
+$L['netmask_lower_than_29'] = 'Netmask must be 255.255.255.248 (/29) or lower';
+$L['invalid_network'] = 'Неисправна адреса мреже';
