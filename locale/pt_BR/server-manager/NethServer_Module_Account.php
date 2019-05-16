@@ -2,7 +2,7 @@
 
 $L['Account_Title'] = 'Usuários e grupos';
 $L['Account_Description'] = 'Gerenciar usuários e grupos, configurar a identidade do domínio e os provedores de autenticação';
-$L['Account_Tags'] = 'sssd usuário grupo reino domínio conta kerberos ldap';
+$L['Account_Tags'] = 'sssd usuário grupo realm domínio conta kerberos ldap';
 
 $L['AccountProvider_Error_1'] = 'Erro genérico no Provedor de Contas: SSSD exit code 1';
 $L['AccountProvider_Error_22'] = 'Erro do provedor de conta: DN inválido. Verificar DN de base, DN de grupos e DN de usuários na configuração do provedor de contas';
@@ -14,4 +14,4 @@ $L['AccountProvider_Error_4'] = 'Aviso do provedor de conta: limite de tamanho e
 $L['AccountProvider_Error_104'] = 'Conexão do provedor de conta redefinida por pares: verifique se o servidor suporta conexões SSL/TLS';
 $L['AccountProvider_Error_110'] = 'A ligação do provedor da conta expirou';
 $L['AccountProvider_Error_111'] = 'Conexão do provedor de conta recusada';
-$L['AccountProvider_Error_82'] = 'LDAP client internal error (AccountProvider_Error_82)';
+$L['AccountProvider_Error_82'] = 'Erro interno de cliente LDAP (AccountProvider_Error_82)';

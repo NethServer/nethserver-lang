@@ -1,9 +1,9 @@
 <?php
 
-$L['SharedMailbox_create_header'] = 'Yeni bir paylaşılmış posta kutusu ekle';
-$L['SharedMailbox_modify_header'] = '`${0}` paylaşılmış posta kutusunu düzenle';
+$L['SharedMailbox_create_header'] = 'Yeni bir paylaşılmış e-posta kutusu ekle';
+$L['SharedMailbox_modify_header'] = '`${0}` paylaşılmış e-posta kutusunu düzenle';
 $L['Name_label'] = 'Ad';
-$L['Key_label'] = 'Posta kutusu';
+$L['Key_label'] = 'E-posta kutusu';
 $L['OwnersSelector_label'] = 'Sahip grupları';
 $L['Owners_label'] = 'Sahip grupları';
 $L['Others_label'] = 'Özel erişim';

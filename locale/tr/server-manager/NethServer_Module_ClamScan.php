@@ -1,5 +1,5 @@
 <?php
-$L['ClamScan_Title'] = 'Antivirus Tarayıcı';
+$L['ClamScan_Title'] = 'Virusten Koruma Tarayıcı';
 $L['ClamScan_Description'] = 'clamscan - dosya ve klasörleri viruslere karşı tarar';
 $L['ClamScan_header'] = 'Dosya ve klasörleri viruslere karşı tarar';
 $L['status_label'] = 'Dosya sistemi taransın';
@@ -23,7 +23,7 @@ $L['ScanElf_label'] = 'Yürütülebilir ve Bağlantı Biçimi';
 $L['ScanPdf_label'] = 'PDF Belgeleri';
 $L['ScanHTML_label'] = 'HTML dosyaları ve gömülü betikler';
 $L['ScanPe_label'] = 'Microsoft Portable Yürütülebilir';
-$L['ScanMail_label'] = 'Dosya ekleri';
+$L['ScanMail_label'] = 'Ekli dosyalar';
 $L['BlockEncrypted_label'] = 'Şifreli arşivler virus olarak işaretlensin';
 $L['QuarantineText_label'] = 'Ayarlarınızı karantinaya almadan sınayın';
 $L['BytecodeText_label'] = 'Bytecode imzaları ile algılamalar daha doğru olur';

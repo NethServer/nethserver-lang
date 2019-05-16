@@ -1,24 +1,24 @@
 <?php 
 
 $L['0_label'] = 'Adresse IP'; 
-$L['1_label'] = 'MAC address'; 
+$L['1_label'] = 'Adresse MAC'; 
 $L['ServerAlias_Title'] = 'Alias du serveur'; 
 $L['Comment_label'] = 'Commentaires'; 
 $L['Description_label'] = 'Description'; 
 $L['Dns_Title'] = 'Hôtes'; 
 $L['Empty table'] = 'Vous n\'avez encore aucun entregistrement DNS'; 
 $L['Host entry'] = 'Ajouter un hôte';
-$L['Hosts_Description'] = 'Manager les noms d\'hôte';
+$L['Hosts_Description'] = 'Gérer les noms d\'hôte';
 $L['Hosts_Tags'] = 'hôte nom d\'hôte adresse alias domaine'; 
 $L['Hosts_Title'] = 'DNS';
 $L['IPAddress_label'] = 'Adresse IP'; 
 $L['IpAddress_label'] = 'Adresse IP'; 
 $L['Key_label'] = 'Nom d\'hôte'; 
-$L['host-create_failure'] = 'Echec lors de la création d\'hôte'; 
+$L['host-create_failure'] = 'Échec lors de la création de l\'hôte'; 
 $L['host-create_success'] = 'Hôte créé avec succès'; 
-$L['host-delete_failure'] = 'Echec lors de la suppression de l\'hôte'; 
+$L['host-delete_failure'] = 'Échec lors de la suppression de l\'hôte'; 
 $L['host-delete_success'] = 'Hôte supprimer avec succès'; 
-$L['host-modify_failure'] = 'Echec lors de la modification de l\'hôte'; 
+$L['host-modify_failure'] = 'Échec lors de la modification de l\'hôte'; 
 $L['host-modify_success'] = 'Hôte modifier avec succès'; 
 $L['hostname_label'] = 'Nom d\'hôte'; 
 $L['Create_Alias_Header'] = 'Créer un nouvel alias pour le serveur';
@@ -27,6 +27,6 @@ $L['Create_Dns_Header'] = 'Créer un nouveau nom d\'hôte';
 $L['Update_Dns_Header'] = 'Mettre à jour le nom d\'hôte "${0}"';
 $L['valid_platform,host-delete,fwobject-referenced,3'] = 'Ne peut supprimer ${2}. L\'hôte est utilisé par une règle du pare-feu.';
 $L['Service_key_exists_message'] = 'Ce nom d\'hôte est déjà utilisé';
-$L['WildcardMode_label'] = 'wildcard dns record';
+$L['WildcardMode_label'] = 'enregistrement dns joker';
 $L['Enabled_label'] = 'Activé';
 $L['Disabled_label'] = 'Desactivé';

@@ -1,6 +1,6 @@
 <?php
 
-$L['BypassDst_Title'] = 'Sites sans proxy';
+$L['BypassDst_Title'] = 'Sites sans mandataire';
 $L['Key_label'] = 'Nom';
 $L['name_label'] = 'Nom';
 $L['status_label'] = 'Activé';

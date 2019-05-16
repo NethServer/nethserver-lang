@@ -1,22 +1,22 @@
 <?php
 
-$L['Don_Title'] = 'Support à distance';
-$L['Don_Description'] = 'Démarre un canal sécurisé pour le support distant';
-$L['Don_Tags'] = 'helpdesk remote access help support issue problem bug';
+$L['Don_Title'] = 'Assistance à distance';
+$L['Don_Description'] = 'Démarrer un canal sécurisé pour l\'assistance à distance';
+$L['Don_Tags'] = 'Le service d\'assistance à distance aide la résolution de bogues';
 
-$L['Don_Start_header'] = 'Commencer une session de support à distance';
-$L['Don_Stop_header'] = 'Stopper la session de support actuelle';
+$L['Don_Start_header'] = 'Démarrer une session d\'assistance à distance';
+$L['Don_Stop_header'] = 'Arrêter la session actuelle d\'assistance';
 $L['Start_label'] = 'Démarrer une session';
-$L['Stop_label'] = 'Stopper la session';
-$L['Start_description'] = 'Appuyer sur le bouton "Démarrer une session" pour générer un identifiant unique et valide pour la session de support a distance.';
-$L['Stop_description'] = 'La session de support a distance peut être coupée à tout moment, appuyer juste sur le bouton "Stopper la session" ';
-$L['ServerName_label'] = 'Serveur du support à distance';
-$L['IpAddr_label'] = 'Adresse IP de session';
-$L['SessionDuration_label'] = 'Expire après (days) : ${0}';
-$L['SessionHelp_label'] = 'Copier et coller l\'identifiant de session dans la demande de support';
-$L['SessionId_label'] = 'Session identifier';
-$L['SystemId_label'] = 'Server identifier';
-$L['SessionExpire_label'] = 'Session expire date';
-$L['Don_noconfig_header']='Remote support client is not configured!';
-$L['Noconfig_label']='Please configure Don client before proceed.';
-$L['Manual_label']='See online manual';
+$L['Stop_label'] = 'Arrêter la session';
+$L['Start_description'] = 'Cliquer le bouton "Démarrer une session" pour générer un identifiant unique et valide pour la session d\'assistance à distance.';
+$L['Stop_description'] = 'L\'assistance à distance peut être terminée à tout moment, cliquer le bouton "Arrêter la session" ';
+$L['ServerName_label'] = 'Serveur d\'assistance à distance';
+$L['IpAddr_label'] = 'Adresse IP de la session';
+$L['SessionDuration_label'] = 'Se termine après (days) : ${0}';
+$L['SessionHelp_label'] = 'Copier-coller l\'identifiant de session sur la demande de support';
+$L['SessionId_label'] = 'Justificatif de la session';
+$L['SystemId_label'] = 'Justificatif du serveur';
+$L['SessionExpire_label'] = 'Date de fin de la session';
+$L['Don_noconfig_header']='Le client de l\'assistance à distance n\'est pas configuré!';
+$L['Noconfig_label']='S’il vous plaît, configurer le client Don avant de poursuivre.';
+$L['Manual_label']='Voir le manuel en ligne';

@@ -1,5 +1,5 @@
 <?php
-$L['Awstats_Title'] = 'Statistique Awstats';
+$L['Awstats_Title'] = 'Statistique AWStats';
 $L['Settings_Title'] = 'Réglages';
 $L['Statistics_Title'] = 'Statistiques';
 $L['AwstatsStatistics_Title'] = 'Consulter le journal des statistiques';
@@ -13,7 +13,7 @@ $L['access_public_label'] = 'Consulter les statistiques des pages en dehors de v
 $L['Minute_label'] = 'Intervalle entre les analyses (en minutes)';
 $L['Users_label'] = 'Utilisateurs autorisés à consulter les statistiques Web';
 $L['AwstatsSettings_header'] = 'Réglage de l\'analyseur des journaux';
-$L['AwstatDisabledByProp_label'] = 'Awstats est désactivé';
+$L['AwstatDisabledByProp_label'] = 'AWStats est désactivé';
 $L['Advanced_label'] = 'Réglages avancés ';
 $L['skipPrivateIp_label'] = 'Ignorer les accès depuis vos réseaux locaux ou de confiance';
 $L['MaxNbOfDomain_label'] = 'Maximum de domaines';
@@ -41,9 +41,9 @@ $L['MinHitKeyphrase_label'] = 'Min. d\'accès pour une phrase-clé';
 $L['MaxNbOfKeywordsShown_label'] = 'Maximum de mots-clés';
 $L['MinHitKeyword_label'] = 'Min. d\'accès pour un mot-clé';
 $L['DnsLookup_label'] = 'Afficher l\'hôte par son nom (DNS Lookup)';
-$L['GeoIP_label'] = 'Afficher l\'hôte par son pays (GeoIP database) ';
+$L['GeoIP_label'] = 'Afficher l\'hôte par son pays (BD GeoIP) ';
 $L['Must be a user name'] = '"${0}" n\'est pas un nom d\'utilisateur valide';
-$L['ManualStatistics_label'] = 'Statistiques Awstats';
+$L['ManualStatistics_label'] = 'Statistiques AWStats';
 $L['Configuration_label'] = 'Réglage manuel';
 $L['StatisticsURL_label'] = 'Page des Statistiques';
 $L['MailStatistics_label'] = 'Statistique de messagerie';

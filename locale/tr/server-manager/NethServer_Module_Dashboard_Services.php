@@ -18,12 +18,12 @@ $L['restart_label'] = 'Yeniden Başlat';
 $L['start_label'] = 'Başlat';
 $L['stop_label'] = 'Durdur';
 
-$L['amavisd_Description'] = 'Posta virus ve antispam tarayıcı';
+$L['amavisd_Description'] = 'E-posta virus ve önemsiz ileti tarayıcı';
 $L['asterisk_Description'] = 'VoIP PBX';
 $L['avahi-daemon_Description'] = 'Sıfır ayarlama';
 $L['chilli_Description'] = 'Sıcak nokta';
 $L['c-icap_Description'] = 'ICAP sunucu';
-$L['clamd_Description'] = 'ClamAV antivirus';
+$L['clamd_Description'] = 'ClamAV virusten koruma';
 $L['collectd_Description'] = 'Sistem başarımı istatistikleri derleyici';
 $L['crond_Description'] = 'Planlanmış komut işlemi';
 $L['cups_Description'] = 'Yazıcı sunucusu';
