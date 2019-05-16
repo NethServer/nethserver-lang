@@ -1018,3 +1018,20 @@ source_file = ui/nethserver-firewall-base/language.json
 source_lang = en
 type = KEYVALUEJSON
 
+[nethserver.CockpitSamba]
+file_filter = ui/nethserver-samba/language.<lang>.json
+source_file = ui/nethserver-samba/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitSuricata]
+file_filter = ui/nethserver-suricata/language.<lang>.json
+source_file = ui/nethserver-suricata/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitSquid]
+file_filter = ui/nethserver-squid/language.<lang>.json
+source_file = ui/nethserver-squid/language.json
+source_lang = en
+type = KEYVALUEJSON
