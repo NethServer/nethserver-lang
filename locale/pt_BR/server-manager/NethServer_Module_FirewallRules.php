@@ -91,7 +91,7 @@ $L['FirewallObject_host-group_Title'] = 'Grupo de máquinas ${key}';
 $L['FirewallObject_fwservice_Title'] = '${key} - objeto de serviço';
 $L['FirewallObject_time_Title'] = '${key} - condição de tempo ';
 $L['FirewallObject_service_Title'] = '${key} - serviço de rede';
-$L['FirewallObject_ndpi_Title'] = '${name} - DPI protocol';
+$L['FirewallObject_ndpi_Title'] = '${name} - protocolo DPI';
 $L['FirewallObject_iprange_Title'] = 'Faixa de IP\'s ${key}';
 $L['FirewallObject_cidr_Title'] = 'Rede CIDR ${key}';
 
@@ -103,9 +103,9 @@ $L['ActionLog_label'] = 'Log';
 
 $L['ShowAction_label'] = 'Exibir';
 $L['ShowRules_label'] = 'Firewall (${0})';
-$L['ShowRoutes_label'] = 'Policy routing (${0})';
-$L['ShowServices_label'] = 'Network services (${0})';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping (${0})';
+$L['ShowRoutes_label'] = 'Roteamento de políticas (${0})';
+$L['ShowServices_label'] = 'Serviços de rede (${0})';
+$L['ShowTrafficShaping_label'] = 'Modelagem de tráfego (${0})';
 
 $L['ActionPriorityHigh_label'] = 'Alta prioridade';
 $L['ActionPriorityLow_label'] = 'Baixa prioridade';

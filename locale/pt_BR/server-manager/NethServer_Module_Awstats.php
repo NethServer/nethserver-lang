@@ -2,7 +2,7 @@
 $L['Awstats_Title'] = 'Estatísticas Awstats';
 $L['Settings_Title'] = 'Configurações';
 $L['Statistics_Title'] = 'Estatísticas';
-$L['AwstatsStatistics_Title'] = 'Consult Log Statistics';
+$L['AwstatsStatistics_Title'] = 'Consultar Estatísticas de Log';
 $L['VirtualhostsStatistics_label'] = 'Estatísticas Virtualhost';
 $L['DefaultVirtualhost_label'] = 'Default virtualhost';
 $L['Virtualhosts_label'] = 'Virtualhosts';

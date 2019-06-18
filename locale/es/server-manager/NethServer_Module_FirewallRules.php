@@ -119,7 +119,7 @@ $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'La selección de "se
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Reglas de configuración de tráfico no permiten que la zona roja se configure como Origen.';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Reglas de configuración de tráfico permiten solamente los siguientes tipos de destino: zona, host, rango de IP, CIDR, rojo';
 
-$L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Rules using DPI protocol as a service do not allow "Any" as source nor destination.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Rules using DPI protocol as a service do not allow "Firewall" as source nor.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Route rules do not allow to set a DPI protocol as service.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'Action "Reject" is not supported for rules using a DPI protocol as service: use "Drop" action instead.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Las reglas que usan el protocolo DPI como un servicio no permiten "Cualquiera" como origen ni destino.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Las reglas que usan el protocolo DPI como un servicio no permiten "Firewall" como fuente.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Las reglas de ruta no permiten establecer un protocolo DPI como servicio.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'La acción "Rechazar" no es compatible con las reglas que usan un protocolo DPI como servicio: en su lugar, usa la acción "Eliminar".';

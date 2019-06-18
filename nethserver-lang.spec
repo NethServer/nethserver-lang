@@ -4,7 +4,7 @@
 
 Name: nethserver-lang
 Version: 1.3.0
-Release: 4%{?dist}
+Release: 5%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
 Summary: NethServer localization project
@@ -223,6 +223,9 @@ BuildArch: noarch
 NethServer Romanian language support (ro)
 
 %changelog
+* Tue Jun 18 2019 nethbot <nethbot@nethesis.it> - 1.3.0-5
+- Automatic release 1.3.0-5
+
 * Sat May 18 2019 nethbot <nethbot@nethesis.it> - 1.3.0-4
 - Automatic release 1.3.0-4
 

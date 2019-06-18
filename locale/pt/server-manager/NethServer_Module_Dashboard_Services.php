@@ -15,7 +15,7 @@ $L['UDPPorts_label'] = 'UDP';
 $L['enabled_label'] = 'Ativado';
 $L['disabled_label'] = 'Desativado';
 $L['restart_label'] = 'Restart';
-$L['start_label'] = 'Start';
+$L['start_label'] = 'Início';
 $L['stop_label'] = 'Parar';
 
 $L['amavisd_Description'] = 'Monitor de spam e vírus de correio electrónico';

@@ -35,5 +35,5 @@ $L['PushDns_label'] = 'DNS';
 $L['PushWins_label'] = 'WINS';
 $L['PushNbdd_label'] = 'NBDD';
 $L['no_bridge_label'] = 'No hay ningún puente configurado. Por favor, crea un puente en la sección "Adaptadores de Red" y vuelve a ésta página';
-$L['netmask_lower_than_29'] = 'Netmask must be 255.255.255.248 (/29) or lower';
+$L['netmask_lower_than_29'] = 'La máscara de red debe ser 255.255.255.248 (/29) o inferior';
 $L['invalid_network'] = 'Dirección de red inválida';
