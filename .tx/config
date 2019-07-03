@@ -1035,3 +1035,9 @@ file_filter = ui/nethserver-squid/language.<lang>.json
 source_file = ui/nethserver-squid/language.json
 source_lang = en
 type = KEYVALUEJSON
+
+[nethserver.CockpitDante]
+file_filter = ui/nethserver-dante/language.<lang>.json
+source_file = ui/nethserver-dante/language.json
+source_lang = en
+type = KEYVALUEJSON
