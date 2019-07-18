@@ -4,7 +4,7 @@ $L['SssdConfig_Title'] = 'Fournisseur des comptes';
 $L['SssdConfig_Description'] = 'Configure user and groups domain accounts provider';
 $L['SssdConfig_Tags'] = 'sssd domain account user group ldap kerberos active directory';
 
-$L['valid_platform,ad-dns,srv_record,1'] = 'Could not find an Active Directory domain controller';
+$L['valid_platform,ad-dns,srv_record,1'] = 'Contrôleur de domaine Active Directory introuvable';
 
 $L['Select_Title'] = 'choix du fournisseur de compte ';
 
@@ -58,10 +58,10 @@ $L['BindType_anonymous_label'] = 'Anonymous bind';
 $L['BindType_authenticated_label'] = 'Authenticated bind';
 $L['BindType_label'] = 'Authentication credentials for LDAP applications';
 $L['valid_adldapcredentials_required'] = 'Set BindDN and BindPassword fields';
-$L['valid_platform,ldap-credentials,ldaptestbind,49'] = 'Invalid LDAP credentials';
-$L['valid_platform,ldap-credentials,ldaptestbind,1'] = 'LDAP connection error';
-$L['valid_platform,ldap-credentials,ldaptestbind,32'] = 'Base DN was not found or insufficient rights';
-$L['valid_platform,ldap-credentials,ldaptestbind,34'] = 'Invalid DN syntax';
+$L['valid_platform,ldap-credentials,ldaptestbind,49'] = 'Identifiants LDAP incorrects';
+$L['valid_platform,ldap-credentials,ldaptestbind,1'] = 'Erreur de connexion à l\'annuaire LDAP';
+$L['valid_platform,ldap-credentials,ldaptestbind,32'] = 'La base DN n\'a pas été trouvée ou les droits sont insuffisants';
+$L['valid_platform,ldap-credentials,ldaptestbind,34'] = 'Syntaxe DN invalide';
 $L['BindDN_label'] = 'Bind DN';
 $L['BindPassword_label'] = 'Bind Password';
 
@@ -93,7 +93,7 @@ $L['LocalLdapUpgrade_PDC_message1'] = 'Users, passwords, groups and computer acc
 $L['LocalLdapUpgrade_PDC_message2'] = 'When connecting to a shared folder, the NetBIOS domain name must be either prefixed to the user name (i.e. "MYDOMAIN\username"), or inserted in the specific form field.';
 $L['LocalLdapUpgrade_WS_message1'] = 'Users, passwords and groups are preserved; however shared folder connections require different credentials!';
 $L['LocalLdapUpgrade_WS_message2'] = 'When connecting to a shared folder, the NetBIOS domain name must be either prefixed to the user name (i.e. "MYDOMAIN\username"), or inserted in the specific form field.';
-$L['LdapUpgradeButton_label'] = 'Upgrade';
+$L['LdapUpgradeButton_label'] = 'Mise à niveau';
 $L['canUpgradeToSamba_notification'] = 'The local LDAP accounts provider can be upgraded to Samba Active Directory';
 
 $L['AdJoinMember_header'] = 'Join Active Directory as new member';
@@ -118,7 +118,7 @@ $L['bindAdSuccess_notification'] = 'Active Directory domain ${0} was joined succ
 $L['valid_platform,dcipaddr,ipgreenandbridged,3'] = 'Must be different from 127.0.0.1 or any other IP address used by the server';
 $L['valid_platform,dcipaddr,ipgreenandbridged,4'] = 'Must be part of a green network';
 $L['valid_platform,dcipaddr,ipgreenandbridged,5'] = 'Must be a free IP address';
-$L['valid_platform,dcrealm,differhostname,3'] = 'Must differ from the host FQDN';
+$L['valid_platform,dcrealm,differhostname,3'] = 'Doit être différent du FQDN de l\'hôte';
 $L['valid_starttls_urischeme'] = 'Conflicts with "ldaps://" URI scheme';
 $L['AdIpAddress_help1'] = 'The chosen IP address must satisfy all of the below conditions:';
 $L['AdIpAddress_help2'] = 'the IP address must be in the same subnet range of a green network: ${0}';

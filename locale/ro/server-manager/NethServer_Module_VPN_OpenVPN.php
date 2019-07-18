@@ -35,5 +35,5 @@ $L['PushDns_label'] = 'DNS';
 $L['PushWins_label'] = 'WINS';
 $L['PushNbdd_label'] = 'NBDD';
 $L['no_bridge_label'] = 'Nu există o punte de legătură configurată. Creați o punte de legătură în interiorul secțiunii "Rețea", apoi reveniți la această pagină';
-$L['netmask_lower_than_29'] = 'Netmask must be 255.255.255.248 (/29) or lower';
+$L['netmask_lower_than_29'] = 'Masca de rețea trebuie să fie 255.255.255.248(/29) sau mai mică';
 $L['invalid_network'] = 'Adresă de rețea invalidă';

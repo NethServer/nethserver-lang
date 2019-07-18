@@ -51,13 +51,13 @@ $L['Save_label'] = 'Sauvegarder';
 $L['DistroUpgrade_header'] = 'Software center - system upgrade';
 $L['DistroUpgradeAvailable_message1'] = 'A system upgrade to ${product} ${version} is available';
 $L['DistroUpgradeAvailable_message2'] = 'The system upgrade procedure switches the to "unlocked" software updates origin and updates all installed packages';
-$L['DistroUpgrade_label'] = 'Upgrade';
+$L['DistroUpgrade_label'] = 'Mise à niveau';
 $L['UpgradeLater_label'] = 'Ignorer';
 $L['valid_mailforward_address'] = '"${0}" n\'est pas une adresse mail valide';
 $L['messages_label'] = 'Envoyer un mail à l\'administrateur système';
 $L['download_label'] = 'Télécharger les mises à jour';
 $L['applyUpdate_label'] = 'Installer les mises à jours automatiquement';
 $L['customMail_label'] = 'Ajouter des destinataires personnalisés';
-$L['YumCron_label'] = 'When updates are available';
+$L['YumCron_label'] = 'Lorsque des mises à jour sont disponibles';
 
 

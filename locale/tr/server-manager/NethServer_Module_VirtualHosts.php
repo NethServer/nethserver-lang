@@ -30,5 +30,5 @@ $L['any_label'] = 'Tümü';
 $L['ModifyDefault_label'] = 'Düzenle';
 $L['VirtualHostDefault_Update_Header'] = 'Varsayılan sanal sunucu yapılandırmasını düzenle';
 $L['valid_servername_already_used'] = '"${0}" adı zaten kullanılmış';
-$L['Indexes_label'] = 'Kök klasördeki dosyaların listesi';
+$L['Indexes_label'] = 'Kök klasördeki dosyaları listeleme';
 $L['Name_Already_Exists'] = '`${0}` adı zaten kullanılmış';

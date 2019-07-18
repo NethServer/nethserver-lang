@@ -26,10 +26,10 @@ $L['Upload_Header'] = 'Upload a certificate file to the server';
 
 $L['Show_label'] = 'Voir';
 $L['Show_header'] = 'Show certificate ${0}';
-$L['SetDefault_label'] = 'Set as default';
+$L['SetDefault_label'] = 'Définir par défaut';
 
 $L['Key_label'] = 'Nom';
-$L['Issuer_label'] = 'Issuer';
+$L['Issuer_label'] = 'Émetteur ';
 $L['ExpireDate_label'] = 'Expire';
 $L['Actions_label'] = 'Actions';
 $L['Default_label'] = 'Défaut';
@@ -45,8 +45,8 @@ $L['UploadKey_label'] = 'Clé privée';
 $L['UploadChain_label'] = 'Chain file (optional)';
 $L['UploadName_label'] = 'Nom';
 
-$L['valid_platform,pem-certificate,pem-certificate,1'] = 'X.509 certificate (PEM encoding)';
-$L['valid_platform,rsa-key,rsa-key,1'] = 'RSA or EC private key (PEM encoding)';
+$L['valid_platform,pem-certificate,pem-certificate,1'] = 'Certificat X.509 (encodage PEM)';
+$L['valid_platform,rsa-key,rsa-key,1'] = 'clé privée RSA ou EC (encodage PEM)';
 $L['vaild_UploadName_file_exists'] = 'The file already exists';
 $L['cert_safetyguard_label'] = 'Default certificate selection';
-$L['valid_platform,tlspolicy-safetyguard,tlspolicy-ecdsa-cert,3'] = 'The selected ECC certificate is not compatible with the current TLS policy';
+$L['valid_platform,tlspolicy-safetyguard,tlspolicy-ecdsa-cert,3'] = 'Le certificat ECC sélectionné n\'est pas compatible avec la politique TLS actuelle';

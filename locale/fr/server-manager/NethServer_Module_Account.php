@@ -1,8 +1,7 @@
 <?php
 
 $L['Account_Title'] = 'Utilisateurs et groupes';
-$L['Account_Description'] = 'Gérer les utilisateurs et les groupes, configurer l\'identité du domaine et les fournisseurs d\'authentification
-';
+$L['Account_Description'] = 'Gérer les utilisateurs et les groupes, configurer l\'identité du domaine et les fournisseurs d\'authentification';
 $L['Account_Tags'] = 'sssd utilisateur groupe royaume domaine compte kerberos ldap';
 
 $L['AccountProvider_Error_1'] = 'Erreur générique du fournisseur de compte : SSSD exit code 1';
@@ -15,4 +14,4 @@ $L['AccountProvider_Error_4'] = 'Avertissement du fournisseur de compte : taille
 $L['AccountProvider_Error_104'] = 'Connexion au fournisseur de compte réinitialisée par l\'hôte distant : vérifier si le serveur supporte les connexions SSL/TLS.';
 $L['AccountProvider_Error_110'] = 'Délai d\'attente dépassé pour le fournisseur de compte';
 $L['AccountProvider_Error_111'] = 'Connexion refusée par le fournisseur de compte';
-$L['AccountProvider_Error_82'] = 'Erreur interne du client LDAP';
+$L['AccountProvider_Error_82'] = 'Erreur interne du client LDAP (AccountProvider_Error_82)';
