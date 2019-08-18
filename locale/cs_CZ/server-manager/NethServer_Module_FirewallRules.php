@@ -61,8 +61,8 @@ $L['Hosts_create'] = 'Vytvořit stroj „${0}“';
 $L['Zones_create'] = 'Vytvořit zónu „${0}“';
 $L['Services_create'] = 'Vytvořit objekt služby „${0}“';
 $L['Time_create'] = 'Vytvořit časovou podmínku „${0}“';
-$L['IpRange_create'] = 'Create IP range "${0}"';
-$L['Cidr_create'] = 'Create CIDR network "${0}"';
+$L['IpRange_create'] = 'Vytvořit IP rozsah „${0}“';
+$L['Cidr_create'] = 'Vytvořit CIDR síť „${0}"';
 
 $L['A_new_rule_label'] = "Nové pravidlo";
 $L['NoRulesDefined_label'] = 'Nejsou určená žádná pravidla. Nejprve nějaké vytvořte!';
@@ -93,7 +93,7 @@ $L['FirewallObject_time_Title'] = '${key} - time condition';
 $L['FirewallObject_service_Title'] = '${key} – síťová služba';
 $L['FirewallObject_ndpi_Title'] = '${name} - DPI protocol';
 $L['FirewallObject_iprange_Title'] = 'Rozsah IP adres ${key}';
-$L['FirewallObject_cidr_Title'] = 'CIDR network ${key}';
+$L['FirewallObject_cidr_Title'] = 'CIDR síť ${key}';
 
 $L['Show_x_outof_y_label'] = 'Showing ${partial} results out of ${total}';
 $L['ActionRoute_label'] = 'Trasa do ${0}';

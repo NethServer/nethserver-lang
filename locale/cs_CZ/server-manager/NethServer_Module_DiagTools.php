@@ -26,10 +26,10 @@ $L['ScanHosts_Title'] = 'Skenovat';
 $L['DiagToolsScanHost_header'] = 'Skenovat místní sítě';
 $L['nic_label'] = 'Síťová rozhraní';
 $L['ScanHost_label'] = 'Skenovat';
-$L['DiagToolsSpeedTest_header'] = 'Test your Internet bandwidth';
+$L['DiagToolsSpeedTest_header'] = 'Vyzkoušet rychlost vaší přípojky k Internetu';
 $L['server_label'] = 'Identifikátor serveru (viz servery speedtest)';
-$L['SpeedTest_Title'] = 'Speedtest';
-$L['SpeedTest_label'] = 'Speedtest';
+$L['SpeedTest_Title'] = 'Test rychlosti';
+$L['SpeedTest_label'] = 'Test rychlosti';
 $L['LeaveBlankForAutomatic'] = 'Blank for the closest server';
 $L['AUTO_FIND_NIC'] = 'Automatické';
 

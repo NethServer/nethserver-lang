@@ -4,7 +4,7 @@
 
 $L['GreenMode_authenticated_label'] = 'Ověřeno';
 $L['GreenMode_manual_label'] = 'Ruční';
-$L['GreenMode_label'] = 'Mode for green zones and trusted networks';
+$L['GreenMode_label'] = 'Režim pro zelené zóny a důvěryhodné sítě';
 $L['GreenMode_transparent_label'] = 'Transparentní';
 $L['GreenMode_transparent_ssl_label'] = 'Transparentní s SSL';
 $L['BlueMode_authenticated_label'] = 'Ověřeno';

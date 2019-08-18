@@ -1,5 +1,5 @@
 <?php
-$L['VirtualHosts_Title'] = 'Virtual hosts';
+$L['VirtualHosts_Title'] = 'Virtuální hostitelé';
 $L['VirtualHosts_Description'] = 'Manage Apache virtual hosts';
 $L['VirtualHosts_Tags'] = 'virtualhost virtualhosts virtual host httpd apache';
 $L['Key_label'] = 'Název';
@@ -28,7 +28,7 @@ $L['FtpPassword_label'] = 'Heslo';
 $L['ExtraFields_label'] = 'Další akce';
 $L['any_label'] = 'Libovolné';
 $L['ModifyDefault_label'] = 'Upravit';
-$L['VirtualHostDefault_Update_Header'] = 'Edit default virtual host configuration';
-$L['valid_servername_already_used'] = 'Name "${0}" already used';
-$L['Indexes_label'] = 'Root directory file listings';
+$L['VirtualHostDefault_Update_Header'] = 'Upravit výchozí nastavení virtuálního hostitele';
+$L['valid_servername_already_used'] = 'Název „${0}“ už je používán';
+$L['Indexes_label'] = 'Vypisování souborů v kořenové složce';
 $L['Name_Already_Exists'] = 'Name `${0}` already used';

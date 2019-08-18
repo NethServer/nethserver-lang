@@ -61,7 +61,7 @@ $L['valid_adldapcredentials_required'] = 'Set BindDN and BindPassword fields';
 $L['valid_platform,ldap-credentials,ldaptestbind,49'] = 'Neplatné přihlašovací údaje k LDAP';
 $L['valid_platform,ldap-credentials,ldaptestbind,1'] = 'Chyba spojení s LDAP';
 $L['valid_platform,ldap-credentials,ldaptestbind,32'] = 'Base DN was not found or insufficient rights';
-$L['valid_platform,ldap-credentials,ldaptestbind,34'] = 'Invalid DN syntax';
+$L['valid_platform,ldap-credentials,ldaptestbind,34'] = 'Neplatná syntaxe rozlišeného názvu';
 $L['BindDN_label'] = 'Bind DN';
 $L['BindPassword_label'] = 'Spojovací heslo';
 
@@ -99,7 +99,7 @@ $L['canUpgradeToSamba_notification'] = 'The local LDAP accounts provider can be 
 $L['AdJoinMember_header'] = 'Připojit do Active Directory jako nový člen';
 $L['AdDns_label'] = 'AD DNS server';
 $L['AdRealm_label'] = 'DNS domain name';
-$L['AdWorkgroup_label'] = 'NetBIOS domain name';
+$L['AdWorkgroup_label'] = 'Název NetBIOS domény';
 $L['AdJoinMemberCredentials_label'] = 'Přihlašovací údaje pro přidání do domény';
 $L['AdUsername_label'] = 'Uživatelské jméno';
 $L['AdPassword_label'] = 'Heslo';

@@ -2,7 +2,7 @@
 $L['Php56_Title'] = 'Php V5.6 SCL';
 $L['Php56AdjustableValues_Title'] = 'Spravovat nastavení Php56';
 $L['AllowUrlFopen_label'] = 'Umožnit php přístup ke vzdáleným souborům';
-$L['Php memory limit (${0})'] = 'Maximum of available memory (${0})';
+$L['Php memory limit (${0})'] = 'Maximum dostupné paměti (${0})';
 $L['Maximum upload file size (${0})'] = 'Nejvyšší umožněná velikost nahrávaného souboru (${0})';
 $L['Maximum post size (${0})'] = 'Maximum size of post data allowed (${0})';
 $L['Maximum execution time (${0})'] = 'Maximum execution time of scripts (${0})';
