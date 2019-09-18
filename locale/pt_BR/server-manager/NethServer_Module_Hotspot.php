@@ -26,7 +26,7 @@ $L['icaro_auth_failed'] = 'Bad user name or password';
 $L['hotspotRegistrationSuccess_notification'] = 'This unit has been registered successfully';
 
 $L['Register_header'] = 'Register this unit on ${0}';
-$L['Register_label'] = 'Register';
+$L['Register_label'] = 'Registro';
 
 $L['Unregister_label'] = 'Unregister';
 $L['Unregister_header'] = 'Unregister unit';

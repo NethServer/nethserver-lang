@@ -1,5 +1,6 @@
 <?php
 $L['Awstats_Title'] = 'Awstats статистике';
+$L['Awstats_Description'] = 'Produce access log statistic';
 $L['Settings_Title'] = 'Подешавања';
 $L['Statistics_Title'] = 'Статистике';
 $L['AwstatsStatistics_Title'] = 'Прегледај статистике дневника';

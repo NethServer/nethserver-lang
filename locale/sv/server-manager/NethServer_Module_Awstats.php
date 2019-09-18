@@ -1,5 +1,6 @@
 <?php
 $L['Awstats_Title'] = 'Awstats Statistic';
+$L['Awstats_Description'] = 'Produce access log statistic';
 $L['Settings_Title'] = 'Inställningar';
 $L['Statistics_Title'] = 'Statistik';
 $L['AwstatsStatistics_Title'] = 'Consult Log Statistics';
