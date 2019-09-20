@@ -32,7 +32,7 @@ password = ${TRANSIFEX_TOKEN:-secret}
 username = api
 
 EOF
-    tx pull --parallel --no-interactive -f
+    tx pull --parallel --no-interactive -f -a
     rm -f ~/.transifexrc
 
     # Extract the release number
