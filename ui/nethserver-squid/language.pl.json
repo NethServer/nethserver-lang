@@ -22,7 +22,7 @@
   "no": "Nie",
   "configure": "Konfiguruj",
   "charts": "Charts",
-  "charts_not_updated": "Charts cannot be updated.",
+  "charts_not_updated": "Charts cannot be updated. Maybe Netdata is not installed or is not running",
   "charts_not_available": "Charts not available if proxy is disabled.",
   "show_charts": "Show charts",
   "hide_charts": "Hide charts",
@@ -93,7 +93,10 @@
     "total_users": "Total users",
     "total_traffic": "Total traffic",
     "today_proxy_traffic": "Today proxy traffic",
-    "no_data_found": "No data found"
+    "no_data_found": "No data found",
+    "lightsquid": "LightSquid",
+    "open": "Otwórz",
+    "updated": "Aktualna"
   },
   "proxy": {
     "menu_title": "Proxy",
@@ -112,7 +115,7 @@
     "mode_blue_zones": "Mode BLUE zones",
     "block_http": "Block HTTP/HTTPS port",
     "parent_proxy": "Parent proxy",
-    "redirect_port": "Redirect port",
+    "redirect_port": "Proxy port",
     "safe_ports": "Safe ports",
     "manual": "Manualne",
     "authenticated": "Uwierzytelnione",
@@ -200,7 +203,7 @@
     "title": "Filtr",
     "enabled": "Włączone",
     "configuration": "Konfiguracja",
-    "configure_filter": "Configure filter",
+    "configure_filter": "Edit global options",
     "profiles": "Profile",
     "add_profile": "Add profile",
     "edit_profile": "Edit profile",
@@ -235,7 +238,7 @@
     "url_whitelist": "Blocked URLs whitelist (one per line)",
     "enable_proxy_before": "Enable proxy before configuring the content filter",
     "antivirus": "Antywirus",
-    "configure_default": "Configure default profile",
+    "configure_default": "Edit default profile",
     "enable_global_blacklist": "Włącz globalną czarną listę",
     "enable_global_whitelist": "Włącz globalną białą listę",
     "block_access_ip_address": "Zablokuj dostęp do stron web używając adresu IP",
@@ -264,7 +267,7 @@
     "second_desc_wizard": "Use this wizard to configure each step of profile:<br><br><div><b>1. Who</b> (the client associated with the profile)</div><div><b>2. What</b> (which sites can be browsed by the profiled client)</div><div><b>3. When</b> (validity of the filter in certain period of times)</div>",
     "default_profile": "Default profile",
     "filter_is_disabled": "Filter is disabled",
-    "filter_is_disabled_desc": "Click on the button below to configure filter",
+    "filter_is_disabled_desc": "Click on the button below to edit global options and enable filter",
     "categories_not_found": "Categories not yet downloaded",
     "categories_not_found_desc": "Click on the button below to download categories from this list",
     "categories_downloaded_ok": "Categories downloaded successfully!",
@@ -301,7 +304,8 @@
     "description": "Opis",
     "domains": "Domains (one per line)",
     "change_list_warning": "By changing the source of the blacklist, the current configurations on theese profiles are lost",
-    "remove_category_warning": "By removing this category, theese filters are lost"
+    "remove_category_warning": "By removing this category, theese filters are lost",
+    "list_categories": "Categories list"
   },
   "settings": {
     "menu_title": "Ustawienia",

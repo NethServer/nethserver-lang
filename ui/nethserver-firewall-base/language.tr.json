@@ -326,7 +326,7 @@
             "protocol": "İletişim kuralı",
             "description": "Açıklama",
             "wan_ip": "WAN IP Adresi",
-            "allow_only": "İzin verilen dış IP adresleri (her satıra bir tane)",
+            "allow_only": "İzin verilen dış IP adresleri (her satıra bir tane yazın)",
             "allow_only_short": "İzin verilen herkese açık IP adresleri",
             "write_log": "Günlüğe yazılsın",
             "tcp": "TCP",
@@ -439,7 +439,7 @@
             "title": "Ayarlar",
             "traffic_internet": "İnternete çıkan trafik (kırmızı arabirim)",
             "external_ping": "İnternet üzerinden Ping",
-            "mac": "MAC kimlik doğrulaması (IP/MAC bağlama)",
+            "mac": "MAC doğrulaması (IP/MAC bağlama)",
             "allowed": "İzin verilen",
             "allow_mac": "IP/MAC bağlaması (DHCP Rezervasyonu) olmayan sunuculara izin verilsin",
             "settings_updated_ok": "Ayarlar güncellendi!",
@@ -459,7 +459,7 @@
             "bug_tracker": "Hata izleyici"
         },
         "validation": {
-            "validation_failed": "Kimlik doğrulanamadı",
+            "validation_failed": "Doğrulanamadı",
             "class_key_exists": "Aynı adlı bir sınıf zaten var",
             "class_cannot_be_deleted": "Bu sınıf kullanılmakta olduğundan silinemez",
             "non_existing_class": "Bu sınıf bulunamadı",

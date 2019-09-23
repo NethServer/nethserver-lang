@@ -43,7 +43,7 @@
     "ibays_configured": "Shared folders count",
     "files_count_for_ibays": "File count",
     "files_du_for_ibays": "File disk usage",
-    "empty_piechart_label": "Statistics are not available"
+    "empty_piechart_label": "Le statistiche non sono disponibili"
   },
   "sharedfolders": {
     "title": "Cartelle condivise",

@@ -35,7 +35,7 @@ $L['Service_key_exists_message'] = 'Indentifiant du service déjà utilisé';
 $L['Services_CreateService_label'] = 'Créer service';
 $L['Services_update_label'] = 'Editer le service "${0}"';
 $L['Services_Title'] = 'Services';
-$L['Times_Title'] = 'Time conditions';
+$L['Times_Title'] = 'Conditions de temps';
 $L['Times_create_label'] = 'Create time condition';
 $L['Times_update_label'] = 'Edit time condition "${0}"';
 $L['Times_CreateTime_label'] = 'Create time condition';
@@ -78,8 +78,8 @@ $L['IpRange_CreateIpRange_label'] = 'Créer une plage d\'IP';
 $L['IpRangeKey_label'] = 'Plage d\'IP';
 
 $L['TimesKey_label'] = 'Condition name';
-$L['TimeStart_label'] = 'Time start';
-$L['TimeStop_label'] = 'Time stop';
+$L['TimeStart_label'] = 'Heure de départ';
+$L['TimeStop_label'] = 'Heure d\'arrêt';
 $L['WeekDays_label'] = 'Days of the week';
 $L['TimeStop_compare_TimeStart_message'] = 'Value must be greater than "Time start" (${0})';
 

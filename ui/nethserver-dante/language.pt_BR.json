@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "title": "Configurações",
+    "settings_updated_ok": "Settings updated successfully!",
+    "settings_updated_error": "Settings not updated.",
+    "public_host": "Public host",
+    "full_url": "Final url",
+    "host_configuration": "Host configuration",
+    "report_configuration": "Report configuration",
+    "theme": "Theme",
+    "palette": "Palette",
+    "interval": "Interval",
+    "language": "Idioma",
+    "addresses": "Addresses",
+    "dark": "Dark",
+    "light": "Light",
+    "week": "Semana",
+    "month": "Mês",
+    "halfyear": "Six-Months",
+    "save": "Salvar",
+    "open": "Aberto",
+    "every_day": "Todo dia",
+    "monday": "Segunda-feira",
+    "tuesday": "Terça-feira",
+    "wednesday": "Quarta-feira",
+    "thursday": "Quinta-feira",
+    "friday": "Sexta-feira",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "anonymization": "Anonymization",
+    "max_entries": "Max Entries",
+    "test_mail": "Test mail",
+    "send_mail": "Send mail",
+    "send": "Enviar",
+    "test_address": "Endereço",
+    "include_configured_addresses": "Include configured addresses"
+  },
+  "about": {
+    "title": "Sobre",
+    "website": "Website",
+    "bug_tracker": "Informar Bug"
+  },
+  "dashboard": {
+    "title": "Painel"
+  },
+  "validation": {
+    "validation_failed": "Validation failed",
+    "public_host_must_resolve": "Use a public DNS name which must be accessibile from the server itself and clients from Internet",
+    "invalid_mail_address": "Set a valid mail address like 'info@mydomain.org'",
+    "invalid_language": "Language not found",
+    "valid_hostname_fqdn_1_9223372036854775807": "Must be a fully qualified host name"
+  }
+}

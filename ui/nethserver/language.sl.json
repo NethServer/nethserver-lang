@@ -2,6 +2,7 @@
   "cancel": "Cancel",
   "save": "Shrani",
   "delete": "Delete",
+  "update": "Nadgradnja",
   "remove": "Odstrani",
   "modify": "Modify",
   "edit": "Edit",
@@ -45,6 +46,8 @@
   "hints_suggested": "Please, review the following settings",
   "add_shortcut": "Add shortcut",
   "remove_shortcut": "Remove shortcut",
+  "add_pin": "Add to home page",
+  "remove_pin": "Remove from home page",
   "found": "found",
   "never_expires": "Never expires",
   "register": "Register",
@@ -172,6 +175,9 @@
     "backup_configured": "Backups configured",
     "choose_file": "Choose file (*.tar.gz)",
     "automatic_backups_keep": "Automatic backups to keep (number)",
+    "enable": "Omogoči",
+    "disable": "Onemogoči",
+    "format_warning": "All data in the disk will be erased, cannot be undone.",
     "when": "Kdaj",
     "where": "Where",
     "how": "How",
@@ -267,15 +273,19 @@
     "destination_available": "Dosegljiv",
     "destination_usage": "Uporabljeno",
     "storage_usage": "Destination storage usage",
-    "overwrite_all_data": "the restore will overwrite all data"
+    "overwrite_all_data": "the restore will overwrite all data",
+    "nfs_rsync_info": "Make sure the NFS server supports hard links, otherwise the backup will fail"
   },
   "disk_usage": {
     "title": "Uporaba diska",
     "update_data": "Update data",
+    "update_now": "Update now",
+    "index_time": "On large disks, indexing may take minutes.",
     "update_at": "Update at",
     "disk_updated_ok": "Disk usage updated successfully!",
     "disk_updated_error": "Disk usage not updated",
-    "copy_path": "Copy path"
+    "copy_path": "Copy path",
+    "one_file_system": "Don't cross filesystem boundaries"
   },
   "storage": {
     "title": "Storage"
@@ -383,7 +393,9 @@
     "range_create_ok": "Range created successfully!",
     "range_create_error": "Range not created.",
     "range_update_ok": "Range updated successfully!",
-    "range_update_error": "Range not updated."
+    "range_update_error": "Range not updated.",
+    "scan_network": "Scan network",
+    "Scanned_Network": "Scanning of the network interface"
   },
   "services": {
     "title": "Storitve",
@@ -419,6 +431,7 @@
     "bind": "Bind",
     "no_account_provider_configured": "Account provider not configured",
     "change_provider": "Change provider",
+    "edit_provider": "Edit provider",
     "account_provider": "Account provider",
     "configure_account_provider": "Configure the account provider",
     "choose_account_provider": "Choose the account provider",
@@ -447,7 +460,7 @@
     "ldap_description": "An LDAP database can store users, groups and passwords. It is required a RFC2307 compatible LDAP schema",
     "dc_description": "Computers in an Active Directory domain can be simple members or domain controllers (DC)",
     "ip_warning_message_1": "The chosen IP address must satisfy all of the following conditions",
-    "ip_warning_message_2": "The IP address must be in the same subnet range of a green network: es. 192.168.1.0/24",
+    "ip_warning_message_2": "The IP address must be in the same subnet range of a green network: e.g.",
     "ip_warning_message_3": "The IP address must be unused currently",
     "you_choose": "Account provider",
     "choose_bind_method": "Choose bind method",
@@ -532,7 +545,25 @@
     "role_deleted_ok": "Role deleted OK",
     "role_deleted_error": "Role deleted errors",
     "define_authorization": "Define authorizations for this group",
-    "define_authorization_description": "Select views and applications that members of this group can view"
+    "define_authorization_description": "Select views and applications that members of this group can view",
+    "binddn_empty": "BindDN is empty",
+    "bindpassword_empty": "BindPassword is empty",
+    "binddn_bindpass_empty": "BindDN and BindPassword are empty",
+    "auth_required": "Bind credentials are required for external applications",
+    "ldap_server_uri": "LDAP server URI",
+    "start_tls": "STARTTLS",
+    "base_dn": "Base DN",
+    "user_dn": "User DN",
+    "group_dn": "Group DN",
+    "auth_credentials": "Authentication credentials for LDAP applications",
+    "bind_dn": "Bind DN",
+    "bind_password": "Bind Password",
+    "edit_provider_ok": "Configuration edited successfully!",
+    "edit_provider_error": "Configuration not edited.",
+    "no_users_found": "No users found",
+    "no_users_found_desc": "If your provider is local, click on button below to create a new user or add it on remote provider",
+    "no_groups_found": "No groups found",
+    "no_groups_found_desc": "If your provider is local, click on button below to create a new group or add it on remote provider"
   },
   "network": {
     "title": "Omrežje",
@@ -635,7 +666,19 @@
     "int_model": "Model",
     "int_speed": "Hitrost",
     "int_driver": "Driver",
-    "int_mac": "MAC"
+    "int_mac": "MAC",
+    "no_additional_info_available": "No additional info available",
+    "traceroute_info": "Show the route to a host",
+    "traceroute": "Traceroute",
+    "nslookup_info": "Query Internet name servers",
+    "nslookup": "DNS lookup",
+    "nameServer": "DNS Server",
+    "ping": "Ping",
+    "ping_info": "Ping a host",
+    "host":"Gostitelj",
+    "result":"Rezultati",
+    "success": "Success",
+    "error": "Error"
   },
   "ssh": {
     "title": "SSH",
@@ -713,11 +756,13 @@
     "title": "About",
     "description_1": "What is NethServer?",
     "description_2": "NethServer is an operating system for Linux enthusiasts, designed for small offices and medium enterprises.",
-    "description_3": "Get support from the community:",
+    "description_3_1": "Get support from the community:",
+    "description_3_2": "Get support from the helpdesk:",
     "description_4": "Get advanced support from experts:",
     "visit_the": "Visit the",
     "official_site": "Official site",
     "community": "Skupnost",
+    "helpdesk": "Helpdesk",
     "documentation": "Documentation",
     "wiki": "Wiki",
     "subscription": "Subscription"
@@ -807,7 +852,8 @@
     "nethserver_upgrade_message": "A system upgrade for NethServer is available. \nThe system upgrade procedure switches to \"unlocked\" software updates origin and updates all installed packages",
     "there_is_upgrade_from": "There is an upgrade from",
     "to": "to",
-    "upgrade_now": "Upgrade now"
+    "upgrade_now": "Upgrade now",
+    "no_more_details": "No more details"
   },
   "terminal": {
     "title": "Terminal"
@@ -861,6 +907,8 @@
     "copy_id": "Copy ID"
   },
   "hints": {
+    "policy": "TLS policy",
+    "change_default_policy": "The default policy may use weak encryption protocols and ciphers",
     "Password": "Geslo",
     "change_default_root_password": "Change the default root password",
     "Company": "Podjetje",
@@ -882,7 +930,8 @@
     "hostname": "Ime gostitelja",
     "hostname_should_not_contain_localhost": "Hostname should not contains localhost",
     "subscription": "Subscription",
-    "support_active": "A remote support session is active"
+    "support_active": "A remote support session is active",
+    "hostname_should_not_contain_localdomain": "The hostname should not contain 'localdomain'"
   },
   "validation": {
     "weak_password": "Password too weak, it could be inside a dictionary or too similar to the previous one",
@@ -967,16 +1016,34 @@
     "valid_cidrBlock": "Must be a valid CIDR network",
     "route_key_exists": "Given route alrady exists",
     "ip_address_already_in_use": "IP address already in use",
+    "ip_address_used_by_nsdc": "IP address already used by Active Directory",
     "non_existing_interface": "Selected interface doesn't exists",
     "invalid_role": "Invalid role",
     "interface_already_in_use": "One ore more selected interface are already in use",
     "one_green_interface_must_always_exists": "The system must have at least one green interface",
     "invalid_vlan_parent": "Invalid parent for a VLAN",
-    "vlan_tag_already_used": "This tag is already used by another VLAN",
+    "vlan_tag_already_used": "This tag is already used by another VLAN on the same interface",
     "bond_valid_mode_between_0_and_6": "Bond mode must be a number between 0 and 6",
     "valid_macAddress": "Must be a valid MAC address",
     "invalid_secret": "Invalid secret",
-    "valid_lessThan_90": "Days must be less than 90"
+    "valid_lessThan_90": "Days must be less than 90",
+    "dhcp_reservation_system_validator": "The host must be reacheable and should be part of a local network. Make sure also there is no other reservation for the same MAC address",
+    "valid_hostname_simple_0_0": "Must be a simple hostname like 'myhost'",
+    "dcipaddr_validation_error": "The IP address must be not in use and it must belong to an existing green network. Also, the green interface must be configured with a static IP address.",
+    "workgroup_simple_hostname_max_15": "Must be a simple hostname like 'WORKGROUP'. Maximum length is 15 characters.",
+    "dcrealm_validation_error": "Must be different from machine host name.",
+    "valid_adldapcredentials_required": "BindDN and BindPassword fields cannot be empty",
+    "invalid_nslabel": "Label must not contain spaces and must be up to 20 characters long",
+    "ldapcredentials_required": "Set BindDN and BindPassword fields",
+    "ldap-credentials,ldaptestbind,49": "Invalid LDAP credentials",
+    "ldap-credentials,ldaptestbind,1": "LDAP connection error",
+    "ldap-credentials,ldaptestbind,32": "Base DN was not found or insufficient rights",
+    "ldap-credentials,ldaptestbind,34": "Invalid DN syntax",
+    "valid_starttls_urischeme": "Start TLS conflicts with 'ldaps://' URI scheme",
+    "traceroute_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
+    "ping_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
+    "nslookup_validator_valid_ipV4Address": "Invalid IPv4 address, it must be something like '10.0.0.1'",
+    "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Invalid fully qualified domain name, it must be something like 'domain.org'"
   },
   "docs": {
     "more_info_about": "More info about",

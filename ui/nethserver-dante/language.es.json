@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "title": "Ajustes",
+    "settings_updated_ok": "Ajustes actualizados correctamente",
+    "settings_updated_error": "Ajustes no actualizados",
+    "public_host": "Host Publico",
+    "full_url": "Url Final",
+    "host_configuration": "Configuracion de Host",
+    "report_configuration": "Configuracion de Reportes",
+    "theme": "Tema",
+    "palette": "Paleta",
+    "interval": "Intervalo",
+    "language": "Idioma",
+    "addresses": "Direcciones",
+    "dark": "Oscuro",
+    "light": "Claro",
+    "week": "Semanal",
+    "month": "Mes",
+    "halfyear": "Seis Meses",
+    "save": "Guardar",
+    "open": "Abrir",
+    "every_day": "Cada día",
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sabado ",
+    "sunday": "Domingo",
+    "anonymization": "Convertir informacion en anonima",
+    "max_entries": "Entradas Maximas",
+    "test_mail": "Probar mail",
+    "send_mail": "Enviar Correo",
+    "send": "Enviar",
+    "test_address": "Dirección",
+    "include_configured_addresses": "Incluir direcciones configuradas"
+  },
+  "about": {
+    "title": "Acerca de",
+    "website": "Sitio Web",
+    "bug_tracker": "Seguidor de fallas"
+  },
+  "dashboard": {
+    "title": "Panel de Control"
+  },
+  "validation": {
+    "validation_failed": "Validación faliida",
+    "public_host_must_resolve": "Usar un DNS publico que debe ser accesible desde el propio servidor y de los clientes de internet",
+    "invalid_mail_address": "Configurar una direccion valida de email como 'info@midominio.org'",
+    "invalid_language": "Lenguaje no encontrado",
+    "valid_hostname_fqdn_1_9223372036854775807": "Debe ser un nombre de host completamente calificado"
+  }
+}

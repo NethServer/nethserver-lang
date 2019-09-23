@@ -2,6 +2,7 @@
   "cancel": "Annulla",
   "save": "Salva",
   "delete": "Elimina",
+  "update": "Modifica",
   "remove": "Rimuovi",
   "modify": "Modifica",
   "edit": "Modifica",
@@ -45,6 +46,8 @@
   "hints_suggested": "Verificare le seguenti impostazioni",
   "add_shortcut": "Aggiungi scorciatoia",
   "remove_shortcut": "Rimuovi scorciatoia",
+  "add_pin": "Add to home page",
+  "remove_pin": "Remove from home page",
   "found": "trovato",
   "never_expires": "Non scade",
   "register": "Registra",
@@ -172,6 +175,9 @@
     "backup_configured": "Backup configurati",
     "choose_file": "Scegli file (*.tgz.gz)",
     "automatic_backups_keep": "Backup automatici da conservare (numero)",
+    "enable": "Abilita",
+    "disable": "Disabilita",
+    "format_warning": "All data in the disk will be erased, cannot be undone.",
     "when": "Quando",
     "where": "Dove",
     "how": "Come",
@@ -267,15 +273,19 @@
     "destination_available": "Disponibile",
     "destination_usage": "Utilizzato",
     "storage_usage": "Utilizzo disco destinazione",
-    "overwrite_all_data": "Il restore sovrascriverà tutti i dati"
+    "overwrite_all_data": "Il restore sovrascriverà tutti i dati",
+    "nfs_rsync_info": "Make sure the NFS server supports hard links, otherwise the backup will fail"
   },
   "disk_usage": {
     "title": "Utilizzo disco",
     "update_data": "Aggiorna dati",
+    "update_now": "Update now",
+    "index_time": "On large disks, indexing may take minutes.",
     "update_at": "Aggiorna a",
     "disk_updated_ok": "Utilizzo disco aggiornato con successo!",
     "disk_updated_error": "L'utilizzo disco non è stato aggiornato",
-    "copy_path": "Copia percorso"
+    "copy_path": "Copia percorso",
+    "one_file_system": "Don't cross filesystem boundaries"
   },
   "storage": {
     "title": "Archiviazione"
@@ -383,7 +393,9 @@
     "range_create_ok": "Intervallo creato con successo!",
     "range_create_error": "Intervallo non creato.",
     "range_update_ok": "Intervallo modificato con successo!",
-    "range_update_error": "Intervallo non modificato."
+    "range_update_error": "Intervallo non modificato.",
+    "scan_network": "Scan network",
+    "Scanned_Network": "Scanning of the network interface"
   },
   "services": {
     "title": "Servizi",
@@ -419,6 +431,7 @@
     "bind": "Collega",
     "no_account_provider_configured": "Nessun  account provider configurato",
     "change_provider": "Cambio provider",
+    "edit_provider": "Edit provider",
     "account_provider": "Account provider",
     "configure_account_provider": "Configura un Account Provider",
     "choose_account_provider": "Selezionare l'account provider",
@@ -447,7 +460,7 @@
     "ldap_description": "Un database LDAP può memorizzare utenti, gruppi e password. È richiesto uno schema LDAP compatibile con RFC2307",
     "dc_description": "I computer in un dominio Active Directory possono essere semplici membri o Domain Controller (DC)",
     "ip_warning_message_1": "L'indirizzo IP scelto deve soddisfare tutte le condizioni riportate di seguito",
-    "ip_warning_message_2": "l'indirizzo IP deve essere contenuto nello stesso intervallo della rete green: es. 192.168.1.0/24",
+    "ip_warning_message_2": "The IP address must be in the same subnet range of a green network: e.g.",
     "ip_warning_message_3": "L'indirizzo IP non deve essere utilizzato da nessun altro sistema.",
     "you_choose": "Account provider",
     "choose_bind_method": "Selezionare il metodo di collegamento",
@@ -532,7 +545,25 @@
     "role_deleted_ok": "Ruolo eliminato",
     "role_deleted_error": "Errori durante l'eliminazione del ruolo",
     "define_authorization": "Definire le autorizzazioni per questo gruppo",
-    "define_authorization_description": "Selezionare le viste e le applicazioni visibili dai membri di questo gruppo"
+    "define_authorization_description": "Selezionare le viste e le applicazioni visibili dai membri di questo gruppo",
+    "binddn_empty": "BindDN is empty",
+    "bindpassword_empty": "BindPassword is empty",
+    "binddn_bindpass_empty": "BindDN and BindPassword are empty",
+    "auth_required": "Bind credentials are required for external applications",
+    "ldap_server_uri": "URI server LDAP",
+    "start_tls": "STARTTLS",
+    "base_dn": "Base DN",
+    "user_dn": "User DN",
+    "group_dn": "Group DN",
+    "auth_credentials": "Credenziali di autenticazione per le applicazioni LDAP",
+    "bind_dn": "Bind DN",
+    "bind_password": "Bind password",
+    "edit_provider_ok": "Configuration edited successfully!",
+    "edit_provider_error": "Configuration not edited.",
+    "no_users_found": "No users found",
+    "no_users_found_desc": "If your provider is local, click on button below to create a new user or add it on remote provider",
+    "no_groups_found": "No groups found",
+    "no_groups_found_desc": "If your provider is local, click on button below to create a new group or add it on remote provider"
   },
   "network": {
     "title": "Rete",
@@ -635,7 +666,19 @@
     "int_model": "Modello",
     "int_speed": "Velocità",
     "int_driver": "Driver",
-    "int_mac": "MAC"
+    "int_mac": "MAC",
+    "no_additional_info_available": "No additional info available",
+    "traceroute_info": "Show the route to a host",
+    "traceroute": "Traceroute",
+    "nslookup_info": "Query Internet name servers",
+    "nslookup": "DNS lookup",
+    "nameServer": "DNS Server",
+    "ping": "Ping",
+    "ping_info": "Ping a host",
+    "host":"Host",
+    "result":"Risultato",
+    "success": "Completato",
+    "error": "Errore"
   },
   "ssh": {
     "title": "SSH",
@@ -713,11 +756,13 @@
     "title": "Informazioni",
     "description_1": "Cos'è NethServer?",
     "description_2": "NethServer è un sistema operativo per gli entusiasti di Linux, progettato per piccoli uffici e medie imprese.",
-    "description_3": "Richiedi supporto alla comunità:",
+    "description_3_1": "Richiedi supporto alla comunità:",
+    "description_3_2": "Get support from the helpdesk:",
     "description_4": "Ottieni supporto avanzato dagli esperti:",
     "visit_the": "Visita il",
     "official_site": "Sito ufficiale",
     "community": "Comunità",
+    "helpdesk": "Helpdesk",
     "documentation": "Documentazione",
     "wiki": "Wiki",
     "subscription": "Subscription"
@@ -807,7 +852,8 @@
     "nethserver_upgrade_message": "E' disponbile un aggiornamento di sistema per NethServer.\nLa procedura di upgrade cambia l'origne degli aggiornamenti software su \"unlocked\" e aggiorna tutti i pacchetti già installati",
     "there_is_upgrade_from": "C'è un aggiornamento da",
     "to": "a",
-    "upgrade_now": "Aggiorna ora"
+    "upgrade_now": "Aggiorna ora",
+    "no_more_details": "No more details"
   },
   "terminal": {
     "title": "Terminale"
@@ -861,6 +907,8 @@
     "copy_id": "Copia ID"
   },
   "hints": {
+    "policy": "Policy TLS",
+    "change_default_policy": "The default policy may use weak encryption protocols and ciphers",
     "Password": "Password",
     "change_default_root_password": "Modificare la password di default dell'utente root",
     "Company": "Società",
@@ -882,7 +930,8 @@
     "hostname": "Nome host",
     "hostname_should_not_contain_localhost": "L'hostname non può contenere 'localhost'",
     "subscription": "Subscription",
-    "support_active": "E' attiva una sessione di supporto remoto"
+    "support_active": "E' attiva una sessione di supporto remoto",
+    "hostname_should_not_contain_localdomain": "The hostname should not contain 'localdomain'"
   },
   "validation": {
     "weak_password": "Password troppo debole, potrebbe essere contenuta in un dizionario oppure troppo simile alla precedente",
@@ -967,16 +1016,34 @@
     "valid_cidrBlock": "Deve essere una rete CIDR valida",
     "route_key_exists": "La rotta esiste già",
     "ip_address_already_in_use": "Indirizzo IP in uso",
+    "ip_address_used_by_nsdc": "IP address already used by Active Directory",
     "non_existing_interface": "L'interfaccia selezionata non esiste",
     "invalid_role": "Ruolo non valido",
     "interface_already_in_use": "Una o più interfacce selezionate sono già utilizzate",
     "one_green_interface_must_always_exists": "Il sistema deve avere almeno una interfaccia green",
     "invalid_vlan_parent": "Genitore non valido per una VLAN",
-    "vlan_tag_already_used": "Questo tag è già utilizzato da un'altra VLAN",
+    "vlan_tag_already_used": "This tag is already used by another VLAN on the same interface",
     "bond_valid_mode_between_0_and_6": "La modalità di bond deve essere un numero compreso tra 0 e 6",
     "valid_macAddress": "Deve essere un MAC valido",
     "invalid_secret": "Segreto non valido",
-    "valid_lessThan_90": "Giorni deve essere inferiori di 90"
+    "valid_lessThan_90": "Giorni deve essere inferiori di 90",
+    "dhcp_reservation_system_validator": "The host must be reacheable and should be part of a local network. Make sure also there is no other reservation for the same MAC address",
+    "valid_hostname_simple_0_0": "Must be a simple hostname like 'myhost'",
+    "dcipaddr_validation_error": "The IP address must be not in use and it must belong to an existing green network. Also, the green interface must be configured with a static IP address.",
+    "workgroup_simple_hostname_max_15": "Must be a simple hostname like 'WORKGROUP'. Maximum length is 15 characters.",
+    "dcrealm_validation_error": "Must be different from machine host name.",
+    "valid_adldapcredentials_required": "BindDN and BindPassword fields cannot be empty",
+    "invalid_nslabel": "Label must not contain spaces and must be up to 20 characters long",
+    "ldapcredentials_required": "Imposta i campi BindDN e BindPassword",
+    "ldap-credentials,ldaptestbind,49": "Credenziali LDAP errate",
+    "ldap-credentials,ldaptestbind,1": "Errore nella connessione LDAP",
+    "ldap-credentials,ldaptestbind,32": "La Base DN non è stata trovata o i permessi sono insufficenti",
+    "ldap-credentials,ldaptestbind,34": "Sintassi DN non valida",
+    "valid_starttls_urischeme": "Start TLS conflicts with 'ldaps://' URI scheme",
+    "traceroute_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
+    "ping_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
+    "nslookup_validator_valid_ipV4Address": "Invalid IPv4 address, it must be something like '10.0.0.1'",
+    "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Invalid fully qualified domain name, it must be something like 'domain.org'"
   },
   "docs": {
     "more_info_about": "Maggiori informazioni",

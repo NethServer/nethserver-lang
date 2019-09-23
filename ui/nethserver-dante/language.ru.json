@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "title": "Настройки",
+    "settings_updated_ok": "Настройки обновлены!",
+    "settings_updated_error": "Настройки не были обновлены.",
+    "public_host": "Публичный хост",
+    "full_url": "Конечный URL",
+    "host_configuration": "Настройки хоста",
+    "report_configuration": "Настройки отчёта",
+    "theme": "Тема",
+    "palette": "Палитра",
+    "interval": "Интервал",
+    "language": "Язык",
+    "addresses": "Адреса",
+    "dark": "Тёмная",
+    "light": "Светлая",
+    "week": "Неделя",
+    "month": "Месяц",
+    "halfyear": "Полгода",
+    "save": "Сохранить",
+    "open": "Открыть",
+    "every_day": "Ежедневно",
+    "monday": "Понедельник",
+    "tuesday": "Вторник",
+    "wednesday": "Среда",
+    "thursday": "Четверг",
+    "friday": "Пятница",
+    "saturday": "Суббота",
+    "sunday": "Воскресенье",
+    "anonymization": "Анонимизация",
+    "max_entries": "Макс. записей",
+    "test_mail": "Тестовое письмо",
+    "send_mail": "Отправить письмо",
+    "send": "Отправить",
+    "test_address": "Адрес",
+    "include_configured_addresses": "Включая настроенные адреса"
+  },
+  "about": {
+    "title": "О программе",
+    "website": "Web-сайт",
+    "bug_tracker": "Баг-трекер"
+  },
+  "dashboard": {
+    "title": "Панель управления"
+  },
+  "validation": {
+    "validation_failed": "Проверка не пройдена",
+    "public_host_must_resolve": "Используйте публичное DNS-имя, которое будет доступно с самого сервера и клиентов из интернета",
+    "invalid_mail_address": "Укажите действительный адрес эл.почты, наподобие 'info@mydomain.org'",
+    "invalid_language": "Язык не найден",
+    "valid_hostname_fqdn_1_9223372036854775807": "Должно быть FQDN-именем хоста"
+  }
+}

@@ -1,13 +1,13 @@
 {
-  "cancel": "Cancel",
+  "cancel": "Cancelar",
   "leave": "Leave",
-  "info": "Info",
+  "info": "Informação",
   "search": "Procurar",
-  "warning": "Warning",
+  "warning": "Aviso",
   "dashboard": {
     "menu_title": "IPS",
     "title": "IPS dashboard",
-    "empty_piechart_label": "Statistics are not available",
+    "empty_piechart_label": "Estatísticas não disponíveis",
     "severities": "Grouped by severity",
     "categories": "Grouped by category",
     "sources": "Top 10 alerts by source IP",
@@ -15,7 +15,7 @@
     "hits": "Hits",
     "last_updated_24h": "Last 24h hours",
     "last_updated": "Since {time} ago",
-    "no_data_found": "No data found",
+    "no_data_found": "Não foram encontrados dados",
     "counters": "Counters",
     "accepted": "Accepted",
     "blocked": "Bloqueado",
@@ -45,7 +45,7 @@
     "no_categories_configured_desc": "Search on the input above to configure new category",
     "search": "Procurar",
     "download": "Transferir",
-    "categories_not_found": "Categories not yet downloaded",
+    "categories_not_found": "Categorias ainda não transferidas",
     "categories_not_found_desc": "Click on the button below to download categories",
     "categories_downloaded_ok": "Categories downloaded successfully!",
     "categories_downloaded_error": "Categories not downloaded.",
@@ -65,16 +65,16 @@
   "logs": {
     "title": "Registos",
     "start_follow_button": "Seguir",
-    "stop_follow_button": "Stop following",
+    "stop_follow_button": "Deixar de seguir",
     "filter_label": "Regexp filter"
   },
   "about": {
-    "title": "About",
-    "website": "Web site",
-    "bug_tracker": "Bug tracker"
+    "title": "Sobre",
+    "website": "Site da Web",
+    "bug_tracker": "Rastreador de erros"
   },
   "docs": {
-    "more_info_about": "More info about {docsLink}.",
+    "more_info_about": "Mais informação sobre {docsLink}.",
     "ips": "Configuration of IPS"
   }
 }

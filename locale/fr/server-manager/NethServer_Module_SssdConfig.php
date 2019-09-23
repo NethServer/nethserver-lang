@@ -8,7 +8,7 @@ $L['valid_platform,ad-dns,srv_record,1'] = 'Contrôleur de domaine Active Direct
 
 $L['Select_Title'] = 'choix du fournisseur de compte ';
 
-$L['LdapUri_label'] = 'LDAP server URI';
+$L['LdapUri_label'] = 'URI du serveur LDAP';
 $L['BindProvider_label'] = 'liaison';
 $L['NetbiosDomain_label'] = 'domaine NetBIOS';
 
@@ -56,14 +56,14 @@ $L['valid_platform,ldap-probe,ldap-check-connect,1'] = 'Server connection error 
 
 $L['BindType_anonymous_label'] = 'Anonymous bind';
 $L['BindType_authenticated_label'] = 'Authenticated bind';
-$L['BindType_label'] = 'Authentication credentials for LDAP applications';
-$L['valid_adldapcredentials_required'] = 'Set BindDN and BindPassword fields';
+$L['BindType_label'] = 'Informations d\'identification pour les applications LDAP';
+$L['valid_adldapcredentials_required'] = 'Renseignez les champs BindDN and BindPassword';
 $L['valid_platform,ldap-credentials,ldaptestbind,49'] = 'Identifiants LDAP incorrects';
 $L['valid_platform,ldap-credentials,ldaptestbind,1'] = 'Erreur de connexion à l\'annuaire LDAP';
 $L['valid_platform,ldap-credentials,ldaptestbind,32'] = 'La base DN n\'a pas été trouvée ou les droits sont insuffisants';
 $L['valid_platform,ldap-credentials,ldaptestbind,34'] = 'Syntaxe DN invalide';
 $L['BindDN_label'] = 'Bind DN';
-$L['BindPassword_label'] = 'Bind Password';
+$L['BindPassword_label'] = 'Mot de passe Bind';
 
 $L['BaseDN_label'] = 'Base DN';
 $L['UserDN_label'] = 'Utilisateur DN';

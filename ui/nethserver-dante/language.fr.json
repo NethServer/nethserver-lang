@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "title": "Réglages",
+    "settings_updated_ok": "Réglages actualisés avec succès !",
+    "settings_updated_error": "Réglages non actualisés.",
+    "public_host": "Hôte public",
+    "full_url": "Url Finale",
+    "host_configuration": "Configuration de l'hôte",
+    "report_configuration": "Configuration des rapports",
+    "theme": "Thème",
+    "palette": "Palette",
+    "interval": "Intervalle",
+    "language": "Langue",
+    "addresses": "Adresses",
+    "dark": "Sombre",
+    "light": "Clair",
+    "week": "Semaine",
+    "month": "Mois",
+    "halfyear": "Semestre",
+    "save": "Sauvegarder",
+    "open": "Ouvert",
+    "every_day": "Tous les jours",
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche",
+    "anonymization": "Anonymisation",
+    "max_entries": "Entrées maximum",
+    "test_mail": "Mail de test",
+    "send_mail": "Envoi de courriel",
+    "send": "Envoyer",
+    "test_address": "Adresse",
+    "include_configured_addresses": "Inclure l'adresse configurée"
+  },
+  "about": {
+    "title": "A propos",
+    "website": "Site web",
+    "bug_tracker": "Bug tracker"
+  },
+  "dashboard": {
+    "title": "Tableau de bord"
+  },
+  "validation": {
+    "validation_failed": "Validation échoué",
+    "public_host_must_resolve": "Utiliser un DNS public qui doit être accessible par le serveur et depuis internet par les clients.",
+    "invalid_mail_address": "Définissez une adresse valide comme \"info@mondomaine.org\"",
+    "invalid_language": "Langue non trouvée",
+    "valid_hostname_fqdn_1_9223372036854775807": "Doit être un nom d'hôte pleinement qualifié"
+  }
+}

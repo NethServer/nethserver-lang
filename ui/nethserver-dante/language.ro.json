@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "title": "Setări",
+    "settings_updated_ok": "Setările actualizate cu succes!",
+    "settings_updated_error": "Setările nu au fost actualizate.",
+    "public_host": "Gazdă publică",
+    "full_url": "URL final",
+    "host_configuration": "Configurație gazdă",
+    "report_configuration": "Configurație raport",
+    "theme": "Temă",
+    "palette": "Paletă",
+    "interval": "Interval",
+    "language": "Limbă",
+    "addresses": "Adrese",
+    "dark": "Întunecat",
+    "light": "Deschis",
+    "week": "Săptămână",
+    "month": "Lună",
+    "halfyear": "Șase-luni",
+    "save": "Salvează",
+    "open": "Deschide",
+    "every_day": "În fiecare zi",
+    "monday": "Luni",
+    "tuesday": "Marţi",
+    "wednesday": "Miercuri",
+    "thursday": "Joi",
+    "friday": "Vineri",
+    "saturday": "Sâmbătă",
+    "sunday": "Duminică",
+    "anonymization": "Anonimizare",
+    "max_entries": "Număr maxim intrări",
+    "test_mail": "Testează mail",
+    "send_mail": "Trimite mail",
+    "send": "Trimite",
+    "test_address": "Adresă",
+    "include_configured_addresses": "Include adresele configurate"
+  },
+  "about": {
+    "title": "Despre",
+    "website": "Sit web",
+    "bug_tracker": "Bug tracker"
+  },
+  "dashboard": {
+    "title": "Tablou de bord"
+  },
+  "validation": {
+    "validation_failed": "Validarea a eșuat",
+    "public_host_must_resolve": "Utilizează un nume DNS public care trebuie să fie accesibil din server și de la clienții din internet",
+    "invalid_mail_address": "Setează o adresă de mail validă, precum 'info@domeniulmeu.org'",
+    "invalid_language": "Limba nu a fost găsită",
+    "valid_hostname_fqdn_1_9223372036854775807": "Trebuie să fie un nume de domeniu complet calificat"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "title": "Einstellungen",
+    "settings_updated_ok": "Einstellungen erfolgreich aktualisiert!",
+    "settings_updated_error": "Einstellungen nicht aktualisiert.",
+    "public_host": "Öffentlicher Host",
+    "full_url": "Letzte URL",
+    "host_configuration": "Host-Konfiguration",
+    "report_configuration": "Konfigurationsreport",
+    "theme": "Thema",
+    "palette": "Palette",
+    "interval": "Intervall",
+    "language": "Sprache",
+    "addresses": "Adressen",
+    "dark": "Dunkel",
+    "light": "Hell",
+    "week": "Woche",
+    "month": "Monat",
+    "halfyear": "halbjährlich",
+    "save": "Speichern",
+    "open": "Öffnen",
+    "every_day": "Jeden Tag",
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag",
+    "anonymization": "Anonymisierung",
+    "max_entries": "Max.Einträge",
+    "test_mail": "Test-Mail",
+    "send_mail": "Mail versenden",
+    "send": "Senden",
+    "test_address": "Adresse",
+    "include_configured_addresses": "Konfigurierte Adressen einschließen"
+  },
+  "about": {
+    "title": "Über",
+    "website": "Webseite",
+    "bug_tracker": "Bug-Tracker"
+  },
+  "dashboard": {
+    "title": "Übersicht"
+  },
+  "validation": {
+    "validation_failed": "Überprüfung fehlgeschlagen",
+    "public_host_must_resolve": "Bitte einen öffentlichen DNS-Namen verwenden, auf den der Server selbst und die Clients aus dem Internet zugreifen können müssen",
+    "invalid_mail_address": "Bitte eine gültige E-Mail-Adresse festlegen, wie 'info@meinedomain.org'",
+    "invalid_language": "Sprache nicht gefunden",
+    "valid_hostname_fqdn_1_9223372036854775807": "Muss ein vollqualifizierter Hostname sein."
+  }
+}

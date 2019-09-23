@@ -1,13 +1,13 @@
 {
   "cancel": "Cancela",
-  "leave": "Leave",
+  "leave": "Sair",
   "info": "Informação",
   "search": "Procurar",
-  "warning": "Warning",
+  "warning": "Aviso",
   "dashboard": {
     "menu_title": "IPS",
     "title": "IPS dashboard",
-    "empty_piechart_label": "Statistics are not available",
+    "empty_piechart_label": "Estatísticas não disponíveis",
     "severities": "Grouped by severity",
     "categories": "Grouped by category",
     "sources": "Top 10 alerts by source IP",
@@ -39,8 +39,8 @@
     "disable": "Desabilitar",
     "ips": "IPS",
     "enabled": "Habilitado",
-    "configuration_updated_ok": "Configuration updated successfully!",
-    "configuration_updated_error": "Configuration not updated.",
+    "configuration_updated_ok": "Configuração atualizada com sucesso!",
+    "configuration_updated_error": "Configuração não atualizada.",
     "no_categories_configured": "No categories configured",
     "no_categories_configured_desc": "Search on the input above to configure new category",
     "search": "Procurar",
@@ -65,16 +65,16 @@
   "logs": {
     "title": "Registos",
     "start_follow_button": "Seguir",
-    "stop_follow_button": "Stop following",
-    "filter_label": "Regexp filter"
+    "stop_follow_button": "Parar de seguir",
+    "filter_label": "Filtro de Rejeição por Expressão"
   },
   "about": {
-    "title": "About",
-    "website": "Web site",
-    "bug_tracker": "Bug tracker"
+    "title": "Sobre",
+    "website": "Website",
+    "bug_tracker": "Informar Bug"
   },
   "docs": {
-    "more_info_about": "More info about {docsLink}.",
+    "more_info_about": "Mais informação sobre {docsLink}.",
     "ips": "Configuration of IPS"
   }
 }

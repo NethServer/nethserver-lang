@@ -18,7 +18,7 @@
   "save": "Sauvegarder",
   "info": "Info",
   "no_data_found": "No data found",
-  "rows_per_page": "Rows per page",
+  "rows_per_page": "Lignes par page",
   "docs": {
     "sharedfolders": "Dossiers partagés",
     "more_info_about": "More info about {docsLink}.",
@@ -133,8 +133,8 @@
     "menu_title": "Journaux",
     "title": "Journaux",
     "start_follow_button": "Suivre",
-    "stop_follow_button": "Stop following",
-    "filter_label": "Regexp filter"
+    "stop_follow_button": "Arrêter de suivre",
+    "filter_label": "Filtre regex"
   },
   "settings": {
     "menu_title": "Réglages",
@@ -145,12 +145,12 @@
     "grant_share_dir": "Donner le contrôle total des dossiers partagés au groupe Admins du domaine",
     "yes_inherit": "Donner le contrôle total au propriétaire du répertoire parent",
     "no_inherit": "Donner le contrôle total au créateur",
-    "settings_ok": "Settings updated successfully!",
-    "settings_error": "Settings not updated.",
+    "settings_ok": "Réglages mis à jour avec succès !",
+    "settings_error": "Réglages non actualisés.",
     "settings_updated_ok": "Settings saved correctly"
   },
   "about": {
-    "website": "Web site",
+    "website": "Site web",
     "bug_tracker": "Bug tracker",
     "title": "A propos",
     "menu_title": "A propos"

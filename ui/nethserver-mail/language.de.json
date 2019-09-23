@@ -375,7 +375,7 @@
         "smarthost_updated_error": " Relaishost nicht aktualisiert.",
         "smarthost_deleted_ok": " Relaishost erfolgreich gelöscht!",
         "smarthost_deleted_error": " Relaishost nicht gelöscht.",
-        "check_credentials": "Zugangsdaten prüfen",
+        "check_credentials": "Anmeldedaten prüfen",
         "check": "Überprüfung",
         "no_smarthost_found": "Kein Relaishost gefunden",
         "default_smarthost": "Standardeinstellungen für Smarthost"

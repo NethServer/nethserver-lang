@@ -7,7 +7,7 @@
   "dashboard": {
     "menu_title": "Sistema de Prevención de Intrusos",
     "title": "IPS dashboard",
-    "empty_piechart_label": "Statistics are not available",
+    "empty_piechart_label": "Las estadisticas no estan disponibles",
     "severities": "Grouped by severity",
     "categories": "Grouped by category",
     "sources": "Top 10 alerts by source IP",
@@ -65,13 +65,13 @@
   "logs": {
     "title": "Logs",
     "start_follow_button": "Seguir",
-    "stop_follow_button": "Stop following",
-    "filter_label": "Regexp filter"
+    "stop_follow_button": "Dejar de Seguir",
+    "filter_label": "Filtro Regexp"
   },
   "about": {
     "title": "Acerca de",
-    "website": "Web site",
-    "bug_tracker": "Bug tracker"
+    "website": "Sitio Web",
+    "bug_tracker": "Seguidor de fallas"
   },
   "docs": {
     "more_info_about": "More info about {docsLink}.",

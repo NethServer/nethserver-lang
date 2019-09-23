@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "title": "设置",
+    "settings_updated_ok": "Settings updated successfully!",
+    "settings_updated_error": "Settings not updated.",
+    "public_host": "Public host",
+    "full_url": "Final url",
+    "host_configuration": "Host configuration",
+    "report_configuration": "Report configuration",
+    "theme": "Theme",
+    "palette": "Palette",
+    "interval": "Interval",
+    "language": "语言",
+    "addresses": "Addresses",
+    "dark": "Dark",
+    "light": "Light",
+    "week": "Week",
+    "month": "Month",
+    "halfyear": "Six-Months",
+    "save": "保存",
+    "open": "打开",
+    "every_day": "Every day",
+    "monday": "星期一",
+    "tuesday": "星期二",
+    "wednesday": "星期三",
+    "thursday": "星期四",
+    "friday": "星期五",
+    "saturday": "星期六",
+    "sunday": "星期天",
+    "anonymization": "Anonymization",
+    "max_entries": "Max Entries",
+    "test_mail": "Test mail",
+    "send_mail": "Send mail",
+    "send": "Send",
+    "test_address": "地址",
+    "include_configured_addresses": "Include configured addresses"
+  },
+  "about": {
+    "title": "关于",
+    "website": "Web site",
+    "bug_tracker": "Bug tracker"
+  },
+  "dashboard": {
+    "title": "仪表板"
+  },
+  "validation": {
+    "validation_failed": "Validation failed",
+    "public_host_must_resolve": "Use a public DNS name which must be accessibile from the server itself and clients from Internet",
+    "invalid_mail_address": "Set a valid mail address like 'info@mydomain.org'",
+    "invalid_language": "Language not found",
+    "valid_hostname_fqdn_1_9223372036854775807": "Must be a fully qualified host name"
+  }
+}

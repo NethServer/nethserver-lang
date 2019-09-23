@@ -7,7 +7,7 @@
   "dashboard": {
     "menu_title": "IPS",
     "title": "IPS dashboard",
-    "empty_piechart_label": "Statistics are not available",
+    "empty_piechart_label": "Le statistiche non sono disponibili",
     "severities": "Grouped by severity",
     "categories": "Grouped by category",
     "sources": "Top 10 alerts by source IP",

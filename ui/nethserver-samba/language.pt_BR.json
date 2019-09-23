@@ -1,6 +1,6 @@
 {
   "actions_title": "Ações",
-  "list_title": "List",
+  "list_title": "Listar",
   "modal_save_button": "Salvar",
   "modal_delete_button": "Deletar",
   "modal_edit_button": "Editar",
@@ -8,20 +8,20 @@
   "modal_migrate_button": "Migrar",
   "modal_create_button": "Criar",
   "modal_cancel_button": "Cancela",
-  "warning_alert_label": "Warning",
+  "warning_alert_label": "Aviso",
   "action": "Ação",
   "search": "Procurar",
-  "list": "List",
+  "list": "Listar",
   "are_you_sure": "Você tem certeza",
   "cancel": "Cancela",
   "delete": "Deletar",
   "save": "Salvar",
   "info": "Informação",
   "no_data_found": "No data found",
-  "rows_per_page": "Rows per page",
+  "rows_per_page": "Linhas por página",
   "docs": {
     "sharedfolders": "Pastas compartilhadas",
-    "more_info_about": "More info about {docsLink}.",
+    "more_info_about": "Mais informação sobre {docsLink}.",
     "audit": "Audit",
     "guestAccess_info": "Access to the shared folder is granted even if invalid credentials are provided.",
     "everyone_info": "A guest, or an authorized user that does not match any ACL."
@@ -43,7 +43,7 @@
     "ibays_configured": "Shared folders count",
     "files_count_for_ibays": "File count",
     "files_du_for_ibays": "File disk usage",
-    "empty_piechart_label": "Statistics are not available"
+    "empty_piechart_label": "Estatísticas não disponíveis"
   },
   "sharedfolders": {
     "title": "Pastas compartilhadas",
@@ -71,7 +71,7 @@
     "name_label": "Nome",
     "description_label": "Descrição",
     "delete_title": "Delete shared folder {name}",
-    "delete_warning_title": "Warning",
+    "delete_warning_title": "Aviso",
     "delete_warning_message": "All files in {name} will be deleted. This action cannot be reverted!",
     "delete_confirm_message": "Are you sure?",
     "create_title": "Nova pasta compartilhada",
@@ -133,8 +133,8 @@
     "menu_title": "Registos",
     "title": "Registos",
     "start_follow_button": "Seguir",
-    "stop_follow_button": "Stop following",
-    "filter_label": "Regexp filter"
+    "stop_follow_button": "Parar de seguir",
+    "filter_label": "Filtro de Rejeição por Expressão"
   },
   "settings": {
     "menu_title": "Configurações",
@@ -150,10 +150,10 @@
     "settings_updated_ok": "Settings saved correctly"
   },
   "about": {
-    "website": "Web site",
-    "bug_tracker": "Bug tracker",
-    "title": "About",
-    "menu_title": "About"
+    "website": "Website",
+    "bug_tracker": "Informar Bug",
+    "title": "Sobre",
+    "menu_title": "Sobre"
   },
   "validation": {
     "ibay-create,ibay-length,3": "Set the shared folder name",

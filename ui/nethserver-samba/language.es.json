@@ -18,7 +18,7 @@
   "save": "Guardar",
   "info": "Info",
   "no_data_found": "No data found",
-  "rows_per_page": "Rows per page",
+  "rows_per_page": "Filas por pagina",
   "docs": {
     "sharedfolders": "Carpetas compartidas",
     "more_info_about": "More info about {docsLink}.",
@@ -43,7 +43,7 @@
     "ibays_configured": "Shared folders count",
     "files_count_for_ibays": "File count",
     "files_du_for_ibays": "File disk usage",
-    "empty_piechart_label": "Statistics are not available"
+    "empty_piechart_label": "Las estadisticas no estan disponibles"
   },
   "sharedfolders": {
     "title": "Carpetas compartidas",
@@ -133,8 +133,8 @@
     "menu_title": "Logs",
     "title": "Logs",
     "start_follow_button": "Seguir",
-    "stop_follow_button": "Stop following",
-    "filter_label": "Regexp filter"
+    "stop_follow_button": "Dejar de Seguir",
+    "filter_label": "Filtro Regexp"
   },
   "settings": {
     "menu_title": "Ajustes",
@@ -150,8 +150,8 @@
     "settings_updated_ok": "Settings saved correctly"
   },
   "about": {
-    "website": "Web site",
-    "bug_tracker": "Bug tracker",
+    "website": "Sitio Web",
+    "bug_tracker": "Seguidor de fallas",
     "title": "Acerca de",
     "menu_title": "Acerca de"
   },

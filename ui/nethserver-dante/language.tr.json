@@ -1,0 +1,53 @@
+{
+  "settings": {
+    "title": "Ayarlar",
+    "settings_updated_ok": "Ayarlar güncellendi!",
+    "settings_updated_error": "Ayarlar güncellenmedi.",
+    "public_host": "Herkese açık sunucu",
+    "full_url": "Son adres",
+    "host_configuration": "Sunucu yapılandırması",
+    "report_configuration": "Rapor yapılandırması",
+    "theme": "Tema",
+    "palette": "Palet",
+    "interval": "Aralık",
+    "language": "Dil",
+    "addresses": "Adresler",
+    "dark": "Koyu",
+    "light": "Açık",
+    "week": "Hafta",
+    "month": "Ay",
+    "halfyear": "Altı ay",
+    "save": "Kaydet",
+    "open": "Aç",
+    "every_day": "Her gün",
+    "monday": "Pazartesi",
+    "tuesday": "Salı",
+    "wednesday": "Çarşamba",
+    "thursday": "Perşembe",
+    "friday": "Cuma",
+    "saturday": "Cumartesi",
+    "sunday": "Pazar",
+    "anonymization": "Anonimleştirme",
+    "max_entries": "En Fazla Kayıt Sayısı",
+    "test_mail": "Sınama e-postası",
+    "send_mail": "E-posta gönder",
+    "send": "Gönder",
+    "test_address": "Adres",
+    "include_configured_addresses": "Yapılandırılmış adresler katılsın"
+  },
+  "about": {
+    "title": "Hakkında",
+    "website": "Web sitesi",
+    "bug_tracker": "Hata izleyici"
+  },
+  "dashboard": {
+    "title": "Pano"
+  },
+  "validation": {
+    "validation_failed": "Doğrulanamadı",
+    "public_host_must_resolve": "Sunucunun kendisi ve İnternet üzerindeki istemciler tarafından erişilebilecek herkese açık bir DNS adı kullanın",
+    "invalid_mail_address": "'bilgi@etkialanim.org' gibi geçerli bir e-posta adresi yazın",
+    "invalid_language": "Dil bulunamadı",
+    "valid_hostname_fqdn_1_9223372036854775807": "Tam olarak sınıflandırılmış bir sunucu adı olmalıdır"
+  }
+}
