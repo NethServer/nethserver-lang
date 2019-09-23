@@ -60,10 +60,11 @@ EOF
     git config user.email "nethbot@nethesis.it"
     git config user.name "nethbot"
     git diff nethserver-lang.spec
-    git add nethserver-lang.spec
+    git add -v nethserver-lang.spec
     for PACKAGE in $(sed -n -r '/^%package / { s/%package // ; p }'  nethserver-lang.spec); do
-        git add locale/${PACKAGE}*
+        git add -v locale/${PACKAGE}*
     done
+    git add -v ui/\*.json
     git commit -m "Automatic release ${version}-${release}"$'\n\n'"[skip ci]"
     git tag "${tag}"
     git show --dirstat
