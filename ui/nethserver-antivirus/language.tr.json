@@ -1,0 +1,48 @@
+{
+    "settings": {
+        "title": "Ayarlar",
+        "official_signatures": "Resmi ClamAV imzaları",
+        "unofficial_signatures_rating": "Üçüncü taraf imza değerlendirmesi",
+        "error_reading_configuration": "Antivirus yapılandırması okunurken sorun çıktı",
+        "error_validating_configuration": "Antivirus yapılandırması doğrulanırken sorun çıktı",
+        "configuration_update_successful": "Yapılandırma güncellendi",
+        "configuration_update_failed": "Yapılandırma güncellenemedi",
+        "info_notification": "İmzalar saatlik olarak indirilir. Bu sayfadaki değişiklikler bir sonraki otomatik imza indirme işleminden sonra etkili olacak.",
+        "error_reading_total_memory": "Toplam bellek okunurken sorun çıktı",
+        "memory_warning": "Sistemin belleği 4GB değerinden küçük. Belleğin dolmaması için resmi ClamAV imzalarını devre dışı bırakmanız önemle önerilir."
+    },
+    "about": {
+        "title": "Hakkında",
+        "website": "Web sitesi",
+        "bug_tracker": "Hata izleyici"
+    },
+    "logs": {
+        "title": "Günlükler",
+        "follow": "İzle",
+        "stop_follow": "Durdur",
+        "start_follow_button": "İzle",
+        "stop_follow_button": "İzlemeyi bırak",
+        "filter_label": "Kurallı ifade süzgeci",
+        "error_getting_clamav_instances": "ClamAV kopyaları alınırken sorun çıktı"
+    },
+    "dashboard":{
+        "title": "Virusten koruma",
+        "email_protection": "E-posta koruması",
+        "web_protection": "Web koruması",
+        "error_getting_dashboard_data": "Pano verileri alınırken sorun çıktı",
+        "malware_found": "Kötü niyetli yazılım bulundu",
+        "signatures_loaded": "İmzalar yüklendi",
+        "status": "Durum",
+        "no_data_available": "Kullanılabilecek bir veri yok",
+        "other": "Diğer",
+        "memory_used": "Kullanılan bellek",
+        "since": "Başlangıç",
+        "no_instance_installed": "Herhangi bir ClamAV kopyası kurulmamış"
+    },
+    "docs": {
+        "official_signatures": "Resmi ClamAV imzaları büyük miktarda bellek kullanır. Resmi imzalar çok eski tehditleri algılar ancak yeni zararlı yazılımlara karşı çok etkili değildir.",
+        "unofficial_signatures_ratings": "Düzeyin yüksek olması daha çok tehdit engellenmesi anlamına gelir ancak hatalı algılamaların sayısı da artabilir. 'Düşük' ve 'Orta' düzeylerin kullanılması önerilir."
+    },
+    "save": "Kaydet",
+    "cancel": "İptal"
+}

@@ -1,0 +1,48 @@
+{
+    "settings": {
+        "title": "Paramètres",
+        "official_signatures": "Signatures officielles ClamAV",
+        "unofficial_signatures_rating": "Taux de signatures non officielles",
+        "error_reading_configuration": "Erreur durant la lecture de la configuration de l'antivirus",
+        "error_validating_configuration": "Erreur durant la validation de la configuration de l'antivirus",
+        "configuration_update_successful": "Mise à jour de la configuration avec succès",
+        "configuration_update_failed": "Mise à jour de la configuration échouée",
+        "info_notification": "Les signatures sont téléchargées à intervalles réguliers. Les modifications sur cette page prendront effet au prochain téléchargement automatique des signatures.",
+        "error_reading_total_memory": "Erreur durant la lecture du total de mémoire",
+        "memory_warning": "Le système a moins de 4GB de RAM. Il est fortement recommandé de désactiver les signatures officielles ClamAV pour éviter la saturation de la mémoire."
+    },
+    "about": {
+        "title": "A propos",
+        "website": "Site web",
+        "bug_tracker": "Bug tracker"
+    },
+    "logs": {
+        "title": "Journaux",
+        "follow": "Suivre",
+        "stop_follow": "Arrêter",
+        "start_follow_button": "Suivre",
+        "stop_follow_button": "Arrêter de suivre",
+        "filter_label": "Filtre regex",
+        "error_getting_clamav_instances": "Erreur d'acquisition des instances ClamAV"
+    },
+    "dashboard":{
+        "title": "Antivirus",
+        "email_protection": "Protection courriel",
+        "web_protection": "Protection web",
+        "error_getting_dashboard_data": "Erreur d'acquisition des données du tableau de bord",
+        "malware_found": "Malware trouvé",
+        "signatures_loaded": "Signatures chargées",
+        "status": "Statut",
+        "no_data_available": "Pas de données disponibles",
+        "other": "Autre",
+        "memory_used": "Mémoire utilisée",
+        "since": "Depuis",
+        "no_instance_installed": "Pas d'instance ClamAV installée"
+    },
+    "docs": {
+        "official_signatures": "Les signatures officielles ClamAV utilisent une grande quantité de mémoire. Les signatures officielles détectent de nombreuses anciennes menaces mais ne sont pas très efficaces contre les derniers logiciels malveillants.",
+        "unofficial_signatures_ratings": "Plus l'évaluation est élevée, plus le nombre de menaces bloquées est élevé mais également le risque de faux positifs. Les évaluations recommandées sont 'faible' et 'moyenne'"
+    },
+    "save": "Sauvegarder",
+    "cancel": "Annuler"
+}

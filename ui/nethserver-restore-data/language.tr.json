@@ -1,0 +1,58 @@
+{
+  "restore": {
+    "title": "Geri Yükle",
+    "choose_backup": "Choose backup",
+    "choose_date": "Choose date",
+    "search": "Arama",
+    "advanced_text": "Pattern",
+    "file_text": "File or directory",
+    "mail_text": "Mail folder",
+    "advanced_placeholder": "Insert regexp",
+    "file_placeholder": "Insert file or directory name",
+    "mail_placeholder": "Insert mail folder name",
+    "results": "Results",
+    "no_results": "No results",
+    "no_results_text": "Select a backup and insert at least 4 characters, then press Search",
+    "warning": "Uyarı",
+    "too_many_results": "Your search has produced {0} results. Try to reduce the results changing the pattern. (Max results: 500)",
+    "restore_files": "Restore {0} files",
+    "overwrite_files": "Overwrite {0} files",
+    "files_restored_ok": "Files restored successfully!",
+    "files_restored_error": "Files not restored.",
+    "override_restore": "Overwrite",
+    "choose_mode": "Choose mode",
+    "files_directories": "Files or directories",
+    "mails": "Mail folders",
+    "advanced": "Gelişmiş",
+    "nothing_selected": "Nothing selected to restore",
+    "selected": "Seçilmiş",
+    "overwritten": "overwritten",
+    "restored_list": "List of restored files",
+    "error_restored_list": "There was an error restoring the files.",
+    "are_you_sure": "Emin misiniz",
+    "cancel": "İptal"
+  },
+  "about": {
+    "title": "Hakkında",
+    "website": "Web sitesi",
+    "bug_tracker": "Hata izleyici"
+  },
+  "logs": {
+    "title": "Günlükler",
+    "start_follow_button": "İzle",
+    "stop_follow_button": "İzlemeyi bırak",
+    "filter_label": "Kurallı ifade süzgeci"
+  },
+  "dashboard": {
+    "title": "Pano",
+    "last_run": "Last run",
+    "configured_backups": "Configured backups",
+    "no_backups_found": "Herhangi bir yedek bulunamadı",
+    "no_backups_found_desc": "It seems that you have not configured any backup-data"
+  },
+  "docs": {
+    "more_info_about": "Şunun hakkında ayrıntılı bilgiler",
+    "override_restore": "<li>If <b>checked</b> the restored files will overwrite the current files.</li><li>If <b>not checked</b> the restored files will be created in the same path with date included in the name and <code>.restore</code> prepended (es. .restore-20190729-153318-myfile).</li>",
+    "choose_mode": "<li><b>Files or directories</b>: Search only file and directories</li><li><b>Mail folders</b>: Search only email folders</li><li><b>Advanced</b>: Search everything (supports wildcards)</li>"
+  }
+}

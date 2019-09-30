@@ -1041,3 +1041,70 @@ file_filter = ui/nethserver-dante/language.<lang>.json
 source_file = ui/nethserver-dante/language.json
 source_lang = en
 type = KEYVALUEJSON
+
+[nethserver.CockpitAntivirus]
+file_filter = ui/nethserver-antivirus/language.<lang>.json
+source_file = ui/nethserver-antivirus/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitDedalo]
+file_filter = ui/nethserver-dedalo/language.<lang>.json
+source_file = ui/nethserver-dedalo/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitRegister]
+file_filter = ui/nethserver-register/language.<lang>.json
+source_file = ui/nethserver-register/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitFail2ban]
+file_filter = ui/nethserver-fail2ban/language.<lang>.json
+source_file = ui/nethserver-fail2ban/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitFlashStart]
+file_filter = ui/nethserver-flashstart/language.<lang>.json
+source_file = ui/nethserver-flashstart/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitHttpd]
+file_filter = ui/nethserver-httpd/language.<lang>.json
+source_file = ui/nethserver-httpd/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitMattermost]
+file_filter = ui/nethserver-mattermost/language.<lang>.json
+source_file = ui/nethserver-mattermost/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitNextcloud]
+file_filter = ui/nethserver-nextcloud/language.<lang>.json
+source_file = ui/nethserver-nextcloud/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitNut]
+file_filter = ui/nethserver-nut/language.<lang>.json
+source_file = ui/nethserver-nut/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitVpn]
+file_filter = ui/nethserver-vpn/language.<lang>.json
+source_file = ui/nethserver-vpn/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitRestoreData]
+file_filter = ui/nethserver-restore-data/language.<lang>.json
+source_file = ui/nethserver-restore-data/language.json
+source_lang = en
+type = KEYVALUEJSON
+

@@ -307,7 +307,7 @@
             "service_deleted_ok": "Service supprimé avec succès!",
             "service_deleted_error": "Service non supprimé.",
             "fw": "Pare-feu",
-            "ports_comma": "Insérer les ports (séparés par point-virgule)",
+            "ports_comma": "Insérer le port(s) (séparés par virgule)",
             "application": "Application",
             "raw": "Valeur brute, pas d'objet trouvé"
         },

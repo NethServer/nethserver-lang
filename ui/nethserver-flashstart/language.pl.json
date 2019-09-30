@@ -1,0 +1,49 @@
+{
+    "settings": {
+        "title": "Ustawienia",
+        "before_using_flashstart": "Before using FlashStart you need to create an account by accessing",
+        "enable_flashstart_filter": "Enable FlashStart filter",
+        "username_email": "Username (e-mail)",
+        "password": "Hasło",
+        "username_validation": "Invalid username",
+        "username_validation_bad_login": "Login failed. Incorrect username or password",
+        "password_validation": "Invalid password",
+        "password_validation_bad_login": "Login failed. Incorrect username or password",
+        "bypass_validation": "This must be a list of valid IP addresses",
+        "error_reading_flashstart_configuration": "Error reading FlashStart configuration",
+        "flashstart_auth": "FlashStart authentication",
+        "networks_to_filter": "Networks to filter",
+        "green_network_description": "Local networks (Green)",
+        "blue_network_description": "Guest networks (Blue)",
+        "hotspot_network_description": "Hotspot network",
+        "error_reading_network_roles_configuration": "Error reading network roles configuration",
+        "bypass": "Bypass",
+        "bypass_source_ips": "Bypass source IPs (one per line)",
+        "configuration_update_successful": "Configuration updated",
+        "configuration_update_failed": "Configuration update failed",
+        "dns_configuration": "FlashStart doesn't require any DNS configuration neither in Nethsecurity nor in clients"
+    },
+    "about": {
+        "title": "About",
+        "website": "Web site",
+        "bug_tracker": "Bug tracker"
+    },
+    "dashboard":{
+        "title": "Dashboard",
+        "error_getting_login_status": "Error retrieving login status",
+        "flashstart_enabled": "FlashStart enabled",
+        "authentication_status": "Authentication status"
+    },
+    "actions": "Działania",
+    "delete": "Usuń",
+    "next": "Następny",
+    "prev": "Previous",
+    "of": "of",
+    "rows_per_page": "Rows per page",
+    "search": "Szukaj",
+    "all": "All",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "warning": "Warning",
+    "create": "Utwórz"
+}

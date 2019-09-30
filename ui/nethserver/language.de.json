@@ -449,7 +449,7 @@
     "strength": "Stärke",
     "advanced_options": "Erweiterte Optionen",
     "password_expiration": "Kennwortablauf",
-    "remote_shell": "Remote Shell (SSH)",
+    "remote_shell": "Shell",
     "delete_user": "Benutzer entfernen",
     "delete_group": "Gruppe entfernen",
     "caution": "Vorsicht",
@@ -545,7 +545,7 @@
     "role_deleted_ok": "Rolle gelöscht, OK",
     "role_deleted_error": "Fehler beim Löschen der Rolle",
     "define_authorization": "Bitte Berechtigungen für diese Gruppe definieren",
-    "define_authorization_description": "Bitte Ansichten und Anwendungen auswählen, die Mitglieder dieser Gruppe anzeigen können",
+    "define_authorization_description": "Select views and applications that members of this group can view. Make sure delegated users have the \"Shell\" option enabled",
     "binddn_empty": "BindDN is empty",
     "bindpassword_empty": "BindPassword is empty",
     "binddn_bindpass_empty": "BindDN and BindPassword are empty",
@@ -563,7 +563,8 @@
     "no_users_found": "No users found",
     "no_users_found_desc": "If your provider is local, click on button below to create a new user or add it on remote provider",
     "no_groups_found": "No groups found",
-    "no_groups_found_desc": "If your provider is local, click on button below to create a new group or add it on remote provider"
+    "no_groups_found_desc": "If your provider is local, click on button below to create a new group or add it on remote provider",
+    "weak_password": "Your policy allows you to insert weak password, it not recommended for security reasons"
   },
   "network": {
     "title": "Netzwerk",
@@ -675,8 +676,8 @@
     "nameServer": "DNS Server",
     "ping": "Ping",
     "ping_info": "Ping a host",
-    "host":"Host",
-    "result":"Ergebnis",
+    "host": "Host",
+    "result": "Ergebnis",
     "success": "Erfolg",
     "error": "Fehler"
   },
@@ -849,7 +850,7 @@
     "centos_upgrade": "CentOS Upgrade",
     "nethserver_upgrade": "NethServer-Upgrade",
     "upgrade_nethserver": "NethServer aktualisieren",
-    "nethserver_upgrade_message": "Ein System-Upgrade für NethServer ist verfügbar.\nDas System-Upgrade-Verfahren wechselt zu \"entsperrten\" Software-Updates und aktualisiert alle installierten Pakete",
+    "nethserver_upgrade_message": "A system upgrade for NethServer is available. \nThe system upgrade procedure enables the new version repositories and updates any installed package",
     "there_is_upgrade_from": "Es gibt ein Upgrade von",
     "to": "zu",
     "upgrade_now": "Jetzt upgraden",
@@ -1060,6 +1061,7 @@
     "dns_wildcard": "Wenn aktiviert, bitte auch alle Unterdomänen anpassen.",
     "limit_access": "Bitte den Zugriff auf Port 9090 nur auf angegebene IP-Adressen beschränken",
     "dhcp_comma_separated_field": "Bitte eine IP-Adresse oder eine kommagetrennte Liste von IP-Adressen eingeben",
-    "dhcp_servers": "Server"
+    "dhcp_servers": "Server",
+    "remote_shell": "Enable this option to grant access to the Terminal and the Server Manager."
   }
 }

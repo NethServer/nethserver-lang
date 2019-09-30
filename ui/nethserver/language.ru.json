@@ -449,7 +449,7 @@
     "strength": "Надежность",
     "advanced_options": "Расширенные настройки",
     "password_expiration": "Срок действия пароля",
-    "remote_shell": "Удаленный шелл (SSH)",
+    "remote_shell": "Shell",
     "delete_user": "Удалить пользователя",
     "delete_group": "Удалить группу",
     "caution": "Внимание",
@@ -545,7 +545,7 @@
     "role_deleted_ok": "Удаление роли OK",
     "role_deleted_error": "Ошибки удаления роли",
     "define_authorization": "Определите права этой группы",
-    "define_authorization_description": "Выберите представления и приложения, которые будут видны членам этой группы",
+    "define_authorization_description": "Select views and applications that members of this group can view. Make sure delegated users have the \"Shell\" option enabled",
     "binddn_empty": "BindDN is empty",
     "bindpassword_empty": "BindPassword is empty",
     "binddn_bindpass_empty": "BindDN and BindPassword are empty",
@@ -563,7 +563,8 @@
     "no_users_found": "No users found",
     "no_users_found_desc": "If your provider is local, click on button below to create a new user or add it on remote provider",
     "no_groups_found": "No groups found",
-    "no_groups_found_desc": "If your provider is local, click on button below to create a new group or add it on remote provider"
+    "no_groups_found_desc": "If your provider is local, click on button below to create a new group or add it on remote provider",
+    "weak_password": "Your policy allows you to insert weak password, it not recommended for security reasons"
   },
   "network": {
     "title": "Сеть",
@@ -675,8 +676,8 @@
     "nameServer": "DNS Server",
     "ping": "Ping",
     "ping_info": "Ping a host",
-    "host":"Хост",
-    "result":"Результат",
+    "host": "Хост",
+    "result": "Результат",
     "success": "Выполнено",
     "error": "При ошибке"
   },
@@ -849,7 +850,7 @@
     "centos_upgrade": "Обновление CentOS",
     "nethserver_upgrade": "Обновление NethServer",
     "upgrade_nethserver": "Обновить NethServer",
-    "nethserver_upgrade_message": "Доступно обновление системы для NethServer.\nПроцедура обновления системы переключит источник обновлений на \"Разблокированный\" и обновит все установленные пакеты",
+    "nethserver_upgrade_message": "A system upgrade for NethServer is available. \nThe system upgrade procedure enables the new version repositories and updates any installed package",
     "there_is_upgrade_from": "Имеется обновление с",
     "to": "до",
     "upgrade_now": "Обновить сейчас",
@@ -1060,6 +1061,7 @@
     "dns_wildcard": "Если включено, сопоставляет также и все поддомены",
     "limit_access": "Доступ на порт 9090 только с указанных адресов",
     "dhcp_comma_separated_field": "Вставьте IP-адрес или список IP-адресов через запятую",
-    "dhcp_servers": "Серверы"
+    "dhcp_servers": "Серверы",
+    "remote_shell": "Enable this option to grant access to the Terminal and the Server Manager."
   }
 }

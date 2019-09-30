@@ -1,0 +1,49 @@
+{
+    "settings": {
+        "title": "Ayarlar",
+        "before_using_flashstart": "FlashStart kullanmaya başlamadan önce şuradan bir hesap oluşturmalısınız",
+        "enable_flashstart_filter": "FlashStart süzgeci kullanılsın",
+        "username_email": "Kullanıcı adı (e-posta)",
+        "password": "Parola",
+        "username_validation": "Kullanıcı adı geçersiz",
+        "username_validation_bad_login": "Oturum açılamadı, kullanıcı adı ya da parola geçersiz",
+        "password_validation": "Parola geçersiz",
+        "password_validation_bad_login": "Oturum açılamadı, kullanıcı adı ya da parola geçersiz",
+        "bypass_validation": "Burada geçerli IP adreslerinin bir listesi olmalıdır",
+        "error_reading_flashstart_configuration": "FlashStart yapılandırması okunurken sorun çıktı",
+        "flashstart_auth": "FlashStart kimlik doğrulaması",
+        "networks_to_filter": "Süzülecek ağlar",
+        "green_network_description": "Yerel ağlar (Yeşil)",
+        "blue_network_description": "Konuk ağları (Mavi)",
+        "hotspot_network_description": "Erişim noktası ağı",
+        "error_reading_network_roles_configuration": "Ağ rolleri yapılandırması okunurken sorun çıktı",
+        "bypass": "Geçirilecek",
+        "bypass_source_ips": "Geçirilecek kaynak IP adresleri (her satıra bir tane)",
+        "configuration_update_successful": "Yapılandırma güncellendi",
+        "configuration_update_failed": "Yapılandırma güncellenemedi",
+        "dns_configuration": "FlashStart için Nethsecurity ya da istemciler üzerinde herhangi bir DNS yapılandırması yapılmasına gerek yoktur"
+    },
+    "about": {
+        "title": "Hakkında",
+        "website": "Web sitesi",
+        "bug_tracker": "Hata izleyici"
+    },
+    "dashboard":{
+        "title": "Pano",
+        "error_getting_login_status": "Oturum açma durumu alınırken sorun çıktı",
+        "flashstart_enabled": "FlashStart kullanılıyor",
+        "authentication_status": "Kimlik doğrulama durumu"
+    },
+    "actions": "İşlemler",
+    "delete": "Sil",
+    "next": "Sonraki",
+    "prev": "Önceki",
+    "of": " / ",
+    "rows_per_page": "Bir sayfadaki satır sayısı",
+    "search": "Arama",
+    "all": "Tümü",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "warning": "Uyarı",
+    "create": "Ekle"
+}

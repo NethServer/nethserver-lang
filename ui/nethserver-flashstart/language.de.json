@@ -1,0 +1,49 @@
+{
+    "settings": {
+        "title": "Einstellungen",
+        "before_using_flashstart": "Bevor man FlashStart verwenden kann, muß man ein Konto erstellen, indem man zugreift",
+        "enable_flashstart_filter": "FlashStart-Filter aktivieren",
+        "username_email": "Benutzername (E-Mail)",
+        "password": "Passwort",
+        "username_validation": "Benutzername ungültig",
+        "username_validation_bad_login": "Anmeldung fehlgeschlagen. Falscher Benutzername oder falsches Passwort",
+        "password_validation": "Passwort ungültig",
+        "password_validation_bad_login": "Anmeldung fehlgeschlagen. Falscher Benutzername oder falsches Passwort",
+        "bypass_validation": "Dies muss eine Liste gültiger IP-Adressen sein",
+        "error_reading_flashstart_configuration": "Fehler beim Lesen der FlashStart-Konfiguration",
+        "flashstart_auth": "FlashStart-Authentifizierung",
+        "networks_to_filter": "Netzwerke zum Filtern",
+        "green_network_description": "Lokale Netzwerke (Grün)",
+        "blue_network_description": "Gastnetzwerke (Blau)",
+        "hotspot_network_description": "Hotspot-Netzwerk",
+        "error_reading_network_roles_configuration": "Fehler beim Lesen der Netzwerkrollenkonfiguration",
+        "bypass": "Umgehung",
+        "bypass_source_ips": "Quell-IPs umgehen (eine pro Zeile)",
+        "configuration_update_successful": "Konfiguration aktualisiert",
+        "configuration_update_failed": "Konfigurationsupdate fehlgeschlagen",
+        "dns_configuration": "FlashStart benötigt keine DNS-Konfiguration, weder in Nethsecurity noch in Clients"
+    },
+    "about": {
+        "title": "Über",
+        "website": "Webseite",
+        "bug_tracker": "Bug-Tracker"
+    },
+    "dashboard":{
+        "title": "Übersicht",
+        "error_getting_login_status": "Fehler beim Abrufen des Anmeldestatus",
+        "flashstart_enabled": "FlashStart aktiviert",
+        "authentication_status": "Authentifizierungsstatus"
+    },
+    "actions": "Aktionen",
+    "delete": "Entfernen",
+    "next": "Weiter",
+    "prev": "Vorherige",
+    "of": "von",
+    "rows_per_page": "Zeilen pro Seite",
+    "search": "Suchen",
+    "all": "Alle",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "warning": "Warnung",
+    "create": "Erstellen"
+}

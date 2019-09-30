@@ -1,0 +1,48 @@
+{
+    "settings": {
+        "title": "Einstellungen",
+        "official_signatures": "ClamAV official signatures",
+        "unofficial_signatures_rating": "Third-party signatures rating",
+        "error_reading_configuration": "Error reading antivirus configuration",
+        "error_validating_configuration": "Error validating antivirus configuration",
+        "configuration_update_successful": "Konfigurationsupdate erfolgreich",
+        "configuration_update_failed": "Konfigurationsupdate fehlgeschlagen",
+        "info_notification": "Signatures are downloaded at hourly intervals. Changes to this page will take effect on next automatic signatures download.",
+        "error_reading_total_memory": "Error reading total memory",
+        "memory_warning": "The system has less than 4GB of RAM. You're strongly advised to disable official ClamAV signatures to avoid memory filling."
+    },
+    "about": {
+        "title": "Über",
+        "website": "Webseite",
+        "bug_tracker": "Bug-Tracker"
+    },
+    "logs": {
+        "title": "Logs",
+        "follow": "Zum Ende",
+        "stop_follow": "Stoppen",
+        "start_follow_button": "Zum Ende",
+        "stop_follow_button": "Stop folgende",
+        "filter_label": "Regexp-Filter",
+        "error_getting_clamav_instances": "Error getting ClamAV instances"
+    },
+    "dashboard":{
+        "title": "Antivirus",
+        "email_protection": "E-Mail-Schutz",
+        "web_protection": "Web-Schutz",
+        "error_getting_dashboard_data": "Error getting dashboard data",
+        "malware_found": "Schadsoftware gefunden",
+        "signatures_loaded": "Signaturen geladen",
+        "status": "Status",
+        "no_data_available": "Keine Daten verfügbar",
+        "other": "Andere",
+        "memory_used": "Memory used",
+        "since": "Seit",
+        "no_instance_installed": "No ClamAV instance installed"
+    },
+    "docs": {
+        "official_signatures": "Official ClamAV signatures use a large amount of memory. Official signatures detect many old threats but are not very effective against the latest malware.",
+        "unofficial_signatures_ratings": "Higher rating means more blocked threats but also a higher probability of false positives. Recommended ratings are 'Low' and 'Medium'."
+    },
+    "save": "Speichern",
+    "cancel": "Abbrechen"
+}
