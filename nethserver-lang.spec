@@ -113,7 +113,7 @@ for D in ./ui/* ; do
         lang="${lang:0:2}"
         lang="${lang,}"
         install -m 0644 -D "$F" "%{buildroot}/usr/share/cockpit/${APP}/i18n/${FILE}"
-        echo "/usr/share/cockpit/${APP}/i18n/${FILE}" >> ${lang}.lang
+        echo "/usr/share/cockpit/${APP}/i18n/${FILE}" >> cockpit.lang
     done
 done
 
@@ -221,6 +221,13 @@ BuildArch: noarch
 %files ro -f ro.lang
 %description ro
 NethServer Romanian language support (ro)
+
+%package cockpit
+Summary: Cockpit translations
+BuildArch: noarch
+%files cockpit -f cockpit.lang
+%description cockpit
+Cockpit translstions for all languages.
 
 %changelog
 * Mon Sep 23 2019 nethbot <nethbot@nethesis.it> - 1.3.0-10
