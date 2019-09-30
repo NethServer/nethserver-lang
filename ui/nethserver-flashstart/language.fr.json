@@ -1,0 +1,49 @@
+{
+    "settings": {
+        "title": "Réglages",
+        "before_using_flashstart": "Avant d'utiliser FlashStart, vous aurez besoin de créer compte d'accès",
+        "enable_flashstart_filter": "Activer le filtre FlashStart",
+        "username_email": "Nom d'utilisateur (e-mail)",
+        "password": "Mot de passe",
+        "username_validation": "Nom d'utilisateur non valide",
+        "username_validation_bad_login": "Identification échouée. Nom d'utilisateur ou mot de passe incorrect",
+        "password_validation": "Mot de passe non valide",
+        "password_validation_bad_login": "Identification échouée. Nom d'utilisateur ou mot de passe incorrect",
+        "bypass_validation": "Doit être une liste d'IP valides",
+        "error_reading_flashstart_configuration": "Erreur pendant la lecture de la configuration FlashStart",
+        "flashstart_auth": "Authentification FlashStart",
+        "networks_to_filter": "Réseaux à filtrer",
+        "green_network_description": "Réseaux locaux (Vert)",
+        "blue_network_description": "Réseaux invités (Bleu)",
+        "hotspot_network_description": "Réseau hotspot",
+        "error_reading_network_roles_configuration": "Erreur pendant la lecture de la configuration des rôles réseau",
+        "bypass": "Bypass",
+        "bypass_source_ips": "Bypass adresses IP source (une par ligne)",
+        "configuration_update_successful": "Configuration mise à jour",
+        "configuration_update_failed": "Mise à jour de la configuration échouée",
+        "dns_configuration": "FlashStart ne nécessite aucune configuration DNS, ni dans Nethsecurity, ni dans les clients"
+    },
+    "about": {
+        "title": "A propos",
+        "website": "Site web",
+        "bug_tracker": "Bug tracker"
+    },
+    "dashboard":{
+        "title": "Tableau de bord",
+        "error_getting_login_status": "Erreur lors de la récupération du statut de connexion",
+        "flashstart_enabled": "FlashStart activé",
+        "authentication_status": "Statut de l'authentification"
+    },
+    "actions": "Actions",
+    "delete": "Supprimer",
+    "next": "Suivant",
+    "prev": "Précédent",
+    "of": "de",
+    "rows_per_page": "Lignes par page",
+    "search": "Chercher",
+    "all": "Tous",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "warning": "Attention",
+    "create": "Créer"
+}

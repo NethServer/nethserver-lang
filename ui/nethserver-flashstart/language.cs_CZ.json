@@ -1,0 +1,49 @@
+{
+    "settings": {
+        "title": "Nastavení",
+        "before_using_flashstart": "Before using FlashStart you need to create an account by accessing",
+        "enable_flashstart_filter": "Enable FlashStart filter",
+        "username_email": "Username (e-mail)",
+        "password": "Heslo",
+        "username_validation": "Neplatné uživatelské jméno",
+        "username_validation_bad_login": "Login failed. Incorrect username or password",
+        "password_validation": "Neplatné heslo",
+        "password_validation_bad_login": "Login failed. Incorrect username or password",
+        "bypass_validation": "This must be a list of valid IP addresses",
+        "error_reading_flashstart_configuration": "Error reading FlashStart configuration",
+        "flashstart_auth": "FlashStart authentication",
+        "networks_to_filter": "Networks to filter",
+        "green_network_description": "Local networks (Green)",
+        "blue_network_description": "Guest networks (Blue)",
+        "hotspot_network_description": "Hotspot network",
+        "error_reading_network_roles_configuration": "Error reading network roles configuration",
+        "bypass": "Bypass",
+        "bypass_source_ips": "Bypass source IPs (one per line)",
+        "configuration_update_successful": "Nastavení zaktualizováno",
+        "configuration_update_failed": "Aktualizace nastavení se nezdařila",
+        "dns_configuration": "FlashStart doesn't require any DNS configuration neither in Nethsecurity nor in clients"
+    },
+    "about": {
+        "title": "O aplikaci",
+        "website": "Webová stránka",
+        "bug_tracker": "Systém správy hlášení problémů"
+    },
+    "dashboard":{
+        "title": "Přehled",
+        "error_getting_login_status": "Error retrieving login status",
+        "flashstart_enabled": "FlashStart enabled",
+        "authentication_status": "Authentication status"
+    },
+    "actions": "Akce",
+    "delete": "Smazat",
+    "next": "Další",
+    "prev": "Předchozí",
+    "of": "z",
+    "rows_per_page": "Řádků na stránku",
+    "search": "Hledat",
+    "all": "Vše",
+    "save": "Uložit",
+    "cancel": "Storno",
+    "warning": "Varování",
+    "create": "Vytvořit"
+}

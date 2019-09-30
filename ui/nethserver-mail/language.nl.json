@@ -30,7 +30,7 @@
     "cancel": "Cancel",
     "are_you_sure": "Are you sure",
     "days": "Days",
-    "ever": "Ever",
+    "ever": "Forever",
     "other": "Other",
     "info": "Info",
     "warning": "Warning",
@@ -264,7 +264,7 @@
         "apply_quota": "Quota toepassen",
         "QuotaDefaultSize": "Default quota size (GB)",
         "SpamFolder": "Move spam to \"Junk\" folder",
-        "SpamRetentionTime": "Keep spam for (days)",
+        "SpamRetentionTime": "Keep spam for",
         "AdminIsMaster": "Admingebruiker 'root' mag inloggen als andere gebruiker",
         "DynamicGroupAlias": "Automatic alias for groups",
         "LogActions": "Log IMAP actions",
@@ -448,6 +448,10 @@
         "access_bypass_list": "Enter IP addresses that don't support authentication or encryption (printers, scanners, etc).",
         "sender_validation": "If enabled, the sender email address (From:) must match the login user or additional addresses.",
         "lifetime": "A value of 0 means retry only once."
+    },
+    "mailbox": {
+        "public_created_ok": "Public mailbox created successfully",
+        "public_created_error": "Public mailbox creation error"
     },
     "validation": {
         "validation_failed": "Validation failed",

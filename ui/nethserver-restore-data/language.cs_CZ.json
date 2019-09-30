@@ -1,0 +1,58 @@
+{
+  "restore": {
+    "title": "Obnovit",
+    "choose_backup": "Choose backup",
+    "choose_date": "Choose date",
+    "search": "Hledat",
+    "advanced_text": "Pattern",
+    "file_text": "File or directory",
+    "mail_text": "Mail folder",
+    "advanced_placeholder": "Insert regexp",
+    "file_placeholder": "Insert file or directory name",
+    "mail_placeholder": "Insert mail folder name",
+    "results": "Results",
+    "no_results": "No results",
+    "no_results_text": "Select a backup and insert at least 4 characters, then press Search",
+    "warning": "Varování",
+    "too_many_results": "Your search has produced {0} results. Try to reduce the results changing the pattern. (Max results: 500)",
+    "restore_files": "Restore {0} files",
+    "overwrite_files": "Overwrite {0} files",
+    "files_restored_ok": "Files restored successfully!",
+    "files_restored_error": "Files not restored.",
+    "override_restore": "Overwrite",
+    "choose_mode": "Choose mode",
+    "files_directories": "Files or directories",
+    "mails": "Mail folders",
+    "advanced": "Pokročilé",
+    "nothing_selected": "Nothing selected to restore",
+    "selected": "Označeno",
+    "overwritten": "overwritten",
+    "restored_list": "List of restored files",
+    "error_restored_list": "There was an error restoring the files.",
+    "are_you_sure": "Opravdu",
+    "cancel": "Storno"
+  },
+  "about": {
+    "title": "O aplikaci",
+    "website": "Webová stránka",
+    "bug_tracker": "Systém správy hlášení problémů"
+  },
+  "logs": {
+    "title": "Záznamy událostí",
+    "start_follow_button": "Následovat",
+    "stop_follow_button": "Přestat odebírat",
+    "filter_label": "Filtr s regulárním výrazem"
+  },
+  "dashboard": {
+    "title": "Přehled",
+    "last_run": "Last run",
+    "configured_backups": "Configured backups",
+    "no_backups_found": "Nenalezeny žádné zálohy",
+    "no_backups_found_desc": "It seems that you have not configured any backup-data"
+  },
+  "docs": {
+    "more_info_about": "Další informace o",
+    "override_restore": "<li>If <b>checked</b> the restored files will overwrite the current files.</li><li>If <b>not checked</b> the restored files will be created in the same path with date included in the name and <code>.restore</code> prepended (es. .restore-20190729-153318-myfile).</li>",
+    "choose_mode": "<li><b>Files or directories</b>: Search only file and directories</li><li><b>Mail folders</b>: Search only email folders</li><li><b>Advanced</b>: Search everything (supports wildcards)</li>"
+  }
+}

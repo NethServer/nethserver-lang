@@ -449,7 +449,7 @@
     "strength": "Force",
     "advanced_options": "Options avancées",
     "password_expiration": "Expiration de mot de passe",
-    "remote_shell": "Shell distant (SSH)",
+    "remote_shell": "Shell",
     "delete_user": "Supprimer l'utilisateur",
     "delete_group": "Supprimer le groupe",
     "caution": "Avertissement",
@@ -545,7 +545,7 @@
     "role_deleted_ok": "Suppression du rôle OK",
     "role_deleted_error": "Erreurs de suppression du rôle",
     "define_authorization": "Définissez les autorisations de ce groupe",
-    "define_authorization_description": "Sélectionnez les vues et les applications que les membres de ce groupe peuvent voir",
+    "define_authorization_description": "Select views and applications that members of this group can view. Make sure delegated users have the \"Shell\" option enabled",
     "binddn_empty": "BindDN est vide",
     "bindpassword_empty": "BindPassword est vide",
     "binddn_bindpass_empty": "BindDN and BindPassword sont vide",
@@ -560,10 +560,11 @@
     "bind_password": "Mot de passe Bind",
     "edit_provider_ok": "Configuration éditée avec succès!",
     "edit_provider_error": "Configuration non éditée.",
-    "no_users_found": "Pas d'utilsateurs trouvés",
+    "no_users_found": "Pas d’utilisateurs trouvés",
     "no_users_found_desc": "Si votre fournisseur est local, cliquez sur le bouton ci-dessous afin de créer un nouvel utilisateur ou ajoutez-le sur le fournisseur distant",
     "no_groups_found": "Pas de groupes trouvés",
-    "no_groups_found_desc": "Si votre fournisseur est local, cliquez sur le bouton ci-dessous afin de créer un nouveau groupe ou ajoutez-le sur le fournisseur distant"
+    "no_groups_found_desc": "Si votre fournisseur est local, cliquez sur le bouton ci-dessous afin de créer un nouveau groupe ou ajoutez-le sur le fournisseur distant",
+    "weak_password": "Your policy allows you to insert weak password, it not recommended for security reasons"
   },
   "network": {
     "title": "Réseau",
@@ -675,8 +676,8 @@
     "nameServer": "Serveur DNS",
     "ping": "Ping",
     "ping_info": "Ping sur un hôte",
-    "host":"Hôte",
-    "result":"Résultat",
+    "host": "Hôte",
+    "result": "Résultat",
     "success": "Succès",
     "error": "Erreur"
   },
@@ -849,7 +850,7 @@
     "centos_upgrade": "Mise à niveau de CentOS",
     "nethserver_upgrade": "Mise à niveau de Nethserver",
     "upgrade_nethserver": "Mettre à niveau Nethserver",
-    "nethserver_upgrade_message": "Une mise à niveau du système pour NethServer est disponible.\nLa procédure de mise à niveau du système bascule sur l'origine des mises à jour logicielles \"déverrouillées\" et met à jour tous les packages installés",
+    "nethserver_upgrade_message": "A system upgrade for NethServer is available. \nThe system upgrade procedure enables the new version repositories and updates any installed package",
     "there_is_upgrade_from": "Il y a une mise à niveau de",
     "to": "à",
     "upgrade_now": "Mettre à niveau maintenant",
@@ -1060,6 +1061,7 @@
     "dns_wildcard": "Si activé, correspond aussi à tous les sous-domaines.",
     "limit_access": "Restreindre l'accès au port 9090 seulement au adresses IP déclarées",
     "dhcp_comma_separated_field": "Insérer une adresse IP ou une liste d'adresses séparées par une virgule",
-    "dhcp_servers": "Serveurs"
+    "dhcp_servers": "Serveurs",
+    "remote_shell": "Enable this option to grant access to the Terminal and the Server Manager."
   }
 }

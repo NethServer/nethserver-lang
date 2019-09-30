@@ -30,7 +30,7 @@
     "cancel": "Abbrechen",
     "are_you_sure": "Bist du sicher",
     "days": "Tage",
-    "ever": "Immer",
+    "ever": "Forever",
     "other": "Andere",
     "info": "Info",
     "warning": "Warnung",
@@ -264,7 +264,7 @@
         "apply_quota": "Maximale Grösse des Postfachs ",
         "QuotaDefaultSize": "Standardkontingentgröße (GB)",
         "SpamFolder": "Verschiebe Spam in den \"Junk\"-Ordner",
-        "SpamRetentionTime": "Behalte Spam für (Tage)",
+        "SpamRetentionTime": "Keep spam for",
         "AdminIsMaster": "Root darf sich als anderer Benutzer anmelden",
         "DynamicGroupAlias": "Automatische Alias für Gruppen",
         "LogActions": "Protokolliere IMAP Aktionen",
@@ -448,6 +448,10 @@
         "access_bypass_list": "Geben Sie eine IP-Adresse, die keine Authentifizierung oder Verschlüsselung untertsützt, ein (Drucker, Scanner, etc.).",
         "sender_validation": "Wenn aktiviert, muss die Emailadresse (From:) mit dem Login-Benutzer oder zusätzlichen Adressen übereinstimmen.",
         "lifetime": "Ein Wert von 0 bedeutet nur einmal wiederholen."
+    },
+    "mailbox": {
+        "public_created_ok": "Public mailbox created successfully",
+        "public_created_error": "Public mailbox creation error"
     },
     "validation": {
         "validation_failed": "Überprüfung fehlgeschlagen",

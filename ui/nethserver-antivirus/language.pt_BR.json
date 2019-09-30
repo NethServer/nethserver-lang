@@ -1,0 +1,48 @@
+{
+    "settings": {
+        "title": "Configurações",
+        "official_signatures": "ClamAV official signatures",
+        "unofficial_signatures_rating": "Third-party signatures rating",
+        "error_reading_configuration": "Error reading antivirus configuration",
+        "error_validating_configuration": "Error validating antivirus configuration",
+        "configuration_update_successful": "Configuration update successful",
+        "configuration_update_failed": "Falha ao atualizar a configuração",
+        "info_notification": "Signatures are downloaded at hourly intervals. Changes to this page will take effect on next automatic signatures download.",
+        "error_reading_total_memory": "Error reading total memory",
+        "memory_warning": "The system has less than 4GB of RAM. You're strongly advised to disable official ClamAV signatures to avoid memory filling."
+    },
+    "about": {
+        "title": "Sobre",
+        "website": "Website",
+        "bug_tracker": "Informar Bug"
+    },
+    "logs": {
+        "title": "Registros",
+        "follow": "Seguir",
+        "stop_follow": "Parar",
+        "start_follow_button": "Seguir",
+        "stop_follow_button": "Parar de seguir",
+        "filter_label": "Filtro de Rejeição por Expressão",
+        "error_getting_clamav_instances": "Error getting ClamAV instances"
+    },
+    "dashboard":{
+        "title": "Antivírus",
+        "email_protection": "Proteção de e-mail",
+        "web_protection": "Proteção web",
+        "error_getting_dashboard_data": "Erro ao obter dados do painel",
+        "malware_found": "Malware encontrado",
+        "signatures_loaded": "Assinaturas carregada",
+        "status": "Status",
+        "no_data_available": "Nenhuma informação disponível",
+        "other": "Outro",
+        "memory_used": "Memory used",
+        "since": "Desde",
+        "no_instance_installed": "No ClamAV instance installed"
+    },
+    "docs": {
+        "official_signatures": "Official ClamAV signatures use a large amount of memory. Official signatures detect many old threats but are not very effective against the latest malware.",
+        "unofficial_signatures_ratings": "Higher rating means more blocked threats but also a higher probability of false positives. Recommended ratings are 'Low' and 'Medium'."
+    },
+    "save": "Salvar",
+    "cancel": "Cancelar"
+}

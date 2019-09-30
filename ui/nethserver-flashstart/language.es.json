@@ -1,0 +1,49 @@
+{
+    "settings": {
+        "title": "Ajustes",
+        "before_using_flashstart": "Antes de usar FlasStar ud necesita crear una cuenta accediendo",
+        "enable_flashstart_filter": "Habilitar filtros FlashStart",
+        "username_email": "Nombre de usuario (e-mail)",
+        "password": "Contraseña",
+        "username_validation": "Nombre de usuario invalido",
+        "username_validation_bad_login": "Accceso fallido, Nombre de usuario o password incorrecto",
+        "password_validation": "Contraseña invalido",
+        "password_validation_bad_login": "Accceso fallido, Nombre de usuario o password incorrecto",
+        "bypass_validation": "Esto debe ser una lista de direcciones ip validas",
+        "error_reading_flashstart_configuration": "Error leyendo la configuracion de FlashStart",
+        "flashstart_auth": "Autenticacion de FlashStart",
+        "networks_to_filter": "Redes a filtrar",
+        "green_network_description": "Redes locales (verde)",
+        "blue_network_description": "Redes de invitados (Azul)",
+        "hotspot_network_description": "Puntos de Acceso de red",
+        "error_reading_network_roles_configuration": "Error leyendo la configuracion de roles de red",
+        "bypass": "Desvio",
+        "bypass_source_ips": "Desviar IPs de origen (una por linea)",
+        "configuration_update_successful": "Configuracion actualizada",
+        "configuration_update_failed": "Actualizacion de configuracion fallida",
+        "dns_configuration": "FlashStar no requiere ninguna configuracion de DNS ya sea en Nethsecurity o los clientes"
+    },
+    "about": {
+        "title": "Acerca de",
+        "website": "Sitio Web",
+        "bug_tracker": "Seguidor de fallas"
+    },
+    "dashboard":{
+        "title": "Panel de Control",
+        "error_getting_login_status": "Error recuperando el Estado de acceso",
+        "flashstart_enabled": "FlashStart habilitado",
+        "authentication_status": "Estado de autenticacion"
+    },
+    "actions": "Acciones",
+    "delete": "Borrar",
+    "next": "Siguiente",
+    "prev": "Anterior",
+    "of": "de",
+    "rows_per_page": "Filas por pagina",
+    "search": "Buscar",
+    "all": "Todo",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "warning": "Atención",
+    "create": "Crear"
+}

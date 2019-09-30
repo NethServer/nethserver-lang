@@ -30,7 +30,7 @@
     "cancel": "İptal",
     "are_you_sure": "Emin misiniz",
     "days": "Gün",
-    "ever": "Hiç",
+    "ever": "Forever",
     "other": "Diğer",
     "info": "Bilgiler",
     "warning": "Uyarı",
@@ -264,7 +264,7 @@
         "apply_quota": "Kota uygulansın",
         "QuotaDefaultSize": "Varsayılan kota boyutu (GB)",
         "SpamFolder": "Önemsiz iletiler \"Gereksiz\" klasörüne taşınsın",
-        "SpamRetentionTime": "Önemsiz iletilerin saklanma süresi (gün)",
+        "SpamRetentionTime": "Keep spam for",
         "AdminIsMaster": "Root kullanıcısı farklı bir kullanıcı olarak oturum açabilsin",
         "DynamicGroupAlias": "Gruplara otomatik takma ad verilsin",
         "LogActions": "IMAP işlemleri günlüğe kaydedilsin",
@@ -448,6 +448,10 @@
         "access_bypass_list": "Kimlik doğrulaması ya da şifrelemeyi desteklemeyen IP adresleri yazın (yazıcılar, tarayıcılar gibi).",
         "sender_validation": "Bu seçenek etkinleştirildiğinde, gönderen e-posta adresi (From:) kullanıcı adına ya d aek adreslerden biri ile aynı olmalıdır.",
         "lifetime": "0 değeri yalnız bir kez deneneceği anlamına gelir."
+    },
+    "mailbox": {
+        "public_created_ok": "Public mailbox created successfully",
+        "public_created_error": "Public mailbox creation error"
     },
     "validation": {
         "validation_failed": "Doğrulanamadı",
