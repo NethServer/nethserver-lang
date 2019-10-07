@@ -97,4 +97,5 @@ $L['Tracker_task_error_message'] = 'Задатак завршен са греш�
 $L['Tracker_title_taskRunning'] = 'Задатак се извршава';
 $L['Tracker_title_taskStarting'] = 'Задатак се покреће...';
 $L['Tracker_code_label'] = 'статус излаза';
+$L['cockpit_available'] = 'The new Server Manager is installed, give it a try! Access: ';
 

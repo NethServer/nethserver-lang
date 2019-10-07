@@ -119,7 +119,7 @@ $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Se si seleziona un S
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Le regole di gestione banda non consentono di utilizzare una zona red come sorgente.';
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Le regole di gestione banda consentono solo i seguenti tipi di destinazione: zona, host, range ip, CIDR, red.';
 
-$L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Rules using DPI protocol as a service do not allow "Any" as source nor destination.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Rules using DPI protocol as a service do not allow "Firewall" as source nor.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Route rules do not allow to set a DPI protocol as service.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'Action "Reject" is not supported for rules using a DPI protocol as service: use "Drop" action instead.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Le regole che utilizzano il protocollo DPI come servizio non consentono l\'utilizzo dell\'oggetto "Qualsiasi" come origine o destinazione.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Le regole che utilizzano il protocollo DPI come servizio non consentono l\'utilizzo dell\'oggetto "Firewall" come origine o destinazione.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Le regole di instradamento non consentono di impostare un protocollo DPI come servizio.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'L\'azione "Reject" non è supportata per le regole che utilizzano un protocollo DPI come servizio: utilizzare invece l\'azione "Drop".';

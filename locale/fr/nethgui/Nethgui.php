@@ -97,4 +97,5 @@ $L['Tracker_task_error_message'] = 'Tâches complétées avec erreurs';
 $L['Tracker_title_taskRunning'] = 'Tâche en cours';
 $L['Tracker_title_taskStarting'] = 'Tâche démarre';
 $L['Tracker_code_label'] = 'état de sortie';
+$L['cockpit_available'] = 'The new Server Manager is installed, give it a try! Access: ';
 

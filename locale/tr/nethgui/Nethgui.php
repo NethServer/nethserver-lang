@@ -97,4 +97,5 @@ $L['Tracker_task_error_message'] = 'Görev bazı hatalar ile tamamlandı';
 $L['Tracker_title_taskRunning'] = 'Görev çalışıyor';
 $L['Tracker_title_taskStarting'] = 'Görev başlatılıyor...';
 $L['Tracker_code_label'] = 'çıkış durumu';
+$L['cockpit_available'] = 'The new Server Manager is installed, give it a try! Access: ';
 

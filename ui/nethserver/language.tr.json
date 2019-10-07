@@ -449,7 +449,7 @@
     "strength": "Zorluk",
     "advanced_options": "Gelişmiş ayarlar",
     "password_expiration": "Parola son kullanma tarihi",
-    "remote_shell": "Shell",
+    "remote_shell": "Kabuk",
     "delete_user": "Kullanıcıyı sil",
     "delete_group": "Grubu sil",
     "caution": "Dikkat",
@@ -545,7 +545,7 @@
     "role_deleted_ok": "Rol silindi",
     "role_deleted_error": "Rol silme hataları",
     "define_authorization": "Bu grubun yetkilerini belirleyin",
-    "define_authorization_description": "Select views and applications that members of this group can view. Make sure delegated users have the \"Shell\" option enabled",
+    "define_authorization_description": "Bu grup üyelerinin kullanabileceği görünüm ve uygulamaları seçin. Atanmış kullanıcıların \"Kabuk\" seçeneğinin etkinleştirildiğinden emin olun",
     "binddn_empty": "BindDN boş",
     "bindpassword_empty": "BindPassword boş",
     "binddn_bindpass_empty": "BindDN ve BindPassword boş",
@@ -564,7 +564,7 @@
     "no_users_found_desc": "Hizmet sağlayıcınız yerel ise, yeni bir kullanıcı eklemek için aşağıdaki düğmeye tıklayın ya da uzak hizmet sağlayıcı üzerinden ekleyin",
     "no_groups_found": "Herhangi bir grup bulunamadı",
     "no_groups_found_desc": "Hizmet sağlayıcınız yerel ise, yeni bir grup eklemek için aşağıdaki düğmeye tıklayın ya da uzak hizmet sağlayıcı üzerinden ekleyin",
-    "weak_password": "Your policy allows you to insert weak password, it not recommended for security reasons"
+    "weak_password": "Ayarlanmış ilkeniz, güvenlik nedeniyle önerilmeyen zayıf parolalar kullanılmasına izin veriyor"
   },
   "network": {
     "title": "Ağ",
@@ -850,7 +850,7 @@
     "centos_upgrade": "CentOS yükseltme",
     "nethserver_upgrade": "NethServer yükseltme",
     "upgrade_nethserver": "NethServer Yazılımını Yükselt",
-    "nethserver_upgrade_message": "A system upgrade for NethServer is available. \nThe system upgrade procedure enables the new version repositories and updates any installed package",
+    "nethserver_upgrade_message": "NethServer için bir sistem yükseltmesi yayınlanmış. \nSistem yükseltme işlemi yeni depo sürümlerini etkinleştirir ve kurulmuş paketleri günceller",
     "there_is_upgrade_from": "Yükseltme şu sürümden",
     "to": "şu sürüme",
     "upgrade_now": "Şimdi yükselt",
@@ -1062,6 +1062,6 @@
     "limit_access": "9090 numaralı kapıya yalnız belirtilen IP adreslerinden erişilebilsin",
     "dhcp_comma_separated_field": "Bir IP adresi ya da virgül ile ayrılmış IP adresleri listesini yazın",
     "dhcp_servers": "Sunucular",
-    "remote_shell": "Enable this option to grant access to the Terminal and the Server Manager."
+    "remote_shell": "Uç birim ve Sunucu Yönetimi erişimi vermek için bu seçeneği etkinleştirin."
   }
 }

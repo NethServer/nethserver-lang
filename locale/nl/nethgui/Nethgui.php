@@ -97,4 +97,5 @@ $L['Tracker_task_error_message'] = 'Taak afgerond met fouten';
 $L['Tracker_title_taskRunning'] = 'Taak wordt uitgevoerd';
 $L['Tracker_title_taskStarting'] = 'Taak wordt gestart...';
 $L['Tracker_code_label'] = 'toestand bij afsluiten';
+$L['cockpit_available'] = 'The new Server Manager is installed, give it a try! Access: ';
 

@@ -1,22 +1,22 @@
 {
   "settings": {
     "title": "Impostazioni",
-    "settings_updated_ok": "Impostazioni aggiornate correttamente\"",
+    "settings_updated_ok": "Impostazioni aggiornate correttamente!",
     "settings_updated_error": "Impostazioni non aggiornate.",
-    "public_host": "Public host",
-    "full_url": "Final url",
-    "host_configuration": "Host configuration",
-    "report_configuration": "Report configuration",
+    "public_host": "Host pubblico",
+    "full_url": "URL finale",
+    "host_configuration": "Configurazione host",
+    "report_configuration": "Configurazione report",
     "theme": "Tema",
     "palette": "Palette",
     "interval": "Intervallo",
     "language": "Lingua",
-    "addresses": "Addresses",
-    "dark": "Dark",
-    "light": "Light",
+    "addresses": "Indirizzi",
+    "dark": "Scuro",
+    "light": "Chiaro",
     "week": "Settimana",
     "month": "Mese",
-    "halfyear": "Six-Months",
+    "halfyear": "Sei-Mesi",
     "save": "Salva",
     "open": "Apri",
     "every_day": "Ogni giorno",
@@ -27,13 +27,13 @@
     "friday": "Venerdì",
     "saturday": "Sabato",
     "sunday": "Domenica",
-    "anonymization": "Anonymization",
-    "max_entries": "Max Entries",
+    "anonymization": "Anonimizzazione",
+    "max_entries": "Max voci",
     "test_mail": "Test mail",
-    "send_mail": "Send mail",
-    "send": "Send",
+    "send_mail": "Invia mail",
+    "send": "Invia",
     "test_address": "Indirizzo",
-    "include_configured_addresses": "Include configured addresses"
+    "include_configured_addresses": "Include gli indirizzi configurati"
   },
   "about": {
     "title": "Informazioni",
@@ -45,9 +45,9 @@
   },
   "validation": {
     "validation_failed": "Verifica fallita",
-    "public_host_must_resolve": "Use a public DNS name which must be accessibile from the server itself and clients from Internet",
-    "invalid_mail_address": "Set a valid mail address like 'info@mydomain.org'",
+    "public_host_must_resolve": "Utilizzare un nome DNS pubblico accessibile dal server stesso e dai client su Internet",
+    "invalid_mail_address": "Utilizzare un indirizzo mail valido come 'info@mydomain.org'",
     "invalid_language": "Lingua non trovata",
-    "valid_hostname_fqdn_1_9223372036854775807": "Must be a fully qualified host name"
+    "valid_hostname_fqdn_1_9223372036854775807": "Deve essere un fully qualified host name"
   }
 }

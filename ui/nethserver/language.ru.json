@@ -734,7 +734,7 @@
     "notify_to": "Получатель (Кому:)",
     "add_email": "Добавить email",
     "web_shell": "Диспетчер сервера",
-    "hints": "Советы по настройке",
+    "hints": "Configuration hints",
     "show_hints": "Показывать подсказки",
     "limit_access": "Разрешить доступ через Wan (Красный)",
     "allow_only": "Разрешенные IP (по одному на строку)",
