@@ -30,7 +30,7 @@
     "cancel": "Annuler",
     "are_you_sure": "Voulez-vous vraiment",
     "days": "Jours",
-    "ever": "Forever",
+    "ever": "Pour toujours",
     "other": "Autre",
     "info": "Info",
     "warning": "Attention",
@@ -187,7 +187,7 @@
         "relay_host_help": "Nom d'hôte ou adresse IP du MTA où les messages sont relayés",
         "dkim_instructions_text": "Créer l'enregistrement TXT requis par DKIM chez votre fournisseur de service DNS \"{nom}\" en choisissant une des procédures suivantes :",
         "dkim_txtrecord_panel_title": "Coller l'ensemble de l'enregistrement TXT de forme brute",
-        "dkim_rawdata_panel_title": "Paramétrez \"{nom]\" comme clé d'enregistrement et collez les données enregistrées",
+        "dkim_rawdata_panel_title": "Paramétrez \"{nom}\" comme clé d'enregistrement et collez les données enregistrées",
         "delete_confirm_message": "Si {0} est supprimé, ce serveur rejettera les nouveaux messages pour ce domaine. Cependant, tout message déjà remis n'est pas affecté et sera préservé.",
         "destination_relay": "Serveur de destination",
         "destination": "Destination",
@@ -264,7 +264,7 @@
         "apply_quota": "Appliquer les quotas",
         "QuotaDefaultSize": "Taille de quota par défaut (GB)",
         "SpamFolder": "Déplacer le spam dans le dossier \"indésirable\"",
-        "SpamRetentionTime": "Keep spam for",
+        "SpamRetentionTime": "Garder les indésirables pendant",
         "AdminIsMaster": "Root peut se connecter en tant qu'un autre utilisateur",
         "DynamicGroupAlias": "Alias automatique pour les groupes",
         "LogActions": "Journaliser les actions IMAP",
@@ -450,8 +450,8 @@
         "lifetime": "Une valeur à 0 signifie une nouvelle tentative une seule fois"
     },
     "mailbox": {
-        "public_created_ok": "Public mailbox created successfully",
-        "public_created_error": "Public mailbox creation error"
+        "public_created_ok": "Boîte aux lettres publique créée avec succès",
+        "public_created_error": "Erreur de création de la boîte aux lettres publique"
     },
     "validation": {
         "validation_failed": "Validation échoué",

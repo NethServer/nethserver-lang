@@ -734,7 +734,7 @@
     "notify_to": "Destination (To:)",
     "add_email": "Přidat e-mail",
     "web_shell": "Správa serveru",
-    "hints": "Rady k nastavení",
+    "hints": "Configuration hints",
     "show_hints": "Zobrazovat rady",
     "limit_access": "Udělit přístup z Wan (červená)",
     "allow_only": "IP adresy, ze který umožnit přístup (každou na zvlášť řádek)",

@@ -734,7 +734,7 @@
     "notify_to": "Destino (Para:)",
     "add_email": "Añadir correo",
     "web_shell": "Server Manager",
-    "hints": "Consejos de configuración",
+    "hints": "Configuration hints",
     "show_hints": "Mostrar consejos",
     "limit_access": "Conceder acceso desde WAN (roja)",
     "allow_only": "IPs permitidas (una por línea)",

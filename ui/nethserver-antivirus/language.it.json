@@ -1,15 +1,15 @@
 {
     "settings": {
         "title": "Impostazioni",
-        "official_signatures": "ClamAV official signatures",
-        "unofficial_signatures_rating": "Third-party signatures rating",
-        "error_reading_configuration": "Error reading antivirus configuration",
-        "error_validating_configuration": "Error validating antivirus configuration",
-        "configuration_update_successful": "Configuration update successful",
-        "configuration_update_failed": "Configuration update failed",
-        "info_notification": "Signatures are downloaded at hourly intervals. Changes to this page will take effect on next automatic signatures download.",
-        "error_reading_total_memory": "Error reading total memory",
-        "memory_warning": "The system has less than 4GB of RAM. You're strongly advised to disable official ClamAV signatures to avoid memory filling."
+        "official_signatures": "Firme ufficiali ClamAV",
+        "unofficial_signatures_rating": "Classificazione firme di terze parti",
+        "error_reading_configuration": "Errore in lettura della configurazione dell'antivirus",
+        "error_validating_configuration": "Errore di validazione della configurazione dell'antivirus",
+        "configuration_update_successful": "Configurazione aggiornata con successo",
+        "configuration_update_failed": "Aggiornamento configurazione fallito",
+        "info_notification": "Le firme vengono scaricate ad intervalli orari. Le modifiche in questa pagina saranno effettive al successivo scaricamento automatico delle firme.",
+        "error_reading_total_memory": "Errore in lettura della memoria totale",
+        "memory_warning": "Il sistema ha meno di 4GB di RAM. E' fortemente consigliato disabilitare le firme ufficiali di ClamAV per evitare l'occupazione di memoria."
     },
     "about": {
         "title": "Informazioni",
@@ -21,27 +21,27 @@
         "follow": "Segui",
         "stop_follow": "Ferma",
         "start_follow_button": "Segui",
-        "stop_follow_button": "Stop following",
-        "filter_label": "Regexp filter",
-        "error_getting_clamav_instances": "Error getting ClamAV instances"
+        "stop_follow_button": "Interrompi segui",
+        "filter_label": "Filtro regexp",
+        "error_getting_clamav_instances": "Errore di rilevamento delle istanze di ClamAV"
     },
     "dashboard":{
         "title": "Antivirus",
-        "email_protection": "Email protection",
-        "web_protection": "Web protection",
-        "error_getting_dashboard_data": "Error getting dashboard data",
-        "malware_found": "Malware found",
-        "signatures_loaded": "Signatures loaded",
+        "email_protection": "Protezione email",
+        "web_protection": "Protezione web",
+        "error_getting_dashboard_data": "Errore in lettura dati dashboard",
+        "malware_found": "Malware rilevati",
+        "signatures_loaded": "Firme caricate",
         "status": "Stato",
-        "no_data_available": "No data available",
+        "no_data_available": "Nessun dato disponibile",
         "other": "Altro",
-        "memory_used": "Memory used",
+        "memory_used": "Memoria utilizzata",
         "since": "Da",
-        "no_instance_installed": "No ClamAV instance installed"
+        "no_instance_installed": "Nessuna istanza di ClamAV installata"
     },
     "docs": {
-        "official_signatures": "Official ClamAV signatures use a large amount of memory. Official signatures detect many old threats but are not very effective against the latest malware.",
-        "unofficial_signatures_ratings": "Higher rating means more blocked threats but also a higher probability of false positives. Recommended ratings are 'Low' and 'Medium'."
+        "official_signatures": "Le firme ufficiali di ClamAV utilizzano grandi quantità di memoria RAM. Le firme ufficiali rilevano molti vecchi pericoli ma non sono molto efficaci contro i malware recenti.",
+        "unofficial_signatures_ratings": "Una valutazione più alta blocca un maggior numero di pericoli, ma con una maggiore probabilità di falsi positivi. L'impostazione raccomandata è 'Low' o 'Medium'."
     },
     "save": "Salva",
     "cancel": "Annulla"

@@ -545,7 +545,7 @@
     "role_deleted_ok": "Suppression du rôle OK",
     "role_deleted_error": "Erreurs de suppression du rôle",
     "define_authorization": "Définissez les autorisations de ce groupe",
-    "define_authorization_description": "Select views and applications that members of this group can view. Make sure delegated users have the \"Shell\" option enabled",
+    "define_authorization_description": "Sélectionnez les vues et les applications que les membres de ce groupe peuvent voir. Assurez-vous que l'option \"Shell\" est activée pour les utilisateurs délégués",
     "binddn_empty": "BindDN est vide",
     "bindpassword_empty": "BindPassword est vide",
     "binddn_bindpass_empty": "BindDN and BindPassword sont vide",
@@ -564,7 +564,7 @@
     "no_users_found_desc": "Si votre fournisseur est local, cliquez sur le bouton ci-dessous afin de créer un nouvel utilisateur ou ajoutez-le sur le fournisseur distant",
     "no_groups_found": "Pas de groupes trouvés",
     "no_groups_found_desc": "Si votre fournisseur est local, cliquez sur le bouton ci-dessous afin de créer un nouveau groupe ou ajoutez-le sur le fournisseur distant",
-    "weak_password": "Your policy allows you to insert weak password, it not recommended for security reasons"
+    "weak_password": "Votre stratégie vous permet d'insérer un mot de passe faible, ce n'est pas recommandé pour des raisons de sécurité"
   },
   "network": {
     "title": "Réseau",
@@ -734,7 +734,7 @@
     "notify_to": "Adresse destinataire (To:)",
     "add_email": "Ajoutez un courriel",
     "web_shell": "Gestionnaire du serveur",
-    "hints": "Astuces de configuration",
+    "hints": "Configuration hints",
     "show_hints": "Affichez les astuces",
     "limit_access": "Accorder l'accès à partir du WAN (Rouge)",
     "allow_only": "Adresses IP autorisées (une par ligne)",
@@ -850,7 +850,7 @@
     "centos_upgrade": "Mise à niveau de CentOS",
     "nethserver_upgrade": "Mise à niveau de Nethserver",
     "upgrade_nethserver": "Mettre à niveau Nethserver",
-    "nethserver_upgrade_message": "A system upgrade for NethServer is available. \nThe system upgrade procedure enables the new version repositories and updates any installed package",
+    "nethserver_upgrade_message": "Une mise à niveau du système pour NethServer est disponible.\nLa procédure de mise à niveau du système active les nouveaux référentiels de versions et met à jour les packages installés.",
     "there_is_upgrade_from": "Il y a une mise à niveau de",
     "to": "à",
     "upgrade_now": "Mettre à niveau maintenant",
@@ -1062,6 +1062,6 @@
     "limit_access": "Restreindre l'accès au port 9090 seulement au adresses IP déclarées",
     "dhcp_comma_separated_field": "Insérer une adresse IP ou une liste d'adresses séparées par une virgule",
     "dhcp_servers": "Serveurs",
-    "remote_shell": "Enable this option to grant access to the Terminal and the Server Manager."
+    "remote_shell": "Activez cette option pour accorder l'accès au terminal et au gestionnaire de serveur."
   }
 }

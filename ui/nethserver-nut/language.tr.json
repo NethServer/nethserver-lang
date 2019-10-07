@@ -12,12 +12,12 @@
   "date_of_birth": "Doğum tarihi",
   "cancel": "İptal",
   "edit": "Düzenle",
-  "firstname_validation": "Ad içinde rakam olmamalı harfler bulunmalıdır",
-  "lastname_validation": "Soyad içinde rakam olmamalı harfler bulunmalıdır",
+  "firstname_validation": "Ad harflerden oluşmalı ve içinde rakam olmamalıdır",
+  "lastname_validation": "Soyad harflerden oluşmalı ve içinde rakam olmamalıdır",
   "dob_validation": "Doğum tarihi geçerli ve geçmişte bir tarih olmalıdır",
   "delete": "Sil",
   "delete_user_question": "Kullanıcı silinsin mi?",
-  "delete_user_description": "Bu işlem kullanıcıyı kalıcı olarak siler. Bu işlem geri alınamaz",
+  "delete_user_description": "Bu işlem kullanıcıyı kalıcı olarak siler ve geri alınamaz",
 
   "advanced_options": "Gelişmiş Ayarlar",
   "copy": "Kopyala",
@@ -89,6 +89,6 @@
     "empty_piechart_label": "İstatistikler kullanılamıyor"
   },
   "docs": {
-    "model": "Koyu renkte görünen üreticiyi, model adı ve destek düzeyi (yıldız sayısı) izler."
+    "model": "Üretici koyu görüntülenir ve yanında model adı ile destek düzeyi (yıldız sayısı) bulunur."
   }
 }

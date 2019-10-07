@@ -97,4 +97,5 @@ $L['Tracker_task_error_message'] = 'Задача выполнена с ошиб�
 $L['Tracker_title_taskRunning'] = 'Задача выполняется';
 $L['Tracker_title_taskStarting'] = 'Задача запускается...';
 $L['Tracker_code_label'] = 'статус завершения';
+$L['cockpit_available'] = 'The new Server Manager is installed, give it a try! Access: ';
 

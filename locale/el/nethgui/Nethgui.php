@@ -97,4 +97,5 @@ $L['Tracker_task_error_message'] = 'Η εργασία ολοκληρώθηκε �
 $L['Tracker_title_taskRunning'] = 'Η εργασία εκτελείται';
 $L['Tracker_title_taskStarting'] = 'Η εργασίας ξεκινάει...';
 $L['Tracker_code_label'] = 'κατάσταση εξόδου';
+$L['cockpit_available'] = 'The new Server Manager is installed, give it a try! Access: ';
 

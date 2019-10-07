@@ -2,7 +2,7 @@
 
 /* NethServer_Module_Dashboard_SystemStatus_Resources translation, language: en */
 
-$L['avail_label'] = 'Disponivel';
+$L['avail_label'] = 'Disponível';
 $L['cpu_num_label'] = 'Quantidade de CPU';
 $L['days_label'] = 'd';
 $L['general_title'] = 'Informações Gerais';
@@ -30,5 +30,5 @@ $L['cpu_model_label'] = 'CPU Modelo';
 $L['sys_vendor_label'] = 'Fabricante';
 $L['product_name_label'] = 'Modelo';
 $L['time_label'] = 'Data e Hora';
-$L['hardware_title'] = 'Hardware';
+$L['hardware_title'] = 'Equipamento';
 $L['usage_label'] = 'Uso';
