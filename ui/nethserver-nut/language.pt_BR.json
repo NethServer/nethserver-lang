@@ -2,22 +2,7 @@
   "save": "Salvar",
   "search": "Procurar",
 
-  "actions": "Ações",
-  "users": "Usuarios",
-  "add_user": "Add user",
-  "edit_user": "Editar usuário",
-  "delete_user": "Apagar usuário",
-  "first_name": "Nome",
-  "last_name": "Sobrenome",
-  "date_of_birth": "Date of birth",
-  "cancel": "Cancela",
   "edit": "Editar",
-  "firstname_validation": "First name must be a string without digits",
-  "lastname_validation": "Last name must be a string without digits",
-  "dob_validation": "Date of birth must be a valid date in the past",
-  "delete": "Deletar",
-  "delete_user_question": "Delete user?",
-  "delete_user_description": "This action will permanently delete the user. This cannot be undone",
 
   "advanced_options": "Opções avançadas",
   "copy": "Copiar",
@@ -59,9 +44,8 @@
     "bug_tracker": "Informar Bug"
   },
   "logs": {
-    "title": "Registos",
+    "title": "Registros",
     "follow": "Seguir",
-    "stop_follow": "Parar",
     "start_follow_button": "Seguir",
     "stop_follow_button": "Parar de seguir",
     "filter_label": "Filtro de Rejeição por Expressão"
@@ -71,7 +55,7 @@
     "load": "Carga",
     "battery_charge": "Carga da bateria",
     "model": "Modelo",
-    "status": "Estado",
+    "status": "Status",
     "input_voltage": "Tensão de entrada",
     "output_voltage": "Tensão de saída",
     "temperature": "Temperatura",

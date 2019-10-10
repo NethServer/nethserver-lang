@@ -2,22 +2,7 @@
   "save": "Salvează",
   "search": "Caută",
 
-  "actions": "Acțiuni",
-  "users": "Utilizatori",
-  "add_user": "Adaugă utilizator",
-  "edit_user": "Editează utilizator",
-  "delete_user": "Șterge utilizatorul",
-  "first_name": "Prenume",
-  "last_name": "Nume de familie",
-  "date_of_birth": "Data nașterii",
-  "cancel": "Anulare",
   "edit": "Editare",
-  "firstname_validation": "Prenumele trebuie să fie un șir fără cifre",
-  "lastname_validation": "Numele de familie trebuie să fie un șir fără numere",
-  "dob_validation": "Data nașterii trebuie să fie o dată validă din trecut",
-  "delete": "Șterge",
-  "delete_user_question": "Șterg utilizatorul?",
-  "delete_user_description": "Această acțiune va șterge definitiv utilizatorul. Acest lucru nu poate fi anulată.",
 
   "advanced_options": "Opțiuni avansate",
   "copy": "Copiază",
@@ -61,7 +46,6 @@
   "logs": {
     "title": "Jurnale",
     "follow": "Urmărește",
-    "stop_follow": "Oprire",
     "start_follow_button": "Urmărește",
     "stop_follow_button": "Nu mai urmări",
     "filter_label": "Filtru Regexp"

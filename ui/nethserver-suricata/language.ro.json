@@ -35,6 +35,7 @@
     "category_list": "Listă categorii",
     "alert": "Alertează",
     "block": "Blochează",
+    "all": "-",
     "enable": "Activează",
     "disable": "Dezactivează",
     "ips": "IPS",
@@ -46,7 +47,7 @@
     "search": "Caută",
     "download": "Descarca",
     "categories_not_found": "Categoriile nu fost încă descărcate",
-    "categories_not_found_desc": "Dă click pe butonul de mai jos pentru a descărca categoriile",
+    "categories_not_found_desc": "Download the categories before enabling IPS",
     "categories_downloaded_ok": "Categoriile descărcate cu succes!",
     "categories_downloaded_error": "Categoriile nu sunt descărcate.",
     "ips_is_disabled": "IPS este dezactivat",
@@ -58,9 +59,10 @@
     "reset": "Resetează",
     "configuration_categories_change": "Sunt modificări ale categoriilor care nu au fost încă aplicate. Dă click pe 'Aplică modificări' pentru a actualiza",
     "actions": "Acțiuni",
-    "reset_default": "Restaurează categoriile implicite",
+    "reset_default": "Set default configuration",
     "enable_all": "Activează toate categoriile",
-    "disable_all": "Dezactivează toate categoriile"
+    "disable_all": "Dezactivează toate categoriile",
+    "filter_by": "Filter by"
   },
   "logs": {
     "title": "Jurnale",

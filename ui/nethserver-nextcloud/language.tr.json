@@ -14,7 +14,7 @@
   "well_know_name": "CalDAV ve CardDAV otomatik bulma kullanılsın",
   "enable_nextcloud": "Nextcloud için bir sanal sunucu kullanılsın",
   "warning": "Uyarı",
-  "warning_text": "Nextcloud uygulamasına yalnız adanmış bir sunucu adı üzerinden (nextcloud.etkilani.org gibi) erişilebilir. Bir Let's Encrypt sertifikası kullanıyorsanız, bu sunucu adını aşağıdaki \"Sunucu sertifikası\" sayfasında bulunan \"Etki alanları\" alanına eklemeyi unutmayın.",
+  "warning_text": "Nextcloud uygulamasına yalnız adanmış bir sunucu adı üzerinden (nextcloud.etkilani.org gibi) erişilebilecek. Bir Let's Encrypt sertifikası kullanıyorsanız, bu sunucu adını aşağıdaki \"Sunucu sertifikası\" sayfasında bulunan \"Etki alanları\" alanına eklemeyi unutmayın.",
   "valid_fqdn": "'sunucum.websitem.com' örneğindeki gibi en az iki nokta içermelidir",
   "valid_trusted_domains": "Her bileşen 'sunucum.websitem.com' örneğindeki gibi en az iki nokta içermelidir",
   "configuration_ok": "Yapılandırma kaydedildi!",
@@ -26,7 +26,7 @@
   "open_app": "Uygulamayı aç",
   "version": "Sürüm",
   "admin-password": "Yönetici parolası",
-  "warning-password": "Varsayılan yönetici parolası 'Nethesis,1234' şeklindedir. Güvenlik sorunları yaşamamak için yönetici parolasını en kısa zamanda değiştirin!",
+  "warning-password": "Varsayılan yönetici kullanıcısının (admin) parolası 'Nethesis,1234' şeklindedir. Güvenlik sorunları yaşamamak için yönetici parolasını en kısa zamanda değiştirin!",
   "warning_wellknown": "Bu seçenek istemcilerin kişi ve takvim eşitlemesini otomatik yapılandırması için kullanılacak otomatik bulma adresini değiştirir. Zaten WebTop ya da SOGo gibi bir grup uygulaması kullanıyorsanız bu seçeneği işaretlenmemiş olarak bırakın",
   "default_trusted_domains": "Sanal sunucu devre dışı bırakıldığında Nextcloud uygulamasına her zaman tüm sunucu IP adresleri ve tam olarak belirtilmiş etki alanı adları kullanılarak erişilebilir."
 }

@@ -2,22 +2,7 @@
   "save": "保存",
   "search": "搜索",
 
-  "actions": "行为",
-  "users": "用户们",
-  "add_user": "Add user",
-  "edit_user": "编辑用户",
-  "delete_user": "删除用户",
-  "first_name": "名",
-  "last_name": "姓",
-  "date_of_birth": "Date of birth",
-  "cancel": "取消",
   "edit": "编辑",
-  "firstname_validation": "First name must be a string without digits",
-  "lastname_validation": "Last name must be a string without digits",
-  "dob_validation": "Date of birth must be a valid date in the past",
-  "delete": "删除",
-  "delete_user_question": "Delete user?",
-  "delete_user_description": "This action will permanently delete the user. This cannot be undone",
 
   "advanced_options": "高级选项",
   "copy": "复制",
@@ -61,7 +46,6 @@
   "logs": {
     "title": "日志",
     "follow": "Follow",
-    "stop_follow": "停止",
     "start_follow_button": "Follow",
     "stop_follow_button": "Stop following",
     "filter_label": "Regexp filter"

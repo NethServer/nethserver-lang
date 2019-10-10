@@ -2,22 +2,7 @@
   "save": "Сачувај",
   "search": "Претражи",
 
-  "actions": "Акције",
-  "users": "Корисници",
-  "add_user": "Add user",
-  "edit_user": "Измени корисника",
-  "delete_user": "Обриши корисника",
-  "first_name": "Име",
-  "last_name": "Презиме",
-  "date_of_birth": "Date of birth",
-  "cancel": "Откажи",
   "edit": "Измени",
-  "firstname_validation": "First name must be a string without digits",
-  "lastname_validation": "Last name must be a string without digits",
-  "dob_validation": "Date of birth must be a valid date in the past",
-  "delete": "Обриши",
-  "delete_user_question": "Delete user?",
-  "delete_user_description": "This action will permanently delete the user. This cannot be undone",
 
   "advanced_options": "Напредне опције",
   "copy": "Копирај",
@@ -61,7 +46,6 @@
   "logs": {
     "title": "Дневници",
     "follow": "Прати",
-    "stop_follow": "Заустави",
     "start_follow_button": "Прати",
     "stop_follow_button": "Stop following",
     "filter_label": "Regexp filter"

@@ -52,7 +52,7 @@
   },
   "docs": {
     "more_info_about": "Şunun hakkında ayrıntılı bilgiler",
-    "override_restore": "<li>Bu seçenek <b>işaretlendiğinde</b> geri yüklenen dosyalar geçerli dosyaların üzerine yazılır.</li><li>If <b>İşaretlenmediğinde</b> geri yüklenen dosyalar aynı konumda <code>.restore</code> ile başlayan, tarih ve ad eklenerek oluşturulan bir klasör içine yazılır (Örnek .restore-20190729-153318-dosyam).</li>",
+    "override_restore": "<li>Bu seçenek <b>işaretlendiğinde</b> geri yüklenen dosyalar geçerli dosyaların üzerine yazılacak.</li><li>If <b>İşaretlenmediğinde</b> geri yüklenen dosyalar aynı konumda <code>.restore</code> ile başlayan, tarih ve ad eklenerek oluşturulan bir klasör içine yazılır (Örnek .restore-20190729-153318-dosyam).</li>",
     "choose_mode": "<li><b>Dosyalar ya da klasörler</b>: Yalnız dosya ve klasörler aranır</li><li><b>E-posta klasörleri</b>: Yalnız e-posta klasörleri aranır</li><li><b>Gelişmiş</b>: Her şey aranır (genel arama karakterleri kullanılabilir)</li>"
   }
 }

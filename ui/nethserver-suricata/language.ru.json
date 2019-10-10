@@ -35,6 +35,7 @@
     "category_list": "Список категорий",
     "alert": "Оповещение",
     "block": "Блокировка",
+    "all": "-",
     "enable": "Включить",
     "disable": "Выключить",
     "ips": "IPS",
@@ -46,7 +47,7 @@
     "search": "Поиск",
     "download": "Скачать",
     "categories_not_found": "Категории ещё не загружены",
-    "categories_not_found_desc": "Нажмите кнопку ниже для загрузки категорий",
+    "categories_not_found_desc": "Download the categories before enabling IPS",
     "categories_downloaded_ok": "Категории загружены!",
     "categories_downloaded_error": "Категории не были загружены.",
     "ips_is_disabled": "IPS выключена",
@@ -58,9 +59,10 @@
     "reset": "Сбросить",
     "configuration_categories_change": "Имеются ещё непримененные изменения категорий. Нажмите 'Применить изменения', чтобы они вступили в силу",
     "actions": "Действия",
-    "reset_default": "Восстановить настройки по умолчанию для категорий",
+    "reset_default": "Set default configuration",
     "enable_all": "Включить все категории",
-    "disable_all": "Отключить все категории"
+    "disable_all": "Отключить все категории",
+    "filter_by": "Фильтровать по"
   },
   "logs": {
     "title": "Логи",

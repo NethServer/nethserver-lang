@@ -238,7 +238,7 @@
         "title": "Caselle di posta",
         "users": "Utenti",
         "groups": "Gruppi",
-        "public": "Caselle pubbliche",
+        "public": "Cartelle pubbliche",
         "usage": "Utilizzo",
         "name": "Nome",
         "mail_quota": "Quota mail",
@@ -253,7 +253,7 @@
         "messages": "Messaggi",
         "no_aliases_found": "Nessun alias trovato.",
         "connectors": "Connettori",
-        "add_public": "Crea mailbox pubblica",
+        "add_public": "Crea cartella pubblica",
         "access_protocols": "Protocolli di accesso",
         "PopStatus": "Server POP3",
         "ImapStatus": "Server IMAP",
@@ -284,9 +284,9 @@
         "custom_mail_quota": "Quota email personalizzata",
         "custom_spam_retention": "Eliminazione automatica spam",
         "edit_user": "Modifica utente",
-        "create_public": "Crea mailbox pubblica",
-        "edit_public": "Modifica mailbox pubblica",
-        "delete_public": "Elimina mailbox pubblica",
+        "create_public": "Crea cartella pubblica",
+        "edit_public": "Modifica cartella pubblica",
+        "delete_public": "Elimina cartella pubblica",
         "user_updated_ok": "Utente modificato con successo!",
         "user_updated_error": "Utente non modificato.",
         "group_updated_ok": "Gruppo modificato con successo!",
@@ -302,7 +302,7 @@
         "public_deleted_ok": "Cartella pubblica eliminata con successo!",
         "public_deleted_error": "Cartella pubblica non eliminata.",
         "automatic_pseudonym_creation": "Un nuovo pseudonimo di tipo wildcard verrà creato automaticamente per questa cartella pubblica. Gli pseudonimi pre-esistenti non verranno sovrascritti.",
-        "delete_public_mailbox": "Tutti i messaggi in questa cartella pubblica verranno persi. Vuoi continuare"
+        "delete_public_mailbox": "Tutti i messaggi in questa cartella pubblica verranno persi. Continuare"
     },
     "settings": {
         "title": "Impostazioni",
@@ -345,7 +345,7 @@
         "make_private": "Rendi interno",
         "creation_wildcard_users": "L'indirizzo email verrà creato in tutti i domini",
         "internal": "Interno",
-        "public": "Pubblico"
+        "public": "Pubblica"
     },
     "send": {
         "menu_title": "Relay",
@@ -444,14 +444,14 @@
         "acls": "Digitare per ricercare una destinazione per le ACL",
         "bayes_title": "Sttao allenamento filtro Bayesiano.",
         "bayes_description": "Il filtro Bayesiano sarà efficace dopo che avrà analizzato 200 mail valide (ham) e 200 mail di spam.",
-        "sender_info": "Inserire un indirizzo email valido o un dominio compreso la '@' iniziale, come '@nethserver.org'.",
+        "sender_info": "Inserire un indirizzo email valido o un dominio, compresa la '@' iniziale, es. '@nethserver.org'.",
         "access_bypass_list": "Inserire gli indirizzi IP che non supportano l'autenticazione o la cifratura (stampanti, scanner, etc.)",
         "sender_validation": "Se abilitato, l'indirizzo email del mittente (From:) deve corrispondere all'utente di login o i suoi indirizzi addizionali.",
         "lifetime": "Il valore 0 significa riprovare solo una volta."
     },
     "mailbox": {
-        "public_created_ok": "Mailbox pubblica creata con successo",
-        "public_created_error": "Errore durante la creazione della mailbox pubblica"
+        "public_created_ok": "Cartella pubblica creata con successo",
+        "public_created_error": "Errore durante la creazione della cartella pubblica"
     },
     "validation": {
         "validation_failed": "Verifica fallita",
@@ -466,7 +466,7 @@
         "valid_extension": "Deve essere una estensione valida",
         "valid_hostname_fqdn_1_9223372036854775807": "Deve essere un fully qualified host name",
         "valid_minLength_1": "Questo campo è obbligatorio",
-        "valid_relay_notprimarydomain": "La mailbox locale non può essere inoltrata",
+        "valid_relay_notprimarydomain": "Un dominio con mailbox locali non può essere inoltrato",
         "valid_email,generic_failure": "Deve essere un indirizzo email valido",
         "valid_maxLength_2048": "La lunghezza non può eccedere i 2048 caratteri",
         "valid_class": "Deve essere una classe di allegati valida",
@@ -481,8 +481,8 @@
         "invalid_group": "Deve essere un gruppo esistente",
         "invalid_rights": "I diritti possono essere: 'read', 'read-write' or 'full'",
         "valid_mail_address": "Deve essere un indirizzo email valido",
-        "public_mailbox_already_exists": "Esiste già una public mailbox con lo stesso nome",
-        "public_mailbox_not_exists": "La public mailbox non esiste",
+        "public_mailbox_already_exists": "Esiste già una cartella pubblica con lo stesso nome",
+        "public_mailbox_not_exists": "La cartella pubblica non esiste",
         "root_is_reserved": "Lo pseudonimo 'root' è riservato",
         "wildcard_pseudonym_already_exists": "Esiste già uno pseudonimo wildcard con lo stesso nome",
         "domain_not_found": "Dominio non trovato",

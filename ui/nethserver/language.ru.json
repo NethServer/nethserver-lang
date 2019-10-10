@@ -140,7 +140,9 @@
     "datetime_save_ok": "Дата и время успешно сохранены!",
     "datetime_save_error": "Дата и время не сохранены.",
     "shutdown_ok": "Система выключается...",
-    "shutdown_error": "Произошла ошибка при выключении системы."
+    "shutdown_error": "Произошла ошибка при выключении системы.",
+    "hostname_change": "After hostname change you have to login again",
+    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding on other configurations"
   },
   "backup": {
     "title": "Резервное копирование",
@@ -274,7 +276,9 @@
     "destination_usage": "Занято",
     "storage_usage": "Использование места хранения",
     "overwrite_all_data": "восстановление перезапишет все данные",
-    "nfs_rsync_info": "Убедитесь, что NFS-сервер поддерживает жёсткие ссылки, иначе резервное копирование не будет выполнено"
+    "nfs_rsync_info": "Убедитесь, что NFS-сервер поддерживает жёсткие ссылки, иначе резервное копирование не будет выполнено",
+    "during_remap_warning": "During interface remapping, if one or more interface change its IP address, you have to login again in the new IP address",
+    "interface_remap": "Interface remapping"
   },
   "disk_usage": {
     "title": "Использование диска",

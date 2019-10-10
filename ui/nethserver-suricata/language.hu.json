@@ -35,6 +35,7 @@
     "category_list": "Categories list",
     "alert": "Alert",
     "block": "Block",
+    "all": "-",
     "enable": "Engedélyezés",
     "disable": "Letiltás",
     "ips": "IPS",
@@ -46,7 +47,7 @@
     "search": "Search",
     "download": "Letöltés",
     "categories_not_found": "Categories not yet downloaded",
-    "categories_not_found_desc": "Click on the button below to download categories",
+    "categories_not_found_desc": "Download the categories before enabling IPS",
     "categories_downloaded_ok": "Categories downloaded successfully!",
     "categories_downloaded_error": "Categories not downloaded.",
     "ips_is_disabled": "IPS is disabled",
@@ -58,9 +59,10 @@
     "reset": "Reset",
     "configuration_categories_change": "There are categories changes not yet applied. Click on 'Apply changes' to update",
     "actions": "Actions",
-    "reset_default": "Restore defaults categories",
+    "reset_default": "Set default configuration",
     "enable_all": "Enable all categories",
-    "disable_all": "Disable all categories"
+    "disable_all": "Disable all categories",
+    "filter_by": "Filter by"
   },
   "logs": {
     "title": "Logok",

@@ -35,6 +35,7 @@
     "category_list": "Liste des catégories",
     "alert": "Alerte",
     "block": "Bloquer",
+    "all": "-",
     "enable": "Activer",
     "disable": "Désactiver",
     "ips": "IPS (Détection d'intrusion)",
@@ -46,7 +47,7 @@
     "search": "Chercher",
     "download": "Télécharger",
     "categories_not_found": "Catégories pas encore téléchargées",
-    "categories_not_found_desc": "Cliquez sur le bouton ci-dessous afin de télécharger des catégories",
+    "categories_not_found_desc": "Download the categories before enabling IPS",
     "categories_downloaded_ok": "Catégories téléchargées avec succès!",
     "categories_downloaded_error": "Catégories non téléchargées",
     "ips_is_disabled": "L'IPS est désactivé",
@@ -58,9 +59,10 @@
     "reset": "Mettre à zero",
     "configuration_categories_change": "Il y a des changements de catégories non encore appliqués. Cliquez sur 'Appliquer les modifications' pour mettre à jour",
     "actions": "Actions",
-    "reset_default": "Restaurer les catégories par défaut",
+    "reset_default": "Set default configuration",
     "enable_all": "Activer toutes les catégories",
-    "disable_all": "Désctiver toutes les catégories"
+    "disable_all": "Désctiver toutes les catégories",
+    "filter_by": "Trier par"
   },
   "logs": {
     "title": "Journaux",

@@ -52,7 +52,7 @@
   },
   "docs": {
     "more_info_about": "Maggiori informazioni",
-    "override_restore": "<li>Se <b>selezionato</b> i file ripristinati sovrascriveranno i file attuali.</li><li>Se <b>not selezionato</b> i file ripristinati verranno creati nello stesso percorso con la data aggiunta al nome e <code>.restore</code> davanti (es. .restore-20190729-153318-file).</li>",
+    "override_restore": "<li>Se <b>selezionato</b> i file ripristinati sovrascriveranno i file attuali.</li><li>Se <b>non selezionato</b> i file ripristinati verranno creati nello stesso percorso con la data aggiunta al nome e <code>.restore</code> davanti (es. .restore-20190729-153318-file).</li>",
     "choose_mode": "<li><b>File o directory</b>: Cerca solo file e directory</li><li><b>Cartelle email</b>: Cerca solo cartelle email</li><li><b>Avanzato</b>: Cerca tutto (supporta wildcard)</li>"
   }
 }

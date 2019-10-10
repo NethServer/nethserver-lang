@@ -2,22 +2,7 @@
   "save": "Αποθήκευση",
   "search": "Αναζήτηση",
 
-  "actions": "Ενέργειες",
-  "users": "Χρήστες",
-  "add_user": "Add user",
-  "edit_user": "Επεξεργασία χρήστη",
-  "delete_user": "Delete user",
-  "first_name": "Όνομα",
-  "last_name": "Επώνυμο",
-  "date_of_birth": "Date of birth",
-  "cancel": "Cancel",
   "edit": "Επεξεργασία",
-  "firstname_validation": "First name must be a string without digits",
-  "lastname_validation": "Last name must be a string without digits",
-  "dob_validation": "Date of birth must be a valid date in the past",
-  "delete": "Διαγραφή",
-  "delete_user_question": "Delete user?",
-  "delete_user_description": "This action will permanently delete the user. This cannot be undone",
 
   "advanced_options": "Επιλογές για προχωρημένους",
   "copy": "Αντιγραφή",
@@ -61,7 +46,6 @@
   "logs": {
     "title": "Ιστορικό",
     "follow": "Να ακολουθήσει",
-    "stop_follow": "Σταμάτημα",
     "start_follow_button": "Να ακολουθήσει",
     "stop_follow_button": "Stop following",
     "filter_label": "Regexp filter"

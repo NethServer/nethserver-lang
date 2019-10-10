@@ -140,7 +140,9 @@
     "datetime_save_ok": "Date and Time saved successfully!",
     "datetime_save_error": "Date and Time not saved.",
     "shutdown_ok": "The system is shutting down...",
-    "shutdown_error": "Shutting down error occured."
+    "shutdown_error": "Shutting down error occured.",
+    "hostname_change": "After hostname change you have to login again",
+    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding on other configurations"
   },
   "backup": {
     "title": "Backup",
@@ -274,7 +276,9 @@
     "destination_usage": "Usado",
     "storage_usage": "Destination storage usage",
     "overwrite_all_data": "the restore will overwrite all data",
-    "nfs_rsync_info": "Make sure the NFS server supports hard links, otherwise the backup will fail"
+    "nfs_rsync_info": "Make sure the NFS server supports hard links, otherwise the backup will fail",
+    "during_remap_warning": "During interface remapping, if one or more interface change its IP address, you have to login again in the new IP address",
+    "interface_remap": "Interface remapping"
   },
   "disk_usage": {
     "title": "Utilziação do disco",

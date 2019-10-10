@@ -193,8 +193,8 @@
     "rule_deleted_ok": "Правило удалено!",
     "rule_deleted_error": "Правило не было удалено.",
     "class": "Приоретет",
-    "provider": "Divert",
-    "force": "Force",
+    "provider": "Divert to",
+    "force": "Принудительно выводить на",
     "no_rules_find": "Нет правил",
     "no_rules_find_desc": "Нажмите кнопку ниже, чтобы создать новую"
   },
@@ -303,8 +303,8 @@
     "name": "Имя",
     "description": "Описание",
     "domains": "Домены (по одному на строку)",
-    "change_list_warning": "При изменении источника черного списка текущие настройки этих профилей будут потеряны",
-    "remove_category_warning": "При удалении данной категории, эти фильтры будут потеряны",
+    "change_list_warning": "Changing the source of the blacklists, the current configurations on these profiles will be lost",
+    "remove_category_warning": "Removing this category, these filters will be lost",
     "list_categories": "Список категорий"
   },
   "settings": {
@@ -325,7 +325,7 @@
     "categories": "Категории",
     "profiles": "Профили",
     "parent_proxy": "Вышестоящий прокси, порт необязателен (по умолчанию 3128)",
-    "safe_ports": "Безопасные порты - это список портов, доступных через прокси. Принимается список портов через запятую.",
+    "safe_ports": "Safe ports are a list of ports accessible using the proxy. Insert a comma-separated list of ports",
     "redirect_port": "Переопределить порт Squid по умолчанию",
     "destination": "Insert single firewall objects (sources) or valid FQDN domains. Multiple FQDN domains can be entered comma-separated",
     "blocked_file_types": "Укажите список расширений через запятую",

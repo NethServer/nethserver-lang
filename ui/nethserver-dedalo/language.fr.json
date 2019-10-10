@@ -81,8 +81,6 @@
         "idle_time": "Temps de repos",
         "downloaded": "Téléchargé",
         "uploaded": "Téléversé",
-        "download_bandwidth": "Bande passante de téléchargement",
-        "upload_bandwidth": "Bande passante de téléversement",
         "user_info": "Information de l'utilisateur",
         "error_retrieving_user_info": "Erreur lors de la récupération des informations de l'utilisateur",
         "please_authenticate_to_retrieve_user_info": "Authentifiez-vous svp dans la page Paramètres afin de retrouver les informations de l'utilisateur",

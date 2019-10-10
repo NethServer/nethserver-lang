@@ -35,6 +35,7 @@
     "category_list": "Kategori listesi",
     "alert": "Uyarı",
     "block": "Engelle",
+    "all": "-",
     "enable": "Etkinleştir",
     "disable": "Devre Dışı Bırak",
     "ips": "IPS",
@@ -46,7 +47,7 @@
     "search": "Arama",
     "download": "İndir",
     "categories_not_found": "Kategoriler henüz indirilmemiş",
-    "categories_not_found_desc": "Kategorileri indirmek için yukarıdaki düğmeye tıkla",
+    "categories_not_found_desc": "IPS özelliğini etkinleştirmeden önce kategorileri indir",
     "categories_downloaded_ok": "Kategoriler indirildi!",
     "categories_downloaded_error": "Kategoriler indirilmedi.",
     "ips_is_disabled": "IPS devre dışı",
@@ -58,9 +59,10 @@
     "reset": "Sıfırla",
     "configuration_categories_change": "Henüz değişikliklerin uygulanmadığı kategoriler var. Güncellemek için 'Değişiklikleri Uygula' üzerine tıklayın",
     "actions": "İşlemler",
-    "reset_default": "Varsayılan kategorileri geri yükle",
+    "reset_default": "Varsayılan yapılandırmayı ayarla",
     "enable_all": "Tüm kategorileri etkinleştir",
-    "disable_all": "Tüm kategorileri devre dışı bırak"
+    "disable_all": "Tüm kategorileri devre dışı bırak",
+    "filter_by": "Şuna göre süz"
   },
   "logs": {
     "title": "Günlükler",

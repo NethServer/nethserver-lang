@@ -81,8 +81,6 @@
         "idle_time": "Tiempo de inactividad",
         "downloaded": "Descargado",
         "uploaded": "Subido",
-        "download_bandwidth": "Ancho de banda de descarga",
-        "upload_bandwidth": "Ancho de banda de subida",
         "user_info": "Informacion de Usuario",
         "error_retrieving_user_info": "Error recuperando informacion de usuario",
         "please_authenticate_to_retrieve_user_info": "Por favor autentiquese en la pagina de configuracion para recuperar la informacion de usuario",

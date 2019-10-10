@@ -79,7 +79,7 @@ $L['LdapLocalInstall_message'] = 'Yerel LDAP hesap hizmeti sağlayıcı olarak O
 $L['LocalLdapProviderUninstall_label'] = 'Kaldır';
 
 $L['LocalProviderUninstall_header'] = 'Yerel hesap hizmeti sağlayıcıyı kaldır';
-$L['LocalProviderUninstall_message'] = 'Bu işlem geri alınamaz. Kullanıcı klasörleri silinmez ancak kullanıcı, parola, grup ve bilgisayar hesapları geri alınamayacak şekilde silinir!';
+$L['LocalProviderUninstall_message'] = 'Bu işlem geri alınamaz. Kullanıcı klasörleri silinmez ancak kullanıcı, parola, grup ve bilgisayar hesapları geri alınamayacak şekilde silinecek!';
 $L['UninstallButton_label'] = 'Kaldır';
 $L['installSuccessLdap_notification'] = 'OpenLDAP yerel hesap hizmeti sağlayıcısı düzgün şekilde kuruldu';
 

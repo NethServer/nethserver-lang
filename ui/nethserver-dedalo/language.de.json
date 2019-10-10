@@ -81,8 +81,6 @@
         "idle_time": "Wartezeit",
         "downloaded": "Heruntergeladen",
         "uploaded": "Hochgeladen",
-        "download_bandwidth": "Download-Bandbreite",
-        "upload_bandwidth": "Upload-Bandbreite",
         "user_info": "Benutzerinformation",
         "error_retrieving_user_info": "Fehler beim Abrufen der Benutzerinformationen",
         "please_authenticate_to_retrieve_user_info": "Bitte auf der Seite 'Einstellungen' für das Abrufen von Benutzer-info authentifizieren",

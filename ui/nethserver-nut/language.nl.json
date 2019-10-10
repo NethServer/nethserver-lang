@@ -2,22 +2,7 @@
   "save": "Opslaan",
   "search": "Zoeken",
 
-  "actions": "Acties",
-  "users": "Gebruikers",
-  "add_user": "Add user",
-  "edit_user": "Gebruiker aanpassen",
-  "delete_user": "Delete user",
-  "first_name": "Voornaam",
-  "last_name": "Achternaam",
-  "date_of_birth": "Date of birth",
-  "cancel": "Cancel",
   "edit": "Wijzigen",
-  "firstname_validation": "First name must be a string without digits",
-  "lastname_validation": "Last name must be a string without digits",
-  "dob_validation": "Date of birth must be a valid date in the past",
-  "delete": "Verwijderen",
-  "delete_user_question": "Delete user?",
-  "delete_user_description": "This action will permanently delete the user. This cannot be undone",
 
   "advanced_options": "Geavanceerde opties",
   "copy": "Kopiëren",
@@ -61,7 +46,6 @@
   "logs": {
     "title": "Logs",
     "follow": "Volg",
-    "stop_follow": "Stoppen",
     "start_follow_button": "Volg",
     "stop_follow_button": "Stop following",
     "filter_label": "Regexp filter"

@@ -140,7 +140,9 @@
     "datetime_save_ok": "Datum und Uhrzeit erfolgreich gespeichert!",
     "datetime_save_error": "Datum und Uhrzeit nicht gespeichert.",
     "shutdown_ok": "System wird heruntergefahren ...",
-    "shutdown_error": "Fehler beim Herunterfahren."
+    "shutdown_error": "Fehler beim Herunterfahren.",
+    "hostname_change": "After hostname change you have to login again",
+    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding on other configurations"
   },
   "backup": {
     "title": "Sicherung",
@@ -274,7 +276,9 @@
     "destination_usage": "verwendet",
     "storage_usage": "Auslastung des Zielspeichers",
     "overwrite_all_data": "Bei der Wiederherstellung werden alle Daten überschrieben",
-    "nfs_rsync_info": "Bitte sicherstellen, dass der NFS-Server feste Verbindungen unterstützt, andernfalls schlägt die Sicherung fehl"
+    "nfs_rsync_info": "Bitte sicherstellen, dass der NFS-Server feste Verbindungen unterstützt, andernfalls schlägt die Sicherung fehl",
+    "during_remap_warning": "During interface remapping, if one or more interface change its IP address, you have to login again in the new IP address",
+    "interface_remap": "Interface remapping"
   },
   "disk_usage": {
     "title": "Plattenverbrauch",

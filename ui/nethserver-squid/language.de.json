@@ -193,8 +193,8 @@
     "rule_deleted_ok": "Regel erfolgreich gelöscht!",
     "rule_deleted_error": "Regel nicht gelöscht.",
     "class": "Priorität",
-    "provider": "Umleiten",
-    "force": "Force",
+    "provider": "Divert to",
+    "force": "Zwingen zu",
     "no_rules_find": "Keine Regeln gefunden",
     "no_rules_find_desc": "Bitte auf die Schaltfläche unten klicken, um eine neue zu erstellen"
   },
@@ -303,8 +303,8 @@
     "name": "Name",
     "description": "Beschreibung",
     "domains": "Domains (eine pro Zeile)",
-    "change_list_warning": "Durch Ändern der Quelle der Blacklist gehen die aktuellen Konfigurationen dieser Profile verloren",
-    "remove_category_warning": "Durch Entfernen dieser Kategorie gehen diese Filter verloren",
+    "change_list_warning": "Changing the source of the blacklists, the current configurations on these profiles will be lost",
+    "remove_category_warning": "Removing this category, these filters will be lost",
     "list_categories": "Kategorienliste"
   },
   "settings": {
@@ -325,7 +325,7 @@
     "categories": "Kategorien",
     "profiles": "Profile",
     "parent_proxy": "Upstream-Proxy, Port ist optional (Standard 3128)",
-    "safe_ports": "Sichere Ports sind eine Liste von Ports, auf die über den Proxy zugegriffen werden kann. Es akzeptiert eine durch Kommas getrennte Liste von Ports",
+    "safe_ports": "Safe ports are a list of ports accessible using the proxy. Insert a comma-separated list of ports",
     "redirect_port": "Standard-Squid-Listening-Port überschreiben",
     "destination": "Bitte einzelne Firewall-Objekte (Quellen) oder gültige FQDN-Domänen einfügen. Mehrere FQDN-Domänen können durch Kommas getrennt eingegeben werden",
     "blocked_file_types": "Bitte eine durch Kommas getrennte Liste von Erweiterungen einfügen",

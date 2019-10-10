@@ -2,22 +2,7 @@
   "save": "Salva",
   "search": "Cerca",
 
-  "actions": "Azioni",
-  "users": "Utenti",
-  "add_user": "Aggiungi utente",
-  "edit_user": "Modifica utente",
-  "delete_user": "Elimina utente",
-  "first_name": "Nome",
-  "last_name": "Cognome",
-  "date_of_birth": "Data di nascita",
-  "cancel": "Annulla",
   "edit": "Modifica",
-  "firstname_validation": "Il Nome deve essere una stringa priva di numeri",
-  "lastname_validation": "Il Cognome deve essere una stringa priva di numeri",
-  "dob_validation": "La data di nascita deve essere una data valida del passato",
-  "delete": "Elimina",
-  "delete_user_question": "Eliminare utente?",
-  "delete_user_description": "Questa azione eliminerà definitivamente l'utente. L'azione è irreversibile.",
 
   "advanced_options": "Opzioni avanzate",
   "copy": "Copia",
@@ -61,7 +46,6 @@
   "logs": {
     "title": "Log",
     "follow": "Segui",
-    "stop_follow": "Ferma",
     "start_follow_button": "Segui",
     "stop_follow_button": "Interrompi segui",
     "filter_label": "Filtro regexp"

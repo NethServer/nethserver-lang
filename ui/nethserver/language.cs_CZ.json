@@ -140,7 +140,9 @@
     "datetime_save_ok": "Datum a čas úspěšně uloženy!",
     "datetime_save_error": "Datum a čas neuloženo.",
     "shutdown_ok": "Systém se vypíná…",
-    "shutdown_error": "Při vypínání došlo k chybě."
+    "shutdown_error": "Při vypínání došlo k chybě.",
+    "hostname_change": "After hostname change you have to login again",
+    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding on other configurations"
   },
   "backup": {
     "title": "Záloha",
@@ -274,7 +276,9 @@
     "destination_usage": "Použito",
     "storage_usage": "Využití cílového úložiště",
     "overwrite_all_data": "obnova přepíše veškerá data",
-    "nfs_rsync_info": "Ověřte, že NFS server podporuje pevné odkazy, jinak záloha nebude úspěšná"
+    "nfs_rsync_info": "Ověřte, že NFS server podporuje pevné odkazy, jinak záloha nebude úspěšná",
+    "during_remap_warning": "During interface remapping, if one or more interface change its IP address, you have to login again in the new IP address",
+    "interface_remap": "Interface remapping"
   },
   "disk_usage": {
     "title": "Využití datového úložiště",

@@ -140,7 +140,9 @@
     "datetime_save_ok": "Tarih ve saat kaydedildi!",
     "datetime_save_error": "Tarih ve saat kaydedilemedi.",
     "shutdown_ok": "Sistem kapatılıyor...",
-    "shutdown_error": "Sistem kapatılırken sorun çıktı."
+    "shutdown_error": "Sistem kapatılırken sorun çıktı.",
+    "hostname_change": "Sunucu adı değiştirildikten sonra yeniden oturum açmalısınız",
+    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding on other configurations"
   },
   "backup": {
     "title": "Yedekleme",
@@ -274,7 +276,9 @@
     "destination_usage": "Kullanılmış",
     "storage_usage": "Hedefteki depolama kullanımı",
     "overwrite_all_data": "geri yükleme işlemi tüm verilerin üzerine yazacak",
-    "nfs_rsync_info": "NFS sunucusunun hard link özelliğini desteklediğinden emin olun yoksa yedekleme yapılamaz"
+    "nfs_rsync_info": "NFS sunucusunun hard link özelliğini desteklediğinden emin olun yoksa yedekleme yapılamaz",
+    "during_remap_warning": "Arabirimler yeniden eşleştirilirken, bir ya da daha fazla arabirimin IP adresi değişirse yeni IP adresini kullanarak yeniden oturum açmanız gerekir",
+    "interface_remap": "Arabirimleri yeniden eşleştirme"
   },
   "disk_usage": {
     "title": "Disk kullanımı",

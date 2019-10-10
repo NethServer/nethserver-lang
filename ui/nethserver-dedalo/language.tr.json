@@ -81,8 +81,6 @@
         "idle_time": "Boşta bekleme süresi",
         "downloaded": "İndirilen",
         "uploaded": "Yüklenen",
-        "download_bandwidth": "İndirme bant genişliği",
-        "upload_bandwidth": "Yükleme bant genişliği",
         "user_info": "Kullanıcı bilgileri",
         "error_retrieving_user_info": "Kullanıcı bilgileri alınırken sorun çıktı",
         "please_authenticate_to_retrieve_user_info": "Lütfen kullanıcı bilgilerini almak için Ayarlar bölümünden kimliğinizi doğrulayın",

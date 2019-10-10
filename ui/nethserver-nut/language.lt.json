@@ -2,22 +2,7 @@
   "save": "Įrašyti",
   "search": "Search",
 
-  "actions": "Veiksmai",
-  "users": "Naudotojai",
-  "add_user": "Add user",
-  "edit_user": "Edit user",
-  "delete_user": "Ištrinti naudotoją",
-  "first_name": "Vardas",
-  "last_name": "Pavardė",
-  "date_of_birth": "Date of birth",
-  "cancel": "Atsisakyti",
   "edit": "Taisyti",
-  "firstname_validation": "First name must be a string without digits",
-  "lastname_validation": "Last name must be a string without digits",
-  "dob_validation": "Date of birth must be a valid date in the past",
-  "delete": "Ištrinti",
-  "delete_user_question": "Delete user?",
-  "delete_user_description": "This action will permanently delete the user. This cannot be undone",
 
   "advanced_options": "Išplėstinės parinktys",
   "copy": "Kopijuoti",
@@ -61,7 +46,6 @@
   "logs": {
     "title": "Žurnalai",
     "follow": "Sekti",
-    "stop_follow": "Stabdyti",
     "start_follow_button": "Sekti",
     "stop_follow_button": "Stop following",
     "filter_label": "Regexp filter"

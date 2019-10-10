@@ -140,7 +140,9 @@
     "datetime_save_ok": "Date et Heure sauvegardé avec succès !",
     "datetime_save_error": "Date et Heure non sauvegardé.",
     "shutdown_ok": "Le système est en train de s'arrêter...",
-    "shutdown_error": "Une erreur d'arrêt s'est produite."
+    "shutdown_error": "Une erreur d'arrêt s'est produite.",
+    "hostname_change": "After hostname change you have to login again",
+    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding on other configurations"
   },
   "backup": {
     "title": "Sauvegarde",
@@ -274,7 +276,9 @@
     "destination_usage": "Utilisé",
     "storage_usage": "Utilisation du stockage de destination",
     "overwrite_all_data": "La restauration écrasera toutes les données",
-    "nfs_rsync_info": "Assurez-vous que le serveur NFS supporte les liens durs, autrement la sauvegarde échouera"
+    "nfs_rsync_info": "Assurez-vous que le serveur NFS supporte les liens durs, autrement la sauvegarde échouera",
+    "during_remap_warning": "During interface remapping, if one or more interface change its IP address, you have to login again in the new IP address",
+    "interface_remap": "Interface remapping"
   },
   "disk_usage": {
     "title": "Utilisation disque",

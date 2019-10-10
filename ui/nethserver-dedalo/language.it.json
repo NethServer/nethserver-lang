@@ -81,8 +81,6 @@
         "idle_time": "Tempo di inattività",
         "downloaded": "Download",
         "uploaded": "Upload",
-        "download_bandwidth": "Banda in download",
-        "upload_bandwidth": "Banda in upload",
         "user_info": "Informazioni utente",
         "error_retrieving_user_info": "Errore durante il recupero delle informazioni utente",
         "please_authenticate_to_retrieve_user_info": "Autenticarsi per visualizzare le informazioni utente",

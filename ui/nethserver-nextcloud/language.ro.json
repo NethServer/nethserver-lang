@@ -26,7 +26,7 @@
   "open_app": "Aplicație deschisă",
   "version": "Versiune",
   "admin-password": "Parolă admin",
-  "warning-password": "Parolă implicită pentru admin este 'Nethesis,1234'. Modific-o cât mai curând posibil pentru a preîntâmpina probleme de securitate!",
+  "warning-password": "The default password for the admin user is 'Nethesis,1234'. Please change it as soon as possible to avoid security issues!",
   "warning_wellknown": "Această opțiune va înlocui adresa URL utilizată de clienți pentru a configura automat sincronizarea contactelor și a calendarelor. Lasă această opțiune nebifată dacă ai instalat deja un groupware cum ar fi WebTop sau SOGo",
   "default_trusted_domains": "Dacă gazda virtuală este dezactivată, Nextcloud este întotdeauna accesibil din toate IP-urile și FQDN-urile serverului"
 }

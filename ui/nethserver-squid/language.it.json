@@ -304,7 +304,7 @@
     "description": "Descrizione",
     "domains": "Domini (uno per riga)",
     "change_list_warning": "Se si modifica la sorgente delle blacklist le configurazioni attuali saranno resettate.",
-    "remove_category_warning": "Se si rimuove questa categoria i filtri saranno rimossi.",
+    "remove_category_warning": "Se si rimuove questa categoria, questi filtri saranno rimossi",
     "list_categories": "Lista categorie"
   },
   "settings": {
@@ -325,11 +325,11 @@
     "categories": "Categorie",
     "profiles": "Profili",
     "parent_proxy": "Proxy di secondo livello, la porta è opzionale (default 3128)",
-    "safe_ports": "Il Proxy web di default consente solo il traffico sulle porte 80 e 443 tcp,  se necessario è possibile estendere questo comportamento specificando altre porte ritenute sicure, ad esempio la porta 81, la 82 etc.\nAccetta una lista di porte separate da virgola",
+    "safe_ports": "Le porte sicure sono un elenco di porte accessibili attraverso il proxy. Inserire una lista di porte separate da virgola",
     "redirect_port": "Modifica la porta di default del proxy",
     "destination": "Inserire un oggetto firewall (sorgenti) o domini validi.È possibile inserire più domini separati da virgola.",
     "blocked_file_types": "Inserire una lista di estensioni separate da virgola.",
-    "block_http": "Blocca tutte le connessioni uscenti su porta 80 e 443 TCP dalle reti Green e Blue.Utilizzare solo quando il proxy è configurato come 'Autenticato 'o 'Manuale'"
+    "block_http": "Blocca tutte le connessioni uscenti su porta 80 e 443 TCP dalle reti Green e Blue. Utilizzare solo quando il proxy è configurato come 'Autenticato' o 'Manuale'"
   },
   "validation": {
     "validation_failed": "Verifica fallita",

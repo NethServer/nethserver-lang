@@ -81,8 +81,6 @@
         "idle_time": "Doba nečinnosti",
         "downloaded": "Staženo",
         "uploaded": "Nahráno",
-        "download_bandwidth": "Download bandwidth",
-        "upload_bandwidth": "Upload bandwidth",
         "user_info": "Informace o uživateli",
         "error_retrieving_user_info": "Chyba při získávání informací o uživateli",
         "please_authenticate_to_retrieve_user_info": "Pro získání informací o uživateli se ověřte na stránce Nastavení",

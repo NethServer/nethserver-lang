@@ -2,22 +2,7 @@
   "save": "Guardar",
   "search": "Procurar",
 
-  "actions": "Ações",
-  "users": "Utilizadores",
-  "add_user": "Add user",
-  "edit_user": "Editar utilizador",
-  "delete_user": "Delete user",
-  "first_name": "Nome",
-  "last_name": "Apelido",
-  "date_of_birth": "Date of birth",
-  "cancel": "Cancelar",
   "edit": "Editar",
-  "firstname_validation": "First name must be a string without digits",
-  "lastname_validation": "Last name must be a string without digits",
-  "dob_validation": "Date of birth must be a valid date in the past",
-  "delete": "Eliminar",
-  "delete_user_question": "Delete user?",
-  "delete_user_description": "This action will permanently delete the user. This cannot be undone",
 
   "advanced_options": "Opções avançadas",
   "copy": "Copiar",
@@ -61,7 +46,6 @@
   "logs": {
     "title": "Registos",
     "follow": "Seguir",
-    "stop_follow": "Parar",
     "start_follow_button": "Seguir",
     "stop_follow_button": "Deixar de seguir",
     "filter_label": "Regexp filter"

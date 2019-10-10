@@ -143,8 +143,8 @@
     "docs":{
         "fail2ban": "Fail2ban",
         "more_info_about": "Şunun hakkında ayrıntılı bilgiler",
-        "IgnoreIP": "Bu listedeki IP adresleri Fail2ban tarafından engellenmez (her satıra bir tane yazın)",
-        "MailJailState": "Gözaltı işlemleri (başlama/durma) bildirilsin, root ve diğer alıcılara bildirilir",
+        "IgnoreIP": "Bu listedeki IP adresleri Fail2ban tarafından engellenmeyecek (her satıra bir tane yazın)",
+        "MailJailState": "Gözaltı işlemleri (başlama/durma) bildirilsin, root ve diğer alıcılara bildirilecek",
         "FindTime": "Fail2ban başlatıldığında, hizmet bu zaman aralığı için günlüklerdeki saldırganları tarar",
         "LogLevel": "HATA AYIKLAMA düzeyi günlük boyutunun aşırı artmasına neden olarak disk alanını doldurabilir"
     }

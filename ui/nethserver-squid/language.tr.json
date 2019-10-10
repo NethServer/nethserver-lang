@@ -193,8 +193,8 @@
     "rule_deleted_ok": "Kural silindi!",
     "rule_deleted_error": "Kural silinmedi.",
     "class": "Öncelik",
-    "provider": "Çevir",
-    "force": "Dayat",
+    "provider": "Şuraya yönlendir",
+    "force": "Şuna zorla",
     "no_rules_find": "Herhangi bir kural bulunamadı",
     "no_rules_find_desc": "Yeni bir tane eklemek için aşağıdaki düğmeye tıklayın"
   },
@@ -303,8 +303,8 @@
     "name": "Ad",
     "description": "Açıklama",
     "domains": "Etki alanları (her satıra bir tane yazın)",
-    "change_list_warning": "Kara liste kaynağı değiştirildiğinde, bu profillerin geçerli yapılandırmaları kaybolur",
-    "remove_category_warning": "Bu kategori silindiğinde bu süzgeçler kaybolur",
+    "change_list_warning": "Kara liste kaynağı değiştirildiğinde, bu profillerin geçerli yapılandırmaları kaybolacak",
+    "remove_category_warning": "Bu kategori silindiğinde bu süzgeçler kaybolacak",
     "list_categories": "Kategori listesi"
   },
   "settings": {
@@ -325,7 +325,7 @@
     "categories": "Kategoriler",
     "profiles": "Profiller",
     "parent_proxy": "Giden vekil sunucu, kapı numarası isteğe bağlıdır (varsayılan 3128)",
-    "safe_ports": "Güvenli kapı numaraları vekil sunucu üzerinden erişilebilecek kapı numaralarının listesidir. Virgül ile ayırarak yazın",
+    "safe_ports": "Güvenli kapı numaraları vekil sunucu üzerinden erişilebilecek kapı numaralarının listesidir. Kapı numaralarını virgül ile ayırarak yazabilirsiniz",
     "redirect_port": "Varsayılan Squid dinleme kapı numaraları değiştirilsin",
     "destination": "Tekil güvenlik duvarı nesneleri (kaynaklar) ya da geçerli tam sınıflandırılmış etki alanı adları yazın. Birden çok tam sınıflandırılmış etki alanı adını virgül ile ayırarak yazabilirsiniz",
     "blocked_file_types": "Uzantıların listesini virgül ile ayırarak yazın",

@@ -81,8 +81,6 @@
         "idle_time": "Idle time",
         "downloaded": "Downloaded",
         "uploaded": "Uploaded",
-        "download_bandwidth": "Download bandwidth",
-        "upload_bandwidth": "Upload bandwidth",
         "user_info": "User info",
         "error_retrieving_user_info": "Error retrieving user info",
         "please_authenticate_to_retrieve_user_info": "Please authenticate in Settings page to retrieve user info",

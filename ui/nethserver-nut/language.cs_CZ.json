@@ -2,22 +2,7 @@
   "save": "Uložit",
   "search": "Hledat",
 
-  "actions": "Akce",
-  "users": "Uživatelé",
-  "add_user": "Přidat uživatele",
-  "edit_user": "Upravit uživatele",
-  "delete_user": "Smazat uživatele",
-  "first_name": "Jméno",
-  "last_name": "Příjmení",
-  "date_of_birth": "Datum narozen",
-  "cancel": "Storno",
   "edit": "Upravit",
-  "firstname_validation": "Je třeba, aby jméno byl řetězec bez čísel",
-  "lastname_validation": "Last name must be a string without digits",
-  "dob_validation": "Je třeba, aby datum narození bylo platné datum v minulosti",
-  "delete": "Smazat",
-  "delete_user_question": "Smazat uživatele?",
-  "delete_user_description": "This action will permanently delete the user. This cannot be undone",
 
   "advanced_options": "Pokročilé předvolby",
   "copy": "Kopírovat",
@@ -61,7 +46,6 @@
   "logs": {
     "title": "Záznamy událostí",
     "follow": "Následovat",
-    "stop_follow": "Zastavit",
     "start_follow_button": "Následovat",
     "stop_follow_button": "Přestat odebírat",
     "filter_label": "Filtr s regulárním výrazem"
