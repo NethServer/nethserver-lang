@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.4.1
+Version: 1.4.2
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -230,6 +230,10 @@ BuildArch: noarch
 Cockpit translstions for all languages.
 
 %changelog
+* Thu Oct 10 2019 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.4.2-1
+- Cockpit: improve English labels - NethServer/dev#5856
+- Pull translations from Transifex
+
 * Mon Oct 07 2019 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.4.1-1
 - Pull strings from Transifex for NS 7.7 release
 
