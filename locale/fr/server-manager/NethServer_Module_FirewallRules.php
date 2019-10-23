@@ -3,7 +3,7 @@
 /* NethServer_Module_FirewallRules translation, language: en */
 
 $L['FirewallRules_Description'] = 'Gérer les règles du pare-feu';
-$L['FirewallRules_Tags'] = 'firewall rule policy traffic shaping';
+$L['FirewallRules_Tags'] = 'Règle du pare-feu pour le lissage du trafic';
 $L['FirewallRules_Title'] = 'Règles du pare-feu';
 
 $L['general_header'] = 'Général';
@@ -19,10 +19,10 @@ $L['MACValidationPolicy_label'] = 'Politique pour les hôtes sans IP/MAC fixée 
 $L['drop_label'] = 'Bloquer le trafic';
 $L['accept_label'] = 'Autoriser le trafic';
 
-$L['Edit_header'] = 'Editer règle #${0}';
+$L['Edit_header'] = 'Éditer règle #${0}';
 $L['status_label'] = 'Activé';
 $L['Action_label'] = 'Action';
-$L['Rule_label'] = 'Rule';
+$L['Rule_label'] = 'Règle';
 $L['ActionReject_label'] = 'Rejeter';
 $L['ActionAccept_label'] = 'Accepter';
 $L['ActionDrop_label'] = 'Abandonner (drop)';
@@ -33,19 +33,19 @@ $L['Time_label'] = 'Condition de temps';
 $L['PickSource_label'] = 'En choisir un...';
 $L['PickDestination_label'] = 'En choisir un...';
 $L['PickService_label'] = 'En choisir un...';
-$L['LogType_label'] = 'Ecrire dans la log si cette règle correspond';
+$L['LogType_label'] = 'Écrire dans le journal si cette règle correspond';
 
-$L['PickObject_SrcRaw_header'] = 'Choisir la source des paquets pour la règle "${RuleId}"';
-$L['PickObject_DstRaw_header'] = 'Choisir la destination des paquets pour la règle "${RuleId}"';
-$L['PickObject_ServiceRaw_header'] = 'Choisir le procole du service pour la règle "${RuleId}"';
-$L['PickObject_TimeRaw_header'] = 'Choose the time condition for rule "${RuleId}"';
+$L['PickObject_SrcRaw_header'] = 'Choisissez la source de paquet pour la règle "$ {RuleId}"';
+$L['PickObject_DstRaw_header'] = 'Choisir la destination du paquet pour la règle "${RuleId}"';
+$L['PickObject_ServiceRaw_header'] = 'Choisir le protocole du service pour la règle "${RuleId}"';
+$L['PickObject_TimeRaw_header'] = 'Choisissez la condition de temps pour la règle "$ {RuleId}"';
 
 $L['Create_last_label'] = 'Créer une règle en dernière position';
 $L['Create_first_label'] = 'Créer une règle en première position';
-$L['Create_header'] = 'Créer une règle de parefeu';
+$L['Create_header'] = 'Créer une règle de pare-feu';
 $L['Copy_header'] = 'Créer une copie de #${0}';
-$L['Commit_label'] = 'Appliquer les changements';
-$L['Edit_label'] = 'Editer';
+$L['Commit_label'] = 'Appliquer les modifications';
+$L['Edit_label'] = 'Éditer';
 $L['EditRule_label'] = 'Éditer la règle';
 $L['EditService_label'] = 'Éditer le service';
 $L['Copy_label'] = 'Copier';
@@ -59,19 +59,19 @@ $L['Delete_message'] = 'Confirmer la suppression de la règle #${id}';
 $L['HostGroups_create'] = 'Créer un groupe d\'hôte "${0}"';
 $L['Hosts_create'] = 'Créer hôte "${0}"';
 $L['Zones_create'] = 'Créer une zone"${0}"';
-$L['Services_create'] = 'Create service object "${0}"';
-$L['Time_create'] = 'Create time condition "${0}"';
-$L['IpRange_create'] = ' Créer plage IP "${0}"';
+$L['Services_create'] = 'Créer un objet de service "${0}"';
+$L['Time_create'] = 'Créer une condition de temps "${0}"';
+$L['IpRange_create'] = ' Créer une plage IP "${0}"';
 $L['Cidr_create'] = 'Créer réseau CIDR "${0}"';
 
 $L['A_new_rule_label'] = "Nouvelle règle";
 $L['NoRulesDefined_label'] = 'Aucune règle définie. Créez la première maintenant !';
 
-$L['any_service_label'] = 'Tout les services';
+$L['any_service_label'] = 'Tous les services';
 $L['any_src_dst_label'] = 'Tous les hôtes';
 $L['Time_always'] = 'Toujours';
 $L['Type_any_label'] = 'tout';
-$L['Type_fw_label'] = 'firewall';
+$L['Type_fw_label'] = 'pare-feu';
 $L['host_label'] = 'hôte';
 $L['zone_label'] = 'zone';
 $L['iprange_label'] = 'Plage d\'IP';
@@ -83,43 +83,43 @@ $L['confirm_reload_label'] = 'Aucun changement n\'a été appliqué.';
 $L['FirewallObject_any_Title'] = 'Tout';
 $L['FirewallObject_fw_Title'] = 'Pare-feu';
 $L['FirewallObject_host_Title'] = 'Hôte ${key}';
-$L['FirewallObject_local_Title'] = 'LAN hôte ${key}';
+$L['FirewallObject_local_Title'] = 'Hôte LAN ${key}';
 $L['FirewallObject_remote_Title'] = 'Hôte ${key}';
 $L['FirewallObject_role_Title'] = 'Rôle ${key}';
 $L['FirewallObject_zone_Title'] = 'Zone ${key}';
 $L['FirewallObject_host-group_Title'] = 'Groupe d\'hôtes ${key}';
-$L['FirewallObject_fwservice_Title'] = '${key} - service object';
-$L['FirewallObject_time_Title'] = '${key} - time condition';
-$L['FirewallObject_service_Title'] = '${key} - network service';
-$L['FirewallObject_ndpi_Title'] = '${name} - DPI protocol';
+$L['FirewallObject_fwservice_Title'] = '${key} - objet de service';
+$L['FirewallObject_time_Title'] = '${key} - condition de temps';
+$L['FirewallObject_service_Title'] = '${key} - service réseau';
+$L['FirewallObject_ndpi_Title'] = '${name} - protocole DPI';
 $L['FirewallObject_iprange_Title'] = 'Plage IP ${key}';
 $L['FirewallObject_cidr_Title'] = 'Réseau CIDR ${key}';
 
-$L['Show_x_outof_y_label'] = 'Présentation de ${partial} resultats en dehors de ${total}';
+$L['Show_x_outof_y_label'] = 'Affichage des résultats ${partiels} sur ${total}';
 $L['ActionRoute_label'] = 'Route vers ${0}';
 $L['ActionRouteIndex_label'] = '${0}';
 $L['ActionPriorityIndex_label'] = '${0}';
-$L['ActionLog_label'] = 'Log';
+$L['ActionLog_label'] = 'Journal';
 
-$L['ShowAction_label'] = 'Voir';
-$L['ShowRules_label'] = 'Firewall (${0})';
-$L['ShowRoutes_label'] = 'Policy routing (${0})';
-$L['ShowServices_label'] = 'Network services (${0})';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping (${0})';
+$L['ShowAction_label'] = 'Montrer';
+$L['ShowRules_label'] = 'Pare-feu (${0})';
+$L['ShowRoutes_label'] = 'Stratégie de routage (${0})';
+$L['ShowServices_label'] = 'Services réseau (${0})';
+$L['ShowTrafficShaping_label'] = 'Lissage du trafic (${0})';
 
-$L['ActionPriorityHigh_label'] = 'High priority';
-$L['ActionPriorityLow_label'] = 'Low priority';
-$L['ActionPriority_label'] = 'Priority ${0}';
+$L['ActionPriorityHigh_label'] = 'Priorité haute ';
+$L['ActionPriorityLow_label'] = 'Priorité basse';
+$L['ActionPriority_label'] = 'Priorité ${0}';
 $L['ActionPrioLo_label'] = 'Lo-Prio';
 $L['ActionPrioHi_label'] = 'Hi-Prio';
 
-$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Les règles de routages ne permettent pas la zone rouge d\'être mis en temps que Source.';
-$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Les règles de routages permettes seulement le type de Destinations suivante : zone, hôte, ip, range, cidr, rouge.';
-$L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Selecting "local service" requires the "firewall" destination.';
-$L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Traffic shaping rules do not allow the red zone to be set as source';
-$L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Traffic shaping rules allow only the following Destination types: zone, host, IP range, CIDR, red';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Les règles de routage ne permettent pas de définir la zone rouge en tant que source.';
+$L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Les règles de routages permettent seulement les types de destinations suivants : zone, hôte, ip, plage, cidr, rouge.';
+$L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'La sélection de "service local" nécessite la destination "pare-feu".';
+$L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Les règles de lissage du trafic ne permettent pas de définir la zone rouge en tant que source';
+$L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Les règles de lissage du trafic autorisent uniquement les types de destination suivants : zone, hôte, plage IP, CIDR, rouge';
 
-$L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Rules using DPI protocol as a service do not allow "Any" as source nor destination.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Rules using DPI protocol as a service do not allow "Firewall" as source nor.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Route rules do not allow to set a DPI protocol as service.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'Action "Reject" is not supported for rules using a DPI protocol as service: use "Drop" action instead.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Les règles utilisant le protocole DPI en tant que service ne permettent pas "Tous" comme source ou destination.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Les règles utilisant le protocole DPI en tant que service ne permettent pas "Pare-feu" comme source';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Les règles de routage ne permettent pas de définir un protocole DPI en tant que service.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'L\'action "Rejeter" n\'est pas prise en charge pour les règles utilisant un protocole DPI en tant que service: utilisez plutôt l\'action "Abandonner".';

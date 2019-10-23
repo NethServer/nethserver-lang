@@ -98,7 +98,7 @@
         "SshdDdos_status": "Sshd Ddos",
         "vpn_jails": "VPN",
         "OpenVpnAuth_status": "OpenVpn Auth",
-        "webApps_jails": "web applications",
+        "webApps_jails": "Web applications",
         "Nextcloud_status": "Nextcloud Auth",
         "Owncloud_status": "Owncloud Auth",
         "ApachePhpMyAdmin_status": "PhpMyAdmin Auth",
@@ -122,7 +122,7 @@
     },
     "dashboard":{
         "title": "Dashboard",
-        "list_active_jails": "Elenca tutte le jail attive",
+        "list_active_jails": "Elenco jail attive",
         "number_of_active_jail": "Jail attive",
         "number_bans_per_jail": "Statistiche IP bloccati per jail",
         "empty_piechart_label": "Tabella vuota",

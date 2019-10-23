@@ -444,7 +444,7 @@
         "external_ping": "Ping a partir da Internet",
         "mac": "Validação MAC (ligação IP/MAC)",
         "allowed": "Permitido",
-        "allow_mac": "Allow hosts without IP/MAC binding (DHCP reservation)",
+        "block_mac": "Block hosts not listed in DHCP reservations",
         "settings_updated_ok": "Settings updated successfully!",
         "settings_updated_error": "Settings not updated.",
         "portforward": "Port forward",
@@ -452,9 +452,9 @@
     },
     "logs": {
         "title": "Registros",
-        "follow": "Seguir",
-        "stop_follow": "Parar de seguir",
-        "process_terminated": "Process terminated"
+        "start_follow_button": "Seguir",
+        "stop_follow_button": "Parar de seguir",
+        "filter_label": "Filtro de Rejeição por Expressão"
     },
     "about": {
         "title": "Sobre",
@@ -514,6 +514,8 @@
         "pf_origin_port": "Insert a single port, a list of comma-separated ports, or a port range using \":\" as separator like \"100:200\".",
         "rules_source": "You may insert an IP address or a CIDR if you do not want to create a host or CIDR object.",
         "rules_destination": "You may insert an IP address or a CIDR if you do not want to create a host or CIDR object.",
-        "objects_ports": "Sintaxe suportada: lista de porta separada por vírgula ou faixa de portas (ex.: 10000-20000)"
+        "objects_ports": "Sintaxe suportada: lista de porta separada por vírgula ou faixa de portas (ex.: 10000-20000)",
+        "mac_validation": "Requests from IP addresses listed in DHCP reservations are allowed only if are originated from the associated MAC address (even if DHCP is disabled).",
+        "mac_validation_policy": "Requests from IP addresses not listed in DHCP reservations are blocked. Ensure admin hosts are listed in DHCP reservations."
     }
 }

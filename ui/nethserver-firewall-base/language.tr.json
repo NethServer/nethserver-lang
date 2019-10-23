@@ -444,7 +444,7 @@
         "external_ping": "İnternet üzerinden Ping",
         "mac": "MAC doğrulaması (IP/MAC bağlama)",
         "allowed": "İzin verilen",
-        "allow_mac": "IP/MAC bağlaması (DHCP Rezervasyonu) olmayan sunuculara izin verilsin",
+        "block_mac": "Block hosts not listed in DHCP reservations",
         "settings_updated_ok": "Ayarlar güncellendi!",
         "settings_updated_error": "Ayarlar güncellenemedi.",
         "portforward": "Kapı numarası yönlendirmesi",
@@ -452,9 +452,9 @@
     },
     "logs": {
         "title": "Günlükler",
-        "follow": "İzle",
-        "stop_follow": "İzlemeyi bırak",
-        "process_terminated": "İşlem sonlandırıldı"
+        "start_follow_button": "İzle",
+        "stop_follow_button": "İzlemeyi bırak",
+        "filter_label": "Kurallı ifade süzgeci"
     },
     "about": {
         "title": "Hakkında",
@@ -514,6 +514,8 @@
         "pf_origin_port": "Tek bir kapı numarası, virgül ile ayrılmış bir kapı numarsaı listesi ya da ayraç olarak \":\" kullanarak (100:200 gibi) bir kapı numarası aralığı yazın. ",
         "rules_source": "Bir sunucu ya da CIDR nesnesi eklemek istemiyorsanız bir IP adresi ya da CIDR yazabilirsiniz.",
         "rules_destination": "Bir sunucu ya da CIDR nesnesi eklemek istemiyorsanız bir IP adresi ya da CIDR yazabilirsiniz.",
-        "objects_ports": "Yazım biçimi: virgül ile ayrılmış kapı numaraları listesi ya da kapı numarası aralığı (10000-20000 gibi)"
+        "objects_ports": "Yazım biçimi: virgül ile ayrılmış kapı numaraları listesi ya da kapı numarası aralığı (10000-20000 gibi)",
+        "mac_validation": "Requests from IP addresses listed in DHCP reservations are allowed only if are originated from the associated MAC address (even if DHCP is disabled).",
+        "mac_validation_policy": "Requests from IP addresses not listed in DHCP reservations are blocked. Ensure admin hosts are listed in DHCP reservations."
     }
 }

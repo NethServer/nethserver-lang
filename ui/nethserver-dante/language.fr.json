@@ -33,7 +33,11 @@
     "send_mail": "Envoi de courriel",
     "send": "Envoyer",
     "test_address": "Adresse",
-    "include_configured_addresses": "Inclure l'adresse configurée"
+    "include_configured_addresses": "Inclure l'adresse configurée",
+    "invalid_dns": "The 'Public host' field is using a private DNS name: the report will not be accessibile from Internet.",
+    "mining_configuration": "Data collection",
+    "missing_miners": "No data collected yet. Wait until tomorrow or click 'Collect now'",
+    "mining_now": "Collect now"
   },
   "about": {
     "title": "A propos",

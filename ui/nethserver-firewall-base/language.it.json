@@ -443,8 +443,8 @@
         "traffic_internet": "Traffico verso Internet (interfaccia red)",
         "external_ping": "Ping da Internet",
         "mac": "Validazione MAC (Binding IP/MAC)",
-        "allowed": "Permesso",
-        "allow_mac": "Policy per host senza binding IP/MAC (riserva DHCP)",
+        "allowed": "Abilitato",
+        "block_mac": "Blocca host non presenti nella lista prenotazioni DHCP.",
         "settings_updated_ok": "Impostazioni aggiornate correttamente\"",
         "settings_updated_error": "Impostazioni non aggiornate.",
         "portforward": "Port forward",
@@ -452,9 +452,9 @@
     },
     "logs": {
         "title": "Log",
-        "follow": "Segui",
-        "stop_follow": "Interrompi segui",
-        "process_terminated": "Processo terminato"
+        "start_follow_button": "Segui",
+        "stop_follow_button": "Interrompi segui",
+        "filter_label": "Filtro regexp"
     },
     "about": {
         "title": "Informazioni",
@@ -514,6 +514,8 @@
         "pf_origin_port": "Inserire una singola porta, una lista di porte separate da virgola o un intervallo di porte usando \":\" come separatore, tipo \"100:200\"",
         "rules_source": "E' possibile inserire un indirizzo IP o un CIDR se non si desidera creare un oggetto host o CIDR.",
         "rules_destination": "E' possibile inserire un indirizzo IP o un CIDR se non si desidera creare un oggetto host o CIDR.",
-        "objects_ports": "Sintassi supportata: lista di porte separate da virgola o range di porte (es. 10000-20000)"
+        "objects_ports": "Sintassi supportata: lista di porte separate da virgola o range di porte (es. 10000-20000)",
+        "mac_validation": "Le richieste fatte da indirizzi IP elencati nelle prenotazioni del DHCP sono consentite solo se originate dallo stesso indirizzo MAC presente nella prenotazione (funziona anche con DHCP disabilitato)",
+        "mac_validation_policy": "Le richieste da indirizzi IP non presenti nella lista di prenotazioni del DHCP sono bloccate. Assicurarsi che gli amministratori di questo apparato abbiano i propri apparati (IP/MAC ) presenti nella lista delle prenotazioni del DHCP."
     }
 }

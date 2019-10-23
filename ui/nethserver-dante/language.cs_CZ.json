@@ -33,7 +33,11 @@
     "send_mail": "Poslat e-mail",
     "send": "Poslat",
     "test_address": "Adresa",
-    "include_configured_addresses": "Zahrnout nastavené adresy"
+    "include_configured_addresses": "Zahrnout nastavené adresy",
+    "invalid_dns": "The 'Public host' field is using a private DNS name: the report will not be accessibile from Internet.",
+    "mining_configuration": "Data collection",
+    "missing_miners": "No data collected yet. Wait until tomorrow or click 'Collect now'",
+    "mining_now": "Collect now"
   },
   "about": {
     "title": "O aplikaci",

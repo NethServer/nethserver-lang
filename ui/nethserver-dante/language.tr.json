@@ -33,7 +33,11 @@
     "send_mail": "E-posta gönder",
     "send": "Gönder",
     "test_address": "Adres",
-    "include_configured_addresses": "Yapılandırılmış adresler katılsın"
+    "include_configured_addresses": "Yapılandırılmış adresler katılsın",
+    "invalid_dns": "The 'Public host' field is using a private DNS name: the report will not be accessibile from Internet.",
+    "mining_configuration": "Data collection",
+    "missing_miners": "No data collected yet. Wait until tomorrow or click 'Collect now'",
+    "mining_now": "Collect now"
   },
   "about": {
     "title": "Hakkında",

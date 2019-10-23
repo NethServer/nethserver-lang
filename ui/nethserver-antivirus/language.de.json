@@ -1,15 +1,15 @@
 {
     "settings": {
         "title": "Einstellungen",
-        "official_signatures": "ClamAV official signatures",
-        "unofficial_signatures_rating": "Third-party signatures rating",
-        "error_reading_configuration": "Error reading antivirus configuration",
-        "error_validating_configuration": "Error validating antivirus configuration",
+        "official_signatures": "ClamAV offizielle Signaturen",
+        "unofficial_signatures_rating": "Signaturen von Drittanbietern bewerten",
+        "error_reading_configuration": "Lesefehler Antivirus-Konfiguration",
+        "error_validating_configuration": "Fehler beim Überprüfen der Antivirus-Konfiguration",
         "configuration_update_successful": "Konfigurationsupdate erfolgreich",
         "configuration_update_failed": "Konfigurationsupdate fehlgeschlagen",
-        "info_notification": "Signatures are downloaded at hourly intervals. Changes to this page will take effect on next automatic signatures download.",
-        "error_reading_total_memory": "Error reading total memory",
-        "memory_warning": "The system has less than 4GB of RAM. You're strongly advised to disable official ClamAV signatures to avoid memory filling."
+        "info_notification": "Signaturen werden stündlich heruntergeladen. Änderungen an dieser Seite werden beim nächsten automatischen Signatur-Download wirksam.",
+        "error_reading_total_memory": "Fehler beim Lesen des Gesamtspeichers",
+        "memory_warning": "Das System verfügt über weniger als 4 GB RAM. Es wird dringend empfohlen, offizielle ClamAV-Signaturen zu deaktivieren, um einen Speicherüberlauf zu vermeiden."
     },
     "about": {
         "title": "Über",
@@ -23,25 +23,25 @@
         "start_follow_button": "Zum Ende",
         "stop_follow_button": "Stop folgende",
         "filter_label": "Regexp-Filter",
-        "error_getting_clamav_instances": "Error getting ClamAV instances"
+        "error_getting_clamav_instances": "Fehler beim Abrufen der ClamAV-Instanzen"
     },
     "dashboard":{
         "title": "Antivirus",
         "email_protection": "E-Mail-Schutz",
         "web_protection": "Web-Schutz",
-        "error_getting_dashboard_data": "Error getting dashboard data",
+        "error_getting_dashboard_data": "Fehler beim Abrufen der Übersichtsdaten",
         "malware_found": "Schadsoftware gefunden",
         "signatures_loaded": "Signaturen geladen",
         "status": "Status",
         "no_data_available": "Keine Daten verfügbar",
         "other": "Andere",
-        "memory_used": "Memory used",
+        "memory_used": "Speicher verwendet",
         "since": "Seit",
-        "no_instance_installed": "No ClamAV instance installed"
+        "no_instance_installed": "Keine ClamAV-Instanz installiert"
     },
     "docs": {
-        "official_signatures": "Official ClamAV signatures use a large amount of memory. Official signatures detect many old threats but are not very effective against the latest malware.",
-        "unofficial_signatures_ratings": "Higher rating means more blocked threats but also a higher probability of false positives. Recommended ratings are 'Low' and 'Medium'."
+        "official_signatures": "Offizielle ClamAV-Signaturen belegen viel Speicher. Offizielle Signaturen erkennen viele alte Bedrohungen, sind aber gegen die neueste Malware nicht sehr effektiv.",
+        "unofficial_signatures_ratings": "Höhere Bewertungen bedeuten mehr blockierte Bedrohungen, aber auch eine höhere Wahrscheinlichkeit von Fehlalarmen. Empfohlene Bewertungen sind 'Niedrig' und 'Mittel'."
     },
     "save": "Speichern",
     "cancel": "Abbrechen"

@@ -444,7 +444,7 @@
         "external_ping": "ping depuis Internet",
         "mac": "Validation MAC (association fixe IP/MAC )",
         "allowed": "Autorisé",
-        "allow_mac": "Autoriser les hôtes sans IP/MAC fixe (réservation DHCP)",
+        "block_mac": "Block hosts not listed in DHCP reservations",
         "settings_updated_ok": "Réglages mis à jour avec succès !",
         "settings_updated_error": "Réglages non actualisés.",
         "portforward": "Transfert de port",
@@ -452,9 +452,9 @@
     },
     "logs": {
         "title": "Journaux",
-        "follow": "Suivre",
-        "stop_follow": "Arrêter de suivre",
-        "process_terminated": "Processus terminé"
+        "start_follow_button": "Suivre",
+        "stop_follow_button": "Arrêter de suivre",
+        "filter_label": "Filtre regexp"
     },
     "about": {
         "title": "A propos",
@@ -514,6 +514,8 @@
         "pf_origin_port": "Renseignez un port, une liste de ports séparés par un point-virgule ou une plage de ports en utilisant \":\" comme séparateur tel que \"100:200\"",
         "rules_source": "Vous devez renseigner une IP ou un masque si vous ne voulez pas créer un hôte ou un objet CIDR",
         "rules_destination": "Vous devez renseigner une IP ou un masque si vous ne voulez pas créer un hôte ou un objet CIDR",
-        "objects_ports": "Supported syntax: comma-separated port list or port range (i.e. 10000-20000)"
+        "objects_ports": "Supported syntax: comma-separated port list or port range (i.e. 10000-20000)",
+        "mac_validation": "Requests from IP addresses listed in DHCP reservations are allowed only if are originated from the associated MAC address (even if DHCP is disabled).",
+        "mac_validation_policy": "Requests from IP addresses not listed in DHCP reservations are blocked. Ensure admin hosts are listed in DHCP reservations."
     }
 }

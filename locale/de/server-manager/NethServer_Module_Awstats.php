@@ -1,6 +1,6 @@
 <?php
 $L['Awstats_Title'] = 'Awstats Statistik';
-$L['Awstats_Description'] = 'Produce access log statistic';
+$L['Awstats_Description'] = 'Zugriffsprotokollstatistik erstellen';
 $L['Settings_Title'] = 'Einstellungen';
 $L['Statistics_Title'] = 'Statistiken';
 $L['AwstatsStatistics_Title'] = 'Siehe Protokollstatistik';

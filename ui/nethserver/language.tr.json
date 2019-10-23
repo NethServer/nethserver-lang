@@ -142,7 +142,7 @@
     "shutdown_ok": "Sistem kapatılıyor...",
     "shutdown_error": "Sistem kapatılırken sorun çıktı.",
     "hostname_change": "Sunucu adı değiştirildikten sonra yeniden oturum açmalısınız",
-    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding on other configurations"
+    "hostname_invalid_warn": "Sunucunun tam olarak sınıflandırılmış adında 'localhost' ya da 'localdomain' sözcükleri bulunamaz. Diğer yapılandırma işlemlerine geçmeden önce bilgisayarın sunucu adını değiştirmelisiniz"
   },
   "backup": {
     "title": "Yedekleme",

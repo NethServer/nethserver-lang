@@ -3,7 +3,7 @@
 # 
 # Translators:
 # Jose G. Jimenez S. <josegjimenez@gmail.com>, 2015
-# Martín Cigorraga M. <martincigorraga@gmail.com>, 2015
+# 203128b0796857258e0a44f5a59756a2, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"

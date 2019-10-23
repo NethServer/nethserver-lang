@@ -444,7 +444,7 @@
         "external_ping": "Ping από Internet",
         "mac": "Επαλήθευση MAC (σύνδεση IP/MAC )",
         "allowed": "Επιτρεπόμενο",
-        "allow_mac": "Allow hosts without IP/MAC binding (DHCP reservation)",
+        "block_mac": "Block hosts not listed in DHCP reservations",
         "settings_updated_ok": "Settings updated successfully!",
         "settings_updated_error": "Settings not updated.",
         "portforward": "Port forward",
@@ -452,9 +452,9 @@
     },
     "logs": {
         "title": "Ιστορικό",
-        "follow": "Να ακολουθήσει",
-        "stop_follow": "Stop following",
-        "process_terminated": "Process terminated"
+        "start_follow_button": "Να ακολουθήσει",
+        "stop_follow_button": "Stop following",
+        "filter_label": "Regexp filter"
     },
     "about": {
         "title": "About",
@@ -514,6 +514,8 @@
         "pf_origin_port": "Insert a single port, a list of comma-separated ports, or a port range using \":\" as separator like \"100:200\".",
         "rules_source": "You may insert an IP address or a CIDR if you do not want to create a host or CIDR object.",
         "rules_destination": "You may insert an IP address or a CIDR if you do not want to create a host or CIDR object.",
-        "objects_ports": "Supported syntax: comma-separated port list or port range (i.e. 10000-20000)"
+        "objects_ports": "Supported syntax: comma-separated port list or port range (i.e. 10000-20000)",
+        "mac_validation": "Requests from IP addresses listed in DHCP reservations are allowed only if are originated from the associated MAC address (even if DHCP is disabled).",
+        "mac_validation_policy": "Requests from IP addresses not listed in DHCP reservations are blocked. Ensure admin hosts are listed in DHCP reservations."
     }
 }

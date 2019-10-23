@@ -1,6 +1,6 @@
 <?php
 $L['Madsonic_Title'] = 'Madsonic';
-$L['Madsonic_Description'] = 'Madsonic Music streamer';
+$L['Madsonic_Description'] = 'Streamer de musique madsonique';
 $L['status_label'] = 'activer Madsonic';
 $L['webaccess_private_label'] = 'Accès privé';
 $L['webaccess_public_label'] = 'Accès public';

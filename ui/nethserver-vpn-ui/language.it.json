@@ -81,7 +81,7 @@
     "rightsubnets": "Reti remote (una per riga)",
     "leftid": "Identificatore locale",
     "rightid": "Identificatore remoto",
-    "psk": "PSK (Chiave segreta condivisa)",
+    "psk": "Pre-shared Key",
     "dpdaction": "Abilita DPD (Dead Peer Detection)",
     "pfs": "Abilita PFS (Perfect Forward Secrecy)",
     "compress": "Abilita Compressione ",
@@ -101,7 +101,7 @@
     "menu_title": "Tunnel OVPN",
     "title": "Tunnel OpenVPN",
     "no_tunnels_servers_found": "Non ci sono tunnel server configurati",
-    "no_tunnels_servers_found_desc": "Clicca per creare un nuovo Tunnel Server ",
+    "no_tunnels_servers_found_desc": "Clicca per creare un nuovo Tunnel",
     "no_tunnels_clients_found": "Non ci sono tunnel client configurati",
     "no_tunnels_clients_found_desc": "Clicca per creare un nuovo Tunnel Client",
     "add_tunnel": "Crea nuovo tunnel",
@@ -130,7 +130,7 @@
     "vpn_network": "Rete VPN ",
     "local_p2p_ip": "IP P2P locale",
     "remote_p2p_ip": "IP P2P remoto",
-    "psk": "PSK (Chiave segreta condivisa)",
+    "psk": "Pre-shared Key",
     "protocol": "Protocollo",
     "udp": "UDP",
     "tcp": "TCP",
@@ -142,7 +142,7 @@
     "download_configuration": "Scarica configurazione del tunnel ",
     "client_configuration": "Configurazione client",
     "private_key_tun_ca": "Chiave privata, tunnel e certificati CA",
-    "psk_download": "PSK (Chiave segreta condivisa)",
+    "psk_download": "PSK (Pre-shared Key)",
     "tun_servers": "Server tunnel",
     "tun_clients": "Client tunnel",
     "remote_port": "Porta remota",
@@ -305,8 +305,8 @@
   },
   "docs": {
     "more_info_about": "Maggiori informazioni su {docsLink}.",
-    "right": "Indicare l'indirizzo IP pubblico, se l'apparato remoto ha un indirizzo IP dinamico indicare %any",
-    "vpn_remote_network": "Compila questo campo solo nel caso tu voglia creare una VPN Net to Net su questo account (fornito per compatibilità con Nethserver 6).\nNon compilare questi campi se stati configurando una VPN host to net.",
+    "right": "Indicare l'indirizzo IP pubblico, se l'apparato remoto ha un indirizzo IP dinamico utilizzare  1%any.",
+    "vpn_remote_network": "Compilare questo campo solo nel caso si desideri creare una VPN Net to Net su questo account (fornito per compatibilità con Nethserver 6). Non compilare questi campi per configurare una VPN host to net.",
     "vpn_remote_netmask": "Compila questo campo solo se hai già compilato il campo precedente (Subnet remota VPN)"
   }
 }

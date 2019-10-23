@@ -33,7 +33,11 @@
     "send_mail": "Trimite mail",
     "send": "Trimite",
     "test_address": "Adresă",
-    "include_configured_addresses": "Include adresele configurate"
+    "include_configured_addresses": "Include adresele configurate",
+    "invalid_dns": "The 'Public host' field is using a private DNS name: the report will not be accessibile from Internet.",
+    "mining_configuration": "Data collection",
+    "missing_miners": "No data collected yet. Wait until tomorrow or click 'Collect now'",
+    "mining_now": "Collect now"
   },
   "about": {
     "title": "Despre",
