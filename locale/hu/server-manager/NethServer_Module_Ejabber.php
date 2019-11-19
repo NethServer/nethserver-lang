@@ -1,16 +1,16 @@
 <?php 
 
-$L['Ejabber_Title'] = 'Csevegés szolgáltatás';
-$L['Ejabber_Description'] = 'Csevegés szolgáltatás beállítása';
-$L['Ejabber_Tags'] = 'csevegés xmpp jabber ejabber';
-$L['status_label'] = 'Ejabber csevegés szolgáltatás engedélyezése';
+$L['Ejabberd_Title'] = 'ejabberd XMPP server';
+$L['Ejabberd_Description'] = 'Manage ejabberd XMPP server';
+$L['Ejabberd_Tags'] = 'csevegés chat xmpp ejabberd';
+$L['status_label'] = 'Enable ejabberd XMPP server';
 $L['WebAdmin_label'] = 'Administration web Interface';
 $L['Advanced_label'] = 'Advanced settings';
 $L['S2S_label'] = 'Enable federation (S2S)';
 $L['ShaperFast_label'] = 'File transfer maximum speed (bytes/second)';
 $L['ShaperNormal_label'] = 'File transfer normal speed (bytes/second)';
 $L['ShaperFastMustBeSuperiorThanshaperNormal'] = 'The maximum speed must be superior than the normal speed';
-$L['EjabberdURL'] = 'URL';
+$L['Ejabberd_URL'] = 'URL';
 $L['UsersMustBePartOfJabberadmins'] = 'Admin users must be in the jabberadmins group';
 $L['Modules_label'] = 'Additional Modules';
 $L['ModMamStatus_label'] = 'Message Archive Management (mod_mam)';

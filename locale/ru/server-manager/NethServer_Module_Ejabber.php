@@ -1,16 +1,16 @@
 <?php 
 
-$L['Ejabber_Title'] = 'Сервер сообщений';
-$L['Ejabber_Description'] = 'Управление сервером сообщений';
-$L['Ejabber_Tags'] = 'чат xmpp jabber ejabber';
-$L['status_label'] = 'Включить сервер сообщений Ejabber';
+$L['Ejabberd_Title'] = 'ejabberd XMPP server';
+$L['Ejabberd_Description'] = 'Manage ejabberd XMPP server';
+$L['Ejabberd_Tags'] = 'чат chat xmpp ejabberd';
+$L['status_label'] = 'Enable ejabberd XMPP server';
 $L['WebAdmin_label'] = 'Web-интерфейс администратора';
 $L['Advanced_label'] = 'Расширенные настройки';
 $L['S2S_label'] = 'Включить федерацию (S2S)';
 $L['ShaperFast_label'] = 'Максимальная скорость передачи файлов (байт/сек.)';
 $L['ShaperNormal_label'] = 'Нормальная скорость передачи файлов (байт/сек.)';
 $L['ShaperFastMustBeSuperiorThanshaperNormal'] = 'Максимальная скорость должна быть выше, чем нормальная';
-$L['EjabberdURL'] = 'URL';
+$L['Ejabberd_URL'] = 'URL';
 $L['UsersMustBePartOfJabberadmins'] = 'Администраторы должны входить в группу jabberadmins';
 $L['Modules_label'] = 'Дополнительные модули';
 $L['ModMamStatus_label'] = 'Управление архивом сообщений (mod_mam)';

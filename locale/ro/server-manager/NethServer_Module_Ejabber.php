@@ -1,16 +1,16 @@
 <?php 
 
-$L['Ejabber_Title'] = 'Server chat';
-$L['Ejabber_Description'] = 'Administrare server chat';
-$L['Ejabber_Tags'] = 'chat xmpp jabber ejabber';
-$L['status_label'] = 'Activează serverul de chat Ejabber';
+$L['Ejabberd_Title'] = 'ejabberd XMPP server';
+$L['Ejabberd_Description'] = 'Manage ejabberd XMPP server';
+$L['Ejabberd_Tags'] = 'chat xmpp ejabberd';
+$L['status_label'] = 'Enable ejabberd XMPP server';
 $L['WebAdmin_label'] = 'Interfață administrare web';
 $L['Advanced_label'] = 'Setări avansate';
 $L['S2S_label'] = 'Activează federalizarea (S2S)';
 $L['ShaperFast_label'] = 'Viteză maximă transfer fișier (octeți/secundă)';
 $L['ShaperNormal_label'] = 'Viteză normală transfer fișier (octeți/secundă)';
 $L['ShaperFastMustBeSuperiorThanshaperNormal'] = 'Viteză maximă trebuie să fie superioară vitezei normale';
-$L['EjabberdURL'] = 'URL';
+$L['Ejabberd_URL'] = 'URL';
 $L['UsersMustBePartOfJabberadmins'] = 'Utilizatorii cu drept de administrator trebuie să fie în grupul jabberadmins';
 $L['Modules_label'] = 'Module adiționale';
 $L['ModMamStatus_label'] = 'Gestionare arhivă mesaje (mod_mam)';

@@ -75,7 +75,7 @@
         "ApacheShellshock_status": "Apache Shellshock",
         "communication_jails": "Communication",
         "AsteriskAuth_status": "Asterisk认证",
-        "EjabberAuth_status": "Ejabber认证",
+        "EjabberdAuth_status": "ejabberd认证",
         "database_jails": "数据库",
         "MysqldAuth_status": "Mysqld Auth",
         "email_jails": "电子邮件",

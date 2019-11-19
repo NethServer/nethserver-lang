@@ -75,7 +75,7 @@
         "ApacheShellshock_status": "Apache Shellshock",
         "communication_jails": "İletişim",
         "AsteriskAuth_status": "Asterisk Kimlik Doğrulaması",
-        "EjabberAuth_status": "Ejabber Kimlik Doğrulaması",
+        "EjabberdAuth_status": "ejabberd Kimlik Doğrulaması",
         "database_jails": "Veritabanı",
         "MysqldAuth_status": "Mysqld Kimlik Doğrulaması",
         "email_jails": "E-posta",

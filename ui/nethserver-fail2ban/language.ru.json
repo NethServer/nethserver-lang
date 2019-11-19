@@ -75,7 +75,7 @@
         "ApacheShellshock_status": "Apache Shellshock",
         "communication_jails": "Связь",
         "AsteriskAuth_status": "Asterisk Auth",
-        "EjabberAuth_status": "Ejabber Auth",
+        "EjabberdAuth_status": "ejabberd Auth",
         "database_jails": "База данных",
         "MysqldAuth_status": "Mysqld Auth",
         "email_jails": "Электронная почта",
