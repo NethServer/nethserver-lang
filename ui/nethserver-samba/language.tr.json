@@ -24,12 +24,22 @@
   "install_packages": "Paketleri kur",
   "packages_installed_ok": "Paketler kuruldu!",
   "packages_installed_error": "Paketler kurulmadı.",
+  "details": "Ayrıntılar",
+  "next": "Sonraki",
+  "back": "Geri",
+  "close": "Kapat",
+  "prev": "Önceki",
+  "of": " / ",
+  "or": "ya da",
+  "with": " - ",
+  "all": "Tümü",
   "docs": {
     "sharedfolders": "Paylaşılmış klasörler",
     "more_info_about": "{docsLink} hakkında ayrıntılı bilgiler.",
     "audit": "Denetim",
     "guestAccess_info": "Kimlik doğrulama bilgileri hatalı olsa da paylaşılmış klasöre erişim izni veriliyor.",
-    "everyone_info": "Bir ziyaretçi ya da kimliği doğrulandığı halde herhangi bir erişim denetimi listesinde bulunmayan bir kullanıcı."
+    "everyone_info": "Bir ziyaretçi ya da kimliği doğrulandığı halde herhangi bir erişim denetimi listesinde bulunmayan bir kullanıcı.",
+    "audit_log": "Bu seçenek etkinleştirildiğinde, okuma işlemleri veritabanına kaydedilir. Devre dışı bırakıldığında, okuma işlemleri /var/log/smbaudit.log dosyasına kaydedilir ancak veritabanına kaydedilmez."
   },
   "dashboard": {
     "title": "Dosya sunucusu panosu",
@@ -119,10 +129,10 @@
     "user": "Kullanıcı",
     "address": "Adres",
     "share": "Paylaşım",
-    "message": "Dosya ya da Yol",
+    "message": "Dosya ya da Klasör",
     "from": "Kimden",
     "to": "Kime",
-    "filter": "Süzgeç",
+    "filter": "Arama",
     "all": "Tümü",
     "rename": "Yeniden Adlandır",
     "read_file": "Dosya erişimi",
@@ -130,12 +140,16 @@
     "create_directory": "Klasör ekleme",
     "delete_directory": "Klasör silme",
     "delete_all_audits": "Tüm denetimleri sil",
-    "update": "Güncelle",
+    "update": "Denetim veritabanını güncelle",
     "delete": "Sil",
     "updated_ok": "Denetim güncellendi!",
     "updated_error": "Denetim güncellenmedi.",
     "deleted_ok": "Denetim silindi!",
-    "deleted_error": "Denetim silinmedi."
+    "deleted_error": "Denetim silinmedi.",
+    "details": "Ayrıntıları görüntüle",
+    "show_audit_details": "Denetim ayrıntılarını görüntüle",
+    "update_at": "Güncelleme zamanı",
+    "advanced_search": "Gelişmiş arama"
   },
   "logs": {
     "menu_title": "Günlükler",
@@ -155,7 +169,8 @@
     "no_inherit": "Sahibe tam izin verilsin",
     "settings_ok": "Ayarlar güncellendi!",
     "settings_error": "Ayarlar güncellenmedi.",
-    "settings_updated_ok": "Ayarlar kaydedildi"
+    "settings_updated_ok": "Ayarlar kaydedildi",
+    "audit_log": "Okuma işlemleri denetimi kullanılsın"
   },
   "about": {
     "website": "Web sitesi",

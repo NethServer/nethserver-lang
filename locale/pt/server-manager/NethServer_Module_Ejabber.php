@@ -2,8 +2,8 @@
 
 $L['Ejabber_Title'] = 'Servidor de mensagens instantâneas';
 $L['Ejabber_Description'] = 'Gerir servidor de conversação';
-$L['Ejabber_Tags'] = 'conversa xmpp jabber ejabber';
-$L['status_label'] = 'Activar servidor de mensagens instantâneas Ejabber';
+$L['Ejabber_Tags'] = 'chat xmpp jabber ejabberd';
+$L['status_label'] = 'Enable ejabberd chat server';
 $L['WebAdmin_label'] = 'Administration web Interface';
 $L['Advanced_label'] = 'Configurações Avançadas';
 $L['S2S_label'] = 'Enable federation (S2S)';

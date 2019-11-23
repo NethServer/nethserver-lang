@@ -30,7 +30,9 @@
     "restored_list": "Lista de arquivos restaurado",
     "error_restored_list": "Ocorreu um erro ao restaurar os arquivos.",
     "are_you_sure": "Você tem certeza",
-    "cancel": "Cancelar"
+    "cancel": "Cancelar",
+    "backup_disabled": "This backup is disabled. Enable it before restore data.",
+    "enable": "Habilitado"
   },
   "about": {
     "title": "Sobre",

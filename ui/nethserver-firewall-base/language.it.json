@@ -117,7 +117,11 @@
         "chilli": "Hotspot",
         "clamd@squidclamav": "Antivirus web",
         "squid": "Proxy web",
-        "suricata": "IPS"
+        "suricata": "IPS",
+        "ndpi": "nDPI",
+        "details_for": "Dettagli per",
+        "name": "Nome",
+        "counter": "Counter"
     },
     "wan": {
         "title": "WAN",
@@ -166,7 +170,7 @@
         "class_name": "Nome classe",
         "class_description": "Descrizione",
         "bandwidth_unit": "Unità di banda",
-        "kbps": "kbps",
+        "kbit": "kbit",
         "bandwidth": "Banda",
         "%": "%",
         "down_bandwidth_limit": "Limiti di banda per il download",
@@ -444,7 +448,7 @@
         "external_ping": "Ping da Internet",
         "mac": "Validazione MAC (Binding IP/MAC)",
         "allowed": "Abilitato",
-        "block_mac": "Blocca host non presenti nella lista prenotazioni DHCP.",
+        "block_mac": "Blocca host non presenti nella lista prenotazioni DHCP",
         "settings_updated_ok": "Impostazioni aggiornate correttamente\"",
         "settings_updated_error": "Impostazioni non aggiornate.",
         "portforward": "Port forward",
@@ -508,7 +512,15 @@
         "host_group_exists": "Esiste già un gruppo di host con lo stesso nome",
         "not_exists_host-group": "Il gruppo di host non esiste",
         "host_group_cannot_be_delete": "Questo gruppo di host non può essere eliminato perché è in uso",
-        "valid_lessThan_256": "Minore di 256"
+        "valid_lessThan_256": "Minore di 256",
+        "valid_ipV4Address": "Indirizzo non valido",
+        "valid_username": "Il primo carattere deve essere una lettera, poi solo lettere minuscole, numeri, simboli \"-\" e \"_\"",
+        "valid_notEmpty": "Non può essere vuoto",
+        "valid_cidrBlock": "Deve essere una rete CIDR valida",
+        "valid_time": "L'ora deve essere nel formato HH:mm",
+        "port_number_or_port_range": "Deve essere un numero di porta valido o un range di porte (con il trattino)",
+        "protocol_doesnt_support_ports": "Questo protocollo non supporta le porte",
+        "valid_lessThan_65536": "Deve essere minore di 65536"
     },
     "docs": {
         "pf_origin_port": "Inserire una singola porta, una lista di porte separate da virgola o un intervallo di porte usando \":\" come separatore, tipo \"100:200\"",

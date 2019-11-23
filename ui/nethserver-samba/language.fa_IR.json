@@ -24,12 +24,22 @@
   "install_packages": "Install packages",
   "packages_installed_ok": "Packages installed successfully!",
   "packages_installed_error": "Packages not installed.",
+  "details": "Details",
+  "next": "Next",
+  "back": "Back",
+  "close": "Close",
+  "prev": "Previous",
+  "of": "of",
+  "or": "or",
+  "with": "with",
+  "all": "All",
   "docs": {
     "sharedfolders": "Shared folders",
     "more_info_about": "More info about {docsLink}.",
     "audit": "Audit",
     "guestAccess_info": "Access to the shared folder is granted even if invalid credentials are provided.",
-    "everyone_info": "A guest, or an authorized user that does not match any ACL."
+    "everyone_info": "A guest, or an authorized user that does not match any ACL.",
+    "audit_log": "Enable this option to save read actions inside the database. If the option is not checked, read actions will be logged inside /var/log/smbaudit.log but will not be saved inside the database."
   },
   "dashboard": {
     "title": "File server dashboard",
@@ -119,10 +129,10 @@
     "user": "User",
     "address": "Address",
     "share": "Share",
-    "message": "File or Path",
+    "message": "File or Directory",
     "from": "From",
     "to": "To",
-    "filter": "Filter",
+    "filter": "Search",
     "all": "All",
     "rename": "Rename",
     "read_file": "Access file",
@@ -130,12 +140,16 @@
     "create_directory": "Create directory",
     "delete_directory": "Delete directory",
     "delete_all_audits": "Delete all audits",
-    "update": "Update",
+    "update": "Refresh audit database",
     "delete": "Delete",
     "updated_ok": "Audit updated successfully!",
     "updated_error": "Audit not updated.",
     "deleted_ok": "Audit deleted successfully!",
-    "deleted_error": "Audit not deleted."
+    "deleted_error": "Audit not deleted.",
+    "details": "Show details",
+    "show_audit_details": "Show audit details",
+    "update_at": "Update at",
+    "advanced_search": "Advanced search"
   },
   "logs": {
     "menu_title": "Logs",
@@ -155,7 +169,8 @@
     "no_inherit": "Grant full control to the creator",
     "settings_ok": "Settings updated successfully!",
     "settings_error": "Settings not updated.",
-    "settings_updated_ok": "Settings saved correctly"
+    "settings_updated_ok": "Settings saved correctly",
+    "audit_log": "Enable auditing of read actions"
   },
   "about": {
     "website": "Web site",

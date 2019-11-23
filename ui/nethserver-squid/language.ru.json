@@ -345,6 +345,8 @@
     "object_not_found": "Объект не найден",
     "object_not_supported": "Объект не поддерживается",
     "profile_not_found": "Профиль не найден",
-    "valid_fqdn_domain": "Must be valid FQDN domain(s)"
+    "valid_fqdn_domain": "Must be valid FQDN domain(s)",
+    "valid_lessThan_65536": "Must be less than 65536",
+    "valid_parent_proxy": "Must be a valid hostname, port (if defined) must be integer less than 65536"
   }
 }

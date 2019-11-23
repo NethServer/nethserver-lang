@@ -117,7 +117,11 @@
         "chilli": "Hotspot",
         "clamd@squidclamav": "Web-Antivirus",
         "squid": "Web-Proxy",
-        "suricata": "IPS"
+        "suricata": "IPS",
+        "ndpi": "nDPI",
+        "details_for": "Details für",
+        "name": "Name",
+        "counter": "Counter"
     },
     "wan": {
         "title": "WAN",
@@ -166,7 +170,7 @@
         "class_name": "Klassenname",
         "class_description": "Beschreibung",
         "bandwidth_unit": "Bandbreiteneinheit",
-        "kbps": "kbps",
+        "kbit": "kbit",
         "bandwidth": "Bandbreite",
         "%": "%",
         "down_bandwidth_limit": "Download-Bandbreitenbeschränkungen",
@@ -508,7 +512,15 @@
         "host_group_exists": "Eine Hostgruppe mit demselben Namen existiert bereits",
         "not_exists_host-group": "Die Hostgruppe existiert nicht",
         "host_group_cannot_be_delete": "Diese Hostgruppe kann nicht gelöscht werden, da sie verwendet wird",
-        "valid_lessThan_256": "Muss kleiner als 256 sein"
+        "valid_lessThan_256": "Muss kleiner als 256 sein",
+        "valid_ipV4Address": "Invalid address",
+        "valid_username": "Das erste Zeichen muss ein Buchstabe sein, danach nur Kleinbuchstaben, Zahlen und Symbole wie '-' und '_'",
+        "valid_notEmpty": "Darf nicht leer sein",
+        "valid_cidrBlock": "Muss ein gültiges CIDR-Netzwerk sein",
+        "valid_time": "Das Zeitformat muss HH:mm sein",
+        "port_number_or_port_range": "Must be a valid port number or port range (using dash)",
+        "protocol_doesnt_support_ports": "This protocol does not support ports",
+        "valid_lessThan_65536": "Must be less than 65536"
     },
     "docs": {
         "pf_origin_port": "Bitte einen einzelnen Port, eine Liste mit durch Kommas getrennten Ports oder einen Portbereich einfügen, der \":\" als Trennzeichen verwendet, wie \"100: 200\".",

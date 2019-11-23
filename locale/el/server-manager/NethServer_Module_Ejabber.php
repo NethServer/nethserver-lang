@@ -2,8 +2,8 @@
 
 $L['Ejabber_Title'] = 'Διακομιστής Chat';
 $L['Ejabber_Description'] = 'Διαχείρηση διακομιστή chat';
-$L['Ejabber_Tags'] = 'chat xmpp jabber ejabber';
-$L['status_label'] = 'Ενεργοποίηση διακομιστή chat Ejabber';
+$L['Ejabber_Tags'] = 'chat xmpp jabber ejabberd';
+$L['status_label'] = 'Enable ejabberd chat server';
 $L['WebAdmin_label'] = 'Administration web Interface';
 $L['Advanced_label'] = 'Advanced settings';
 $L['S2S_label'] = 'Enable federation (S2S)';

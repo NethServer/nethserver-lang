@@ -24,12 +24,22 @@
   "install_packages": "Installer les paquets",
   "packages_installed_ok": "Paquets installés avec succès!",
   "packages_installed_error": "Paquets non installés",
+  "details": "Détails",
+  "next": "Suivant",
+  "back": "Revenir en arrière",
+  "close": "Fermer",
+  "prev": "Précédent",
+  "of": "de",
+  "or": "ou",
+  "with": "avec",
+  "all": "Tous",
   "docs": {
     "sharedfolders": "Dossiers partagés",
     "more_info_about": "Plus d'info à propos {docsLink}.",
     "audit": "Vérifier",
     "guestAccess_info": "L'accès au dossier partagé est autorisé même si des informations d'identification non valides sont fournies.",
-    "everyone_info": "Un invité ou un utilisateur autorisé qui ne correspond à aucune liste de contrôle d'accès."
+    "everyone_info": "Un invité ou un utilisateur autorisé qui ne correspond à aucune liste de contrôle d'accès.",
+    "audit_log": "Enable this option to save read actions inside the database. If the option is not checked, read actions will be logged inside /var/log/smbaudit.log but will not be saved inside the database."
   },
   "dashboard": {
     "title": "Tableau de bord du serveur de fichiers",
@@ -49,7 +59,7 @@
     "files_count_for_ibays": "Nombre de fichiers",
     "files_du_for_ibays": "Utilisation du disque par les fichiers",
     "empty_piechart_label": "Les statistiques ne sont pas disponibles",
-    "last_updated": "Updated at {time}"
+    "last_updated": "Mis à jour à {time}"
   },
   "sharedfolders": {
     "title": "Dossiers partagés",
@@ -119,10 +129,10 @@
     "user": "Utilisateur",
     "address": "Adresse",
     "share": "Partage",
-    "message": "Fichier ou chemin",
+    "message": "File or Directory",
     "from": "De",
     "to": "À",
-    "filter": "Filtre",
+    "filter": "Chercher",
     "all": "Tous",
     "rename": "Renommer",
     "read_file": "Accéder au fichier",
@@ -130,12 +140,16 @@
     "create_directory": "Créer un dossier",
     "delete_directory": "Supprimer un dossier",
     "delete_all_audits": "Supprimer toutes les vérifications",
-    "update": "Mise à jour",
+    "update": "Refresh audit database",
     "delete": "Supprimer",
     "updated_ok": "Vérification mise à jour avec succès!",
     "updated_error": "Vérification non mise à jour.",
     "deleted_ok": "Vérification supprimée avec succès!",
-    "deleted_error": "Vérification non supprimée."
+    "deleted_error": "Vérification non supprimée.",
+    "details": "Show details",
+    "show_audit_details": "Show audit details",
+    "update_at": "Mise à jour à",
+    "advanced_search": "Advanced search"
   },
   "logs": {
     "menu_title": "Journaux",
@@ -155,7 +169,8 @@
     "no_inherit": "Donner le contrôle total au créateur",
     "settings_ok": "Réglages mis à jour avec succès !",
     "settings_error": "Réglages non actualisés.",
-    "settings_updated_ok": "Réglages correctement sauvegardés"
+    "settings_updated_ok": "Réglages correctement sauvegardés",
+    "audit_log": "Enable auditing of read actions"
   },
   "about": {
     "website": "Site web",

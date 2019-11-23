@@ -97,5 +97,5 @@ $L['Tracker_task_error_message'] = 'Aufgabe mit Fehler abgeschlossen';
 $L['Tracker_title_taskRunning'] = 'Task läuft';
 $L['Tracker_title_taskStarting'] = 'Task startet...';
 $L['Tracker_code_label'] = 'Exit Status';
-$L['cockpit_available'] = 'The new Server Manager is installed, give it a try! Access: ';
+$L['cockpit_available'] = 'Der neue Server-Manager ist installiert, bitte ausprobieren! Zugriff:';
 

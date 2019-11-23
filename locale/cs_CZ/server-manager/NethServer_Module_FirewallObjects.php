@@ -78,8 +78,8 @@ $L['IpRange_CreateIpRange_label'] = 'Vytvořit IP rozsah';
 $L['IpRangeKey_label'] = 'Rozsah IP adres';
 
 $L['TimesKey_label'] = 'Název podmínky';
-$L['TimeStart_label'] = 'Time start';
-$L['TimeStop_label'] = 'Time stop';
+$L['TimeStart_label'] = 'Čas zahájení';
+$L['TimeStop_label'] = 'Čas skončení';
 $L['WeekDays_label'] = 'Dny v týdnu';
 $L['TimeStop_compare_TimeStart_message'] = 'Value must be greater than "Time start" (${0})';
 

@@ -22,9 +22,9 @@
     "device_ttyS2": "COM3 (ttyS2)",
     "device_ttyUSB0": "USB2Serial (ttysUSB0)",
     "device_ttyUSB1": "USB2Serial (ttysUSB1)",
-    "ups_credentials": "UPS credentials",
-    "ups_name": "UPS name",
-    "ups_user": "UPS user",
+    "ups_credentials": "Přihlašovací údaje k UPS",
+    "ups_name": "Název UPS",
+    "ups_user": "Uživatel do UPS",
     "password_for_clients": "Heslo pro klienty",
     "server_address": "Adresa serveru",
     "password": "Heslo",
@@ -33,8 +33,8 @@
     "master_validation": "Je třeba, aby adresa serveru byl platný název stroje",
     "password_validation": "Heslo je třeba vyplnit",
     "ups_name_validation": "Název UPS zdroje je třeba vyplnit",
-    "ups_user_validation": "UPS user must be a valid username",
-    "driver_validation": "Please search for a model and choose a driver",
+    "ups_user_validation": "Je třeba, aby uživatel k UPS bylo platné uživatelské jméno",
+    "driver_validation": "Vyhledejte model a zvolte ovladač",
     "search_for_model": "Hledat model",
     "hostname_or_ip_address": "Název stroje nebo IP adresa"
   },
@@ -51,7 +51,7 @@
     "filter_label": "Filtr s regulárním výrazem"
   },
   "dashboard":{
-    "title": "UPS dashboard",
+    "title": "Přehled o UPS",
     "load": "Vytížení",
     "battery_charge": "Nabití akumulátoru",
     "model": "Model",
@@ -65,14 +65,14 @@
     "battery_voltage": "Napětí akumulátoru",
     "minutes": "minut",
     "clients_connected": "Připojení klienti",
-    "ups_clients": "UPS clients",
-    "ups_not_configured": "UPS not configured",
+    "ups_clients": "UPS klienti",
+    "ups_not_configured": "UPS není nastavená",
     "empty_state": "Nastavení není úplné nebo správné. Nastavte kliknutím na tlačítko níže",
     "online": "Online",
-    "offline": "Offline",
+    "offline": "Bez napájení z rozvodné sítě",
     "empty_piechart_label": "Statistiky nejsou k dispozici"
   },
   "docs": {
-    "model": "Manufacturer is shown in bold, it is followed by model name and support level (number of stars)."
+    "model": "Výrobce je zobrazen tučným písmem, následuje název modelu a úroveň podpory (počet hvězdiček)."
   }
 }

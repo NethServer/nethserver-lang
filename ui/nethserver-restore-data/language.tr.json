@@ -30,7 +30,9 @@
     "restored_list": "Geri yüklenen dosya listesi",
     "error_restored_list": "Dosyalar geri yüklenirken bir sorun çıktı.",
     "are_you_sure": "Emin misiniz",
-    "cancel": "İptal"
+    "cancel": "İptal",
+    "backup_disabled": "Bu yedek devre dışı. Verileri geri yüklemeden önce etkinleştirin.",
+    "enable": "Etkinleştir"
   },
   "about": {
     "title": "Hakkında",

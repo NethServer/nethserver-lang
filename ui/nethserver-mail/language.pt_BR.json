@@ -454,7 +454,7 @@
         "public_created_error": "Public mailbox creation error"
     },
     "validation": {
-        "validation_failed": "Validation failed",
+        "validation_failed": "Validação falhou",
         "valid_memberOf_enabled, disabled": "Can be enabled or disabled",
         "valid_memberOf_true, false": "Can be true or false",
         "valid_lessThan_25.1": "Must be between 0 and 25",

@@ -2,8 +2,8 @@
 
 $L['Ejabber_Title'] = 'Server chat';
 $L['Ejabber_Description'] = 'Administrare server chat';
-$L['Ejabber_Tags'] = 'chat xmpp jabber ejabber';
-$L['status_label'] = 'Activează serverul de chat Ejabber';
+$L['Ejabber_Tags'] = 'chat xmpp jabber ejabberd';
+$L['status_label'] = 'Enable ejabberd chat server';
 $L['WebAdmin_label'] = 'Interfață administrare web';
 $L['Advanced_label'] = 'Setări avansate';
 $L['S2S_label'] = 'Activează federalizarea (S2S)';

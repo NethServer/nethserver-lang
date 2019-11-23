@@ -12,13 +12,13 @@
     "virtual_host_name": "Název virtuálního hostitele",
     "enable_mattermost": "Zapnout Mattermost Team Edition",
     "warning": "Varování",
-    "warning_text": "Mattermost is accessible only using a dedicated host name (eg. mattermost.yourdomain.org). If you're using a Let's Encrypt certificate, remember to add the host name below to the \"Domains\" field inside the \"Server certificate\" page",
+    "warning_text": "Mattermost je dostupný pouze při použití vyhrazeného názvu hostitele,  (např. mattermost.example.com). Pokud používáte certifkát od Let's Encrypt, nezapomeňte přidat název hostitele pod kolonku „Domény“ na stránce „Certifikát serveru“",
     "valid_fqdn": "Je třeba, aby obsahovalo alespoň dvě tečky, jako „mujstroj.example.com“",
     "configuration_ok": "Nastavení úspěšně uložena!",
     "configuration_error": "Nastavení neuloženo.",
     "users": "Uživatelé",
     "teams": "Týmy",
     "channels": "Kanály",
-    "posts": "Posts",
+    "posts": "Příspěvky",
     "open_app": "Otevřít aplikaci"
 }

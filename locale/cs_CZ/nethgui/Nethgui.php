@@ -97,5 +97,5 @@ $L['Tracker_task_error_message'] = 'Úloha byla dokončena, ale s chybami';
 $L['Tracker_title_taskRunning'] = 'Úloha je spuštěná';
 $L['Tracker_title_taskStarting'] = 'Spouštění úlohy…';
 $L['Tracker_code_label'] = 'návratový stav';
-$L['cockpit_available'] = 'The new Server Manager is installed, give it a try! Access: ';
+$L['cockpit_available'] = 'Nová Správa Serveru je nainstalována, zkuste ji! Přístup:';
 

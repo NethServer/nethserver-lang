@@ -26,14 +26,14 @@
     "create_button": "Crear",
     "apply_button": "Aplicar cambios",
     "save_button": "Guardar",
-    "spinner_message": "Applying changes"
+    "spinner_message": "Aplicando cambios"
   },
   "ftp": {
     "title": "FTP",
     "configuration": "Configuración",
     "enabled": "Habilitado",
     "create_user": "Crear usuario",
-    "add_account": "Create a user",
+    "add_account": "Crear un usuario",
     "edit_account": "Editar usuario",
     "delete_account": "Borrar usuario",
     "account_created_ok": "FTP user created successfully!",
@@ -42,7 +42,7 @@
     "account_updated_error": "FTP user update error.",
     "account_deleted_ok": "FTP user deleted successfully!",
     "account_deleted_error": "FTP user delete error.",
-    "username": "Nombre de usuario",
+    "username": "Usuario",
     "password": "Contraseña",
     "chroot": "Chroot user on home directory",
     "chroot_dir": "Custom chroot directory",
@@ -58,6 +58,7 @@
     "user_not_found_desc": "Click the button below to create the first one"
   },
   "virtualhost": {
+    "web_root_directory": "Web root path",
     "vhost_created_ok": "The virtual host has been created",
     "vhost_created_error": "The virtual host has not been created",
     "vhost_updated_ok": "The virtual host has been updated",
@@ -74,7 +75,7 @@
     "name": "Nombre",
     "description_label": "Descripción",
     "Ftp_Authentication": "Habilitar el acceso FTP",
-    "UserName": "User Name",
+    "UserName": "Usuario",
     "FtpPassword": "Contraseña",
     "ServerNames": "Nombres de host virtuales (FQDN)",
     "Trusted_Network_Only": "Permitir el acceso sólo desde redes de confianza",
@@ -102,7 +103,7 @@
     "bug_tracker": "Seguidor de fallas"
   },
   "logs": {
-    "title": "Logs",
+    "title": "Registros",
     "start_follow_button": "Seguir",
     "stop_follow_button": "Dejar de Seguir",
     "empty_response_message": "Empty response",

@@ -21,7 +21,7 @@
   "of": "of",
   "or": "or",
   "with": "with",
-  "rows_per_page": "Row per page",
+  "rows_per_page": "Rows per page",
   "search": "Search",
   "all": "All",
   "info": "Info",
@@ -32,9 +32,9 @@
   "success": "Success",
   "error": "Error",
   "event": "Event",
-  "check": "Check",
+  "check": "Unfortunately we couldn't catch the exact error. If you want to help, please click on the button below to copy the failed command to the clipboard, paste it into the Terminal and submit command output to the developers",
   "stats": "آمار",
-  "for_more_info": "for more info",
+  "for_more_info": "The following command has failed",
   "lowercase": "lowercase",
   "uppercase": "uppercase",
   "number": "number",
@@ -142,7 +142,7 @@
     "shutdown_ok": "The system is shutting down...",
     "shutdown_error": "Shutting down error occured.",
     "hostname_change": "After hostname change you have to login again",
-    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding on other configurations"
+    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding with other configurations"
   },
   "backup": {
     "title": "Backup",
@@ -175,7 +175,7 @@
     "data_list": "Data list",
     "last_backup_status": "Last backup status",
     "backup_configured": "Backups configured",
-    "choose_file": "Choose file (*.tar.gz)",
+    "choose_file": "Choose file (*.tar.xz)",
     "automatic_backups_keep": "Automatic backups to keep (number)",
     "enable": "Enable",
     "disable": "Disable",
@@ -245,7 +245,7 @@
     "refresh": "Refresh",
     "execute_config_backup_ok": "Config backup executed successfully!",
     "execute_config_backup_error": "Config backup not executed.",
-    "execute_data_backup_ok": "Data backup executed successfully!",
+    "execute_data_backup_ok": "Data backup started successfully!",
     "execute_data_backup_error": "Data backup not executed.",
     "delete_config_backup_ok": "Config backup deleted successfully!",
     "delete_config_backup_error": "Config backup not deleted.",
@@ -254,7 +254,7 @@
     "last_log": "Last log",
     "last_log_for": "Last log for backup data",
     "view_last_log": "View last log",
-    "choose_from": "Choose from",
+    "choose_from": "Choose source",
     "reinstall_packages": "Reinstall packages",
     "restore_config_backup_ok": "Restore configuration backup executed successfully!",
     "restore_config_backup_error": "Restore configuration backup not executed.",
@@ -277,8 +277,15 @@
     "storage_usage": "Destination storage usage",
     "overwrite_all_data": "the restore will overwrite all data",
     "nfs_rsync_info": "Make sure the NFS server supports hard links, otherwise the backup will fail",
-    "during_remap_warning": "During interface remapping, if one or more interface change its IP address, you have to login again in the new IP address",
-    "interface_remap": "Interface remapping"
+    "during_remap_warning": "During interface remapping, if one or more interfaces change its IP address, you have to login again in the new IP address",
+    "check_configuration": "Check configuration",
+    "register_system": "Register system",
+    "register_before_restore": "You are trying to restore a backup with a subscription. Please register the machine before restoring this backup",
+    "register_now": "Register now",
+    "invalid_backup_format": "Backup not found or invalid",
+    "remap_at_least_one_green": "You have to select at least one green to remap",
+    "assign_later": "Assign later",
+    "current_int": "System interfaces"
   },
   "disk_usage": {
     "title": "Disk usage",
@@ -289,7 +296,7 @@
     "disk_updated_ok": "Disk usage updated successfully!",
     "disk_updated_error": "Disk usage not updated",
     "copy_path": "Copy path",
-    "one_file_system": "Don't cross filesystem boundaries"
+    "one_file_system": "Analyze only the root filesystem"
   },
   "storage": {
     "title": "Storage"
@@ -568,7 +575,15 @@
     "no_users_found_desc": "If your provider is local, click on button below to create a new user or add it on remote provider",
     "no_groups_found": "No groups found",
     "no_groups_found_desc": "If your provider is local, click on button below to create a new group or add it on remote provider",
-    "weak_password": "Your policy allows you to insert weak password, it not recommended for security reasons"
+    "weak_password": "Your policy allows you to insert weak password, it not recommended for security reasons",
+    "BindPassword": "Bind password",
+    "BaseDN": "Base DN",
+    "BindDN": "Bind DN",
+    "LdapURI": "LDAP URI",
+    "NsdcIp": "Active Directory IP",
+    "UserDN": "User DN",
+    "GroupDN": "Group DN",
+    "StartTls": "Start TLS"
   },
   "network": {
     "title": "Network",
@@ -752,7 +767,10 @@
     "rotation_daily": "Daily",
     "rotation_weekly": "Weekly",
     "rotation_monthly": "Monthly",
-    "log_rotate": "Rotate logs"
+    "log_rotate": "Rotate logs",
+    "test_mail": "Test mail",
+    "mail_sent_ok": "Mail sent successfully!",
+    "mail_sent_error": "Mail not sent."
   },
   "logs": {
     "title": "Logs"
@@ -770,7 +788,9 @@
     "helpdesk": "Helpdesk",
     "documentation": "Documentation",
     "wiki": "Wiki",
-    "subscription": "Subscription"
+    "subscription": "Subscription",
+    "phonehome": "Phone home is used to track all NethServer installations around the world.",
+    "map": "Map"
   },
   "wizard": {
     "title": "Wizard"
@@ -923,20 +943,21 @@
     "change_default_company": "Change the default company",
     "one_or_more_dns_not_working": "One or more DNS servers are not responding",
     "TCPPort": "TCP port",
-    "service_is_enabled_but_is_not_running": "The service is enabled but is not running",
+    "service_is_enabled_but_is_not_running": "The service is either not running or not enabled",
     "must_configure_backup_data": "You should configure at least one data backup",
     "change_default_ssh_port": "Change the default SSH port to lower brute force attack rates",
     "limit_red_access_by_ip": "Limit access to server manager specifying the allowed IP addresses",
-    "LimitAccess": "Limit access",
+    "LimitAccess": "Server Manager",
     "backup": "Backup",
     "centos_upgrade": "A new upstream distribution release is available as update. To avoid installing it, switch the software updates origin to \"Locked\"",
-    "dhcp_on_green_can_cause_unexpected_behavior": "Using DHCP on green interfaces leads to unexpected behavior. Please, change the interface to static if possible.",
-    "interface_must_be_static": "A green interface must have a static IP address",
+    "interface_must_be_static": "A green interface must have a static IP address. Using DHCP on green interfaces leads to unexpected behavior. Please, change the interface to static if possible.",
     "hostname": "Hostname",
-    "hostname_should_not_contain_localhost": "Hostname should not contains localhost",
+    "hostname_should_not_contain_localhost": "Hostname should not contain localhost",
     "subscription": "Subscription",
     "support_active": "A remote support session is active",
-    "hostname_should_not_contain_localdomain": "The hostname should not contain 'localdomain'"
+    "hostname_should_not_contain_localdomain": "The hostname should not contain 'localdomain'",
+    "first_hostname_part_maximum_length_15": "First hostname part must be maximum 15 characters lenght",
+    "unmapped_interface_from_restore": "This interface has not been activated after the restore. Assign the role to a new interface or remove it"
   },
   "validation": {
     "weak_password": "Password too weak, it could be inside a dictionary or too similar to the previous one",
@@ -967,15 +988,17 @@
     "valid_platform,ad-dns,srv_record,": "Could not find an Active Directory domain controller",
     "valid_hostname_fqdn_1_9223372036854775807": "Must contain at least two dots, like 'myhost.example.com'",
     "valid_hostname_fqdn_0_9223372036854775807": "Must contain at least two dots, like 'myhost.example.com'",
+    "valid_hostname_fqdn_long_2_9223372036854775807": "Must contain at least two dots, like 'myhost.example.com'",
     "permission_denied": "Permission denied",
     "backuptime_not_enough_elements": "Invalid cron time format: not enough elements",
     "backuptime_not_found": "No cron time provided",
     "backup_already_exists": "A backup with the same name already exists",
     "valid_email,generic_failure": "Invalid mail address: it should be something like 'myname@domain.com'",
     "valid_mail_address": "Invalid mail address: it should be something like 'myname@domain.com'",
-    "valid_ipV4Address": "Invalid IPv4 address: it should be something like '10.0.0.1'",
+    "valid_ipV4Address": "Invalid address",
     "valid_ipV4Netmask": "Invalid IPv4 network mask: it should be something like '255.255.255.0'",
     "all_domains_must_be_fqdn": "All domains must be valid FQDN (Fully Qualified Domain Name)",
+    "letencrypt_domain_failed": "Challenge failed for this domain(s)",
     "invalid_x509_ceritficate": "X.509 certificate (PEM encoding)",
     "invalid_x509_key": "RSA or EC private key (PEM encoding)",
     "cert_safetyguard": "The selected ECC certificate is not compatible with the current TLS policy",
@@ -1048,7 +1071,8 @@
     "traceroute_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
     "ping_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
     "nslookup_validator_valid_ipV4Address": "Invalid IPv4 address, it must be something like '10.0.0.1'",
-    "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Invalid fully qualified domain name, it must be something like 'domain.org'"
+    "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Invalid fully qualified domain name, it must be something like 'domain.org'",
+    "host_not_removable": "This host can't be removed because it is in use"
   },
   "docs": {
     "more_info_about": "More info about",

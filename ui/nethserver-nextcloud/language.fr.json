@@ -26,7 +26,7 @@
   "open_app": "Ouvrir l'application",
   "version": "Version",
   "admin-password": "Mot de passe administrateur",
-  "warning-password": "The default password for the admin user is 'Nethesis,1234'. Please change it as soon as possible to avoid security issues!",
+  "warning-password": "Le mot de passe par défaut pour l'utilisateur administrateur est 'Nethesis,1234'. Veuillez le changer dès que possible pour éviter les problèmes de sécurité !",
   "warning_wellknown": "Cette option remplacera l'URL de découverte utilisée par les clients pour configurer automatiquement la synchronisation des contacts et des calendriers. Laissez cette option décochée si vous avez déjà installé un groupware tel que WebTop ou SOGo",
   "default_trusted_domains": "Si l'hôte virtuel est désactivé, Nextcloud est toujours accessible à partir de toutes les adresses IP et noms de domaine complets du serveur."
 }

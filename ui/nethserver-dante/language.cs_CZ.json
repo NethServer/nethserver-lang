@@ -3,7 +3,7 @@
     "title": "Nastavení",
     "settings_updated_ok": "Nastavení úspěšně zaktualizována!",
     "settings_updated_error": "Nastavení nezaktualizována.",
-    "public_host": "Public host",
+    "public_host": "Veřejný hostitel",
     "full_url": "Končené url",
     "host_configuration": "Nastavení hostitele",
     "report_configuration": "Nastavení výkazu",
@@ -16,13 +16,13 @@
     "light": "Světlé",
     "week": "Týden",
     "month": "Měsíc",
-    "halfyear": "Šest měsíců",
+    "halfyear": "Půl roku",
     "save": "Uložit",
     "open": "Otevřít",
     "every_day": "Každý den",
     "monday": "pondělí",
     "tuesday": "úterý",
-    "wednesday": "Středa",
+    "wednesday": "středa",
     "thursday": "čtvrtek",
     "friday": "pátek",
     "saturday": "sobota",
@@ -34,10 +34,10 @@
     "send": "Poslat",
     "test_address": "Adresa",
     "include_configured_addresses": "Zahrnout nastavené adresy",
-    "invalid_dns": "The 'Public host' field is using a private DNS name: the report will not be accessibile from Internet.",
-    "mining_configuration": "Data collection",
-    "missing_miners": "No data collected yet. Wait until tomorrow or click 'Collect now'",
-    "mining_now": "Collect now"
+    "invalid_dns": "Kolonka „Veřejný hostitel“ používá soukromý DNS název: hlášení nebude dostupné z Internetu.",
+    "mining_configuration": "Sběr dat",
+    "missing_miners": "Doposud nebyla shromážděna žádná data. Počkejte do zítřka nebo klikněte na „Shromáždit nyní“",
+    "mining_now": "Shromáždit nyní"
   },
   "about": {
     "title": "O aplikaci",
@@ -49,9 +49,9 @@
   },
   "validation": {
     "validation_failed": "Ověření se nezdařilo",
-    "public_host_must_resolve": "Use a public DNS name which must be accessibile from the server itself and clients from Internet",
-    "invalid_mail_address": "Set a valid mail address like 'info@mydomain.org'",
+    "public_host_must_resolve": "Použijte veřejný DNS název, který je třeba, aby byl dostupný ze serveru samotného a klientů z Internetu",
+    "invalid_mail_address": "Nastavte platnou e-mailovou adresu jako např. „info@example.com“",
     "invalid_language": "Jazyk nenalezen",
-    "valid_hostname_fqdn_1_9223372036854775807": "Must be a fully qualified host name"
+    "valid_hostname_fqdn_1_9223372036854775807": "Je třeba, aby bylo úplný název stroje"
   }
 }

@@ -34,10 +34,10 @@
     "send": "Gönder",
     "test_address": "Adres",
     "include_configured_addresses": "Yapılandırılmış adresler katılsın",
-    "invalid_dns": "The 'Public host' field is using a private DNS name: the report will not be accessibile from Internet.",
-    "mining_configuration": "Data collection",
-    "missing_miners": "No data collected yet. Wait until tomorrow or click 'Collect now'",
-    "mining_now": "Collect now"
+    "invalid_dns": "'Herkese açık sunucu' alanında özel bir DNS adı varsa, rapora İnternet üzerinden erişilemez.",
+    "mining_configuration": "Veri derleme",
+    "missing_miners": "Henüz derlenmiş bir veri yok. Yarına kadar bekleyin ya da 'Şimdi derle' üzerine tıklayın",
+    "mining_now": "Şimdi derle"
   },
   "about": {
     "title": "Hakkında",

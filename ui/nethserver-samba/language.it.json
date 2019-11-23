@@ -24,12 +24,22 @@
   "install_packages": "Installa pacchetti",
   "packages_installed_ok": "Pacchetti installati correttamente!",
   "packages_installed_error": "Pacchetti non installati.",
+  "details": "Dettagli",
+  "next": "Successivo",
+  "back": "Precedente",
+  "close": "Chiudi",
+  "prev": "Precedente",
+  "of": "di",
+  "or": "oppure",
+  "with": "con",
+  "all": "Tutti",
   "docs": {
     "sharedfolders": "Cartelle condivise",
     "more_info_about": "Maggiori informazioni su {docsLink}.",
     "audit": "Audit",
     "guestAccess_info": "Accesso consentito alla cartella condivisa anche con credenziali non valide.",
-    "everyone_info": "Un ospite o un utente autorizzato che non corrisponde a nessuna ACL."
+    "everyone_info": "Un ospite o un utente autorizzato che non corrisponde a nessuna ACL.",
+    "audit_log": "Abilitare questa opzione per registrare nel database le operazioni di lettura. Anche se questa opzione è deselezionata, le operazioni di lettura verranno comunque registrate nel file /var/log/smbaudit.log, ma non verranno salvate nel database."
   },
   "dashboard": {
     "title": "Dashboard file server",
@@ -119,10 +129,10 @@
     "user": "Utente",
     "address": "Indirizzo",
     "share": "Condivisione",
-    "message": "File o percorso",
+    "message": "File o Directory",
     "from": "Mittente",
     "to": "Destinatario",
-    "filter": "Filtro",
+    "filter": "Cerca",
     "all": "Tutti",
     "rename": "Rinomina",
     "read_file": "Accesso al file",
@@ -130,12 +140,16 @@
     "create_directory": "Creazione directory",
     "delete_directory": "Eliminazione directory",
     "delete_all_audits": "Elimina tutti i dati di audit",
-    "update": "Modifica",
+    "update": "Aggiorna dati",
     "delete": "Elimina",
     "updated_ok": "Impostazioni audit modificate con successo!",
     "updated_error": "Impostazioni audit non modificate.",
     "deleted_ok": "Impostazioni audit eliminate!",
-    "deleted_error": "Impostazioni audit non eliminate."
+    "deleted_error": "Impostazioni audit non eliminate.",
+    "details": "Mostra dettagli",
+    "show_audit_details": "Dettagli audit",
+    "update_at": "Aggiornato al",
+    "advanced_search": "Apri ricerca avanzata"
   },
   "logs": {
     "menu_title": "Log",
@@ -155,7 +169,8 @@
     "no_inherit": "Assegna il controllo completo al creatore",
     "settings_ok": "Impostazioni aggiornate correttamente\"",
     "settings_error": "Impostazioni non aggiornate.",
-    "settings_updated_ok": "Impostazioni salvate con successo"
+    "settings_updated_ok": "Impostazioni salvate con successo",
+    "audit_log": "Abilita audit operazioni di lettura"
   },
   "about": {
     "website": "Sito web",

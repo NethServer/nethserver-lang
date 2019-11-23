@@ -5,8 +5,8 @@
         "unofficial_signatures_rating": "Third-party signatures rating",
         "error_reading_configuration": "Error reading antivirus configuration",
         "error_validating_configuration": "Error validating antivirus configuration",
-        "configuration_update_successful": "Actualizacion de configuracion exitosa",
-        "configuration_update_failed": "Actualizacion de configuracion fallida",
+        "configuration_update_successful": "Actualización de configuración exitosa",
+        "configuration_update_failed": "Actualización de configuración fallida",
         "info_notification": "Signatures are downloaded at hourly intervals. Changes to this page will take effect on next automatic signatures download.",
         "error_reading_total_memory": "Error reading total memory",
         "memory_warning": "The system has less than 4GB of RAM. You're strongly advised to disable official ClamAV signatures to avoid memory filling."
@@ -14,7 +14,7 @@
     "about": {
         "title": "Acerca de",
         "website": "Sitio Web",
-        "bug_tracker": "Seguidor de fallas"
+        "bug_tracker": "Rastreador de fallas"
     },
     "logs": {
         "title": "Logs",

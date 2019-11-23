@@ -58,6 +58,7 @@
     "user_not_found_desc": "Cliccare il pulsante sottostante per creare il primo"
   },
   "virtualhost": {
+    "web_root_directory": "Web root path",
     "vhost_created_ok": "Il virtual host è stato creato",
     "vhost_created_error": "Il virtual host non è stato creato",
     "vhost_updated_ok": "Il virtual host è stato aggiornato",

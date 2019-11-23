@@ -2,8 +2,8 @@
 
 $L['Ejabber_Title'] = 'Сервер ћаскања';
 $L['Ejabber_Description'] = 'Управљај сервером ћаскања';
-$L['Ejabber_Tags'] = 'ћаскање xmpp џабер еџабер';
-$L['status_label'] = 'Омогући Еџабер сервер ћаскања';
+$L['Ejabber_Tags'] = 'chat xmpp jabber ejabberd';
+$L['status_label'] = 'Enable ejabberd chat server';
 $L['WebAdmin_label'] = 'Administration web Interface';
 $L['Advanced_label'] = 'Напредна подешавања';
 $L['S2S_label'] = 'Enable federation (S2S)';

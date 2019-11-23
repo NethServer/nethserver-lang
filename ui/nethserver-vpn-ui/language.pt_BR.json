@@ -290,7 +290,7 @@
     "bug_tracker": "Informar Bug"
   },
   "validation": {
-    "validation_failed": "Validation failed",
+    "validation_failed": "Validação falhou",
     "account_already_exists": "Já existe uma conta com o mesmo nome",
     "account_not_found": "Account not found",
     "invalid_host_address": "Invalid host address: use a FQDN or an IP address",

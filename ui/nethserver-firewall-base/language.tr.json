@@ -117,7 +117,11 @@
         "chilli": "Erişim Noktası",
         "clamd@squidclamav": "Web virusten koruma",
         "squid": "Web vekil sunucusu",
-        "suricata": "IPS"
+        "suricata": "IPS",
+        "ndpi": "nDPI",
+        "details_for": "Şunun ayrıntıları",
+        "name": "Ad",
+        "counter": "Sayaç"
     },
     "wan": {
         "title": "WAN",
@@ -166,7 +170,7 @@
         "class_name": "Sınıf adı",
         "class_description": "Açıklama",
         "bandwidth_unit": "Bant genişliği birimi",
-        "kbps": "kbps",
+        "kbit": "kbit",
         "bandwidth": "Bant genişliği",
         "%": "%",
         "down_bandwidth_limit": "İndirme bant genişliği sınırları",
@@ -444,7 +448,7 @@
         "external_ping": "İnternet üzerinden Ping",
         "mac": "MAC doğrulaması (IP/MAC bağlama)",
         "allowed": "İzin verilen",
-        "block_mac": "Block hosts not listed in DHCP reservations",
+        "block_mac": "DHCP ayırtmaları içinde bulunmayan sunucular engellensin",
         "settings_updated_ok": "Ayarlar güncellendi!",
         "settings_updated_error": "Ayarlar güncellenemedi.",
         "portforward": "Kapı numarası yönlendirmesi",
@@ -508,14 +512,22 @@
         "host_group_exists": "Aynı adlı bir sunucu grubu zaten var",
         "not_exists_host-group": "Sunucu grubu bulunamadı",
         "host_group_cannot_be_delete": "Sunucu grubu kullanılmakta olduğundan silinemedi",
-        "valid_lessThan_256": "256 değerinden küçük olmalıdır"
+        "valid_lessThan_256": "256 değerinden küçük olmalıdır",
+        "valid_ipV4Address": "Adres geçersiz",
+        "valid_username": "İlk karakter bir harf olmalıdır. Ardından yalnız küçük harfler ile '-' ve '_' simgeleri kullanılabilir",
+        "valid_notEmpty": "Boş olmamalıdır",
+        "valid_cidrBlock": "Geçerli bir CIDR ağı olmalıdır",
+        "valid_time": "Saat SS:dd biçiminde olmalıdır",
+        "port_number_or_port_range": "Geçerli bir kapı numarası ya da kapı numarası aralığı (tire kullanarak) olmalıdır",
+        "protocol_doesnt_support_ports": "Bu iletişim kuralında kapı numarası kullanılamaz",
+        "valid_lessThan_65536": "65536 değerinden küçük olmalıdır"
     },
     "docs": {
         "pf_origin_port": "Tek bir kapı numarası, virgül ile ayrılmış bir kapı numarsaı listesi ya da ayraç olarak \":\" kullanarak (100:200 gibi) bir kapı numarası aralığı yazın. ",
         "rules_source": "Bir sunucu ya da CIDR nesnesi eklemek istemiyorsanız bir IP adresi ya da CIDR yazabilirsiniz.",
         "rules_destination": "Bir sunucu ya da CIDR nesnesi eklemek istemiyorsanız bir IP adresi ya da CIDR yazabilirsiniz.",
         "objects_ports": "Yazım biçimi: virgül ile ayrılmış kapı numaraları listesi ya da kapı numarası aralığı (10000-20000 gibi)",
-        "mac_validation": "Requests from IP addresses listed in DHCP reservations are allowed only if are originated from the associated MAC address (even if DHCP is disabled).",
-        "mac_validation_policy": "Requests from IP addresses not listed in DHCP reservations are blocked. Ensure admin hosts are listed in DHCP reservations."
+        "mac_validation": "DHCP ayırtmaları içindeki IP adreslerinden gelen isteklere yalnız ilgili MAC adresinden geliyorlarsa izin verilir (DHCP devre dışı bırakılmış olsa bile).",
+        "mac_validation_policy": "DHCP ayırtmaları içinde bulunmayan IP adreslerinden gelen istekler engellenir. Yönetici sunucularının DHCP ayırtmaları içinde bulunduğundan emin olun."
     }
 }

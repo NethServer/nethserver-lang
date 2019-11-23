@@ -345,6 +345,8 @@
     "object_not_found": "Nesne bulunamadı",
     "object_not_supported": "Nesne desteklenmiyor",
     "profile_not_found": "Profil bulunamadı",
-    "valid_fqdn_domain": "Geçerli bir tam sınıflandırılmış etki alanı adı olmalıdır"
+    "valid_fqdn_domain": "Geçerli bir tam sınıflandırılmış etki alanı adı olmalıdır",
+    "valid_lessThan_65536": "65536 değerinden küçük olmalıdır",
+    "valid_parent_proxy": "Sunucu adı geçerli ve kapı numarası (kullanılıyorsa) 65536 değerinden küçük bir tam sayı olmalıdır"
   }
 }

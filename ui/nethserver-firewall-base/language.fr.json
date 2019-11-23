@@ -54,7 +54,7 @@
     "Sun": "Dimanche",
     "dashboard": {
         "app": "Pare-feu",
-        "title": "Firewall dashboard",
+        "title": "Tableau de bord du pare-feu",
         "green": "LAN (vert)",
         "red": "WAN (rouge)",
         "blue": "Invités (bleu)",
@@ -117,7 +117,11 @@
         "chilli": "Hotspot",
         "clamd@squidclamav": "Web antivirus",
         "squid": "Proxy Web",
-        "suricata": "IPS (Détection d'intrusion)"
+        "suricata": "IPS (Détection d'intrusion)",
+        "ndpi": "nDPI",
+        "details_for": "Détails pour",
+        "name": "Nom",
+        "counter": "Counter"
     },
     "wan": {
         "title": "WAN",
@@ -153,7 +157,7 @@
         "in_out_bound_zero": "La bande passante de téléversement ou de téléchargement n'est pas définie",
         "fireqos_temporary_disabled": "Lissage du trafic temporairement désactivé durant le test de vitesse ",
         "speedtest_error": "Test de vitesse échoué : vérifiez la connexion Internet",
-        "click_to_open": "Click to expand details"
+        "click_to_open": "Cliquez pour voir les détails"
     },
     "traffic_shaping": {
         "title": "Lissage du trafic",
@@ -166,7 +170,7 @@
         "class_name": "Nom de classe",
         "class_description": "Description",
         "bandwidth_unit": "Unité de la bande passante",
-        "kbps": "kbps",
+        "kbit": "kbit",
         "bandwidth": "Bande passante",
         "%": "%",
         "down_bandwidth_limit": "Limite de bande passante en téléchargement",
@@ -189,8 +193,8 @@
         "configuration": "Configuration",
         "classes": "Classes",
         "all_wans": "Ensemble des WAN",
-        "charts_not_updated": "Charts cannot be updated. Set WAN bandwidth limits",
-        "set": "Set limits"
+        "charts_not_updated": "Les graphiques ne peuvent pas être mis à jour. Définir les limites de bande passante WAN",
+        "set": "Définir les limites"
     },
     "snat": {
         "title": "SNAT",
@@ -444,7 +448,7 @@
         "external_ping": "ping depuis Internet",
         "mac": "Validation MAC (association fixe IP/MAC )",
         "allowed": "Autorisé",
-        "block_mac": "Block hosts not listed in DHCP reservations",
+        "block_mac": "Bloquer les hôtes non listés dans les réservations DHCP",
         "settings_updated_ok": "Réglages mis à jour avec succès !",
         "settings_updated_error": "Réglages non actualisés.",
         "portforward": "Transfert de port",
@@ -508,14 +512,22 @@
         "host_group_exists": "Un groupe d'hôte avec le même nom existe déjà",
         "not_exists_host-group": "Le groupe d'hôte n'existe pas",
         "host_group_cannot_be_delete": "Ce groupe d'hôte ne peut être supprimé car il est en cours d'utilisation",
-        "valid_lessThan_256": "Doit être inférieur à 256"
+        "valid_lessThan_256": "Doit être inférieur à 256",
+        "valid_ipV4Address": "Adresse invalide",
+        "valid_username": "Le premier caractère doit être une lettre, seulement minuscules, des chiffres et des symboles tels que '-' et '_'",
+        "valid_notEmpty": "Ne doit pas être vide",
+        "valid_cidrBlock": "Doit être un réseau CIDR valide",
+        "valid_time": "L'heure doit être au format HH:mm",
+        "port_number_or_port_range": "Doit être un numéro de port ou une plage de ports valide (en utilisant le tiret)",
+        "protocol_doesnt_support_ports": "Ce protocole ne supporte pas les ports",
+        "valid_lessThan_65536": "Doit être inférieur à 65536"
     },
     "docs": {
         "pf_origin_port": "Renseignez un port, une liste de ports séparés par un point-virgule ou une plage de ports en utilisant \":\" comme séparateur tel que \"100:200\"",
         "rules_source": "Vous devez renseigner une IP ou un masque si vous ne voulez pas créer un hôte ou un objet CIDR",
         "rules_destination": "Vous devez renseigner une IP ou un masque si vous ne voulez pas créer un hôte ou un objet CIDR",
-        "objects_ports": "Supported syntax: comma-separated port list or port range (i.e. 10000-20000)",
-        "mac_validation": "Requests from IP addresses listed in DHCP reservations are allowed only if are originated from the associated MAC address (even if DHCP is disabled).",
-        "mac_validation_policy": "Requests from IP addresses not listed in DHCP reservations are blocked. Ensure admin hosts are listed in DHCP reservations."
+        "objects_ports": "Syntaxe prise en charge : liste de ports séparés par des virgules ou plage de ports (ex: 10000-20000)",
+        "mac_validation": "Les requêtes provenant d'adresses IP listées dans les réservations DHCP ne sont autorisées que si elles proviennent de l'adresse MAC associée (même si DHCP est désactivé).",
+        "mac_validation_policy": "Les demandes provenant d'adresses IP qui ne figurent pas dans les réservations DHCP sont bloquées. Assurez-vous que les hôtes admin sont listés dans les réservations DHCP."
     }
 }

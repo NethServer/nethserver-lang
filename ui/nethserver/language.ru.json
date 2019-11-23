@@ -32,9 +32,9 @@
   "success": "Выполнено",
   "error": "При ошибке",
   "event": "Событие",
-  "check": "Проверить",
+  "check": "Unfortunately we couldn't catch the exact error. If you want to help, please click on the button below to copy the failed command to the clipboard, paste it into the Terminal and submit command output to the developers",
   "stats": "Статистика",
-  "for_more_info": "для более подробной информации",
+  "for_more_info": "The following command has failed",
   "lowercase": "нижний регистр",
   "uppercase": "верхний регистр",
   "number": "число",
@@ -142,7 +142,7 @@
     "shutdown_ok": "Система выключается...",
     "shutdown_error": "Произошла ошибка при выключении системы.",
     "hostname_change": "After hostname change you have to login again",
-    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding on other configurations"
+    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding with other configurations"
   },
   "backup": {
     "title": "Резервное копирование",
@@ -175,7 +175,7 @@
     "data_list": "Список данных",
     "last_backup_status": "Состояние последнего резервного копирования",
     "backup_configured": "Резервное копирование настроено",
-    "choose_file": "Выберите файл (*.tar.gz)",
+    "choose_file": "Choose file (*.tar.xz)",
     "automatic_backups_keep": "Хранить автоматических резервных копий (число)",
     "enable": "Включить",
     "disable": "Выключить",
@@ -245,7 +245,7 @@
     "refresh": "Обновить",
     "execute_config_backup_ok": "Резервное копирование настроек выполнено!",
     "execute_config_backup_error": "Резервное копирование настроек не выполнено.",
-    "execute_data_backup_ok": "Резервное копирование данных выполнено!",
+    "execute_data_backup_ok": "Data backup started successfully!",
     "execute_data_backup_error": "Резервное копирование данных не выполнено.",
     "delete_config_backup_ok": "Резервная копия настроек удалена!",
     "delete_config_backup_error": "Резервная копия настроек не удалена.",
@@ -254,7 +254,7 @@
     "last_log": "Последний лог",
     "last_log_for": "Последний лог резервного копирования данных",
     "view_last_log": "См. последний лог",
-    "choose_from": "Выбрать из",
+    "choose_from": "Choose source",
     "reinstall_packages": "Переустановить пакеты",
     "restore_config_backup_ok": "Восстановление настроек из резервной копии выполнено!",
     "restore_config_backup_error": "Восстановление настроек из резервной копии не выполнено.",
@@ -277,8 +277,15 @@
     "storage_usage": "Использование места хранения",
     "overwrite_all_data": "восстановление перезапишет все данные",
     "nfs_rsync_info": "Убедитесь, что NFS-сервер поддерживает жёсткие ссылки, иначе резервное копирование не будет выполнено",
-    "during_remap_warning": "During interface remapping, if one or more interface change its IP address, you have to login again in the new IP address",
-    "interface_remap": "Interface remapping"
+    "during_remap_warning": "During interface remapping, if one or more interfaces change its IP address, you have to login again in the new IP address",
+    "check_configuration": "Проверка",
+    "register_system": "Register system",
+    "register_before_restore": "You are trying to restore a backup with a subscription. Please register the machine before restoring this backup",
+    "register_now": "Зарегистрироваться",
+    "invalid_backup_format": "Backup not found or invalid",
+    "remap_at_least_one_green": "You have to select at least one green to remap",
+    "assign_later": "Assign later",
+    "current_int": "System interfaces"
   },
   "disk_usage": {
     "title": "Использование диска",
@@ -289,7 +296,7 @@
     "disk_updated_ok": "Данные об использовании диска обновлены!",
     "disk_updated_error": "Данные об использовании диска не были обновлены.",
     "copy_path": "Скопировать путь",
-    "one_file_system": "Don't cross filesystem boundaries"
+    "one_file_system": "Analyze only the root filesystem"
   },
   "storage": {
     "title": "Хранилище"
@@ -568,7 +575,15 @@
     "no_users_found_desc": "If your provider is local, click on button below to create a new user or add it on remote provider",
     "no_groups_found": "No groups found",
     "no_groups_found_desc": "If your provider is local, click on button below to create a new group or add it on remote provider",
-    "weak_password": "Your policy allows you to insert weak password, it not recommended for security reasons"
+    "weak_password": "Your policy allows you to insert weak password, it not recommended for security reasons",
+    "BindPassword": "Пароль для привязки",
+    "BaseDN": "База для поиска (Base DN)",
+    "BindDN": "Имя для привязки (Bind DN)",
+    "LdapURI": "LDAP URI",
+    "NsdcIp": "Active Directory IP",
+    "UserDN": "Пользователь (User DN)",
+    "GroupDN": "Группа (Group DN)",
+    "StartTls": "Start TLS"
   },
   "network": {
     "title": "Сеть",
@@ -752,7 +767,10 @@
     "rotation_daily": "Ежедневно",
     "rotation_weekly": "Еженедельно",
     "rotation_monthly": "Ежемесячно",
-    "log_rotate": "Ротация логов"
+    "log_rotate": "Ротация логов",
+    "test_mail": "Тестовое письмо",
+    "mail_sent_ok": "Mail sent successfully!",
+    "mail_sent_error": "Mail not sent."
   },
   "logs": {
     "title": "Логи"
@@ -770,7 +788,9 @@
     "helpdesk": "Helpdesk",
     "documentation": "Документация",
     "wiki": "Wiki",
-    "subscription": "Подписка"
+    "subscription": "Подписка",
+    "phonehome": "Phone home is used to track all NethServer installations around the world.",
+    "map": "Map"
   },
   "wizard": {
     "title": "Мастер"
@@ -923,20 +943,21 @@
     "change_default_company": "Измените компанию по умолчанию",
     "one_or_more_dns_not_working": "Один или более DNS-серверов не отвечают",
     "TCPPort": "TCP-порт",
-    "service_is_enabled_but_is_not_running": "Служба включена, но не запущена",
+    "service_is_enabled_but_is_not_running": "The service is either not running or not enabled",
     "must_configure_backup_data": "Вам следует настроить хотя бы одно резервное копирование данных",
     "change_default_ssh_port": "Измените порт SSH по умолчанию, чтобы снизить частоту брутфорс-атак ",
     "limit_red_access_by_ip": "Ограничьте доступ к диспетчеру сервера, указав разрешенный IP-адреса",
-    "LimitAccess": "Ограничить доступ",
+    "LimitAccess": "Диспетчер сервера",
     "backup": "Резервное копирование",
     "centos_upgrade": "Новый выпуск дистрибутива доступен в качестве обновления. Если Вы не хотите его устанавливать, то смените источник обновлений на \"Заблокированный\"",
-    "dhcp_on_green_can_cause_unexpected_behavior": "Использование DHCP на зеленых интерфейсах может привести к неожиданному поведению. Пожалуйста, измените интерфейс на статический, если это возможно.",
-    "interface_must_be_static": "Зелёный интерфейс должен иметь статический IP-адрес",
+    "interface_must_be_static": "A green interface must have a static IP address. Using DHCP on green interfaces leads to unexpected behavior. Please, change the interface to static if possible.",
     "hostname": "Имя хоста",
-    "hostname_should_not_contain_localhost": "Имя хоста не должно содержать localhost",
+    "hostname_should_not_contain_localhost": "Hostname should not contain localhost",
     "subscription": "Подписка",
     "support_active": "Сессия удаленной поддержки активна",
-    "hostname_should_not_contain_localdomain": "Имя хоста не должно содержать 'localdomain'"
+    "hostname_should_not_contain_localdomain": "Имя хоста не должно содержать 'localdomain'",
+    "first_hostname_part_maximum_length_15": "First hostname part must be maximum 15 characters lenght",
+    "unmapped_interface_from_restore": "This interface has not been activated after the restore. Assign the role to a new interface or remove it"
   },
   "validation": {
     "weak_password": "Пароль слишком слабый, он может быть в словаре или слишком похож на предыдущий",
@@ -967,15 +988,17 @@
     "valid_platform,ad-dns,srv_record,": "Не удалось найти контроллер домена Active Directory",
     "valid_hostname_fqdn_1_9223372036854775807": "Должно содержать по крайней мере две точки, например, как 'myhost.example.com'",
     "valid_hostname_fqdn_0_9223372036854775807": "Должно содержать по крайней мере две точки, например, как 'myhost.example.com'",
+    "valid_hostname_fqdn_long_2_9223372036854775807": "Должно содержать по крайней мере две точки, например, как 'myhost.example.com'",
     "permission_denied": "Доступ запрещен",
     "backuptime_not_enough_elements": "Неверный cron-формат времени: недостаточно элементов",
     "backuptime_not_found": "Не установлено время",
     "backup_already_exists": "Резервное копирование с таким именем уже существует",
     "valid_email,generic_failure": "Неверный адрес эл.почты: должно что-то вроде 'myname@domain.com'",
     "valid_mail_address": "Неверный адрес эл.почты: должно быть что-то вроде 'myname@domain.com'",
-    "valid_ipV4Address": "Неверный IPv4-адрес: должно быть что-то вроде '10.0.0.1'",
+    "valid_ipV4Address": "Invalid address",
     "valid_ipV4Netmask": "Неверная сетевая маска IPv4: должно быть что-то вроде '255.255.255.0'",
     "all_domains_must_be_fqdn": "Все домены должны быть действительными FQDN (Fully Qualified Domain Name)",
+    "letencrypt_domain_failed": "Challenge failed for this domain(s)",
     "invalid_x509_ceritficate": "Сертификат X.509 (кодировка PEM)",
     "invalid_x509_key": "Закрытый ключ RSA или EC (кодировка PEM)",
     "cert_safetyguard": "Выбранный ECC-сертификат не совместим с текущей политикой TLS",
@@ -1048,7 +1071,8 @@
     "traceroute_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
     "ping_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
     "nslookup_validator_valid_ipV4Address": "Invalid IPv4 address, it must be something like '10.0.0.1'",
-    "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Invalid fully qualified domain name, it must be something like 'domain.org'"
+    "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Invalid fully qualified domain name, it must be something like 'domain.org'",
+    "host_not_removable": "Этот хост не может быть удалён, так как он используется"
   },
   "docs": {
     "more_info_about": "Больше информации о",

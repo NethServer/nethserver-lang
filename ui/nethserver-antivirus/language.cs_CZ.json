@@ -1,15 +1,15 @@
 {
     "settings": {
         "title": "Nastavení",
-        "official_signatures": "ClamAV official signatures",
-        "unofficial_signatures_rating": "Third-party signatures rating",
-        "error_reading_configuration": "Error reading antivirus configuration",
-        "error_validating_configuration": "Error validating antivirus configuration",
+        "official_signatures": "Oficiální ClamAV signatury",
+        "unofficial_signatures_rating": "Hodnocení signatur třetí strany",
+        "error_reading_configuration": "Chyba při čtení nastavení antiviru",
+        "error_validating_configuration": "Chyba při ověřování nastavení antiviru",
         "configuration_update_successful": "Nastavení úspěšně zaktualizováno",
         "configuration_update_failed": "Aktualizace nastavení se nezdařila",
-        "info_notification": "Signatures are downloaded at hourly intervals. Changes to this page will take effect on next automatic signatures download.",
-        "error_reading_total_memory": "Error reading total memory",
-        "memory_warning": "The system has less than 4GB of RAM. You're strongly advised to disable official ClamAV signatures to avoid memory filling."
+        "info_notification": "Signatury jsou stahovány každou hodinu. Změny na této stránce se projeví při příštím automatickém stahování signatur.",
+        "error_reading_total_memory": "Chyba při čtení celkové paměti",
+        "memory_warning": "Systém má méně než 4GB operační paměti. Aby se paměť nezaplnila, důrazně doporučujeme vypnout oficiální ClamAV signatury."
     },
     "about": {
         "title": "O aplikaci",
@@ -23,7 +23,7 @@
         "start_follow_button": "Následovat",
         "stop_follow_button": "Přestat odebírat",
         "filter_label": "Filtr s regulárním výrazem",
-        "error_getting_clamav_instances": "Error getting ClamAV instances"
+        "error_getting_clamav_instances": "Chyba při zjišťování instancí ClamAV"
     },
     "dashboard":{
         "title": "Antivirus",
@@ -35,13 +35,13 @@
         "status": "Stav",
         "no_data_available": "Nejsou k dispozici žádné údaje",
         "other": "Ostatní",
-        "memory_used": "Memory used",
+        "memory_used": "Využitá paměť",
         "since": "Od",
-        "no_instance_installed": "No ClamAV instance installed"
+        "no_instance_installed": "Není nainstalovaná žádná instance ClamAV"
     },
     "docs": {
-        "official_signatures": "Official ClamAV signatures use a large amount of memory. Official signatures detect many old threats but are not very effective against the latest malware.",
-        "unofficial_signatures_ratings": "Higher rating means more blocked threats but also a higher probability of false positives. Recommended ratings are 'Low' and 'Medium'."
+        "official_signatures": "Oficiální ClamAV signatury používají velké množství paměti. Oficiální signatury zjišťují mnoho starých hrozeb, ale nejsou příliš efektivní proti nejnovějšímu malware.",
+        "unofficial_signatures_ratings": "Vyšší hodnocení znamená více blokovaných hrozeb, ale také vyšší pravděpodobnost falešných poplachů. Doporučená hodnocení jsou „Nízké“ a „Střední“."
     },
     "save": "Uložit",
     "cancel": "Storno"

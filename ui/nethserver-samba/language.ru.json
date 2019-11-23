@@ -24,12 +24,22 @@
   "install_packages": "Установить пакеты",
   "packages_installed_ok": "Пакеты установлены!",
   "packages_installed_error": "Пакеты не были установлены.",
+  "details": "Подробно",
+  "next": "Далее",
+  "back": "Назад",
+  "close": "Закрыть",
+  "prev": "Предыдущий",
+  "of": " ",
+  "or": "или",
+  "with": "с",
+  "all": "Всё",
   "docs": {
     "sharedfolders": "Общие папки",
     "more_info_about": "Подробнее о {docsLink}.",
     "audit": "Аудит",
     "guestAccess_info": "Доступ к общей папке предоставляется, даже если были указаны неверные учётные данные.",
-    "everyone_info": "Гость или авторизованный пользователь, несоответствующий ни одному ACL."
+    "everyone_info": "Гость или авторизованный пользователь, несоответствующий ни одному ACL.",
+    "audit_log": "Enable this option to save read actions inside the database. If the option is not checked, read actions will be logged inside /var/log/smbaudit.log but will not be saved inside the database."
   },
   "dashboard": {
     "title": "File server dashboard",
@@ -119,10 +129,10 @@
     "user": "Пользователь",
     "address": "Адрес",
     "share": "Ресурс",
-    "message": "Файл или путь",
+    "message": "File or Directory",
     "from": "От",
     "to": "Кому",
-    "filter": "Фильтр",
+    "filter": "Поиск",
     "all": "Всё",
     "rename": "Переименование",
     "read_file": "Доступ к файлу",
@@ -130,12 +140,16 @@
     "create_directory": "Создание директории",
     "delete_directory": "Удаление директории",
     "delete_all_audits": "Удалить все аудиты",
-    "update": "Обновить",
+    "update": "Refresh audit database",
     "delete": "Удалить",
     "updated_ok": "Аудит обновлён!",
     "updated_error": "Аудит не был обновлён.",
     "deleted_ok": "Аудит удалён!",
-    "deleted_error": "Аудит не был удалён."
+    "deleted_error": "Аудит не был удалён.",
+    "details": "Show details",
+    "show_audit_details": "Show audit details",
+    "update_at": "Обновлено в",
+    "advanced_search": "Advanced search"
   },
   "logs": {
     "menu_title": "Логи",
@@ -155,7 +169,8 @@
     "no_inherit": "Предоставить полный доступ создателю",
     "settings_ok": "Настройки обновлены!",
     "settings_error": "Настройки не были обновлены.",
-    "settings_updated_ok": "Настройки сохранены"
+    "settings_updated_ok": "Настройки сохранены",
+    "audit_log": "Enable auditing of read actions"
   },
   "about": {
     "website": "Web-сайт",

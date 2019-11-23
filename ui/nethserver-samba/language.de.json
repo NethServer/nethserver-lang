@@ -24,12 +24,22 @@
   "install_packages": "Installiere Pakete",
   "packages_installed_ok": "Paket erfolgreich installiert!",
   "packages_installed_error": "Nicht installierte Pakete.",
+  "details": "Details",
+  "next": "Weiter",
+  "back": "Zurück",
+  "close": "Schließen",
+  "prev": "Vorherige",
+  "of": "von",
+  "or": "oder",
+  "with": "mit",
+  "all": "Alle",
   "docs": {
     "sharedfolders": "Freigabe-Ordner",
     "more_info_about": "Mehr Info zu {docsLink}.",
     "audit": "Prüfung",
     "guestAccess_info": "Der Zugriff auf den freigegebenen Ordner wird auch dann gewährt, wenn ungültige Anmeldeinformationen angegeben wurden.",
-    "everyone_info": "Ein Gast oder ein autorisierter Benutzer, der keiner ACL entspricht."
+    "everyone_info": "Ein Gast oder ein autorisierter Benutzer, der keiner ACL entspricht.",
+    "audit_log": "Enable this option to save read actions inside the database. If the option is not checked, read actions will be logged inside /var/log/smbaudit.log but will not be saved inside the database."
   },
   "dashboard": {
     "title": "Dateiserver-Übersicht",
@@ -119,10 +129,10 @@
     "user": "Benutzer",
     "address": "Adresse",
     "share": "Freigeben",
-    "message": "Datei oder Pfad",
+    "message": "File or Directory",
     "from": "Von",
     "to": "An",
-    "filter": "Filter",
+    "filter": "Suchen",
     "all": "Alle",
     "rename": "Umbenennen",
     "read_file": "Dateizugriff",
@@ -130,12 +140,16 @@
     "create_directory": "Verzeichnis erstellen",
     "delete_directory": "Verzeichnis löschen",
     "delete_all_audits": "Alle Prüfungen löschen",
-    "update": "Update",
+    "update": "Refresh audit database",
     "delete": "Entfernen",
     "updated_ok": "Prüfung erfolgreich aktualisiert!",
     "updated_error": "Prüfung nicht aktualisiert.",
     "deleted_ok": "Prüfung erfolgreich gelöscht!",
-    "deleted_error": "Prüfung nicht gelöscht."
+    "deleted_error": "Prüfung nicht gelöscht.",
+    "details": "Show details",
+    "show_audit_details": "Show audit details",
+    "update_at": "Update um",
+    "advanced_search": "Advanced search"
   },
   "logs": {
     "menu_title": "Logs",
@@ -155,7 +169,8 @@
     "no_inherit": "Ersteller hat volle Kontrolle",
     "settings_ok": "Einstellungen erfolgreich aktualisiert!",
     "settings_error": "Einstellungen nicht aktualisiert.",
-    "settings_updated_ok": "Einstellungen korrekt gespeichert"
+    "settings_updated_ok": "Einstellungen korrekt gespeichert",
+    "audit_log": "Enable auditing of read actions"
   },
   "about": {
     "website": "Webseite",

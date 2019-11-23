@@ -30,7 +30,9 @@
     "restored_list": "Liste des fichiers restaurés",
     "error_restored_list": "Une erreur s'est produite lors de la restauration des fichiers.",
     "are_you_sure": "Êtes-vous sûr ?",
-    "cancel": "Annuler"
+    "cancel": "Annuler",
+    "backup_disabled": "This backup is disabled. Enable it before restore data.",
+    "enable": "Activer"
   },
   "about": {
     "title": "A propos",

@@ -21,7 +21,7 @@
   "of": "de",
   "or": "ó",
   "with": "con",
-  "rows_per_page": "Filas por página",
+  "rows_per_page": "Filas por pagina",
   "search": "Buscar",
   "all": "Todo",
   "info": "Info",
@@ -32,9 +32,9 @@
   "success": "Completado",
   "error": "Error",
   "event": "Evento",
-  "check": "Comprobar",
+  "check": "Unfortunately we couldn't catch the exact error. If you want to help, please click on the button below to copy the failed command to the clipboard, paste it into the Terminal and submit command output to the developers",
   "stats": "Estadística",
-  "for_more_info": "para más info",
+  "for_more_info": "The following command has failed",
   "lowercase": "minúscula",
   "uppercase": "mayúscula",
   "number": "número",
@@ -142,7 +142,7 @@
     "shutdown_ok": "El sistema se está apagando...",
     "shutdown_error": "Ha ocurrido un error durante el apagado del sistema",
     "hostname_change": "After hostname change you have to login again",
-    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding on other configurations"
+    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding with other configurations"
   },
   "backup": {
     "title": "Copia de seguridad",
@@ -175,7 +175,7 @@
     "data_list": "Lista de datos",
     "last_backup_status": "Estado última copia de seguridad",
     "backup_configured": "Copias de seguridad configuradas",
-    "choose_file": "Seleccionar archivo (*.tar.gz)",
+    "choose_file": "Choose file (*.tar.xz)",
     "automatic_backups_keep": "Copias de seguridad automáticas a mantener (número)",
     "enable": "Habilitar",
     "disable": "Deshabilitar",
@@ -245,7 +245,7 @@
     "refresh": "Refrescar",
     "execute_config_backup_ok": "Copia de seguridad de la configuración realizada correctamente",
     "execute_config_backup_error": "Copia de seguridad de la configuración no realizada",
-    "execute_data_backup_ok": "Copia de seguridad de datos realizada correctamente",
+    "execute_data_backup_ok": "Data backup started successfully!",
     "execute_data_backup_error": "Copia de seguridad de datos no realizada",
     "delete_config_backup_ok": "Copia de seguridad de de la configuración eliminada correctamente",
     "delete_config_backup_error": "Copia de seguridad de la configuración no eliminada",
@@ -254,7 +254,7 @@
     "last_log": "Último evento",
     "last_log_for": "Último evento de la copia de seguridad de los datos",
     "view_last_log": "Ver último evento",
-    "choose_from": "Elegir desde",
+    "choose_from": "Choose source",
     "reinstall_packages": "Reinstalar paquetes",
     "restore_config_backup_ok": "Copia de seguridad de la configuración restaurada correctamente",
     "restore_config_backup_error": "Copia de seguridad de la configuración no restaurada",
@@ -277,8 +277,15 @@
     "storage_usage": "Uso del almacenamiento de destino",
     "overwrite_all_data": "la restauración sobreescribirá todos los datos",
     "nfs_rsync_info": "Make sure the NFS server supports hard links, otherwise the backup will fail",
-    "during_remap_warning": "During interface remapping, if one or more interface change its IP address, you have to login again in the new IP address",
-    "interface_remap": "Interface remapping"
+    "during_remap_warning": "During interface remapping, if one or more interfaces change its IP address, you have to login again in the new IP address",
+    "check_configuration": "Comprobar configuración",
+    "register_system": "Register system",
+    "register_before_restore": "You are trying to restore a backup with a subscription. Please register the machine before restoring this backup",
+    "register_now": "Registrese ahora",
+    "invalid_backup_format": "Backup not found or invalid",
+    "remap_at_least_one_green": "You have to select at least one green to remap",
+    "assign_later": "Assign later",
+    "current_int": "System interfaces"
   },
   "disk_usage": {
     "title": "Uso del disco",
@@ -289,7 +296,7 @@
     "disk_updated_ok": "Actualización del uso del disco correcta",
     "disk_updated_error": "Uso del disco no actualizado",
     "copy_path": "Copiar la ruta",
-    "one_file_system": "Don't cross filesystem boundaries"
+    "one_file_system": "Analyze only the root filesystem"
   },
   "storage": {
     "title": "Almacenamiento"
@@ -568,7 +575,15 @@
     "no_users_found_desc": "If your provider is local, click on button below to create a new user or add it on remote provider",
     "no_groups_found": "No groups found",
     "no_groups_found_desc": "If your provider is local, click on button below to create a new group or add it on remote provider",
-    "weak_password": "Your policy allows you to insert weak password, it not recommended for security reasons"
+    "weak_password": "Your policy allows you to insert weak password, it not recommended for security reasons",
+    "BindPassword": "Contraseña de enlace",
+    "BaseDN": "Base DN",
+    "BindDN": "Conexion DN",
+    "LdapURI": "LDAP URI",
+    "NsdcIp": "Active Directory IP",
+    "UserDN": "Usuario DN",
+    "GroupDN": "Grupo DN",
+    "StartTls": "Start TLS"
   },
   "network": {
     "title": "Red",
@@ -752,7 +767,10 @@
     "rotation_daily": "Diario",
     "rotation_weekly": "Semanal",
     "rotation_monthly": "Mensual",
-    "log_rotate": "Rotar eventos"
+    "log_rotate": "Rotar eventos",
+    "test_mail": "Probar mail",
+    "mail_sent_ok": "Mail sent successfully!",
+    "mail_sent_error": "Mail not sent."
   },
   "logs": {
     "title": "Logs"
@@ -770,7 +788,9 @@
     "helpdesk": "Helpdesk",
     "documentation": "Documentación",
     "wiki": "Wiki",
-    "subscription": "Suscripción"
+    "subscription": "Suscripción",
+    "phonehome": "Phone home is used to track all NethServer installations around the world.",
+    "map": "Map"
   },
   "wizard": {
     "title": "Asistente"
@@ -923,20 +943,21 @@
     "change_default_company": "Cambia la compañía por defecto",
     "one_or_more_dns_not_working": "Uno o más servidores DNS no están respondiendo",
     "TCPPort": "Puerto TCP",
-    "service_is_enabled_but_is_not_running": "El servicio está habilitado, pero no está ejecutándose",
+    "service_is_enabled_but_is_not_running": "The service is either not running or not enabled",
     "must_configure_backup_data": "Debes configurar, al menos, una copia de seguridad de datos",
     "change_default_ssh_port": "Cambia el puerto SSH por defecto para minimizar los ataques por fuerza bruta",
     "limit_red_access_by_ip": "Limitar el acceso al administrador del servidor especificando las direcciones IP permitidas",
-    "LimitAccess": "Limitar acceso",
+    "LimitAccess": "Server Manager",
     "backup": "Copia de seguridad",
     "centos_upgrade": "Hay disponible una nueva versión mayor de distribución como actualización. Para evitar la instalación, cambia el origen de las actualizaciones de software a \"Bloqueado\"",
-    "dhcp_on_green_can_cause_unexpected_behavior": "El uso de DHCP en interfaces verdes conduce a un comportamiento inesperado. Por favor, cambie la interfaz a estática si es posible.",
-    "interface_must_be_static": "Una interfaz verde debe tener una dirección IP estática",
+    "interface_must_be_static": "A green interface must have a static IP address. Using DHCP on green interfaces leads to unexpected behavior. Please, change the interface to static if possible.",
     "hostname": "Nombre de host",
-    "hostname_should_not_contain_localhost": "El nombre de host no debe contener localhost",
+    "hostname_should_not_contain_localhost": "Hostname should not contain localhost",
     "subscription": "Suscripción",
     "support_active": "Hay activa una sesión de soporte remoto",
-    "hostname_should_not_contain_localdomain": "The hostname should not contain 'localdomain'"
+    "hostname_should_not_contain_localdomain": "The hostname should not contain 'localdomain'",
+    "first_hostname_part_maximum_length_15": "First hostname part must be maximum 15 characters lenght",
+    "unmapped_interface_from_restore": "This interface has not been activated after the restore. Assign the role to a new interface or remove it"
   },
   "validation": {
     "weak_password": "Contraseña demasiado débil. Podría ser similar a la anterior o estar incluida en algún diccionario",
@@ -967,15 +988,17 @@
     "valid_platform,ad-dns,srv_record,": "No se encuentra ningún controlador de dominio de Active Directory",
     "valid_hostname_fqdn_1_9223372036854775807": "Debe contener, al menos, dos puntos, como 'mihost.ejemplo.com'",
     "valid_hostname_fqdn_0_9223372036854775807": "Debe contener, al menos, dos puntos, como 'mihost.ejemplo.com'",
+    "valid_hostname_fqdn_long_2_9223372036854775807": "Debe contener, al menos, dos puntos, como 'mihost.ejemplo.com'",
     "permission_denied": "Permiso denegado",
     "backuptime_not_enough_elements": "Formato de hora de cron no válido: no hay suficientes elementos",
     "backuptime_not_found": "No se ha especificado un tiempo para cron",
     "backup_already_exists": "Ya existe una copia de seguridad con el mismo nombre",
     "valid_email,generic_failure": "Dirección de correo inválida: Debe ser parecido a 'myname@domain.com'",
     "valid_mail_address": "Dirección de correo inválida: Debe ser parecido a 'myname@domain.com'",
-    "valid_ipV4Address": "Dirección IPv4 no válida: Debe ser parecida a '10.0.0.1'",
+    "valid_ipV4Address": "Invalid address",
     "valid_ipV4Netmask": "Máscara de red IPv4 no válida: Debe ser parecida a '255.255.255.0'",
     "all_domains_must_be_fqdn": "Todos los dominios deben tener un FQDN válido (Fully Qualified Domain Name)",
+    "letencrypt_domain_failed": "Challenge failed for this domain(s)",
     "invalid_x509_ceritficate": "Certificado X.509 (codificación PEM)",
     "invalid_x509_key": "Clave privada RSA o EC (codificación PEM)",
     "cert_safetyguard": "El certificado ECC seleccionado no es compatible con la política actual de TLS",
@@ -1048,7 +1071,8 @@
     "traceroute_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
     "ping_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
     "nslookup_validator_valid_ipV4Address": "Invalid IPv4 address, it must be something like '10.0.0.1'",
-    "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Invalid fully qualified domain name, it must be something like 'domain.org'"
+    "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Invalid fully qualified domain name, it must be something like 'domain.org'",
+    "host_not_removable": "This host can't be removed because it is in use"
   },
   "docs": {
     "more_info_about": "Más información",

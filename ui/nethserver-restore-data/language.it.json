@@ -30,7 +30,9 @@
     "restored_list": "Lista di file ripristinati",
     "error_restored_list": "Errore durante il ripristino dei file.",
     "are_you_sure": "Sei sicuro",
-    "cancel": "Annulla"
+    "cancel": "Annulla",
+    "backup_disabled": "Il backup è disabilitato. Attivarlo per ripristinare i dati.",
+    "enable": "Abilita"
   },
   "about": {
     "title": "Informazioni",

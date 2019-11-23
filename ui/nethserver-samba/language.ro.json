@@ -24,12 +24,22 @@
   "install_packages": "Instalează pachete",
   "packages_installed_ok": "Pachetele instalate cu succes!",
   "packages_installed_error": "Pachetele neinstalate.",
+  "details": "Detalii",
+  "next": "Următorul",
+  "back": "Înapoi",
+  "close": "Închide",
+  "prev": "Anterior",
+  "of": "al",
+  "or": "sau",
+  "with": "cu",
+  "all": "Tot",
   "docs": {
     "sharedfolders": "Dosare partajate",
     "more_info_about": "Mai multe informații despre {docsLink}.",
     "audit": "Audit",
     "guestAccess_info": "Access to the shared folder is granted even if invalid credentials are provided.",
-    "everyone_info": "A guest, or an authorized user that does not match any ACL."
+    "everyone_info": "A guest, or an authorized user that does not match any ACL.",
+    "audit_log": "Enable this option to save read actions inside the database. If the option is not checked, read actions will be logged inside /var/log/smbaudit.log but will not be saved inside the database."
   },
   "dashboard": {
     "title": "File server dashboard",
@@ -119,10 +129,10 @@
     "user": "Utilizator",
     "address": "Adresă",
     "share": "Distribuie",
-    "message": "File or Path",
+    "message": "File or Directory",
     "from": "De la",
     "to": "Către",
-    "filter": "Filtru",
+    "filter": "Caută",
     "all": "Tot",
     "rename": "Rename",
     "read_file": "Access file",
@@ -130,12 +140,16 @@
     "create_directory": "Creează director",
     "delete_directory": "Delete directory",
     "delete_all_audits": "Delete all audits",
-    "update": "Actualizare",
+    "update": "Refresh audit database",
     "delete": "Șterge",
     "updated_ok": "Audit updated successfully!",
     "updated_error": "Audit not updated.",
     "deleted_ok": "Audit deleted successfully!",
-    "deleted_error": "Audit not deleted."
+    "deleted_error": "Audit not deleted.",
+    "details": "Show details",
+    "show_audit_details": "Show audit details",
+    "update_at": "Actualizare la",
+    "advanced_search": "Advanced search"
   },
   "logs": {
     "menu_title": "Jurnale",
@@ -155,7 +169,8 @@
     "no_inherit": "Acordă control deplin creatorului",
     "settings_ok": "Setările actualizate cu succes!",
     "settings_error": "Setările nu au fost actualizate.",
-    "settings_updated_ok": "Settings saved correctly"
+    "settings_updated_ok": "Settings saved correctly",
+    "audit_log": "Enable auditing of read actions"
   },
   "about": {
     "website": "Sit web",

@@ -58,6 +58,7 @@
     "user_not_found_desc": "İlkini eklemek için aşağıdaki düğmeye tıklayın"
   },
   "virtualhost": {
+    "web_root_directory": "Web root path",
     "vhost_created_ok": "Sanal sunucu eklendi",
     "vhost_created_error": "Sanal sunucu eklenmedi",
     "vhost_updated_ok": "Sanal sunucu güncellendi",

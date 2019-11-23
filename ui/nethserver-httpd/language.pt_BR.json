@@ -58,6 +58,7 @@
     "user_not_found_desc": "Click the button below to create the first one"
   },
   "virtualhost": {
+    "web_root_directory": "Web root path",
     "vhost_created_ok": "The virtual host has been created",
     "vhost_created_error": "The virtual host has not been created",
     "vhost_updated_ok": "The virtual host has been updated",
@@ -161,7 +162,7 @@
     "UploadMaxFilesize":"The maximum size of an uploaded file, this value must be smaller than the 'Maximum post size'."
   },
   "validation": {
-    "validation_failed": "Validation failed",
+    "validation_failed": "Validação falhou",
     "valid_memberOf_enabled, disabled": "Can be enabled or disabled",
     "valid_fqdn": "Must be a valid FQDN like 'server.domain.org', one item per line",
     "valid_fqdn_already_used": "The virtual host name is already used",

@@ -345,6 +345,8 @@
     "object_not_found": "Objet non trouvé",
     "object_not_supported": "Objet non supporté",
     "profile_not_found": "Profil non trouvé",
-    "valid_fqdn_domain": "Doit être un FQDN valide"
+    "valid_fqdn_domain": "Doit être un FQDN valide",
+    "valid_lessThan_65536": "Doit être inférieur à 65536",
+    "valid_parent_proxy": "Must be a valid hostname, port (if defined) must be integer less than 65536"
   }
 }

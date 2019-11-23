@@ -2,8 +2,8 @@
 
 $L['Ejabber_Title'] = 'Csevegés szolgáltatás';
 $L['Ejabber_Description'] = 'Csevegés szolgáltatás beállítása';
-$L['Ejabber_Tags'] = 'csevegés xmpp jabber ejabber';
-$L['status_label'] = 'Ejabber csevegés szolgáltatás engedélyezése';
+$L['Ejabber_Tags'] = 'chat xmpp jabber ejabberd';
+$L['status_label'] = 'Enable ejabberd chat server';
 $L['WebAdmin_label'] = 'Administration web Interface';
 $L['Advanced_label'] = 'Advanced settings';
 $L['S2S_label'] = 'Enable federation (S2S)';

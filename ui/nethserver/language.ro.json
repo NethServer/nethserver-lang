@@ -21,7 +21,7 @@
   "of": "al",
   "or": "sau",
   "with": "cu",
-  "rows_per_page": "Rând pe pagină",
+  "rows_per_page": "Rânduri pe pagină",
   "search": "Caută",
   "all": "Tot",
   "info": "Info",
@@ -32,9 +32,9 @@
   "success": "Succes",
   "error": "Eroare",
   "event": "Eveniment",
-  "check": "Verifică",
+  "check": "Unfortunately we couldn't catch the exact error. If you want to help, please click on the button below to copy the failed command to the clipboard, paste it into the Terminal and submit command output to the developers",
   "stats": "Statistici",
-  "for_more_info": "pentru mai multe informații",
+  "for_more_info": "The following command has failed",
   "lowercase": "litere mici",
   "uppercase": "litere mari",
   "number": "număr",
@@ -142,7 +142,7 @@
     "shutdown_ok": "Sistemul se închide...",
     "shutdown_error": "A apărut o eroare la închiderea sistemului.",
     "hostname_change": "After hostname change you have to login again",
-    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding on other configurations"
+    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding with other configurations"
   },
   "backup": {
     "title": "Copie de siguranță",
@@ -175,7 +175,7 @@
     "data_list": "Listă date",
     "last_backup_status": "Statusul ultimei copii de siguranță",
     "backup_configured": "Copiile de siguranță configurate",
-    "choose_file": "Alege fișierul (*.tar.gz)",
+    "choose_file": "Choose file (*.tar.xz)",
     "automatic_backups_keep": "Copii de siguranță automate de păstrat (număr)",
     "enable": "Activează",
     "disable": "Dezactivează",
@@ -245,7 +245,7 @@
     "refresh": "Reîncarcă",
     "execute_config_backup_ok": "Copia de siguranță a configurației realizată cu succes!",
     "execute_config_backup_error": "Copia de siguranță a configurației nu s-a realizat.",
-    "execute_data_backup_ok": "Copia de siguranță a datelor realizată cu succes!",
+    "execute_data_backup_ok": "Data backup started successfully!",
     "execute_data_backup_error": "Copia de siguranță a datelor nu s-a realizat.",
     "delete_config_backup_ok": "Copia de siguranță a configurației ștearsă cu succes!",
     "delete_config_backup_error": "Config backup not deleted.",
@@ -254,7 +254,7 @@
     "last_log": "Ultimul jurnal",
     "last_log_for": "Last log for backup data",
     "view_last_log": "Vizualizare ultimul jurnal",
-    "choose_from": "Alege din",
+    "choose_from": "Choose source",
     "reinstall_packages": "Reinstalare pachete",
     "restore_config_backup_ok": "Restore configuration backup executed successfully!",
     "restore_config_backup_error": "Restore configuration backup not executed.",
@@ -277,8 +277,15 @@
     "storage_usage": "Destination storage usage",
     "overwrite_all_data": "the restore will overwrite all data",
     "nfs_rsync_info": "Make sure the NFS server supports hard links, otherwise the backup will fail",
-    "during_remap_warning": "During interface remapping, if one or more interface change its IP address, you have to login again in the new IP address",
-    "interface_remap": "Interface remapping"
+    "during_remap_warning": "During interface remapping, if one or more interfaces change its IP address, you have to login again in the new IP address",
+    "check_configuration": "Verifică configurația",
+    "register_system": "Register system",
+    "register_before_restore": "You are trying to restore a backup with a subscription. Please register the machine before restoring this backup",
+    "register_now": "Înregistrare acum",
+    "invalid_backup_format": "Backup not found or invalid",
+    "remap_at_least_one_green": "You have to select at least one green to remap",
+    "assign_later": "Assign later",
+    "current_int": "System interfaces"
   },
   "disk_usage": {
     "title": "Utilizare disc",
@@ -289,7 +296,7 @@
     "disk_updated_ok": "Disk usage updated successfully!",
     "disk_updated_error": "Disk usage not updated",
     "copy_path": "Copiere cale",
-    "one_file_system": "Don't cross filesystem boundaries"
+    "one_file_system": "Analyze only the root filesystem"
   },
   "storage": {
     "title": "Stocare"
@@ -568,7 +575,15 @@
     "no_users_found_desc": "If your provider is local, click on button below to create a new user or add it on remote provider",
     "no_groups_found": "No groups found",
     "no_groups_found_desc": "If your provider is local, click on button below to create a new group or add it on remote provider",
-    "weak_password": "Your policy allows you to insert weak password, it not recommended for security reasons"
+    "weak_password": "Your policy allows you to insert weak password, it not recommended for security reasons",
+    "BindPassword": "Parolă BIND",
+    "BaseDN": "DN de bază",
+    "BindDN": "DN Bind",
+    "LdapURI": "LDAP URI",
+    "NsdcIp": "Active Directory IP",
+    "UserDN": "Utilizator DN",
+    "GroupDN": "Grup DN",
+    "StartTls": "Start TLS"
   },
   "network": {
     "title": "Rețea",
@@ -752,7 +767,10 @@
     "rotation_daily": "Daily",
     "rotation_weekly": "Weekly",
     "rotation_monthly": "Monthly",
-    "log_rotate": "Rotate logs"
+    "log_rotate": "Rotate logs",
+    "test_mail": "Testează mail",
+    "mail_sent_ok": "Mail sent successfully!",
+    "mail_sent_error": "Mail not sent."
   },
   "logs": {
     "title": "Jurnale"
@@ -770,7 +788,9 @@
     "helpdesk": "Helpdesk",
     "documentation": "Documentation",
     "wiki": "Wiki",
-    "subscription": "Abonament"
+    "subscription": "Abonament",
+    "phonehome": "Phone home is used to track all NethServer installations around the world.",
+    "map": "Map"
   },
   "wizard": {
     "title": "Vrăjitor"
@@ -923,20 +943,21 @@
     "change_default_company": "Schimbă compania implicită",
     "one_or_more_dns_not_working": "Unul sau mai multe servere DNS nu răspund",
     "TCPPort": "Port TCP",
-    "service_is_enabled_but_is_not_running": "Serviciul este activat dar nu rulează",
+    "service_is_enabled_but_is_not_running": "The service is either not running or not enabled",
     "must_configure_backup_data": "You should configure at least one data backup",
     "change_default_ssh_port": "Change the default SSH port to lower brute force attack rates",
     "limit_red_access_by_ip": "Limit access to server manager specifying the allowed IP addresses",
-    "LimitAccess": "Limit access",
+    "LimitAccess": "Server Manager",
     "backup": "Copie de siguranță",
     "centos_upgrade": "A new upstream distribution release is available as update. To avoid installing it, switch the software updates origin to \"Locked\"",
-    "dhcp_on_green_can_cause_unexpected_behavior": "Using DHCP on green interfaces leads to unexpected behavior. Please, change the interface to static if possible.",
-    "interface_must_be_static": "O interfață verde trebuie să aibă o adresă IP statică",
+    "interface_must_be_static": "A green interface must have a static IP address. Using DHCP on green interfaces leads to unexpected behavior. Please, change the interface to static if possible.",
     "hostname": "Nume de gazdă",
-    "hostname_should_not_contain_localhost": "Hostname should not contains localhost",
+    "hostname_should_not_contain_localhost": "Hostname should not contain localhost",
     "subscription": "Abonament",
     "support_active": "O sesiune de suport de la distanță este activă",
-    "hostname_should_not_contain_localdomain": "The hostname should not contain 'localdomain'"
+    "hostname_should_not_contain_localdomain": "The hostname should not contain 'localdomain'",
+    "first_hostname_part_maximum_length_15": "First hostname part must be maximum 15 characters lenght",
+    "unmapped_interface_from_restore": "This interface has not been activated after the restore. Assign the role to a new interface or remove it"
   },
   "validation": {
     "weak_password": "Password too weak, it could be inside a dictionary or too similar to the previous one",
@@ -967,15 +988,17 @@
     "valid_platform,ad-dns,srv_record,": "Nu s-a putut găsi un controller pentru domeniul Active Directory",
     "valid_hostname_fqdn_1_9223372036854775807": "Trebuie să conțină cel puțin 2 puncte, cum ar fi 'gazdamea.exemplu.com'",
     "valid_hostname_fqdn_0_9223372036854775807": "Trebuie să conțină cel puțin 2 puncte, cum ar fi 'gazdamea.exemplu.com'",
+    "valid_hostname_fqdn_long_2_9223372036854775807": "Trebuie să conțină cel puțin 2 puncte, cum ar fi 'gazdamea.exemplu.com'",
     "permission_denied": "Permisiune respinsă",
     "backuptime_not_enough_elements": "Invalid cron time format: not enough elements",
     "backuptime_not_found": "No cron time provided",
     "backup_already_exists": "A backup with the same name already exists",
     "valid_email,generic_failure": "Invalid mail address: it should be something like 'myname@domain.com'",
     "valid_mail_address": "Invalid mail address: it should be something like 'myname@domain.com'",
-    "valid_ipV4Address": "Invalid IPv4 address: it should be something like '10.0.0.1'",
+    "valid_ipV4Address": "Invalid address",
     "valid_ipV4Netmask": "Invalid IPv4 network mask: it should be something like '255.255.255.0'",
     "all_domains_must_be_fqdn": "Toate domeniile trebuie să fie FQDN valide ( Nume Domeniu Complet Calificat) ",
+    "letencrypt_domain_failed": "Challenge failed for this domain(s)",
     "invalid_x509_ceritficate": "Certificat X.509 (codificare PEM)",
     "invalid_x509_key": "Cheie privată RSA sau EC (codificare PEM)",
     "cert_safetyguard": "Certificatul EEC selectat nu este compatibil cu politica TLS curentă",
@@ -1048,7 +1071,8 @@
     "traceroute_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
     "ping_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
     "nslookup_validator_valid_ipV4Address": "Invalid IPv4 address, it must be something like '10.0.0.1'",
-    "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Invalid fully qualified domain name, it must be something like 'domain.org'"
+    "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Invalid fully qualified domain name, it must be something like 'domain.org'",
+    "host_not_removable": "This host can't be removed because it is in use"
   },
   "docs": {
     "more_info_about": "Mai multe informații despre",

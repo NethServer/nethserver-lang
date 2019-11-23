@@ -117,7 +117,11 @@
         "chilli": "Хот-спот",
         "clamd@squidclamav": "Web-антивирус",
         "squid": "Web-прокси",
-        "suricata": "IPS"
+        "suricata": "IPS",
+        "ndpi": "nDPI",
+        "details_for": "Подробнее о",
+        "name": "Имя",
+        "counter": "Counter"
     },
     "wan": {
         "title": "WAN",
@@ -166,7 +170,7 @@
         "class_name": "Название класса",
         "class_description": "Описание",
         "bandwidth_unit": "Bandwidth unit",
-        "kbps": "кбит/с",
+        "kbit": "kbit",
         "bandwidth": "Bandwidth",
         "%": "%",
         "down_bandwidth_limit": "Ограничения входящего канала",
@@ -508,7 +512,15 @@
         "host_group_exists": "Группа хостов с таким именем уже существует",
         "not_exists_host-group": "Группа хостов не существует",
         "host_group_cannot_be_delete": "Группа хостов не может быть удалена, так как она используется",
-        "valid_lessThan_256": "Должно быть меньше 256"
+        "valid_lessThan_256": "Должно быть меньше 256",
+        "valid_ipV4Address": "Invalid address",
+        "valid_username": "Первым символом должна быть буква, далее только маленькие буквы, цифры и символы \"-\" и \"_\"",
+        "valid_notEmpty": "Не может быть пустым",
+        "valid_cidrBlock": "Должно быть действительной CIDR-сетью",
+        "valid_time": "Формат времени должен быть в форме ЧЧ:мм",
+        "port_number_or_port_range": "Must be a valid port number or port range (using dash)",
+        "protocol_doesnt_support_ports": "This protocol does not support ports",
+        "valid_lessThan_65536": "Must be less than 65536"
     },
     "docs": {
         "pf_origin_port": "Введите порт, список портов через запятую, или диапазон портов, используя \":\" в качестве разделителя, например: \"100:200\".",

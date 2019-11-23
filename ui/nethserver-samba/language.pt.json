@@ -24,12 +24,22 @@
   "install_packages": "Instalar pacotes",
   "packages_installed_ok": "Pacotes instalados com sucesso!",
   "packages_installed_error": "Pacotes não instalados.",
+  "details": "Detalhes",
+  "next": "Seguinte",
+  "back": "Anterior",
+  "close": "Fechar",
+  "prev": "Anterior",
+  "of": "de",
+  "or": "ou",
+  "with": "com",
+  "all": "Tudo",
   "docs": {
     "sharedfolders": "Pastas partilhadas",
     "more_info_about": "Mais informação sobre {docsLink}.",
     "audit": "Audit",
     "guestAccess_info": "Access to the shared folder is granted even if invalid credentials are provided.",
-    "everyone_info": "A guest, or an authorized user that does not match any ACL."
+    "everyone_info": "A guest, or an authorized user that does not match any ACL.",
+    "audit_log": "Enable this option to save read actions inside the database. If the option is not checked, read actions will be logged inside /var/log/smbaudit.log but will not be saved inside the database."
   },
   "dashboard": {
     "title": "Painel do servidor de ficheiros",
@@ -119,10 +129,10 @@
     "user": "Utilizador",
     "address": "Endereço",
     "share": "Partilha",
-    "message": "Ficheiro ou Caminho",
+    "message": "File or Directory",
     "from": "De",
     "to": "Para",
-    "filter": "Filtro",
+    "filter": "Procurar",
     "all": "Tudo",
     "rename": "Renomear",
     "read_file": "Aceder ficheiro",
@@ -130,12 +140,16 @@
     "create_directory": "Criar diretoria",
     "delete_directory": "Eliminar diretoria",
     "delete_all_audits": "Delete all audits",
-    "update": "Atualizar",
+    "update": "Refresh audit database",
     "delete": "Eliminar",
     "updated_ok": "Audit updated successfully!",
     "updated_error": "Audit not updated.",
     "deleted_ok": "Audit deleted successfully!",
-    "deleted_error": "Audit not deleted."
+    "deleted_error": "Audit not deleted.",
+    "details": "Show details",
+    "show_audit_details": "Show audit details",
+    "update_at": "Update at",
+    "advanced_search": "Advanced search"
   },
   "logs": {
     "menu_title": "Registos",
@@ -155,7 +169,8 @@
     "no_inherit": "Grant full control to the creator",
     "settings_ok": "Settings updated successfully!",
     "settings_error": "Settings not updated.",
-    "settings_updated_ok": "Settings saved correctly"
+    "settings_updated_ok": "Settings saved correctly",
+    "audit_log": "Enable auditing of read actions"
   },
   "about": {
     "website": "Site da Web",

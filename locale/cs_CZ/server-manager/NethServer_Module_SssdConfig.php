@@ -56,13 +56,13 @@ $L['valid_platform,ldap-probe,ldap-check-connect,1'] = 'Chyba připojení k serv
 
 $L['BindType_anonymous_label'] = 'Anonymní spojení';
 $L['BindType_authenticated_label'] = 'Spojení s ověřováním';
-$L['BindType_label'] = 'Authentication credentials for LDAP applications';
-$L['valid_adldapcredentials_required'] = 'Set BindDN and BindPassword fields';
+$L['BindType_label'] = 'Přihlašovací údaje pro ověřování se pro LDAP aplikace';
+$L['valid_adldapcredentials_required'] = 'Vyplňte kolonky BindDN a BindPassword';
 $L['valid_platform,ldap-credentials,ldaptestbind,49'] = 'Neplatné přihlašovací údaje k LDAP';
 $L['valid_platform,ldap-credentials,ldaptestbind,1'] = 'Chyba spojení s LDAP';
-$L['valid_platform,ldap-credentials,ldaptestbind,32'] = 'Base DN was not found or insufficient rights';
+$L['valid_platform,ldap-credentials,ldaptestbind,32'] = 'Základ rozlišeného názvu nebyl nalezen nebo oprávnění nejsou dostatečná';
 $L['valid_platform,ldap-credentials,ldaptestbind,34'] = 'Neplatná syntaxe rozlišeného názvu';
-$L['BindDN_label'] = 'Bind DN';
+$L['BindDN_label'] = 'Spojovací rozlišený název (DN)';
 $L['BindPassword_label'] = 'Spojovací heslo';
 
 $L['BaseDN_label'] = 'Základ rozlišeného názvu (DN)';
