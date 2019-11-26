@@ -286,9 +286,9 @@ source_file = locale/en/server-manager/NethServer_Module_Duc.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
-[nethserver.Ejabber]
-file_filter = locale/<lang>/server-manager/NethServer_Module_Ejabber.php
-source_file = locale/en/server-manager/NethServer_Module_Ejabber.php
+[nethserver.Ejabberd]
+file_filter = locale/<lang>/server-manager/NethServer_Module_Ejabberd.php
+source_file = locale/en/server-manager/NethServer_Module_Ejabberd.php
 source_lang = en
 type = PHP_ALT_ARRAY
 
