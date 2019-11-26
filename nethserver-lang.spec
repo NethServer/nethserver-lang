@@ -3,8 +3,8 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.4.2
-Release: 3%{?dist}
+Version: 1.4.3
+Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
 Summary: NethServer localization project
@@ -230,6 +230,9 @@ BuildArch: noarch
 Cockpit translstions for all languages.
 
 %changelog
+* Tue Nov 26 2019 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.4.3-1
+- Pull translations from transifex
+
 * Sat Nov 23 2019 nethbot <nethbot@nethesis.it> - 1.4.2-3
 - Automatic release 1.4.2-3
 
