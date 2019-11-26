@@ -97,5 +97,5 @@ $L['Tracker_task_error_message'] = 'Sarcinile finalizate cu erori';
 $L['Tracker_title_taskRunning'] = 'Sarcina este în desfășurare';
 $L['Tracker_title_taskStarting'] = 'Sarcina pornește...';
 $L['Tracker_code_label'] = 'stare ieșire';
-$L['cockpit_available'] = 'The new Server Manager is installed, give it a try! Access: ';
+$L['cockpit_available'] = 'Noul Manager Server este instalat; încercă-l! Accesează:';
 

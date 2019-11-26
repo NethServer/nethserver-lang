@@ -293,7 +293,7 @@
     "validation_failed": "Doğrulanamadı",
     "account_already_exists": "Aynı adlı bir hesap zaten var",
     "account_not_found": "Hesap bulunamadı",
-    "invalid_host_address": "Sunucu adresi geçersiz: Tam bir etki alanı adı ya da bir IP adresi yazın",
+    "invalid_host_address": "Sunucu adresi geçersiz: Bir tam etki alanı adı ya da bir IP adresi yazın",
     "invalid_network": "Ağ adresi geçersiz",
     "netmask_lower_than_29": "Ağ maskesi 255.255.255.248 (/29) ya da daha küçük olmalıdır",
     "used_network": "Ağ zaten kullanılıyor",

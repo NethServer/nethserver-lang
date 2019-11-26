@@ -1,14 +1,14 @@
 <?php
 $L['DdClient_Title'] = 'Služba dynamického DNS';
-$L['Key_label'] = 'Dynamic DNS hostname';
-$L['hostname_label'] = 'Dynamic DNS hostname';
+$L['Key_label'] = 'Název hostitele v dynamické DNS';
+$L['hostname_label'] = 'Název hostitele v dynamické DNS';
 $L['DynDns_label'] = 'Protokol Ddclient';
 $L['DynServer_label'] = 'Název serveru (FQDN)';
 $L['CustomService_label'] = 'Vlastní nastavení poskytovatele';
 $L['KnownService_label'] = 'Official Providers settings';
 $L['login_label'] = 'Přihlášení';
 $L['password_label'] = 'Heslo';
-$L['mx_label'] = 'Mail Exchanger hostname';
+$L['mx_label'] = 'Název stroje příjem e-mailů (MX)';
 $L['Create_DynDns_Header'] = 'Vytvořit nového klienta dynamické DNS';
 $L['Update_DynDns_Header'] = 'Aktualizovat klienta dynamické DNS';
 $L['DdClientService_Title'] = 'Nastavení služby DdClient';

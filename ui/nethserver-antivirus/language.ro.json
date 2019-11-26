@@ -1,15 +1,15 @@
 {
     "settings": {
         "title": "Setări",
-        "official_signatures": "ClamAV official signatures",
-        "unofficial_signatures_rating": "Third-party signatures rating",
-        "error_reading_configuration": "Error reading antivirus configuration",
-        "error_validating_configuration": "Error validating antivirus configuration",
-        "configuration_update_successful": "Configuration update successful",
-        "configuration_update_failed": "Configuration update failed",
-        "info_notification": "Signatures are downloaded at hourly intervals. Changes to this page will take effect on next automatic signatures download.",
-        "error_reading_total_memory": "Error reading total memory",
-        "memory_warning": "The system has less than 4GB of RAM. You're strongly advised to disable official ClamAV signatures to avoid memory filling."
+        "official_signatures": "Semnături oficiale ClamAV",
+        "unofficial_signatures_rating": "Rating semnături terță-parte",
+        "error_reading_configuration": "Eroare la citirea configurației antivirusului",
+        "error_validating_configuration": "Eroare la validarea configurației antivirusului",
+        "configuration_update_successful": "Configurație actualizată cu succes",
+        "configuration_update_failed": "Actualizarea configurației a eșuat",
+        "info_notification": "Semnăturile sunt descărcate la intervale de oră. Modificările aduse acestei pagini vor avea efect la următoarea descărcare automată a semnăturilor.",
+        "error_reading_total_memory": "Eroare la citirea întregii memorii",
+        "memory_warning": "Sistemul are mai puțin de 4 GB RAM. Te sfătuim să dezactivezi semnăturile oficiale ClamAV pentru a evita încărcarea memoriei."
     },
     "about": {
         "title": "Despre",
@@ -23,25 +23,25 @@
         "start_follow_button": "Urmărește",
         "stop_follow_button": "Nu mai urmări",
         "filter_label": "Filtru Regexp",
-        "error_getting_clamav_instances": "Error getting ClamAV instances"
+        "error_getting_clamav_instances": "Eroare la obținerea instanțelor ClamAV"
     },
     "dashboard":{
         "title": "Antivirus",
-        "email_protection": "Email protection",
-        "web_protection": "Web protection",
-        "error_getting_dashboard_data": "Error getting dashboard data",
-        "malware_found": "Malware found",
-        "signatures_loaded": "Signatures loaded",
+        "email_protection": "Protecție email",
+        "web_protection": "Protecție web",
+        "error_getting_dashboard_data": "Eroare la obținerea datelor panoului de bord.",
+        "malware_found": "Malware găsit",
+        "signatures_loaded": "Semnături încărcate",
         "status": "Stare",
-        "no_data_available": "No data available",
+        "no_data_available": "Nici o dată disponibilă",
         "other": "Altul",
-        "memory_used": "Memory used",
+        "memory_used": "Memorie utilizată",
         "since": "De la",
-        "no_instance_installed": "No ClamAV instance installed"
+        "no_instance_installed": "Nici o instanță ClamAV instalată"
     },
     "docs": {
-        "official_signatures": "Official ClamAV signatures use a large amount of memory. Official signatures detect many old threats but are not very effective against the latest malware.",
-        "unofficial_signatures_ratings": "Higher rating means more blocked threats but also a higher probability of false positives. Recommended ratings are 'Low' and 'Medium'."
+        "official_signatures": "Semnăturile ClamAV oficiale utilizează o cantitate mate de memorie. Semnăturile oficiale detectează multe amenințări vechi, dar nu sunt foarte eficiente împotriva celor mai recente programe malware.",
+        "unofficial_signatures_ratings": "Rating mai mare înseamnă mai multe amenințări blocate, dar și o probabilitate mai mare de fals pozitiv. Ratingurile recomandate sunt „Scăzut” și „Mediu”."
     },
     "save": "Salvează",
     "cancel": "Anulare"

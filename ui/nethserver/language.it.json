@@ -277,15 +277,15 @@
     "storage_usage": "Utilizzo disco destinazione",
     "overwrite_all_data": "Il restore sovrascriverà tutti i dati",
     "nfs_rsync_info": "Assicurarsi che il server NFS supporti gli hard links, altrimenti il backup fallirà",
-    "during_remap_warning": "During interface remapping, if one or more interfaces change its IP address, you have to login again in the new IP address",
-    "check_configuration": "Controlla configurazione",
+    "during_remap_warning": "Se una o più interfacce cambiano il proprio indirizzo IP, dopo il remapping bisognerà accedere puntando al nuovo indirizzo IP.",
+    "check_configuration": "Controlla la configurazione",
     "register_system": "Registrare il sistema",
     "register_before_restore": "Si sta tentando il ripristino di un backup con una subscription. Per favore, registrare il sistema prima di ripristinare questo backup",
     "register_now": "Registra ora",
     "invalid_backup_format": "Backup non trovato o non valido",
     "remap_at_least_one_green": "Selezionare almeno una green da rimappare",
-    "assign_later": "Assign later",
-    "current_int": "System interfaces"
+    "assign_later": "Assegna in seguito",
+    "current_int": "Interfacce del sistema"
   },
   "disk_usage": {
     "title": "Utilizzo disco",

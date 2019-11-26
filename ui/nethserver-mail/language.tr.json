@@ -471,7 +471,7 @@
         "valid_maxLength_2048": "Metin uzunluğu 2048 karakterden fazla olamaz",
         "valid_class": "Geçerli bir ek dosyası sınıfı olmalıdır",
         "valid_ipV4Address": "IPv4 adresi geçersiz: '10.0.0.1' örneğindeki gibi olmalıdır",
-        "valid_fqdn": "'sunucu.etkialani.org' gibi geçerli bir tam sınıflandırılmış etki alanı adı olmalıdır",
+        "valid_fqdn": "'sunucu.etkialani.org' gibi geçerli bir tam etki alanı adı olmalıdır",
         "connector_not_found": "Bağlayıcı bulunamadı",
         "connector_already_exists": "Aynı adlı bir bağlayıcı zaten var",
         "key_not_found": "Etki alanı bulunamadı",

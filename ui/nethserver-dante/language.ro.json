@@ -34,10 +34,10 @@
     "send": "Trimite",
     "test_address": "Adresă",
     "include_configured_addresses": "Include adresele configurate",
-    "invalid_dns": "The 'Public host' field is using a private DNS name: the report will not be accessibile from Internet.",
-    "mining_configuration": "Data collection",
-    "missing_miners": "No data collected yet. Wait until tomorrow or click 'Collect now'",
-    "mining_now": "Collect now"
+    "invalid_dns": "Câmpul 'Gazdă publică' utilizează un nume DNS privat: raportul nu va fi disponibil din Internet",
+    "mining_configuration": "Colecție date",
+    "missing_miners": "Nici o dată colectată până acum. Așteaptă până mâine sau de click pe 'Colectează acum'",
+    "mining_now": "Colectează acum"
   },
   "about": {
     "title": "Despre",

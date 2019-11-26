@@ -12,9 +12,9 @@ $L['RootPassword_Title'] = 'Root kullanıcısının parolasını ayarlayın';
 $L['RootPassword_Description'] = 'Root kullanıcısı için güvenli bir parola seçin';
 $L['RootPassword_Action'] = 'Root kullanıcısının parolasını değiştirin';
 $L['Hostname_Title'] = 'Sunucu adını ayarlayın';
-$L['Hostname_Action'] = 'Sunucu adını şu şekilde ayarlayın: ${FQDN}';
+$L['Hostname_Action'] = 'Sunucu adını şuna ayarla: ${FQDN}';
 
-$L['Hostname_Description'] = 'Sunucunun tam sınıflandırılmış etki alanı adını değiştirin (FQDN)';
+$L['Hostname_Description'] = 'Sunucunun tam etki alanı adını değiştirin (FQDN)';
 $L['Review_Title'] = 'Değişiklikleri gözden geçirin';
 $L['Review_Description'] = 'Sunucu yapılandırmasını korumak için değişiklikleri uygulayın';
 $L['Changes_label'] = 'Şu değişiklikleri uygulayın:';

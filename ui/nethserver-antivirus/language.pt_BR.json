@@ -1,15 +1,15 @@
 {
     "settings": {
         "title": "Configurações",
-        "official_signatures": "ClamAV official signatures",
-        "unofficial_signatures_rating": "Third-party signatures rating",
-        "error_reading_configuration": "Error reading antivirus configuration",
-        "error_validating_configuration": "Error validating antivirus configuration",
-        "configuration_update_successful": "Configuration update successful",
+        "official_signatures": "Assinaturas oficiais ClamAV",
+        "unofficial_signatures_rating": "Classificação de assinaturas de terceiros",
+        "error_reading_configuration": "Erro ao ler a configuração do antivírus",
+        "error_validating_configuration": "Erro ao validar a configuração do antivírus",
+        "configuration_update_successful": "Atualização de configuração realizada com sucesso",
         "configuration_update_failed": "Falha ao atualizar a configuração",
-        "info_notification": "Signatures are downloaded at hourly intervals. Changes to this page will take effect on next automatic signatures download.",
-        "error_reading_total_memory": "Error reading total memory",
-        "memory_warning": "The system has less than 4GB of RAM. You're strongly advised to disable official ClamAV signatures to avoid memory filling."
+        "info_notification": "Assinaturas são baixadas de hora em hora. Mudanças nessa página surtirão efeito no próximo download automático de assinaturas",
+        "error_reading_total_memory": "Erro ao ler a memória total",
+        "memory_warning": "O sistema possui menos do que 4GB de RAM. É altamente recomendável que você desabilite assinaturas oficiais ClamAV para evitar enchimento de memória."
     },
     "about": {
         "title": "Sobre",
@@ -23,7 +23,7 @@
         "start_follow_button": "Seguir",
         "stop_follow_button": "Parar de seguir",
         "filter_label": "Filtro de Rejeição por Expressão",
-        "error_getting_clamav_instances": "Error getting ClamAV instances"
+        "error_getting_clamav_instances": "Erro ao obter instâncias ClamAv"
     },
     "dashboard":{
         "title": "Antivírus",
@@ -35,13 +35,13 @@
         "status": "Status",
         "no_data_available": "Nenhuma informação disponível",
         "other": "Outro",
-        "memory_used": "Memory used",
+        "memory_used": "Memória usada",
         "since": "Desde",
-        "no_instance_installed": "No ClamAV instance installed"
+        "no_instance_installed": "Nenhuma instância ClamAv instalada"
     },
     "docs": {
-        "official_signatures": "Official ClamAV signatures use a large amount of memory. Official signatures detect many old threats but are not very effective against the latest malware.",
-        "unofficial_signatures_ratings": "Higher rating means more blocked threats but also a higher probability of false positives. Recommended ratings are 'Low' and 'Medium'."
+        "official_signatures": "Assinaturas oficiais ClamAV usam uma grande quantidade de memória. Assinaturas oficiais detectam diversas ameaçadas antigas mas não são tão efetivas contra malwares mais recentes.",
+        "unofficial_signatures_ratings": "Classificação alta significa mais ameaçadas bloqueadas mas também uma alta probabilidade de falsos positivos. 'Baixa' e 'Média' são as classificações recomendadas."
     },
     "save": "Salvar",
     "cancel": "Cancelar"

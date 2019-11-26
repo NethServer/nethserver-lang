@@ -30,7 +30,7 @@
         "error_retrieving_hostname": "Error retrieving hostname",
         "network_address": "Endereço de rede",
         "unregister": "Unregister",
-        "configuration_update_successful": "Configuration update successful",
+        "configuration_update_successful": "Atualização de configuração realizada com sucesso",
         "configuration_update_failed": "Falha ao atualizar a configuração",
         "unregister_successful": "Unregister successful",
         "unregister_failed": "Unregister failed",
