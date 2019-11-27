@@ -1,8 +1,8 @@
 <?php 
 
-$L['Ejabber_Title'] = 'Chat server';
-$L['Ejabber_Description'] = 'Hantera chat server';
-$L['Ejabber_Tags'] = 'chat xmpp jabber ejabberd';
+$L['Ejabberd_Title'] = 'Chat server';
+$L['Ejabberd_Description'] = 'Hantera chat server';
+$L['Ejabberd_Tags'] = 'chat xmpp jabber ejabberd';
 $L['status_label'] = 'Enable ejabberd chat server';
 $L['WebAdmin_label'] = 'Administration web Interface';
 $L['Advanced_label'] = 'Avancerade inställningar';

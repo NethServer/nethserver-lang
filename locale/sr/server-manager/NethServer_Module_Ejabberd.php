@@ -1,8 +1,8 @@
 <?php 
 
-$L['Ejabber_Title'] = 'Сервер ћаскања';
-$L['Ejabber_Description'] = 'Управљај сервером ћаскања';
-$L['Ejabber_Tags'] = 'chat xmpp jabber ejabberd';
+$L['Ejabberd_Title'] = 'Сервер ћаскања';
+$L['Ejabberd_Description'] = 'Управљај сервером ћаскања';
+$L['Ejabberd_Tags'] = 'chat xmpp jabber ejabberd';
 $L['status_label'] = 'Enable ejabberd chat server';
 $L['WebAdmin_label'] = 'Administration web Interface';
 $L['Advanced_label'] = 'Напредна подешавања';

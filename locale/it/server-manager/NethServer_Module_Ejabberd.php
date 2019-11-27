@@ -1,8 +1,8 @@
 <?php 
 
-$L['Ejabber_Title'] = 'Server chat';
-$L['Ejabber_Description'] = 'Gestione server chat';
-$L['Ejabber_Tags'] = 'chat xmpp jabber ejabberd';
+$L['Ejabberd_Title'] = 'Server chat';
+$L['Ejabberd_Description'] = 'Gestione server chat';
+$L['Ejabberd_Tags'] = 'chat xmpp jabber ejabberd';
 $L['status_label'] = 'Enable ejabberd chat server';
 $L['WebAdmin_label'] = 'Interfaccia web di amministrazione';
 $L['Advanced_label'] = 'Impostazioni avanzate';
