@@ -2,7 +2,7 @@
 
 $L['Ejabberd_Title'] = 'Chatserver';
 $L['Ejabberd_Description'] = 'Chatserver verwalten';
-$L['Ejabberd_Tags'] = 'chat xmpp jabber ejabberd';
+$L['Ejabberd_Tags'] = 'chat xmpp ejabberd';
 $L['status_label'] = 'Enable ejabberd chat server';
 $L['WebAdmin_label'] = 'Administration Weboberfläche';
 $L['Advanced_label'] = 'Erweiterte Einstellungen';

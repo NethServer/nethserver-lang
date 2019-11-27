@@ -2,7 +2,7 @@
 
 $L['Ejabberd_Title'] = 'Διακομιστής Chat';
 $L['Ejabberd_Description'] = 'Διαχείρηση διακομιστή chat';
-$L['Ejabberd_Tags'] = 'chat xmpp jabber ejabberd';
+$L['Ejabberd_Tags'] = 'chat xmpp ejabberd';
 $L['status_label'] = 'Enable ejabberd chat server';
 $L['WebAdmin_label'] = 'Administration web Interface';
 $L['Advanced_label'] = 'Advanced settings';

@@ -2,7 +2,7 @@
 
 $L['Ejabberd_Title'] = 'Csevegés szolgáltatás';
 $L['Ejabberd_Description'] = 'Csevegés szolgáltatás beállítása';
-$L['Ejabberd_Tags'] = 'chat xmpp jabber ejabberd';
+$L['Ejabberd_Tags'] = 'chat xmpp ejabberd';
 $L['status_label'] = 'Enable ejabberd chat server';
 $L['WebAdmin_label'] = 'Administration web Interface';
 $L['Advanced_label'] = 'Advanced settings';
