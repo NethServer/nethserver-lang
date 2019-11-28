@@ -2,6 +2,13 @@
 ejabberd (XMPP)
 ================
 
-Ejabberd è un server di chat che implementa il protocollo XMPP, supporta TLS sulla porte XMPP standard (5222 o 5223).
+ejabberd è un server di messaggistica istantanea che implementa il protocollo XMPP, che utilizza:
 
-Il server chat utilizza gli utenti di sistema per il login. 
+- Per C2S:
+ -- STARTTLS: 5222/TCP porte (per impostazione predefinita)
+ -- TLS: 5223/TCP porte (opzionale)
+
+- Per S2S (XMPP Federation):
+ -- STARTTLS: 5269/TCP porte
+
+Questo server utilizza gli utenti del sistema per accedere.
