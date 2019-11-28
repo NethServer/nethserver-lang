@@ -13,6 +13,6 @@ $L['ShaperFastMustBeSuperiorThanshaperNormal'] = 'Viteză maximă trebuie să fi
 $L['Ejabberd_URL'] = 'URL';
 $L['UsersMustBePartOfJabberadmins'] = 'Utilizatorii cu drept de administrator trebuie să fie în grupul jabberadmins';
 $L['Modules_label'] = 'Module adiționale';
-$L['ModMamStatus_label'] = 'Gestionare arhivă mesaje (mod_mam)';
+$L['ModMamStatus_label'] = 'Enable XEP-0313: Message Archive Management (mod_mam)';
 $L['ModMamPurgeDBStatus_label'] = 'Curăță mesajele vechi';
 $L['ModMamPurgeDBInterval_label'] = 'Curăță mesajele mai vechi de X zile';

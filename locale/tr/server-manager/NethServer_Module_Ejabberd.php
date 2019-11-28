@@ -13,6 +13,6 @@ $L['ShaperFastMustBeSuperiorThanshaperNormal'] = 'En fazla hız normal hızdan b
 $L['Ejabberd_URL'] = 'Adres';
 $L['UsersMustBePartOfJabberadmins'] = 'Yönetici kullanıcılar jabberadmins grubunun üyesi olmalıdır';
 $L['Modules_label'] = 'Ek modüller';
-$L['ModMamStatus_label'] = 'İleti Arşivi Yönetimi (mod_mam)';
+$L['ModMamStatus_label'] = 'Enable XEP-0313: Message Archive Management (mod_mam)';
 $L['ModMamPurgeDBStatus_label'] = 'Eski iletileri temizle';
 $L['ModMamPurgeDBInterval_label'] = 'X günden eski iletiler temizlensin';

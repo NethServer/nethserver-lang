@@ -13,6 +13,6 @@ $L['ShaperFastMustBeSuperiorThanshaperNormal'] = 'Максимальная ск�
 $L['Ejabberd_URL'] = 'URL';
 $L['UsersMustBePartOfJabberadmins'] = 'Администраторы должны входить в группу jabberadmins';
 $L['Modules_label'] = 'Дополнительные модули';
-$L['ModMamStatus_label'] = 'Управление архивом сообщений (mod_mam)';
+$L['ModMamStatus_label'] = 'Enable XEP-0313: Message Archive Management (mod_mam)';
 $L['ModMamPurgeDBStatus_label'] = 'Удалить старые сообщения';
 $L['ModMamPurgeDBInterval_label'] = 'Удалить сообщения старше X дней';

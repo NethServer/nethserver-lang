@@ -13,6 +13,6 @@ $L['ShaperFastMustBeSuperiorThanshaperNormal'] = 'Je třeba, aby nejvyšší umo
 $L['Ejabberd_URL'] = 'URL adresa';
 $L['UsersMustBePartOfJabberadmins'] = 'Je třeba, aby uživatelé-správci byli členy skupiny jabberadmins';
 $L['Modules_label'] = 'Další moduly';
-$L['ModMamStatus_label'] = 'Message Archive Management (mod_mam)';
+$L['ModMamStatus_label'] = 'Enable XEP-0313: Message Archive Management (mod_mam)';
 $L['ModMamPurgeDBStatus_label'] = 'Vyčistit staré zprávy';
 $L['ModMamPurgeDBInterval_label'] = 'Vyčistit zprávy starší než X dnů';

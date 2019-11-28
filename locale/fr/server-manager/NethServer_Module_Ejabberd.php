@@ -13,6 +13,6 @@ $L['ShaperFastMustBeSuperiorThanshaperNormal'] = 'La vitesse maximale doit être
 $L['Ejabberd_URL'] = 'URL';
 $L['UsersMustBePartOfJabberadmins'] = 'Les utilisateurs admin doivent être dans le groupe jabberadmins';
 $L['Modules_label'] = 'Modules supplémentaires';
-$L['ModMamStatus_label'] = 'Gestion des messages archivés (mod_mam)';
+$L['ModMamStatus_label'] = 'Enable XEP-0313: Message Archive Management (mod_mam)';
 $L['ModMamPurgeDBStatus_label'] = 'Supprimer les anciens messages';
 $L['ModMamPurgeDBInterval_label'] = 'Supprimer les messages vieux de X jours';
