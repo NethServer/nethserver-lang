@@ -1,9 +1,9 @@
 <?php 
 
-$L['Ejabberd_Title'] = 'Διακομιστής Chat';
-$L['Ejabberd_Description'] = 'Διαχείρηση διακομιστή chat';
+$L['Ejabberd_Title'] = 'ejabberd (XMPP)';
+$L['Ejabberd_Description'] = 'Manage ejabberd XMPP server';
 $L['Ejabberd_Tags'] = 'chat xmpp ejabberd';
-$L['status_label'] = 'Enable ejabberd chat server';
+$L['status_label'] = 'Enable ejabberd';
 $L['WebAdmin_label'] = 'Administration web Interface';
 $L['Advanced_label'] = 'Advanced settings';
 $L['S2S_label'] = 'Enable XMPP Federation (S2S)';
