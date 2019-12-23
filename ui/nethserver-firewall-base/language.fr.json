@@ -6,6 +6,7 @@
     "actions": "Actions",
     "save": "Sauvegarder",
     "create": "Créer",
+    "add": "Ajouter",
     "edit": "Éditer",
     "delete": "Supprimer",
     "cancel": "Annuler",
@@ -157,7 +158,8 @@
         "in_out_bound_zero": "La bande passante de téléversement ou de téléchargement n'est pas définie",
         "fireqos_temporary_disabled": "Lissage du trafic temporairement désactivé durant le test de vitesse ",
         "speedtest_error": "Test de vitesse échoué : vérifiez la connexion Internet",
-        "click_to_open": "Cliquez pour voir les détails"
+        "click_to_open": "Cliquez pour voir les détails",
+        "current_ip": "Current public IP"
     },
     "traffic_shaping": {
         "title": "Lissage du trafic",
@@ -316,7 +318,9 @@
         "fw": "Pare-feu",
         "ports_comma": "Insérer le port(s) (séparés par virgule)",
         "application": "Application",
-        "raw": "Valeur brute, pas d'objet trouvé"
+        "raw": "Valeur brute, pas d'objet trouvé",
+        "local": "DNS",
+        "remote": "DHCP"
     },
     "port_forward": {
         "title": "Port Forward",
@@ -401,7 +405,16 @@
         "tc_add_rules_info": "L'ordre est important : l'évaluation des règles se poursuivra après une correspondance. La priorité est attribuée par la dernière correspondance.",
         "wan_add_rules_info": "L'ordre est important : l'évaluation des règles se poursuivra après une correspondance. La route est attribuée par la dernière correspondance.",
         "type_to_search": "Saisissez afin de rechercher des objets, des rôles...",
-        "two_providers_needed": "Les stratégies de routes ne peuvent seulement être créées si deux ou plus d'interfaces rouges sont configurées."
+        "two_providers_needed": "Les stratégies de routes ne peuvent seulement être créées si deux ou plus d'interfaces rouges sont configurées.",
+        "show_network_services": "Show network services",
+        "network_services": "Services réseau",
+        "edit_service": "Éditer le service",
+        "name": "Nom",
+        "tcpPorts": "TCP ports",
+        "udpPorts": "UDP ports",
+        "access": "Accès",
+        "service_edited_successfully": "Service edited successfully",
+        "service_edited_error": "Service not edited"
     },
     "protocols": {
         "ah": "AH",
@@ -520,7 +533,12 @@
         "valid_time": "L'heure doit être au format HH:mm",
         "port_number_or_port_range": "Doit être un numéro de port ou une plage de ports valide (en utilisant le tiret)",
         "protocol_doesnt_support_ports": "Ce protocole ne supporte pas les ports",
-        "valid_lessThan_65536": "Doit être inférieur à 65536"
+        "valid_lessThan_65536": "Doit être inférieur à 65536",
+        "access_empty": "Access attribute is mandatory",
+        "access_invalid": "Invalid access attribute",
+        "port_list_empty": "This attribute is mandatory",
+        "port_list_invalid": "Must be a list of valid ports",
+        "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
     },
     "docs": {
         "pf_origin_port": "Renseignez un port, une liste de ports séparés par un point-virgule ou une plage de ports en utilisant \":\" comme séparateur tel que \"100:200\"",
@@ -528,6 +546,7 @@
         "rules_destination": "Vous devez renseigner une IP ou un masque si vous ne voulez pas créer un hôte ou un objet CIDR",
         "objects_ports": "Syntaxe prise en charge : liste de ports séparés par des virgules ou plage de ports (ex: 10000-20000)",
         "mac_validation": "Les requêtes provenant d'adresses IP listées dans les réservations DHCP ne sont autorisées que si elles proviennent de l'adresse MAC associée (même si DHCP est désactivé).",
-        "mac_validation_policy": "Les demandes provenant d'adresses IP qui ne figurent pas dans les réservations DHCP sont bloquées. Assurez-vous que les hôtes admin sont listés dans les réservations DHCP."
+        "mac_validation_policy": "Les demandes provenant d'adresses IP qui ne figurent pas dans les réservations DHCP sont bloquées. Assurez-vous que les hôtes admin sont listés dans les réservations DHCP.",
+        "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'"
     }
 }

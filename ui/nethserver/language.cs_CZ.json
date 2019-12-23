@@ -79,7 +79,32 @@
     "software_center": "Centrum software",
     "software-center": "Centrum software",
     "subscription": "Předplatné",
-    "terminal": "Terminál"
+    "terminal": "Terminál",
+    "nethserver-register": "Uživatelem určená výstraha",
+    "nethserver-antivirus": "Antivirus",
+    "nethserver-dante": "Hlášení",
+    "nethserver-dedalo": "Jednotka hotspotu",
+    "nethserver-ejabberd": "Ejabberd",
+    "nethserver-fail2ban": "Fail2Ban",
+    "nethserver-firewall-base": "Brána firewall",
+    "nethserver-freepbx": "FreePBX",
+    "nethserver-httpd": "Webový server",
+    "nethserver-hylafax": "HylaFax",
+    "nethserver-iaxmodem": "IAXModem",
+    "nethserver-mail": "E-mail",
+    "nethserver-mattermost": "Mattermost",
+    "nethserver-nextcloud": "Nextcloud",
+    "nethserver-nut": "UPS zdroj",
+    "nethserver-ntopng": "nTopNG",
+    "nethserver-restore-data": "Obnovit data",
+    "nethserver-roundcubemail": "Webový e-mailový klient",
+    "nethserver-samba": "Souborový server",
+    "nethserver-squid": "Webová proxy a filtr",
+    "nethserver-suricata": "IPS",
+    "nethserver-vpn-ui": "VPN",
+    "nethserver-webtop5": "WebTop",
+    "nethserver-cgp": "Grafy z collectd",
+    "nethserver-sogo": "SOGo"
   },
   "dashboard": {
     "title": "Přehled",
@@ -335,6 +360,10 @@
     "add_domain": "Přidat doménu",
     "renew_days": "Dny obnovení",
     "request": "Požadavek",
+    "cockpit_reload_warning_title": "Výstraha.",
+    "cockpit_reload_warning_message": "Nový certifikát je pro správce serveru Cockpit uplatněn 90 sekund po odpojení posledního uživatele.",
+    "set_default_modal_title": "Nastavit výchozí certifikát",
+    "set_default_modal_message": "Chcete nastavit {0} jako výchozí certifikát?",
     "view_certificate": "Zobrazit certifikát",
     "alternative_name": "Čárkou oddělovaný název FQDN názvů",
     "cert_default_ok": "Certifikát úspěšně nastaven jako výchozí.",
@@ -406,7 +435,8 @@
     "range_update_ok": "Rozsah úspěšně zaktualizován.",
     "range_update_error": "Rozsah neaktualizován.",
     "scan_network": "Skenovat síť",
-    "Scanned_Network": "Skenování síťového rozhraní"
+    "Scanned_Network": "Skenování síťového rozhraní",
+    "lease_expiration": "Konec platnosti zápůjčky"
   },
   "services": {
     "title": "Služby",
@@ -426,7 +456,23 @@
     "details_of": "Podrobnosti",
     "service_action_ok": "Akce úspěšně dokončena.",
     "service_action_error": "Akce nedokončena.",
-    "status_of": "Stav"
+    "status_of": "Stav",
+    "access": "Přístup",
+    "ports": "Porty",
+    "show_network_services_only": "Zobrazovat pouze síťové služby",
+    "service_type": "Typ služby",
+    "add_custom_service": "Přidat síťovou službu",
+    "tcpPorts": "TCP porty",
+    "udpPorts": "UDP porty",
+    "service_added_successfully": "Služba úspěšně přidána",
+    "service_added_error": "Služba nepřidána",
+    "service_removed_successfully": "Služba úspěšně odebrána",
+    "service_removed_error": "Služba nedodebrána",
+    "service_edited_successfully": "Služba úspěšně upravena",
+    "service_edited_error": "Služba neupravena",
+    "remove_custom_service": "Odebrat síťovou službu",
+    "edit_service": "Upravit nastavení služby",
+    "custom": "Vlastní"
   },
   "users_groups": {
     "title": "Uživatelé a skupiny",
@@ -878,7 +924,11 @@
     "there_is_upgrade_from": "Je zde přechod na novější verzi z",
     "to": "na",
     "upgrade_now": "Přejít na novější verzi nyní",
-    "no_more_details": "Žádné další podrobnosti"
+    "no_more_details": "Žádné další podrobnosti",
+    "installed_packages": "Nainstalované balíčky",
+    "full_version": "Plná verze",
+    "current_full_version": "Stávájící",
+    "installed_low": "Nainstalované balíčky"
   },
   "terminal": {
     "title": "Terminál"
@@ -957,7 +1007,8 @@
     "support_active": "Relace podpory na dálku je aktivní",
     "hostname_should_not_contain_localdomain": "Název stroje by neměl obsahovat „localdomain“",
     "first_hostname_part_maximum_length_15": "Je třeba, aby první část názvu hostitele byla nejvýše 15 znaků dlouhá",
-    "unmapped_interface_from_restore": "Po obnovení nebylo toto rozhraní zaktivováno. Přiřaďte novému rozhraní roli nebo ho odeberte"
+    "unmapped_interface_from_restore": "Po obnovení nebylo toto rozhraní zaktivováno. Přiřaďte novému rozhraní roli nebo ho odeberte",
+    "network_recovery_mode": "Systém má nyní pomocí nástroje network-recovery nastavenou dočasnou IP adresu. Jakékoli změny na této stránce obnoví nastavení sítě tak, jak je uvedeno níže."
   },
   "validation": {
     "weak_password": "Heslo je příliš snadno prolomitelné a to z důvodu, že se nachází ve slovníku nebo je příliš podobné tomu předchozímu",
@@ -1019,11 +1070,14 @@
     "valid_positive": "Je třeba, aby bylo kladné celé číslo",
     "valid_lessThan_65536": "Platný TCP/UDP port je číslo z rozmezí 1 až 65536",
     "ip_address_or_cidr": "Je třeba, aby hodnota byla platná IP adresa jako  „10.0.0.1“ nebo CIDR zápis jako „10.0.0.1/24“",
+    "ip_address_network_or_broadcast": "Jako IP adresu nelze zadat adresu sítě nebo všesměrového vysílání",
+    "this_network_overlaps_with_another_one": "Tato síť se překrývá s některou, která už v nastavení existuje",
     "valid_date_YYYY-mm-dd": "Je třeba, aby datum bylo ve formátu RRRR-mm-dd",
     "valid_time": "Je třeba, aby čas měl formu HH:mm",
     "network_key_exists": "Tato síť už existuje",
     "already_used_network": "Síť už je v používání",
     "invalid_network": "Neplatná síťová adresa",
+    "user_exists": "Uživatel s takovým jménem už v systému existuje",
     "group_exists": "Skupina s takovým názvem už existuje",
     "non_existing_user": "Takový uživatel neexistuje",
     "not_removable": "Tento objekt není možné odebrat",
@@ -1072,7 +1126,15 @@
     "ping_validator_valid_ipV4Address": "Neplatná IPv4 adresa nebo název stroje: mělo by být něco jako „10.0.0.1“ nebo „example.com“",
     "nslookup_validator_valid_ipV4Address": "Neplatná IPv4 adresa: je třeba, aby bylo něco jako „10.0.0.1“",
     "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Neplatný úplný doménový název – je třeba, aby bylo něco jako „example.com“",
-    "host_not_removable": "Tohoto hostitele není možné odebrat protože je používán"
+    "host_not_removable": "Tohoto hostitele není možné odebrat protože je používán",
+    "service_name_empty": "Název služby je třeba vyplnit",
+    "service_name_invalid": "Neplatný název služby",
+    "service_already_exists": "Služba s takovým názvem už v systému existuje",
+    "access_empty": "Atribut přístupu je třeba vyplnit",
+    "access_invalid": "Neplatný atribut přístupu",
+    "port_list_empty": "Tento atribut je třeba vyplnit",
+    "port_list_invalid": "Je třeba, aby byl seznam platných portů",
+    "tcp_ports_and_udp_ports_empty": "Je třeba zadat alespoň jeden TCP nebo UDP port"
   },
   "docs": {
     "more_info_about": "Další informace o",
@@ -1082,14 +1144,15 @@
     "network": "Síť",
     "tls_policy": "TLS zásada",
     "trusted_networks": "Důvěryhodné sítě",
-
+    "certificates": "Certifikáty",
     "sftp_password": "Heslo nebude uloženo. SSH spojení použije RSA klíč",
     "smb_login": "Pokud je cílový server připojen do démeny, použijte rozšířenou syntaxi jako „MyBindUser,domain=mydomain.com“.",
     "vol_size": "Velikost částí zálohy, ponechte malé, pokud je cíl zálohy vzdálený server. Výchozí je 200MB.",
     "dns_wildcard": "Pokud je zapnuto, hledat shodu také ve všech dílčích doménách.",
-    "limit_access": "Omezit přístup na port 9090 pouze na dané IP adresy",
+    "limit_access": "Umožnit přístup na port 9090 pouze daným IP adresám. Pro jemnější členění režimu přístupu použijte pravidla brány firewall.",
     "dhcp_comma_separated_field": "Zadejte jednu nebo čárkou oddělovaný seznam IP adres",
     "dhcp_servers": "Servery",
-    "remote_shell": "Zapnutím této volby udělíte přístup do Terminálu a do Správy serveru"
+    "remote_shell": "Zapnutím této volby udělíte přístup do Terminálu a do Správy serveru",
+    "list_of_ports": "Zadejte jedno nebo více čísel portů, oddělovaných čárkou, např.: „8081, 9292“"
   }
 }

@@ -13,7 +13,9 @@
         "unBanIP": "entsperren",
         "Fail2ban_is_probably_down": "Fail2ban ist vermutlich gestoppt, bitte die Protokolle überprüfen",
         "ip_unlocked_error": "Die IP wurde nicht entsperrt",
-        "ip_unlocked_ok": "Die IP wurde entsperrt"
+        "ip_unlocked_ok": "Die IP wurde entsperrt",
+        "No_banned_IP": "Sie haben keine gesperrte IP",
+        "no_IP_desc": "Kier sind die gesperrten IPs in der Firewall aufgelistet."
     },
     "settings": {
         "title": "Einstellungen",

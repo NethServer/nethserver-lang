@@ -6,6 +6,7 @@
     "actions": "Действия",
     "save": "Сохранить",
     "create": "Создать",
+    "add": "Добавить",
     "edit": "Изменить",
     "delete": "Удалить",
     "cancel": "Отмена",
@@ -157,7 +158,8 @@
         "in_out_bound_zero": "Пропускная способность входящего или исходящего канала не установлена",
         "fireqos_temporary_disabled": "Контроль трафика временно отключён на время проведения теста скорости интернета.",
         "speedtest_error": "Ошибка Speedtest: пожалуйста, проверьте интернет-срединение.",
-        "click_to_open": "Click to expand details"
+        "click_to_open": "Click to expand details",
+        "current_ip": "Current public IP"
     },
     "traffic_shaping": {
         "title": "Контроль трафика",
@@ -316,7 +318,9 @@
         "fw": "Файрвол",
         "ports_comma": "Вставьте порт(ы) (через запятую)",
         "application": "Приложение",
-        "raw": "RAW-значение, объект не найден"
+        "raw": "RAW-значение, объект не найден",
+        "local": "DNS",
+        "remote": "DHCP"
     },
     "port_forward": {
         "title": "Перенаправление порта",
@@ -401,7 +405,16 @@
         "tc_add_rules_info": "Порядок важен: оценка правил будет продолжена после обнаружения соответствия. Приоритет назначается по последнему соответствию.",
         "wan_add_rules_info": "Порядок важен: оценка правил будет продолжена после обнаружения соответствия. Маршрут назначается по последнему соответствию.",
         "type_to_search": "Type to search objects, roles...",
-        "two_providers_needed": "Политика маршрутизации может быть создана только если имеется два или более настроенных красных интерфейса."
+        "two_providers_needed": "Политика маршрутизации может быть создана только если имеется два или более настроенных красных интерфейса.",
+        "show_network_services": "Show network services",
+        "network_services": "Сетевые службы",
+        "edit_service": "Редактировать службу",
+        "name": "Имя",
+        "tcpPorts": "TCP ports",
+        "udpPorts": "UDP ports",
+        "access": "Доступ",
+        "service_edited_successfully": "Service edited successfully",
+        "service_edited_error": "Service not edited"
     },
     "protocols": {
         "ah": "AH",
@@ -520,7 +533,12 @@
         "valid_time": "Формат времени должен быть в форме ЧЧ:мм",
         "port_number_or_port_range": "Must be a valid port number or port range (using dash)",
         "protocol_doesnt_support_ports": "This protocol does not support ports",
-        "valid_lessThan_65536": "Must be less than 65536"
+        "valid_lessThan_65536": "Must be less than 65536",
+        "access_empty": "Access attribute is mandatory",
+        "access_invalid": "Invalid access attribute",
+        "port_list_empty": "This attribute is mandatory",
+        "port_list_invalid": "Must be a list of valid ports",
+        "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
     },
     "docs": {
         "pf_origin_port": "Введите порт, список портов через запятую, или диапазон портов, используя \":\" в качестве разделителя, например: \"100:200\".",
@@ -528,6 +546,7 @@
         "rules_destination": "Вы можете ввести IP-адрес или CIDR, если не хотите создавать объект типа хост или CIDR.",
         "objects_ports": "Supported syntax: comma-separated port list or port range (i.e. 10000-20000)",
         "mac_validation": "Requests from IP addresses listed in DHCP reservations are allowed only if are originated from the associated MAC address (even if DHCP is disabled).",
-        "mac_validation_policy": "Requests from IP addresses not listed in DHCP reservations are blocked. Ensure admin hosts are listed in DHCP reservations."
+        "mac_validation_policy": "Requests from IP addresses not listed in DHCP reservations are blocked. Ensure admin hosts are listed in DHCP reservations.",
+        "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'"
     }
 }

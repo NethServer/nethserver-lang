@@ -13,7 +13,9 @@
         "unBanIP": "Dé-bannir",
         "Fail2ban_is_probably_down": "Fail2ban est probablement arrêté, svp vérifiez les journaux",
         "ip_unlocked_error": "L'adresse IP n'a pas été dé-bannie",
-        "ip_unlocked_ok": "L'adresse IP a été dé-bannie"
+        "ip_unlocked_ok": "L'adresse IP a été dé-bannie",
+        "No_banned_IP": "You have no banned IP",
+        "no_IP_desc": "Here are listed the blocked IP in the firewall"
     },
     "settings": {
         "title": "Réglages",

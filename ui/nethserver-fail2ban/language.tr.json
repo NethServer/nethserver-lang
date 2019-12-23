@@ -13,7 +13,9 @@
         "unBanIP": "Engellemeyi Kaldır",
         "Fail2ban_is_probably_down": "Fail2ban durmuş olabilir, lütfen günlük kayıtlarına bakın",
         "ip_unlocked_error": "IP adresinin engellemesi kaldırılmamış",
-        "ip_unlocked_ok": "IP adresinin engellemesi kaldırılmış"
+        "ip_unlocked_ok": "IP adresinin engellemesi kaldırılmış",
+        "No_banned_IP": "Engellenmiş bir IP adresi yok",
+        "no_IP_desc": "Güvenlik duvarı tarafından engellenen IP adreslerinin listesi"
     },
     "settings": {
         "title": "Ayarlar",

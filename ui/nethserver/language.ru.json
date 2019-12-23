@@ -79,7 +79,32 @@
     "software_center": "Центр приложений",
     "software-center": "Центр приложений",
     "subscription": "Подписка",
-    "terminal": "Терминал"
+    "terminal": "Терминал",
+    "nethserver-register": "Настраиваемые оповещения",
+    "nethserver-antivirus": "Антивирус",
+    "nethserver-dante": "Report",
+    "nethserver-dedalo": "Точка доступа",
+    "nethserver-ejabberd": "Ejabberd",
+    "nethserver-fail2ban": "Fail2Ban",
+    "nethserver-firewall-base": "Файрвол",
+    "nethserver-freepbx": "FreePBX",
+    "nethserver-httpd": "Web-сервер",
+    "nethserver-hylafax": "HylaFax",
+    "nethserver-iaxmodem": "IAXModem",
+    "nethserver-mail": "Электронная почта",
+    "nethserver-mattermost": "Mattermost",
+    "nethserver-nextcloud": "Nextcloud",
+    "nethserver-nut": "ИБП",
+    "nethserver-ntopng": "nTopNG",
+    "nethserver-restore-data": "Восстановление данных",
+    "nethserver-roundcubemail": "Webmail",
+    "nethserver-samba": "Файловый сервер",
+    "nethserver-squid": "Web-прокси и фильтр",
+    "nethserver-suricata": "IPS",
+    "nethserver-vpn-ui": "VPN",
+    "nethserver-webtop5": "WebTop",
+    "nethserver-cgp": "Collectd Charts",
+    "nethserver-sogo": "SOGo"
   },
   "dashboard": {
     "title": "Рабочий стол",
@@ -335,6 +360,10 @@
     "add_domain": "Добавить домен",
     "renew_days": "Продлять, если осталось дней",
     "request": "Запрос",
+    "cockpit_reload_warning_title": "Notice.",
+    "cockpit_reload_warning_message": "The new certificate is applied to the Cockpit Server Manager 90 seconds after the last user disconnects.",
+    "set_default_modal_title": "Set the default certificate",
+    "set_default_modal_message": "Do you want to set {0} as default certificate?",
     "view_certificate": "Просмотр сертификата",
     "alternative_name": "Список FQDN через запятую",
     "cert_default_ok": "Сертификат был установлен как сертификат по умолчанию!",
@@ -406,7 +435,8 @@
     "range_update_ok": "Диапазон обновлён!",
     "range_update_error": "Диапазон не был обновлён.",
     "scan_network": "Scan network",
-    "Scanned_Network": "Scanning of the network interface"
+    "Scanned_Network": "Scanning of the network interface",
+    "lease_expiration": "Lease expiration"
   },
   "services": {
     "title": "Службы",
@@ -426,7 +456,23 @@
     "details_of": "Подробная информация о",
     "service_action_ok": "Действие выполнено!",
     "service_action_error": "Действие не было выполнено.",
-    "status_of": "Состояние"
+    "status_of": "Состояние",
+    "access": "Доступ",
+    "ports": "Порты",
+    "show_network_services_only": "Show network services only",
+    "service_type": "Service type",
+    "add_custom_service": "Add network service",
+    "tcpPorts": "TCP ports",
+    "udpPorts": "UDP ports",
+    "service_added_successfully": "Service added successfully",
+    "service_added_error": "Service not added",
+    "service_removed_successfully": "Service removed successfully",
+    "service_removed_error": "Service not removed",
+    "service_edited_successfully": "Service edited successfully",
+    "service_edited_error": "Service not edited",
+    "remove_custom_service": "Remove network service",
+    "edit_service": "Редактировать службу",
+    "custom": "Настраиваемые"
   },
   "users_groups": {
     "title": "Пользователи и группы",
@@ -482,10 +528,10 @@
     "port": "Порт",
     "hostname_or_ip": "Имя хоста или IP",
     "join_existing_dc": "Присоединиться к существующему контроллеру домена (DC)",
-    "create_new_domain_became_dc": "Создать домен и стать DC",
+    "create_new_domain_became_dc": "Create domain and become DC",
     "join_active_directory": "Присоединиться к Active Directory",
     "domain_name": "Имя домена",
-    "became_dc": "Стать DC",
+    "became_dc": "Become DC",
     "netbios_domain_name": "NetBIOS-имя домена",
     "dc_ip_address": "IP-адрес DC",
     "configuration_invalid": "Неверные настройки",
@@ -878,7 +924,11 @@
     "there_is_upgrade_from": "Имеется обновление с",
     "to": "до",
     "upgrade_now": "Обновить сейчас",
-    "no_more_details": "No more details"
+    "no_more_details": "No more details",
+    "installed_packages": "Установленные пакеты",
+    "full_version": "Full version",
+    "current_full_version": "Текущий",
+    "installed_low": "installed packages"
   },
   "terminal": {
     "title": "Терминал"
@@ -957,7 +1007,8 @@
     "support_active": "Сессия удаленной поддержки активна",
     "hostname_should_not_contain_localdomain": "Имя хоста не должно содержать 'localdomain'",
     "first_hostname_part_maximum_length_15": "First hostname part must be maximum 15 characters lenght",
-    "unmapped_interface_from_restore": "This interface has not been activated after the restore. Assign the role to a new interface or remove it"
+    "unmapped_interface_from_restore": "This interface has not been activated after the restore. Assign the role to a new interface or remove it",
+    "network_recovery_mode": "The system is configured with a temporary IP address by the network-recovery tool: any change to this page will restore the network configuration as set below."
   },
   "validation": {
     "weak_password": "Пароль слишком слабый, он может быть в словаре или слишком похож на предыдущий",
@@ -1019,11 +1070,14 @@
     "valid_positive": "Должно быть положительным целым числом",
     "valid_lessThan_65536": "Допустимый TCP/UDP порт - это число от 1 до 65536",
     "ip_address_or_cidr": "Значение должно быть действительным IP, как '10.0.0.1', или CIDR, как '10.0.0.1/24'",
+    "ip_address_network_or_broadcast": "IP address can't be the network or broadcast address",
+    "this_network_overlaps_with_another_one": "This network overlaps with an existing one",
     "valid_date_YYYY-mm-dd": "Формат даты должен быть ГГГГ-мм-дд",
     "valid_time": "Формат времени должен быть в форме ЧЧ:мм",
     "network_key_exists": "Эта сеть уже существует",
     "already_used_network": "Сеть уже используется",
     "invalid_network": "Неправильный адрес сети",
+    "user_exists": "A user with the same name already exists",
     "group_exists": "Группа с таким именем уже существует",
     "non_existing_user": "Пользователь не существует",
     "not_removable": "Этот объект не может быть удалён",
@@ -1072,7 +1126,15 @@
     "ping_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
     "nslookup_validator_valid_ipV4Address": "Invalid IPv4 address, it must be something like '10.0.0.1'",
     "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Invalid fully qualified domain name, it must be something like 'domain.org'",
-    "host_not_removable": "Этот хост не может быть удалён, так как он используется"
+    "host_not_removable": "Этот хост не может быть удалён, так как он используется",
+    "service_name_empty": "Service name is mandatory",
+    "service_name_invalid": "Invalid service name",
+    "service_already_exists": "A service with this name already exists",
+    "access_empty": "Access attribute is mandatory",
+    "access_invalid": "Invalid access attribute",
+    "port_list_empty": "This attribute is mandatory",
+    "port_list_invalid": "Must be a list of valid ports",
+    "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
   },
   "docs": {
     "more_info_about": "Больше информации о",
@@ -1082,14 +1144,15 @@
     "network": "Сеть",
     "tls_policy": "Политика TLS",
     "trusted_networks": "Доверенные сети",
-
+    "certificates": "Сертификаты",
     "sftp_password": "Пароль не будет сохранён. Подключение SSH будет использовать ключ RSA.",
     "smb_login": "Если целевой сервер присоединён к домену, используйте расширенный синтаксис вида 'MyBindUser,domain=mydomain.com'.",
     "vol_size": "Размер блоков резервного копирования, оставьте маленьким, если место хранения резервной копии - удалённый сервер. По умолчанию 200 Мб.",
     "dns_wildcard": "Если включено, сопоставляет также и все поддомены",
-    "limit_access": "Доступ на порт 9090 только с указанных адресов",
+    "limit_access": "Restrict access to port 9090 only to given IP addresses. For a more granular access control, use the firewall rules.",
     "dhcp_comma_separated_field": "Вставьте IP-адрес или список IP-адресов через запятую",
     "dhcp_servers": "Серверы",
-    "remote_shell": "Enable this option to grant access to the Terminal and the Server Manager."
+    "remote_shell": "Enable this option to grant access to the Terminal and the Server Manager.",
+    "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'"
   }
 }

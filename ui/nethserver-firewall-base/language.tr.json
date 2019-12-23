@@ -6,6 +6,7 @@
     "actions": "İşlemler",
     "save": "Kaydet",
     "create": "Ekle",
+    "add": "Ekle",
     "edit": "Düzenle",
     "delete": "Sil",
     "cancel": "İptal",
@@ -157,7 +158,8 @@
         "in_out_bound_zero": "Yükleme ya da İndirme bant genişliği ayarlanmamış",
         "fireqos_temporary_disabled": "Trafik şekillendirme hız sınaması sırasında geçici olarak devre dışı bırakılır.",
         "speedtest_error": "Yayılma sınaması tamamlanamadı. Lütfen İnternet bağlantınızı denetleyin.",
-        "click_to_open": "Ayrıntıları görüntülemek için tıklayın"
+        "click_to_open": "Ayrıntıları görüntülemek için tıklayın",
+        "current_ip": "Geçerli herkese açık IP adresi"
     },
     "traffic_shaping": {
         "title": "Trafik Şekillendirme",
@@ -316,7 +318,9 @@
         "fw": "Güvenlik duvarı",
         "ports_comma": "Kapı numaralarını ekleyin (virgül ile ayırarak)",
         "application": "Uygulama",
-        "raw": "HAM değer, herhangi bir nesne bulunamadı"
+        "raw": "HAM değer, herhangi bir nesne bulunamadı",
+        "local": "DNS",
+        "remote": "DHCP"
     },
     "port_forward": {
         "title": "Kapı Numarası Yönlendirmesi",
@@ -401,7 +405,16 @@
         "tc_add_rules_info": "Sıralama önemlidir: Kurallar bir eşleşme olduktan sonra değerlendirilir. Öncelik son eşleşmeye göre atanır.",
         "wan_add_rules_info": "Sıralama önemlidir: Kurallar bir eşleşme olduktan sonra değerlendirilir. Rota son eşleşmeye göre atanır.",
         "type_to_search": "Nesneler, roller gibi ögeleri aramak için yazın...",
-        "two_providers_needed": "İlke rotaları yalnız iki ya da daha fazla kırmızı arabirim varsa eklenebilir."
+        "two_providers_needed": "İlke rotaları yalnız iki ya da daha fazla kırmızı arabirim varsa eklenebilir.",
+        "show_network_services": "Ağ hizmetlerini görüntüle",
+        "network_services": "Ağ hizmetleri",
+        "edit_service": "Hizmeti düzenle",
+        "name": "Ad",
+        "tcpPorts": "TCP kapı numaraları",
+        "udpPorts": "UDP kapı numaraları",
+        "access": "Erişim",
+        "service_edited_successfully": "Hizmet düzenlendi",
+        "service_edited_error": "Hizmet düzenlenmedi"
     },
     "protocols": {
         "ah": "AH",
@@ -520,7 +533,12 @@
         "valid_time": "Saat SS:dd biçiminde olmalıdır",
         "port_number_or_port_range": "Geçerli bir kapı numarası ya da kapı numarası aralığı (tire kullanarak) olmalıdır",
         "protocol_doesnt_support_ports": "Bu iletişim kuralında kapı numarası kullanılamaz",
-        "valid_lessThan_65536": "65536 değerinden küçük olmalıdır"
+        "valid_lessThan_65536": "65536 değerinden küçük olmalıdır",
+        "access_empty": "Erişim özniteliği zorunludur",
+        "access_invalid": "Erişim özniteliği geçersiz",
+        "port_list_empty": "Bu öznitelik zorunludur",
+        "port_list_invalid": "Geçerli kapı numaralarının bir listesi olmalıdır",
+        "tcp_ports_and_udp_ports_empty": "En az bir TCP ya da UDP kapı numarası belirtilmelidir"
     },
     "docs": {
         "pf_origin_port": "Tek bir kapı numarası, virgül ile ayrılmış bir kapı numarsaı listesi ya da ayraç olarak \":\" kullanarak (100:200 gibi) bir kapı numarası aralığı yazın. ",
@@ -528,6 +546,7 @@
         "rules_destination": "Bir sunucu ya da CIDR nesnesi eklemek istemiyorsanız bir IP adresi ya da CIDR yazabilirsiniz.",
         "objects_ports": "Yazım biçimi: virgül ile ayrılmış kapı numaraları listesi ya da kapı numarası aralığı (10000-20000 gibi)",
         "mac_validation": "DHCP ayırtmaları içindeki IP adreslerinden gelen isteklere yalnız ilgili MAC adresinden geliyorlarsa izin verilir (DHCP devre dışı bırakılmış olsa bile).",
-        "mac_validation_policy": "DHCP ayırtmaları içinde bulunmayan IP adreslerinden gelen istekler engellenir. Yönetici sunucularının DHCP ayırtmaları içinde bulunduğundan emin olun."
+        "mac_validation_policy": "DHCP ayırtmaları içinde bulunmayan IP adreslerinden gelen istekler engellenir. Yönetici sunucularının DHCP ayırtmaları içinde bulunduğundan emin olun.",
+        "list_of_ports": "Bir ya da virgül ile ayrılmış birkaç kapı numarası yazın. Örnek: '8081, 9292'"
     }
 }

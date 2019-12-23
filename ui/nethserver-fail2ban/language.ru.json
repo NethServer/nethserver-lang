@@ -13,7 +13,9 @@
         "unBanIP": "Разбанить",
         "Fail2ban_is_probably_down": "Вероятно, Fail2ban остановлен, пожалуйста, проверьте логи",
         "ip_unlocked_error": "IP не был разбанен",
-        "ip_unlocked_ok": "IP был разбанен"
+        "ip_unlocked_ok": "IP был разбанен",
+        "No_banned_IP": "You have no banned IP",
+        "no_IP_desc": "Here are listed the blocked IP in the firewall"
     },
     "settings": {
         "title": "Настройки",

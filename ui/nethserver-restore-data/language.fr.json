@@ -15,10 +15,10 @@
     "no_results_text": "Sélectionnez une sauvegarde et insérez au moins 4 caractères, puis cliquez sur Rechercher",
     "warning": "Attention",
     "too_many_results": "Votre recherche a produit {0} résultats. Essayez de réduire les résultats en modifiant le motif. (Max résultats: 500)",
-    "restore_files": "Restaurer {0} fichiers",
-    "overwrite_files": "Écraser {0} fichiers",
-    "files_restored_ok": "Fichiers restaurés avec succès!",
-    "files_restored_error": "Pas de fichiers restaurés.",
+    "restore_files": "Restore {0} items",
+    "overwrite_files": "Overwrite {0} items",
+    "files_restored_ok": "Items restored successfully!",
+    "files_restored_error": "Items not restored.",
     "override_restore": "Écraser",
     "choose_mode": "Choisir le mode",
     "files_directories": "Fichiers ou répertoires",
@@ -27,8 +27,8 @@
     "nothing_selected": "Rien n'est sélectionné pour restaurer",
     "selected": "Sélectionné",
     "overwritten": "écrasé",
-    "restored_list": "Liste des fichiers restaurés",
-    "error_restored_list": "Une erreur s'est produite lors de la restauration des fichiers.",
+    "restored_list": "List of restored items",
+    "error_restored_list": "There was an error restoring the items.",
     "are_you_sure": "Êtes-vous sûr ?",
     "cancel": "Annuler",
     "backup_disabled": "This backup is disabled. Enable it before restore data.",
@@ -54,7 +54,7 @@
   },
   "docs": {
     "more_info_about": "Plus d'info à propos",
-    "override_restore": "<li>Si <b>vérifié</b> les fichiers restaurés écraseront les fichiers actuels.</li><li>Si <b>non vérifié</b> les fichiers restaurés seront créés dans le même chemin avec la date incluse dans le nom et <code>.restore</code> préfixé (ex. .restore-20190729-153318-monfichier).</li>",
+    "override_restore": "<li>If <b>checked</b> the restored items will overwrite the current item.</li><li>If <b>not checked</b> the restored items will be created in the same path with date included in the name and <code>.restore</code> prepended (es. .restore-20190729-153318-myitem).</li>",
     "choose_mode": "<li><b>Fichiers ou répertoires</b>: rechercher seulement des fichiers ou des répertoires</li><li><b>Dossiers de courrier</b>: rechercher seulement dans les dossiers de courriels</li><li><b>Avancé</b>: rechercher tout (prend en charge les caractères génériques)"
   }
 }

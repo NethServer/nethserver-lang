@@ -34,10 +34,10 @@
     "send": "Senden",
     "test_address": "Adresse",
     "include_configured_addresses": "Konfigurierte Adressen einschließen",
-    "invalid_dns": "The 'Public host' field is using a private DNS name: the report will not be accessibile from Internet.",
-    "mining_configuration": "Data collection",
-    "missing_miners": "No data collected yet. Wait until tomorrow or click 'Collect now'",
-    "mining_now": "Collect now"
+    "invalid_dns": "Das Feld \"öffentlicher Host\" verwendet einen privaten DNS-Namen: Report wird nicht von Internet erreichbar sein.",
+    "mining_configuration": "Datensammlung",
+    "missing_miners": "Kein Dazen bisher gesammelt. Warten Sie bis morgen oder clicken Sie 'Sammle jetzt'.",
+    "mining_now": "Sammle jetzt"
   },
   "about": {
     "title": "Über",

@@ -26,7 +26,7 @@
   "rows_per_page": "Rânduri pe pagină",
   "all": "Tot",
   "package_required": "Pachete lipsă",
-  "package_required_desc": "To access this page you have to install the required packages listed below",
+  "package_required_desc": "Pentru a vizualiza această pagină trebuie să instalezi pachetele necesare listate mai jos",
   "install_package": "Instalează pachet",
   "install_packages": "Instalează pachete",
   "packages_installed_ok": "Pachetele instalate cu succes!",

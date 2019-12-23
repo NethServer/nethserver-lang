@@ -6,6 +6,7 @@
     "actions": "Akce",
     "save": "Uložit",
     "create": "Vytvořit",
+    "add": "Přidat",
     "edit": "Upravit",
     "delete": "Smazat",
     "cancel": "Storno",
@@ -157,7 +158,8 @@
         "in_out_bound_zero": "Rychlost odesílání nebo stahování není nastavena",
         "fireqos_temporary_disabled": "Omezování provozu je v průběhu zkoušky rychlosti dočasně vypnuté.",
         "speedtest_error": "Zkouška rychlosti se nezdařila: zkontrolujte připojení k Internetu.",
-        "click_to_open": "Kliknutím rozbalíte podrobnosti"
+        "click_to_open": "Kliknutím rozbalíte podrobnosti",
+        "current_ip": "Stávající veřejná IP adresa"
     },
     "traffic_shaping": {
         "title": "Omezování rychlosti síťového provozu",
@@ -316,7 +318,9 @@
         "fw": "Brána firewall",
         "ports_comma": "Zadejte (čárkou oddělované) port(y)",
         "application": "Aplikace",
-        "raw": "holá hodnota, nenalezen žádný objekt"
+        "raw": "holá hodnota, nenalezen žádný objekt",
+        "local": "DNS",
+        "remote": "DHCP"
     },
     "port_forward": {
         "title": "Předávání portu",
@@ -401,7 +405,16 @@
         "tc_add_rules_info": "Pořadí je důležité: vyhodnocování pravidel bude pokračovat po nalezení shody. Priorita je přiřazena poslední shodou.",
         "wan_add_rules_info": "Pořadí je důležité: vyhodnocování pravidel bude pokračovat po nalezení shody. Trasa je přiřazena poslední shodě.",
         "type_to_search": "Psaním hledejte objekty, role…",
-        "two_providers_needed": "Trasy zásad je možné vytvářet pouze pokud je nastaveno více než dvě a více červených rozhraní."
+        "two_providers_needed": "Trasy zásad je možné vytvářet pouze pokud je nastaveno více než dvě a více červených rozhraní.",
+        "show_network_services": "Zobrazit síťové služby",
+        "network_services": "Síťové služby",
+        "edit_service": "Upravit nastavení služby",
+        "name": "Název",
+        "tcpPorts": "TCP porty",
+        "udpPorts": "UDP porty",
+        "access": "Přístup",
+        "service_edited_successfully": "Služba úspěšně upravena",
+        "service_edited_error": "Služba neupravena"
     },
     "protocols": {
         "ah": "AH",
@@ -520,7 +533,12 @@
         "valid_time": "Je třeba, aby čas měl formu HH:mm",
         "port_number_or_port_range": "Je třeba, aby bylo platné číslo portu nebo jejich rozsah (od-do)",
         "protocol_doesnt_support_ports": "Tento protokol nepodporuje porty",
-        "valid_lessThan_65536": "Je třeba, aby bylo nižší než 65536"
+        "valid_lessThan_65536": "Je třeba, aby bylo nižší než 65536",
+        "access_empty": "Atribut přístupu je třeba vyplnit",
+        "access_invalid": "Neplatný atribut přístupu",
+        "port_list_empty": "Tento atribut je třeba vyplnit",
+        "port_list_invalid": "Je třeba, aby byl seznam platných portů",
+        "tcp_ports_and_udp_ports_empty": "Je třeba zadat alespoň jeden TCP nebo UDP port"
     },
     "docs": {
         "pf_origin_port": "Zadejte jeden port, čárkou oddělovaný seznam portů nebo jejich rozsah pomocí „:“ jako oddělovače, například „100:200“.",
@@ -528,6 +546,7 @@
         "rules_destination": "Pokud nechcete vytvářet objekt hostitele nebo CIDR, je možné zadat IP adresu nebo CIDR.",
         "objects_ports": "Podporovaná forma zápisu: čárkou oddělovaný seznam portů nebo jejich rozsah (tj. 10000-20000)",
         "mac_validation": "Požadavky z IP adres, uvedených v DHCP zápůjčkách jsou povoleny pouze pokud mají původ ze související MAC adresy (i když je DHCP vypnuté).",
-        "mac_validation_policy": "Požadavky z IP adres neuvedených v DHCP zápůjčkách jsou blokovány. Zajistěte, aby hostitelé, ze kterých je prováděna správa byli v DHCP zápůjčkách uvedeni."
+        "mac_validation_policy": "Požadavky z IP adres neuvedených v DHCP zápůjčkách jsou blokovány. Zajistěte, aby hostitelé, ze kterých je prováděna správa byli v DHCP zápůjčkách uvedeni.",
+        "list_of_ports": "Zadejte jedno nebo více čísel portů, oddělovaných čárkou, např.: „8081, 9292“"
     }
 }

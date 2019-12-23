@@ -6,6 +6,7 @@
     "actions": "Aktionen",
     "save": "Speichern",
     "create": "Erstellen",
+    "add": "Hinzufügen",
     "edit": "Bearbeiten",
     "delete": "Entfernen",
     "cancel": "Abbrechen",
@@ -157,7 +158,8 @@
         "in_out_bound_zero": "Upload- oder Download-Bandbreite ist nicht eingestellt",
         "fireqos_temporary_disabled": "Traffic Shaping ist während des Geschwindigkeitstests vorübergehend deaktiviert.",
         "speedtest_error": "Speedtest fehlgeschlagen: Bitte die Internetverbindung überprüfen.",
-        "click_to_open": "Click to expand details"
+        "click_to_open": "Click to expand details",
+        "current_ip": "Current public IP"
     },
     "traffic_shaping": {
         "title": "Traffic Shaping",
@@ -316,7 +318,9 @@
         "fw": "Firewall",
         "ports_comma": "Port(s) einfügen (Kommagetrennt)",
         "application": "Anwendung",
-        "raw": "RAW-Wert, kein Objekt gefunden"
+        "raw": "RAW-Wert, kein Objekt gefunden",
+        "local": "DNS",
+        "remote": "DHCP"
     },
     "port_forward": {
         "title": "Port-Weiterleitung",
@@ -401,7 +405,16 @@
         "tc_add_rules_info": "Ordnung ist wichtig: Die Auswertung der Regeln wird nach einem Treffer fortgesetzt. Priorität wird durch letzten Treffer vergeben.",
         "wan_add_rules_info": "Ordnung ist wichtig: Die Auswertung der Regeln wird nach einem Treffer fortgesetzt. Route wird durch letzten Treffer vergeben.",
         "type_to_search": "Bitte eingeben, um Objekte, Rollen ... zu suchen.",
-        "two_providers_needed": "Richtlinienrouten können nur erstellt werden, wenn zwei oder mehr rote Schnittstellen konfiguriert wurden."
+        "two_providers_needed": "Richtlinienrouten können nur erstellt werden, wenn zwei oder mehr rote Schnittstellen konfiguriert wurden.",
+        "show_network_services": "Show network services",
+        "network_services": "Netzwerkdienste",
+        "edit_service": "Dienst bearbeiten",
+        "name": "Name",
+        "tcpPorts": "TCP ports",
+        "udpPorts": "UDP ports",
+        "access": "Zugriff",
+        "service_edited_successfully": "Service edited successfully",
+        "service_edited_error": "Service not edited"
     },
     "protocols": {
         "ah": "AH",
@@ -520,7 +533,12 @@
         "valid_time": "Das Zeitformat muss HH:mm sein",
         "port_number_or_port_range": "Must be a valid port number or port range (using dash)",
         "protocol_doesnt_support_ports": "This protocol does not support ports",
-        "valid_lessThan_65536": "Must be less than 65536"
+        "valid_lessThan_65536": "Muss weniger als 65536 sein.",
+        "access_empty": "Access attribute is mandatory",
+        "access_invalid": "Invalid access attribute",
+        "port_list_empty": "This attribute is mandatory",
+        "port_list_invalid": "Must be a list of valid ports",
+        "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
     },
     "docs": {
         "pf_origin_port": "Bitte einen einzelnen Port, eine Liste mit durch Kommas getrennten Ports oder einen Portbereich einfügen, der \":\" als Trennzeichen verwendet, wie \"100: 200\".",
@@ -528,6 +546,7 @@
         "rules_destination": "Bitte eine IP-Adresse oder ein CIDR eingeben, wenn kein Host- oder CIDR-Objekt erstellt werden soll.",
         "objects_ports": "Supported syntax: comma-separated port list or port range (i.e. 10000-20000)",
         "mac_validation": "Requests from IP addresses listed in DHCP reservations are allowed only if are originated from the associated MAC address (even if DHCP is disabled).",
-        "mac_validation_policy": "Requests from IP addresses not listed in DHCP reservations are blocked. Ensure admin hosts are listed in DHCP reservations."
+        "mac_validation_policy": "Requests from IP addresses not listed in DHCP reservations are blocked. Ensure admin hosts are listed in DHCP reservations.",
+        "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'"
     }
 }

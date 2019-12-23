@@ -52,7 +52,7 @@
     "bug_tracker": "Informar Bug"
   },
   "dashboard": {
-    "menu_title": "Web Proxy & Filter",
+    "menu_title": "Proxy Web & Filtro",
     "title": "Web Proxy & Filter dashboard",
     "proxy_stats": "Proxy info",
     "filter_stats": "Filter info",

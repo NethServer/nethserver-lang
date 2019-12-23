@@ -79,7 +79,32 @@
     "software_center": "Yazılım Merkezi",
     "software-center": "Yazılım Merkezi",
     "subscription": "Abonelik",
-    "terminal": "Uç birim"
+    "terminal": "Uç birim",
+    "nethserver-register": "Özel uyarılar",
+    "nethserver-antivirus": "Virusten koruma",
+    "nethserver-dante": "Rapor",
+    "nethserver-dedalo": "Erişim noktası birimi",
+    "nethserver-ejabberd": "Ejabberd",
+    "nethserver-fail2ban": "Fail2Ban",
+    "nethserver-firewall-base": "Güvenlik Duvarı",
+    "nethserver-freepbx": "FreePBX",
+    "nethserver-httpd": "Web sunucu",
+    "nethserver-hylafax": "HylaFax",
+    "nethserver-iaxmodem": "IAXModem",
+    "nethserver-mail": "E-posta",
+    "nethserver-mattermost": "Mattermost",
+    "nethserver-nextcloud": "Nextcloud",
+    "nethserver-nut": "KGK",
+    "nethserver-ntopng": "nTopNG",
+    "nethserver-restore-data": "Verileri geri yükle",
+    "nethserver-roundcubemail": "Web posta",
+    "nethserver-samba": "Dosya sunucusu",
+    "nethserver-squid": "Web Vekil Sunucu ve Süzgeci",
+    "nethserver-suricata": "IPS",
+    "nethserver-vpn-ui": "VPN",
+    "nethserver-webtop5": "WebTop",
+    "nethserver-cgp": "Collectd Çizelgeleri",
+    "nethserver-sogo": "SOGo"
   },
   "dashboard": {
     "title": "Pano",
@@ -113,7 +138,7 @@
     "statistics": "İstatistikler",
     "alias": "Takma Ad",
     "add_alias": "Takma Ad Ekle",
-    "fqdn": "Tam Sınıflandırılmış Etki Alanı Adı",
+    "fqdn": "Tam Etki Alanı Adı",
     "change_hostname": "Sunucu adını değiştir",
     "change_dns_servers": "DNS sunucularını değiştir",
     "change_proxy": "Vekil sunucuyu değiştir",
@@ -142,7 +167,7 @@
     "shutdown_ok": "Sistem kapatılıyor...",
     "shutdown_error": "Sistem kapatılırken sorun çıktı.",
     "hostname_change": "Sunucu adı değiştirildikten sonra yeniden oturum açmalısınız",
-    "hostname_invalid_warn": "Sunucunun tam olarak sınıflandırılmış adında 'localhost' ya da 'localdomain' sözcükleri bulunamaz. Diğer yapılandırma işlemlerine geçmeden önce bilgisayarın sunucu adını değiştirmelisiniz"
+    "hostname_invalid_warn": "Sunucunun tam etki alanı adında 'localhost' ya da 'localdomain' sözcükleri bulunamaz. Diğer yapılandırma işlemlerine geçmeden önce bilgisayarın sunucu adını değiştirmelisiniz"
   },
   "backup": {
     "title": "Yedekleme",
@@ -277,15 +302,15 @@
     "storage_usage": "Hedefteki depolama kullanımı",
     "overwrite_all_data": "geri yükleme işlemi tüm verilerin üzerine yazacak",
     "nfs_rsync_info": "NFS sunucusunun hard link özelliğini desteklediğinden emin olun yoksa yedekleme yapılamaz",
-    "during_remap_warning": "During interface remapping, if one or more interfaces change its IP address, you have to login again in the new IP address",
+    "during_remap_warning": "Arabirimler yeniden eşleştirilirken, bir ya da daha fazla arabirimin IP adresi değişirse yeni IP adresini kullanarak yeniden oturum açmanız gerekir",
     "check_configuration": "Yapılandırmayı denetle",
     "register_system": "Sistemi kayıt edin",
     "register_before_restore": "Aboneliği olan bir yedeği geri yüklemeye çalışıyorsunuz. Lütfen bu yedeği geri yüklemeden önce bu bilgisayarı kayıt edin",
     "register_now": "Kayıt olun",
     "invalid_backup_format": "Yedek bulunamadı ya da geçersiz",
     "remap_at_least_one_green": "Yeniden eşleştirme için en az bir yeşil arabirim seçmelisiniz",
-    "assign_later": "Assign later",
-    "current_int": "System interfaces"
+    "assign_later": "Daha sonra ata",
+    "current_int": "Sistem arabirimleri"
   },
   "disk_usage": {
     "title": "Disk kullanımı",
@@ -335,8 +360,12 @@
     "add_domain": "Etki alanı ekle",
     "renew_days": "Yenilenme günü sayısı",
     "request": "İste",
+    "cockpit_reload_warning_title": "Unutmayın.",
+    "cockpit_reload_warning_message": "Yeni sertifika Cockpit Sunucu Yöneticisine son kullanıcının bağlantısı kesildikten 90 saniye sonra uygulanacak.",
+    "set_default_modal_title": "Varsayılan sertifikayı görüntüle",
+    "set_default_modal_message": "{0} sertifikasını varsayılan olarak ayarlamak istediğinize emin misiniz?",
     "view_certificate": "Sertifikayı görüntüle",
-    "alternative_name": "Tam sınıflandırılmış etki alanı adlarının virgül ile ayrılmış listesi",
+    "alternative_name": "Tam etki alanı adlarının virgül ile ayrılmış listesi",
     "cert_default_ok": "Sertifika varsayılan olarak ayarlandı!",
     "cert_default_error": "Sertifika varsayılan olarak ayarlanamadı.",
     "cert_upload_ok": "Sertifika yüklendi!",
@@ -406,7 +435,8 @@
     "range_update_ok": "IP adresi aralığı güncellendi!",
     "range_update_error": "IP adresi aralığı güncellenemedi.",
     "scan_network": "Ağı tara",
-    "Scanned_Network": "Ağ arabirimi taranıyor"
+    "Scanned_Network": "Ağ arabirimi taranıyor",
+    "lease_expiration": "Kiralama süresi sonu"
   },
   "services": {
     "title": "Hizmetler",
@@ -426,7 +456,23 @@
     "details_of": "Şunun ayrıntıları",
     "service_action_ok": "İşlem tamamlandı!",
     "service_action_error": "İşlem tamamlanamadı.",
-    "status_of": "Şunun durumu"
+    "status_of": "Şunun durumu",
+    "access": "Erişim",
+    "ports": "Kapı numaraları",
+    "show_network_services_only": "Yalnız ağ hizmetleri görüntülensin",
+    "service_type": "Hizmet türü",
+    "add_custom_service": "Ağ hizmeti ekle",
+    "tcpPorts": "TCP kapı numaraları",
+    "udpPorts": "UDP kapı numaraları",
+    "service_added_successfully": "Hizmet eklendi",
+    "service_added_error": "Hizmet eklenmedi",
+    "service_removed_successfully": "Hizmet kaldırıldı",
+    "service_removed_error": "Hizmet kaldırılmadı",
+    "service_edited_successfully": "Hizmet düzenlendi",
+    "service_edited_error": "Hizmet düzenlenmedi",
+    "remove_custom_service": "Ağ hizmetini kaldır",
+    "edit_service": "Hizmeti düzenle",
+    "custom": "Özel"
   },
   "users_groups": {
     "title": "Kullanıcı ve Gruplar",
@@ -878,7 +924,11 @@
     "there_is_upgrade_from": "Yükseltme şu sürümden",
     "to": "şu sürüme",
     "upgrade_now": "Şimdi yükselt",
-    "no_more_details": "Daha fazla ayrıntı yok"
+    "no_more_details": "Daha fazla ayrıntı yok",
+    "installed_packages": "Kurulmuş paketler",
+    "full_version": "Tam sürüm",
+    "current_full_version": "Geçerli",
+    "installed_low": "Kurulmuş paketler"
   },
   "terminal": {
     "title": "Uç birim"
@@ -957,7 +1007,8 @@
     "support_active": "Bir uzaktan destek oturumu etkin",
     "hostname_should_not_contain_localdomain": "Sunucu adında 'localdomain' ifadesi bulunmamalıdır",
     "first_hostname_part_maximum_length_15": "Sunucu adının ilk bölümü en fazla 15 karakter uzunluğunda olabilir",
-    "unmapped_interface_from_restore": "Bu arabirim geri yüklemeden sonra etkinleştirilmemiş. Yeni bir arabirime rolü atayın ya da silin"
+    "unmapped_interface_from_restore": "Bu arabirim geri yüklemeden sonra etkinleştirilmemiş. Yeni bir arabirime rolü atayın ya da silin",
+    "network_recovery_mode": "Sistem ağ kurtarma aracı tarafından geçici bir IP adresi ile yapılandırıldı: bu sayfada yapılacak herhangi bir değişiklik ağ yapılandırmasını aşağıdaki gibi geri yükleyecektir."
   },
   "validation": {
     "weak_password": "Parola çok kolay. Kolay parola sözlüğünde kayıtlı ya da önceki parola ile çok benzer olabilir",
@@ -978,7 +1029,7 @@
     "valid_platform,myhostname,failifjoin,1": "Kullanıcı ve grup hizmeti sağlayıcısı zaten ayarlanmış",
     "valid_platform,myhostname,hostname-length,3": "Sunucu adı bölümünün uzunluğu en fazla 15 karakter olabilir",
     "valid_platform,myhostname,hostname-length,4": "Sunucu adı bölümünde yalnız harf, rakam ve tire karakteri kullanılabilir",
-    "valid_platform,dcrealm,differhostname,3": "Sunucunun tam sınıflandırılmış etki alanı adından farklı olmalıdır",
+    "valid_platform,dcrealm,differhostname,3": "Sunucunun tam etki alanı adından farklı olmalıdır",
     "valid_platform,password-strength,password-strength,3": "Çok kısa",
     "valid_platform,password-strength,password-strength,4": "Çok zayıf",
     "valid_platform,password-strength,password-strength,5": "Bir sayı ekleyin",
@@ -997,7 +1048,7 @@
     "valid_mail_address": "E-posta adresi geçersiz: 'ad@etkialani.com' örneğindeki gibi olmalıdır",
     "valid_ipV4Address": "Adres geçersiz",
     "valid_ipV4Netmask": "IPv4 ağ maskesi geçersiz: '255.255.255.0' örneğindeki gibi olmalıdır",
-    "all_domains_must_be_fqdn": "Tüm etki alanları geçerli FQDN (Tam Sınıflandırılmış Etki Alanı Adı) biçiminde olmalıdır",
+    "all_domains_must_be_fqdn": "Tüm etki alanları geçerli FQDN (Tam Etki Alanı Adı) biçiminde olmalıdır",
     "letencrypt_domain_failed": "Bu etki alanı için işlem yapılamadı",
     "invalid_x509_ceritficate": "x509 CA sertifikası (PEM kodlamalı)",
     "invalid_x509_key": "RSA ya da EC özel anahtarı (PEM kodlamalı)",
@@ -1019,11 +1070,14 @@
     "valid_positive": "Bir pozitif tamsayı olmalıdır",
     "valid_lessThan_65536": "Geçerli TCP/UDP kapı numaraları 1 ile 65536 arasındadır",
     "ip_address_or_cidr": "Değer '10.0.0.1' gibi bir IP adresi ya da '10.0.0.1/24' gibi bir IP aralığı olmalıdır",
+    "ip_address_network_or_broadcast": "IP adresi ağ ya da yayın adresi olamaz",
+    "this_network_overlaps_with_another_one": "Bu ağ var olan bir ağ ile örtüşüyor",
     "valid_date_YYYY-mm-dd": "Tarih YYYY-aa-gg biçiminde olmalıdır",
     "valid_time": "Saat SS:dd biçiminde olmalıdır",
     "network_key_exists": "Bu ağ zaten var",
     "already_used_network": "Ağ zaten kullanılıyor",
     "invalid_network": "Ağ adresi geçersiz",
+    "user_exists": "Aynı adlı bir kullanıcı zaten var",
     "group_exists": "Aynı adlı bir grup zaten var",
     "non_existing_user": "Kullanıcı bulunamadı",
     "not_removable": "Bu nesne silinemez",
@@ -1072,7 +1126,15 @@
     "ping_validator_valid_ipV4Address": "IPv4 adresi ya da sunucu adı geçersiz. '10.0.0.1' ya da 'nethsrver.org' gibi olmalıdır",
     "nslookup_validator_valid_ipV4Address": "IPv4 adresi geçersiz. '10.0.0.1' gibi olmalıdır",
     "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Tam etki alanı adı geçersiz. 'etkialani.org' gibi olmalıdır",
-    "host_not_removable": "Bu sunucu kullanılmakta olduğundan silinemez"
+    "host_not_removable": "Bu sunucu kullanılmakta olduğundan silinemez",
+    "service_name_empty": "Hizmet adı zorunludur",
+    "service_name_invalid": "Hizmet adı geçersiz",
+    "service_already_exists": "Aynı adlı bir hizmet zaten var",
+    "access_empty": "Erişim özniteliği zorunludur",
+    "access_invalid": "Erişim özniteliği geçersiz",
+    "port_list_empty": "Bu öznitelik zorunludur",
+    "port_list_invalid": "Geçerli kapı numaralarının bir listesi olmalıdır",
+    "tcp_ports_and_udp_ports_empty": "En az bir TCP ya da UDP kapı numarası belirtilmelidir"
   },
   "docs": {
     "more_info_about": "Şunun hakkında ayrıntılı bilgiler",
@@ -1082,14 +1144,15 @@
     "network": "Ağ",
     "tls_policy": "AKG (TLS) İlkesi",
     "trusted_networks": "Güvenilen Ağlar",
-
+    "certificates": "Sertifikalar",
     "sftp_password": "Parola kaydedilmeyecek. SSH bağlantısında bir RSA anahtarı kullanılacak.",
     "smb_login": "Hedef sunucu bir etki alanında ise 'İlgiliKullaniciAdi,EtkiAlani=etkialani.com' şeklinde geniş ifade ile yazın.",
     "vol_size": "Yedek kümelerinin boyutu. Yedekleme hedefi bir uzak sunucu ise bu değeri küçük tutun. Varsayılan değer: 200MB.",
     "dns_wildcard": "Bu seçenek etkinleştirildiğinde, tüm alt etki alanları da eşleştirilir.",
-    "limit_access": "9090 numaralı kapıya yalnız belirtilen IP adreslerinden erişilebilsin",
+    "limit_access": "9090 numaralı kapıya yalnız belirtilen IP adreslerinden erişilebilsin. Daha hassas erişim denetimi sağlamak için güvenlik duvarı kurallarını kullanın.",
     "dhcp_comma_separated_field": "Bir IP adresi ya da virgül ile ayrılmış IP adresleri listesini yazın",
     "dhcp_servers": "Sunucular",
-    "remote_shell": "Uç birim ve Sunucu Yönetimi erişimi vermek için bu seçeneği etkinleştirin."
+    "remote_shell": "Uç birim ve Sunucu Yönetimi erişimi vermek için bu seçeneği etkinleştirin.",
+    "list_of_ports": "Bir ya da virgül ile ayrılmış birkaç kapı numarası yazın. Örnek: '8081, 9292'"
   }
 }

@@ -22,7 +22,7 @@
   "no": "Nein",
   "configure": "Konfigurieren",
   "charts": "Diagramme",
-  "charts_not_updated": "Charts cannot be updated. Maybe Netdata is not installed or is not running",
+  "charts_not_updated": "Die Diagramme könne nicht upgedatet werden. Vielleicht ist 'Netdata' nicht installiert oder läuft nicht.",
   "charts_not_available": "Diagramme nicht verfügbar, wenn der Proxy deaktiviert ist.",
   "show_charts": "Diagramme anzeigen",
   "hide_charts": "Diagramme ausblenden",
@@ -193,7 +193,7 @@
     "rule_deleted_ok": "Regel erfolgreich gelöscht!",
     "rule_deleted_error": "Regel nicht gelöscht.",
     "class": "Priorität",
-    "provider": "Divert to",
+    "provider": "Umleiten nach",
     "force": "Zwingen zu",
     "no_rules_find": "Keine Regeln gefunden",
     "no_rules_find_desc": "Bitte auf die Schaltfläche unten klicken, um eine neue zu erstellen"
@@ -303,8 +303,8 @@
     "name": "Name",
     "description": "Beschreibung",
     "domains": "Domains (eine pro Zeile)",
-    "change_list_warning": "Changing the source of the blacklists, the current configurations on these profiles will be lost",
-    "remove_category_warning": "Removing this category, these filters will be lost",
+    "change_list_warning": "Wenn sie die Quelle der Blacklists ändern, geht die derzeitige Konfiguration verloren. ",
+    "remove_category_warning": "Wenn Sie diese Kategorie löschen, gehen diese Filter verloren.",
     "list_categories": "Kategorienliste"
   },
   "settings": {
@@ -325,7 +325,7 @@
     "categories": "Kategorien",
     "profiles": "Profile",
     "parent_proxy": "Upstream-Proxy, Port ist optional (Standard 3128)",
-    "safe_ports": "Safe ports are a list of ports accessible using the proxy. Insert a comma-separated list of ports",
+    "safe_ports": "Sichere Port sind eine Liste von Ports die durch den Proxy erreichbar sind.\nTragen Sie eine List von Ports ein, die durch Kommas (,) getrennt sind.",
     "redirect_port": "Standard-Squid-Listening-Port überschreiben",
     "destination": "Bitte einzelne Firewall-Objekte (Quellen) oder gültige FQDN-Domänen einfügen. Mehrere FQDN-Domänen können durch Kommas getrennt eingegeben werden",
     "blocked_file_types": "Bitte eine durch Kommas getrennte Liste von Erweiterungen einfügen",
@@ -346,7 +346,7 @@
     "object_not_supported": "Objekt wird nicht unterstützt",
     "profile_not_found": "Profil nicht gefunden",
     "valid_fqdn_domain": "Gültige FQDN-Domäne(n) erforderlich",
-    "valid_lessThan_65536": "Must be less than 65536",
-    "valid_parent_proxy": "Must be a valid hostname, port (if defined) must be integer less than 65536"
+    "valid_lessThan_65536": "Muss weniger als 65536 sein.",
+    "valid_parent_proxy": "Nuss ein gültiger Hostname sein, der Port (falls definiert) muss weniger als 65536 betragen."
   }
 }

@@ -79,7 +79,32 @@
     "software_center": "Software center",
     "software-center": "Software center",
     "subscription": "Subscription",
-    "terminal": "Terminale"
+    "terminal": "Terminale",
+    "nethserver-register": "Allarmi personalizzati",
+    "nethserver-antivirus": "Antivirus",
+    "nethserver-dante": "Report",
+    "nethserver-dedalo": "Unità hotspot",
+    "nethserver-ejabberd": "Ejabberd",
+    "nethserver-fail2ban": "Fail2Ban",
+    "nethserver-firewall-base": "Firewall",
+    "nethserver-freepbx": "FreePBX",
+    "nethserver-httpd": "Server Web",
+    "nethserver-hylafax": "HylaFax",
+    "nethserver-iaxmodem": "IAXModem",
+    "nethserver-mail": "Email",
+    "nethserver-mattermost": "Mattermost",
+    "nethserver-nextcloud": "Nextcloud",
+    "nethserver-nut": "UPS",
+    "nethserver-ntopng": "nTopNG",
+    "nethserver-restore-data": "Ripristino dati",
+    "nethserver-roundcubemail": "Webmail",
+    "nethserver-samba": "File server",
+    "nethserver-squid": "Proxy Web e Filtro Contenuti",
+    "nethserver-suricata": "IPS",
+    "nethserver-vpn-ui": "VPN",
+    "nethserver-webtop5": "WebTop",
+    "nethserver-cgp": "Grafici Collectd",
+    "nethserver-sogo": "SOGo"
   },
   "dashboard": {
     "title": "Dashboard",
@@ -277,7 +302,7 @@
     "storage_usage": "Utilizzo disco destinazione",
     "overwrite_all_data": "Il restore sovrascriverà tutti i dati",
     "nfs_rsync_info": "Assicurarsi che il server NFS supporti gli hard links, altrimenti il backup fallirà",
-    "during_remap_warning": "Se una o più interfacce cambiano il proprio indirizzo IP, dopo il remapping bisognerà accedere puntando al nuovo indirizzo IP.",
+    "during_remap_warning": "Se una o più interfacce cambiano il proprio indirizzo IP, dopo il remapping bisognerà accedere puntando al nuovo indirizzo IP",
     "check_configuration": "Controlla la configurazione",
     "register_system": "Registrare il sistema",
     "register_before_restore": "Si sta tentando il ripristino di un backup con una subscription. Per favore, registrare il sistema prima di ripristinare questo backup",
@@ -335,6 +360,10 @@
     "add_domain": "Aggiungi dominio",
     "renew_days": "Giorni per il rinnovo",
     "request": "Richiesta",
+    "cockpit_reload_warning_title": "Notice.",
+    "cockpit_reload_warning_message": "The new certificate is applied to the Cockpit Server Manager 90 seconds after the last user disconnects.",
+    "set_default_modal_title": "Set the default certificate",
+    "set_default_modal_message": "Do you want to set {0} as default certificate?",
     "view_certificate": "Visualizza certificato",
     "alternative_name": "Lista separata da virgole di FQDN",
     "cert_default_ok": "Certificato di default impostato con successo!",
@@ -406,7 +435,8 @@
     "range_update_ok": "Intervallo modificato con successo!",
     "range_update_error": "Intervallo non modificato.",
     "scan_network": "Scansione rete",
-    "Scanned_Network": "Scansione dell'interfaccia di rete"
+    "Scanned_Network": "Scansione dell'interfaccia di rete",
+    "lease_expiration": "Lease expiration"
   },
   "services": {
     "title": "Servizi",
@@ -426,7 +456,23 @@
     "details_of": "Dettagli di",
     "service_action_ok": "Operazione completata con successo!",
     "service_action_error": "Operazione non completata.",
-    "status_of": "Stato di"
+    "status_of": "Stato di",
+    "access": "Accesso",
+    "ports": "Porte",
+    "show_network_services_only": "Show network services only",
+    "service_type": "Service type",
+    "add_custom_service": "Add network service",
+    "tcpPorts": "TCP ports",
+    "udpPorts": "UDP ports",
+    "service_added_successfully": "Service added successfully",
+    "service_added_error": "Service not added",
+    "service_removed_successfully": "Service removed successfully",
+    "service_removed_error": "Service not removed",
+    "service_edited_successfully": "Service edited successfully",
+    "service_edited_error": "Service not edited",
+    "remove_custom_service": "Remove network service",
+    "edit_service": "Modifica servizio",
+    "custom": "Personalizzato"
   },
   "users_groups": {
     "title": "Utenti & Gruppi",
@@ -482,10 +528,10 @@
     "port": "Porta",
     "hostname_or_ip": "Nome Host o IP",
     "join_existing_dc": "Join a un controller di dominio esistente",
-    "create_new_domain_became_dc": "Crea un nuovo dominio e diventa DC",
+    "create_new_domain_became_dc": "Create domain and become DC",
     "join_active_directory": "Join a un Active Directory",
     "domain_name": "Nome del dominio",
-    "became_dc": "Diventa un DC",
+    "became_dc": "Become DC",
     "netbios_domain_name": "Nome dominio NetBIOS",
     "dc_ip_address": "Indirizzo IP del DC",
     "configuration_invalid": "Configurazione non valida",
@@ -878,7 +924,11 @@
     "there_is_upgrade_from": "C'è un aggiornamento da",
     "to": "a",
     "upgrade_now": "Aggiorna ora",
-    "no_more_details": "Nessun ulteriore dettaglio"
+    "no_more_details": "Nessun ulteriore dettaglio",
+    "installed_packages": "Pacchetti installati",
+    "full_version": "Versione completa",
+    "current_full_version": "Corrente",
+    "installed_low": "pacchetti installati"
   },
   "terminal": {
     "title": "Terminale"
@@ -957,7 +1007,8 @@
     "support_active": "E' attiva una sessione di supporto remoto",
     "hostname_should_not_contain_localdomain": "L'hostname non può contenere 'localdomain'",
     "first_hostname_part_maximum_length_15": "La lunghezza massima della prima parte del nome host è di 15 caratteri",
-    "unmapped_interface_from_restore": "Questa interfaccia non è stata attivata dopo il ripristino. Assegnare il ruolo a una nuova interfaccia o rimuoverla"
+    "unmapped_interface_from_restore": "Questa interfaccia non è stata attivata dopo il ripristino. Assegnare il ruolo a una nuova interfaccia o rimuoverla",
+    "network_recovery_mode": "The system is configured with a temporary IP address by the network-recovery tool: any change to this page will restore the network configuration as set below."
   },
   "validation": {
     "weak_password": "Password troppo debole, potrebbe essere contenuta in un dizionario oppure troppo simile alla precedente",
@@ -1019,11 +1070,14 @@
     "valid_positive": "Deve essere un intero positivo",
     "valid_lessThan_65536": "Una porta TCP/UDP valida è un numero compreso tra 1 e 65536",
     "ip_address_or_cidr": "Il valore deve essere un IP valido (10.0.0.1) o un CIDR (10.0.0.1/24)",
+    "ip_address_network_or_broadcast": "IP address can't be the network or broadcast address",
+    "this_network_overlaps_with_another_one": "This network overlaps with an existing one",
     "valid_date_YYYY-mm-dd": "La data deve essere nel formato YYYY-mm-dd",
     "valid_time": "L'ora deve essere nel formato HH:mm",
     "network_key_exists": "Questa rete esiste già.",
     "already_used_network": "Rete già in uso",
     "invalid_network": "Indirizzo di rete non valido",
+    "user_exists": "A user with the same name already exists",
     "group_exists": "Esiste già un gruppo con lo stesso nome",
     "non_existing_user": "L'utente non esiste",
     "not_removable": "Questo oggetto non può essere rimosso",
@@ -1072,7 +1126,15 @@
     "ping_validator_valid_ipV4Address": "Indirizzo IPv4 o hostname non validi: esempio '10.0.0.1' oppure 'nethserver.org'",
     "nslookup_validator_valid_ipV4Address": "Indirizzo IPv4 non valido: esempio '10.0.0.1'",
     "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Fully qualified domainname non valido, esempio 'domain.org'",
-    "host_not_removable": "Questo host non può essere eliminato perché è in uso"
+    "host_not_removable": "Questo host non può essere eliminato perché è in uso",
+    "service_name_empty": "Service name is mandatory",
+    "service_name_invalid": "Invalid service name",
+    "service_already_exists": "A service with this name already exists",
+    "access_empty": "Access attribute is mandatory",
+    "access_invalid": "Invalid access attribute",
+    "port_list_empty": "This attribute is mandatory",
+    "port_list_invalid": "Must be a list of valid ports",
+    "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
   },
   "docs": {
     "more_info_about": "Maggiori informazioni",
@@ -1082,14 +1144,15 @@
     "network": "Rete",
     "tls_policy": "Policy TLS",
     "trusted_networks": "Reti Fidate",
-
+    "certificates": "Certificati",
     "sftp_password": "La password non verrà salvata. La connessione SSH utilizzerà una chiave RSA.",
     "smb_login": "Se il server di destination è collegato ad un dominio, utilizzare la sintassi estesa. Es: 'MyBindUser,domain=mydomain.com'.",
     "vol_size": "Dimensione delle porzioni del backup, utilizzare un numero piccolo se la destinazione è un server remoto. Default: 200MB",
     "dns_wildcard": "Se abilitato, si applica anche ai sotto domini",
-    "limit_access": "Restringi accesso alla porta 9090 solo dai seguenti indirizzi IP",
+    "limit_access": "Restrict access to port 9090 only to given IP addresses. For a more granular access control, use the firewall rules.",
     "dhcp_comma_separated_field": "Inserire un indirizzo IP o una lista di indirizzi IP separati da virgole",
     "dhcp_servers": "Server",
-    "remote_shell": "Abilitare questa opzione per consentire l'accesso al Terminale e al Server Manager."
+    "remote_shell": "Abilitare questa opzione per consentire l'accesso al Terminale e al Server Manager.",
+    "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'"
   }
 }

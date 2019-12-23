@@ -327,7 +327,7 @@
     "parent_proxy": "Giden vekil sunucu, kapı numarası isteğe bağlıdır (varsayılan 3128)",
     "safe_ports": "Güvenli kapı numaraları vekil sunucu üzerinden erişilebilecek kapı numaralarının listesidir. Kapı numaralarını virgül ile ayırarak yazabilirsiniz",
     "redirect_port": "Varsayılan Squid dinleme kapı numaraları değiştirilsin",
-    "destination": "Tekil güvenlik duvarı nesneleri (kaynaklar) ya da geçerli tam sınıflandırılmış etki alanı adları yazın. Birden çok tam sınıflandırılmış etki alanı adını virgül ile ayırarak yazabilirsiniz",
+    "destination": "Tekil güvenlik duvarı nesneleri (kaynaklar) ya da geçerli tam etki alanı adları yazın. Birden çok tam etki alanı adını virgül ile ayırarak yazabilirsiniz",
     "blocked_file_types": "Uzantıların listesini virgül ile ayırarak yazın",
     "block_http": "Yeşil ve Mavi ağlardan TCP 80 ve 443 kapı numaralarına giden tüm bağlantılar engellenir. Yalnız vekil sunucu 'Kimlik doğrulaması' ya da 'El ile' kipinde çalışıyorsa etkinleştirin."
   },
@@ -345,7 +345,7 @@
     "object_not_found": "Nesne bulunamadı",
     "object_not_supported": "Nesne desteklenmiyor",
     "profile_not_found": "Profil bulunamadı",
-    "valid_fqdn_domain": "Geçerli bir tam sınıflandırılmış etki alanı adı olmalıdır",
+    "valid_fqdn_domain": "Geçerli bir tam etki alanı adı olmalıdır",
     "valid_lessThan_65536": "65536 değerinden küçük olmalıdır",
     "valid_parent_proxy": "Sunucu adı geçerli ve kapı numarası (kullanılıyorsa) 65536 değerinden küçük bir tam sayı olmalıdır"
   }

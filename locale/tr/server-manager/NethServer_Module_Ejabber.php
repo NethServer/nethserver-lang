@@ -2,8 +2,8 @@
 
 $L['Ejabber_Title'] = 'Sohbet sunucusu';
 $L['Ejabber_Description'] = 'Sohbet sunucusu yönetimi';
-$L['Ejabber_Tags'] = 'chat xmpp jabber ejabberd';
-$L['status_label'] = 'Enable ejabberd chat server';
+$L['Ejabber_Tags'] = 'chat sohbet xmpp jabber ejabber';
+$L['status_label'] = 'Ejabberd sohbet sunucusu kullanılsın';
 $L['WebAdmin_label'] = 'Yönetim web arayüzü';
 $L['Advanced_label'] = 'Gelişmiş ayarlar';
 $L['S2S_label'] = 'Birleşim kullanılsın (S2S)';

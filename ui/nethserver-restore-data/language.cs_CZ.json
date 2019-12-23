@@ -15,10 +15,10 @@
     "no_results_text": "Vyberte zálohu a zadejte alespoň čtyři znaky, pak klikněte na Hledat",
     "warning": "Varování",
     "too_many_results": "Vaše hledání vedlo k {0} výsledkům. Zkuste snížit počet výsledků změnou vzoru. (limit počtu výsledků: 500)",
-    "restore_files": "Obnovit {0} souborů",
-    "overwrite_files": "Přepsat {0} souborů",
-    "files_restored_ok": "Soubory úspěšně obnoveny!",
-    "files_restored_error": "Soubory neobnoveny.",
+    "restore_files": "Obnovit {0} položek",
+    "overwrite_files": "Přepsat {0} položek",
+    "files_restored_ok": "Položky úspěšně obnoveny",
+    "files_restored_error": "Položky neobnoeny.",
     "override_restore": "Přespat",
     "choose_mode": "Zvolte režim",
     "files_directories": "Soubory nebo složky",
@@ -27,8 +27,8 @@
     "nothing_selected": "Není nic vybráno k obnovení",
     "selected": "Označeno",
     "overwritten": "přepsáno",
-    "restored_list": "Seznam obnovených souborů",
-    "error_restored_list": "Došlo k chybě při obnovování souborů.",
+    "restored_list": "Seznam obnovených položek",
+    "error_restored_list": "Došlo k chybě při obnovování položek.",
     "are_you_sure": "Opravdu",
     "cancel": "Storno",
     "backup_disabled": "Tato záloha je vypnuta. Aby bylo možné obnovit data, zapněte ji.",
@@ -54,7 +54,7 @@
   },
   "docs": {
     "more_info_about": "Další informace o",
-    "override_restore": "<li>Pokud<b>zaškrtnuto</b>, obnovenými soubory budou přepsány ty stávající.</li><li>Pokud <b>není zaškrnuto</b>, budou obnovené soubory vytvořeny ve stejném umístění s názvem předeslaným datumeme a <code>.restore</code> (např.: .restore-20190729-153318-mujsoubor).</li>",
+    "override_restore": "<li>Pokud <b>zaškrtnuto</b>, stávající položky budou (v případě shodného názvu) přepsány těmi obnovovanými.</li><li>Pokud <b>nezaškrnuto</b>, bude před názvy takových obnovovaných položek doplněno <code>.restore</code> a datum (např.: .restore-20190729-153318-polozka).</li>",
     "choose_mode": "<li><b>Soubory nebo složky</b>: HLedat pouze soubory a složky</li><li><b>E-mailové složky</b>: Hledat pouze e-mailové složky</li><li><b>Pokročilé</b>: Hledat vše (podporuje zástupné znaky)</li>"
   }
 }

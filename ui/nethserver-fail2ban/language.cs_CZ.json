@@ -13,7 +13,9 @@
         "unBanIP": "Zrušit vyloučení",
         "Fail2ban_is_probably_down": "Fail2ban je nejspíš zastaveno, zkontrolujte záznamy událostí",
         "ip_unlocked_error": "Vyloučení IP adresy nebylo zrušeno",
-        "ip_unlocked_ok": "Vyloučení IP adresy bylo zrušeno"
+        "ip_unlocked_ok": "Vyloučení IP adresy bylo zrušeno",
+        "No_banned_IP": "V tuto chvíli zde není žádná vyloučená IP adresa",
+        "no_IP_desc": "Zde jsou vypsány IP adresy, blokované na bráně firewall"
     },
     "settings": {
         "title": "Nastavení",

@@ -180,7 +180,7 @@
     "zone": "Zonă",
     "interface": "Interfață",
     "range": "Range",
-    "add_rule": "Add rule",
+    "add_rule": "Adaugă regulă",
     "edit_rule": "Editează regulă",
     "delete_rule": "Delete rule on",
     "source": "Sursă",
@@ -195,7 +195,7 @@
     "class": "Prioritate",
     "provider": "Divert to",
     "force": "Forțează către",
-    "no_rules_find": "No rules found",
+    "no_rules_find": "Nici o regulă găsită",
     "no_rules_find_desc": "Click on the button below to create new one"
   },
   "filter": {

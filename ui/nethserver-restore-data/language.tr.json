@@ -15,10 +15,10 @@
     "no_results_text": "Bir yedek seçin ve en az 4 karakter yazıp Arama üzerine tıklayın",
     "warning": "Uyarı",
     "too_many_results": "Aramanızda {0} sonuç bulundu. Modeli değiştirerek sonuç sayısını azaltmayı deneyin. (En fazla sonuç: 500)",
-    "restore_files": "{0} dosyayı geri yükle",
-    "overwrite_files": "{0} dosyanın üzerine yaz",
-    "files_restored_ok": "Dosyalar geri yüklendi!",
-    "files_restored_error": "Dosyalar geri yüklenmedi.",
+    "restore_files": "{0} ögeyi geri yükle",
+    "overwrite_files": "{0} ögenin üzerine yaz",
+    "files_restored_ok": "Ögeler geri yüklendi!",
+    "files_restored_error": "Ögeler geri yüklenmedi.",
     "override_restore": "Üzerine yaz",
     "choose_mode": "Kipi seçin",
     "files_directories": "Dosyalar ya da klasörler",
@@ -27,8 +27,8 @@
     "nothing_selected": "Geri yüklenecek bir öge seçilmemiş",
     "selected": "Seçilmiş",
     "overwritten": "üzerine yazılan",
-    "restored_list": "Geri yüklenen dosya listesi",
-    "error_restored_list": "Dosyalar geri yüklenirken bir sorun çıktı.",
+    "restored_list": "Geri yüklenen öge listesi",
+    "error_restored_list": "Ögeler geri yüklenirken bir sorun çıktı.",
     "are_you_sure": "Emin misiniz",
     "cancel": "İptal",
     "backup_disabled": "Bu yedek devre dışı. Verileri geri yüklemeden önce etkinleştirin.",
@@ -54,7 +54,7 @@
   },
   "docs": {
     "more_info_about": "Şunun hakkında ayrıntılı bilgiler",
-    "override_restore": "<li>Bu seçenek <b>işaretlendiğinde</b> geri yüklenen dosyalar geçerli dosyaların üzerine yazılacak.</li><li>If <b>İşaretlenmediğinde</b> geri yüklenen dosyalar aynı konumda <code>.restore</code> ile başlayan, tarih ve ad eklenerek oluşturulan bir klasör içine yazılır (Örnek .restore-20190729-153318-dosyam).</li>",
+    "override_restore": "<li>Bu seçenek <b>işaretlendiğinde</b> geri yüklenen ögeler geçerli ögelerin üzerine yazılır.</li><li><b>İşaretlenmediğinde</b> geri yüklenen ögeler aynı konumda <code>.restore</code> ile başlayan, tarih ve ad eklenerek oluşturulan bir klasör içine yazılır (Örnek .restore-20190729-153318-ogem).</li>",
     "choose_mode": "<li><b>Dosyalar ya da klasörler</b>: Yalnız dosya ve klasörler aranır</li><li><b>E-posta klasörleri</b>: Yalnız e-posta klasörleri aranır</li><li><b>Gelişmiş</b>: Her şey aranır (genel arama karakterleri kullanılabilir)</li>"
   }
 }

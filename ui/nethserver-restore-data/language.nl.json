@@ -15,10 +15,10 @@
     "no_results_text": "Select a backup and insert at least 4 characters, then press Search",
     "warning": "Warning",
     "too_many_results": "Your search has produced {0} results. Try to reduce the results changing the pattern. (Max results: 500)",
-    "restore_files": "Restore {0} files",
-    "overwrite_files": "Overwrite {0} files",
-    "files_restored_ok": "Files restored successfully!",
-    "files_restored_error": "Files not restored.",
+    "restore_files": "Restore {0} items",
+    "overwrite_files": "Overwrite {0} items",
+    "files_restored_ok": "Items restored successfully!",
+    "files_restored_error": "Items not restored.",
     "override_restore": "Overwrite",
     "choose_mode": "Choose mode",
     "files_directories": "Files or directories",
@@ -27,8 +27,8 @@
     "nothing_selected": "Nothing selected to restore",
     "selected": "Selected",
     "overwritten": "overwritten",
-    "restored_list": "List of restored files",
-    "error_restored_list": "There was an error restoring the files.",
+    "restored_list": "List of restored items",
+    "error_restored_list": "There was an error restoring the items.",
     "are_you_sure": "Are you sure",
     "cancel": "Cancel",
     "backup_disabled": "This backup is disabled. Enable it before restore data.",
@@ -54,7 +54,7 @@
   },
   "docs": {
     "more_info_about": "More info about",
-    "override_restore": "<li>If <b>checked</b> the restored files will overwrite the current files.</li><li>If <b>not checked</b> the restored files will be created in the same path with date included in the name and <code>.restore</code> prepended (es. .restore-20190729-153318-myfile).</li>",
+    "override_restore": "<li>If <b>checked</b> the restored items will overwrite the current item.</li><li>If <b>not checked</b> the restored items will be created in the same path with date included in the name and <code>.restore</code> prepended (es. .restore-20190729-153318-myitem).</li>",
     "choose_mode": "<li><b>Files or directories</b>: Search only file and directories</li><li><b>Mail folders</b>: Search only email folders</li><li><b>Advanced</b>: Search everything (supports wildcards)</li>"
   }
 }

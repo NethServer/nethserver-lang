@@ -32,9 +32,9 @@
   "success": "Erfolg",
   "error": "Fehler",
   "event": "Ereignis",
-  "check": "Unfortunately we couldn't catch the exact error. If you want to help, please click on the button below to copy the failed command to the clipboard, paste it into the Terminal and submit command output to the developers",
+  "check": "Leider konnten wir den exakten Fehler nicht finden. Wenn Sie helfen wollen, clicken Sie bitte auf den Button unten, um den fehlerhaften Befehl zu kopieren und im Terminal einzufügen, damit Sie den Befehl an die Entwickler weiterleiten können.",
   "stats": "Statistiken",
-  "for_more_info": "The following command has failed",
+  "for_more_info": "Der folgende Befehl ist gescheitert",
   "lowercase": "Kleinbuchstaben",
   "uppercase": "Großbuchstaben",
   "number": "Nummer",
@@ -79,7 +79,32 @@
     "software_center": "Softwareverwaltung",
     "software-center": "Softwareverwaltung",
     "subscription": "Abonnement",
-    "terminal": "Terminal"
+    "terminal": "Terminal",
+    "nethserver-register": "Benutzerdefinierte Alarme",
+    "nethserver-antivirus": "Antivirus",
+    "nethserver-dante": "Bericht",
+    "nethserver-dedalo": "Hotspot-Gerät",
+    "nethserver-ejabberd": "Ejabbert",
+    "nethserver-fail2ban": "Fail2Ban",
+    "nethserver-firewall-base": "Firewall",
+    "nethserver-freepbx": "FreeBPX",
+    "nethserver-httpd": "Webserver",
+    "nethserver-hylafax": "HylaFax",
+    "nethserver-iaxmodem": "IAXModem",
+    "nethserver-mail": "eMail",
+    "nethserver-mattermost": "Mattermost",
+    "nethserver-nextcloud": "Nextcloud",
+    "nethserver-nut": "USV",
+    "nethserver-ntopng": "nTopNG",
+    "nethserver-restore-data": "Daten wiederherstellen",
+    "nethserver-roundcubemail": "Webmail",
+    "nethserver-samba": "Fileserver",
+    "nethserver-squid": "Web Proxy & Filter",
+    "nethserver-suricata": "IPS",
+    "nethserver-vpn-ui": "VPN",
+    "nethserver-webtop5": "WenTop",
+    "nethserver-cgp": "Collect Charts",
+    "nethserver-sogo": "SOGo"
   },
   "dashboard": {
     "title": "Übersicht",
@@ -141,8 +166,8 @@
     "datetime_save_error": "Datum und Uhrzeit nicht gespeichert.",
     "shutdown_ok": "System wird heruntergefahren ...",
     "shutdown_error": "Fehler beim Herunterfahren.",
-    "hostname_change": "After hostname change you have to login again",
-    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding with other configurations"
+    "hostname_change": "Nachdem der Hostname geändert wurde, müssen Sie sich neu anmelden.",
+    "hostname_invalid_warn": "Die Server FQDN darf \"localhost\" oder \"localdomain\" nicht enthalten. Sie müssen den Hostnamen ändern bevor Sie mit anderen Konfigurationen fortfahren können."
   },
   "backup": {
     "title": "Sicherung",
@@ -175,7 +200,7 @@
     "data_list": "Datenliste",
     "last_backup_status": "Letzter Sicherungsstatus",
     "backup_configured": "Sicherungen konfiguriert",
-    "choose_file": "Choose file (*.tar.xz)",
+    "choose_file": "Wähle Datei (*.tar.xz)",
     "automatic_backups_keep": "Automatische Sicherungen (Anzahl)",
     "enable": "Aktivieren",
     "disable": "Deaktivieren",
@@ -245,7 +270,7 @@
     "refresh": "Aktualisieren",
     "execute_config_backup_ok": "Sicherung der Konfiguration erfolgreich ausgeführt!",
     "execute_config_backup_error": "Sicherung der Konfiguration nicht ausgeführt.",
-    "execute_data_backup_ok": "Data backup started successfully!",
+    "execute_data_backup_ok": "Datensicherung erfolgreich gestartet.",
     "execute_data_backup_error": "Sicherung der Daten nicht ausgeführt.",
     "delete_config_backup_ok": "Sicherung der Konfiguration erfolgreich gelöscht!",
     "delete_config_backup_error": "Sicherung der Konfiguration nicht gelöscht.",
@@ -254,7 +279,7 @@
     "last_log": "Letztes Protokoll",
     "last_log_for": "Letztes Protokoll über Sicherung der Daten",
     "view_last_log": "Letztes Protokoll anzeigen",
-    "choose_from": "Choose source",
+    "choose_from": "Wähle Quelle",
     "reinstall_packages": "Pakete neu installieren",
     "restore_config_backup_ok": "Konfigurationssicherung erfolgreich wiederhergestellt!",
     "restore_config_backup_error": "Konfigurationssicherung nicht wiederhergestellt.",
@@ -277,15 +302,15 @@
     "storage_usage": "Auslastung des Zielspeichers",
     "overwrite_all_data": "Bei der Wiederherstellung werden alle Daten überschrieben",
     "nfs_rsync_info": "Bitte sicherstellen, dass der NFS-Server feste Verbindungen unterstützt, andernfalls schlägt die Sicherung fehl",
-    "during_remap_warning": "During interface remapping, if one or more interfaces change its IP address, you have to login again in the new IP address",
+    "during_remap_warning": "Sie müssen sich in die neue IP-Adresse wieder einloggen, wenn sich eine oder mehrere IP-Adressen währen der Neuzuordnung der Schnittstellen geändert hat.",
     "check_configuration": "Einstellungen überprüfen",
-    "register_system": "Register system",
-    "register_before_restore": "You are trying to restore a backup with a subscription. Please register the machine before restoring this backup",
+    "register_system": "System registrieren.",
+    "register_before_restore": "Sie versuchen eine Sicherung mit Abonement wiederherzustellen. Bitte registrieren Sie die Maschine bevor Sie die Sicherung wiederherstellen.",
     "register_now": "Jetzt registrieren",
-    "invalid_backup_format": "Backup not found or invalid",
-    "remap_at_least_one_green": "You have to select at least one green to remap",
-    "assign_later": "Assign later",
-    "current_int": "System interfaces"
+    "invalid_backup_format": "Sicherung nicht gefunden oder ungültig.",
+    "remap_at_least_one_green": "Sie müssen zumindest ein Grünes auswählen um neu zuzuordnen.",
+    "assign_later": "Später zuordnen",
+    "current_int": "Systemschnittstelle"
   },
   "disk_usage": {
     "title": "Plattenverbrauch",
@@ -296,7 +321,7 @@
     "disk_updated_ok": "Festplattennutzung erfolgreich aktualisiert!",
     "disk_updated_error": "Festplattennutzung nicht aktualisiert",
     "copy_path": "Pfad kopieren",
-    "one_file_system": "Analyze only the root filesystem"
+    "one_file_system": "Analysiere nur der Root-Verzeichnis"
   },
   "storage": {
     "title": "Speicher"
@@ -335,6 +360,10 @@
     "add_domain": "Domäne hinzufügen",
     "renew_days": "Tage verlängern",
     "request": "Anforderung",
+    "cockpit_reload_warning_title": "Bemerkung",
+    "cockpit_reload_warning_message": "Das neue Zertifikat wird auf dem Cockpit-Server 90 Sekunden nachdem der letzte Benutzer sich abgemeldet hat angewendet. ",
+    "set_default_modal_title": "Standardzertifikat wählen.",
+    "set_default_modal_message": "Wollen Sie {0} als Standardzertifikat setzen?",
     "view_certificate": "Zertifikat anzeigen",
     "alternative_name": "Kommagetrennte FQDN-Liste",
     "cert_default_ok": "Zertifikat erfolgreich als Standard gesetzt!",
@@ -405,8 +434,9 @@
     "range_create_error": "Bereich nicht erstellt",
     "range_update_ok": "Bereich erfolgreich aktualisiert!",
     "range_update_error": "Bereich nicht aktualisiert",
-    "scan_network": "Scan network",
-    "Scanned_Network": "Scanning of the network interface"
+    "scan_network": "Netzwerk durchsuchen",
+    "Scanned_Network": "Suchen der Netzwerkschnittstelle",
+    "lease_expiration": "Leaseverfall"
   },
   "services": {
     "title": "Dienste",
@@ -426,7 +456,23 @@
     "details_of": "Details von",
     "service_action_ok": "Aktion erfolgreich abgeschlossen!",
     "service_action_error": "Aktion nicht abgeschlossen.",
-    "status_of": "Status von"
+    "status_of": "Status von",
+    "access": "Zugriff",
+    "ports": "Ports",
+    "show_network_services_only": "Show network services only",
+    "service_type": "Service type",
+    "add_custom_service": "Add network service",
+    "tcpPorts": "TCP ports",
+    "udpPorts": "UDP ports",
+    "service_added_successfully": "Service added successfully",
+    "service_added_error": "Service not added",
+    "service_removed_successfully": "Service removed successfully",
+    "service_removed_error": "Service not removed",
+    "service_edited_successfully": "Service edited successfully",
+    "service_edited_error": "Service not edited",
+    "remove_custom_service": "Remove network service",
+    "edit_service": "Dienst bearbeiten",
+    "custom": "Benutzerdefiniert"
   },
   "users_groups": {
     "title": "Benutzer und Gruppen",
@@ -442,7 +488,7 @@
     "bind": "Binden",
     "no_account_provider_configured": "Kontoanbieter ist nicht konfiguriert",
     "change_provider": "Provider ändern",
-    "edit_provider": "Edit provider",
+    "edit_provider": "Anbieter bearbeiten",
     "account_provider": "Accountprovider",
     "configure_account_provider": "Bitte den Kontoanbieter konfigurieren",
     "choose_account_provider": "Bitte den Kontoanbieter wählen",
@@ -471,7 +517,7 @@
     "ldap_description": "Eine LDAP Datenbank speichert Benutzer, Gruppen und Passwörter. Ein RFC2307 kompatibles LDAP Schema ist erforderlich",
     "dc_description": "Computer in einer Active Directory Domäne können einfache Mitglieder oder Domänencontroller (DC) sein",
     "ip_warning_message_1": "Die gewählte IP-Adresse muss alle folgenden Bedingungen erfüllen",
-    "ip_warning_message_2": "The IP address must be in the same subnet range of a green network: e.g.",
+    "ip_warning_message_2": "Die IP-Adresse muss im selben Subnetzbereich liegen wie das grüne Netzwerk: z.B.",
     "ip_warning_message_3": "IP-Adresse darf aktuell nicht verwendet werden",
     "you_choose": "Accountprovider",
     "choose_bind_method": "Bitte die Bindungsmethode wählen",
@@ -482,10 +528,10 @@
     "port": "Port",
     "hostname_or_ip": "Hostname oder IP",
     "join_existing_dc": "Einer vorhandenen Domäne beitreten",
-    "create_new_domain_became_dc": "Domain erstellen und DC werden",
+    "create_new_domain_became_dc": "Erzeuge eine Domäne und werde DC",
     "join_active_directory": "Active Directory beitreten",
     "domain_name": "Domänenname",
-    "became_dc": "DC erstellt",
+    "became_dc": "Werde DC",
     "netbios_domain_name": "NetBIOS-Domänenname",
     "dc_ip_address": "DC-IP-Adresse",
     "configuration_invalid": "Ungültige Konfiguration",
@@ -878,7 +924,11 @@
     "there_is_upgrade_from": "Es gibt ein Upgrade von",
     "to": "zu",
     "upgrade_now": "Jetzt upgraden",
-    "no_more_details": "No more details"
+    "no_more_details": "No more details",
+    "installed_packages": "Installierte Pakete",
+    "full_version": "Full version",
+    "current_full_version": "Current",
+    "installed_low": "installed packages"
   },
   "terminal": {
     "title": "Terminal"
@@ -957,7 +1007,8 @@
     "support_active": "Eine Remote-Unterstützungs-Sitzung ist aktiv.",
     "hostname_should_not_contain_localdomain": "Der Hostname sollte 'localdomain' nicht enthalten",
     "first_hostname_part_maximum_length_15": "First hostname part must be maximum 15 characters lenght",
-    "unmapped_interface_from_restore": "This interface has not been activated after the restore. Assign the role to a new interface or remove it"
+    "unmapped_interface_from_restore": "This interface has not been activated after the restore. Assign the role to a new interface or remove it",
+    "network_recovery_mode": "The system is configured with a temporary IP address by the network-recovery tool: any change to this page will restore the network configuration as set below."
   },
   "validation": {
     "weak_password": "Das Passwort ist zu schwach, es könnte in einem Wörterbuch oder zu ähnlich dem vorherigen sein",
@@ -1019,11 +1070,14 @@
     "valid_positive": "Muss eine positive ganze Zahl sein",
     "valid_lessThan_65536": "Ein gültiger TCP / UDP-Port ist eine Zahl zwischen 1 und 65536",
     "ip_address_or_cidr": "Der Wert muss eine gültige IP wie '10.0.0.1 ' oder CIDR wie '10.0.0.1 / 24' sein.",
+    "ip_address_network_or_broadcast": "IP address can't be the network or broadcast address",
+    "this_network_overlaps_with_another_one": "This network overlaps with an existing one",
     "valid_date_YYYY-mm-dd": "Das Datumsformat muss JJJJ-mm-tt sein",
     "valid_time": "Das Zeitformat muss HH:mm sein",
     "network_key_exists": "Dieses Netzwerk besteht bereits",
     "already_used_network": "Netzwerk wird bereits verwendet",
     "invalid_network": "ungültige Netzwerk Adresse",
+    "user_exists": "A user with the same name already exists",
     "group_exists": "Eine Gruppe mit demselben Namen existiert bereits.",
     "non_existing_user": "Der Benutzer existiert nicht",
     "not_removable": "Dieses Objekt kann nicht entfernt werden",
@@ -1072,7 +1126,15 @@
     "ping_validator_valid_ipV4Address": "Invalid IPv4 address or hostname, it must be something like '10.0.0.1' or 'nethserver.org'",
     "nslookup_validator_valid_ipV4Address": "Invalid IPv4 address, it must be something like '10.0.0.1'",
     "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "Invalid fully qualified domain name, it must be something like 'domain.org'",
-    "host_not_removable": "Dieser Host kann nicht entfernt werden, da er gerade verwendet wird"
+    "host_not_removable": "Dieser Host kann nicht entfernt werden, da er gerade verwendet wird",
+    "service_name_empty": "Service name is mandatory",
+    "service_name_invalid": "Invalid service name",
+    "service_already_exists": "A service with this name already exists",
+    "access_empty": "Access attribute is mandatory",
+    "access_invalid": "Invalid access attribute",
+    "port_list_empty": "This attribute is mandatory",
+    "port_list_invalid": "Must be a list of valid ports",
+    "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
   },
   "docs": {
     "more_info_about": "Mehr Infos über",
@@ -1082,14 +1144,15 @@
     "network": "Netzwerk",
     "tls_policy": "TLS-Richtlinie",
     "trusted_networks": "Vertrauenswürdige Netzwerke",
-
+    "certificates": "Zertifikate",
     "sftp_password": "Das Passwort wird nicht gespeichert. Die SSH-Verbindung verwendet einen RSA-Schlüssel.",
     "smb_login": "Wenn der Zielserver einer Domäne angehört, verwenden Sie eine erweiterte Syntax wie 'MyBindUser,domain = meineDomäne.com'.",
     "vol_size": "Bitte Größe der Sicherungsblöcke klein halten, wenn das Sicherungsziel ein Remote-Server ist. Die Standardeinstellung ist 200 MB.",
     "dns_wildcard": "Wenn aktiviert, bitte auch alle Unterdomänen anpassen.",
-    "limit_access": "Bitte den Zugriff auf Port 9090 nur auf angegebene IP-Adressen beschränken",
+    "limit_access": "Restrict access to port 9090 only to given IP addresses. For a more granular access control, use the firewall rules.",
     "dhcp_comma_separated_field": "Bitte eine IP-Adresse oder eine kommagetrennte Liste von IP-Adressen eingeben",
     "dhcp_servers": "Server",
-    "remote_shell": "Enable this option to grant access to the Terminal and the Server Manager."
+    "remote_shell": "Enable this option to grant access to the Terminal and the Server Manager.",
+    "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'"
   }
 }

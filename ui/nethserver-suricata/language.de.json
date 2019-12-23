@@ -47,7 +47,7 @@
     "search": "Suchen",
     "download": "Laden",
     "categories_not_found": "Kategorien noch nicht heruntergeladen",
-    "categories_not_found_desc": "Download the categories before enabling IPS",
+    "categories_not_found_desc": "Laden Sie die Kategorien herunter bevor Sie IPS aktivieren.",
     "categories_downloaded_ok": "Kategorien erfolgreich heruntergeladen!",
     "categories_downloaded_error": "Kategorien nicht heruntergeladen.",
     "ips_is_disabled": "IPS ist deaktiviert",
@@ -59,7 +59,7 @@
     "reset": "Reset",
     "configuration_categories_change": "Es gibt Kategorie-Änderungen, die noch nicht angewendet wurden. Bitte zum Aktualisieren auf \"Änderungen übernehmen\" klicken",
     "actions": "Aktionen",
-    "reset_default": "Set default configuration",
+    "reset_default": "Standardkonfiguration laden",
     "enable_all": "Alle Kategorien aktivieren",
     "disable_all": "Alle Kategorien deaktivieren",
     "filter_by": "Filtern nach"

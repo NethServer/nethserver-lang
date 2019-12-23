@@ -50,7 +50,7 @@
     "openvpn_rw_status": "Status",
     "openvpn_tun_interfaces": "OpenVPN-Tunnel-Schnittstellen",
     "openvpn_rw_interfaces": "OpenVPN-Roadwarrior-Schnittstellen",
-    "openvpn_rw_top_traffic_accounts": "Today top traffic accounts",
+    "openvpn_rw_top_traffic_accounts": "Top-Traffic-Konten heute",
     "bytes": "Bytes",
     "account": "Benutzerkonto",
     "traffic": "Verkehr"
@@ -81,7 +81,7 @@
     "rightsubnets": "Entfernte Subnetze (eines pro Zeile)",
     "leftid": "Lokaler Identifikator",
     "rightid": "Entfernter Identifikator",
-    "psk": "Pre-shared Key",
+    "psk": "Geteilter Schlüssel",
     "dpdaction": "DPD (Dead Peer Detection) aktivieren",
     "pfs": "PFS (Perfect Forward Secrecy) aktivieren",
     "compress": "Komprimierung aktivieren",
@@ -119,7 +119,7 @@
     "tunnel_deleted_error": "Tunnel nicht gelöscht.",
     "name": "Name",
     "connection": "Verbindung",
-    "public_addresses": "Public addresses",
+    "public_addresses": "Öffentliche Adressen",
     "port": "Port",
     "routes": "Routen",
     "local_networks": "Lokale Netzwerke",
@@ -130,7 +130,7 @@
     "vpn_network": "VPN-Netzwerk",
     "local_p2p_ip": "Lokale P2P-IP",
     "remote_p2p_ip": "Entfernte P2P-IP",
-    "psk": "Pre-shared Key",
+    "psk": "Geteilter Schlüssel",
     "protocol": "Protokoll",
     "udp": "UDP",
     "tcp": "TCP",
@@ -142,7 +142,7 @@
     "download_configuration": "Tunnelkonfigurationen herunterladen von",
     "client_configuration": "Clientkonfiguration",
     "private_key_tun_ca": "Privatschlüssel, Tunnel und CA-Zertifikate",
-    "psk_download": "PSK (Pre-shared Key)",
+    "psk_download": "PSK (Geteilter Schlüssel)",
     "tun_servers": "Tunnelserver",
     "tun_clients": "Tunnel-Clienten",
     "remote_port": "Remote-Port",
@@ -252,8 +252,8 @@
     "since": "Verbunden seit",
     "bytes_received": "Empfangen",
     "bytes_sent": "Gesendet",
-    "real_address": "Remote IP address",
-    "virtual_address": "Virtual IP address",
+    "real_address": "Remote-IP-Adresse",
+    "virtual_address": "Virtuelle IP-Adresse",
     "state": "Status",
     "kill": "Trennen",
     "kill_account": "Konto trennen",
@@ -266,17 +266,17 @@
     "email_sent_error": "E-Mail nicht gesendet.",
     "send": "Senden",
     "send_with_email": "Mit E-Mail senden",
-    "last_connected": "Last connected",
-    "connection_history": "Connection history",
-    "connection_history_of": "Connection history of",
-    "virtual_ip_address": "Virtual IP",
+    "last_connected": "Zuletzt verbunden",
+    "connection_history": "Verbindungshistorie",
+    "connection_history_of": "Verbindungshistorie von",
+    "virtual_ip_address": "Virtuelle IP ",
     "remote_ip_address": "Entfernte IP",
     "started": "Gestartet",
     "duration": "Dauer",
-    "ended": "Ended",
-    "today": "Today",
-    "last_week": "Last week",
-    "last_month": "Last month"
+    "ended": "Beendet",
+    "today": "Heute",
+    "last_week": "Letzte Woche",
+    "last_month": "Letzten Monat"
   },
   "logs": {
     "title": "Logs",
@@ -301,12 +301,12 @@
     "valid_ipV4Netmask": "Ungültige IPv4-Netzwerkmaske: richtig wäre z.B. \"255.255.255.0\"",
     "valid_lessThan_65536": "Ein gültiger TCP / UDP-Port ist eine Zahl zwischen 1 und 65536",
     "valid_hostname_fqdn_1_9223372036854775807": "Muss mindestens zwei Punkte enthalten, wie \"myhost.example.com\"",
-    "port_in_use": "Port already in use"
+    "port_in_use": "Port wird schon verwendet"
   },
   "docs": {
     "more_info_about": "Mehr Info zu {docsLink}.",
-    "right": "Specify the static public IP address or %any if the remote has a dynamic public IP.",
-    "vpn_remote_network": "Configure these parameters only if you want to create a Net to Net VPN using this account (compatible with NethServer 6). Do not compile these fields if you're configuring a host to net VPN.",
-    "vpn_remote_netmask": "Compile this field only if you've already filled the Remote network field"
+    "right": "Bitte die statische öffentliche IP-Adresse angeben oder %any, wenn Remote eine dynamische öffentliche IP hat.",
+    "vpn_remote_network": "Bitte diese Parameter nur konfigurieren, wenn mit diesem Konto ein Net-to-Net-VPN erstellt wird (kompatibel mit NethServer 6). Bitte diese Felder nicht erstellen, wenn ein Host für Net-VPN konfiguriert werden soll.",
+    "vpn_remote_netmask": "Bitte dieses Feld nur erstellen, wenn das Feld Remote-Netzwerk bereits ausgefüllt wurde"
   }
 }

@@ -79,7 +79,32 @@
     "software_center": "Logithèque",
     "software-center": "Logithèque",
     "subscription": "Abonnement",
-    "terminal": "Terminal"
+    "terminal": "Terminal",
+    "nethserver-register": "Alertes personnalisées",
+    "nethserver-antivirus": "Antivirus",
+    "nethserver-dante": "Report",
+    "nethserver-dedalo": "Unité Hotspot",
+    "nethserver-ejabberd": "Ejabberd",
+    "nethserver-fail2ban": "Fail2Ban",
+    "nethserver-firewall-base": "Pare-feu",
+    "nethserver-freepbx": "FreePBX",
+    "nethserver-httpd": "Serveur Web",
+    "nethserver-hylafax": "HylaFax",
+    "nethserver-iaxmodem": "IAXModem",
+    "nethserver-mail": "Courriel",
+    "nethserver-mattermost": "Mattermost",
+    "nethserver-nextcloud": "Nextcloud",
+    "nethserver-nut": "UPS",
+    "nethserver-ntopng": "nTopNG",
+    "nethserver-restore-data": "Restaurer les données",
+    "nethserver-roundcubemail": "Webmail",
+    "nethserver-samba": "Serveur de fichiers",
+    "nethserver-squid": "Mandataire et filtre web",
+    "nethserver-suricata": "IPS (Détection d'intrusion)",
+    "nethserver-vpn-ui": "VPN",
+    "nethserver-webtop5": "WebTop",
+    "nethserver-cgp": "Collectd Charts",
+    "nethserver-sogo": "SOGo"
   },
   "dashboard": {
     "title": "Tableau de bord",
@@ -335,6 +360,10 @@
     "add_domain": "Ajouter un domaine",
     "renew_days": "Jours de renouvellement",
     "request": "Requête",
+    "cockpit_reload_warning_title": "Notice.",
+    "cockpit_reload_warning_message": "The new certificate is applied to the Cockpit Server Manager 90 seconds after the last user disconnects.",
+    "set_default_modal_title": "Set the default certificate",
+    "set_default_modal_message": "Do you want to set {0} as default certificate?",
     "view_certificate": "Voir le certificat",
     "alternative_name": "Liste des FQDN séparés par une virgule",
     "cert_default_ok": "Certificat défini par défaut avec succès! ",
@@ -406,7 +435,8 @@
     "range_update_ok": "Plage mise à jour avec succès!",
     "range_update_error": "Plage non mise à jour.",
     "scan_network": "Balayage du réseau",
-    "Scanned_Network": "Balayage de l'interface réseau"
+    "Scanned_Network": "Balayage de l'interface réseau",
+    "lease_expiration": "Lease expiration"
   },
   "services": {
     "title": "Services",
@@ -426,7 +456,23 @@
     "details_of": "Détails de",
     "service_action_ok": "Action achevée avec succès!",
     "service_action_error": "Action non achevée.",
-    "status_of": "État de"
+    "status_of": "État de",
+    "access": "Accès",
+    "ports": "Ports",
+    "show_network_services_only": "Show network services only",
+    "service_type": "Service type",
+    "add_custom_service": "Add network service",
+    "tcpPorts": "TCP ports",
+    "udpPorts": "UDP ports",
+    "service_added_successfully": "Service added successfully",
+    "service_added_error": "Service not added",
+    "service_removed_successfully": "Service removed successfully",
+    "service_removed_error": "Service not removed",
+    "service_edited_successfully": "Service edited successfully",
+    "service_edited_error": "Service not edited",
+    "remove_custom_service": "Remove network service",
+    "edit_service": "Éditer le service",
+    "custom": "Personalisé"
   },
   "users_groups": {
     "title": "Utilisateurs et Groupes",
@@ -482,10 +528,10 @@
     "port": "Port",
     "hostname_or_ip": "Nom d'hôte ou IP",
     "join_existing_dc": "Joindre un contrôleur de domaine existant",
-    "create_new_domain_became_dc": "Créer un domaine et devenir contrôleur de domaine",
+    "create_new_domain_became_dc": "Create domain and become DC",
     "join_active_directory": "Joindre l'Active Directory",
     "domain_name": "Nom du domaine",
-    "became_dc": "Devenir contrôleur de domaine",
+    "became_dc": "Become DC",
     "netbios_domain_name": "Nom de domaine NetBIOS",
     "dc_ip_address": "Adresse IP du contrôleur de domaine",
     "configuration_invalid": "Configuration invalide",
@@ -878,7 +924,11 @@
     "there_is_upgrade_from": "Il y a une mise à niveau de",
     "to": "à",
     "upgrade_now": "Mettre à niveau maintenant",
-    "no_more_details": "Pas plus de détails"
+    "no_more_details": "Pas plus de détails",
+    "installed_packages": "Paquets installés",
+    "full_version": "Full version",
+    "current_full_version": "Actuel",
+    "installed_low": "installed packages"
   },
   "terminal": {
     "title": "Terminal"
@@ -957,7 +1007,8 @@
     "support_active": "Une session distante de support est active",
     "hostname_should_not_contain_localdomain": "Le nom d'hôte ne devrait pas contenir \"localdomain\"",
     "first_hostname_part_maximum_length_15": "La première partie du nom d'hôte doit comporter un maximum de 15 caractères.",
-    "unmapped_interface_from_restore": "This interface has not been activated after the restore. Assign the role to a new interface or remove it"
+    "unmapped_interface_from_restore": "This interface has not been activated after the restore. Assign the role to a new interface or remove it",
+    "network_recovery_mode": "The system is configured with a temporary IP address by the network-recovery tool: any change to this page will restore the network configuration as set below."
   },
   "validation": {
     "weak_password": "Mot de passe trop faible, il pourrait être dans un dictionnaire ou trop similaire au précédent",
@@ -1019,11 +1070,14 @@
     "valid_positive": "Doit être un entier positif",
     "valid_lessThan_65536": " Un port TCP/UDP valide est un nombre compris entre 1 et 65536",
     "ip_address_or_cidr": "Doit être une IP valide telle que '10.0.0.1' ou en notation CIDR '10.0.0.1/24'",
+    "ip_address_network_or_broadcast": "IP address can't be the network or broadcast address",
+    "this_network_overlaps_with_another_one": "This network overlaps with an existing one",
     "valid_date_YYYY-mm-dd": "Le format de date doit être AAAA-mm--jj",
     "valid_time": "L'heure doit être au format HH:mm",
     "network_key_exists": "Ce réseau existe déjà",
     "already_used_network": "Réseau déjà utilisé",
     "invalid_network": "Adresse réseau invalide",
+    "user_exists": "A user with the same name already exists",
     "group_exists": "Un groupe avec le même nom existe déjà",
     "non_existing_user": "L'utilisateur n'existe pas",
     "not_removable": "Cet objet ne peut pas être supprimé",
@@ -1072,7 +1126,15 @@
     "ping_validator_valid_ipV4Address": "Adresse IPv4 ou nom d'hôte invalide,  ce doit être quelque chose comme '10.0.0.1' ou 'nethserver.org'",
     "nslookup_validator_valid_ipV4Address": "Adresse IPv4 invalide, ce doit être quelque chose comme '10.0.0.1'",
     "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "FQDN non valide, ce doit être quelque chose comme 'domaine.org'",
-    "host_not_removable": "Cet hôte ne peut être supprimé car il est en cours d'utilisation"
+    "host_not_removable": "Cet hôte ne peut être supprimé car il est en cours d'utilisation",
+    "service_name_empty": "Service name is mandatory",
+    "service_name_invalid": "Invalid service name",
+    "service_already_exists": "A service with this name already exists",
+    "access_empty": "Access attribute is mandatory",
+    "access_invalid": "Invalid access attribute",
+    "port_list_empty": "This attribute is mandatory",
+    "port_list_invalid": "Must be a list of valid ports",
+    "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
   },
   "docs": {
     "more_info_about": "Plus d'info à propos",
@@ -1082,14 +1144,15 @@
     "network": "Réseau",
     "tls_policy": "Politique TLS",
     "trusted_networks": "Réseaux de confiance",
-
+    "certificates": "Certificats",
     "sftp_password": "Le mot de passe ne sera pas sauvegardé. La connexion SSH utilisera une clé RSA",
     "smb_login": "Si le serveur cible est joint à un domaine, utilisez la syntaxe étendue telle que 'MyBindUser,domain=mydomain.com'.",
     "vol_size": "La taille des fragments de sauvegarde est réduite si la destination de sauvegarde est un serveur distant. La valeur par défaut est 200 Mo.",
     "dns_wildcard": "Si activé, correspond aussi à tous les sous-domaines.",
-    "limit_access": "Restreindre l'accès au port 9090 seulement au adresses IP déclarées",
+    "limit_access": "Restrict access to port 9090 only to given IP addresses. For a more granular access control, use the firewall rules.",
     "dhcp_comma_separated_field": "Insérer une adresse IP ou une liste d'adresses séparées par une virgule",
     "dhcp_servers": "Serveurs",
-    "remote_shell": "Activez cette option pour accorder l'accès au terminal et au gestionnaire de serveur."
+    "remote_shell": "Activez cette option pour accorder l'accès au terminal et au gestionnaire de serveur.",
+    "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'"
   }
 }

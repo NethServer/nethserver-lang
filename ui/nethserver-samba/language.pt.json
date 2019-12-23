@@ -1,6 +1,6 @@
 {
   "actions_title": "Ações",
-  "list_title": "List",
+  "list_title": "Lista",
   "modal_save_button": "Guardar",
   "modal_delete_button": "Eliminar",
   "modal_edit_button": "Editar",
@@ -10,7 +10,7 @@
   "modal_cancel_button": "Cancelar",
   "action": "Ação",
   "search": "Procurar",
-  "list": "List",
+  "list": "Lista",
   "are_you_sure": "Tem a certeza",
   "cancel": "Cancelar",
   "delete": "Eliminar",

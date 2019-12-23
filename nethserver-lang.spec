@@ -4,7 +4,7 @@
 
 Name: nethserver-lang
 Version: 1.4.3
-Release: 1%{?dist}
+Release: 2%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
 Summary: NethServer localization project
@@ -230,6 +230,9 @@ BuildArch: noarch
 Cockpit translstions for all languages.
 
 %changelog
+* Mon Dec 23 2019 nethbot <nethbot@nethesis.it> - 1.4.3-2
+- Automatic release 1.4.3-2
+
 * Tue Nov 26 2019 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.4.3-1
 - Pull translations from transifex
 
