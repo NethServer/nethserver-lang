@@ -50,4 +50,4 @@ $L['ttyS2_label'] = '
 COM3 (ttyS2)';
 $L['ttyUSB0_label'] = 'USB para série (ttyUSB0)';
 $L['ttyIAX_label'] = 'Modems IAX';
-$L['Mail2Fax_label'] = 'Mail to fax gateway';
+$L['Mail2Fax_label'] = 'Acesso de fax para correio';

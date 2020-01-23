@@ -26,7 +26,8 @@
         "error_getting_clamav_instances": "Eroare la obținerea instanțelor ClamAV"
     },
     "dashboard":{
-        "title": "Antivirus",
+        "title": "Antivirus dashboard",
+        "app": "Antivirus",
         "email_protection": "Protecție email",
         "web_protection": "Protecție web",
         "error_getting_dashboard_data": "Eroare la obținerea datelor panoului de bord.",

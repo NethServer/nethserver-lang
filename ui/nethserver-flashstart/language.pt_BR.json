@@ -19,7 +19,7 @@
         "error_reading_network_roles_configuration": "Error reading network roles configuration",
         "bypass": "Bypass",
         "bypass_source_ips": "Bypass source IPs (one per line)",
-        "configuration_update_successful": "Configuration updated",
+        "configuration_update_successful": "Configuração atualizada",
         "configuration_update_failed": "Falha ao atualizar a configuração",
         "dns_configuration": "FlashStart doesn't require any DNS configuration neither in Nethsecurity nor in clients"
     },
@@ -30,9 +30,11 @@
     },
     "dashboard":{
         "title": "Painel",
-        "error_getting_login_status": "Error retrieving login status",
+        "error_retrieving_dashboard_data": "Error retrieving dashboard data",
         "flashstart_enabled": "FlashStart enabled",
-        "authentication_status": "Authentication status"
+        "authentication_status": "Authentication status",
+        "cloud_portal": "Filter configuration",
+        "access": "Edit on cloud portal"
     },
     "actions": "Ações",
     "delete": "Deletar",

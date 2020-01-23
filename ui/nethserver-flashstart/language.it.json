@@ -30,9 +30,11 @@
     },
     "dashboard":{
         "title": "Dashboard",
-        "error_getting_login_status": "Errore durante il recupero dello stato di login",
+        "error_retrieving_dashboard_data": "Errore in lettura dati dashboard",
         "flashstart_enabled": "FlashStart abilitato",
-        "authentication_status": "Stato autenticazione"
+        "authentication_status": "Stato autenticazione",
+        "cloud_portal": "Configurazione del filtro",
+        "access": "Modifica dal portale Flashstart"
     },
     "actions": "Azioni",
     "delete": "Elimina",

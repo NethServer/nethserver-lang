@@ -52,6 +52,7 @@
   },
   "dashboard":{
     "title": "UPS dashboard",
+    "app": "UPS",
     "load": "Terhelés",
     "battery_charge": "Akku töltöttség",
     "model": "Modell",

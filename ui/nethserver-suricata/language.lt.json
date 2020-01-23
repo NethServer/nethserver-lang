@@ -2,7 +2,7 @@
   "cancel": "Atsisakyti",
   "leave": "Leave",
   "info": "Info",
-  "search": "Search",
+  "search": "Ieškoti",
   "warning": "Įspėjimas",
   "dashboard": {
     "menu_title": "IPS",
@@ -44,7 +44,7 @@
     "configuration_updated_error": "Konfigūracija neatnaujinta.",
     "no_categories_configured": "No categories configured",
     "no_categories_configured_desc": "Search on the input above to configure new category",
-    "search": "Search",
+    "search": "Ieškoti",
     "download": "Atsisiųsti",
     "categories_not_found": "Categories not yet downloaded",
     "categories_not_found_desc": "Download the categories before enabling IPS",

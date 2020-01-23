@@ -459,7 +459,7 @@
     "status_of": "Şunun durumu",
     "access": "Erişim",
     "ports": "Kapı numaraları",
-    "show_network_services_only": "Yalnız ağ hizmetleri görüntülensin",
+    "network_services_only": "Yalnız ağ hizmetleri",
     "service_type": "Hizmet türü",
     "add_custom_service": "Ağ hizmeti ekle",
     "tcpPorts": "TCP kapı numaraları",
@@ -1133,7 +1133,7 @@
     "access_empty": "Erişim özniteliği zorunludur",
     "access_invalid": "Erişim özniteliği geçersiz",
     "port_list_empty": "Bu öznitelik zorunludur",
-    "port_list_invalid": "Geçerli kapı numaralarının bir listesi olmalıdır",
+    "port_list_invalid": "Kapı numaraları listesi geçersiz",
     "tcp_ports_and_udp_ports_empty": "En az bir TCP ya da UDP kapı numarası belirtilmelidir"
   },
   "docs": {

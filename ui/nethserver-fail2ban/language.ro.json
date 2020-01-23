@@ -83,19 +83,24 @@
         "bug_tracker": "Bug tracker"
     },
     "logs": {
-    "title": "Jurnale",
-    "follow": "Urmărește",
-    "stop_follow": "Oprire"
+        "title": "Jurnale",
+        "follow": "Urmărește",
+        "stop_follow": "Oprire",
+        "start_follow_button": "Urmărește",
+        "stop_follow_button": "Nu mai urmări",
+        "filter_label": "Filtru Regexp"
     },
     "dashboard":{
-        "title": "Tablou de bord",
+        "title": "Fail2ban dashboard",
+        "app": "Fail2ban",
         "list_active_jails": "List all active jails",
         "number_of_active_jail": "Active jails",
         "number_bans_per_jail": "Statistics of banned IP per jail",
         "empty_piechart_label": "Empty data",
         "number_of_enabled_jails": "Enabled jails",
         "number_total_of_bans":"Total number of banned IP",
-        "Fail2ban_is_probably_down": "Fail2ban is probably stopped, please check the logs"
+        "Fail2ban_is_probably_down": "Fail2ban is probably stopped, please check the logs",
+        "time_of_the_last_stats": "Last statistics update"
 
     },
     "validation":{

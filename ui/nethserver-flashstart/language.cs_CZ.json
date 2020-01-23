@@ -30,9 +30,11 @@
     },
     "dashboard":{
         "title": "Přehled",
-        "error_getting_login_status": "Chyba při získávání stavu přihlášení",
+        "error_retrieving_dashboard_data": "Chyba při získávání dat přehledu",
         "flashstart_enabled": "FlashStart zapnouto",
-        "authentication_status": "Stav ověření se"
+        "authentication_status": "Stav ověření se",
+        "cloud_portal": "Nastavení filtru",
+        "access": "Upravit na cloudovém portálu"
     },
     "actions": "Akce",
     "delete": "Smazat",

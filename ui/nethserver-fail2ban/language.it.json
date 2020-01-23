@@ -83,19 +83,24 @@
         "bug_tracker": "Bug tracker"
     },
     "logs": {
-    "title": "Log",
-    "follow": "Segui",
-    "stop_follow": "Ferma"
+        "title": "Log",
+        "follow": "Segui",
+        "stop_follow": "Ferma",
+        "start_follow_button": "Segui",
+        "stop_follow_button": "Interrompi segui",
+        "filter_label": "Filtro regexp"
     },
     "dashboard":{
-        "title": "Dashboard",
+        "title": "Fail2ban dashboard",
+        "app": "Fail2ban",
         "list_active_jails": "Elenco jail attive",
         "number_of_active_jail": "Jail attive",
         "number_bans_per_jail": "Statistiche IP bloccati per jail",
         "empty_piechart_label": "Tabella vuota",
         "number_of_enabled_jails": "Jail abilitate",
         "number_total_of_bans":"IP bloccati totali",
-        "Fail2ban_is_probably_down": "Fail2ban potrebbe essersi interrotto, controllare i log"
+        "Fail2ban_is_probably_down": "Fail2ban potrebbe essersi interrotto, controllare i log",
+        "time_of_the_last_stats": "Last statistics update"
 
     },
     "validation":{

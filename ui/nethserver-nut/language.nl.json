@@ -52,6 +52,7 @@
   },
   "dashboard":{
     "title": "UPS dashboard",
+    "app": "UPS",
     "load": "Belasting",
     "battery_charge": "Batterij laadt op",
     "model": "Model",

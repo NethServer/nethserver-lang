@@ -26,7 +26,8 @@
         "error_getting_clamav_instances": "Error getting ClamAV instances"
     },
     "dashboard":{
-        "title": "Antivirusinė programa",
+        "title": "Antivirus dashboard",
+        "app": "Antivirusinė programa",
         "email_protection": "Email protection",
         "web_protection": "Web protection",
         "error_getting_dashboard_data": "Error getting dashboard data",

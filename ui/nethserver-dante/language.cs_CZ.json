@@ -45,7 +45,7 @@
     "bug_tracker": "Systém správy hlášení problémů"
   },
   "dashboard": {
-    "title": "Přehled"
+    "title": "Hlášení"
   },
   "validation": {
     "validation_failed": "Ověření se nezdařilo",

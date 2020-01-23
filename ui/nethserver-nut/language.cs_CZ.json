@@ -52,6 +52,7 @@
   },
   "dashboard":{
     "title": "Přehled o UPS",
+    "app": "UPS zdroj",
     "load": "Vytížení",
     "battery_charge": "Nabití akumulátoru",
     "model": "Model",

@@ -71,7 +71,8 @@
         "filter_label": "Regexp filter"
     },
     "dashboard":{
-        "title": "Ponto de acesso",
+        "title": "Hotspot dashboard",
+        "app": "Ponto de acesso",
         "error_retrieving_dashboard_data": "Error retrieving dashboard data",
         "mac_address": "Endereço MAC",
         "ip_address": "Endereço IP",

@@ -52,6 +52,7 @@
   },
   "dashboard":{
     "title": "UPS dashboard",
+    "app": "UPS",
     "load": "Ladda",
     "battery_charge": "Batteriladdning",
     "model": "Modell",

@@ -83,19 +83,24 @@
         "bug_tracker": "Баг-трекер"
     },
     "logs": {
-    "title": "Логи",
-    "follow": "Отслеживать",
-    "stop_follow": "Остановка"
+        "title": "Логи",
+        "follow": "Отслеживать",
+        "stop_follow": "Остановка",
+        "start_follow_button": "Отслеживать",
+        "stop_follow_button": "Остановить отслеживание",
+        "filter_label": "Regexp-фильтр"
     },
     "dashboard":{
-        "title": "Панель управления",
+        "title": "Fail2ban dashboard",
+        "app": "Fail2ban",
         "list_active_jails": "Список всех активных джейлов",
         "number_of_active_jail": "Активные джейлы",
         "number_bans_per_jail": "Статистика забаненых IP по джейлам",
         "empty_piechart_label": "Нет данных",
         "number_of_enabled_jails": "Включенные джейлы",
         "number_total_of_bans":"Общее количество забаненных IP",
-        "Fail2ban_is_probably_down": "Вероятно, Fail2ban остановлен, пожалуйста, проверьте логи"
+        "Fail2ban_is_probably_down": "Вероятно, Fail2ban остановлен, пожалуйста, проверьте логи",
+        "time_of_the_last_stats": "Last statistics update"
 
     },
     "validation":{

@@ -83,19 +83,24 @@
         "bug_tracker": "Bug tracker"
     },
     "logs": {
-    "title": "Journaux",
-    "follow": "Suivre",
-    "stop_follow": "Arrêter"
+        "title": "Journaux",
+        "follow": "Suivre",
+        "stop_follow": "Arrêter",
+        "start_follow_button": "Suivre",
+        "stop_follow_button": "Arrêter de suivre",
+        "filter_label": "Filtre regexp"
     },
     "dashboard":{
-        "title": "Tableau de bord",
+        "title": "Fail2ban dashboard",
+        "app": "Fail2ban",
         "list_active_jails": "Liste de toutes les prisons actives",
         "number_of_active_jail": "Prisons actives",
         "number_bans_per_jail": "Statistiques d'adresses IP bannies par prisons",
         "empty_piechart_label": "Donnée vide",
         "number_of_enabled_jails": "Prisons activées",
         "number_total_of_bans":"Nombre total d'adresses IP bannies",
-        "Fail2ban_is_probably_down": "Fail2ban est probablement arrêté, svp vérifiez les journaux"
+        "Fail2ban_is_probably_down": "Fail2ban est probablement arrêté, svp vérifiez les journaux",
+        "time_of_the_last_stats": "Last statistics update"
 
     },
     "validation":{

@@ -46,7 +46,8 @@
     "filter_label": "Filtro Regexp"
   },
   "dashboard": {
-    "title": "Panel de Control",
+    "title": "Restore data dashboard",
+    "app": "Recuperar datos",
     "last_run": "Last run",
     "configured_backups": "Configured backups",
     "no_backups_found": "No se han encontrado copias de seguridad",

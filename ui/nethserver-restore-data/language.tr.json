@@ -46,7 +46,8 @@
     "filter_label": "Kurallı ifade süzgeci"
   },
   "dashboard": {
-    "title": "Pano",
+    "title": "Verileri geri yükleme panosu",
+    "app": "Verileri geri yükleme",
     "last_run": "Son çalışma",
     "configured_backups": "Yapılandırılmış yedekler",
     "no_backups_found": "Herhangi bir yedek bulunamadı",

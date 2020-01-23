@@ -45,7 +45,7 @@
     "bug_tracker": "Seguidor de fallas"
   },
   "dashboard": {
-    "title": "Panel de Control"
+    "title": "Report"
   },
   "validation": {
     "validation_failed": "Validación faliida",

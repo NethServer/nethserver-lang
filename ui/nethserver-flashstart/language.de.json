@@ -30,9 +30,11 @@
     },
     "dashboard":{
         "title": "Übersicht",
-        "error_getting_login_status": "Fehler beim Abrufen des Anmeldestatus",
+        "error_retrieving_dashboard_data": "Fehler beim Abrufen der Dashboard-Daten",
         "flashstart_enabled": "FlashStart aktiviert",
-        "authentication_status": "Authentifizierungsstatus"
+        "authentication_status": "Authentifizierungsstatus",
+        "cloud_portal": "Filter configuration",
+        "access": "Edit on cloud portal"
     },
     "actions": "Aktionen",
     "delete": "Entfernen",

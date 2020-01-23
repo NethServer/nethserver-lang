@@ -46,7 +46,8 @@
     "filter_label": "Regexp-фильтр"
   },
   "dashboard": {
-    "title": "Панель управления",
+    "title": "Restore data dashboard",
+    "app": "Восстановление данных",
     "last_run": "Last run",
     "configured_backups": "Configured backups",
     "no_backups_found": "Резервных копий не найднено",

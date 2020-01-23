@@ -52,6 +52,7 @@
   },
   "dashboard":{
     "title": "USV-Übersicht",
+    "app": "USV",
     "load": "Laden",
     "battery_charge": "Batterieladung",
     "model": "Modell",

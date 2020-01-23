@@ -26,7 +26,8 @@
         "error_getting_clamav_instances": "ClamAV kopyaları alınırken sorun çıktı"
     },
     "dashboard":{
-        "title": "Virusten koruma",
+        "title": "Virüsten koruma panosu",
+        "app": "Virusten koruma",
         "email_protection": "E-posta koruması",
         "web_protection": "Web koruması",
         "error_getting_dashboard_data": "Pano verileri alınırken sorun çıktı",

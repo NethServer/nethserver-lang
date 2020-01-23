@@ -1,8 +1,8 @@
 {
   "settings": {
     "title": "Nustatymai",
-    "settings_updated_ok": "Settings updated successfully!",
-    "settings_updated_error": "Settings not updated.",
+    "settings_updated_ok": "Nustatymai sėkmingai atnaujinti!",
+    "settings_updated_error": "Nustatymai neatnaujinti.",
     "public_host": "Public host",
     "full_url": "Final url",
     "host_configuration": "Host configuration",
@@ -11,7 +11,7 @@
     "palette": "Palette",
     "interval": "Interval",
     "language": "Kalba",
-    "addresses": "Addresses",
+    "addresses": "Adresai",
     "dark": "Dark",
     "light": "Light",
     "week": "Week",
@@ -45,13 +45,13 @@
     "bug_tracker": "Bug tracker"
   },
   "dashboard": {
-    "title": "Skydelis"
+    "title": "Report"
   },
   "validation": {
     "validation_failed": "Validation failed",
     "public_host_must_resolve": "Use a public DNS name which must be accessibile from the server itself and clients from Internet",
     "invalid_mail_address": "Set a valid mail address like 'info@mydomain.org'",
-    "invalid_language": "Language not found",
+    "invalid_language": "Kalba nerasta",
     "valid_hostname_fqdn_1_9223372036854775807": "Must be a fully qualified host name"
   }
 }

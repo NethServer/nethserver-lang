@@ -537,7 +537,7 @@
         "access_empty": "Access attribute is mandatory",
         "access_invalid": "Invalid access attribute",
         "port_list_empty": "This attribute is mandatory",
-        "port_list_invalid": "Must be a list of valid ports",
+        "port_list_invalid": "Invalid list of ports",
         "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
     },
     "docs": {
@@ -547,6 +547,7 @@
         "objects_ports": "Syntaxe prise en charge : liste de ports séparés par des virgules ou plage de ports (ex: 10000-20000)",
         "mac_validation": "Les requêtes provenant d'adresses IP listées dans les réservations DHCP ne sont autorisées que si elles proviennent de l'adresse MAC associée (même si DHCP est désactivé).",
         "mac_validation_policy": "Les demandes provenant d'adresses IP qui ne figurent pas dans les réservations DHCP sont bloquées. Assurez-vous que les hôtes admin sont listés dans les réservations DHCP.",
-        "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'"
+        "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'",
+        "network_services_system_services": "Network services can be added in System -> Services page"
     }
 }

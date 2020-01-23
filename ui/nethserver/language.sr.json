@@ -459,7 +459,7 @@
     "status_of": "Status of",
     "access": "Приступ",
     "ports": "Портови",
-    "show_network_services_only": "Show network services only",
+    "network_services_only": "Network services only",
     "service_type": "Service type",
     "add_custom_service": "Add network service",
     "tcpPorts": "TCP ports",
@@ -1133,7 +1133,7 @@
     "access_empty": "Access attribute is mandatory",
     "access_invalid": "Invalid access attribute",
     "port_list_empty": "This attribute is mandatory",
-    "port_list_invalid": "Must be a list of valid ports",
+    "port_list_invalid": "Invalid list of ports",
     "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
   },
   "docs": {

@@ -52,6 +52,7 @@
   },
   "dashboard":{
     "title": "Dashboard UPS",
+    "app": "UPS",
     "load": "Carico",
     "battery_charge": "Carica batteria",
     "model": "Modello",

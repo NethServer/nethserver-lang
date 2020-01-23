@@ -71,7 +71,8 @@
         "filter_label": "Kurallı ifade süzgeci"
     },
     "dashboard":{
-        "title": "Erişim noktası",
+        "title": "Erişim noktası panosu",
+        "app": "Erişim noktası",
         "error_retrieving_dashboard_data": "Pano verileri alınırken sorun çıktı",
         "mac_address": "MAC adresi",
         "ip_address": "IP adresi",

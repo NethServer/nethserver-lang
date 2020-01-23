@@ -52,6 +52,7 @@
   },
   "dashboard":{
     "title": "KGK panosu",
+    "app": "KGK",
     "load": "Yük",
     "battery_charge": "Akü şarjı",
     "model": "Model",

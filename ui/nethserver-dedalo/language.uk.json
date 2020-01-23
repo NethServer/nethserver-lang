@@ -71,7 +71,8 @@
         "filter_label": "Regexp filter"
     },
     "dashboard":{
-        "title": "Hotspot",
+        "title": "Hotspot dashboard",
+        "app": "Hotspot",
         "error_retrieving_dashboard_data": "Error retrieving dashboard data",
         "mac_address": "MAC address",
         "ip_address": "IP address",

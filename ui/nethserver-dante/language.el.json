@@ -45,7 +45,7 @@
     "bug_tracker": "Bug tracker"
   },
   "dashboard": {
-    "title": "Πίνακας ελέγχου"
+    "title": "Report"
   },
   "validation": {
     "validation_failed": "Validation failed",

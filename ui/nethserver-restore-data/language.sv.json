@@ -46,7 +46,8 @@
     "filter_label": "Regexp filter"
   },
   "dashboard": {
-    "title": "Panel",
+    "title": "Restore data dashboard",
+    "app": "Återställ data",
     "last_run": "Last run",
     "configured_backups": "Configured backups",
     "no_backups_found": "No backups found",

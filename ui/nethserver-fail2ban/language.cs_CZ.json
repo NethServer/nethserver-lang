@@ -83,19 +83,24 @@
         "bug_tracker": "Systém správy hlášení problémů"
     },
     "logs": {
-    "title": "Záznamy událostí",
-    "follow": "Následovat",
-    "stop_follow": "Zastavit"
+        "title": "Záznamy událostí",
+        "follow": "Následovat",
+        "stop_follow": "Zastavit",
+        "start_follow_button": "Odebírat",
+        "stop_follow_button": "Přestat odebírat",
+        "filter_label": "Filtr s regulárním výrazem"
     },
     "dashboard":{
-        "title": "Přehled",
+        "title": "Fail2ban dashboard",
+        "app": "Fail2ban",
         "list_active_jails": "Vypsat všechna aktuální vyloučení",
         "number_of_active_jail": "Aktivní vyloučení",
         "number_bans_per_jail": "Statistiky vyloučených iP adres v jednotlivých jail",
         "empty_piechart_label": "Prázdná data",
         "number_of_enabled_jails": "Zapnuté jails",
         "number_total_of_bans":"Celkový počet vyloučených adres",
-        "Fail2ban_is_probably_down": "Fail2ban je nejspíš zastaveno, zkontrolujte záznamy událostí"
+        "Fail2ban_is_probably_down": "Fail2ban je nejspíš zastaveno, zkontrolujte záznamy událostí",
+        "time_of_the_last_stats": "Last statistics update"
 
     },
     "validation":{

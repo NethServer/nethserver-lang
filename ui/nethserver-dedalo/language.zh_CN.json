@@ -71,7 +71,8 @@
         "filter_label": "Regexp filter"
     },
     "dashboard":{
-        "title": "无线热点",
+        "title": "Hotspot dashboard",
+        "app": "无线热点",
         "error_retrieving_dashboard_data": "Error retrieving dashboard data",
         "mac_address": "MAC地址",
         "ip_address": "IP地址",

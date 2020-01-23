@@ -71,7 +71,8 @@
         "filter_label": "Regexp-фильтр"
     },
     "dashboard":{
-        "title": "Хот-спот",
+        "title": "Hotspot dashboard",
+        "app": "Хот-спот",
         "error_retrieving_dashboard_data": "Error retrieving dashboard data",
         "mac_address": "MAC-адрес",
         "ip_address": "IP-адрес",

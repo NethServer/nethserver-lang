@@ -45,7 +45,7 @@
     "bug_tracker": "Bug tracker"
   },
   "dashboard": {
-    "title": "Командна табла"
+    "title": "Report"
   },
   "validation": {
     "validation_failed": "Validation failed",

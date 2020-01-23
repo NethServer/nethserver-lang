@@ -30,9 +30,11 @@
     },
     "dashboard":{
         "title": "Tablou de bord",
-        "error_getting_login_status": "Eroare la obținerea statusului autentificării",
+        "error_retrieving_dashboard_data": "Error retrieving dashboard data",
         "flashstart_enabled": "FlashStart activat",
-        "authentication_status": "Status autentificare"
+        "authentication_status": "Status autentificare",
+        "cloud_portal": "Filter configuration",
+        "access": "Edit on cloud portal"
     },
     "actions": "Acțiuni",
     "delete": "Șterge",

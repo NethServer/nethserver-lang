@@ -71,7 +71,8 @@
         "filter_label": "Filtr s regulárním výrazem"
     },
     "dashboard":{
-        "title": "Hotspot",
+        "title": "Hotspot dashboard",
+        "app": "Hotspot",
         "error_retrieving_dashboard_data": "Chyba při získávání dat přehledu",
         "mac_address": "MAC adresa",
         "ip_address": "IP adresa",

@@ -30,9 +30,11 @@
     },
     "dashboard":{
         "title": "Pano",
-        "error_getting_login_status": "Oturum açma durumu alınırken sorun çıktı",
+        "error_retrieving_dashboard_data": "Pano verileri alınırken sorun çıktı",
         "flashstart_enabled": "FlashStart kullanılıyor",
-        "authentication_status": "Kimlik doğrulama durumu"
+        "authentication_status": "Kimlik doğrulama durumu",
+        "cloud_portal": "Süzgeç yapılandırması",
+        "access": "Bulut portalinde düzenle"
     },
     "actions": "İşlemler",
     "delete": "Sil",

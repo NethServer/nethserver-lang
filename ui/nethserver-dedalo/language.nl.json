@@ -71,7 +71,8 @@
         "filter_label": "Regexp filter"
     },
     "dashboard":{
-        "title": "Actieve plek",
+        "title": "Hotspot dashboard",
+        "app": "Actieve plek",
         "error_retrieving_dashboard_data": "Error retrieving dashboard data",
         "mac_address": "MAC adres",
         "ip_address": "IP adres",

@@ -46,7 +46,8 @@
     "filter_label": "Filtro de Rejeição por Expressão"
   },
   "dashboard": {
-    "title": "Painel",
+    "title": "Restore data dashboard",
+    "app": "Restaurar dados",
     "last_run": "Última execução",
     "configured_backups": "Backups configurado",
     "no_backups_found": "Nenhum backup",

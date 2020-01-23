@@ -26,7 +26,8 @@
         "error_getting_clamav_instances": "Fehler beim Abrufen der ClamAV-Instanzen"
     },
     "dashboard":{
-        "title": "Antivirus",
+        "title": "Antivirus dashboard",
+        "app": "Antivirus",
         "email_protection": "E-Mail-Schutz",
         "web_protection": "Web-Schutz",
         "error_getting_dashboard_data": "Fehler beim Abrufen der Übersichtsdaten",

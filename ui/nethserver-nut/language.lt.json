@@ -1,6 +1,6 @@
 {
   "save": "Įrašyti",
-  "search": "Search",
+  "search": "Ieškoti",
 
   "edit": "Taisyti",
 
@@ -12,7 +12,7 @@
     "enable_nut_ups": "Enable NUT UPS",
     "mode": "Veiksena",
     "server": "Serveris",
-    "client": "Client",
+    "client": "Klientas",
     "model": "Modelis",
     "driver": "Tvarkyklė",
     "device": "Įrenginys",
@@ -28,8 +28,8 @@
     "password_for_clients": "Password for clients",
     "server_address": "Serverio adresas",
     "password": "Slaptažodis",
-    "configuration_saved": "Configuration saved succesfully",
-    "configuration_failed": "Configuration not saved",
+    "configuration_saved": "Konfigūracija sėkmingai įrašyta",
+    "configuration_failed": "Konfigūracija neįrašyta",
     "master_validation": "Server address must be a valid hostname",
     "password_validation": "Password must not be empty",
     "ups_name_validation": "UPS name must not be empty",
@@ -52,6 +52,7 @@
   },
   "dashboard":{
     "title": "UPS dashboard",
+    "app": "UPS",
     "load": "Įkelti",
     "battery_charge": "Battery charge",
     "model": "Modelis",

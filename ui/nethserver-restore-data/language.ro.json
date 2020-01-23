@@ -46,7 +46,8 @@
     "filter_label": "Filtru Regexp"
   },
   "dashboard": {
-    "title": "Tablou de bord",
+    "title": "Restore data dashboard",
+    "app": "Restaurează date",
     "last_run": "Ultima executare",
     "configured_backups": "Copii de siguranță configurate",
     "no_backups_found": "Nici o copie de siguranță găsită",

@@ -537,7 +537,7 @@
         "access_empty": "Erişim özniteliği zorunludur",
         "access_invalid": "Erişim özniteliği geçersiz",
         "port_list_empty": "Bu öznitelik zorunludur",
-        "port_list_invalid": "Geçerli kapı numaralarının bir listesi olmalıdır",
+        "port_list_invalid": "Kapı numaraları listesi geçersiz",
         "tcp_ports_and_udp_ports_empty": "En az bir TCP ya da UDP kapı numarası belirtilmelidir"
     },
     "docs": {
@@ -547,6 +547,7 @@
         "objects_ports": "Yazım biçimi: virgül ile ayrılmış kapı numaraları listesi ya da kapı numarası aralığı (10000-20000 gibi)",
         "mac_validation": "DHCP ayırtmaları içindeki IP adreslerinden gelen isteklere yalnız ilgili MAC adresinden geliyorlarsa izin verilir (DHCP devre dışı bırakılmış olsa bile).",
         "mac_validation_policy": "DHCP ayırtmaları içinde bulunmayan IP adreslerinden gelen istekler engellenir. Yönetici sunucularının DHCP ayırtmaları içinde bulunduğundan emin olun.",
-        "list_of_ports": "Bir ya da virgül ile ayrılmış birkaç kapı numarası yazın. Örnek: '8081, 9292'"
+        "list_of_ports": "Bir ya da virgül ile ayrılmış birkaç kapı numarası yazın. Örnek: '8081, 9292'",
+        "network_services_system_services": "Ağ hizmetleri Sistem -> Hizmetler bölümünden eklenebilir"
     }
 }

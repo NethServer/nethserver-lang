@@ -30,9 +30,11 @@
     },
     "dashboard":{
         "title": "Panel de Control",
-        "error_getting_login_status": "Error recuperando el Estado de acceso",
+        "error_retrieving_dashboard_data": "Error recuperando los datos del panel de control",
         "flashstart_enabled": "FlashStart habilitado",
-        "authentication_status": "Estado de autenticacion"
+        "authentication_status": "Estado de autenticacion",
+        "cloud_portal": "Filter configuration",
+        "access": "Edit on cloud portal"
     },
     "actions": "Acciones",
     "delete": "Borrar",

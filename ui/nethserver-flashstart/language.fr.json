@@ -30,9 +30,11 @@
     },
     "dashboard":{
         "title": "Tableau de bord",
-        "error_getting_login_status": "Erreur lors de la récupération du statut de connexion",
+        "error_retrieving_dashboard_data": "Erreur d'acquisition des données du tableau de bord",
         "flashstart_enabled": "FlashStart activé",
-        "authentication_status": "Statut de l'authentification"
+        "authentication_status": "Statut de l'authentification",
+        "cloud_portal": "Filter configuration",
+        "access": "Edit on cloud portal"
     },
     "actions": "Actions",
     "delete": "Supprimer",

@@ -46,7 +46,8 @@
     "filter_label": "Regexp filter"
   },
   "dashboard": {
-    "title": "仪表板",
+    "title": "Restore data dashboard",
+    "app": "恢复数据",
     "last_run": "Last run",
     "configured_backups": "Configured backups",
     "no_backups_found": "没有找到备份",

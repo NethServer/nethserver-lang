@@ -83,19 +83,24 @@
         "bug_tracker": "Hata izleyici"
     },
     "logs": {
-    "title": "Günlükler",
-    "follow": "İzle",
-    "stop_follow": "Durdur"
+        "title": "Günlükler",
+        "follow": "İzle",
+        "stop_follow": "Durdur",
+        "start_follow_button": "İzle",
+        "stop_follow_button": "İzlemeyi bırak",
+        "filter_label": "Kurallı ifade süzgeci"
     },
     "dashboard":{
-        "title": "Pano",
+        "title": "Fail2ban panosu",
+        "app": "Fail2ban",
         "list_active_jails": "Tüm etkin gözaltıları listele",
         "number_of_active_jail": "Etkin gözaltılar",
         "number_bans_per_jail": "Her gözetim için engellenmiş IP istatistikleri",
         "empty_piechart_label": "Verileri sil",
         "number_of_enabled_jails": "Etkin gözetimler",
         "number_total_of_bans":"Toplam engellenmiş IP sayısı",
-        "Fail2ban_is_probably_down": "Fail2ban durmuş olabilir, lütfen günlük kayıtlarına bakın"
+        "Fail2ban_is_probably_down": "Fail2ban durmuş olabilir, lütfen günlük kayıtlarına bakın",
+        "time_of_the_last_stats": "İstatistiklerin son güncellenmesi"
 
     },
     "validation":{

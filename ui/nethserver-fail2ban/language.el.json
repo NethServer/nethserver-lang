@@ -83,19 +83,24 @@
         "bug_tracker": "Bug tracker"
     },
     "logs": {
-    "title": "Ιστορικό",
-    "follow": "Να ακολουθήσει",
-    "stop_follow": "Σταμάτημα"
+        "title": "Ιστορικό",
+        "follow": "Να ακολουθήσει",
+        "stop_follow": "Σταμάτημα",
+        "start_follow_button": "Να ακολουθήσει",
+        "stop_follow_button": "Stop following",
+        "filter_label": "Regexp filter"
     },
     "dashboard":{
-        "title": "Πίνακας ελέγχου",
+        "title": "Fail2ban dashboard",
+        "app": "Fail2ban",
         "list_active_jails": "List all active jails",
         "number_of_active_jail": "Active jails",
         "number_bans_per_jail": "Statistics of banned IP per jail",
         "empty_piechart_label": "Empty data",
         "number_of_enabled_jails": "Enabled jails",
         "number_total_of_bans":"Total number of banned IP",
-        "Fail2ban_is_probably_down": "Fail2ban is probably stopped, please check the logs"
+        "Fail2ban_is_probably_down": "Fail2ban is probably stopped, please check the logs",
+        "time_of_the_last_stats": "Last statistics update"
 
     },
     "validation":{

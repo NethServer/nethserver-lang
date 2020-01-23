@@ -52,6 +52,7 @@
   },
   "dashboard":{
     "title": "UPS dashboard",
+    "app": "UPS",
     "load": "Obciążenie",
     "battery_charge": "Ładowanie baterii",
     "model": "Model",

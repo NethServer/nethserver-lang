@@ -459,7 +459,7 @@
     "status_of": "Stav",
     "access": "Přístup",
     "ports": "Porty",
-    "show_network_services_only": "Zobrazovat pouze síťové služby",
+    "network_services_only": "Pouze síťové služby",
     "service_type": "Typ služby",
     "add_custom_service": "Přidat síťovou službu",
     "tcpPorts": "TCP porty",
@@ -1133,7 +1133,7 @@
     "access_empty": "Atribut přístupu je třeba vyplnit",
     "access_invalid": "Neplatný atribut přístupu",
     "port_list_empty": "Tento atribut je třeba vyplnit",
-    "port_list_invalid": "Je třeba, aby byl seznam platných portů",
+    "port_list_invalid": "Neplatný seznam portů",
     "tcp_ports_and_udp_ports_empty": "Je třeba zadat alespoň jeden TCP nebo UDP port"
   },
   "docs": {

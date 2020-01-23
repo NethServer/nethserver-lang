@@ -71,7 +71,8 @@
         "filter_label": "Regexp filter"
     },
     "dashboard":{
-        "title": "Приступна тачка",
+        "title": "Hotspot dashboard",
+        "app": "Приступна тачка",
         "error_retrieving_dashboard_data": "Error retrieving dashboard data",
         "mac_address": "МАЦ адреса",
         "ip_address": "ИП адреса",

@@ -26,7 +26,8 @@
         "error_getting_clamav_instances": "Erreur d'acquisition des instances ClamAV"
     },
     "dashboard":{
-        "title": "Antivirus",
+        "title": "Antivirus dashboard",
+        "app": "Antivirus",
         "email_protection": "Protection courriel",
         "web_protection": "Protection web",
         "error_getting_dashboard_data": "Erreur d'acquisition des données du tableau de bord",

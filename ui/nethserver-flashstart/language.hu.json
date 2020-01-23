@@ -30,9 +30,11 @@
     },
     "dashboard":{
         "title": "Vezérlőpult",
-        "error_getting_login_status": "Error retrieving login status",
+        "error_retrieving_dashboard_data": "Error retrieving dashboard data",
         "flashstart_enabled": "FlashStart enabled",
-        "authentication_status": "Authentication status"
+        "authentication_status": "Authentication status",
+        "cloud_portal": "Filter configuration",
+        "access": "Edit on cloud portal"
     },
     "actions": "Actions",
     "delete": "Törlés",

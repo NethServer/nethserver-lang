@@ -52,6 +52,7 @@
   },
   "dashboard":{
     "title": "UPS dashboard",
+    "app": "УПС",
     "load": "Оптерећење",
     "battery_charge": "Напуњеност батеријe",
     "model": "Модел",

@@ -45,7 +45,7 @@
     "bug_tracker": "Bug tracker"
   },
   "dashboard": {
-    "title": "Tableau de bord"
+    "title": "Report"
   },
   "validation": {
     "validation_failed": "Validation échoué",

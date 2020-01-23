@@ -52,6 +52,7 @@
   },
   "dashboard":{
     "title": "UPS dashboard",
+    "app": "UPS",
     "load": "负载",
     "battery_charge": "电量",
     "model": "型号",

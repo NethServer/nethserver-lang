@@ -52,6 +52,7 @@
   },
   "dashboard":{
     "title": "Tableau de bord de l'UPS",
+    "app": "UPS",
     "load": "Charge",
     "battery_charge": "Charge de la batterie",
     "model": "Modèle",

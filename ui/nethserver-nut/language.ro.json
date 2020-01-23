@@ -52,6 +52,7 @@
   },
   "dashboard":{
     "title": "Tablou de bord UPS",
+    "app": "UPS",
     "load": "Incărcare",
     "battery_charge": "Încărcare baterie",
     "model": "Model",

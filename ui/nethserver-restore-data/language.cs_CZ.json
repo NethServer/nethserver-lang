@@ -46,7 +46,8 @@
     "filter_label": "Filtr s regulárním výrazem"
   },
   "dashboard": {
-    "title": "Přehled",
+    "title": "Restore data dashboard",
+    "app": "Obnovit data",
     "last_run": "Poslední provedení",
     "configured_backups": "Nastavené zálohy",
     "no_backups_found": "Nenalezeny žádné zálohy",

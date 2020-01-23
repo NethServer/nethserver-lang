@@ -46,7 +46,8 @@
     "filter_label": "Filtre regexp"
   },
   "dashboard": {
-    "title": "Tableau de bord",
+    "title": "Restore data dashboard",
+    "app": "Restaurer les données",
     "last_run": "Dernière exécution",
     "configured_backups": "Sauvegardes configurées",
     "no_backups_found": "Aucune sauvegarde trouvée",

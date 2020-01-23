@@ -45,7 +45,7 @@
     "bug_tracker": "Баг-трекер"
   },
   "dashboard": {
-    "title": "Панель управления"
+    "title": "Report"
   },
   "validation": {
     "validation_failed": "Проверка не пройдена",
