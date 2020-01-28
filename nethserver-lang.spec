@@ -3,8 +3,8 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.4.3
-Release: 3%{?dist}
+Version: 1.4.4
+Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
 Summary: NethServer localization project
@@ -230,6 +230,9 @@ BuildArch: noarch
 Cockpit translstions for all languages.
 
 %changelog
+* Tue Jan 28 2020 Davide Principi <davide.principi@nethesis.it> - 1.4.4-1
+- Httpd: Vhost name is not displayed with French translation - Bug NethServer/dev#6041
+
 * Thu Jan 23 2020 nethbot <nethbot@nethesis.it> - 1.4.3-3
 - Automatic release 1.4.3-3
 
