@@ -120,6 +120,6 @@ $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Trafik şekillendi
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Trafik şekillendirme kuralları yalnız şu hedef türlerinin kullanılmasına izin veriyor: zone, host, ip range, cidr, red.';
 
 $L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'DPI iletişim kuralını hizmet olarak kullanan kurallarda kaynak ya da hedef olarak "Tümü" kullanılamaz.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'DPI iletişim kuralını hizmet olarak kullanan kurallarda kaynak olarak "Güvenlik duvarı" kullanılamaz.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'DPI iletişim kuralını hizmet olarak kullanan kurallarda kaynak ya da hedef olarak "Güvenlik duvarı" kullanılamaz.';
 $L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Yöneltme kuralları DPI iletişim kuralının hizmet olarak kullanılmasına izin vermiyor.';
 $L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'DPI iletişim kuralını hizmet olarak kullanan kurallarda "Reddet" işlemi desteklenmez. Onun yerine "Düşür" işlemini kullanın.';

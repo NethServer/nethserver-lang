@@ -71,7 +71,7 @@
         "filter_label": "Filtre regex"
     },
     "dashboard":{
-        "title": "Hotspot dashboard",
+        "title": "Tableau de bord du Hotspot",
         "app": "Hotspot",
         "error_retrieving_dashboard_data": "Erreur d'acquisition des données du tableau de bord",
         "mac_address": "Adresse MAC",

@@ -6,6 +6,7 @@
   "remove": "Supprimer",
   "modify": "Modifier",
   "edit": "Éditer",
+  "edit_roles": "Delegations",
   "advanced": "Avancé",
   "advanced_mode": "Options avancées",
   "change": "Modifier",
@@ -82,7 +83,7 @@
     "terminal": "Terminal",
     "nethserver-register": "Alertes personnalisées",
     "nethserver-antivirus": "Antivirus",
-    "nethserver-dante": "Report",
+    "nethserver-dante": "Rapport",
     "nethserver-dedalo": "Unité Hotspot",
     "nethserver-ejabberd": "Ejabberd",
     "nethserver-fail2ban": "Fail2Ban",
@@ -103,8 +104,9 @@
     "nethserver-suricata": "IPS (Détection d'intrusion)",
     "nethserver-vpn-ui": "VPN",
     "nethserver-webtop5": "WebTop",
-    "nethserver-cgp": "Collectd Charts",
-    "nethserver-sogo": "SOGo"
+    "nethserver-cgp": "Graphiques de collectd",
+    "nethserver-sogo": "SOGo",
+    "nethserver-hotsync": "HotSync"
   },
   "dashboard": {
     "title": "Tableau de bord",
@@ -167,7 +169,12 @@
     "shutdown_ok": "Le système est en train de s'arrêter...",
     "shutdown_error": "Une erreur d'arrêt s'est produite.",
     "hostname_change": "Après le changement de nom d'hôte, vous devez vous connecter à nouveau.",
-    "hostname_invalid_warn": "Le FQDN du serveur ne doit pas contenir 'localhost' ou 'localdomain'. Vous devez changer le nom d'hôte de votre machine avant de procéder à d'autres configurations"
+    "hostname_invalid_warn": "Le FQDN du serveur ne doit pas contenir 'localhost' ou 'localdomain'. Vous devez changer le nom d'hôte de votre machine avant de procéder à d'autres configurations",
+    "disk": "Disque",
+    "root_partition": "PARTITION ROOT",
+    "raid": "RAID",
+    "ok": "OK",
+    "error": "ERREUR"
   },
   "backup": {
     "title": "Sauvegarde",
@@ -200,7 +207,7 @@
     "data_list": "Liste des données",
     "last_backup_status": "État de la dernière sauvegarde",
     "backup_configured": "Sauvegardes configurées",
-    "choose_file": "Choose file (*.tar.xz)",
+    "choose_file": "Choisir un fichier (*.tar.xz)",
     "automatic_backups_keep": "Sauvegardes automatiques à conserver (nombre)",
     "enable": "Activer",
     "disable": "Désactiver",
@@ -270,7 +277,7 @@
     "refresh": "Rafraîchir",
     "execute_config_backup_ok": "Configuration de la sauvegarde exécutée avec succès!",
     "execute_config_backup_error": "Configuration de la sauvegarde non exécutée.",
-    "execute_data_backup_ok": "Data backup started successfully!",
+    "execute_data_backup_ok": "Sauvegarde des données démarrée avec succès",
     "execute_data_backup_error": "Sauvegarde des données non exécutée.",
     "delete_config_backup_ok": "Configuration de la sauvegarde supprimée avec succès!",
     "delete_config_backup_error": "Configuration de la sauvegarde non supprimée.",
@@ -302,15 +309,15 @@
     "storage_usage": "Utilisation du stockage de destination",
     "overwrite_all_data": "La restauration écrasera toutes les données",
     "nfs_rsync_info": "Assurez-vous que le serveur NFS supporte les liens durs, autrement la sauvegarde échouera",
-    "during_remap_warning": "During interface remapping, if one or more interfaces change its IP address, you have to login again in the new IP address",
+    "during_remap_warning": "Lors du remappage d'interface, si une ou plusieurs interfaces changent d'adresse IP, vous devez vous reconnecter à la nouvelle adresse IP.",
     "check_configuration": "Vérifiez la configuration",
-    "register_system": "Register system",
-    "register_before_restore": "You are trying to restore a backup with a subscription. Please register the machine before restoring this backup",
+    "register_system": "Enregistrer le système",
+    "register_before_restore": "Vous êtes en train d'essayer de restaurer une sauvegarde avec souscription. SVP, enregistrez la machine avant de restaurer cette sauvegarde.",
     "register_now": "Inscrivez-vous maintenant",
-    "invalid_backup_format": "Backup not found or invalid",
-    "remap_at_least_one_green": "You have to select at least one green to remap",
-    "assign_later": "Assign later",
-    "current_int": "System interfaces"
+    "invalid_backup_format": "Sauvegarde non trouvée ou non valide",
+    "remap_at_least_one_green": "Sélectionnez au moins une verte à remapper",
+    "assign_later": "Attribuer plus tard",
+    "current_int": "Interfaces du système"
   },
   "disk_usage": {
     "title": "Utilisation disque",
@@ -360,10 +367,10 @@
     "add_domain": "Ajouter un domaine",
     "renew_days": "Jours de renouvellement",
     "request": "Requête",
-    "cockpit_reload_warning_title": "Notice.",
-    "cockpit_reload_warning_message": "The new certificate is applied to the Cockpit Server Manager 90 seconds after the last user disconnects.",
-    "set_default_modal_title": "Set the default certificate",
-    "set_default_modal_message": "Do you want to set {0} as default certificate?",
+    "cockpit_reload_warning_title": "Notification",
+    "cockpit_reload_warning_message": "Le nouveau certificat est appliqué au gestionnaire de serveur Cockpit 90 secondes après la déconnexion du dernier utilisateur.",
+    "set_default_modal_title": "Sélection du certificat par défaut",
+    "set_default_modal_message": "Voulez-vous définir {0} comme certificat par défaut ?",
     "view_certificate": "Voir le certificat",
     "alternative_name": "Liste des FQDN séparés par une virgule",
     "cert_default_ok": "Certificat défini par défaut avec succès! ",
@@ -436,7 +443,7 @@
     "range_update_error": "Plage non mise à jour.",
     "scan_network": "Balayage du réseau",
     "Scanned_Network": "Balayage de l'interface réseau",
-    "lease_expiration": "Lease expiration"
+    "lease_expiration": "Expiration du bail"
   },
   "services": {
     "title": "Services",
@@ -459,18 +466,18 @@
     "status_of": "État de",
     "access": "Accès",
     "ports": "Ports",
-    "network_services_only": "Network services only",
-    "service_type": "Service type",
-    "add_custom_service": "Add network service",
-    "tcpPorts": "TCP ports",
-    "udpPorts": "UDP ports",
-    "service_added_successfully": "Service added successfully",
-    "service_added_error": "Service not added",
-    "service_removed_successfully": "Service removed successfully",
-    "service_removed_error": "Service not removed",
-    "service_edited_successfully": "Service edited successfully",
-    "service_edited_error": "Service not edited",
-    "remove_custom_service": "Remove network service",
+    "network_services_only": "Seulement les ervices réseau",
+    "service_type": "Type de service",
+    "add_custom_service": "Ajouter un service réseau",
+    "tcpPorts": "Ports TCP",
+    "udpPorts": "Ports UDP",
+    "service_added_successfully": "Service ajouté avec succès!",
+    "service_added_error": "Service non ajouté",
+    "service_removed_successfully": "Service supprimé avec succès!",
+    "service_removed_error": "Service non supprimé",
+    "service_edited_successfully": "Service mis à jour avec succès!",
+    "service_edited_error": "Service non mis à jour",
+    "remove_custom_service": "Supprimer un service réseau",
     "edit_service": "Éditer le service",
     "custom": "Personalisé"
   },
@@ -528,10 +535,10 @@
     "port": "Port",
     "hostname_or_ip": "Nom d'hôte ou IP",
     "join_existing_dc": "Joindre un contrôleur de domaine existant",
-    "create_new_domain_became_dc": "Create domain and become DC",
+    "create_new_domain_became_dc": "Créer un domaine et devenir contrôleur de domaine",
     "join_active_directory": "Joindre l'Active Directory",
     "domain_name": "Nom du domaine",
-    "became_dc": "Become DC",
+    "became_dc": "Devenir contrôleur de domaine",
     "netbios_domain_name": "Nom de domaine NetBIOS",
     "dc_ip_address": "Adresse IP du contrôleur de domaine",
     "configuration_invalid": "Configuration invalide",
@@ -594,15 +601,14 @@
     "hostname_save_error": "Nom d'hôte non modifié.",
     "enabled": "Activé",
     "disabled": "Desactivé",
-    "role_delegation": "Délégations de rôle",
     "system_roles": "Vues système",
     "applications_roles": "Applications",
     "role_updated_ok": "Mise à jour du rôle OK",
     "role_updated_error": "Erreurs de mise à jour du rôle",
     "role_deleted_ok": "Suppression du rôle OK",
     "role_deleted_error": "Erreurs de suppression du rôle",
-    "define_authorization": "Définissez les autorisations de ce groupe",
-    "define_authorization_description": "Sélectionnez les vues et les applications que les membres de ce groupe peuvent voir. Assurez-vous que l'option \"Shell\" est activée pour les utilisateurs délégués",
+    "define_authorization": "Define the authorizations for this group.",
+    "define_authorization_description": "Select the System views and Applications that members of this group can manage.",
     "binddn_empty": "BindDN est vide",
     "bindpassword_empty": "BindPassword est vide",
     "binddn_bindpass_empty": "BindDN and BindPassword sont vide",
@@ -629,7 +635,8 @@
     "NsdcIp": "IP Active Directory",
     "UserDN": "Utilisateur DN",
     "GroupDN": "Groupe DN",
-    "StartTls": "Start TLS"
+    "StartTls": "Start TLS",
+    "edit_delegation": "Edit delegations of {name}"
   },
   "network": {
     "title": "Réseau",
@@ -756,7 +763,11 @@
     "connections": "Connexions",
     "connection": "Connexion",
     "peers": "Pairs",
-    "peer": "Pair"
+    "peer": "Pair",
+    "AllowGroups": "Autoriser l'accès SSH/SFTP",
+    "SFTP_RESTRICTED": "Seulement SFTP",
+    "SSH_AND_SFTP": "SSH et SFTP",
+    "Group_placeholder": "Saisir un nom de groupe"
   },
   "tls_policy": {
     "title": "Politique TLS",
@@ -815,8 +826,8 @@
     "rotation_monthly": "Mensuel",
     "log_rotate": "Rotation des journaux",
     "test_mail": "Mail de test",
-    "mail_sent_ok": "Mail sent successfully!",
-    "mail_sent_error": "Mail not sent."
+    "mail_sent_ok": "Courriel envoyé avec succès!",
+    "mail_sent_error": "Courriel non envoyé"
   },
   "logs": {
     "title": "Journaux"
@@ -835,8 +846,8 @@
     "documentation": "Documentation",
     "wiki": "Wiki",
     "subscription": "Abonnement",
-    "phonehome": "Phone home is used to track all NethServer installations around the world.",
-    "map": "Map"
+    "phonehome": "Phone home est utilisé pour suivre toutes les installations de NethServer dans le monde.",
+    "map": "Carte"
   },
   "wizard": {
     "title": "Assistant"
@@ -911,6 +922,8 @@
     "install_error": "Applications non installée.",
     "install_ok_s": "Application installée avec succès! Allez dans la catégorie Applications afin de la configurer.",
     "install_error_s": "Application non installée.",
+    "update_ok": "Cache vidé avec succès!",
+    "update_error": "Cache non vidé",
     "config_ok": "Configuration enregistrée avec succès!",
     "config_error": "Configuration non enregistrée.",
     "upgrade_ok": "Système mis à niveau avec succès!",
@@ -926,9 +939,10 @@
     "upgrade_now": "Mettre à niveau maintenant",
     "no_more_details": "Pas plus de détails",
     "installed_packages": "Paquets installés",
-    "full_version": "Full version",
+    "full_version": "Version complète",
     "current_full_version": "Actuel",
-    "installed_low": "installed packages"
+    "installed_low": "Paquets installés",
+    "clear_yum_cache": "Recharger"
   },
   "terminal": {
     "title": "Terminal"
@@ -1000,15 +1014,15 @@
     "LimitAccess": "Gestionnaire du serveur",
     "backup": "Sauvegarde",
     "centos_upgrade": "Une nouvelle version de la distribution est disponible en tant que mise à jour. Pour éviter de l'installer, réglez l'origine des mises à jour logicielles sur \"Verrouillé\".",
-    "interface_must_be_static": "A green interface must have a static IP address. Using DHCP on green interfaces leads to unexpected behavior. Please, change the interface to static if possible.",
+    "interface_must_be_static": "Une interface verte doit avoir une adresse IP statique. L'utilisation de DHCP sur des interfaces vertes conduit à un comportement inattendu. S'il vous plaît, changez l'interface en statique si possible.",
     "hostname": "Nom d'hôte",
     "hostname_should_not_contain_localhost": "Le nom d'hôte ne devrait pas contenir \"localhost\"",
     "subscription": "Abonnement",
     "support_active": "Une session distante de support est active",
     "hostname_should_not_contain_localdomain": "Le nom d'hôte ne devrait pas contenir \"localdomain\"",
     "first_hostname_part_maximum_length_15": "La première partie du nom d'hôte doit comporter un maximum de 15 caractères.",
-    "unmapped_interface_from_restore": "This interface has not been activated after the restore. Assign the role to a new interface or remove it",
-    "network_recovery_mode": "The system is configured with a temporary IP address by the network-recovery tool: any change to this page will restore the network configuration as set below."
+    "unmapped_interface_from_restore": "Cette interface n'a pas été activée après la restauration. Attribuez le rôle à une nouvelle interface ou supprimez-le",
+    "network_recovery_mode": "Le système est configuré avec une adresse IP temporaire par l'outil de récupération de réseau: toute modification de cette page restaurera la configuration du réseau comme indiqué ci-dessous."
   },
   "validation": {
     "weak_password": "Mot de passe trop faible, il pourrait être dans un dictionnaire ou trop similaire au précédent",
@@ -1049,7 +1063,7 @@
     "valid_ipV4Address": "Adresse invalide",
     "valid_ipV4Netmask": "Masque de réseau IPv4 invalide: il devrait être quelque chose comme '255.255.255.0'",
     "all_domains_must_be_fqdn": "Tous les domaines doivent être un valide FQDN (Fully Qualified Domain Name)",
-    "letencrypt_domain_failed": "Challenge failed for this domain(s)",
+    "letencrypt_domain_failed": "Le challenge a échoué pour ce domaine(s)",
     "invalid_x509_ceritficate": "Certificat X.509 (encodage PEM)",
     "invalid_x509_key": "clé privée RSA ou EC (encodage PEM)",
     "cert_safetyguard": "Le certificat ECC sélectionné n'est pas compatible avec la politique TLS actuelle",
@@ -1070,14 +1084,14 @@
     "valid_positive": "Doit être un entier positif",
     "valid_lessThan_65536": " Un port TCP/UDP valide est un nombre compris entre 1 et 65536",
     "ip_address_or_cidr": "Doit être une IP valide telle que '10.0.0.1' ou en notation CIDR '10.0.0.1/24'",
-    "ip_address_network_or_broadcast": "IP address can't be the network or broadcast address",
-    "this_network_overlaps_with_another_one": "This network overlaps with an existing one",
+    "ip_address_network_or_broadcast": "L'adresse IP ne peut être celle du réseau ou du broadcast",
+    "this_network_overlaps_with_another_one": "Ce réseau chevauche un réseau existant",
     "valid_date_YYYY-mm-dd": "Le format de date doit être AAAA-mm--jj",
     "valid_time": "L'heure doit être au format HH:mm",
     "network_key_exists": "Ce réseau existe déjà",
     "already_used_network": "Réseau déjà utilisé",
     "invalid_network": "Adresse réseau invalide",
-    "user_exists": "A user with the same name already exists",
+    "user_exists": "Un utilisateur avec le même nom existe déjà",
     "group_exists": "Un groupe avec le même nom existe déjà",
     "non_existing_user": "L'utilisateur n'existe pas",
     "not_removable": "Cet objet ne peut pas être supprimé",
@@ -1127,14 +1141,14 @@
     "nslookup_validator_valid_ipV4Address": "Adresse IPv4 invalide, ce doit être quelque chose comme '10.0.0.1'",
     "nslookup_validator_valid_hostname_fqdn_1_9223372036854775807": "FQDN non valide, ce doit être quelque chose comme 'domaine.org'",
     "host_not_removable": "Cet hôte ne peut être supprimé car il est en cours d'utilisation",
-    "service_name_empty": "Service name is mandatory",
-    "service_name_invalid": "Invalid service name",
-    "service_already_exists": "A service with this name already exists",
-    "access_empty": "Access attribute is mandatory",
-    "access_invalid": "Invalid access attribute",
-    "port_list_empty": "This attribute is mandatory",
-    "port_list_invalid": "Invalid list of ports",
-    "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
+    "service_name_empty": "Le nom du service est obligatoire",
+    "service_name_invalid": "Nom de service non valide",
+    "service_already_exists": "Un service avec le même nom existe déjà",
+    "access_empty": "L'attribut d'accès est obligatoire",
+    "access_invalid": "Attribut d'accès non valide",
+    "port_list_empty": "Cet attribut est obligatoire",
+    "port_list_invalid": "Liste de ports invalide",
+    "tcp_ports_and_udp_ports_empty": "Au moins un port TCP ou UDP doit être indiqué"
   },
   "docs": {
     "more_info_about": "Plus d'info à propos",
@@ -1149,10 +1163,11 @@
     "smb_login": "Si le serveur cible est joint à un domaine, utilisez la syntaxe étendue telle que 'MyBindUser,domain=mydomain.com'.",
     "vol_size": "La taille des fragments de sauvegarde est réduite si la destination de sauvegarde est un serveur distant. La valeur par défaut est 200 Mo.",
     "dns_wildcard": "Si activé, correspond aussi à tous les sous-domaines.",
-    "limit_access": "Restrict access to port 9090 only to given IP addresses. For a more granular access control, use the firewall rules.",
+    "limit_access": "Restreindre l'accès au port 9090 seulement au adresses IP déclarées. Pour un contrôle plus fin, utilisez les règles de pare-feu.",
     "dhcp_comma_separated_field": "Insérer une adresse IP ou une liste d'adresses séparées par une virgule",
     "dhcp_servers": "Serveurs",
     "remote_shell": "Activez cette option pour accorder l'accès au terminal et au gestionnaire de serveur.",
-    "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'"
+    "list_of_ports": "Entrez un ou plusieurs numéros de port séparés par une virgule, ex.: '8081, 9292'",
+    "AllowGroupsToSSH_SFTP":"Sélectionnez un ou plusieurs groupes pour accorder l'accès à SSH et/ou SFTP. Les administrateurs ont toujours ces privilèges. "
   }
 }

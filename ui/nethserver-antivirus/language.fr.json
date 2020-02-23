@@ -26,7 +26,7 @@
         "error_getting_clamav_instances": "Erreur d'acquisition des instances ClamAV"
     },
     "dashboard":{
-        "title": "Antivirus dashboard",
+        "title": "Tableau de bord de l'antivirus",
         "app": "Antivirus",
         "email_protection": "Protection courriel",
         "web_protection": "Protection web",

@@ -6,6 +6,7 @@
   "remove": "Odstrani",
   "modify": "Modify",
   "edit": "Edit",
+  "edit_roles": "Delegations",
   "advanced": "Advanced",
   "advanced_mode": "Advanced options",
   "change": "Change",
@@ -104,7 +105,8 @@
     "nethserver-vpn-ui": "VPN",
     "nethserver-webtop5": "WebTop",
     "nethserver-cgp": "Collectd Charts",
-    "nethserver-sogo": "SOGo"
+    "nethserver-sogo": "SOGo",
+    "nethserver-hotsync": "HotSync"
   },
   "dashboard": {
     "title": "Nadzorna plošča",
@@ -167,7 +169,12 @@
     "shutdown_ok": "The system is shutting down...",
     "shutdown_error": "Shutting down error occured.",
     "hostname_change": "After hostname change you have to login again",
-    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding with other configurations"
+    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding with other configurations",
+    "disk": "Disk",
+    "root_partition": "ROOT PARTITION",
+    "raid": "RAID",
+    "ok": "OK",
+    "error": "NAPAKA"
   },
   "backup": {
     "title": "Varnostna kopija",
@@ -594,15 +601,14 @@
     "hostname_save_error": "Hostname not changed.",
     "enabled": "Omogočeno",
     "disabled": "Onemogočeno",
-    "role_delegation": "Role delegations",
     "system_roles": "System views",
     "applications_roles": "Aplikacije",
     "role_updated_ok": "Role update OK",
     "role_updated_error": "Role update errors",
     "role_deleted_ok": "Role deleted OK",
     "role_deleted_error": "Role deleted errors",
-    "define_authorization": "Define authorizations for this group",
-    "define_authorization_description": "Select views and applications that members of this group can view. Make sure delegated users have the \"Shell\" option enabled",
+    "define_authorization": "Define the authorizations for this group.",
+    "define_authorization_description": "Select the System views and Applications that members of this group can manage.",
     "binddn_empty": "BindDN is empty",
     "bindpassword_empty": "BindPassword is empty",
     "binddn_bindpass_empty": "BindDN and BindPassword are empty",
@@ -629,7 +635,8 @@
     "NsdcIp": "Active Directory IP",
     "UserDN": "User DN",
     "GroupDN": "Group DN",
-    "StartTls": "Start TLS"
+    "StartTls": "Start TLS",
+    "edit_delegation": "Edit delegations of {name}"
   },
   "network": {
     "title": "Omrežje",
@@ -756,7 +763,11 @@
     "connections": "Connections",
     "connection": "Connection",
     "peers": "Peers",
-    "peer": "Peer"
+    "peer": "Peer",
+    "AllowGroups": "Allow SSH/SFTP access",
+    "SFTP_RESTRICTED": "SFTP only",
+    "SSH_AND_SFTP": "SSH and SFTP",
+    "Group_placeholder": "Type a group name"
   },
   "tls_policy": {
     "title": "TLS Policy",
@@ -911,6 +922,8 @@
     "install_error": "Applications not installed.",
     "install_ok_s": "Application installed successfully! Go to Applications page to configure it.",
     "install_error_s": "Application not installed.",
+    "update_ok": "Cache cleaned successfully!",
+    "update_error": "Cache not cleaned.",
     "config_ok": "Configuration saved successfully!",
     "config_error": "Configuration not saved.",
     "upgrade_ok": "System upgraded successfully!",
@@ -928,7 +941,8 @@
     "installed_packages": "Installed packages",
     "full_version": "Full version",
     "current_full_version": "Trenutno",
-    "installed_low": "installed packages"
+    "installed_low": "installed packages",
+    "clear_yum_cache": "Reload"
   },
   "terminal": {
     "title": "Terminal"
@@ -1153,6 +1167,7 @@
     "dhcp_comma_separated_field": "Insert an IP address or a comma-separated list of IP addesses",
     "dhcp_servers": "Servers",
     "remote_shell": "Enable this option to grant access to the Terminal and the Server Manager.",
-    "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'"
+    "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'",
+    "AllowGroupsToSSH_SFTP":"Select one or more groups to grant SSH and/or SFTP access. Administrators are always granted SSH and SFTP access."
   }
 }

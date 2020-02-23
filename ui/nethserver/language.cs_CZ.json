@@ -6,6 +6,7 @@
   "remove": "Odebrat",
   "modify": "Změnit",
   "edit": "Upravit",
+  "edit_roles": "Delegations",
   "advanced": "Pokročilé",
   "advanced_mode": "Pokročilé předvolby",
   "change": "Změnit",
@@ -104,7 +105,8 @@
     "nethserver-vpn-ui": "VPN",
     "nethserver-webtop5": "WebTop",
     "nethserver-cgp": "Grafy z collectd",
-    "nethserver-sogo": "SOGo"
+    "nethserver-sogo": "SOGo",
+    "nethserver-hotsync": "HotSync"
   },
   "dashboard": {
     "title": "Přehled",
@@ -167,7 +169,12 @@
     "shutdown_ok": "Systém se vypíná…",
     "shutdown_error": "Při vypínání došlo k chybě.",
     "hostname_change": "Po změně názvu stroje je třeba se znovu přihlásit",
-    "hostname_invalid_warn": "FQDN název stroje nemůže obsahovat „localhost“ nebo „localdomain“. Než budete moci pokračovat v nastavování, je třeba název stroje změnit"
+    "hostname_invalid_warn": "FQDN název stroje nemůže obsahovat „localhost“ nebo „localdomain“. Než budete moci pokračovat v nastavování, je třeba název stroje změnit",
+    "disk": "Disk",
+    "root_partition": "ROOT PARTITION",
+    "raid": "RAID",
+    "ok": "OK",
+    "error": "CHYBA"
   },
   "backup": {
     "title": "Záloha",
@@ -594,15 +601,14 @@
     "hostname_save_error": "Název stroje nezměněn.",
     "enabled": "Zapnuto",
     "disabled": "Vypnuto",
-    "role_delegation": "Delegování rolí",
     "system_roles": "Systémové pohledy",
     "applications_roles": "Aplikace",
     "role_updated_ok": "Aktualizace role OK",
     "role_updated_error": "Chyby aktualizace role",
     "role_deleted_ok": "Role v pořádku smazána",
     "role_deleted_error": "Chyby při mazání role",
-    "define_authorization": "Definovat pověření pro tuto skupinu",
-    "define_authorization_description": "Vyberte pohledy a aplikace, které budou moci této skupiny vidět. Ověřte, že pověření uživatelé mají zapnutou volbu „Shell“",
+    "define_authorization": "Define the authorizations for this group.",
+    "define_authorization_description": "Select the System views and Applications that members of this group can manage.",
     "binddn_empty": "BindDN není vyplněné",
     "bindpassword_empty": "BindPassword není vyplněné",
     "binddn_bindpass_empty": "Není vyplněné BinDN a BindPassword",
@@ -629,7 +635,8 @@
     "NsdcIp": "IP adresa Active Directory",
     "UserDN": "Rozlišený název uživatele",
     "GroupDN": "Rozlišený název skupiny",
-    "StartTls": "Start TLS"
+    "StartTls": "Start TLS",
+    "edit_delegation": "Edit delegations of {name}"
   },
   "network": {
     "title": "Síť",
@@ -756,7 +763,11 @@
     "connections": "Spojení",
     "connection": "Spojení",
     "peers": "Protějšky",
-    "peer": "Protějšek"
+    "peer": "Protějšek",
+    "AllowGroups": "Allow SSH/SFTP access",
+    "SFTP_RESTRICTED": "SFTP only",
+    "SSH_AND_SFTP": "SSH and SFTP",
+    "Group_placeholder": "Type a group name"
   },
   "tls_policy": {
     "title": "TLS zásada",
@@ -911,6 +922,8 @@
     "install_error": "Aplikace nenainstalována",
     "install_ok_s": "Aplikace úspěšně nainstalována. Přejděte na stránku Aplikace a nastavte ji.",
     "install_error_s": "Aplikace nenainstalována.",
+    "update_ok": "Cache cleaned successfully!",
+    "update_error": "Cache not cleaned.",
     "config_ok": "Nastavení úspěšně uložena.",
     "config_error": "Nastavení neuloženo.",
     "upgrade_ok": "Systém úspěšně převeden na novější verzi.",
@@ -928,7 +941,8 @@
     "installed_packages": "Nainstalované balíčky",
     "full_version": "Plná verze",
     "current_full_version": "Stávájící",
-    "installed_low": "Nainstalované balíčky"
+    "installed_low": "Nainstalované balíčky",
+    "clear_yum_cache": "Reload"
   },
   "terminal": {
     "title": "Terminál"
@@ -1153,6 +1167,7 @@
     "dhcp_comma_separated_field": "Zadejte jednu nebo čárkou oddělovaný seznam IP adres",
     "dhcp_servers": "Servery",
     "remote_shell": "Zapnutím této volby udělíte přístup do Terminálu a do Správy serveru",
-    "list_of_ports": "Zadejte jedno nebo více čísel portů, oddělovaných čárkou, např.: „8081, 9292“"
+    "list_of_ports": "Zadejte jedno nebo více čísel portů, oddělovaných čárkou, např.: „8081, 9292“",
+    "AllowGroupsToSSH_SFTP":"Select one or more groups to grant SSH and/or SFTP access. Administrators are always granted SSH and SFTP access."
   }
 }

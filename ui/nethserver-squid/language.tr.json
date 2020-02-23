@@ -93,7 +93,7 @@
     "total_users": "Toplam kullanıcı sayısı",
     "total_traffic": "Toplam trafik miktarı",
     "today_proxy_traffic": "Bugünkü vekil sunucu trafiği",
-    "no_data_found": "Henüz bir veri yok",
+    "no_data_found": "Herhangi bir veri bulunamadı",
     "lightsquid": "LightSquid",
     "open": "Aç",
     "updated": "Güncellendi"

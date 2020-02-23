@@ -531,7 +531,7 @@
         "valid_notEmpty": "Non può essere vuoto",
         "valid_cidrBlock": "Deve essere una rete CIDR valida",
         "valid_time": "L'ora deve essere nel formato HH:mm",
-        "port_number_or_port_range": "Deve essere un numero di porta valido o un range di porte (con il trattino)",
+        "port_number_or_port_range": "Indicare un numero di porta valido o un range di porte (usare \":\" come separatore)",
         "protocol_doesnt_support_ports": "Questo protocollo non supporta le porte",
         "valid_lessThan_65536": "Deve essere minore di 65536",
         "access_empty": "Access attribute is mandatory",

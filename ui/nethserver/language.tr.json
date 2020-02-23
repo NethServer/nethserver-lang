@@ -6,6 +6,7 @@
   "remove": "Sil",
   "modify": "Değiştir",
   "edit": "Düzenle",
+  "edit_roles": "Atamalar",
   "advanced": "Gelişmiş",
   "advanced_mode": "Gelişmiş ayarlar",
   "change": "Değiştir",
@@ -104,7 +105,8 @@
     "nethserver-vpn-ui": "VPN",
     "nethserver-webtop5": "WebTop",
     "nethserver-cgp": "Collectd Çizelgeleri",
-    "nethserver-sogo": "SOGo"
+    "nethserver-sogo": "SOGo",
+    "nethserver-hotsync": "HotSync"
   },
   "dashboard": {
     "title": "Pano",
@@ -167,7 +169,12 @@
     "shutdown_ok": "Sistem kapatılıyor...",
     "shutdown_error": "Sistem kapatılırken sorun çıktı.",
     "hostname_change": "Sunucu adı değiştirildikten sonra yeniden oturum açmalısınız",
-    "hostname_invalid_warn": "Sunucunun tam etki alanı adında 'localhost' ya da 'localdomain' sözcükleri bulunamaz. Diğer yapılandırma işlemlerine geçmeden önce bilgisayarın sunucu adını değiştirmelisiniz"
+    "hostname_invalid_warn": "Sunucunun tam etki alanı adında 'localhost' ya da 'localdomain' sözcükleri bulunamaz. Diğer yapılandırma işlemlerine geçmeden önce bilgisayarın sunucu adını değiştirmelisiniz",
+    "disk": "Disk",
+    "root_partition": "KÖK BÖLÜM",
+    "raid": "RAID",
+    "ok": "Tamam",
+    "error": "HATA"
   },
   "backup": {
     "title": "Yedekleme",
@@ -594,15 +601,14 @@
     "hostname_save_error": "Sunucu adı değiştirilemedi.",
     "enabled": "Etkin",
     "disabled": "Devre dışı",
-    "role_delegation": "Rol atamaları",
     "system_roles": "Sistem görünümleri",
     "applications_roles": "Uygulamalar",
     "role_updated_ok": "Rol güncellendi",
     "role_updated_error": "Rol güncelleme hataları",
     "role_deleted_ok": "Rol silindi",
     "role_deleted_error": "Rol silme hataları",
-    "define_authorization": "Bu grubun yetkilerini belirleyin",
-    "define_authorization_description": "Bu grup üyelerinin kullanabileceği görünüm ve uygulamaları seçin. Atanmış kullanıcıların \"Kabuk\" seçeneğinin etkinleştirildiğinden emin olun",
+    "define_authorization": "Bu grubun yetkilerini belirleyin.",
+    "define_authorization_description": "Bu grup üyelerinin kullanabileceği sistem görünüm ve uygulamalarını seçin.",
     "binddn_empty": "BindDN boş",
     "bindpassword_empty": "BindPassword boş",
     "binddn_bindpass_empty": "BindDN ve BindPassword boş",
@@ -629,7 +635,8 @@
     "NsdcIp": "Aktif Dizin IP Adresi",
     "UserDN": "Kullanıcı Ayrılmış Adı (User DN)",
     "GroupDN": "Grup Ayrılmış Adı (Group DN)",
-    "StartTls": "Start TLS"
+    "StartTls": "Start TLS",
+    "edit_delegation": "{name} atamalarını düzenle"
   },
   "network": {
     "title": "Ağ",
@@ -756,7 +763,11 @@
     "connections": "Bağlantı",
     "connection": "Bağlantı",
     "peers": "Eş",
-    "peer": "Eş"
+    "peer": "Eş",
+    "AllowGroups": "SSH/SFTP erişimi kullanılsın",
+    "SFTP_RESTRICTED": "Yalnız SFTP",
+    "SSH_AND_SFTP": "SSH ve SFTP",
+    "Group_placeholder": "Bir grup adı yazın"
   },
   "tls_policy": {
     "title": "AKG (TLS) İlkesi",
@@ -911,6 +922,8 @@
     "install_error": "Uygulamalar kurulamadı.",
     "install_ok_s": "Uygulama kuruldu! Yapılandırmak için Uygulamalar bölümüne gidin.",
     "install_error_s": "Uygulama kurulamadı.",
+    "update_ok": "Ön bellek temizlendi!",
+    "update_error": "Ön bellek temizlenmedi.",
     "config_ok": "Yapılandırma kaydedildi!",
     "config_error": "Yapılandırma kaydedilemedi.",
     "upgrade_ok": "Sistem yükseltildi!",
@@ -928,7 +941,8 @@
     "installed_packages": "Kurulmuş paketler",
     "full_version": "Tam sürüm",
     "current_full_version": "Geçerli",
-    "installed_low": "Kurulmuş paketler"
+    "installed_low": "Kurulmuş paketler",
+    "clear_yum_cache": "Yeniden yükle"
   },
   "terminal": {
     "title": "Uç birim"
@@ -1153,6 +1167,7 @@
     "dhcp_comma_separated_field": "Bir IP adresi ya da virgül ile ayrılmış IP adresleri listesini yazın",
     "dhcp_servers": "Sunucular",
     "remote_shell": "Uç birim ve Sunucu Yönetimi erişimi vermek için bu seçeneği etkinleştirin.",
-    "list_of_ports": "Bir ya da virgül ile ayrılmış birkaç kapı numarası yazın. Örnek: '8081, 9292'"
+    "list_of_ports": "Bir ya da virgül ile ayrılmış birkaç kapı numarası yazın. Örnek: '8081, 9292'",
+    "AllowGroupsToSSH_SFTP":"SSH ya da SFTP erişim izni verilecek bir ya da birkaç grup seçin. Yöneticiler her zaman SSH ve SFTP erişimini kullanabilir."
   }
 }

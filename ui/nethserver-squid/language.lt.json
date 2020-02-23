@@ -259,7 +259,7 @@
     "time_start": "Time start",
     "time_stop": "Time stop",
     "add_time": "Add time",
-    "time_condition_set": "Time condition",
+    "time_condition_set": "Laiko sąlyga",
     "time_conditions_set": "Time conditions",
     "final": "Final",
     "condition_not_match": "Otherwise apply the filter from this profile",

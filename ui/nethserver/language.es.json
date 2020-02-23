@@ -6,6 +6,7 @@
   "remove": "Eliminar",
   "modify": "Modificar",
   "edit": "Editar",
+  "edit_roles": "Delegations",
   "advanced": "Avanzado",
   "advanced_mode": "Opciones avanzadas",
   "change": "Cambiar",
@@ -104,7 +105,8 @@
     "nethserver-vpn-ui": "Servidor Red Privada Virtual - VPN",
     "nethserver-webtop5": "WebTop",
     "nethserver-cgp": "Collectd Charts",
-    "nethserver-sogo": "SOGo"
+    "nethserver-sogo": "SOGo",
+    "nethserver-hotsync": "HotSync"
   },
   "dashboard": {
     "title": "Panel de Control",
@@ -167,7 +169,12 @@
     "shutdown_ok": "El sistema se está apagando...",
     "shutdown_error": "Ha ocurrido un error durante el apagado del sistema",
     "hostname_change": "After hostname change you have to login again",
-    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding with other configurations"
+    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding with other configurations",
+    "disk": "Disco",
+    "root_partition": "ROOT PARTITION",
+    "raid": "RAID",
+    "ok": "OK",
+    "error": "ERROR"
   },
   "backup": {
     "title": "Copia de seguridad",
@@ -594,15 +601,14 @@
     "hostname_save_error": "Nombre de host no cambiado",
     "enabled": "Habilitado",
     "disabled": "Deshabilitado",
-    "role_delegation": "Delegación de roles",
     "system_roles": "Vista del sistema",
     "applications_roles": "Aplicaciones",
     "role_updated_ok": "Role update OK",
     "role_updated_error": "Role update errors",
     "role_deleted_ok": "Role deleted OK",
     "role_deleted_error": "Role deleted errors",
-    "define_authorization": "Determinar autorizaciones para este grupo",
-    "define_authorization_description": "Select views and applications that members of this group can view. Make sure delegated users have the \"Shell\" option enabled",
+    "define_authorization": "Define the authorizations for this group.",
+    "define_authorization_description": "Select the System views and Applications that members of this group can manage.",
     "binddn_empty": "BindDN is empty",
     "bindpassword_empty": "BindPassword is empty",
     "binddn_bindpass_empty": "BindDN and BindPassword are empty",
@@ -629,7 +635,8 @@
     "NsdcIp": "Active Directory IP",
     "UserDN": "Usuario DN",
     "GroupDN": "Grupo DN",
-    "StartTls": "Start TLS"
+    "StartTls": "Start TLS",
+    "edit_delegation": "Edit delegations of {name}"
   },
   "network": {
     "title": "Red",
@@ -756,7 +763,11 @@
     "connections": "Conexiones",
     "connection": "Conexión",
     "peers": "Pares",
-    "peer": "Par"
+    "peer": "Par",
+    "AllowGroups": "Allow SSH/SFTP access",
+    "SFTP_RESTRICTED": "SFTP only",
+    "SSH_AND_SFTP": "SSH and SFTP",
+    "Group_placeholder": "Type a group name"
   },
   "tls_policy": {
     "title": "Política TLS",
@@ -911,6 +922,8 @@
     "install_error": "Aplicaciones no instaladas",
     "install_ok_s": "Aplicación instalada correctamente. Ve a la página Aplicaciones para configurarla",
     "install_error_s": "Aplicación no instalada",
+    "update_ok": "Cache cleaned successfully!",
+    "update_error": "Cache not cleaned.",
     "config_ok": "Configuración guardada correctamente",
     "config_error": "Configuración no guardada",
     "upgrade_ok": "Sistema actualizado correctamente",
@@ -928,7 +941,8 @@
     "installed_packages": "Paquetes instalados",
     "full_version": "Full version",
     "current_full_version": "Actual",
-    "installed_low": "installed packages"
+    "installed_low": "installed packages",
+    "clear_yum_cache": "Reload"
   },
   "terminal": {
     "title": "Terminal"
@@ -1153,6 +1167,7 @@
     "dhcp_comma_separated_field": "Escribe una dirección IP o varias direcciones IP separadas por comas",
     "dhcp_servers": "Servidores",
     "remote_shell": "Enable this option to grant access to the Terminal and the Server Manager.",
-    "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'"
+    "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'",
+    "AllowGroupsToSSH_SFTP":"Select one or more groups to grant SSH and/or SFTP access. Administrators are always granted SSH and SFTP access."
   }
 }

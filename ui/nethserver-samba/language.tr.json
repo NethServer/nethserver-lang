@@ -16,7 +16,7 @@
   "delete": "Sil",
   "save": "Kaydet",
   "info": "Bilgiler",
-  "no_data_found": "Henüz bir veri yok",
+  "no_data_found": "Herhangi bir veri bulunamadı",
   "rows_per_page": "Bir sayfadaki satır sayısı",
   "package_required": "Eksik paketler",
   "package_required_desc": "Bu sayfaya erişmek için aşağıda listelenen zorunlu paketlerin kurulması gerekir",

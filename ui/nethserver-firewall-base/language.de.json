@@ -410,11 +410,11 @@
         "network_services": "Netzwerkdienste",
         "edit_service": "Dienst bearbeiten",
         "name": "Name",
-        "tcpPorts": "TCP ports",
-        "udpPorts": "UDP ports",
+        "tcpPorts": "TCP-Ports",
+        "udpPorts": "UDP-Ports",
         "access": "Zugriff",
-        "service_edited_successfully": "Service edited successfully",
-        "service_edited_error": "Service not edited"
+        "service_edited_successfully": "Dienst erfolgreich bearbeitet",
+        "service_edited_error": "Dienst nicht bearbeitet"
     },
     "protocols": {
         "ah": "AH",
@@ -526,19 +526,19 @@
         "not_exists_host-group": "Die Hostgruppe existiert nicht",
         "host_group_cannot_be_delete": "Diese Hostgruppe kann nicht gelöscht werden, da sie verwendet wird",
         "valid_lessThan_256": "Muss kleiner als 256 sein",
-        "valid_ipV4Address": "Invalid address",
+        "valid_ipV4Address": "Ungültige Adresse",
         "valid_username": "Das erste Zeichen muss ein Buchstabe sein, danach nur Kleinbuchstaben, Zahlen und Symbole wie '-' und '_'",
         "valid_notEmpty": "Darf nicht leer sein",
         "valid_cidrBlock": "Muss ein gültiges CIDR-Netzwerk sein",
         "valid_time": "Das Zeitformat muss HH:mm sein",
-        "port_number_or_port_range": "Must be a valid port number or port range (using dash)",
+        "port_number_or_port_range": "Must be a valid port number or port range (using colon)",
         "protocol_doesnt_support_ports": "This protocol does not support ports",
         "valid_lessThan_65536": "Muss weniger als 65536 sein.",
-        "access_empty": "Access attribute is mandatory",
-        "access_invalid": "Invalid access attribute",
-        "port_list_empty": "This attribute is mandatory",
-        "port_list_invalid": "Invalid list of ports",
-        "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
+        "access_empty": "Zugriffsattribut ist obligatorisch",
+        "access_invalid": "Ungültiges Zugriffsattribut",
+        "port_list_empty": "Dieses Attribut ist obligatorisch",
+        "port_list_invalid": "Ungültige Liste an Ports",
+        "tcp_ports_and_udp_ports_empty": "Mindestens ein TCP- oder UDP-Port muss definiert werden"
     },
     "docs": {
         "pf_origin_port": "Bitte einen einzelnen Port, eine Liste mit durch Kommas getrennten Ports oder einen Portbereich einfügen, der \":\" als Trennzeichen verwendet, wie \"100: 200\".",
@@ -547,7 +547,7 @@
         "objects_ports": "Supported syntax: comma-separated port list or port range (i.e. 10000-20000)",
         "mac_validation": "Requests from IP addresses listed in DHCP reservations are allowed only if are originated from the associated MAC address (even if DHCP is disabled).",
         "mac_validation_policy": "Requests from IP addresses not listed in DHCP reservations are blocked. Ensure admin hosts are listed in DHCP reservations.",
-        "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'",
+        "list_of_ports": "Tragen Sie eine oder mehrere durch Kommata getrennte Portnummern ein, z.B.: '8081, 9292'.",
         "network_services_system_services": "Network services can be added in System -> Services page"
     }
 }

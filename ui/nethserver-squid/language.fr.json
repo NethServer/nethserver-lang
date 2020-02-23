@@ -193,7 +193,7 @@
     "rule_deleted_ok": "Règle supprimée avec succès!",
     "rule_deleted_error": "Règle non supprimée.",
     "class": "Priorité",
-    "provider": "Divert to",
+    "provider": "Détourner vers",
     "force": "Obliger à",
     "no_rules_find": "Pas de règles trouvées",
     "no_rules_find_desc": "Cliquez sur le bouton ci-dessous afin d'en créer un nouveau"
@@ -303,8 +303,8 @@
     "name": "Nom",
     "description": "Description",
     "domains": "Domaines (un par ligne)",
-    "change_list_warning": "Changing the source of the blacklists, the current configurations on these profiles will be lost",
-    "remove_category_warning": "Removing this category, these filters will be lost",
+    "change_list_warning": "En modifiant la source des listes noires, les configurations actuelles sur ces profils sont perdues",
+    "remove_category_warning": "En supprimant cette catégorie, ces filtres sont perdus",
     "list_categories": "Liste des catégories"
   },
   "settings": {
@@ -325,7 +325,7 @@
     "categories": "Catégories",
     "profiles": "Profiles",
     "parent_proxy": "Mandataire en amont, le port est facultatif (par défaut 3128)",
-    "safe_ports": "Safe ports are a list of ports accessible using the proxy. Insert a comma-separated list of ports",
+    "safe_ports": "Les ports sûrs sont une liste de ports accessibles en passant par le mandataire. Insérez une liste de ports séparés par des virgules",
     "redirect_port": "Remplacer le port d'écoute Squid par défaut",
     "destination": "Insérez des objets de pare-feu (sources) ou des domaines FQDN valides. Plusieurs domaines FQDN peuvent être entrés séparés par des virgules",
     "blocked_file_types": "Insérer une liste d'extensions séparées par des virgules",
@@ -347,6 +347,6 @@
     "profile_not_found": "Profil non trouvé",
     "valid_fqdn_domain": "Doit être un FQDN valide",
     "valid_lessThan_65536": "Doit être inférieur à 65536",
-    "valid_parent_proxy": "Must be a valid hostname, port (if defined) must be integer less than 65536"
+    "valid_parent_proxy": "Doit être un nom d'hôte valide, le port (si défini) doit être un entier inférieur à 65536"
   }
 }

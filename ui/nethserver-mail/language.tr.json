@@ -492,7 +492,7 @@
         "account_cant_be_empty": "Hedef boş olamaz",
         "mailbox_not_found": "E-posta kutusu bulunamadı",
         "unsupported_type": "Hedef türü desteklenmiyor",
-        "builtin_not_found": "İçsel takma ad bulunamadı",
+        "builtin_not_found": "İç takma ad bulunamadı",
         "smarthost_for_sender_already_exists": "Bu gönderen için zaten yapılandırılmış bir smarthost var",
         "smarthost_not_found": "Smarthost bulunamadı",
         "must_start_with_at": "Bir etki alanı '@nethserver.org' gibi '@' simgesi ile başlamalıdır",

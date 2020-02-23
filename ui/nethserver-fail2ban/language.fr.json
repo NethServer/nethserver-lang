@@ -14,8 +14,8 @@
         "Fail2ban_is_probably_down": "Fail2ban est probablement arrêté, svp vérifiez les journaux",
         "ip_unlocked_error": "L'adresse IP n'a pas été dé-bannie",
         "ip_unlocked_ok": "L'adresse IP a été dé-bannie",
-        "No_banned_IP": "You have no banned IP",
-        "no_IP_desc": "Here are listed the blocked IP in the firewall"
+        "No_banned_IP": "Vous n'avez pas d'adresses IP bannies",
+        "no_IP_desc": "Liste des adresses IP bloquées par le pare-feu"
     },
     "settings": {
         "title": "Réglages",
@@ -91,7 +91,7 @@
         "filter_label": "Filtre regexp"
     },
     "dashboard":{
-        "title": "Fail2ban dashboard",
+        "title": "Tableau de bord Fail2ban",
         "app": "Fail2ban",
         "list_active_jails": "Liste de toutes les prisons actives",
         "number_of_active_jail": "Prisons actives",
@@ -100,7 +100,7 @@
         "number_of_enabled_jails": "Prisons activées",
         "number_total_of_bans":"Nombre total d'adresses IP bannies",
         "Fail2ban_is_probably_down": "Fail2ban est probablement arrêté, svp vérifiez les journaux",
-        "time_of_the_last_stats": "Last statistics update"
+        "time_of_the_last_stats": "Dernière mise à jour des statistiques"
 
     },
     "validation":{

@@ -81,7 +81,7 @@
     "rightsubnets": "Sous-réseaux distants (un par ligne)",
     "leftid": "Identifiant local",
     "rightid": "Identifiant distant",
-    "psk": "Pre-shared Key",
+    "psk": "Clé Pré-Partagée",
     "dpdaction": "Activer DPD (Dead Peer Detection)",
     "pfs": "Activer PFS (Perfect Forward Secrecy)",
     "compress": "Activer compression",
@@ -119,7 +119,7 @@
     "tunnel_deleted_error": "Tunnel non supprimé",
     "name": "Nom",
     "connection": "Connexion",
-    "public_addresses": "Public addresses",
+    "public_addresses": "Adresses publiques",
     "port": "Port",
     "routes": "Routes",
     "local_networks": "Réseaux locaux",
@@ -130,7 +130,7 @@
     "vpn_network": "Réseau VPN",
     "local_p2p_ip": "IP locale de P2P",
     "remote_p2p_ip": "IP distante de P2P",
-    "psk": "Pre-shared Key",
+    "psk": "Clé Pré-Partagée",
     "protocol": "Protocole",
     "udp": "UDP",
     "tcp": "TCP",
@@ -142,7 +142,7 @@
     "download_configuration": "Télécharger les configurations de tunnel de",
     "client_configuration": "Configuration du client",
     "private_key_tun_ca": "Clé privée, certificats du tunnel et de CA",
-    "psk_download": "PSK (Pre-shared Key)",
+    "psk_download": "PSK (Pre-Shared Key)",
     "tun_servers": "Serveurs de tunnel",
     "tun_clients": "Clients de tunnel",
     "remote_port": "Port distant",
@@ -305,8 +305,8 @@
   },
   "docs": {
     "more_info_about": "Plus d'info à propos {docsLink}.",
-    "right": "Specify the static public IP address or %any if the remote has a dynamic public IP.",
-    "vpn_remote_network": "Configure these parameters only if you want to create a Net to Net VPN using this account (compatible with NethServer 6). Do not compile these fields if you're configuring a host to net VPN.",
+    "right": "Spécifiez l'adresse IP publique statique ou %any si le distant a une IP publique dynamique",
+    "vpn_remote_network": "Configurez ces paramètres uniquement si vous souhaitez créer un réseau privé virtuel Net to Net à l'aide de ce compte (compatible avec NethServer 6). Ne compilez pas ces champs si vous configurez un hôte pour un net VPN",
     "vpn_remote_netmask": "Ne compilez ce champ que si vous avez déjà rempli le champ Réseau distant"
   }
 }

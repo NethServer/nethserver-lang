@@ -39,7 +39,7 @@
     "audit": "Vérifier",
     "guestAccess_info": "L'accès au dossier partagé est autorisé même si des informations d'identification non valides sont fournies.",
     "everyone_info": "Un invité ou un utilisateur autorisé qui ne correspond à aucune liste de contrôle d'accès.",
-    "audit_log": "Enable this option to save read actions inside the database. If the option is not checked, read actions will be logged inside /var/log/smbaudit.log but will not be saved inside the database."
+    "audit_log": "Activez cette option pour enregistrer les actions de lecture dans la base de données. Si l'option n'est pas cochée, les actions de lecture seront enregistrées dans /var/log/smbaudit.log mais ne seront pas enregistrées dans la base de données."
   },
   "dashboard": {
     "title": "Tableau de bord du serveur de fichiers",
@@ -49,10 +49,10 @@
     "files": "Fichiers",
     "size": "Taille",
     "smb_status": "État de Samba",
-    "encryption": "Chiffrage",
+    "encryption": "Chiffrement",
     "service": "Partage",
     "protocol": "Protocole",
-    "machine": "Client IP",
+    "machine": "IP du client",
     "path": "Chemin",
     "workgroup": "Nom de domaine Workgroup/NetBIOS",
     "ibays_configured": "Nombre de dossiers partagés",
@@ -72,23 +72,23 @@
     "item_delete_button": "Supprimer",
     "create_sharedfolder_button": "Créer un dossier partagé",
     "menu_title": "Dossiers partagés",
-    "edit_title": "Modifier le dossier partagé {nom}",
-    "migrate_title": "Déplacer {nom} vers l'hôte virtuel",
+    "edit_title": "Modifier le dossier partagé {name}",
+    "migrate_title": "Déplacer {name} vers l'hôte virtuel",
     "migrate_warning_title": "Attention!",
     "migrate_warning_message": "Ce dossier partagé sera supprimé et toutes les données seront déplacées à l'intérieur de l'hôte virtuel.",
-    "migrate_confirm_message": "Déplacer le dossier partagé vers l'hôte virtuel  {nom} ?",
-    "reset_permissions_title": "Réinitialisation les permissions sur le dossier  {nom}",
+    "migrate_confirm_message": "Déplacer le dossier partagé vers l'hôte virtuel  {vhost} ?",
+    "reset_permissions_title": "Réinitialisation les permissions sur le dossier  {name}",
     "reset_permissions_warning_title": "Attention!",
-    "reset_permissions_warning_message": "Depending on the shared folder content size, it might require some time to run.",
-    "reset_permissions_confirm_message": "Remettre les autorisations par défaut sur les fichiers et les sous-dossiers du dossier partagé {nom} ?",
+    "reset_permissions_warning_message": "Dépend de la taille du contenu du dossier partagé, son exécution peut prendre un certain temps.",
+    "reset_permissions_confirm_message": "Remettre les autorisations par défaut sur les fichiers et les sous-dossiers du dossier partagé {name} ?",
     "list_view_size_label": "Taille",
     "list_view_audit_label": "Vérifier",
     "list_view_files_label": "Fichiers",
     "name_label": "Nom",
     "description_label": "Description",
-    "delete_title": "Supprimer le dossier partagé {nom}",
+    "delete_title": "Supprimer le dossier partagé {name}",
     "delete_warning_title": "Attention!",
-    "delete_warning_message": "Tous les fichiers de {nom} seront supprimés. Cette action ne peut être annulée! ",
+    "delete_warning_message": "Tous les fichiers de {name} seront supprimés. Cette action ne peut être annulée! ",
     "delete_confirm_message": "Êtes-vous sûr ?",
     "create_title": "Créer un nouveau dossier partagé",
     "OwningGroup_label": "Groupe propriétaire",
@@ -117,10 +117,10 @@
     "item_delete_ok": "Dossier partagé supprimé correctement",
     "item_reset-permissions_ok": "Autorisations sur le dossier partagé réinitialisées correctement",
     "item_migrate_ok": "Dossier partagé déplacé correctement",
-    "no_acls_support_title": "Access to shared folders is possible only as guest.",
+    "no_acls_support_title": "L'accès aux dossiers partagés n'est possible seulement en tant qu'invité",
     "no_acls_support_message": "Configurez un fournisseur de compte Active Directory afin d'activer l'authentification Samba et des options spéciales d'accès.",
-    "update_at": "File sizes updated at",
-    "not_available": "Not available"
+    "update_at": "Taille des fichiers mis à jour à",
+    "not_available": "Non disponible"
   },
   "audit": {
     "menu_title": "Vérifier",
@@ -129,7 +129,7 @@
     "user": "Utilisateur",
     "address": "Adresse",
     "share": "Partage",
-    "message": "File or Directory",
+    "message": "Fichier ou répertoire",
     "from": "De",
     "to": "À",
     "filter": "Chercher",
@@ -140,16 +140,16 @@
     "create_directory": "Créer un dossier",
     "delete_directory": "Supprimer un dossier",
     "delete_all_audits": "Supprimer toutes les vérifications",
-    "update": "Refresh audit database",
+    "update": "Actualiser la base de données d'audit",
     "delete": "Supprimer",
     "updated_ok": "Vérification mise à jour avec succès!",
     "updated_error": "Vérification non mise à jour.",
     "deleted_ok": "Vérification supprimée avec succès!",
     "deleted_error": "Vérification non supprimée.",
-    "details": "Show details",
-    "show_audit_details": "Show audit details",
+    "details": "Afficher les détails",
+    "show_audit_details": "Afficher les détails de la vérification",
     "update_at": "Mise à jour à",
-    "advanced_search": "Advanced search"
+    "advanced_search": "Recherche avancée"
   },
   "logs": {
     "menu_title": "Journaux",
@@ -170,7 +170,7 @@
     "settings_ok": "Réglages mis à jour avec succès !",
     "settings_error": "Réglages non actualisés.",
     "settings_updated_ok": "Réglages correctement sauvegardés",
-    "audit_log": "Enable auditing of read actions"
+    "audit_log": "Activer la vérification sur les actions de lecture"
   },
   "about": {
     "website": "Site web",
@@ -181,10 +181,10 @@
   "validation": {
     "ibay-create,ibay-length,3": "Renseignez le nom du dossier partagé",
     "ibay-create,ibay-length,1": "Trop long! Doit être d'une longueur inférieure à 30 caractères",
-    "valid_hostname_simple_0_0": "Doit être un nom simple tel que 'WORKGROUP'",
+    "valid_hostname_simple_0_0": "Doit être un nom d'hôte simple tel que 'WORKGROUP'",
     "group_not_found": "Choisissez le groupe propriétaire",
     "valid_maxLength_15": "La longueur maximale est de 15 caractères",
-    "malformed_acls": "La valeur d'ACL {value}  ne peut pas être appliquée"
+    "malformed_acls": "La valeur d'ACL {value} ne peut pas être appliquée"
   },
   "advanced_mode": "Options avancées"
 }

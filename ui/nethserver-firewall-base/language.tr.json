@@ -531,7 +531,7 @@
         "valid_notEmpty": "Boş olmamalıdır",
         "valid_cidrBlock": "Geçerli bir CIDR ağı olmalıdır",
         "valid_time": "Saat SS:dd biçiminde olmalıdır",
-        "port_number_or_port_range": "Geçerli bir kapı numarası ya da kapı numarası aralığı (tire kullanarak) olmalıdır",
+        "port_number_or_port_range": "Geçerli bir kapı numarası ya da kapı numarası aralığı (iki nokta üst üste ile) olmalıdır",
         "protocol_doesnt_support_ports": "Bu iletişim kuralında kapı numarası kullanılamaz",
         "valid_lessThan_65536": "65536 değerinden küçük olmalıdır",
         "access_empty": "Erişim özniteliği zorunludur",

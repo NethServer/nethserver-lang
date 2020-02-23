@@ -3,7 +3,7 @@
 # 
 # Translators:
 # Bart K <bartonline@xs4all.nl>, 2017
-# Rob Bosch <robbosch66@gmail.com>, 2015
+# Rob Bosch <transifex@interlin.nl>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
