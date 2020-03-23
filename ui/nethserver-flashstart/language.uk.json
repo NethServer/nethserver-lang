@@ -24,28 +24,28 @@
         "dns_configuration": "FlashStart doesn't require any DNS configuration neither in Nethsecurity nor in clients"
     },
     "about": {
-        "title": "About",
-        "website": "Web site",
-        "bug_tracker": "Bug tracker"
+        "title": "Про програму",
+        "website": "Web-сайт",
+        "bug_tracker": "Баг-трекер"
     },
     "dashboard":{
-        "title": "Dashboard",
+        "title": "Робочий стіл",
         "error_retrieving_dashboard_data": "Error retrieving dashboard data",
         "flashstart_enabled": "FlashStart enabled",
         "authentication_status": "Authentication status",
         "cloud_portal": "Filter configuration",
         "access": "Edit on cloud portal"
     },
-    "actions": "Actions",
-    "delete": "Delete",
-    "next": "Next",
-    "prev": "Previous",
-    "of": "of",
-    "rows_per_page": "Rows per page",
-    "search": "Search",
-    "all": "All",
-    "save": "Save",
-    "cancel": "Cancel",
-    "warning": "Warning",
-    "create": "Create"
+    "actions": "Дії",
+    "delete": "Видалити",
+    "next": "Далі",
+    "prev": "Попередній",
+    "of": "з",
+    "rows_per_page": "Строк на сторінку",
+    "search": "Пошук",
+    "all": "Все",
+    "save": "Зберегти",
+    "cancel": "Скасувати",
+    "warning": "Попередження",
+    "create": "Створити"
 }

@@ -12,7 +12,7 @@
         "unit_name": "Unit name",
         "unit_description": "Unit description",
         "network_device": "Network device",
-        "register": "Register",
+        "register": "Реєстрація",
         "hotspot_assigned": "hotspot assigned",
         "authentication_error": "Authentication error",
         "error_retrieving_authentication_token": "Error retrieving authentication token",
@@ -28,8 +28,8 @@
         "registration_successful": "Registration successful",
         "registration_failed": "Registration failed",
         "error_retrieving_hostname": "Error retrieving hostname",
-        "network_address": "Network address",
-        "unregister": "Unregister",
+        "network_address": "Адреса мережі",
+        "unregister": "Скасування реєстрації",
         "configuration_update_successful": "Configuration update successful",
         "configuration_update_failed": "Configuration update failed",
         "unregister_successful": "Unregister successful",
@@ -41,8 +41,8 @@
         "proxy_validation": "Proxy must be 'enabled' or 'disabled'",
         "log_traffic_validation": "Log traffic must be 'enabled' or 'disabled'",
         "error_retrieving_proxy_status": "Error retrieving proxy status",
-        "hotspot": "Hotspot",
-        "proxy": "Proxy",
+        "hotspot": "Хот-спот",
+        "proxy": "Проксі",
         "no_network_device_found": "No network devices found. There must be at least a network device with role empty or 'hotspot'",
         "warning_hotspot_device_ip_address": "Warning: selecting this device will reboot the network",
         "error_retrieving_range_dhcp": "Error retrieving DHCP range addresses",
@@ -55,27 +55,27 @@
         "default_dhcp_range": "Default DHCP range",
         "authenticate_to_edit_configuration": "Please authenticate to edit hotspot configuration",
         "hotspot_configuration": "Hotspot configuration",
-        "login": "Login"
+        "login": "Вхід"
     },
     "about": {
-        "title": "About",
-        "website": "Web site",
-        "bug_tracker": "Bug tracker"
+        "title": "Про програму",
+        "website": "Web-сайт",
+        "bug_tracker": "Баг-трекер"
     },
     "logs": {
-        "title": "Logs",
-        "follow": "Follow",
-        "stop_follow": "Stop",
-        "start_follow_button": "Follow",
-        "stop_follow_button": "Stop following",
-        "filter_label": "Regexp filter"
+        "title": "Балки",
+        "follow": "Відстежувати",
+        "stop_follow": "Стоп",
+        "start_follow_button": "Відстежувати",
+        "stop_follow_button": "Зупинити відстежування",
+        "filter_label": "Regexp-фильтр"
     },
     "dashboard":{
         "title": "Hotspot dashboard",
-        "app": "Hotspot",
+        "app": "Хот-спот",
         "error_retrieving_dashboard_data": "Error retrieving dashboard data",
-        "mac_address": "MAC address",
-        "ip_address": "IP address",
+        "mac_address": "MAC-адресу",
+        "ip_address": "IP-адреса",
         "connected": "Connected",
         "session_key": "Session key",
         "session_time": "Session time",
@@ -85,7 +85,7 @@
         "user_info": "User info",
         "error_retrieving_user_info": "Error retrieving user info",
         "please_authenticate_to_retrieve_user_info": "Please authenticate in Settings page to retrieve user info",
-        "user_info_name": "Name",
+        "user_info_name": "Ім'я",
         "user_info_email": "E-mail",
         "user_info_account_type": "Account type",
         "no_user_connected": "No user connected"
@@ -95,13 +95,13 @@
         "dhcp_range_start": "First address available for hotspot users",
         "dhcp_range_end": "Last address available for hotspot users"
     },
-    "are_you_sure": "Are you sure",
-    "save": "Save",
-    "cancel": "Cancel",
-    "next": "Next",
-    "prev": "Previous",
-    "of": "of",
+    "are_you_sure": "Ви упевнені",
+    "save": "Зберегти",
+    "cancel": "Скасувати",
+    "next": "Далі",
+    "prev": "Попередній",
+    "of": "з",
     "rows_per_page": "Row per page",
-    "search": "Search",
-    "all": "All"
+    "search": "Пошук",
+    "all": "Все"
 }

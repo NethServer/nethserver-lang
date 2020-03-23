@@ -55,7 +55,7 @@
     "Sun": "Sonntag",
     "dashboard": {
         "app": "Firewall",
-        "title": "Firewall dashboard",
+        "title": "Firewall-Dashboard",
         "green": "LAN (grün)",
         "red": "WAN (rot)",
         "blue": "Gäste (blau)",
@@ -122,7 +122,7 @@
         "ndpi": "nDPI",
         "details_for": "Details für",
         "name": "Name",
-        "counter": "Counter"
+        "counter": "Zähler"
     },
     "wan": {
         "title": "WAN",
@@ -158,8 +158,8 @@
         "in_out_bound_zero": "Upload- oder Download-Bandbreite ist nicht eingestellt",
         "fireqos_temporary_disabled": "Traffic Shaping ist während des Geschwindigkeitstests vorübergehend deaktiviert.",
         "speedtest_error": "Speedtest fehlgeschlagen: Bitte die Internetverbindung überprüfen.",
-        "click_to_open": "Click to expand details",
-        "current_ip": "Current public IP"
+        "click_to_open": "Klicken, um Details zu erweitern",
+        "current_ip": "Aktuelle öffentliche IP"
     },
     "traffic_shaping": {
         "title": "Traffic Shaping",
@@ -195,8 +195,8 @@
         "configuration": "Konfiguration",
         "classes": "Klassen",
         "all_wans": "Alle WANs",
-        "charts_not_updated": "Charts cannot be updated. Set WAN bandwidth limits",
-        "set": "Set limits"
+        "charts_not_updated": "Diagramme können nicht aktualisiert werden. WAN-Bandbreitenbeschränkungen festlegen",
+        "set": "Grenzen setzen"
     },
     "snat": {
         "title": "SNAT",
@@ -406,7 +406,7 @@
         "wan_add_rules_info": "Ordnung ist wichtig: Die Auswertung der Regeln wird nach einem Treffer fortgesetzt. Route wird durch letzten Treffer vergeben.",
         "type_to_search": "Bitte eingeben, um Objekte, Rollen ... zu suchen.",
         "two_providers_needed": "Richtlinienrouten können nur erstellt werden, wenn zwei oder mehr rote Schnittstellen konfiguriert wurden.",
-        "show_network_services": "Show network services",
+        "show_network_services": "Netzwerkdienste anzeigen",
         "network_services": "Netzwerkdienste",
         "edit_service": "Dienst bearbeiten",
         "name": "Name",
@@ -461,7 +461,7 @@
         "external_ping": "Ping vom Internet",
         "mac": "MAC Adressen Überprüfung (IP/MAC Bindung)",
         "allowed": "Erlaubt",
-        "block_mac": "Block hosts not listed in DHCP reservations",
+        "block_mac": "Block-Hosts, die nicht in DHCP-Reservierungen aufgeführt sind",
         "settings_updated_ok": "Einstellungen erfolgreich aktualisiert!",
         "settings_updated_error": "Einstellungen nicht aktualisiert.",
         "portforward": "Port-Weiterleitung",
@@ -531,8 +531,8 @@
         "valid_notEmpty": "Darf nicht leer sein",
         "valid_cidrBlock": "Muss ein gültiges CIDR-Netzwerk sein",
         "valid_time": "Das Zeitformat muss HH:mm sein",
-        "port_number_or_port_range": "Must be a valid port number or port range (using colon)",
-        "protocol_doesnt_support_ports": "This protocol does not support ports",
+        "port_number_or_port_range": "Muss eine gültige Portnummer oder ein gültiger Portbereich sein (mit Doppelpunkt)",
+        "protocol_doesnt_support_ports": "Dieses Protokoll unterstützt keine Ports",
         "valid_lessThan_65536": "Muss weniger als 65536 sein.",
         "access_empty": "Zugriffsattribut ist obligatorisch",
         "access_invalid": "Ungültiges Zugriffsattribut",
@@ -544,10 +544,10 @@
         "pf_origin_port": "Bitte einen einzelnen Port, eine Liste mit durch Kommas getrennten Ports oder einen Portbereich einfügen, der \":\" als Trennzeichen verwendet, wie \"100: 200\".",
         "rules_source": "Bitte eine IP-Adresse oder ein CIDR eingeben, wenn kein Host- oder CIDR-Objekt erstellt werden soll.",
         "rules_destination": "Bitte eine IP-Adresse oder ein CIDR eingeben, wenn kein Host- oder CIDR-Objekt erstellt werden soll.",
-        "objects_ports": "Supported syntax: comma-separated port list or port range (i.e. 10000-20000)",
-        "mac_validation": "Requests from IP addresses listed in DHCP reservations are allowed only if are originated from the associated MAC address (even if DHCP is disabled).",
-        "mac_validation_policy": "Requests from IP addresses not listed in DHCP reservations are blocked. Ensure admin hosts are listed in DHCP reservations.",
+        "objects_ports": "Unterstützte Syntax: durch Kommas getrennte Portliste oder Portbereich (d. h. 10000-20000)",
+        "mac_validation": "Anforderungen von IP-Adressen, die in DHCP-Reservierungen aufgeführt sind, sind nur zulässig, wenn sie von der zugeordneten MAC-Adresse stammen (auch wenn DHCP deaktiviert ist).",
+        "mac_validation_policy": "Anforderungen von IP-Adressen, die nicht in DHCP-Reservierungen aufgeführt sind, werden blockiert. Stellen Sie sicher, dass Administrator-Hosts in DHCP-Reservierungen aufgeführt sind.",
         "list_of_ports": "Tragen Sie eine oder mehrere durch Kommata getrennte Portnummern ein, z.B.: '8081, 9292'.",
-        "network_services_system_services": "Network services can be added in System -> Services page"
+        "network_services_system_services": "Netzwerkdienste können auf der Seite System > Dienste hinzugefügt werden."
     }
 }

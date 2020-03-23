@@ -14,13 +14,13 @@ $L['AlertsAutoUpdates_enabled_label'] = 'Activeer automatische downloads van ala
 $L['AlertsAutoUpdates_disabled_label'] = 'Deactiveer automatische downloads van aangepaste alarmen';
 $L['df_label'] = 'Schijf vrije ruimte';
 $L['load_label'] = 'Systeemlading';
-$L['ping_droprate_label'] = 'Ping drop rate';
-$L['ping_label'] = 'Ping latency';
+$L['ping_droprate_label'] = 'Ping afval snelheid';
+$L['ping_label'] = 'Ping vertraging';
 $L['swap_label'] = 'Vrije swap';
 $L['Partition_label'] = 'Partitie';
 $L['Host_label'] = 'Host';
-$L['Intro_label'] = 'Every server has a predefined list of default alarms. Only some alarms can be customized. <br/> This page lists only customized alarms from <a href="${0}">${0}</a>.';
-$L['Download_label'] = 'As default, changes made on <a href="${0}">${0}</a> are deployed every night. <br/> Use "Download alert configuration" button to force configuration download.';
+$L['Intro_label'] = 'Elke server heeft een vooraf gedefinieerde lijst met standaardalarmen. Slechts enkele alarmen kunnen worden aangepast. <br/> Deze pagina geeft alleen aangepaste alarmen weer van <a href="${0}">${0}</a>.';
+$L['Download_label'] = 'Standaard worden wijzigingen aangebracht op <a href="${0}">${0}</a> elke nacht geïmplementeerd. <br/> Gebruik de knop "Download Alarm configuratie" om het downloaden van de configuratie te forceren.';
 $L['max_fail_label'] = 'Kritisch Boven';
 $L['min_fail_label'] = 'Kritisch Onder';
 $L['max_warn_label'] = 'Waarschuwing Boven';

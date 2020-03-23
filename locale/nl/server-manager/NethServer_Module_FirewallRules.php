@@ -3,7 +3,7 @@
 /* NethServer_Module_FirewallRules translation, language: en */
 
 $L['FirewallRules_Description'] = 'Beheer firewall regels';
-$L['FirewallRules_Tags'] = 'Firewall regel beleid traffic shaping';
+$L['FirewallRules_Tags'] = 'Firewall regel beleid verkeer vormgeving';
 $L['FirewallRules_Title'] = 'Firewall regels';
 
 $L['general_header'] = 'Algemeen';
@@ -103,23 +103,23 @@ $L['ActionLog_label'] = 'Log';
 
 $L['ShowAction_label'] = 'Laat zien';
 $L['ShowRules_label'] = 'Firewall (${0})';
-$L['ShowRoutes_label'] = 'Policy routing (${0})';
-$L['ShowServices_label'] = 'Network services (${0})';
-$L['ShowTrafficShaping_label'] = 'Traffic shaping (${0})';
+$L['ShowRoutes_label'] = 'Policy routering (${0})';
+$L['ShowServices_label'] = 'Netwerk services (${0})';
+$L['ShowTrafficShaping_label'] = 'Verkeer vormgeving (${0})';
 
 $L['ActionPriorityHigh_label'] = 'Hoge prioriteit';
 $L['ActionPriorityLow_label'] = 'Lage prioriteit';
-$L['ActionPriority_label'] = 'Priority ${0}';
+$L['ActionPriority_label'] = 'Prioriteit ${0}';
 $L['ActionPrioLo_label'] = 'Lo-Prio';
 $L['ActionPrioHi_label'] = 'Hi-Prio';
 
 $L['valid_platform,fwrule-modify,fwrule-route2provider,3'] = 'Route regels staan niet toe om een rode zone als bron the gebruiken';
 $L['valid_platform,fwrule-modify,fwrule-route2provider,4'] = 'Route regels staan alleen de volgende bestemming types toe: zone, host, ip range, cidr, rood.';
 $L['valid_platform,fwrule-modify,fwrule-localservice,3'] = 'Een "locale service" selecteren vereist de "firewall" als bestemming.';
-$L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Traffic shaping regels laten niet toe om de rode zone als bron te selecteren';
-$L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Traffic shaping regels staan alleen de volgende bestemming types toe: zone, host, IP range, CIDR, rood.';
+$L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Verkeer vormgeving regels laten niet toe om de rode zone als bron te selecteren';
+$L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Verkeer vormgeving regels staan alleen de volgende bestemming types toe: zone, host, IP range, CIDR, rood.';
 
-$L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Rules using DPI protocol as a service do not allow "Any" as source nor destination.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Rules using DPI protocol as a service do not allow "Firewall" as source nor destination.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Route rules do not allow to set a DPI protocol as service.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'Action "Reject" is not supported for rules using a DPI protocol as service: use "Drop" action instead.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Regels die het DPI-protocol als service gebruiken, staan "Any" niet toe als bron of bestemming.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Regels die het DPI-protocol als service gebruiken, staan "Firewall" niet toe als bron of bestemming.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Routeregels staan niet toe om een DPI-protocol als service in te stellen.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'Actie "Afwijzen" wordt niet ondersteund voor regels die een DPI-protocol als service gebruiken: gebruik in plaats daarvan de actie "Negeren".';

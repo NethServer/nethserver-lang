@@ -225,8 +225,8 @@
         "ip_range": "IP Range",
         "any": "Qualquer",
         "iprange": "IP Range",
-        "cidr_sub": "CIDR Subnet",
-        "cidr": "CIDR Subnet",
+        "cidr_sub": "Sub-rede CIDR",
+        "cidr": "Sub-rede CIDR",
         "time_condition": "Condição de tempo",
         "roles": "Roles",
         "role": "Função",
@@ -538,7 +538,7 @@
         "access_invalid": "Invalid access attribute",
         "port_list_empty": "This attribute is mandatory",
         "port_list_invalid": "Invalid list of ports",
-        "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
+        "tcp_ports_and_udp_ports_empty": "Pelo menos uma porta TCP ou UDP deve ser especificada"
     },
     "docs": {
         "pf_origin_port": "Insert a single port, a list of comma-separated ports, or a port range using \":\" as separator like \"100:200\".",

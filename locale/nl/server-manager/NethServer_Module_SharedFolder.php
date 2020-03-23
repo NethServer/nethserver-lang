@@ -41,5 +41,5 @@ $L['migrate-vhost_Header'] = 'Migreer gedeelde map `${0}`';
 $L['migrate-vhost_Message'] = 'Deze gedeelde map wordt verwijdert en alle bestanden worden verplaatst naar de virtuele host. Zal ik de gedeelde mappen naar de virtuele host `${0}` migreren?';
 $L['Migrate_label'] = 'Migreer';
 $L['__ANY__'] = 'default';
-$L['valid_platform,ibay-create,ibay-name,3'] = 'The following characters are not allowed \ / : * ? " < > | ] [';
-$L['valid_platform,ibay-create,ibay-length,3'] = 'Provide a value';
+$L['valid_platform,ibay-create,ibay-name,3'] = 'De volgende tekens zijn niet toegestaan \ / : * ? " < > | ] [';
+$L['valid_platform,ibay-create,ibay-length,3'] = 'Geef een waarde op';

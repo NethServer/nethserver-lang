@@ -15,10 +15,10 @@
     "no_results_text": "Bitte eine Sicherungskopie auswählen und mindestens 4 Zeichen eingeben, dann Suche drücken",
     "warning": "Warnung",
     "too_many_results": "Suche ergab {0} Treffer. Bitte das Muster ändern, um die Ergebnisse zu reduzieren. (Max. Ergebnisse: 500)",
-    "restore_files": "Restore {0} items",
-    "overwrite_files": "Overwrite {0} items",
-    "files_restored_ok": "Items restored successfully!",
-    "files_restored_error": "Items not restored.",
+    "restore_files": "Stellen Sie {0} Elemente wieder her",
+    "overwrite_files": "{0} Elemente überschreiben",
+    "files_restored_ok": "Artikel erfolgreich wiederhergestellt!",
+    "files_restored_error": "Artikel nicht wiederhergestellt.",
     "override_restore": "Überschreiben",
     "choose_mode": "Modus wählen",
     "files_directories": "Dateien oder Ordner",
@@ -27,8 +27,8 @@
     "nothing_selected": "Nichts zum Rücksichern ausgewählt",
     "selected": "Ausgewählt",
     "overwritten": "überschrieben",
-    "restored_list": "List of restored items",
-    "error_restored_list": "There was an error restoring the items.",
+    "restored_list": "Liste der restaurierten Gegenstände",
+    "error_restored_list": "Beim Wiederherstellen der Elemente ist ein Fehler aufgetreten.",
     "are_you_sure": "Sind Sie sicher",
     "cancel": "Abbrechen",
     "backup_disabled": "Backup ist deaktiviert. Aktivieren SIe es bovor die Daten wiederherstellen.",
@@ -46,7 +46,7 @@
     "filter_label": "Regexp-Filter"
   },
   "dashboard": {
-    "title": "Restore data dashboard",
+    "title": "Daten-Dashboard wiederherstellen",
     "app": "Daten wiederherstellen",
     "last_run": "Letzte Ausführung",
     "configured_backups": "Konfigurierte Backups",
@@ -55,7 +55,7 @@
   },
   "docs": {
     "more_info_about": "Mehr Infos über",
-    "override_restore": "<li>If <b>checked</b> the restored items will overwrite the current item.</li><li>If <b>not checked</b> the restored items will be created in the same path with date included in the name and <code>.restore</code> prepended (es. .restore-20190729-153318-myitem).</li>",
+    "override_restore": "<li>Wenn <b>aktiviert ist</b>, überschreiben die wiederhergestellten Elemente das aktuelle Element.</li><li>Wenn <b>nicht aktiviert</b>, werden die wiederhergestellten Elemente im selben Pfad erstellt, wobei das Datum im Namen und <code>.restore</code> vorangestellt sind (es .Restore-20190729-153318-myitem).</li>",
     "choose_mode": "<li><b>Dateien oder Ordner</b>: Nur Dateien und Ordner</li><li> durchsuchen<b>Mail-Ordner</b>: Nur E-Mail-Ordner durchsuchen</li><li><b>Erweitert</b>: Alles durchsuchen (unterstützt Platzhalter)</li>"
   }
 }

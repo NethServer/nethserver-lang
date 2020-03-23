@@ -1,37 +1,37 @@
 <?php
 
-$L['Hotspot_Title'] = 'Hotspot unit';
-$L['Hotspot_Description'] = 'Bind to a parent hotspot and configure this unit';
+$L['Hotspot_Title'] = 'Hotspot apparaat';
+$L['Hotspot_Description'] = 'Bind aan een bovenliggende hotspot en configureer dit apparaat';
 $L['Hotspot_Tags'] = 'hotspot web';
 
-$L['Configuration_header'] = 'Hotspot unit ${0}';
-$L['LogTraffic_label'] = 'Log traffic';
-$L['Device_label'] = 'Network device';
+$L['Configuration_header'] = 'Hotspot apparaat ${0}';
+$L['LogTraffic_label'] = 'Log verkeer';
+$L['Device_label'] = 'Netwerkapparaat';
 $L['Network_label'] = 'Netwerk adres';
-$L['hotspot_assigned_label'] = 'hotspot assigned';
+$L['hotspot_assigned_label'] = 'hotspot toegewezen';
 $L['HotspotProxy_label'] = 'Web proxy';
-$L['Proxy_label'] = 'Enable transparent proxy on hotspot';
-$L['Id_label'] = 'Parent hotspot';
-$L['UnitName_label'] = 'Unit name';
+$L['Proxy_label'] = 'Schakel transparante proxy in op hotspot';
+$L['Id_label'] = 'Bovenliggende hotspot';
+$L['UnitName_label'] = 'Apparaat naam';
 $L['Description_label'] = 'Beschrijving';
 $L['Save_label'] = 'Opslaan';
 
-$L['Auth_header'] = 'Hotspot unit registration';
+$L['Auth_header'] = 'Hotspot apparaat registratie';
 $L['Username_label'] = 'Gebruikersnaam';
 $L['Password_label'] = 'Wachtwoord';
 $L['IcaroHost_label'] = 'Host naam';
-$L['Authenticate_label'] = 'Authenticate';
-$L['authentication_validator_label'] = 'Remote authentication failed';
-$L['icaro_auth_failed'] = 'Bad user name or password';
-$L['hotspotRegistrationSuccess_notification'] = 'This unit has been registered successfully';
+$L['Authenticate_label'] = 'Verifieer';
+$L['authentication_validator_label'] = 'Verificatie op afstand mislukt';
+$L['icaro_auth_failed'] = 'Incorrecte gebruikersnaam of wachtwoord';
+$L['hotspotRegistrationSuccess_notification'] = 'Dit apparaat is succesvol geregistreerd';
 
-$L['Register_header'] = 'Register this unit on ${0}';
-$L['Register_label'] = 'Register';
+$L['Register_header'] = 'Registreer dit apparaat op ${0}';
+$L['Register_label'] = 'Registreer';
 
-$L['Unregister_label'] = 'Unregister';
-$L['Unregister_header'] = 'Unregister unit';
-$L['Unregister_message'] = 'Would you like to unregister this unit?';
+$L['Unregister_label'] = 'Deregistreer';
+$L['Unregister_header'] = 'Deregistreer apparaat';
+$L['Unregister_message'] = 'Wilt u dit apparaat deregistreren?';
 
-$L['info_label'] = 'The Hotspot unit controls Internet access for guest and can be connected to any instance of';
-$L['ready_label'] = 'You\'re ready to be connected to ';
+$L['info_label'] = 'Het Hotspot apparaat beheert internettoegang voor gasten en kan worden verbonden met elk exemplaar van';
+$L['ready_label'] = 'U bent klaar om verbinding mee te maken ';
 $L['icaro_instance'] = 'Open';

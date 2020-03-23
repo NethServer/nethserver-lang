@@ -1,8 +1,8 @@
 {
   "settings": {
     "title": "Налаштування",
-    "settings_updated_ok": "Settings updated successfully!",
-    "settings_updated_error": "Settings not updated.",
+    "settings_updated_ok": "Налаштування оновлені!",
+    "settings_updated_error": "Параметри не були оновлені.",
     "public_host": "Public host",
     "full_url": "Final url",
     "host_configuration": "Host configuration",
@@ -10,16 +10,16 @@
     "theme": "Theme",
     "palette": "Palette",
     "interval": "Interval",
-    "language": "Language",
+    "language": "Мова",
     "addresses": "Addresses",
     "dark": "Dark",
     "light": "Light",
-    "week": "Week",
-    "month": "Month",
+    "week": "Тиждень",
+    "month": "Місяць",
     "halfyear": "Six-Months",
-    "save": "Save",
-    "open": "Open",
-    "every_day": "Every day",
+    "save": "Зберегти",
+    "open": "Відкрити",
+    "every_day": "Щодня",
     "monday": "Понеділок",
     "tuesday": "Вівторок",
     "wednesday": "Середа",
@@ -29,9 +29,9 @@
     "sunday": "Неділя",
     "anonymization": "Anonymization",
     "max_entries": "Max Entries",
-    "test_mail": "Test mail",
+    "test_mail": "Тестове лист",
     "send_mail": "Send mail",
-    "send": "Send",
+    "send": "Надіслати",
     "test_address": "Адреса пошти",
     "include_configured_addresses": "Include configured addresses",
     "invalid_dns": "The 'Public host' field is using a private DNS name: the report will not be accessibile from Internet.",
@@ -40,15 +40,15 @@
     "mining_now": "Collect now"
   },
   "about": {
-    "title": "About",
-    "website": "Web site",
-    "bug_tracker": "Bug tracker"
+    "title": "Про програму",
+    "website": "Web-сайт",
+    "bug_tracker": "Баг-трекер"
   },
   "dashboard": {
-    "title": "Report"
+    "title": "Звіт"
   },
   "validation": {
-    "validation_failed": "Validation failed",
+    "validation_failed": "Перевірка не пройдена",
     "public_host_must_resolve": "Use a public DNS name which must be accessibile from the server itself and clients from Internet",
     "invalid_mail_address": "Set a valid mail address like 'info@mydomain.org'",
     "invalid_language": "Language not found",

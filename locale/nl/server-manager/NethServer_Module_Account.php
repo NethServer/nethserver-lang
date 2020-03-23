@@ -14,4 +14,4 @@ $L['AccountProvider_Error_4'] = 'Account provider waarschuwing: limiet overschre
 $L['AccountProvider_Error_104'] = 'Verbinding met account provider verbroken: verifieer dat de server SSL/TLS-verbinding ondersteunt';
 $L['AccountProvider_Error_110'] = 'Time-out bij verbinden met account provider';
 $L['AccountProvider_Error_111'] = 'Account provider weigert verbinding';
-$L['AccountProvider_Error_82'] = 'LDAP client internal error (AccountProvider_Error_82)';
+$L['AccountProvider_Error_82'] = 'LDAP client interne error (AccountProvider_Error_82)';

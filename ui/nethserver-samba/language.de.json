@@ -39,7 +39,7 @@
     "audit": "Prüfung",
     "guestAccess_info": "Der Zugriff auf den freigegebenen Ordner wird auch dann gewährt, wenn ungültige Anmeldeinformationen angegeben wurden.",
     "everyone_info": "Ein Gast oder ein autorisierter Benutzer, der keiner ACL entspricht.",
-    "audit_log": "Enable this option to save read actions inside the database. If the option is not checked, read actions will be logged inside /var/log/smbaudit.log but will not be saved inside the database."
+    "audit_log": "Aktivieren Sie diese Option, um Leseaktionen in der Datenbank zu speichern. Wenn die Option nicht aktiviert ist, werden Leseaktionen in /var/log/smbaudit.log protokolliert, jedoch nicht in der Datenbank gespeichert."
   },
   "dashboard": {
     "title": "Dateiserver-Übersicht",
@@ -52,14 +52,14 @@
     "encryption": "Verschlüsselung",
     "service": "Freigeben",
     "protocol": "Protokoll",
-    "machine": "Client IP",
+    "machine": "Client-IP",
     "path": "Pfad",
     "workgroup": "Arbeitsgruppe/NetBIOS-Domänenname",
     "ibays_configured": "Freigegebene Ordner zählen",
     "files_count_for_ibays": "Dateianzahl",
     "files_du_for_ibays": "Datenträgernutzung",
     "empty_piechart_label": "Keine Statisktiken vorhanden",
-    "last_updated": "Updated at {time}"
+    "last_updated": "Aktualisiert um {time}"
   },
   "sharedfolders": {
     "title": "Freigabe-Ordner",
@@ -79,7 +79,7 @@
     "migrate_confirm_message": "Freigegebenen Ordner auf virtuellen Host {vhost} migrieren?",
     "reset_permissions_title": "Berechtigungen für Ordner {name} zurücksetzen",
     "reset_permissions_warning_title": "Warnung!",
-    "reset_permissions_warning_message": "Depending on the shared folder content size, it might require some time to run.",
+    "reset_permissions_warning_message": "Abhängig von der Größe des Inhalts des freigegebenen Ordners kann die Ausführung einige Zeit dauern.",
     "reset_permissions_confirm_message": "Berechtigungen für Dateien und Unterordner des freigegebenen Ordners {name} auf den Standardwert zurücksetzen?",
     "list_view_size_label": "Größe",
     "list_view_audit_label": "Prüfung",
@@ -117,10 +117,10 @@
     "item_delete_ok": "Löschen der Ordner-Freigabe korrekt",
     "item_reset-permissions_ok": "Zurücksetzen der Zugriffberechtigungen der Ordner-Freigabe korrekt",
     "item_migrate_ok": "Migration der Ordner-Freigabe korrekt",
-    "no_acls_support_title": "Access to shared folders is possible only as guest.",
+    "no_acls_support_title": "Der Zugriff auf freigegebene Ordner ist nur als Gast möglich.",
     "no_acls_support_message": "Um die Samba-Authentifizierung und spezielle Zugriffsoptionen zu aktivieren, bitte ein Active Directory konfigurieren.",
-    "update_at": "File sizes updated at",
-    "not_available": "Not available"
+    "update_at": "Dateigrößen aktualisiert um",
+    "not_available": "Nicht verfügbar"
   },
   "audit": {
     "menu_title": "Prüfung",
@@ -129,7 +129,7 @@
     "user": "Benutzer",
     "address": "Adresse",
     "share": "Freigeben",
-    "message": "File or Directory",
+    "message": "Datei oder Verzeichnis",
     "from": "Von",
     "to": "An",
     "filter": "Suchen",
@@ -140,16 +140,16 @@
     "create_directory": "Verzeichnis erstellen",
     "delete_directory": "Verzeichnis löschen",
     "delete_all_audits": "Alle Prüfungen löschen",
-    "update": "Refresh audit database",
+    "update": "Audit-Datenbank aktualisieren",
     "delete": "Entfernen",
     "updated_ok": "Prüfung erfolgreich aktualisiert!",
     "updated_error": "Prüfung nicht aktualisiert.",
     "deleted_ok": "Prüfung erfolgreich gelöscht!",
     "deleted_error": "Prüfung nicht gelöscht.",
-    "details": "Show details",
-    "show_audit_details": "Show audit details",
+    "details": "Details anzeigen",
+    "show_audit_details": "Audit-Details anzeigen",
     "update_at": "Update um",
-    "advanced_search": "Advanced search"
+    "advanced_search": "Erweiterte Suche"
   },
   "logs": {
     "menu_title": "Logs",
@@ -170,7 +170,7 @@
     "settings_ok": "Einstellungen erfolgreich aktualisiert!",
     "settings_error": "Einstellungen nicht aktualisiert.",
     "settings_updated_ok": "Einstellungen korrekt gespeichert",
-    "audit_log": "Enable auditing of read actions"
+    "audit_log": "Aktivieren Sie die Überwachung von Leseaktionen"
   },
   "about": {
     "website": "Webseite",

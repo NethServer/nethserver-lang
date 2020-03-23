@@ -16,4 +16,4 @@ $L['Block URL'] = 'Blokkeer URL';
 $L['Expressions_label'] = 'Gebruik expressie gelijk aan URL';
 $L['General_Title'] = 'Algemeen';
 $L['status_label'] = 'Gebruik filter';
-$L['squid_disabled_label'] = 'Please access the "Web proxy" page and enable the proxy before configuring the content filter.';
+$L['squid_disabled_label'] = 'Ga naar de pagina "Webproxy" en schakel de proxy in voordat u het inhoudsfilter configureert.';

@@ -1,0 +1,79 @@
+{
+  "save": "Uložiť",
+  "search": "Hľadať",
+
+  "edit": "Upraviť",
+
+  "advanced_options": "Pokročilé nastavenia",
+  "copy": "Copy",
+
+  "settings": {
+    "title": "Nastavenia",
+    "enable_nut_ups": "Enable NUT UPS",
+    "mode": "Mode",
+    "server": "Server",
+    "client": "Client",
+    "model": "Model",
+    "driver": "Driver",
+    "device": "Zariadenie",
+    "device_usb_auto": "USB (auto)",
+    "device_ttyS0": "COM1 (ttyS0)",
+    "device_ttyS1": "COM2 (ttyS1)",
+    "device_ttyS2": "COM3 (ttyS2)",
+    "device_ttyUSB0": "USB2Serial (ttysUSB0)",
+    "device_ttyUSB1": "USB2Serial (ttysUSB1)",
+    "ups_credentials": "UPS credentials",
+    "ups_name": "UPS name",
+    "ups_user": "UPS user",
+    "password_for_clients": "Password for clients",
+    "server_address": "Server address",
+    "password": "Heslo",
+    "configuration_saved": "Configuration saved succesfully",
+    "configuration_failed": "Configuration not saved",
+    "master_validation": "Server address must be a valid hostname",
+    "password_validation": "Password must not be empty",
+    "ups_name_validation": "UPS name must not be empty",
+    "ups_user_validation": "UPS user must be a valid username",
+    "driver_validation": "Please search for a model and choose a driver",
+    "search_for_model": "Search for model",
+    "hostname_or_ip_address": "Hostname or IP address"
+  },
+  "about": {
+    "title": "O aplikácii",
+    "website": "Webová stránka",
+    "bug_tracker": "Systém správy hlásenia problémov"
+  },
+  "logs": {
+    "title": "Záznamy udalostí",
+    "follow": "Odoberať",
+    "start_follow_button": "Odoberať",
+    "stop_follow_button": "Prestať odoberať",
+    "filter_label": "Filter s regulárnym várazom"
+  },
+  "dashboard":{
+    "title": "UPS dashboard",
+    "app": "UPS",
+    "load": "Load",
+    "battery_charge": "Battery charge",
+    "model": "Model",
+    "status": "Stav",
+    "input_voltage": "Input voltage",
+    "output_voltage": "Output voltage",
+    "temperature": "Temperature",
+    "full_status": "Full status",
+    "details": "Podrobnosti",
+    "battery_runtime": "Battery runtime",
+    "battery_voltage": "Battery voltage",
+    "minutes": "minutes",
+    "clients_connected": "Clients connected",
+    "ups_clients": "UPS clients",
+    "ups_not_configured": "UPS not configured",
+    "empty_state": "Configuration is incomplete or incorrect. Click the button below to configure",
+    "online": "Online",
+    "offline": "Offline",
+    "empty_piechart_label": "Statistics are not available"
+  },
+  "docs": {
+    "model": "Manufacturer is shown in bold, it is followed by model name and support level (number of stars)."
+  }
+}

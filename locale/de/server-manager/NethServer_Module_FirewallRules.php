@@ -120,6 +120,6 @@ $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Traffic Shaping Re
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Traffic Shaping Regeln erlauben nur die folgenden Zielzonen: Zone, Host, IP-Adressbereich, CIDR, Rot';
 
 $L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Regeln, die das DPI-Protokoll als Dienst verwenden, erlauben "Any" weder als Quelle noch als Ziel.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Rules using DPI protocol as a service do not allow "Firewall" as source nor destination.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Regeln, die das DPI-Protokoll als Dienst verwenden, erlauben keine "Firewall" als Quelle oder Ziel.';
 $L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Routenregeln erlauben es nicht, ein DPI-Protokoll als Dienst festzulegen.';
 $L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'Die Aktion "Ablehnen" wird nicht für Regeln unterstützt, die ein DPI-Protokoll als Dienst verwenden. Bitte stattdessen die Aktion "Löschen" verwenden.';

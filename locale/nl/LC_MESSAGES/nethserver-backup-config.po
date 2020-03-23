@@ -3,6 +3,9 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# JS EHV, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -10,6 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-08-24 14:34+0200\n"
 "PO-Revision-Date: 2017-07-12 08:22+0000\n"
+"Last-Translator: JS EHV, 2020\n"
 "Language-Team: Dutch (https://www.transifex.com/nethserver/teams/35834/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,16 +24,20 @@ msgstr ""
 #: root/etc/nethserver/todos.d/40restore-incomplete:42
 msgid "Do not reboot the system! Run the \"restore-data\" procedure"
 msgstr ""
+"Start het systeem niet opnieuw op! Voer de \"herstel-gegevens\" procedure "
+"uit"
 
 #: root/etc/nethserver/todos.d/40restore-incomplete:44
 msgid ""
 "Complete the restore procedure by running the \"restore-data\" command from "
 "a root shell"
 msgstr ""
+"oltooi de herstelprocedure door de opdracht \"restore-data\" uit te voeren "
+"vanuit een root shell"
 
 #: root/etc/nethserver/todos.d/40restore-incomplete:52
 msgid "Do not reboot the system! Restore procedure is incomplete"
-msgstr ""
+msgstr "Start het systeem niet opnieuw op! Herstelprocedure is onvolledig"
 
 #: root/etc/nethserver/todos.d/40restore-incomplete:55
 msgid ""
@@ -37,11 +45,14 @@ msgid ""
 "procedure by running the \"signal-event post-restore-data\" command from a "
 "root shell"
 msgstr ""
+"Schakel back-up in en voer \"herstel-gegevens\" uit of voltooi de "
+"herstelprocedure door de opdracht \"signaal-gebeurtenis na herstel-"
+"gegevens\" uit te voeren vanuit een root shell"
 
 #: root/etc/nethserver/todos.d/50restore-modules:51
 msgid "Install missing modules"
-msgstr ""
+msgstr "Installeer ontbrekende modules"
 
 #: root/etc/nethserver/todos.d/50restore-modules:54
 msgid "Complete the restore procedure by installing additional modules"
-msgstr ""
+msgstr "Voltooi de herstelprocedure door extra modules te installeren"

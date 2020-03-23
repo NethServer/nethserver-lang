@@ -23,31 +23,31 @@
     "device_ttyUSB0": "USB2Serial (ttysUSB0)",
     "device_ttyUSB1": "USB2Serial (ttysUSB1)",
     "ups_credentials": "UPS credentials",
-    "ups_name": "UPS name",
-    "ups_user": "UPS user",
-    "password_for_clients": "Password for clients",
+    "ups_name": "UPS naam",
+    "ups_user": "UPS gebruiker",
+    "password_for_clients": "Wachtwoord voor gebruikers",
     "server_address": "Serveradres",
     "password": "Wachtwoord",
-    "configuration_saved": "Configuration saved succesfully",
-    "configuration_failed": "Configuration not saved",
-    "master_validation": "Server address must be a valid hostname",
-    "password_validation": "Password must not be empty",
-    "ups_name_validation": "UPS name must not be empty",
-    "ups_user_validation": "UPS user must be a valid username",
-    "driver_validation": "Please search for a model and choose a driver",
-    "search_for_model": "Search for model",
-    "hostname_or_ip_address": "Hostname or IP address"
+    "configuration_saved": "Configuratie succesvol opgeslagen!",
+    "configuration_failed": "Configuratie niet opgeslagen.",
+    "master_validation": "Serveradres moet een geldige hostnaam zijn",
+    "password_validation": "Wachtwoord mag niet leeg zijn",
+    "ups_name_validation": "UPS naam mag niet leeg zijn",
+    "ups_user_validation": "UPS gebruiker moet een geldige gebruikersnaam zijn",
+    "driver_validation": "Zoek een model en kies een stuurprogramma",
+    "search_for_model": "Zoek model",
+    "hostname_or_ip_address": "Hostnaam of IP adres"
   },
   "about": {
-    "title": "About",
-    "website": "Web site",
+    "title": "Over ClamAV",
+    "website": "Website",
     "bug_tracker": "Bug tracker"
   },
   "logs": {
     "title": "Logs",
     "follow": "Volg",
     "start_follow_button": "Volg",
-    "stop_follow_button": "Stop following",
+    "stop_follow_button": "Stop met volgen",
     "filter_label": "Regexp filter"
   },
   "dashboard":{
@@ -60,20 +60,20 @@
     "input_voltage": "Ingaand voltage",
     "output_voltage": "Uitgaand voltage",
     "temperature": "Temperatuur",
-    "full_status": "Full status",
+    "full_status": "Volledige status",
     "details": "Details",
     "battery_runtime": "Batterij tijd",
     "battery_voltage": "Batterij voltage",
     "minutes": "minuten",
-    "clients_connected": "Clients connected",
+    "clients_connected": "Clients verbonden",
     "ups_clients": "UPS clients",
-    "ups_not_configured": "UPS not configured",
-    "empty_state": "Configuration is incomplete or incorrect. Click the button below to configure",
+    "ups_not_configured": "UPS niet ingesteld",
+    "empty_state": "Configuratie is onvolledig of onjuist. Klik op de onderstaande knop om te configureren",
     "online": "Online",
     "offline": "Offline",
-    "empty_piechart_label": "Statistics are not available"
+    "empty_piechart_label": "Statistieken zijn niet beschikbaar"
   },
   "docs": {
-    "model": "Manufacturer is shown in bold, it is followed by model name and support level (number of stars)."
+    "model": "De fabrikant wordt vetgedrukt weergegeven, gevolgd door de modelnaam en het ondersteuningsniveau (aantal sterren)."
   }
 }

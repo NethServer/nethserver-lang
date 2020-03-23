@@ -1,7 +1,7 @@
 <?php
-$L['PhpDefault_Title'] = 'Php default versie';
-$L['PhpDefaultAdjustableValues_Title'] = 'Beheer de default Php instellngen';
-$L['PhpAdjustableValues_Title'] = 'Php instellingen';
+$L['PhpDefault_Title'] = 'PHP default versie';
+$L['PhpDefaultAdjustableValues_Title'] = 'Beheer de default PHP instellngen';
+$L['PhpAdjustableValues_Title'] = 'PHP Instellingen';
 $L['AllowUrlFopen_label'] = 'Sta php-toegang tot remote bestanden toe';
 $L['Php memory limit (${0})'] = 'Maximum van beschikbaar geheugen (${0})';
 $L['Maximum upload file size (${0})'] = 'Maximale upload bestandsgrootte (${0})';
@@ -17,7 +17,7 @@ $L['default'] = 'default';
 $L['${0} MB'] = '${0} Megabytes';
 $L['${0} G'] = '${0} Gigabytes';
 $L['${0} seconds'] = '${0} seconden';
-$L['PhpVersion_default_label'] = 'Default Php Versie';
+$L['PhpVersion_default_label'] = 'Standaard PHP Versie';
 $L['unlimited'] = 'onbeperkt';
 $L['PhpMemoryLimit_label'] = 'Foutmelding \'geheugenlimiet\'';
 $L['PhpPostMaxSize_label'] = 'Foutmelding \'post maximum afmeting\'';

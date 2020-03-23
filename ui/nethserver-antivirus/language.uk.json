@@ -12,30 +12,30 @@
         "memory_warning": "The system has less than 4GB of RAM. You're strongly advised to disable official ClamAV signatures to avoid memory filling."
     },
     "about": {
-        "title": "About",
-        "website": "Web site",
-        "bug_tracker": "Bug tracker"
+        "title": "Про програму",
+        "website": "Web-сайт",
+        "bug_tracker": "Баг-трекер"
     },
     "logs": {
-        "title": "Logs",
-        "follow": "Follow",
-        "stop_follow": "Stop",
-        "start_follow_button": "Follow",
-        "stop_follow_button": "Stop following",
-        "filter_label": "Regexp filter",
+        "title": "Балки",
+        "follow": "Відстежувати",
+        "stop_follow": "Стоп",
+        "start_follow_button": "Відстежувати",
+        "stop_follow_button": "Зупинити відстежування",
+        "filter_label": "Regexp-фильтр",
         "error_getting_clamav_instances": "Error getting ClamAV instances"
     },
     "dashboard":{
         "title": "Antivirus dashboard",
-        "app": "Antivirus",
+        "app": "Антивірус",
         "email_protection": "Email protection",
         "web_protection": "Web protection",
         "error_getting_dashboard_data": "Error getting dashboard data",
         "malware_found": "Malware found",
         "signatures_loaded": "Signatures loaded",
-        "status": "Status",
+        "status": "Стан",
         "no_data_available": "No data available",
-        "other": "Other",
+        "other": "Інший",
         "memory_used": "Memory used",
         "since": "Since",
         "no_instance_installed": "No ClamAV instance installed"
@@ -44,6 +44,6 @@
         "official_signatures": "Official ClamAV signatures use a large amount of memory. Official signatures detect many old threats but are not very effective against the latest malware.",
         "unofficial_signatures_ratings": "Higher rating means more blocked threats but also a higher probability of false positives. Recommended ratings are 'Low' and 'Medium'."
     },
-    "save": "Save",
-    "cancel": "Cancel"
+    "save": "Зберегти",
+    "cancel": "Скасувати"
 }

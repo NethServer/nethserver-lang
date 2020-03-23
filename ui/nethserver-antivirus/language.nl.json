@@ -1,19 +1,19 @@
 {
     "settings": {
         "title": "Instellingen",
-        "official_signatures": "ClamAV official signatures",
-        "unofficial_signatures_rating": "Third-party signatures rating",
-        "error_reading_configuration": "Error reading antivirus configuration",
-        "error_validating_configuration": "Error validating antivirus configuration",
-        "configuration_update_successful": "Configuration update successful",
-        "configuration_update_failed": "Configuration update failed",
-        "info_notification": "Signatures are downloaded at hourly intervals. Changes to this page will take effect on next automatic signatures download.",
-        "error_reading_total_memory": "Error reading total memory",
-        "memory_warning": "The system has less than 4GB of RAM. You're strongly advised to disable official ClamAV signatures to avoid memory filling."
+        "official_signatures": "ClamAV officiële handtekeningen",
+        "unofficial_signatures_rating": "Beoordeling handtekeningen van derden",
+        "error_reading_configuration": "Fout bij lezen van antivirusconfiguratie",
+        "error_validating_configuration": "Fout bij valideren van antivirusconfiguratie",
+        "configuration_update_successful": "Configuratie-update succesvol",
+        "configuration_update_failed": "Configuratie-update mislukt",
+        "info_notification": "Handtekeningen worden elk uur gedownload. Wijzigingen op deze pagina worden van kracht bij de volgende automatische download van handtekeningen.",
+        "error_reading_total_memory": "Fout bij lezen van totaal geheugen",
+        "memory_warning": "Het systeem heeft minder dan 4 GB RAM. U wordt sterk aangeraden om officiële ClamAV-handtekeningen uit te schakelen om geheugenvulling te voorkomen."
     },
     "about": {
-        "title": "About",
-        "website": "Web site",
+        "title": "Over ClamAV",
+        "website": "Website",
         "bug_tracker": "Bug tracker"
     },
     "logs": {
@@ -21,29 +21,29 @@
         "follow": "Volg",
         "stop_follow": "Stoppen",
         "start_follow_button": "Volg",
-        "stop_follow_button": "Stop following",
+        "stop_follow_button": "Stop met volgen",
         "filter_label": "Regexp filter",
-        "error_getting_clamav_instances": "Error getting ClamAV instances"
+        "error_getting_clamav_instances": "Fout bij ophalen van ClamAV-exemplaren"
     },
     "dashboard":{
         "title": "Antivirus dashboard",
         "app": "Antivirus",
-        "email_protection": "Email protection",
-        "web_protection": "Web protection",
-        "error_getting_dashboard_data": "Error getting dashboard data",
-        "malware_found": "Malware found",
-        "signatures_loaded": "Signatures loaded",
+        "email_protection": "Email beveiliging",
+        "web_protection": "Web beveiliging",
+        "error_getting_dashboard_data": "Fout bij ophalen van dashboardgegevens",
+        "malware_found": "Malware gevonden",
+        "signatures_loaded": "Handtekeningen geladen",
         "status": "Status",
-        "no_data_available": "No data available",
-        "other": "Other",
-        "memory_used": "Memory used",
-        "since": "Since",
-        "no_instance_installed": "No ClamAV instance installed"
+        "no_data_available": "Geen data beschikbaar",
+        "other": "Overig",
+        "memory_used": "Geheugen gebruikt",
+        "since": "Sinds",
+        "no_instance_installed": "Geen ClamAV-instantie geïnstalleerd"
     },
     "docs": {
-        "official_signatures": "Official ClamAV signatures use a large amount of memory. Official signatures detect many old threats but are not very effective against the latest malware.",
-        "unofficial_signatures_ratings": "Higher rating means more blocked threats but also a higher probability of false positives. Recommended ratings are 'Low' and 'Medium'."
+        "official_signatures": "Officiële ClamAV-handtekeningen gebruiken een grote hoeveelheid geheugen. Officiële handtekeningen detecteren veel oude bedreigingen maar zijn niet erg effectief tegen de nieuwste malware.",
+        "unofficial_signatures_ratings": "Een hogere beoordeling betekent meer geblokkeerde bedreigingen, maar ook een hogere kans op valse positieven. Aanbevolen beoordelingen zijn 'Laag' en 'Gemiddeld'."
     },
     "save": "Opslaan",
-    "cancel": "Cancel"
+    "cancel": "Annuleren"
 }

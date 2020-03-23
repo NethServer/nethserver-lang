@@ -51,5 +51,5 @@ $L['esppfsgroup_label'] = 'Diffie-Hellman-groep';
 $L['salifetime_label'] = 'Levensduur van de sleutel (seconden)';
 $L['connection_label'] = 'Verbinding';
 $L['Key_label'] = 'Tunnel';
-$L['auth_label'] = 'Aanmelding';
+$L['auth_label'] = 'Verificatie';
 $L['valid_at_prefix_identifier'] = 'Een hostnaam voorafgegaan door "@" of een IP-adres';

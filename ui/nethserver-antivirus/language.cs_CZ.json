@@ -26,7 +26,7 @@
         "error_getting_clamav_instances": "Chyba při zjišťování instancí ClamAV"
     },
     "dashboard":{
-        "title": "Antivirus dashboard",
+        "title": "Přehled antiviru",
         "app": "Antivirus",
         "email_protection": "Ochrana e-mailu",
         "web_protection": "Webová ochrana",

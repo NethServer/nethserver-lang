@@ -120,6 +120,6 @@ $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Les règles de lis
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Les règles de lissage du trafic autorisent uniquement les types de destination suivants : zone, hôte, plage IP, CIDR, rouge';
 
 $L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Les règles utilisant le protocole DPI en tant que service ne permettent pas "Tous" comme source ou destination.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Rules using DPI protocol as a service do not allow "Firewall" as source nor destination.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Les règles utilisant le protocole DPI comme service n\'autorisent pas le "pare-feu" comme source ni destination.';
 $L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Les règles de routage ne permettent pas de définir un protocole DPI en tant que service.';
 $L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'L\'action "Rejeter" n\'est pas prise en charge pour les règles utilisant un protocole DPI en tant que service: utilisez plutôt l\'action "Abandonner".';

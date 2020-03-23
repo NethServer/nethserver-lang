@@ -531,7 +531,7 @@
         "valid_notEmpty": "Je třeba, aby bylo vyplněné",
         "valid_cidrBlock": "Je třeba, aby byla platná CIDR síť",
         "valid_time": "Je třeba, aby čas měl formu HH:mm",
-        "port_number_or_port_range": "Must be a valid port number or port range (using colon)",
+        "port_number_or_port_range": "Je třeba, aby bylo platné číslo portu nebo jejich rozsah (pomocí dvojtečky)",
         "protocol_doesnt_support_ports": "Tento protokol nepodporuje porty",
         "valid_lessThan_65536": "Je třeba, aby bylo nižší než 65536",
         "access_empty": "Atribut přístupu je třeba vyplnit",

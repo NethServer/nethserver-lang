@@ -1,7 +1,7 @@
 <?php
 $L['DiagTools_Title'] = 'Diagnose';
 $L['DiagTools_Description'] = 'Hulpmiddelen voor netwerk-diagnose';
-$L['IpAddr_Title'] = 'Netwerkadressen';
+$L['IpAddr_Title'] = 'Netwerk adressen';
 $L['DiagToolsIpAdd_header'] = 'IP-adres (IPv4 of IPv6) van apparaat';
 $L['IpRoute_Title'] = 'Netwerk-route';
 $L['DiagToolsIpRoute_header'] = 'Routetabel-gegeven';
@@ -26,10 +26,10 @@ $L['ScanHosts_Title'] = 'Scan';
 $L['DiagToolsScanHost_header'] = 'Scan uw lokale netwerk';
 $L['nic_label'] = 'Netwerkinterfaces';
 $L['ScanHost_label'] = 'Scan';
-$L['DiagToolsSpeedTest_header'] = 'Test your Internet bandwidth';
-$L['server_label'] = 'Server ID (see speedtest servers)';
+$L['DiagToolsSpeedTest_header'] = 'Test uw internetbandbreedte';
+$L['server_label'] = 'Server ID (zie speedtest servers)';
 $L['SpeedTest_Title'] = 'Speedtest';
 $L['SpeedTest_label'] = 'Speedtest';
-$L['LeaveBlankForAutomatic'] = 'Blank for the closest server';
+$L['LeaveBlankForAutomatic'] = 'Leeg voor de dichtstbijzijnde server';
 $L['AUTO_FIND_NIC'] = 'Automatisch';
 

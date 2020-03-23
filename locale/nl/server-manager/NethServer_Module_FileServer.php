@@ -1,16 +1,16 @@
 <?php
 
-$L['FileServer_Title'] = 'Windows file server';
-$L['FileServer_Description'] = 'Configure SMB file server, permissions, user home directories and shared folders';
-$L['FileServer_Tags'] = 'smb samba windows network workgroup administrator admins domain acl filesystem home permissions ownership';
+$L['FileServer_Title'] = 'Windows-bestandsserver';
+$L['FileServer_Description'] = 'Configureer SMB-bestandsserver, machtigingen, thuismappen van gebruikers en gedeelde mappen';
+$L['FileServer_Tags'] = 'smb samba windows netwerk werkgroepbeheerder beheert domein acl bestandssysteem home permissies eigendom';
 
-$L['FileServer_header'] = 'Windows file server';
+$L['FileServer_header'] = 'Windows-bestandsserver';
 $L['Save_label'] = 'Opslaan';
-$L['Workgroup_label'] = 'Workgroup/NetBIOS domain name';
-$L['SpecialPrivileges_label'] = 'Special privileges';
-$L['HomeAdm_label'] = 'Grant full control on home directories to Domain Admins group (home$ share)';
-$L['ShareAdm_label'] = 'Grant full control on shared folders to Domain Admins group';
-$L['InheritOwner_label'] = 'When a new file or directory is created in a shared folder';
-$L['InheritOwner_yes_label'] = 'Grant full control to the owner of the parent directory';
-$L['InheritOwner_no_label'] = 'Grant full control to the creator';
-$L['LDAP_account_provider_warning_message1'] = 'Access to shared folders is possible only as guest. To enable Samba authentication and special access options configure an Active Directory accounts provider.';
+$L['Workgroup_label'] = 'Werkgroep/NetBIOS domeinnaam';
+$L['SpecialPrivileges_label'] = 'Bijzondere privileges';
+$L['HomeAdm_label'] = 'Verleen volledige controle over homedirectory\'s aan Domain Admins-groep (home$ share)';
+$L['ShareAdm_label'] = 'Verleen volledige controle over homedirectory\'s aan Domain Admins-groep';
+$L['InheritOwner_label'] = 'Wanneer een nieuw bestand of nieuwe map in een gedeelde map wordt gemaakt';
+$L['InheritOwner_yes_label'] = 'Verleen volledige controle aan de eigenaar van de bovenliggende map';
+$L['InheritOwner_no_label'] = 'Verleen volledige controle aan de eigenaar';
+$L['LDAP_account_provider_warning_message1'] = 'Toegang tot gedeelde mappen is alleen mogelijk als gast. Om Samba-authenticatie en speciale toegangsopties in te schakelen, configureert u een Active Directory-accountsprovider.';

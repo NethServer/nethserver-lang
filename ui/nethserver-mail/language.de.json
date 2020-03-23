@@ -30,7 +30,7 @@
     "cancel": "Abbrechen",
     "are_you_sure": "Bist du sicher",
     "days": "Tage",
-    "ever": "Forever",
+    "ever": "Für immer",
     "other": "Andere",
     "info": "Info",
     "warning": "Warnung",
@@ -71,7 +71,7 @@
         "greylist_rspamd_graph_label": "Graue Liste",
         "probable_rspamd_graph_label": "Spam",
         "clean_rspamd_graph_label": "Akzeptieren",
-        "tcp_connections_title": "Established connections",
+        "tcp_connections_title": "Verbindungen hergestellt",
         "tcp_connections_none": "Keine Verbindungen",
         "log_stats_title": "Statistik aus dem laufenden Logfile",
         "messages_delivered": "Zugestellte Nachrichten",
@@ -264,7 +264,7 @@
         "apply_quota": "Maximale Grösse des Postfachs ",
         "QuotaDefaultSize": "Standardkontingentgröße (GB)",
         "SpamFolder": "Verschiebe Spam in den \"Junk\"-Ordner",
-        "SpamRetentionTime": "Keep spam for",
+        "SpamRetentionTime": "Halten Sie Spam für",
         "AdminIsMaster": "Root darf sich als anderer Benutzer anmelden",
         "DynamicGroupAlias": "Automatische Alias für Gruppen",
         "LogActions": "Protokolliere IMAP Aktionen",
@@ -441,7 +441,7 @@
         "connectors": "Verbinder",
         "domains": "Domänen",
         "signature": "Aktiviere DKIM-Unterzeichnung für ausgehende Nachricht, um Fälschungen zu verhindern.",
-        "acls": "Type to search a user or group for ACLs.",
+        "acls": "Geben Sie ein, um einen Benutzer oder eine Gruppe nach ACLs zu durchsuchen.",
         "bayes_title": "Bayes-Filter Trainingsstatus.",
         "bayes_description": "Der Bayes-Filte wird aktiviert, nachdem er 200 Ham- und 200 Spam-Nachrichten gelernt hat.",
         "sender_info": "Geben Sie eine gültige Emailadresse oder eine Domäne, startend mit dem '@'-Symbol wie '@nethserver.org', ein.",
@@ -450,8 +450,8 @@
         "lifetime": "Ein Wert von 0 bedeutet nur einmal wiederholen."
     },
     "mailbox": {
-        "public_created_ok": "Public mailbox created successfully",
-        "public_created_error": "Public mailbox creation error"
+        "public_created_ok": "Öffentliches Postfach erfolgreich erstellt",
+        "public_created_error": "Fehler beim Erstellen eines öffentlichen Postfachs"
     },
     "validation": {
         "validation_failed": "Überprüfung fehlgeschlagen",

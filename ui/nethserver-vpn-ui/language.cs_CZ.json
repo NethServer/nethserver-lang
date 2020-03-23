@@ -58,7 +58,7 @@
   "ipsec": {
     "title": "IPSec",
     "no_tunnels_found": "Nenalezeny žádné tunely",
-    "no_tunnels_found_desc": "Click on the button below to create new tunnel",
+    "no_tunnels_found_desc": "Nový tunel vytvoříte kliknutím na níže uvedené tlačítko",
     "add_tunnel": "Přidat tunel",
     "edit_tunnel": "Upravit tunel",
     "delete_tunnel": "Smazat tunel",
@@ -78,7 +78,7 @@
     "right": "IP adresa protistrany",
     "left": "Místní IP adresa",
     "leftsubnets": "Místní podsítě (každá na zvlášť řádek)",
-    "rightsubnets": "Remote subnets (one per line)",
+    "rightsubnets": "Podsítě na protějšku (každá na zvlášť řádek)",
     "leftid": "Místní identifikátor",
     "rightid": "Identifikátor na protější straně",
     "psk": "Předsdílený klíč",

@@ -3,7 +3,7 @@
     "title": "Відновити",
     "choose_backup": "Choose backup",
     "choose_date": "Choose date",
-    "search": "Search",
+    "search": "Пошук",
     "advanced_text": "Pattern",
     "file_text": "File or directory",
     "mail_text": "Mail folder",
@@ -13,7 +13,7 @@
     "results": "Results",
     "no_results": "No results",
     "no_results_text": "Select a backup and insert at least 4 characters, then press Search",
-    "warning": "Warning",
+    "warning": "Попередження",
     "too_many_results": "Your search has produced {0} results. Try to reduce the results changing the pattern. (Max results: 500)",
     "restore_files": "Restore {0} items",
     "overwrite_files": "Overwrite {0} items",
@@ -23,38 +23,38 @@
     "choose_mode": "Choose mode",
     "files_directories": "Files or directories",
     "mails": "Mail folders",
-    "advanced": "Advanced",
+    "advanced": "Розширені",
     "nothing_selected": "Nothing selected to restore",
-    "selected": "Selected",
+    "selected": "Вибрані",
     "overwritten": "overwritten",
     "restored_list": "List of restored items",
     "error_restored_list": "There was an error restoring the items.",
-    "are_you_sure": "Are you sure",
-    "cancel": "Cancel",
+    "are_you_sure": "Ви упевнені",
+    "cancel": "Відміна",
     "backup_disabled": "This backup is disabled. Enable it before restore data.",
-    "enable": "Enable"
+    "enable": "Включити"
   },
   "about": {
-    "title": "About",
-    "website": "Web site",
-    "bug_tracker": "Bug tracker"
+    "title": "Про програму",
+    "website": "Web-сайт",
+    "bug_tracker": "Баг-трекер"
   },
   "logs": {
-    "title": "Logs",
-    "start_follow_button": "Follow",
-    "stop_follow_button": "Stop following",
-    "filter_label": "Regexp filter"
+    "title": "Балки",
+    "start_follow_button": "Відстежувати",
+    "stop_follow_button": "Зупинити відстежування",
+    "filter_label": "Regexp-фильтр"
   },
   "dashboard": {
     "title": "Restore data dashboard",
-    "app": "Restore data",
+    "app": "Відновлення даних",
     "last_run": "Last run",
     "configured_backups": "Configured backups",
-    "no_backups_found": "No backups found",
+    "no_backups_found": "Резервних копій не найднено",
     "no_backups_found_desc": "It seems that you have not configured any backup-data"
   },
   "docs": {
-    "more_info_about": "More info about",
+    "more_info_about": "Більше інформації про",
     "override_restore": "<li>If <b>checked</b> the restored items will overwrite the current item.</li><li>If <b>not checked</b> the restored items will be created in the same path with date included in the name and <code>.restore</code> prepended (es. .restore-20190729-153318-myitem).</li>",
     "choose_mode": "<li><b>Files or directories</b>: Search only file and directories</li><li><b>Mail folders</b>: Search only email folders</li><li><b>Advanced</b>: Search everything (supports wildcards)</li>"
   }

@@ -9,7 +9,7 @@
         "error_reading_subscription_configuration": "Error reading subscription configuration",
         "configuration_updated": "Configuration updated",
         "error_updating_configuration": "Error updating configuration",
-        "custom_alerts": "Custom alerts",
+        "custom_alerts": "Спеціальні сповіщення",
         "download_alert_config": "Download alert configuration",
         "alert_config_downloaded": "Alert configuration downloaded",
         "error_downloading_alert_config": "Error downloading alert configuration",
@@ -35,27 +35,27 @@
         "error_reading_system_info_configuration": "Error reading system info configuration"
     },
     "about": {
-        "title": "About",
-        "website": "Web site",
-        "bug_tracker": "Bug tracker"
+        "title": "Про програму",
+        "website": "Web-сайт",
+        "bug_tracker": "Баг-трекер"
     },
     "dashboard":{
-        "title": "Dashboard",
+        "title": "Робочий стіл",
         "error_reading_system_info_configuration": "Error reading system info configuration",
         "empty_state_title": "Manage your custom alerts",
         "empty_state_description": "Nethesis Operation Center is a GUI that gives you the ability to customize your alerts.",
         "access_nethesis_operation_center": "Access Nethesis Operation Center"
     },
-    "actions": "Actions",
-    "delete": "Delete",
-    "next": "Next",
-    "prev": "Previous",
-    "of": "of",
+    "actions": "Дії",
+    "delete": "Видалити",
+    "next": "Далі",
+    "prev": "Попередній",
+    "of": "з",
     "rows_per_page": "Row per page",
-    "search": "Search",
-    "all": "All",
-    "save": "Save",
-    "cancel": "Cancel",
-    "warning": "Warning",
-    "create": "Create"
+    "search": "Пошук",
+    "all": "Все",
+    "save": "Зберегти",
+    "cancel": "Скасувати",
+    "warning": "Попередження",
+    "create": "Створити"
 }
