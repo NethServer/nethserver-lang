@@ -98,6 +98,7 @@
     "vsftpd_is_not_running": "der FTP-Dienst wird nicht ausgeführt",
     "default_php_version": "PHP 5.4 (Standard)",
     "php_version": "Version von PHP",
+    "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
     "php71_version": "PHP 7.1",
     "MaxExecutionTime": "Maximale Ausführungszeit",
@@ -118,6 +119,7 @@
     "PhpCustomSettings": "PHP-Konfiguration bearbeiten",
     "php_version_php71": "PHP 7.1",
     "php_version_php72": "PHP 7.2",
+    "php_version_php73": "PHP 7.3",
     "php_version_default": "PHP 5.4"
   },
   "about": {
@@ -177,7 +179,7 @@
     "more_info_about": "Mehr Infos über",
     "virtualhost": "Virtual Hosts",
     "Reverse_Proxy": "Reverse Proxy",
-    "path-and-virtual-host-rules": "Wenn eine URL-Pfadregel erstellt werden soll, muss das Namensfeld mit einem '/' beginnen. Wenn eine Namensregel für den virtuellen Host erstellt werden muss, muss das Namensfeld mit einem Namen für den virtuellen Host übereinstimmen",
+    "path-and-virtual-host-rules": "Wenn eine URL-Regel erstellt werden soll, muss der Quellpfad mit einem '/' beginnen. Wenn eine Regel für eine Webseite erstellt werden soll, dann bitte den FQDN der Webseite eingeben.",
     "ftp": "FTP",
     "MaxExecutionTime": "Hiermit wird die maximale Zeit in Sekunden festgelegt, die ein Skript ausgeführt werden darf, bevor es vom Parser beendet wird.",
     "MemoryLimit": "Hiermit wird die maximale Größe des Arbeitsspeichers in Byte festgelegt, die ein Skript belegen darf. Dieser Wert muss größer sein als die 'Maximale Postgröße'.",
@@ -198,7 +200,9 @@
     "Invalid_Target": "Muss eine gültige URL wie 'http://domain.com' sein",
     "user_already_exists": "Ein Konto mit diesem Namen existiert schon",
     "user_not_found": "Konto nicht gefunden",
-    "valid_username": "Das erste Zeichen muss ein Buchstabe sein, danach nur Kleinbuchstaben, Zahlen und Symbole wie '-' und '_'"
+    "valid_username": "Das erste Zeichen muss ein Buchstabe sein, danach nur Kleinbuchstaben, Zahlen und Symbole wie '-' und '_'",
+    "valid_hostname_0_9223372036854775807": "Muß ein FQDN oder ein Pfadname beginnend mit '/' sein",
+    "valid_minLength_1": "Dieses Feld darf nicht leer sein"
   },
   "proxypass": {
     "title": "Reverse Proxy",

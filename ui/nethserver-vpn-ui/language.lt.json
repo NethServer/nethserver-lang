@@ -1,7 +1,7 @@
 {
   "cancel": "Atsisakyti",
   "leave": "Leave",
-  "info": "Info",
+  "info": "Informacija",
   "search": "Ieškoti",
   "warning": "Įspėjimas",
   "enable": "Įjungti",
@@ -28,7 +28,7 @@
   "package_required": "Trūksta paketų",
   "package_required_desc": "To access this page you have to install the required packages listed below",
   "install_package": "Įdiegti paketą",
-  "install_packages": "Install packages",
+  "install_packages": "Įdiegti paketus",
   "packages_installed_ok": "Paketai sėkmingai įdiegti!",
   "packages_installed_error": "Paketai neįdiegti.",
   "dashboard": {

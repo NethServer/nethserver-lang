@@ -98,6 +98,7 @@
     "vsftpd_is_not_running": "FTP hizmeti çalışmıyor",
     "default_php_version": "PHP 5.4 (varsayılan)",
     "php_version": "PHP sürümü",
+    "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
     "php71_version": "PHP 7.1",
     "MaxExecutionTime": "En uzun yürütme süresi",
@@ -118,6 +119,7 @@
     "PhpCustomSettings": "PHP yapılandırmasını özelleştir",
     "php_version_php71": "PHP 7.1",
     "php_version_php72": "PHP 7.2",
+    "php_version_php73": "PHP 7.3",
     "php_version_default": "PHP 5.4"
   },
   "about": {
@@ -177,7 +179,7 @@
     "more_info_about": "Şunun hakkında ayrıntılı bilgiler",
     "virtualhost": "Sanal sunucular",
     "Reverse_Proxy": "Ters Vekil Sunucu",
-    "path-and-virtual-host-rules": "Bir adres yolu kuralı eklemek istiyorsanız, ad alanı '/' ile başlamalıdır. Bir sanal sunucu adı kuralı eklemek istiyorsanız, ad alanına sanal sunucu adı yazılmalıdır",
+    "path-and-virtual-host-rules": "Bir kaynak yolu eşleştirme kuralı eklemek istiyorsanız, kaynak yolunu '/' ile başlayarak yazın. Bir web sitesi adı eşleştirme kuralı eklemek istiyorsanız, web sitesinin tam etki alanı adını yazın.",
     "ftp": "FTP",
     "MaxExecutionTime": "Saniye cinsinden, işleyici tarafından sonlandırılmadan önce bir betiğin çalışmasına izin verilecek en uzun süre.",
     "MemoryLimit": "Bir betik tarafından kullanılabilecek en fazla bellek miktarı. Bu değer 'en büyük gönderim boyutu' değerinden büyük olmalıdır.",
@@ -198,7 +200,9 @@
     "Invalid_Target": "'http://etkialani.com' gibi geçerli bir adres olmalıdır",
     "user_already_exists": "Aynı adlı bir hesap zaten var",
     "user_not_found": "Hesap bulunamadı",
-    "valid_username": "İlk karakter bir harf olmalıdır. Ardından yalnız küçük harfler ile '-' ve '_' simgeleri kullanılabilir"
+    "valid_username": "İlk karakter bir harf olmalıdır. Ardından yalnız küçük harfler ile '-' ve '_' simgeleri kullanılabilir",
+    "valid_hostname_0_9223372036854775807": "Tam etki alanı adı ya da '/' ile başlayan bir kaynak yolu parçası olmalıdır",
+    "valid_minLength_1": "Bu alan boş bırakılamaz"
   },
   "proxypass": {
     "title": "Ters vekil sunucu",

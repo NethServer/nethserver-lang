@@ -8,6 +8,7 @@ $L['AuthMode_label'] = 'Režim ověřování';
 $L['password_mode_label'] = 'Uživatelské jméno a heslo';
 $L['certificate_mode_label'] = 'Certifikát';
 $L['password_certificate_mode_label'] = 'Uživatelské jméno, heslo a certifikát';
+$L['certificate_otp_mode_label'] = 'Username, one time password and certificate';
 $L['Network_label'] = 'Síť';
 $L['Netmask_label'] = 'Maska sítě';
 $L['ClientToClient_label'] = 'Umožnit síťový provoz mezi klienty';

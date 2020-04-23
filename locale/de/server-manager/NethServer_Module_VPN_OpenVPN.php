@@ -8,6 +8,7 @@ $L['AuthMode_label'] = 'Authentifizierungsmodus';
 $L['password_mode_label'] = 'Benutzername und Passwort';
 $L['certificate_mode_label'] = 'Zertifikat';
 $L['password_certificate_mode_label'] = 'Benutzer, Passwort und Zertifikat';
+$L['certificate_otp_mode_label'] = 'Username, one time password and certificate';
 $L['Network_label'] = 'Netzwerk';
 $L['Netmask_label'] = 'Subnetzmaske';
 $L['ClientToClient_label'] = 'VPN-Benutzer-zu-VPN-Benutzer Verbindungen erlauben ';

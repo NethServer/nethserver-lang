@@ -8,6 +8,7 @@ $L['AuthMode_label'] = 'Mod autentificare';
 $L['password_mode_label'] = 'Nume de utilizator și parolă';
 $L['certificate_mode_label'] = 'Certificat';
 $L['password_certificate_mode_label'] = 'Nume de utilizator, parolă și certificat';
+$L['certificate_otp_mode_label'] = 'Username, one time password and certificate';
 $L['Network_label'] = 'Rețea';
 $L['Netmask_label'] = 'Mască rețea';
 $L['ClientToClient_label'] = 'Permite traficul de tip client-la-client în rețea';

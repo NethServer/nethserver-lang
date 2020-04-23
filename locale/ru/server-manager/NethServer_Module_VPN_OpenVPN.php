@@ -8,6 +8,7 @@ $L['AuthMode_label'] = 'Режим авторизации';
 $L['password_mode_label'] = 'Имя пользователя и пароль';
 $L['certificate_mode_label'] = 'Сертификат';
 $L['password_certificate_mode_label'] = 'Имя пользователя, пароль и сертификат';
+$L['certificate_otp_mode_label'] = 'Username, one time password and certificate';
 $L['Network_label'] = 'Сеть';
 $L['Netmask_label'] = 'Маска сети';
 $L['ClientToClient_label'] = 'Разрешить трафик клиент-клиент';

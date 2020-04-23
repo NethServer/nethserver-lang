@@ -98,6 +98,7 @@
     "vsftpd_is_not_running": "Le service FTP n'est pas démarré",
     "default_php_version": "PHP 5.4 (défaut)",
     "php_version": "Version de PHP",
+    "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
     "php71_version": "PHP 7.1",
     "MaxExecutionTime": "Temps maximum d’exécution",
@@ -118,6 +119,7 @@
     "PhpCustomSettings": "Personnaliser la configuration PHP",
     "php_version_php71": "PHP 7.1",
     "php_version_php72": "PHP 7.2",
+    "php_version_php73": "PHP 7.3",
     "php_version_default": "PHP 5.4"
   },
   "about": {
@@ -177,7 +179,7 @@
     "more_info_about": "Plus d'info à propos",
     "virtualhost": "Hôtes virtuels",
     "Reverse_Proxy": "Mandataire inverse",
-    "path-and-virtual-host-rules": "Si vous souhaitez créer une règle de chemin d'URL, le champ du nom doit commencer par un '/'. Si vous devez créer une règle de nom d'hôte virtuel, le champ du nom doit correspondre à un nom d'hôte virtuel.",
+    "path-and-virtual-host-rules": "If you want to create a resource path matching rule, then enter the resource path beginning with a '/'. If you want to create a web site name matching rule, then type the web site fully qualified domain name.",
     "ftp": "FTP",
     "MaxExecutionTime": "Cela définit la durée maximale en secondes pendant laquelle un script est autorisé à s'exécuter avant d'être terminé par l'analyseur.",
     "MemoryLimit": "Cela définit la quantité maximale de mémoire en octets qu'un script est autorisé à allouer. Cette valeur doit être supérieure à la 'Maximum post size'.",
@@ -198,7 +200,9 @@
     "Invalid_Target": "Doit être une URL valide telle que 'http://domaine.com'",
     "user_already_exists": "Un compte avec le même nom existe déjà",
     "user_not_found": "Compte non trouvé",
-    "valid_username": "Le premier caractère doit être une lettre, seulement minuscules, des chiffres et des symboles tels que '-' et '_'"
+    "valid_username": "Le premier caractère doit être une lettre, seulement minuscules, des chiffres et des symboles tels que '-' et '_'",
+    "valid_hostname_0_9223372036854775807": "Must be a fully qualified domain name or a resource path segment beginning with '/'",
+    "valid_minLength_1": "Le champ ne peut pas être vide"
   },
   "proxypass": {
     "title": "Mandataire inverse",

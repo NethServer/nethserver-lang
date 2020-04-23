@@ -98,6 +98,7 @@
     "vsftpd_is_not_running": "FTP-service is niet actief",
     "default_php_version": "PHP 5.4 (standaard)",
     "php_version": "Versie van PHP",
+    "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
     "php71_version": "PHP 7.1",
     "MaxExecutionTime": "Maximale uitvoertijd",
@@ -118,6 +119,7 @@
     "PhpCustomSettings": "PHP-configuratie aanpassen",
     "php_version_php71": "PHP 7.1",
     "php_version_php72": "PHP 7.2",
+    "php_version_php73": "PHP 7.3",
     "php_version_default": "PHP 5.4"
   },
   "about": {
@@ -177,7 +179,7 @@
     "more_info_about": "Meer info over",
     "virtualhost": "Virtuele hosts",
     "Reverse_Proxy": "Reverse Proxy",
-    "path-and-virtual-host-rules": "Als u een URL-padregel wilt maken, moet het naamveld beginnen met een '/'. Als u een virtuele hostnaamregel moet maken, moet het naamveld overeenkomen met een virtuele hostnaam",
+    "path-and-virtual-host-rules": "If you want to create a resource path matching rule, then enter the resource path beginning with a '/'. If you want to create a web site name matching rule, then type the web site fully qualified domain name.",
     "ftp": "FTP",
     "MaxExecutionTime": "Dit stelt de maximale tijd in seconden in die een script mag uitvoeren voordat het wordt beëindigd door de parser.",
     "MemoryLimit": "Dit stelt de maximale hoeveelheid geheugen in bytes in die een script mag toewijzen, deze waarde moet groter zijn dan de 'Maximale berichtgrootte'.",
@@ -198,7 +200,9 @@
     "Invalid_Target": "Moet een geldige URL zijn, zoals 'http://domain.com'",
     "user_already_exists": "Er bestaat al een account met dezelfde naam",
     "user_not_found": "Account niet gevonden",
-    "valid_username": "Het eerste teken moet een letter zijn, en niet alleen lagere letters, cijfers en symbolen zoals '-' en '_'"
+    "valid_username": "Het eerste teken moet een letter zijn, en niet alleen lagere letters, cijfers en symbolen zoals '-' en '_'",
+    "valid_hostname_0_9223372036854775807": "Must be a fully qualified domain name or a resource path segment beginning with '/'",
+    "valid_minLength_1": "Dit veld mag niet leeg zijn!"
   },
   "proxypass": {
     "title": "Reverse proxy",

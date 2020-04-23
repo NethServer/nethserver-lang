@@ -98,6 +98,7 @@
     "vsftpd_is_not_running": "služba FTP není spuštěná",
     "default_php_version": "PHP 5.4 (výchozí)",
     "php_version": "Verze PHP",
+    "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
     "php71_version": "PHP 7.1",
     "MaxExecutionTime": "Nejdelší přijatelná doba vykonávání",
@@ -118,6 +119,7 @@
     "PhpCustomSettings": "Doupravit nastavení PHP",
     "php_version_php71": "PHP 7.1",
     "php_version_php72": "PHP 7.2",
+    "php_version_php73": "PHP 7.3",
     "php_version_default": "PHP 5.4"
   },
   "about": {
@@ -177,7 +179,7 @@
     "more_info_about": "Další informace o",
     "virtualhost": "Virtuální hostitelé",
     "Reverse_Proxy": "Reverzní proxy",
-    "path-and-virtual-host-rules": "If you want to create an URL path rule, the name field must start with a '/'. If you need to create a virtual host name rule, then the name field must match a virtual host name",
+    "path-and-virtual-host-rules": "If you want to create a resource path matching rule, then enter the resource path beginning with a '/'. If you want to create a web site name matching rule, then type the web site fully qualified domain name.",
     "ftp": "FTP",
     "MaxExecutionTime": "This sets the maximum time in seconds a script is allowed to run before it is terminated by the parser.",
     "MemoryLimit": "This sets the maximum amount of memory in bytes that a script is allowed to allocate, this value must be larger than the 'Maximum post size'.",
@@ -198,7 +200,9 @@
     "Invalid_Target": "Je třeba, aby byla platná URL adresa, jako např. „http://domain.com“",
     "user_already_exists": "Účet s tímto uživatelským jménem už existuje",
     "user_not_found": "Účet nenalezen",
-    "valid_username": "Je třeba, aby první znak bylo písmeno, pak pouze malá písmena, číslice a symboly jako „-“ a „_“"
+    "valid_username": "Je třeba, aby první znak bylo písmeno, pak pouze malá písmena, číslice a symboly jako „-“ a „_“",
+    "valid_hostname_0_9223372036854775807": "Must be a fully qualified domain name or a resource path segment beginning with '/'",
+    "valid_minLength_1": "Tuto kolonku je třeba vyplnit"
   },
   "proxypass": {
     "title": "Reverzní proxy",

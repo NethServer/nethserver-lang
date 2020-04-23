@@ -319,7 +319,9 @@
     "invalid_backup_format": "Backup niet gevonden of ongeldig",
     "remap_at_least_one_green": "U moet ten minste één groene interface selecteren om opnieuw toe te wijzen",
     "assign_later": "Later toewijzen",
-    "current_int": "Systeeminterfaces"
+    "current_int": "Systeeminterfaces",
+    "restore_network": "Restore network configuration",
+    "skip_network_info": "Current network configuration will be preserved, but some applications may be disabled at the end of the process. After restoring, review the system configuration to re-enable all required applications."
   },
   "disk_usage": {
     "title": "Schijf gebruik",
@@ -833,6 +835,8 @@
     "test_mail": "Test e-mail",
     "mail_sent_ok": "E-mail succesvol verzonden!",
     "mail_sent_error": "E-mail niet verzonden",
+    "shellPolicy": "Shell policy",
+    "force_the_shell": "Override the shell of users",
     "otp": "Two-factor authentication",
     "otp_enable": "Enable 2FA for user {name}",
     "otp_toggle_secrety_mode": "Sensible information",
@@ -840,9 +844,25 @@
     "otp_code_for_single_use": "Backup codes",
     "validate_the_QRcode_token": "Verification code",
     "test_token": "Check code",
-    "otp_Step1_Download_FreeOTP":"1. Download your preferred 2FA application to your phone. If you do not have one, FreeOTP is the recommended one",
+    "OtpCockpit_status": "Enable 2FA for the Server Manager",
+    "OtpSshd_status": "Enable 2FA for SSH",
+    "otp_Step1_Download_FreeOTP": "1. Download your preferred 2FA application to your phone. If you do not have one, FreeOTP is the recommended one",
     "otp_Step2_scan_with_FreeOTP": "2. Scan the QR code with your phone using the 2FA application",
-    "otp_Step3_Validate_the_X-digit_code": "3. Enter the 6-digit code provided by your application and click on 'Check code' button. If the verification code is valid, click on the 'Save' button."
+    "otp_Step3_Validate_the_X-digit_code": "3. Enter the 6-digit code provided by your application and click on 'Check code' button. If the verification code is valid, choose the services to protect.",
+    "Applications": "Applications",
+    "logout": "Uitloggen",
+    "user_settings_page": "User settings page",
+    "enable_user_settings_page": "Enable user settings page",
+    "grant_only_trusted_networks": "Grant access only from Trusted Networks",
+    "save_user_settings_page_configuration": "Save user settings page configuration",
+    "cockpit_will_be_restared": "Cockpit Server Manager will be restarted",
+    "activate": "Activate",
+    "to_enable": "to enable",
+    "user_settings_can_be_accessed_by_these_urls": "When enabled, user settings page can be accessed by these URLs",
+    "user_settings_page_urls_explain": "These URLs are obtained by server aliases and IP addresses on green and red interfaces.",
+    "password_updated_error_1": "Password not changed. Ensure that",
+    "password_updated_error_2": "old password",
+    "password_updated_error_3": "is correct"
   },
   "logs": {
     "title": "Logs"
@@ -1179,18 +1199,22 @@
     "certificates": "Certificaten",
     "sftp_password": "Het wachtwoord wordt niet opgeslagen. SSH-verbinding gebruikt een RSA-sleutel.",
     "smb_login": "Als de doelserver is verbonden met een domein, gebruikt u uitgebreide syntaxis zoals 'MyBindUser, domain = mydomain.com'.",
-    "vol_size": "Grootte van back-upbrokken, klein houden als de back-upbestemming een externe server is. Standaard is 200 MB.",
+    "vol_size": "Size of backup chunks in MB, keep small if the backup destination is a remote server. Default is 200MB.",
     "dns_wildcard": "Indien ingeschakeld, match ook alle subdomeinen.",
     "limit_access": "Beperk de toegang tot poort 9090 alleen tot bepaalde IP-adressen. Gebruik de firewallregels voor een gedetailleerdere toegangscontrole.",
     "dhcp_comma_separated_field": "Voer een IP-adres of een door komma's gescheiden lijst van IP-adressen in",
     "dhcp_servers": "DHCP servers",
     "remote_shell": "Schakel deze optie in om toegang te verlenen tot de Terminal en de Server Manager.",
     "list_of_ports": "Voer een of meer poortnummers in, gescheiden door een komma, bijv.: '8081, 9292'",
-    "AllowGroupsToSSH_SFTP":"Selecteer een of meer groepen om SSH- en / of SFTP-toegang te verlenen. Beheerders krijgen altijd SSH- en SFTP-toegang.",
+    "AllowGroupsToSSH_SFTP": "Selecteer een of meer groepen om SSH- en / of SFTP-toegang te verlenen. Beheerders krijgen altijd SSH- en SFTP-toegang.",
     "ssh_everyone_info": "Stel de basisrechten in voor niet-beheerdersaccounts.",
     "ssh_administrators_info": "Beheerders krijgen altijd SSH- en SFTP-toegang.",
+    "shell_bash_needed": "Once enabled, the Shell setting returned by the account provider is ignored. As a consequence, non-admin users must be granted again SSH and SFTP access permissions.",
     "otp_enable": "Add a second factor of authentication based on time. To access the Server Manger you will have to enter also a temporary token generated by an application installed on your phone.",
     "otp_Scan_QRcode": "The QR code contains a secret URL used to generate valid tokens.",
-    "otp_code_for_single_use": "If you lose your phone, you can use backup codes to sign in. Every backup code can be used only once."
+    "otp_code_for_single_use": "If you lose your phone, you can use backup codes to sign in. Every backup code can be used only once.",
+    "OtpSshd_Only_Password_Auth": "2FA is available only for password authentication. Authentication with public keys will not be affected by 2FA.",
+    "disaster_recovery": "Disaster recovery",
+    "user_settings_page": "Allow users to change their password and other settings on a web page outside Cockpit (on port 443). This feature can be enabled only if 'Override the shell of users' is enabled as well."
   }
 }

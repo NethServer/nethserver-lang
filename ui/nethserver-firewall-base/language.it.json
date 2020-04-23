@@ -410,11 +410,11 @@
         "network_services": "Servizi di rete",
         "edit_service": "Modifica servizio",
         "name": "Nome",
-        "tcpPorts": "TCP ports",
-        "udpPorts": "UDP ports",
+        "tcpPorts": "Porte TCP",
+        "udpPorts": "Porte UDP",
         "access": "Accesso",
-        "service_edited_successfully": "Service edited successfully",
-        "service_edited_error": "Service not edited"
+        "service_edited_successfully": "Servizio modificato con successo",
+        "service_edited_error": "Servizio non modificato"
     },
     "protocols": {
         "ah": "AH",
@@ -534,11 +534,11 @@
         "port_number_or_port_range": "Indicare un numero di porta valido o un range di porte (usare \":\" come separatore)",
         "protocol_doesnt_support_ports": "Questo protocollo non supporta le porte",
         "valid_lessThan_65536": "Deve essere minore di 65536",
-        "access_empty": "Access attribute is mandatory",
-        "access_invalid": "Invalid access attribute",
-        "port_list_empty": "This attribute is mandatory",
-        "port_list_invalid": "Invalid list of ports",
-        "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
+        "access_empty": "Il campo Accesso è obbligatorio",
+        "access_invalid": "Campo Accesso non valido",
+        "port_list_empty": "Questo campo è obbligatorio",
+        "port_list_invalid": "Lista porte non valida",
+        "tcp_ports_and_udp_ports_empty": "Deve essere specificata almeno una porta TCP o UDP"
     },
     "docs": {
         "pf_origin_port": "Inserire una singola porta, una lista di porte separate da virgola o un intervallo di porte usando \":\" come separatore, tipo \"100:200\"",
@@ -547,7 +547,7 @@
         "objects_ports": "Sintassi supportata: lista di porte separate da virgola o range di porte (es. 10000-20000)",
         "mac_validation": "Le richieste fatte da indirizzi IP elencati nelle prenotazioni del DHCP sono consentite solo se originate dallo stesso indirizzo MAC presente nella prenotazione (funziona anche con DHCP disabilitato)",
         "mac_validation_policy": "Le richieste da indirizzi IP non presenti nella lista di prenotazioni del DHCP sono bloccate. Assicurarsi che gli amministratori di questo apparato abbiano i propri apparati (IP/MAC ) presenti nella lista delle prenotazioni del DHCP.",
-        "list_of_ports": "Enter one or more port numbers separated by a comma, e.g.: '8081, 9292'",
+        "list_of_ports": "Inserire uno o più numeri di porta separati da virgola, esempio: '8081, 9292'",
         "network_services_system_services": "Network services can be added in System -> Services page"
     }
 }

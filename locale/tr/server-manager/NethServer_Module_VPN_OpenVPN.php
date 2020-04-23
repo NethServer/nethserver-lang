@@ -8,6 +8,7 @@ $L['AuthMode_label'] = 'Kimlik doğrulama kipi';
 $L['password_mode_label'] = 'Kullanıcı adı ve parola';
 $L['certificate_mode_label'] = 'Sertifika';
 $L['password_certificate_mode_label'] = 'Kullanıcı adı, parola ve sertifika';
+$L['certificate_otp_mode_label'] = 'Kullanıcı adı, tek kullanımlık parola ve sertifika';
 $L['Network_label'] = 'Ağ';
 $L['Netmask_label'] = 'Ağ maskesi';
 $L['ClientToClient_label'] = 'İstemciden istemciye ağ trafiği akabilsin';

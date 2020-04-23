@@ -98,6 +98,7 @@
     "vsftpd_is_not_running": "il servizio FTP non è in esecuzione",
     "default_php_version": "PHP 5.4 (default)",
     "php_version": "Version of PHP",
+    "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
     "php71_version": "PHP 7.1",
     "MaxExecutionTime": "Tempo massimo di esecuzione",
@@ -118,6 +119,7 @@
     "PhpCustomSettings": "Customize PHP configuration",
     "php_version_php71": "PHP 7.1",
     "php_version_php72": "PHP 7.2",
+    "php_version_php73": "PHP 7.3",
     "php_version_default": "PHP 5.4"
   },
   "about": {
@@ -177,7 +179,7 @@
     "more_info_about": "Maggiori informazioni",
     "virtualhost": "Virtual host",
     "Reverse_Proxy": "Reverse Proxy",
-    "path-and-virtual-host-rules": "Per creare una regole di tipo URL path, il nome deve iniziare con una '/'. Per creare una regola di tipo virtual host, il nome deve corrispondere al nome di un virtual host",
+    "path-and-virtual-host-rules": "If you want to create a resource path matching rule, then enter the resource path beginning with a '/'. If you want to create a web site name matching rule, then type the web site fully qualified domain name.",
     "ftp": "FTP",
     "MaxExecutionTime": "Imposta il tempo massimo di esecuzione degli script, prima che vengano terminati dal parser.",
     "MemoryLimit": "Imposta la massima quantità di memoria in byte che uno script può utilizzare, il valore deve essere maggiore di 'Dimensione massima POST'.",
@@ -198,7 +200,9 @@
     "Invalid_Target": "Deve esseere un URL valido, come 'http://domain.com'",
     "user_already_exists": "C'è già un account con questo nome",
     "user_not_found": "Account non trovato",
-    "valid_username": "Il primo carattere deve essere una lettera, poi solo lettere minuscole, numeri, simboli \"-\" e \"_\""
+    "valid_username": "Il primo carattere deve essere una lettera, poi solo lettere minuscole, numeri, simboli \"-\" e \"_\"",
+    "valid_hostname_0_9223372036854775807": "Must be a fully qualified domain name or a resource path segment beginning with '/'",
+    "valid_minLength_1": "Questo campo non può essere vuoto"
   },
   "proxypass": {
     "title": "Reverse proxy",

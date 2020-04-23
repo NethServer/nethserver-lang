@@ -8,6 +8,7 @@ $L['AuthMode_label'] = 'Режим аутентификације';
 $L['password_mode_label'] = 'Корисничко име и лозинка';
 $L['certificate_mode_label'] = 'Сертификат';
 $L['password_certificate_mode_label'] = 'Корисничко име, лозинка и сертификат';
+$L['certificate_otp_mode_label'] = 'Username, one time password and certificate';
 $L['Network_label'] = 'Мрежа';
 $L['Netmask_label'] = 'Мрежна маска';
 $L['ClientToClient_label'] = 'Дозволи мрежни саобраћај клијент-ка-клијенту';

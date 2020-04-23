@@ -319,7 +319,9 @@
     "invalid_backup_format": "Sauvegarde non trouvée ou non valide",
     "remap_at_least_one_green": "Sélectionnez au moins une verte à remapper",
     "assign_later": "Attribuer plus tard",
-    "current_int": "Interfaces du système"
+    "current_int": "Interfaces du système",
+    "restore_network": "Restore network configuration",
+    "skip_network_info": "Current network configuration will be preserved, but some applications may be disabled at the end of the process. After restoring, review the system configuration to re-enable all required applications."
   },
   "disk_usage": {
     "title": "Utilisation disque",
@@ -833,6 +835,8 @@
     "test_mail": "Mail de test",
     "mail_sent_ok": "Courriel envoyé avec succès!",
     "mail_sent_error": "Courriel non envoyé",
+    "shellPolicy": "Shell policy",
+    "force_the_shell": "Override the shell of users",
     "otp": "Two-factor authentication",
     "otp_enable": "Enable 2FA for user {name}",
     "otp_toggle_secrety_mode": "Sensible information",
@@ -840,9 +844,25 @@
     "otp_code_for_single_use": "Backup codes",
     "validate_the_QRcode_token": "Verification code",
     "test_token": "Check code",
-    "otp_Step1_Download_FreeOTP":"1. Download your preferred 2FA application to your phone. If you do not have one, FreeOTP is the recommended one",
+    "OtpCockpit_status": "Enable 2FA for the Server Manager",
+    "OtpSshd_status": "Enable 2FA for SSH",
+    "otp_Step1_Download_FreeOTP": "1. Download your preferred 2FA application to your phone. If you do not have one, FreeOTP is the recommended one",
     "otp_Step2_scan_with_FreeOTP": "2. Scan the QR code with your phone using the 2FA application",
-    "otp_Step3_Validate_the_X-digit_code": "3. Enter the 6-digit code provided by your application and click on 'Check code' button. If the verification code is valid, click on the 'Save' button."
+    "otp_Step3_Validate_the_X-digit_code": "3. Enter the 6-digit code provided by your application and click on 'Check code' button. If the verification code is valid, choose the services to protect.",
+    "Applications": "Applications",
+    "logout": "Deconnexion",
+    "user_settings_page": "User settings page",
+    "enable_user_settings_page": "Enable user settings page",
+    "grant_only_trusted_networks": "Grant access only from Trusted Networks",
+    "save_user_settings_page_configuration": "Save user settings page configuration",
+    "cockpit_will_be_restared": "Cockpit Server Manager will be restarted",
+    "activate": "Activate",
+    "to_enable": "to enable",
+    "user_settings_can_be_accessed_by_these_urls": "When enabled, user settings page can be accessed by these URLs",
+    "user_settings_page_urls_explain": "These URLs are obtained by server aliases and IP addresses on green and red interfaces.",
+    "password_updated_error_1": "Password not changed. Ensure that",
+    "password_updated_error_2": "old password",
+    "password_updated_error_3": "is correct"
   },
   "logs": {
     "title": "Journaux"
@@ -1179,18 +1199,22 @@
     "certificates": "Certificats",
     "sftp_password": "Le mot de passe ne sera pas sauvegardé. La connexion SSH utilisera une clé RSA",
     "smb_login": "Si le serveur cible est joint à un domaine, utilisez la syntaxe étendue telle que 'MyBindUser,domain=mydomain.com'.",
-    "vol_size": "La taille des fragments de sauvegarde est réduite si la destination de sauvegarde est un serveur distant. La valeur par défaut est 200 Mo.",
+    "vol_size": "Size of backup chunks in MB, keep small if the backup destination is a remote server. Default is 200MB.",
     "dns_wildcard": "Si activé, correspond aussi à tous les sous-domaines.",
     "limit_access": "Restreindre l'accès au port 9090 seulement au adresses IP déclarées. Pour un contrôle plus fin, utilisez les règles de pare-feu.",
     "dhcp_comma_separated_field": "Insérer une adresse IP ou une liste d'adresses séparées par une virgule",
     "dhcp_servers": "Serveurs",
     "remote_shell": "Activez cette option pour accorder l'accès au terminal et au gestionnaire de serveur.",
     "list_of_ports": "Entrez un ou plusieurs numéros de port séparés par une virgule, ex.: '8081, 9292'",
-    "AllowGroupsToSSH_SFTP":"Sélectionnez un ou plusieurs groupes pour accorder l'accès SSH et/ou SFTP. Les administrateurs disposent toujours d'un accès SSH et SFTP. Le compte root est toujours soumis au paramètre de case à cocher \"Autoriser la connexion root\".",
+    "AllowGroupsToSSH_SFTP": "Sélectionnez un ou plusieurs groupes pour accorder l'accès SSH et/ou SFTP. Les administrateurs disposent toujours d'un accès SSH et SFTP. Le compte root est toujours soumis au paramètre de case à cocher \"Autoriser la connexion root\".",
     "ssh_everyone_info": "Définissez l'autorisation de base pour les comptes non administratifs.",
     "ssh_administrators_info": "Les administrateurs disposent toujours d'un accès SSH et SFTP.",
+    "shell_bash_needed": "Once enabled, the Shell setting returned by the account provider is ignored. As a consequence, non-admin users must be granted again SSH and SFTP access permissions.",
     "otp_enable": "Add a second factor of authentication based on time. To access the Server Manger you will have to enter also a temporary token generated by an application installed on your phone.",
     "otp_Scan_QRcode": "The QR code contains a secret URL used to generate valid tokens.",
-    "otp_code_for_single_use": "If you lose your phone, you can use backup codes to sign in. Every backup code can be used only once."
+    "otp_code_for_single_use": "If you lose your phone, you can use backup codes to sign in. Every backup code can be used only once.",
+    "OtpSshd_Only_Password_Auth": "2FA is available only for password authentication. Authentication with public keys will not be affected by 2FA.",
+    "disaster_recovery": "Disaster recovery",
+    "user_settings_page": "Allow users to change their password and other settings on a web page outside Cockpit (on port 443). This feature can be enabled only if 'Override the shell of users' is enabled as well."
   }
 }

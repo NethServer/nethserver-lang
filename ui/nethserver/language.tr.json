@@ -107,7 +107,7 @@
     "nethserver-cgp": "Collectd Çizelgeleri",
     "nethserver-sogo": "SOGo",
     "nethserver-hotsync": "HotSync",
-    "nethserver-blacklist": "Threat shield",
+    "nethserver-blacklist": "Tehdit koruması",
     "nethserver-mssql": "Microsoft SQL Server"
   },
   "dashboard": {
@@ -319,7 +319,9 @@
     "invalid_backup_format": "Yedek bulunamadı ya da geçersiz",
     "remap_at_least_one_green": "Yeniden eşleştirme için en az bir yeşil arabirim seçmelisiniz",
     "assign_later": "Daha sonra ata",
-    "current_int": "Sistem arabirimleri"
+    "current_int": "Sistem arabirimleri",
+    "restore_network": "Ağ yapılandırmasını geri yükle",
+    "skip_network_info": "Geçerli ağ yapılandırması korunacak ancak işlem tamamlandığında bazı uygulamalar devre dışı bırakılabilir. Geri yükledikten sonra sistem yapılandırmasını gözden geçirerek gerekli uygulamaları yeniden etkinleştirin."
   },
   "disk_usage": {
     "title": "Disk kullanımı",
@@ -833,16 +835,34 @@
     "test_mail": "Sınama e-postası",
     "mail_sent_ok": "E-posta gönderildi!",
     "mail_sent_error": "E-posta gönderilmedi.",
-    "otp": "Two-factor authentication",
-    "otp_enable": "Enable 2FA for user {name}",
-    "otp_toggle_secrety_mode": "Sensible information",
-    "otp_Scan_QRcode": "Scan the QRcode",
-    "otp_code_for_single_use": "Backup codes",
-    "validate_the_QRcode_token": "Verification code",
-    "test_token": "Check code",
-    "otp_Step1_Download_FreeOTP":"1. Download your preferred 2FA application to your phone. If you do not have one, FreeOTP is the recommended one",
+    "shellPolicy": "Kabuk ilkesi",
+    "force_the_shell": "Kabuk kullanıcılarını değiştir",
+    "otp": "İki aşamalı kimlik doğrulaması",
+    "otp_enable": "{name} kullanıcısı için iki aşamalı kimlik doğrulamasını etkinleştir",
+    "otp_toggle_secrety_mode": "Hassas bilgiler",
+    "otp_Scan_QRcode": "QR kodunu tarayın",
+    "otp_code_for_single_use": "Yedek kodlar",
+    "validate_the_QRcode_token": "Doğrulama kodu",
+    "test_token": "Kodu denetle",
+    "OtpCockpit_status": "Sunucu Yönetimi için iki aşamalı kimlik doğrulamasını etkinleştir",
+    "OtpSshd_status": "SSH için iki aşamalı kimlik doğrulamasını etkinleştir",
+    "otp_Step1_Download_FreeOTP": "1. Download your preferred 2FA application to your phone. If you do not have one, FreeOTP is the recommended one",
     "otp_Step2_scan_with_FreeOTP": "2. Scan the QR code with your phone using the 2FA application",
-    "otp_Step3_Validate_the_X-digit_code": "3. Enter the 6-digit code provided by your application and click on 'Check code' button. If the verification code is valid, click on the 'Save' button."
+    "otp_Step3_Validate_the_X-digit_code": "3. Enter the 6-digit code provided by your application and click on 'Check code' button. If the verification code is valid, choose the services to protect.",
+    "Applications": "Uygulamalar",
+    "logout": "Oturumu Kapat",
+    "user_settings_page": "Kullanıcı ayarları sayfası",
+    "enable_user_settings_page": "Kullanıcı ayarları sayfasını etkinleştir",
+    "grant_only_trusted_networks": "Grant access only from Trusted Networks",
+    "save_user_settings_page_configuration": "Kullanıcı ayarları sayfası yapılandırmasını kaydet",
+    "cockpit_will_be_restared": "Cockpit Sunucu Yönetimi yeniden başlatılacak",
+    "activate": "Etkinleştir",
+    "to_enable": "etkinleştirin",
+    "user_settings_can_be_accessed_by_these_urls": "When enabled, user settings page can be accessed by these URLs",
+    "user_settings_page_urls_explain": "These URLs are obtained by server aliases and IP addresses on green and red interfaces.",
+    "password_updated_error_1": "Password not changed. Ensure that",
+    "password_updated_error_2": "old password",
+    "password_updated_error_3": "is correct"
   },
   "logs": {
     "title": "Günlükler"
@@ -1164,9 +1184,9 @@
     "port_list_empty": "Bu öznitelik zorunludur",
     "port_list_invalid": "Kapı numaraları listesi geçersiz",
     "tcp_ports_and_udp_ports_empty": "En az bir TCP ya da UDP kapı numarası belirtilmelidir",
-    "Not_the_expected_values": "Unexpected values",
-    "TokenValidationError": "Verification code is not valid.",
-    "TokenValidationOK": "Verification code is valid!"
+    "Not_the_expected_values": "Beklenmeyen değerler",
+    "TokenValidationError": "Doğrulama kodu geçersiz.",
+    "TokenValidationOK": "Doğrulama kodu geçerli!"
   },
   "docs": {
     "more_info_about": "Şunun hakkında ayrıntılı bilgiler",
@@ -1179,18 +1199,22 @@
     "certificates": "Sertifikalar",
     "sftp_password": "Parola kaydedilmeyecek. SSH bağlantısında bir RSA anahtarı kullanılacak.",
     "smb_login": "Hedef sunucu bir etki alanında ise 'İlgiliKullaniciAdi,EtkiAlani=etkialani.com' şeklinde geniş ifade ile yazın.",
-    "vol_size": "Yedek kümelerinin boyutu. Yedekleme hedefi bir uzak sunucu ise bu değeri küçük tutun. Varsayılan değer: 200MB.",
+    "vol_size": "Size of backup chunks in MB, keep small if the backup destination is a remote server. Default is 200MB.",
     "dns_wildcard": "Bu seçenek etkinleştirildiğinde, tüm alt etki alanları da eşleştirilir.",
     "limit_access": "9090 numaralı kapıya yalnız belirtilen IP adreslerinden erişilebilsin. Daha hassas erişim denetimi sağlamak için güvenlik duvarı kurallarını kullanın.",
     "dhcp_comma_separated_field": "Bir IP adresi ya da virgül ile ayrılmış IP adresleri listesini yazın",
     "dhcp_servers": "Sunucular",
     "remote_shell": "Uç birim ve Sunucu Yönetimi erişimi vermek için bu seçeneği etkinleştirin.",
     "list_of_ports": "Bir ya da virgül ile ayrılmış birkaç kapı numarası yazın. Örnek: '8081, 9292'",
-    "AllowGroupsToSSH_SFTP":"SSH ya da SFTP erişim izni verilecek bir ya da birkaç grup seçin. Yöneticiler her zaman SSH ve SFTP erişimini kullanabilir. root hesabının durumu \"Root oturumu açılabilsin\" seçeneğinin ayarına bağlıdır.",
+    "AllowGroupsToSSH_SFTP": "SSH ya da SFTP erişim izni verilecek bir ya da birkaç grup seçin. Yöneticiler her zaman SSH ve SFTP erişimini kullanabilir. root hesabının durumu \"Root oturumu açılabilsin\" seçeneğinin ayarına bağlıdır.",
     "ssh_everyone_info": "Yönetici olmayan hesapların temel izinlerini ayarlayın.",
     "ssh_administrators_info": "Yöneticiler her zaman SSH ve SFTP erişimini kullanabilir.",
+    "shell_bash_needed": "Once enabled, the Shell setting returned by the account provider is ignored. As a consequence, non-admin users must be granted again SSH and SFTP access permissions.",
     "otp_enable": "Add a second factor of authentication based on time. To access the Server Manger you will have to enter also a temporary token generated by an application installed on your phone.",
     "otp_Scan_QRcode": "The QR code contains a secret URL used to generate valid tokens.",
-    "otp_code_for_single_use": "If you lose your phone, you can use backup codes to sign in. Every backup code can be used only once."
+    "otp_code_for_single_use": "If you lose your phone, you can use backup codes to sign in. Every backup code can be used only once.",
+    "OtpSshd_Only_Password_Auth": "2FA is available only for password authentication. Authentication with public keys will not be affected by 2FA.",
+    "disaster_recovery": "Disaster recovery",
+    "user_settings_page": "Allow users to change their password and other settings on a web page outside Cockpit (on port 443). This feature can be enabled only if 'Override the shell of users' is enabled as well."
   }
 }

@@ -8,6 +8,7 @@ $L['AuthMode_label'] = 'Λειτουργία ελέγχου ταυτότητας
 $L['password_mode_label'] = 'Όνομα χρήστη και κωδικός';
 $L['certificate_mode_label'] = 'Πιστοποιητικό';
 $L['password_certificate_mode_label'] = 'Όνομα χρήστη, κωδικός και πιστοποιητικό';
+$L['certificate_otp_mode_label'] = 'Username, one time password and certificate';
 $L['Network_label'] = 'Δίκτυο';
 $L['Netmask_label'] = 'Μάσκα δικτύου';
 $L['ClientToClient_label'] = 'Να επιτρέπεται η κίνηση μεταξύ δικτύων πελάτη-προς-πελάτη';

@@ -8,6 +8,7 @@ $L['AuthMode_label'] = 'Hitelesítés mód';
 $L['password_mode_label'] = 'Username and password';
 $L['certificate_mode_label'] = 'Tanúsítvány';
 $L['password_certificate_mode_label'] = 'Felhasználó név, jelszó és tanúsítvány';
+$L['certificate_otp_mode_label'] = 'Username, one time password and certificate';
 $L['Network_label'] = 'Hálózat';
 $L['Netmask_label'] = 'Hálózati maszk';
 $L['ClientToClient_label'] = 'Allow client-to-client network traffic';

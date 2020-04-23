@@ -8,6 +8,7 @@ $L['AuthMode_label'] = 'Verificatie modus';
 $L['password_mode_label'] = 'Gebruikersnaam en wachtwoord';
 $L['certificate_mode_label'] = 'Certificaat';
 $L['password_certificate_mode_label'] = 'Gebruiker, wachtwoord en certificaat';
+$L['certificate_otp_mode_label'] = 'Username, one time password and certificate';
 $L['Network_label'] = 'Netwerk';
 $L['Netmask_label'] = 'Netmasker';
 $L['ClientToClient_label'] = 'Sta client-to-client netwerkverkeer toe';
