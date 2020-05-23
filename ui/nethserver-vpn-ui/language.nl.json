@@ -95,7 +95,12 @@
     "cipher": "Encryptie-algoritme",
     "hash": "Integrity-algoritme",
     "pfsgroup": "Diffie-Hellman-groep",
-    "key_lifetime": "Levensduur van de sleutel (seconden)"
+    "key_lifetime": "Levensduur van de sleutel (seconden)",
+    "ike_version": "IKE version",
+    "ikev1": "IKEv1",
+    "ikev2": "IKEv2",
+    "force_ikev1": "Force IKEv1",
+    "force_ikev2": "Force IKEv2"
   },
   "openvpn_tun": {
     "menu_title": "OVPN Tunnels",
@@ -181,6 +186,8 @@
     "configure_rw_server": "RoadWarrior-server configureren",
     "username_password_certificate": "Gebruikersnaam, wachtwoord en certificaat",
     "username_password": "Gebruikersnaam en wachtwoord",
+    "username_otp_certificate": "Username, One time password and Certificate",
+    "username_otp_certificate_waning_all_users_must_install_an_otp_application": "This policy enforces the OTP usage: users will be required to enable 2FA before accessing the VPN.",
     "certificate": "Certificaat",
     "mode": "Modus",
     "routed": "Routed",
@@ -260,7 +267,7 @@
     "account_killed_ok": "Account succesvol ontkoppeld!",
     "account_killed_error": "Account niet ontkoppeld",
     "custom_routes": "Aangepaste routes",
-    "send_email_configuration": "Configuratie verzenden via e-mail",
+    "send_email_configuration": "Send configuration via email to ",
     "address": "E-mailadres",
     "email_sent_ok": "E-mail succesvol verzonden!",
     "email_sent_error": "E-mail niet verzonden",
@@ -276,7 +283,13 @@
     "ended": "Beeïndigd",
     "today": "Vandaag",
     "last_week": "Vorige week",
-    "last_month": "Vorige maand"
+    "last_month": "Vorige maand",
+    "subnet": "subnet",
+    "net30": "net30 (obsolete)",
+    "topology_selection": "RoadWarrior topology",
+    "topology": "Topologie",
+    "certEOL": "Certificate end of life",
+    "days_life": "Number of days"
   },
   "logs": {
     "title": "Logs",
@@ -301,12 +314,15 @@
     "valid_ipV4Netmask": "Ongeldig IPv4-netwerkmasker: het moet zoiets zijn als '255.255.255.0'",
     "valid_lessThan_65536": "Een geldige TCP/UDP-poort is een nummer tussen 1 en 65536",
     "valid_hostname_fqdn_1_9223372036854775807": "Moet ten minste twee punten bevatten, zoals 'myhost.example.com'",
-    "port_in_use": "Poort is al in gebruik"
+    "port_in_use": "Poort is al in gebruik",
+    "invalid_certificate": "Invalid certificate",
+    "valid_minLength_8": "Minimum length is 8 characters"
   },
   "docs": {
     "more_info_about": "Meer info over {docsLink}",
     "right": "Geef het statische openbare IP-adres op of% any als de afstandsbediening een dynamisch openbaar IP-adres heeft.",
     "vpn_remote_network": "Configureer deze parameters alleen als u met deze account een Net to Net VPN wilt maken (compatibel met NethServer 6). Compileer deze velden niet als u een host configureert voor Net VPN.",
-    "vpn_remote_netmask": "Compileer dit veld alleen als u het veld Extern netwerk al hebt ingevuld."
+    "vpn_remote_netmask": "Compileer dit veld alleen als u het veld Extern netwerk al hebt ingevuld.",
+    "topology_selection": "The subnet topology is suitable for most use cases and allow the usage of all IPs inside the pool. The net30 is an old topology for support with Windows clients running 2.0.9 or older clients: each client is allocated a virtual /30, taking 4 IPs per client, plus 4 for the server."
   }
 }

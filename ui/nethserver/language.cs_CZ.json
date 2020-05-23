@@ -170,7 +170,6 @@
     "datetime_save_error": "Datum a čas neuloženo.",
     "shutdown_ok": "Systém se vypíná…",
     "shutdown_error": "Při vypínání došlo k chybě.",
-    "hostname_change": "Po změně názvu stroje je třeba se znovu přihlásit",
     "hostname_invalid_warn": "FQDN název stroje nemůže obsahovat „localhost“ nebo „localdomain“. Než budete moci pokračovat v nastavování, je třeba název stroje změnit",
     "disk": "Disk",
     "root_partition": "KOŘENOVÝ ODDÍL",
@@ -321,7 +320,9 @@
     "assign_later": "Přiřadit později",
     "current_int": "Rozhraní systému",
     "restore_network": "Obnovit nastavení sítě",
-    "skip_network_info": "Current network configuration will be preserved, but some applications may be disabled at the end of the process. After restoring, review the system configuration to re-enable all required applications."
+    "skip_network_info": "Current network configuration will be preserved, but some applications may be disabled at the end of the process. After restoring, review the system configuration to re-enable all required applications.",
+    "format_disk": "Formátovat disk",
+    "format_disk_message": "Formatting will erase all data on this disk"
   },
   "disk_usage": {
     "title": "Využití datového úložiště",
@@ -838,31 +839,32 @@
     "shellPolicy": "Shell policy",
     "force_the_shell": "Override the shell of users",
     "otp": "Two-factor authentication",
-    "otp_enable": "Enable 2FA for user {name}",
-    "otp_toggle_secrety_mode": "Sensible information",
-    "otp_Scan_QRcode": "Scan the QRcode",
-    "otp_code_for_single_use": "Backup codes",
-    "validate_the_QRcode_token": "Verification code",
-    "test_token": "Check code",
-    "OtpCockpit_status": "Enable 2FA for the Server Manager",
-    "OtpSshd_status": "Enable 2FA for SSH",
+    "otp_enable": "Zapnout 2FA pro uživatele {name}",
+    "otp_toggle_secrety_mode": "Smysluplná informace",
+    "otp_Scan_QRcode": "Naskenujte QR kód",
+    "otp_code_for_single_use": "Záložní kódy",
+    "validate_the_QRcode_token": "Ověřovací kód",
+    "test_token": "Zkontrolovat kód",
+    "OtpCockpit_status": "Zapnout 2FA pro správu serveru",
+    "OtpSshd_status": "Zapnout 2FA pro SSH",
+    "OtpR2WOath_status": "Enable 2FA for OpenVPN",
     "otp_Step1_Download_FreeOTP": "1. Download your preferred 2FA application to your phone. If you do not have one, FreeOTP is the recommended one",
     "otp_Step2_scan_with_FreeOTP": "2. Scan the QR code with your phone using the 2FA application",
     "otp_Step3_Validate_the_X-digit_code": "3. Enter the 6-digit code provided by your application and click on 'Check code' button. If the verification code is valid, choose the services to protect.",
-    "Applications": "Applications",
+    "Applications": "Aplikace",
     "logout": "Odhlásit se",
-    "user_settings_page": "User settings page",
-    "enable_user_settings_page": "Enable user settings page",
-    "grant_only_trusted_networks": "Grant access only from Trusted Networks",
-    "save_user_settings_page_configuration": "Save user settings page configuration",
-    "cockpit_will_be_restared": "Cockpit Server Manager will be restarted",
-    "activate": "Activate",
-    "to_enable": "to enable",
+    "user_settings_page": "Stránka s nastaveními pro uživatele",
+    "enable_user_settings_page": "Zapnout stránku s nastaveními pro uživatele",
+    "grant_only_trusted_networks": "Umožnit přístup pouze z důvěryhodných sítí",
+    "save_user_settings_page_configuration": "Uložit nastavení stránky pro nastavení uživatele",
+    "cockpit_will_be_restared": "Cockpit správa serveru bude restartována",
+    "activate": "Aktivovat",
+    "to_enable": "pro zapnutí",
     "user_settings_can_be_accessed_by_these_urls": "When enabled, user settings page can be accessed by these URLs",
     "user_settings_page_urls_explain": "These URLs are obtained by server aliases and IP addresses on green and red interfaces.",
-    "password_updated_error_1": "Password not changed. Ensure that",
-    "password_updated_error_2": "old password",
-    "password_updated_error_3": "is correct"
+    "password_updated_error_1": "Heslo nezměněno. Zajistěte aby",
+    "password_updated_error_2": "původní heslo",
+    "password_updated_error_3": "je správné"
   },
   "logs": {
     "title": "Záznamy událostí"
@@ -1184,9 +1186,11 @@
     "port_list_empty": "Tento atribut je třeba vyplnit",
     "port_list_invalid": "Neplatný seznam portů",
     "tcp_ports_and_udp_ports_empty": "Je třeba zadat alespoň jeden TCP nebo UDP port",
-    "Not_the_expected_values": "Unexpected values",
-    "TokenValidationError": "Verification code is not valid.",
-    "TokenValidationOK": "Verification code is valid!"
+    "Not_the_expected_values": "Neočekávané hodnoty",
+    "TokenValidationError": "Ověřovací kód není platný.",
+    "TokenValidationOK": "Ověřovací kód je platný",
+    "valid_hostname_0_9223372036854775807":"Invalid domain name, it must be something like 'domain.org'",
+    "Host_already_in_use_by_another_smarthost_relay": "This smart host is already used for another smart host relay, you cannot use it as default for the server"
   },
   "docs": {
     "more_info_about": "Další informace o",
@@ -1215,6 +1219,7 @@
     "otp_code_for_single_use": "If you lose your phone, you can use backup codes to sign in. Every backup code can be used only once.",
     "OtpSshd_Only_Password_Auth": "2FA is available only for password authentication. Authentication with public keys will not be affected by 2FA.",
     "disaster_recovery": "Disaster recovery",
-    "user_settings_page": "Allow users to change their password and other settings on a web page outside Cockpit (on port 443). This feature can be enabled only if 'Override the shell of users' is enabled as well."
+    "user_settings_page": "Allow users to change their password and other settings on a web page outside Cockpit (on port 443). This feature can be enabled only if 'Override the shell of users' is enabled as well.",
+    "OtpR2WOath_Auth":"The VPN policy requires the usage of OTP to access the network."
   }
 }

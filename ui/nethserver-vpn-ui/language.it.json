@@ -95,7 +95,12 @@
     "cipher": "Algoritmo di cifratura",
     "hash": "Algoritmo di integrità",
     "pfsgroup": "Gruppo Diffie-Hellman",
-    "key_lifetime": "Durata chiave (secondi)"
+    "key_lifetime": "Durata chiave (secondi)",
+    "ike_version": "IKE version",
+    "ikev1": "IKEv1",
+    "ikev2": "IKEv2",
+    "force_ikev1": "Force IKEv1",
+    "force_ikev2": "Force IKEv2"
   },
   "openvpn_tun": {
     "menu_title": "Tunnel OVPN",
@@ -181,6 +186,8 @@
     "configure_rw_server": "Configura server RoadWarrior",
     "username_password_certificate": "Utente, Password e Certificato",
     "username_password": "Utente e Password",
+    "username_otp_certificate": "Username, One time password and Certificate",
+    "username_otp_certificate_waning_all_users_must_install_an_otp_application": "This policy enforces the OTP usage: users will be required to enable 2FA before accessing the VPN.",
     "certificate": "Certificato",
     "mode": "Modalità",
     "routed": "Routed",
@@ -260,7 +267,7 @@
     "account_killed_ok": "Account disconnesso con successo",
     "account_killed_error": "Account non disconnesso",
     "custom_routes": "Instrada su vpn queste reti",
-    "send_email_configuration": "Invia configurazione per email",
+    "send_email_configuration": "Send configuration via email to ",
     "address": "Indirizzo email",
     "email_sent_ok": "Email inviata con successo!",
     "email_sent_error": "Email non inviata.",
@@ -276,7 +283,13 @@
     "ended": "Terminato",
     "today": "Oggi",
     "last_week": "Ultima settimana",
-    "last_month": "Ultimo mese"
+    "last_month": "Ultimo mese",
+    "subnet": "subnet",
+    "net30": "net30 (obsolete)",
+    "topology_selection": "RoadWarrior topology",
+    "topology": "Topologia",
+    "certEOL": "Certificate end of life",
+    "days_life": "Number of days"
   },
   "logs": {
     "title": "Log",
@@ -301,12 +314,15 @@
     "valid_ipV4Netmask": "Maschera di rete IPv4 non valida: esempio '255.255.255.0'",
     "valid_lessThan_65536": "Una porta TCP/UDP valida è un numero compreso tra 1 e 65536",
     "valid_hostname_fqdn_1_9223372036854775807": "Deve contere almeno due punti, esempio \"myhost.example.com\"",
-    "port_in_use": "Porta già utilizzata"
+    "port_in_use": "Porta già utilizzata",
+    "invalid_certificate": "Invalid certificate",
+    "valid_minLength_8": "Minimum length is 8 characters"
   },
   "docs": {
     "more_info_about": "Maggiori informazioni su {docsLink}.",
     "right": "Indicare l'indirizzo IP pubblico, se l'apparato remoto ha un indirizzo IP dinamico utilizzare  1%any.",
     "vpn_remote_network": "Compilare questo campo solo nel caso si desideri creare una VPN Net to Net su questo account (fornito per compatibilità con Nethserver 6). Non compilare questi campi per configurare una VPN host to net.",
-    "vpn_remote_netmask": "Compila questo campo solo se hai già compilato il campo precedente (Subnet remota VPN)"
+    "vpn_remote_netmask": "Compila questo campo solo se hai già compilato il campo precedente (Subnet remota VPN)",
+    "topology_selection": "The subnet topology is suitable for most use cases and allow the usage of all IPs inside the pool. The net30 is an old topology for support with Windows clients running 2.0.9 or older clients: each client is allocated a virtual /30, taking 4 IPs per client, plus 4 for the server."
   }
 }

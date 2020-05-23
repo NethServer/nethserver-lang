@@ -20,7 +20,7 @@
     "settings": {
         "title": "Setări",
         "configuration": "Configurație",
-        "status": "Enable the service",
+        "status": "Activează serviciul",
         "IgnoreIP": "IP Whitelist",
         "mail": "Email notifications",
         "notify_to": "Notify to",
@@ -63,7 +63,7 @@
     "jails":{
         "title": "Jails",
         "configuration": "Configurație",
-        "status": "Enable the service",
+        "status": "Activează serviciul",
         "apache_jails": "Apache",
         "communication_jails": "Comunicare",
         "database_jails": "Baza de date",
@@ -105,7 +105,7 @@
     },
     "validation":{
         "validation_failed": "Validarea a eșuat",
-        "not_ip_address": "Invalid IPv4 address: it should be something like '10.0.0.1'",
+        "not_ip_address": "Adresă IPv4 invalidă: ar trebui să fie ceva de forma '10.0.0.1'",
         "not_valid_email_address": "Invalid mail address: it should be something like 'myname@domain.com'",
         "valid_memberOf_enabled, disabled": "Can be enabled or disabled",
         "valid_memberOf_true, false": "Can be true or false",

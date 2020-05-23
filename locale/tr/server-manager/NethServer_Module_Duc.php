@@ -5,4 +5,4 @@ $L['Duc_Tags'] = 'disk alan inceleme kullanım';
 
 $L['Duc_label'] = 'Disk kullanımı incelemesi kullanılsın';
 $L['DucStatus_enabled_label'] = 'Etkinleştir';
-$L['DucStatus_disabled_label'] = 'Devre dışı bırak';
+$L['DucStatus_disabled_label'] = 'Etkisizleştir';

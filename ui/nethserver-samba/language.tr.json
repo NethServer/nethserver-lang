@@ -39,7 +39,7 @@
     "audit": "Denetim",
     "guestAccess_info": "Kimlik doğrulama bilgileri hatalı olsa da paylaşılmış klasöre erişim izni veriliyor.",
     "everyone_info": "Bir ziyaretçi ya da kimliği doğrulandığı halde herhangi bir erişim denetimi listesinde bulunmayan bir kullanıcı.",
-    "audit_log": "Bu seçenek etkinleştirildiğinde, okuma işlemleri veritabanına kaydedilir. Devre dışı bırakıldığında, okuma işlemleri /var/log/smbaudit.log dosyasına kaydedilir ancak veritabanına kaydedilmez."
+    "audit_log": "Bu seçenek etkinleştirildiğinde, okuma işlemleri veritabanına kaydedilir. Etkisizleştirildiğinde, okuma işlemleri /var/log/smbaudit.log dosyasına kaydedilir ancak veritabanına kaydedilmez."
   },
   "dashboard": {
     "title": "Dosya sunucusu panosu",

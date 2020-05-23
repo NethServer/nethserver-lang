@@ -95,7 +95,12 @@
     "cipher": "Encryption algorithm",
     "hash": "Integrity algorithm",
     "pfsgroup": "Diffie-Hellman group",
-    "key_lifetime": "Key life time (seconds)"
+    "key_lifetime": "Key life time (seconds)",
+    "ike_version": "IKE version",
+    "ikev1": "IKEv1",
+    "ikev2": "IKEv2",
+    "force_ikev1": "Force IKEv1",
+    "force_ikev2": "Force IKEv2"
   },
   "openvpn_tun": {
     "menu_title": "OVPN Tunnels",
@@ -181,6 +186,8 @@
     "configure_rw_server": "Configure RoadWarrior server",
     "username_password_certificate": "Username, Password and Certificate",
     "username_password": "Username and Password",
+    "username_otp_certificate": "Username, One time password and Certificate",
+    "username_otp_certificate_waning_all_users_must_install_an_otp_application": "This policy enforces the OTP usage: users will be required to enable 2FA before accessing the VPN.",
     "certificate": "Certifikat",
     "mode": "Läge",
     "routed": "Routed",
@@ -260,7 +267,7 @@
     "account_killed_ok": "Account disconnected successfully!",
     "account_killed_error": "Account not disconnected.",
     "custom_routes": "Custom routes",
-    "send_email_configuration": "Send configuration via email",
+    "send_email_configuration": "Send configuration via email to ",
     "address": "Epost adress",
     "email_sent_ok": "Email sent successfully!",
     "email_sent_error": "Email not sent.",
@@ -276,7 +283,13 @@
     "ended": "Ended",
     "today": "Today",
     "last_week": "Last week",
-    "last_month": "Last month"
+    "last_month": "Last month",
+    "subnet": "subnet",
+    "net30": "net30 (obsolete)",
+    "topology_selection": "RoadWarrior topology",
+    "topology": "Topology",
+    "certEOL": "Certificate end of life",
+    "days_life": "Number of days"
   },
   "logs": {
     "title": "Loggar",
@@ -301,12 +314,15 @@
     "valid_ipV4Netmask": "Invalid IPv4 network mask: it should be something like '255.255.255.0'",
     "valid_lessThan_65536": "A valid TCP/UDP port is a number between 1 and 65536",
     "valid_hostname_fqdn_1_9223372036854775807": "Must contain at least two dots, like 'myhost.example.com'",
-    "port_in_use": "Port already in use"
+    "port_in_use": "Port already in use",
+    "invalid_certificate": "Invalid certificate",
+    "valid_minLength_8": "Minimum length is 8 characters"
   },
   "docs": {
     "more_info_about": "More info about {docsLink}.",
     "right": "Specify the static public IP address or %any if the remote has a dynamic public IP.",
     "vpn_remote_network": "Configure these parameters only if you want to create a Net to Net VPN using this account (compatible with NethServer 6). Do not compile these fields if you're configuring a host to net VPN.",
-    "vpn_remote_netmask": "Compile this field only if you've already filled the Remote network field"
+    "vpn_remote_netmask": "Compile this field only if you've already filled the Remote network field",
+    "topology_selection": "The subnet topology is suitable for most use cases and allow the usage of all IPs inside the pool. The net30 is an old topology for support with Windows clients running 2.0.9 or older clients: each client is allocated a virtual /30, taking 4 IPs per client, plus 4 for the server."
   }
 }

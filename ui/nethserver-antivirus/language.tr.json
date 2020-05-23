@@ -9,7 +9,7 @@
         "configuration_update_failed": "Yapılandırma güncellenemedi",
         "info_notification": "İmzalar saatlik olarak indirilir. Bu sayfadaki değişiklikler bir sonraki otomatik imza indirme işleminden sonra etkili olacak.",
         "error_reading_total_memory": "Toplam bellek okunurken sorun çıktı",
-        "memory_warning": "Sistemin belleği 4GB değerinden küçük. Belleğin dolmaması için resmi ClamAV imzalarını devre dışı bırakmanız önemle önerilir."
+        "memory_warning": "Sistemin belleği 4GB değerinden küçük. Belleğin dolmaması için resmi ClamAV imzalarını etkisizleştirmeniz önemle önerilir."
     },
     "about": {
         "title": "Hakkında",

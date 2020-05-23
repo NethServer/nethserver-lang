@@ -95,7 +95,12 @@
     "cipher": "Encryption algorithm",
     "hash": "Integrity algorithm",
     "pfsgroup": "Diffie-Hellman group",
-    "key_lifetime": "Key life time (seconds)"
+    "key_lifetime": "Key life time (seconds)",
+    "ike_version": "IKE version",
+    "ikev1": "IKEv1",
+    "ikev2": "IKEv2",
+    "force_ikev1": "Force IKEv1",
+    "force_ikev2": "Force IKEv2"
   },
   "openvpn_tun": {
     "menu_title": "OVPN тунелі",
@@ -181,6 +186,8 @@
     "configure_rw_server": "Configure RoadWarrior server",
     "username_password_certificate": "Username, Password and Certificate",
     "username_password": "Username and Password",
+    "username_otp_certificate": "Username, One time password and Certificate",
+    "username_otp_certificate_waning_all_users_must_install_an_otp_application": "This policy enforces the OTP usage: users will be required to enable 2FA before accessing the VPN.",
     "certificate": "Сертифікат",
     "mode": "Режим",
     "routed": "Маршрут",
@@ -260,7 +267,7 @@
     "account_killed_ok": "Account disconnected successfully!",
     "account_killed_error": "Account not disconnected.",
     "custom_routes": "Custom routes",
-    "send_email_configuration": "Send configuration via email",
+    "send_email_configuration": "Send configuration via email to ",
     "address": "Звідки пошту",
     "email_sent_ok": "Email sent successfully!",
     "email_sent_error": "Email not sent.",
@@ -276,7 +283,13 @@
     "ended": "Ended",
     "today": "Сьогодні",
     "last_week": "Минулого тижня",
-    "last_month": "Минулого місяця"
+    "last_month": "Минулого місяця",
+    "subnet": "subnet",
+    "net30": "net30 (obsolete)",
+    "topology_selection": "RoadWarrior topology",
+    "topology": "Topology",
+    "certEOL": "Certificate end of life",
+    "days_life": "Number of days"
   },
   "logs": {
     "title": "Балки",
@@ -301,12 +314,15 @@
     "valid_ipV4Netmask": "Невірна мережева маска IPv4: має бути щось на зразок '255.255.255.0'",
     "valid_lessThan_65536": "Допустимий TCP / UDP порт - це число від 1 до 65536",
     "valid_hostname_fqdn_1_9223372036854775807": "Повинно містити принаймні дві точки, наприклад, як 'myhost.example.com'",
-    "port_in_use": "Порт вже використовується"
+    "port_in_use": "Порт вже використовується",
+    "invalid_certificate": "Invalid certificate",
+    "valid_minLength_8": "Minimum length is 8 characters"
   },
   "docs": {
     "more_info_about": "Докладніше про {docsLink}.",
     "right": "Укажіть статичну загальнодоступну IP-адресу або %a, якщо пульт має динамічний загальнодоступний IP-адресу.",
     "vpn_remote_network": "Налаштуйте ці параметри лише в тому випадку, якщо ви хочете створити VPN від Net до Net за допомогою цього облікового запису (сумісний з NethServer 6). Не компілюйте ці поля, якщо ви налаштовуєте хост для мережі VPN.",
-    "vpn_remote_netmask": "Складіть це поле лише в тому випадку, якщо ви вже заповнили віддалене мережеве поле"
+    "vpn_remote_netmask": "Складіть це поле лише в тому випадку, якщо ви вже заповнили віддалене мережеве поле",
+    "topology_selection": "The subnet topology is suitable for most use cases and allow the usage of all IPs inside the pool. The net30 is an old topology for support with Windows clients running 2.0.9 or older clients: each client is allocated a virtual /30, taking 4 IPs per client, plus 4 for the server."
   }
 }

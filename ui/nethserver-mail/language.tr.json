@@ -4,7 +4,7 @@
     "list": "Liste",
     "search": "Arama",
     "enable": "Etkinleştir",
-    "disable": "Devre dışı bırak",
+    "disable": "Etkisizleştir",
     "create": "Ekle",
     "edit": "Düzenle",
     "delete": "Sil",
@@ -136,7 +136,7 @@
         "SW_list_type": "Kimden izni",
         "RW_list_type": "Kime izni",
         "SB_list_type": "Kimden engellemesi",
-        "disabled": "Devre dışı",
+        "disabled": "Etkisizleştirilmiş",
         "add_spam_header": "Önemsiz ileti konusuna ön ek eklensin",
         "spam_prefix": "Ön ek",
         "virus_check": "Etkinleştir",
@@ -274,7 +274,7 @@
         "configuration_updated_error": "Yapılandırma güncellenmedi.",
         "groups_created_ok": "Gruplar eklendi!",
         "groups_created_error": "Gruplar eklenmedi.",
-        "groups_not_found": "Gruplar için otomatik takma ad verme devre dışı bırakılmış",
+        "groups_not_found": "Gruplar için otomatik takma ad verme etkisizleştirilmiş",
         "groups_not_found_desc": "Grup e-posta kutularının otomatik olarak oluşturulması için aşağıdaki düğmeye tıklayın",
         "create_groups": "Gruplar kullanılsın",
         "access_email": "E-posta hizmetlerine erişilsin",
@@ -378,7 +378,10 @@
         "check_credentials": "Kimlik doğrulama bilgilerini denetle",
         "check": "Denetle",
         "no_smarthost_found": "Herhangi bir aktarım sunucusu bulunamadı",
-        "default_smarthost": "Varsayılan smarthost ayarları"
+        "default_smarthost": "Varsayılan smarthost ayarları",
+        "smarthost_recipient": "Alıcı",
+        "smarthost_sender": "Gönderen",
+        "smarthost_type_For": "Şunun için"
     },
     "connectors": {
         "menu_title": "Bağlayıcılar",
@@ -425,7 +428,8 @@
         "connector_deleted_ok": "Bağlayıcı silindi!",
         "connector_deleted_error": "Bağlayıcı silinmedi.",
         "download_output": "Şunun çıktısını indir",
-        "no_connectors_found": "Herhangi bir bağlayıcı bulunamadı"
+        "no_connectors_found": "Herhangi bir bağlayıcı bulunamadı",
+        "filter_info": "Süzgeci yalnız uzak sunucuda önemsiz iletiden ve virüsten koruma denetimleri kullanılmıyorsa etkinleştirin. Hatalı algılanan iletiler yok sayılabilir ve kurtarılamaz"
     },
     "logs": {
         "title": "Günlükler",
@@ -446,7 +450,7 @@
         "bayes_description": "Bayes süzgeci 200 normal ve 200 önemsiz iletiyi öğrendikten sonra etkin olacak.",
         "sender_info": "Geçerli bir e-posta adresi ya da '@nethserver.org' gibi '@' simgesi ile başlayan bir etki alanı yazın.",
         "access_bypass_list": "Kimlik doğrulaması ya da şifrelemeyi desteklemeyen IP adresleri yazın (yazıcılar, tarayıcılar gibi).",
-        "sender_validation": "Bu seçenek etkinleştirildiğinde, gönderen e-posta adresi (From:) kullanıcı adına ya d aek adreslerden biri ile aynı olmalıdır.",
+        "sender_validation": "Bu seçenek etkinleştirildiğinde, gönderen e-posta adresi (From:) kullanıcı adı ya da ek adreslerden biri ile aynı olmalıdır.",
         "lifetime": "0 değeri yalnız bir kez deneneceği anlamına gelir."
     },
     "mailbox": {
@@ -455,7 +459,7 @@
     },
     "validation": {
         "validation_failed": "Doğrulanamadı",
-        "valid_memberOf_enabled, disabled": "Etkinleştirilebilir ya da devre dışı bırakılabilir",
+        "valid_memberOf_enabled, disabled": "Etkinleştirilebilir ya da etkisizleştirilebilir",
         "valid_memberOf_true, false": "Doğru ya da yanlış olabilir",
         "valid_lessThan_25.1": "0 ile 25 arasında bir değer olmalıdır",
         "valid_integer": "Bir pozitif tamsayı olmalıdır",
@@ -497,6 +501,8 @@
         "smarthost_not_found": "Smarthost bulunamadı",
         "must_start_with_at": "Bir etki alanı '@nethserver.org' gibi '@' simgesi ile başlamalıdır",
         "valid_lessThan_1001": "Değer en fazla 1.000 olabilir",
-        "valid_lessThan_31": "Değer en fazla 30 olabilir"
+        "valid_lessThan_31": "Değer en fazla 30 olabilir",
+        "Host_already_in_use_with_another_account": "Bu akıllı sunucu zaten yapılandırılmış. Kullanmak istiyorsanız hesap kimlik doğrulama bilgilerini yazmalısınız",
+        "Smarthost_already_used_as_default":"Bu akıllı sunucu zaten sunucu için varsayılan olarak kullanılıyor"
     }
 }

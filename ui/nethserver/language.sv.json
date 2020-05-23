@@ -170,7 +170,6 @@
     "datetime_save_error": "Date and Time not saved.",
     "shutdown_ok": "The system is shutting down...",
     "shutdown_error": "Shutting down error occured.",
-    "hostname_change": "After hostname change you have to login again",
     "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding with other configurations",
     "disk": "Disk",
     "root_partition": "ROOT PARTITION",
@@ -321,7 +320,9 @@
     "assign_later": "Assign later",
     "current_int": "System interfaces",
     "restore_network": "Restore network configuration",
-    "skip_network_info": "Current network configuration will be preserved, but some applications may be disabled at the end of the process. After restoring, review the system configuration to re-enable all required applications."
+    "skip_network_info": "Current network configuration will be preserved, but some applications may be disabled at the end of the process. After restoring, review the system configuration to re-enable all required applications.",
+    "format_disk": "Format disk",
+    "format_disk_message": "Formatting will erase all data on this disk"
   },
   "disk_usage": {
     "title": "Diskanvädning",
@@ -846,6 +847,7 @@
     "test_token": "Check code",
     "OtpCockpit_status": "Enable 2FA for the Server Manager",
     "OtpSshd_status": "Enable 2FA for SSH",
+    "OtpR2WOath_status": "Enable 2FA for OpenVPN",
     "otp_Step1_Download_FreeOTP": "1. Download your preferred 2FA application to your phone. If you do not have one, FreeOTP is the recommended one",
     "otp_Step2_scan_with_FreeOTP": "2. Scan the QR code with your phone using the 2FA application",
     "otp_Step3_Validate_the_X-digit_code": "3. Enter the 6-digit code provided by your application and click on 'Check code' button. If the verification code is valid, choose the services to protect.",
@@ -1186,7 +1188,9 @@
     "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified",
     "Not_the_expected_values": "Unexpected values",
     "TokenValidationError": "Verification code is not valid.",
-    "TokenValidationOK": "Verification code is valid!"
+    "TokenValidationOK": "Verification code is valid!",
+    "valid_hostname_0_9223372036854775807":"Invalid domain name, it must be something like 'domain.org'",
+    "Host_already_in_use_by_another_smarthost_relay": "This smart host is already used for another smart host relay, you cannot use it as default for the server"
   },
   "docs": {
     "more_info_about": "More info about",
@@ -1215,6 +1219,7 @@
     "otp_code_for_single_use": "If you lose your phone, you can use backup codes to sign in. Every backup code can be used only once.",
     "OtpSshd_Only_Password_Auth": "2FA is available only for password authentication. Authentication with public keys will not be affected by 2FA.",
     "disaster_recovery": "Disaster recovery",
-    "user_settings_page": "Allow users to change their password and other settings on a web page outside Cockpit (on port 443). This feature can be enabled only if 'Override the shell of users' is enabled as well."
+    "user_settings_page": "Allow users to change their password and other settings on a web page outside Cockpit (on port 443). This feature can be enabled only if 'Override the shell of users' is enabled as well.",
+    "OtpR2WOath_Auth":"The VPN policy requires the usage of OTP to access the network."
   }
 }

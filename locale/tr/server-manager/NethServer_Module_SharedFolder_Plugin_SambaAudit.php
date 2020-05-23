@@ -5,4 +5,4 @@
 $L['SmbAuditStatus_label'] = 'Paylaşılmış klasör denetimi kullanılsın';
 $L['SambaAudit_Title'] = 'Samba Denetimi';
 $L['enabled_label'] = 'Etkinleştir';
-$L['disabled_label'] = 'Devre dışı bırak';
+$L['disabled_label'] = 'Etkisizleştir';

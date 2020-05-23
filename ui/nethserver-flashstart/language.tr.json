@@ -31,7 +31,7 @@
     "dashboard":{
         "title": "Pano",
         "error_retrieving_dashboard_data": "Pano verileri alınırken sorun çıktı",
-        "flashstart_enabled": "FlashStart kullanılıyor",
+        "flashstart_enabled": "FlashStart etkinleştirilmiş",
         "authentication_status": "Kimlik doğrulama durumu",
         "cloud_portal": "Süzgeç yapılandırması",
         "access": "Bulut portalinde düzenle"

@@ -49,7 +49,7 @@
   "remove_shortcut": "Rimuovi scorciatoia",
   "add_pin": "Aggiungi alla home page",
   "remove_pin": "Rimuovi dalla home page",
-  "found": "trovato",
+  "found": "trovate",
   "never_expires": "Non scade",
   "register": "Registra",
   "add": "Aggiungi",
@@ -170,7 +170,6 @@
     "datetime_save_error": "Data ed Ora non sono state modificate.",
     "shutdown_ok": "Il sistema sta eseguendo lo spegnimento...",
     "shutdown_error": "Si è verificato un errore durante lo spegnimento.",
-    "hostname_change": "Dopo il cambio di hostname, è necessario effettuare un nuovo login",
     "hostname_invalid_warn": "Il nome FQDN del server non può contenere 'localhost' o 'localdomain'. Cambiare l'hostname prima di effettuare ulteriori configurazioni",
     "disk": "Disco",
     "root_partition": "PARTIZIONE ROOT",
@@ -321,7 +320,9 @@
     "assign_later": "Assegna in seguito",
     "current_int": "Interfacce del sistema",
     "restore_network": "Ripristina configurazione di rete",
-    "skip_network_info": "La configurazione di rete corrente verrà mantenuta, ma alcune applicazioni potrebbero essere disabilitate al termine del processo. Dopo il restore, verificare la configurazione del sistema per riabilitare tutte le applicazioni richieste."
+    "skip_network_info": "La configurazione di rete corrente verrà mantenuta, ma alcune applicazioni potrebbero essere disabilitate al termine del processo. Dopo il restore, verificare la configurazione del sistema per riabilitare tutte le applicazioni richieste.",
+    "format_disk": "Formatta disco",
+    "format_disk_message": "La formattazione cancellerà tutti i dati in questo disco"
   },
   "disk_usage": {
     "title": "Utilizzo disco",
@@ -846,6 +847,7 @@
     "test_token": "Controlla codice",
     "OtpCockpit_status": "Abilita 2FA per il Server Manager",
     "OtpSshd_status": "Abilita 2FA per SSH",
+    "OtpR2WOath_status": "Abilita 2FA per OpenVPN",
     "otp_Step1_Download_FreeOTP": "1. Utilizza un'applicazione per 2FA sul telefono. Se fosse necessario installarla, raccomandiamo FreeOTP",
     "otp_Step2_scan_with_FreeOTP": "Scansiona il codice QR con il telefono usando l'applicazione per la 2FA",
     "otp_Step3_Validate_the_X-digit_code": "Inserire il codice di 6 cifre fornito dall'applicazione e fare click su 'Controlla codice'. Se il codice è valido, selezionare i servizi da proteggere.",
@@ -1186,7 +1188,9 @@
     "tcp_ports_and_udp_ports_empty": "Deve essere specificata almeno una porta TCP o UDP",
     "Not_the_expected_values": "Valori inaspettati",
     "TokenValidationError": "Codice di verifica non valido.",
-    "TokenValidationOK": "Codice di verifica valido!"
+    "TokenValidationOK": "Codice di verifica valido!",
+    "valid_hostname_0_9223372036854775807":"Invalid domain name, it must be something like 'domain.org'",
+    "Host_already_in_use_by_another_smarthost_relay": "This smart host is already used for another smart host relay, you cannot use it as default for the server"
   },
   "docs": {
     "more_info_about": "Maggiori informazioni",
@@ -1215,6 +1219,7 @@
     "otp_code_for_single_use": "In caso di smarrimento del telefono, è possibile utilizzare i codici di backup per l'accesso. Ogni codice di backup può essere utilizzato una sola volta.",
     "OtpSshd_Only_Password_Auth": "La 2FA è disponibile solo per l'autenticazione con password. L'autenticazione con chiave pubblica non è soggetta al secondo fattore.",
     "disaster_recovery": "Ripristino di emergenza",
-    "user_settings_page": "Permetti agli utenti di cambiare la password e altre impostazioni su una pagina web fuori da Cockpit (sulla porta 443). Questa funzionalità può essere abilitata solo se anche 'Ignora la shell degli utenti' è abilitato."
+    "user_settings_page": "Permetti agli utenti di cambiare la password e altre impostazioni su una pagina web fuori da Cockpit (sulla porta 443). Questa funzionalità può essere abilitata solo se anche 'Ignora la shell degli utenti' è abilitato.",
+    "OtpR2WOath_Auth":"La policy VPN richiede l'uso di un OTP per accedere alla rete."
   }
 }

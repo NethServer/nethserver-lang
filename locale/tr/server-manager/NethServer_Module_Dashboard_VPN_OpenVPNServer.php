@@ -1,9 +1,9 @@
 <?php
 
 $L['ovpn_server'] = "OpenVPN sunucusu";
-$L['ovpn_disabled'] = 'OpenVPN sunucusu devre dışı';
-$L['enabled'] = 'Etkin';
-$L['disabled'] = 'Devre dışı';
+$L['ovpn_disabled'] = 'OpenVPN sunucusu etkisizleştirilmiş';
+$L['enabled'] = 'Etkinleştirilmiş';
+$L['disabled'] = 'Etkisizleştirilmiş';
 $L['routed'] = 'Yöneltilmiş';
 $L['bridged'] = 'Köprülenmiş';
 $L['password'] = 'Parola';

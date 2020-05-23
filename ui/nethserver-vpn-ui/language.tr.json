@@ -5,7 +5,7 @@
   "search": "Arama",
   "warning": "Uyarı",
   "enable": "Etkinleştir",
-  "disable": "Devre Dışı Bırak",
+  "disable": "Etkisizleştir",
   "edit": "Düzenle",
   "save": "Kaydet",
   "delete": "Sil",
@@ -95,7 +95,12 @@
     "cipher": "Şifreleme algoritması",
     "hash": "Bütünleştirme algoritması",
     "pfsgroup": "Diffie-Hellman grubu",
-    "key_lifetime": "Anahtar ömrü (saniye)"
+    "key_lifetime": "Anahtar ömrü (saniye)",
+    "ike_version": "IKE sürümü",
+    "ikev1": "IKEv1",
+    "ikev2": "IKEv2",
+    "force_ikev1": "IKEv1 dayatılsın",
+    "force_ikev2": "IKEv2 dayatılsın"
   },
   "openvpn_tun": {
     "menu_title": "OVPN Tünelleri",
@@ -164,7 +169,7 @@
     "strong": "Zor",
     "auto": "Otomatik",
     "auto_choose": "Sunucu/istemci iletişimi",
-    "disabled": "Devre dışı",
+    "disabled": "Etkisizleştirilmiş",
     "lzo": "LZO",
     "lz4": "LZ4",
     "running": "Çalışıyor",
@@ -174,13 +179,15 @@
     "menu_title": "OVPN RoadWarrior",
     "title": "OpenVPN RoadWarrior",
     "rw_server": "RoadWarrior sunucusu",
-    "enabled": "Etkin",
+    "enabled": "Etkinleştirilmiş",
     "auth_mode": "Kimlik doğrulama kipi",
     "configuration_updated_ok": "Yapılandırma güncellendi!",
     "configuration_updated_error": "Yapılandırma güncellenmedi.",
     "configure_rw_server": "RoadWarrior sunucusunu yapılandır",
     "username_password_certificate": "Kullanıcı Adı, Parola ve Sertifika",
     "username_password": "Kullanıcı Adı ve Parola",
+    "username_otp_certificate": "Kullanıcı adı, Tek kullanımlık parola ve Sertifika",
+    "username_otp_certificate_waning_all_users_must_install_an_otp_application": "Bu ilke tek kullanımlık parola kullanılmasını zorunlu kılar. Kullanıcıların VPN üzerinden ağa erişebilmesi için iki aşamalı kimlik doğrulama özelliğini etkinleştirmeleri gerekir.",
     "certificate": "Sertifika",
     "mode": "Kip",
     "routed": "Yöneltilmiş",
@@ -223,10 +230,10 @@
     "user": "Kullanıcı",
     "vpn_remote_network": "VPN uzak ağ",
     "vpn_remote_netmask": "VPN uzak ağ maskesi",
-    "openvpn_rw_server_is_disabled": "OpenVPN RoadWarrior sunucusu devre dışı",
+    "openvpn_rw_server_is_disabled": "OpenVPN RoadWarrior sunucusu etkisizleştirilmiş",
     "openvpn_rw_server_is_disabled_desc": "Yapılandırmak için aşağıdaki düğmeye tıklayın",
     "enable_openvpn_rw_server": "OpenVPN RoadWarrior sunucusunu etkinleştir",
-    "disabled": "Devre dışı",
+    "disabled": "Etkisizleştirilmiş",
     "lzo": "LZO",
     "lz4": "LZ4",
     "V_status": "Geçerli",
@@ -260,7 +267,7 @@
     "account_killed_ok": "Hesap bağlantısı kesildi!",
     "account_killed_error": "Hesap bağlantısı kesilmedi.",
     "custom_routes": "Özel yöneltmeler",
-    "send_email_configuration": "Yapılandırmayı e-posta ile gönder",
+    "send_email_configuration": "Yapılandırmayı e-posta ile şuraya gönder",
     "address": "E-posta adresi",
     "email_sent_ok": "E-posta gönderildi!",
     "email_sent_error": "E-posta gönderilmedi.",
@@ -276,7 +283,13 @@
     "ended": "Bitiş",
     "today": "Bugün",
     "last_week": "Geçen hafta",
-    "last_month": "Geçen ay"
+    "last_month": "Geçen ay",
+    "subnet": "alt ağ",
+    "net30": "net30 (kullanımdan kaldırıldı)",
+    "topology_selection": "RoadWarrior topolojisi",
+    "topology": "Topoloji",
+    "certEOL": "Sertifikanın kullanım ömrü",
+    "days_life": "Gün sayısı"
   },
   "logs": {
     "title": "Günlükler",
@@ -301,12 +314,15 @@
     "valid_ipV4Netmask": "IPv4 ağ maskesi geçersiz: '255.255.255.0' örneğindeki gibi olmalıdır",
     "valid_lessThan_65536": "Geçerli TCP/UDP kapı numaraları 1 ile 65536 arasındadır",
     "valid_hostname_fqdn_1_9223372036854775807": "'sunucum.websitem.com' örneğindeki gibi en az iki nokta içermelidir",
-    "port_in_use": "Kapı numarası zaten kullanılıyor"
+    "port_in_use": "Kapı numarası zaten kullanılıyor",
+    "invalid_certificate": "Sertifika geçersiz",
+    "valid_minLength_8": "En az 8 karakter uzunluğunda olmalıdır"
   },
   "docs": {
     "more_info_about": "{docsLink} hakkında ayrıntılı bilgiler.",
     "right": "Uzak herkese açık sabit IP adresini yazın. Sabit IP adresi yoksa %any yazın.",
     "vpn_remote_network": "Bu parametreleri yalnız bu hesabı kullanarak bir ağdan ağa VPN (NethServer 6 ile uyumlu) oluşturmak istiyorsanız yapılandırın. Bir sunucudan ağa VPN yapılandırıyorsanız bu alanları doldurmayın.",
-    "vpn_remote_netmask": "Bu alanı yalnız uzak ağ alanını doldurduysanız kullanın"
+    "vpn_remote_netmask": "Bu alanı yalnız uzak ağ alanını doldurduysanız kullanın",
+    "topology_selection": "Alt ağ topolojisi çoğu duruma uygundur. ve havuzdaki tüm IP adreslerinin kullanılmasına izin verir. net30, Windows 2.0.9 ya da daha eski istemciler tarafından desteklenen eski bir topolojidir. Her istemci için sanal bir /30 ayrılır, her istemci için 4 ve sunucu için de 4 IP adresi alınır."
   }
 }

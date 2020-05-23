@@ -15,10 +15,10 @@
     "no_results_text": "Selectează o copie de siguranță și inserează cel puțin 4 caractere, apoi apasă Caută",
     "warning": "Avertizare",
     "too_many_results": "Căutarea ta a produs {0} rezultate. Încearcă să reduci rezultatele schimbând tiparul. (Rezultate max: 500)",
-    "restore_files": "Restore {0} items",
-    "overwrite_files": "Overwrite {0} items",
-    "files_restored_ok": "Items restored successfully!",
-    "files_restored_error": "Items not restored.",
+    "restore_files": "Restaurează {0} elemente",
+    "overwrite_files": "Suprascrie {0} elemente",
+    "files_restored_ok": "Elementele restaurate cu succes!",
+    "files_restored_error": "Elementele nu au fost restaurate.",
     "override_restore": "Suprascrie",
     "choose_mode": "Alege mod",
     "files_directories": "Fișiere sau directoare",
@@ -27,8 +27,8 @@
     "nothing_selected": "Nimic selectat de restaurat",
     "selected": "Selectat",
     "overwritten": "suprascris",
-    "restored_list": "List of restored items",
-    "error_restored_list": "There was an error restoring the items.",
+    "restored_list": "Lista elementelor restaurate",
+    "error_restored_list": "S-a produs o eroare la restaurarea elementelor.",
     "are_you_sure": "Ești sigur?",
     "cancel": "Anulare",
     "backup_disabled": "Copie de siguranță este dezactivată. Activeaz-o înainte de restaurarea datelor.",
@@ -46,7 +46,7 @@
     "filter_label": "Filtru Regexp"
   },
   "dashboard": {
-    "title": "Restore data dashboard",
+    "title": "Restaurează datele tabloului de bord",
     "app": "Restaurează date",
     "last_run": "Ultima executare",
     "configured_backups": "Copii de siguranță configurate",
@@ -55,7 +55,7 @@
   },
   "docs": {
     "more_info_about": "Mai multe informații despre",
-    "override_restore": "<li>If <b>checked</b> the restored items will overwrite the current item.</li><li>If <b>not checked</b> the restored items will be created in the same path with date included in the name and <code>.restore</code> prepended (es. .restore-20190729-153318-myitem).</li>",
+    "override_restore": "<li>Dacă <b>sunt bifate</b> elementele restaurate vor suprascrie elementul curent.</li><li>Dacă <b>nu sunt bifate</b> elementele restaurate vor fi create în aceeași cale cu data inclusă în nume și <code>.restore</code> atașat în față (ex. .restore-20190729-153318-elementulmeu).</li>",
     "choose_mode": "<li><b>Fișiere sau directoare</b>: Caută numai fișiere și directoare</li><li><b>Dosare mail</b>: Căutare numai dosare email</li><li><b>Avansat</b>: Caută tot (acceptă wildcards)</li>"
   }
 }

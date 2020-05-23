@@ -73,10 +73,10 @@
     "dashboard":{
         "title": "Hotspot dashboard",
         "app": "Hotspot",
-        "error_retrieving_dashboard_data": "Error retrieving dashboard data",
+        "error_retrieving_dashboard_data": "Eroare la obținerea datelor panoului de bord",
         "mac_address": "Adresă MAC",
         "ip_address": "Adresă IP",
-        "connected": "Connected",
+        "connected": "Conectat",
         "session_key": "Session key",
         "session_time": "Session time",
         "idle_time": "Idle time",

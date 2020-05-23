@@ -3,7 +3,7 @@
 $L['BypassSrc_Title'] = 'Vekil sunucuda atlanacak sunucular';
 $L['Key_label'] = 'Ad';
 $L['name_label'] = 'Ad';
-$L['status_label'] = 'Etkin';
+$L['status_label'] = 'Etkinleştirilmiş';
 $L['Host_label'] = 'Kaynak';
 $L['Hosts_label'] = 'Sunucular';
 $L['HostGroups_label'] = 'Sunucu grupları';

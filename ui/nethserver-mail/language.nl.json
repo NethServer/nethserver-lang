@@ -378,7 +378,10 @@
         "check_credentials": "Controleer credentials",
         "check": "Controleer",
         "no_smarthost_found": "Geen relayhosts gevonden",
-        "default_smarthost": "Standaard relayhost-instellingen"
+        "default_smarthost": "Standaard relayhost-instellingen",
+        "smarthost_recipient": "Recipient",
+        "smarthost_sender": "Verzender",
+        "smarthost_type_For": "For"
     },
     "connectors": {
         "menu_title": "Connectoren",
@@ -425,7 +428,8 @@
         "connector_deleted_ok": "Connector met succes verwijderd!",
         "connector_deleted_error": "Connector niet verwijderd",
         "download_output": "Download resultaten voor",
-        "no_connectors_found": "Geen connectoren gevonden"
+        "no_connectors_found": "Geen connectoren gevonden",
+        "filter_info": "Enable the filter only if antispam and antivirus checks are not available on the remote server: false positive messages could be discarded and not recoverable"
     },
     "logs": {
         "title": "Logs",
@@ -459,8 +463,8 @@
         "valid_memberOf_true, false": "Kan waar of onwaar zijn",
         "valid_lessThan_25.1": "Moet een geheel getal tussen 0 en 25 zijn",
         "valid_integer": "Moet een positief geheel getal zijn",
-        "valid_greylist_level": "Moet een geheel getal tussen 0 en 25 zijn. Moet lager zijn dan de 'Spam drempel",
-        "valid_spamtag_level": "Moet een geheel getal tussen 0 en 25 zijn. Moet lager zijn dan 'Bericht spamdrempel weigeren",
+        "valid_greylist_level": "Must be between 0 and 25. Must be lower than 'Spam threshold'",
+        "valid_spamtag_level": "Must be between 0 and 25.  Must be lower than 'Deny message spam threshold'",
         "valid_spamkill_level": "Moet een geheel getal tussen 0 en 25 zijn",
         "valid_rule": "Moet een geldig e-mailadres of een domein zijn",
         "valid_extension": "Moet een geldige bestandsextensie zijn",
@@ -497,6 +501,8 @@
         "smarthost_not_found": "Relayhost niet gevonden",
         "must_start_with_at": "Een domein moet beginnen met het '@' symbool zoals '@nethserver.org'",
         "valid_lessThan_1001": "De maximaal toegestane waarde is 1000",
-        "valid_lessThan_31": "De maximaal toegestane waarde is 30"
+        "valid_lessThan_31": "De maximaal toegestane waarde is 30",
+        "Host_already_in_use_with_another_account": "This smart host has been already configured. If you want still to use it, you must enter again credentials for account ",
+        "Smarthost_already_used_as_default":"This smart host is already used as the default for the server"
     }
 }

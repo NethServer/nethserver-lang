@@ -378,7 +378,10 @@
         "check_credentials": "Check credentials",
         "check": "Check",
         "no_smarthost_found": "No relay hosts found",
-        "default_smarthost": "Default smarthost settings"
+        "default_smarthost": "Default smarthost settings",
+        "smarthost_recipient": "Recipient",
+        "smarthost_sender": "Sender",
+        "smarthost_type_For": "For"
     },
     "connectors": {
         "menu_title": "Connectors",
@@ -425,7 +428,8 @@
         "connector_deleted_ok": "Connector deleted successfully!",
         "connector_deleted_error": "Connector not deleted.",
         "download_output": "Download output for",
-        "no_connectors_found": "No connectors found"
+        "no_connectors_found": "No connectors found",
+        "filter_info": "Enable the filter only if antispam and antivirus checks are not available on the remote server: false positive messages could be discarded and not recoverable"
     },
     "logs": {
         "title": "Logs",
@@ -459,8 +463,8 @@
         "valid_memberOf_true, false": "Can be true or false",
         "valid_lessThan_25.1": "Must be between 0 and 25",
         "valid_integer": "Must be a positive integer",
-        "valid_greylist_level": "Must be between 0 and 25. Must be lower then 'Spam threshold'",
-        "valid_spamtag_level": "Must be between 0 and 25.  Must be lower then 'Deny message spam threshold'",
+        "valid_greylist_level": "Must be between 0 and 25. Must be lower than 'Spam threshold'",
+        "valid_spamtag_level": "Must be between 0 and 25.  Must be lower than 'Deny message spam threshold'",
         "valid_spamkill_level": "Must be between 0 and 25",
         "valid_rule": "Must be a valid email address or a domain",
         "valid_extension": "Must be a valid file extension",
@@ -497,6 +501,8 @@
         "smarthost_not_found": "Smarthost not found",
         "must_start_with_at": "A domain must start with the '@' symbol like '@nethserver.org'",
         "valid_lessThan_1001": "Maximum allowed value is 1000",
-        "valid_lessThan_31": "Maximum allowed value is 30"
+        "valid_lessThan_31": "Maximum allowed value is 30",
+        "Host_already_in_use_with_another_account": "This smart host has been already configured. If you want still to use it, you must enter again credentials for account ",
+        "Smarthost_already_used_as_default":"This smart host is already used as the default for the server"
     }
 }

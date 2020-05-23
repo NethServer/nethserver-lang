@@ -8,5 +8,5 @@ $L['dns_status_label'] = 'DNS sunucusu';
 $L['dhcp_status_label'] = 'DHCP sunucusu';
 $L['dhcp_start_label'] = 'IP aralığı başlangıcı';
 $L['dhcp_end_label'] = 'IP aralığı sonu';
-$L['enabled'] = 'Etkin';
-$L['disabled'] = 'Devre dışı';
+$L['enabled'] = 'Etkinleştirilmiş';
+$L['disabled'] = 'Etkisizleştirilmiş';

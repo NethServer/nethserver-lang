@@ -31,7 +31,7 @@
     "error_restored_list": "Ögeler geri yüklenirken bir sorun çıktı.",
     "are_you_sure": "Emin misiniz",
     "cancel": "İptal",
-    "backup_disabled": "Bu yedek devre dışı. Verileri geri yüklemeden önce etkinleştirin.",
+    "backup_disabled": "Bu yedek etkisizleştirilmiş. Verileri geri yüklemeden önce etkinleştirin.",
     "enable": "Etkinleştir"
   },
   "about": {

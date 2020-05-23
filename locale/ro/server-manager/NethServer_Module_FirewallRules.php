@@ -120,6 +120,6 @@ $L['valid_platform,fwrule-modify,fwrule-trafficshaping,3'] = 'Regulile de config
 $L['valid_platform,fwrule-modify,fwrule-trafficshaping,4'] = 'Regulile de configurare a traficului permit numai următoarele tipuri de destinații: zonă, gazdă, interval IP, CIDR, roșu.';
 
 $L['valid_platform,fwrule-modify,fwrule-ndpi,3'] = 'Regulile care utilizează protocolul DPI ca serviciu nu permit valoarea "Oricare" ca sursă sau destinație.';
-$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Rules using DPI protocol as a service do not allow "Firewall" as source nor destination.';
+$L['valid_platform,fwrule-modify,fwrule-ndpi,4'] = 'Regulile care utilizează protocolul DPI ca serviciu nu permit „Firewall-ul” ca sursă și nici destinație.';
 $L['valid_platform,fwrule-modify,fwrule-ndpi,5'] = 'Regulile de rutare nu permit setarea unui protocol DPI ca serviciu.';
 $L['valid_platform,fwrule-modify,fwrule-ndpi,6'] = 'Acțiunea "Respingere" nu are suport pentru regulile care utilizează protocolul DPI ca serviciu: utilizează în schimb opțiunea "Drop".';
