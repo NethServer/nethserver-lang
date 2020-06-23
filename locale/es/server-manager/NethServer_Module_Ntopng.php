@@ -10,7 +10,6 @@ $L['Ntopng_Title'] = 'Monitor de ancho de banda';
 $L['Ntopng_Description'] = 'Configuración del monitor de ancho de banda';
 $L['Authentication_label'] = 'Habilitar autentificación';
 $L['Advanced_label'] = 'Avanzado';
-$L['Alerts_label'] = 'Habilitar alertas';
 $L['Interfaces_label'] = 'Interfaces';
 
 $L['NtopngStatus_Title'] = 'Uso del ancho de banda';

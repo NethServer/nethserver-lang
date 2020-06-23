@@ -10,7 +10,6 @@ $L['Ntopng_Title'] = 'Monitorizare lățime de bandă';
 $L['Ntopng_Description'] = 'Configurație monitorizare lățime de bandă';
 $L['Authentication_label'] = 'Activează autentificarea';
 $L['Advanced_label'] = 'Avansat';
-$L['Alerts_label'] = 'Activează alertele';
 $L['Interfaces_label'] = 'Interfeţe';
 
 $L['NtopngStatus_Title'] = 'Utilizare lățime de bandă';

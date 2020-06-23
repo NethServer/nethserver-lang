@@ -20,5 +20,9 @@
     "teams": "Echipe",
     "channels": "Canale",
     "posts": "Postări",
-    "open_app": "Deschide aplicația"
+    "open_app": "Deschide aplicația",
+    "statistics": "Statistici",
+    "disk_usage": "Utilizare disc",
+    "database": "Baza de date",
+    "data": "Data"
 }

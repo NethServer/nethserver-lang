@@ -2,7 +2,7 @@
 # This file is put in the public domain.
 # 
 # Translators:
-# Ozancan Karataş <inactive+OzancanKaratas96@transifex.com>, 2015
+# 99e7f2fb1b618f771e5524cb91874d00_ccf5018 <bf51e1c82aa7853e25ba80ce6274ebe8_277284>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"

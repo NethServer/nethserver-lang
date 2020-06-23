@@ -20,5 +20,9 @@
     "teams": "Teams",
     "channels": "Kanalen",
     "posts": "Berichten",
-    "open_app": "Open applicatie"
+    "open_app": "Open applicatie",
+    "statistics": "Statistieken",
+    "disk_usage": "Schijfgebruik",
+    "database": "Database",
+    "data": "Data"
 }

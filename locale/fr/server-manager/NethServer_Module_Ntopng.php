@@ -10,7 +10,6 @@ $L['Ntopng_Title'] = 'Moniteur de bande passante';
 $L['Ntopng_Description'] = 'Configuration du moniteur de bande passante';
 $L['Authentication_label'] = 'Activer l\'authentification';
 $L['Advanced_label'] = 'Avancé';
-$L['Alerts_label'] = 'Activer les alertes';
 $L['Interfaces_label'] = 'Interfaces';
 
 $L['NtopngStatus_Title'] = 'Utilisation de la bande passante';

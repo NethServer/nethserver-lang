@@ -10,7 +10,6 @@ $L['Ntopng_Title'] = 'Bandbreitenmonitor';
 $L['Ntopng_Description'] = 'Bandbreitenmonitor-Konfiguration';
 $L['Authentication_label'] = 'Aktiviere Authentifizierung';
 $L['Advanced_label'] = 'Fortgeschritten';
-$L['Alerts_label'] = 'Aktiviere Alarme';
 $L['Interfaces_label'] = 'Schnittstellen';
 
 $L['NtopngStatus_Title'] = 'Bandbreitennutzung';

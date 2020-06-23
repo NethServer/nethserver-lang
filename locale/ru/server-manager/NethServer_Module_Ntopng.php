@@ -10,7 +10,6 @@ $L['Ntopng_Title'] = 'Монитор полосы пропускания';
 $L['Ntopng_Description'] = 'Настройки монитора полосы пропускания';
 $L['Authentication_label'] = 'Включить аутентификацию';
 $L['Advanced_label'] = 'Расширенные';
-$L['Alerts_label'] = 'Включить оповещения';
 $L['Interfaces_label'] = 'Интерфейсы';
 
 $L['NtopngStatus_Title'] = 'Использование полосы пропускания';

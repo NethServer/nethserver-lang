@@ -20,5 +20,9 @@
     "teams": "Týmy",
     "channels": "Kanály",
     "posts": "Příspěvky",
-    "open_app": "Otevřít aplikaci"
+    "open_app": "Otevřít aplikaci",
+    "statistics": "Statistiky",
+    "disk_usage": "Využití datového úložiště",
+    "database": "Databáze",
+    "data": "Data"
 }

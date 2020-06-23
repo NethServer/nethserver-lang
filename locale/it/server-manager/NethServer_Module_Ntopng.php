@@ -10,7 +10,6 @@ $L['Ntopng_Title'] = 'Monitor banda';
 $L['Ntopng_Description'] = 'Configurazione monitor banda';
 $L['Authentication_label'] = 'Abilita autenticazione';
 $L['Advanced_label'] = 'Avanzate';
-$L['Alerts_label'] = 'Abilita allarmi';
 $L['Interfaces_label'] = 'Interfacce';
 
 $L['NtopngStatus_Title'] = 'Utilizzo banda';

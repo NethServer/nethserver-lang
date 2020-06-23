@@ -10,7 +10,6 @@ $L['Ntopng_Title'] = 'Παρακολούθηση bandwidth';
 $L['Ntopng_Description'] = 'Bandwidth monitor configuration';
 $L['Authentication_label'] = 'Ενεργοποίηση εξουσιοδότησης';
 $L['Advanced_label'] = 'Για προχωρημένους';
-$L['Alerts_label'] = 'Enable alerts';
 $L['Interfaces_label'] = 'Διασυνδέσεις';
 
 $L['NtopngStatus_Title'] = 'Bandwidth usage';

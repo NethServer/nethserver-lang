@@ -10,7 +10,6 @@ $L['Ntopng_Title'] = 'Sledování objemu přenášených dat';
 $L['Ntopng_Description'] = 'Nastavení dohledování objemu přenášených dat';
 $L['Authentication_label'] = 'Zapnout ověřování';
 $L['Advanced_label'] = 'Pokročilé';
-$L['Alerts_label'] = 'Zapnout výstrahy';
 $L['Interfaces_label'] = 'Rozhraní';
 
 $L['NtopngStatus_Title'] = 'Využití přenosového pásma';

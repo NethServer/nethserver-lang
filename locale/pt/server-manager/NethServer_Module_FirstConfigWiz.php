@@ -12,7 +12,7 @@ $L['RootPassword_Title'] = 'Definir palavra-passe "root"';
 $L['RootPassword_Description'] = 'Escolha uma palavra-passe segura para o utilizador "root"';
 $L['RootPassword_Action'] = 'Alterar a palavra-passe de "root"';
 $L['Hostname_Title'] = 'Definir o nome da máquina';
-$L['Hostname_Action'] = 'Set host name to: ${FQDN}';
+$L['Hostname_Action'] = 'Defina o nome da máquina para: ${FQDN}';
 
 $L['Hostname_Description'] = 'Alterar o nome qualificado da máquina (FQDN)';
 $L['Review_Title'] = 'Confirme as alterações';

@@ -9,6 +9,7 @@
   "edit": "Изменить",
   "save": "Сохранить",
   "delete": "Удалить",
+  "apply": "Применить",
   "download": "Скачать",
   "upload": "Загрузить",
   "action": "Действие",
@@ -289,7 +290,14 @@
     "topology_selection": "RoadWarrior topology",
     "topology": "Топология",
     "certEOL": "Certificate end of life",
-    "days_life": "Number of days"
+    "days_life": "Number of days",
+    "PushDhcpOptionsStatus": "Push DHCP options",
+    "The_IP_cannot_be_calculated": "The IP cannot be calculated",
+    "The_r2w_is_not_set": "The R2W is not set",
+    "export_connection_history": "Export connection history",
+    "apply_changes": "Применить",
+    "pending_changes": "OpenVPN RoadWarrior settings have been changed but not applied. Click 'Apply' to activate the new settings",
+    "warning_apply_changes": "New OpenVPN RoadWarrior settings will be applied immediately. Active connections will be dropped"
   },
   "logs": {
     "title": "Логи",
@@ -316,7 +324,8 @@
     "valid_hostname_fqdn_1_9223372036854775807": "Должно содержать по крайней мере две точки, например, как 'myhost.example.com'",
     "port_in_use": "Port already in use",
     "invalid_certificate": "Invalid certificate",
-    "valid_minLength_8": "Minimum length is 8 characters"
+    "valid_minLength_8": "Minimum length is 8 characters",
+    "missing_wanpriority_rules": "Missing or duplicated interfaces in priority order"
   },
   "docs": {
     "more_info_about": "Подробнее о {docsLink}.",

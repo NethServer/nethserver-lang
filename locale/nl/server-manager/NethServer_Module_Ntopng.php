@@ -10,7 +10,6 @@ $L['Ntopng_Title'] = 'Bandbreedte monitor';
 $L['Ntopng_Description'] = 'Bandbreedte monitor configuratie';
 $L['Authentication_label'] = 'Schakel authenticatie in';
 $L['Advanced_label'] = 'Geavanceerd';
-$L['Alerts_label'] = 'Meldingen inschakelen';
 $L['Interfaces_label'] = 'Interfaces';
 
 $L['NtopngStatus_Title'] = 'Bandbreedte gebruik';

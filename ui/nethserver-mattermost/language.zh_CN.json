@@ -20,5 +20,9 @@
     "teams": "Teams",
     "channels": "Channels",
     "posts": "Posts",
-    "open_app": "Open app"
+    "open_app": "Open app",
+    "statistics": "统计",
+    "disk_usage": "磁盘用量",
+    "database": "数据库",
+    "data": "Data"
 }

@@ -9,6 +9,7 @@
   "edit": "Düzenle",
   "save": "Kaydet",
   "delete": "Sil",
+  "apply": "Uygula",
   "download": "İndir",
   "upload": "Yükle",
   "action": "İşlem",
@@ -289,7 +290,14 @@
     "topology_selection": "RoadWarrior topolojisi",
     "topology": "Topoloji",
     "certEOL": "Sertifikanın kullanım ömrü",
-    "days_life": "Gün sayısı"
+    "days_life": "Gün sayısı",
+    "PushDhcpOptionsStatus": "DHCP ayarlarını ilet",
+    "The_IP_cannot_be_calculated": "IP adresi hesaplanamadı",
+    "The_r2w_is_not_set": "R2W ayarlanmamış",
+    "export_connection_history": "Bağlanma geçmişini dışa aktar",
+    "apply_changes": "Uygula",
+    "pending_changes": "OpenVPN RoadWarrior ayarları değiştirilmiş ancak uygulanmamış. Lütfen yeni ayarları etkinleştirmek için 'Uygula' üzerine tıklayın",
+    "warning_apply_changes": "Yeni OpenVPN RoadWarrior ayarları hemen uygulanacak. Etkin bağlantılar kesilecek"
   },
   "logs": {
     "title": "Günlükler",
@@ -316,7 +324,8 @@
     "valid_hostname_fqdn_1_9223372036854775807": "'sunucum.websitem.com' örneğindeki gibi en az iki nokta içermelidir",
     "port_in_use": "Kapı numarası zaten kullanılıyor",
     "invalid_certificate": "Sertifika geçersiz",
-    "valid_minLength_8": "En az 8 karakter uzunluğunda olmalıdır"
+    "valid_minLength_8": "En az 8 karakter uzunluğunda olmalıdır",
+    "missing_wanpriority_rules": "Öncelik sıralamasında eksik ya da çift arabirimler var"
   },
   "docs": {
     "more_info_about": "{docsLink} hakkında ayrıntılı bilgiler.",

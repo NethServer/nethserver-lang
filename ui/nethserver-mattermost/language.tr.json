@@ -20,5 +20,9 @@
     "teams": "Takımlar",
     "channels": "Kanallar",
     "posts": "İletiler",
-    "open_app": "Uygulamayı aç"
+    "open_app": "Uygulamayı aç",
+    "statistics": "İstatistikler",
+    "disk_usage": "Disk kullanımı",
+    "database": "Veritabanı",
+    "data": "Veri"
 }

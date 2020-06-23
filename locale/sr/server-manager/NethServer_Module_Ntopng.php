@@ -10,7 +10,6 @@ $L['Ntopng_Title'] = 'Монитор протока';
 $L['Ntopng_Description'] = 'Подешавање монитора протока';
 $L['Authentication_label'] = 'Омогући аутентификацију';
 $L['Advanced_label'] = 'Напредно';
-$L['Alerts_label'] = 'Enable alerts';
 $L['Interfaces_label'] = 'Интерфејси';
 
 $L['NtopngStatus_Title'] = 'Искоришћење протока';

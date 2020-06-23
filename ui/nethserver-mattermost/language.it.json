@@ -20,5 +20,9 @@
     "teams": "Team",
     "channels": "Canali",
     "posts": "Messaggi",
-    "open_app": "Apri app"
+    "open_app": "Apri app",
+    "statistics": "Statistiche",
+    "disk_usage": "Utilizzo disco",
+    "database": "Database",
+    "data": "Data"
 }

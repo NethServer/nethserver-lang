@@ -10,7 +10,6 @@ $L['Ntopng_Title'] = 'Bandwidth monitor';
 $L['Ntopng_Description'] = 'Bandwidth monitor configuration';
 $L['Authentication_label'] = 'Enable authentication';
 $L['Advanced_label'] = 'Advanced';
-$L['Alerts_label'] = 'Enable alerts';
 $L['Interfaces_label'] = 'Gränssnitt';
 
 $L['NtopngStatus_Title'] = 'Bandbredds användning';

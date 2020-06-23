@@ -10,7 +10,6 @@ $L['Ntopng_Title'] = 'Sávszélesség monitor';
 $L['Ntopng_Description'] = 'Bandwidth monitor configuration';
 $L['Authentication_label'] = 'Hitelesítés bekapcsolás';
 $L['Advanced_label'] = 'Speciális';
-$L['Alerts_label'] = 'Enable alerts';
 $L['Interfaces_label'] = 'Interfészek';
 
 $L['NtopngStatus_Title'] = 'Bandwidth usage';

@@ -20,5 +20,9 @@
     "teams": "Команди",
     "channels": "Канали",
     "posts": "Пости",
-    "open_app": "Відкрити додаток"
+    "open_app": "Відкрити додаток",
+    "statistics": "Статистика",
+    "disk_usage": "Використання диска",
+    "database": "Database",
+    "data": "Data"
 }

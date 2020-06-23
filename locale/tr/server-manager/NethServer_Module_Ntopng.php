@@ -10,7 +10,6 @@ $L['Ntopng_Title'] = 'Bant genişliği izleme';
 $L['Ntopng_Description'] = 'Bant genişliği izleme yapılandırması';
 $L['Authentication_label'] = 'Kimlik doğrulaması kullanılsın';
 $L['Advanced_label'] = 'Gelişmiş';
-$L['Alerts_label'] = 'Uyarılar kullanılsın';
 $L['Interfaces_label'] = 'Arabirimler';
 
 $L['NtopngStatus_Title'] = 'Bant genişliği kullanımı';
