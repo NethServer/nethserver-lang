@@ -1108,3 +1108,44 @@ source_file = ui/nethserver-restore-data/language.json
 source_lang = en
 type = KEYVALUEJSON
 
+[nethserver.CockpitHotsync]
+file_filter = ui/nethserver-hotsync/language.<lang>.json
+source_file = ui/nethserver-hotsync/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitSOGo]
+file_filter = ui/nethserver-sogo/language.<lang>.json
+source_file = ui/nethserver-sogo/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitMssql]
+file_filter = ui/nethserver-mssql/language.<lang>.json
+source_file = ui/nethserver-mssql/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitFreePBX]
+file_filter = ui/nethserver-nut/freepbx.<lang>.json
+source_file = ui/nethserver-nut/freepbx.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitBlacklist]
+file_filter = ui/nethserver-blacklist/language.<lang>.json
+source_file = ui/nethserver-blacklist/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitWebtop5]
+file_filter = ui/nethserver-webtop5/language.<lang>.json
+source_file = ui/nethserver-webtop5/language.json
+source_lang = en
+type = KEYVALUEJSON
+
+[nethserver.CockpitNtopng]
+file_filter = ui/nethserver-ntopng/language.<lang>.json
+source_file = ui/nethserver-ntopng/language.json
+source_lang = en
+type = KEYVALUEJSON
