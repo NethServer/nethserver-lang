@@ -1,0 +1,36 @@
+<?php 
+
+$L['DhcpRangeEnd_label'] = 'IP range end';
+$L['DhcpRangeStart_label'] = 'IP range start';
+$L['Dhcp_Configure_header'] = 'Enable DHCP server on interfaces';
+$L['Dhcp_Title'] = 'DHCP'; 
+$L['Dhcp_Description'] = 'Configure DHCP server'; 
+$L['Dhcp_Tags'] = 'host dhcp reservation mac address macaddress'; 
+$L['Dhcp_create_header'] = 'Create an IP address reservation';
+$L['Dhcp_update_header'] = 'Change IP address reservation for host "${0}"';
+$L['Dhcp_reserve_header'] = 'Reserve IP address for host "${0}"';
+$L['Reserve_label'] = 'Rezervácia IP';
+$L['create_label'] = 'Create IP reservation';
+$L['valid_platform,dhcp-reservation,ip-mac-address,1'] = 'Conflicts with another machine'; 
+$L['valid_platform,dhcp-reservation,ip-not-reserved-local,3'] = 'Already assigned'; 
+$L['valid_platform,dhcp-reservation,ip-not-reserved-local,4'] = 'Not in local networks';
+$L['valid_platform,host-delete,fwobject-referenced,3'] = 'Could not delete ${2}. The host is used by firewall rules.';
+$L['valid_platform,dhcp-reservation,mac-not-reserved,1'] = 'MAC address already assigned';
+$L['valid_iprange_outofbounds'] = 'The IP address is outside the network range';
+$L['interfaces_label'] = 'Enabled interfaces';
+$L['valid_interface_existing'] = 'One or more selected interfaces no longer exist';
+$L['Description_label'] = 'Popis'; 
+$L['IpAddress_label'] = 'Adresa IP'; 
+$L['MacAddress_label'] = 'MAC adresa'; 
+$L['hostname_label'] = 'Host name';
+$L['Configure_Title'] = 'DHCP server';
+$L['Reservation_Title'] = 'Rezervácia IP';
+$L['Key_label'] = 'Host name';
+$L['DhcpAdvanced_label'] = 'Pokročilé nastavenia';
+$L['DhcpGatewayIP_label'] = 'IP adresa brány';
+$L['DhcpLeaseTime_label'] = 'Čas prenájmu';
+$L['DhcpDomain_label'] = 'Doména';
+$L['DhcpDNS_label'] = 'Servery DNS';
+$L['DhcpWINS_label'] = 'Servery WINS';
+$L['DhcpNTP_label'] = 'Servery NTP';
+$L['DhcpTFTP_label'] = 'Servery TFTP';

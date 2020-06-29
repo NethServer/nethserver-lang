@@ -1,0 +1,48 @@
+{
+    "settings": {
+        "title": "Setări",
+        "configuration":"Configurație",
+        "status":"Activează SOGo",
+        "ActiveSync":"Activează Microsoft ActiveSync",
+        "Dav":"Activează CalDAV și CardDAV",
+        "MailAuxiliaryUserAccountsEnabled":"Permite utilizatorilor să adauge alte conturi IMAP",
+        "AdminUsers":"Administratori",
+        "advanced_mode":"Setări avansate",
+        "Notifications":"Notificări",
+        "ACLs":"Trimite e-mail utilizatorilor implicați ai unui calendar / agendă de adrese",
+        "Folders":"Trimite e-mail cu privire la crearea unui calendar / agende de adrese",
+        "Appointment":"Trimite e-mail către participanții la întâlnire",
+        "Email":"trimite alarmă pe e-mail pentru evenimente și sarcini",
+        "VirtualHost":"Fă SOGo accesibil numai din acest domeniu (FQDN)",
+        "WOWorkersCount":"Numărul de lucrători (câte unul pentru fiecare client activesync conectat)",
+        "SOGoInternalSyncInterval":"durata maximă în secunde înainte de a verifica după modificări",
+        "settings_updated_ok": "Setările s-au actualizat bine",
+        "settings_updated_error": "Setările nu s-au actualizat bine"
+    },
+    "about": {
+        "title": "Despre",
+        "website": "Sit web",
+        "bug_tracker": "Bug tracker"
+    },
+    "logs": {
+      "title": "Jurnale",
+      "follow": "Urmărește",
+      "stop_follow": "Oprire",
+      "start_follow_button": "Urmărește",
+      "stop_follow_button": "Nu mai urmări",
+      "filter_label": "Filtru Regexp"
+    },
+    "dashboard":{
+        "title": "Tablou de bord"
+    },
+    "docs":{
+      "more_info_about":"Mai multe informații despre",
+      "sogo": "SOGo"
+    },
+    "validation":{
+      "validation_failed": "Validarea a eșuat",
+      "not_valid_username": "Acesta nu este un nume de utilizator valid",
+      "valid_hostname_fqdn_1_9223372036854775807": "Acesta nu este un FQDN valid (ceva de genul domeniu.org)",
+      "Bad_Notification_Element": "Aceasta nu este o setare de notificare bună"
+    }
+}

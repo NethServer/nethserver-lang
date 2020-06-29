@@ -1,0 +1,61 @@
+{
+    "settings": {
+        "title": "Ayarlar",
+        "external_access": "Dış erişim",
+        "allow_external_iax_access": "Dış IAX erişimi yapılabilsin",
+        "allow_external_sip_tls_access": "Dış SIP TLS erişimi yapılabilsin",
+        "web_interface_access": "Web arayüzü erişimi",
+        "create_new": "Yeni ekle",
+        "network": "Ağ",
+        "network_mask": "Ağ maskesi",
+        "error_reading_asterisk_configuration": "Asterisk yapılandırması okunurken sorun çıktı",
+        "error_reading_httpd_fpbx_configuration": "httpd-fpbx yapılandırması okunurken sorun çıktı",
+        "error_updating_configuration": "Yapılandırma güncellenirken sorun çıktı",
+        "add_web_interface_access": "Web arayüzü erişimi ekle",
+        "ipAddress_validation": "IP adresi geçersiz",
+        "netmask_validation": "Ağ maskesi geçersiz",
+        "ip_address": "IP adresi",
+        "netmask": "Ağ maskesi",
+        "create_new_access": "Yeni erişim ekle",
+        "no_web_interface_access": "Web arayüzü erişimi yok",
+        "no_web_interface_access_description": "Yeni bir tane eklemek için aşağıdaki düğmeyi kullanın",
+        "delete_web_interface_access": "Web arayüzü erişimini sil",
+        "delete_web_interface_access_message": "Bu işlem web arayüzü erişimini kalıcı olarak siler. Bu işlem geri alınamaz",
+        "are_you_sure": "Emin misiniz",
+        "configuration_updated": "Yapılandırma güncellendi"
+    },
+    "about": {
+        "title": "Hakkında",
+        "website": "Web sitesi",
+        "bug_tracker": "Hata izleyici"
+    },
+    "logs": {
+        "title": "Günlükler",
+        "start_follow_button": "İzle",
+        "stop_follow_button": "İzlemeyi bırak",
+        "filter_label": "Kurallı ifade süzgeci"
+    },
+    "dashboard":{
+        "title": "FreePBX panosu",
+        "app": "FreePBX",
+        "freepbx_admin_dashboard": "FreePBX Yönetim Panosu",
+        "open_dashboard": "Panoyu aç",
+        "freepbx_description": "FreePBX, Asterisk sisteminizi yönetebileceğiniz bir görsel kullanıcı arayüzüdür."
+    },
+    "docs": {
+        "allow_external_iax_access": "IAX iletişim kuralı üzerinden dış telefonlara erişilebilsin",
+        "allow_external_sip_tls_access": "SIP TLS iletişim kuralı üzerinden dış telefonlara erişilebilsin"
+    },
+    "actions": "İşlemler",
+    "delete": "Sil",
+    "next": "Sonraki",
+    "prev": "Önceki",
+    "of": " / ",
+    "rows_per_page": "Bir sayfadaki satır sayısı",
+    "search": "Arama",
+    "all": "Tümü",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "warning": "Uyarı",
+    "create": "Ekle"
+}

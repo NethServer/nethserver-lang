@@ -1,0 +1,65 @@
+{
+    "save": "Salva",
+    "cancel": "Annulla",
+    "add": "Aggiungi",
+    "delete": "Elimina",
+    "enabled": "Abilitato",
+    "disabled": "Disabilitato",
+    "enable": "Abilita",
+    "disable": "Disabilita",
+    "actions": "Azioni",
+    "advanced_options": "Opzioni avanzate",
+    "search": "Cerca",
+    "next": "Successivo",
+    "prev": "Precedente",
+    "of": "di",
+    "rows_per_page": "Righe per pagina",
+    "all": "Tutti",
+    "dashboard": {
+        "app": "Monitoraggio banda",
+        "title": "Bandwidth monitor dashboard",
+        "status": "Stato",
+        "is_enabled": "is enabled",
+        "is_disabled": "is disabled",
+        "openNtopngApp": "Open bandwidth monitor app",
+        "name": "Nome",
+        "ip_address": "Indirizzo IP",
+        "throughput": "Throughput",
+        "traffic": "Traffico",
+        "since": "Da",
+        "top_local_hosts": "Top local hosts",
+        "top_remote_hosts": "Top remote hosts",
+        "traffic_by_interface": "Traffic by interface",
+        "traffic_by_protocol": "Traffic by protocol",
+        "kbps": "kbit/s",
+        "no_data": "No data",
+        "others": "Others"
+    },
+    "settings": {
+        "title": "Impostazioni",
+        "enable_ntopng": "Enable bandwidth monitor",
+        "web_interface_port": "Porta interfaccia web",
+        "enable_auth": "Abilita autenticazione",
+        "interfaces": "Interfacce",
+        "settings_update_successful": "Settings updated successfully",
+        "settings_update_failed": "Error while updating settings",
+        "is_running_at_this_url": "application is running at this URL",
+        "login_credentials": "Login credentials"
+    },
+    "logs": {
+        "title": "Log",
+        "follow": "Segui",
+        "stop_follow": "Ferma",
+        "start_follow_button": "Segui",
+        "stop_follow_button": "Interrompi segui",
+        "filter_label": "Filtro regexp"
+    },
+    "about": {
+        "title": "Informazioni",
+        "website": "Sito web",
+        "bug_tracker": "Bug tracker"
+    },
+    "docs": {
+        "ntopng_credentials": "Username: <code>admin</code><br>Default password: <code>admin</code>"
+    }
+}

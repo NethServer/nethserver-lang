@@ -1,0 +1,61 @@
+{
+    "settings": {
+        "title": "Impostazioni",
+        "external_access": "Accesso esterno",
+        "allow_external_iax_access": "Permetti accesso esterno IAX",
+        "allow_external_sip_tls_access": "Permetti accesso esterno SIP TLS",
+        "web_interface_access": "Accesso interfaccia web",
+        "create_new": "Crea nuovo",
+        "network": "Rete",
+        "network_mask": "Maschera di rete",
+        "error_reading_asterisk_configuration": "Errore nella lettura della configurazione Asterisk",
+        "error_reading_httpd_fpbx_configuration": "Error reading httpd-fpbx configuration",
+        "error_updating_configuration": "Errore durante il salvataggio della configurazione",
+        "add_web_interface_access": "Add web interface access",
+        "ipAddress_validation": "Indirizzo IP non valido",
+        "netmask_validation": "Maschera di rete non valida",
+        "ip_address": "Indirizzo IP",
+        "netmask": "Netmask",
+        "create_new_access": "Create new access",
+        "no_web_interface_access": "No web interface access",
+        "no_web_interface_access_description": "Puoi crearne uno facendo clic sul pulsante sottostante",
+        "delete_web_interface_access": "Delete web interface access",
+        "delete_web_interface_access_message": "This action will permanently delete the web interface access. This cannot be undone",
+        "are_you_sure": "Sei sicuro",
+        "configuration_updated": "Configurazione aggiornata"
+    },
+    "about": {
+        "title": "Informazioni",
+        "website": "Sito web",
+        "bug_tracker": "Bug tracker"
+    },
+    "logs": {
+        "title": "Log",
+        "start_follow_button": "Segui",
+        "stop_follow_button": "Interrompi segui",
+        "filter_label": "Filtro regexp"
+    },
+    "dashboard":{
+        "title": "FreePBX dashboard",
+        "app": "FreePBX",
+        "freepbx_admin_dashboard": "FreePBX Admin Dashboard",
+        "open_dashboard": "Open dashboard",
+        "freepbx_description": "FreePBX is a GUI that gives you the ability to manage your Asterisk system."
+    },
+    "docs": {
+        "allow_external_iax_access": "Allow external telephony access through IAX protocol",
+        "allow_external_sip_tls_access": "Allow external telephony access through secure SIP TLS protocol"
+    },
+    "actions": "Azioni",
+    "delete": "Elimina",
+    "next": "Successivo",
+    "prev": "Precedente",
+    "of": "di",
+    "rows_per_page": "Riga per pagina",
+    "search": "Cerca",
+    "all": "Tutti",
+    "save": "Salva",
+    "cancel": "Annulla",
+    "warning": "Avviso",
+    "create": "Crea"
+}

@@ -1,0 +1,61 @@
+{
+    "settings": {
+        "title": "Instellingen",
+        "external_access": "Externe toegang",
+        "allow_external_iax_access": "Externe IAX-toegang toestaan",
+        "allow_external_sip_tls_access": "Externe SIP TLS-toegang toestaan",
+        "web_interface_access": "Toegang tot webinterface",
+        "create_new": "Creëer nieuw",
+        "network": "Netwerk",
+        "network_mask": "Netwerk masker",
+        "error_reading_asterisk_configuration": "Fout bij lezen van asterisk-configuratie",
+        "error_reading_httpd_fpbx_configuration": "Fout bij lezen van httpd-fpbx-configuratie",
+        "error_updating_configuration": "Fout bij bijwerken configuratie",
+        "add_web_interface_access": "Toegang tot webinterface toevoegen",
+        "ipAddress_validation": "Ongeldig IP-adres",
+        "netmask_validation": "Ongeldig netmasker",
+        "ip_address": "IP adres",
+        "netmask": "Netmasker",
+        "create_new_access": "Maak nieuwe toegang aan",
+        "no_web_interface_access": "Geen toegang tot webinterface",
+        "no_web_interface_access_description": "U kunt een aangepaste melding maken door op de onderstaande knop te klikken",
+        "delete_web_interface_access": "Toegang tot webinterface verwijderen",
+        "delete_web_interface_access_message": "Met deze actie wordt de toegang tot de webinterface permanent verwijderd. Dit kan niet ongedaan worden gemaakt",
+        "are_you_sure": "Weet u het zeker",
+        "configuration_updated": "Configuratie bijgewerkt"
+    },
+    "about": {
+        "title": "Over",
+        "website": "Website",
+        "bug_tracker": "Bug tracker"
+    },
+    "logs": {
+        "title": "Logs",
+        "start_follow_button": "Volg",
+        "stop_follow_button": "Stop met volgen",
+        "filter_label": "Regexp filter"
+    },
+    "dashboard":{
+        "title": "FreePBX dashboard",
+        "app": "FreePBX",
+        "freepbx_admin_dashboard": "FreePBX beheerdersdashboard",
+        "open_dashboard": "Dashboard openen",
+        "freepbx_description": "FreePBX is een GUI die u de mogelijkheid geeft om uw Asterisk-systeem te beheren"
+    },
+    "docs": {
+        "allow_external_iax_access": "Externe telefonietoegang toestaan ​​via IAX-protocol",
+        "allow_external_sip_tls_access": "Externe telefonietoegang toestaan ​​via beveiligd SIP TLS-protocol"
+    },
+    "actions": "Acties",
+    "delete": "Verwijderen",
+    "next": "Volgende",
+    "prev": "Vorige",
+    "of": "van",
+    "rows_per_page": "Rijen per pagina",
+    "search": "Zoeken",
+    "all": "Alle",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "warning": "Waarschuwing",
+    "create": "Creëren"
+}

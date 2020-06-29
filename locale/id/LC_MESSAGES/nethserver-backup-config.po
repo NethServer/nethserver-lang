@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-24 14:34+0200\n"
+"PO-Revision-Date: 2017-07-12 08:22+0000\n"
+"Language-Team: Indonesian (https://www.transifex.com/nethserver/teams/35834/id/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: root/etc/nethserver/todos.d/40restore-incomplete:42
+msgid "Do not reboot the system! Run the \"restore-data\" procedure"
+msgstr ""
+
+#: root/etc/nethserver/todos.d/40restore-incomplete:44
+msgid ""
+"Complete the restore procedure by running the \"restore-data\" command from "
+"a root shell"
+msgstr ""
+
+#: root/etc/nethserver/todos.d/40restore-incomplete:52
+msgid "Do not reboot the system! Restore procedure is incomplete"
+msgstr ""
+
+#: root/etc/nethserver/todos.d/40restore-incomplete:55
+msgid ""
+"Either enable backup and run \"restore-data\" or complete the restore "
+"procedure by running the \"signal-event post-restore-data\" command from a "
+"root shell"
+msgstr ""
+
+#: root/etc/nethserver/todos.d/50restore-modules:51
+msgid "Install missing modules"
+msgstr ""
+
+#: root/etc/nethserver/todos.d/50restore-modules:54
+msgid "Complete the restore procedure by installing additional modules"
+msgstr ""

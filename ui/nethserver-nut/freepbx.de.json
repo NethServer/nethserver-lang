@@ -1,0 +1,61 @@
+{
+    "settings": {
+        "title": "Einstellungen",
+        "external_access": "Externer Zugriff",
+        "allow_external_iax_access": "Externen IAX-Zugriff zulassen",
+        "allow_external_sip_tls_access": "Externen SIP-TLS-Zugriff zulassen",
+        "web_interface_access": "Webinterface-Zugriff",
+        "create_new": "Erstelle neu",
+        "network": "Netzwerk",
+        "network_mask": "Netzwerkmaske",
+        "error_reading_asterisk_configuration": "Fehler beim Lesen der Sternchenkonfiguration",
+        "error_reading_httpd_fpbx_configuration": "Fehler beim Lesen der httpd-fpbx-Konfiguration",
+        "error_updating_configuration": "Fehler beim Aktualisieren der Konfiguration",
+        "add_web_interface_access": "Webschnittstellenzugriff hinzufügen",
+        "ipAddress_validation": "Ungültige IP-Adresse",
+        "netmask_validation": "Ungültige Netzmaske",
+        "ip_address": "IP Adresse",
+        "netmask": "Netzmaske",
+        "create_new_access": "Neuen Zugriff erstellen",
+        "no_web_interface_access": "Kein Webinterface-Zugriff",
+        "no_web_interface_access_description": "Man kann eine erstellen, indem man auf die Schaltfläche unten klickt",
+        "delete_web_interface_access": "Webinterface-Zugriff löschen",
+        "delete_web_interface_access_message": "Diese Aktion löscht den Webinterface-Zugriff dauerhaft. Dies kann nicht rückgängig gemacht werden",
+        "are_you_sure": "Sind Sie sicher",
+        "configuration_updated": "Konfiguration aktualisiert"
+    },
+    "about": {
+        "title": "Über",
+        "website": "Webseite",
+        "bug_tracker": "Bug-Tracker"
+    },
+    "logs": {
+        "title": "Logs",
+        "start_follow_button": "Zum Ende",
+        "stop_follow_button": "Stop folgende",
+        "filter_label": "Regexp-Filter"
+    },
+    "dashboard":{
+        "title": "FreePBX-Dashboard",
+        "app": "FreeBPX",
+        "freepbx_admin_dashboard": "FreePBX Admin Dashboard",
+        "open_dashboard": "Dashboard öffnen",
+        "freepbx_description": "FreePBX ist eine GUI, mit der Sie Ihr Asterisk-System verwalten können."
+    },
+    "docs": {
+        "allow_external_iax_access": "xternen Telefoniezugriff über IAX-Protokoll zulassen",
+        "allow_external_sip_tls_access": "Externen Telefoniezugriff über sicheres SIP-TLS-Protokoll zulassen"
+    },
+    "actions": "Aktionen",
+    "delete": "Entfernen",
+    "next": "Weiter",
+    "prev": "Vorherige",
+    "of": "von",
+    "rows_per_page": "Spalten pro Seite",
+    "search": "Suchen",
+    "all": "Alle",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "warning": "Warnung",
+    "create": "Erstellen"
+}

@@ -1,0 +1,48 @@
+{
+    "settings": {
+        "title": "Configurações",
+        "configuration":"Configuração",
+        "status":"Habilitar SOGo",
+        "ActiveSync":"Habilitar Microsoft ActiveSync",
+        "Dav":"Habilitar CalDAV e CardDAV",
+        "MailAuxiliaryUserAccountsEnabled":"Permitir que os usuários adicionem outras contas IMAP",
+        "AdminUsers":"Administradores",
+        "advanced_mode":"Configurações avançadas",
+        "Notifications":"Notificações",
+        "ACLs":"Send email to involved users of a calendar/address book",
+        "Folders":"Send email on the creation of a calendar/address book",
+        "Appointment":"Send email to meeting participants",
+        "Email":"send email-based alarm on events and tasks",
+        "VirtualHost":"Make SOGo reachable only from this domain (FQDN)",
+        "WOWorkersCount":"Number of workers (one per activesync client connected)",
+        "SOGoInternalSyncInterval":"maximum time in second before to checks after changes",
+        "settings_updated_ok": "The settings have been well updated",
+        "settings_updated_error": "The settings have not well updated"
+    },
+    "about": {
+        "title": "Sobre",
+        "website": "Website",
+        "bug_tracker": "Informar Bug"
+    },
+    "logs": {
+      "title": "Registros",
+      "follow": "Seguir",
+      "stop_follow": "Parar",
+      "start_follow_button": "Seguir",
+      "stop_follow_button": "Parar de seguir",
+      "filter_label": "Filtro de Rejeição por Expressão"
+    },
+    "dashboard":{
+        "title": "Painel"
+    },
+    "docs":{
+      "more_info_about":"Mais informações sobre",
+      "sogo": "SOGo"
+    },
+    "validation":{
+      "validation_failed": "A validação falhou",
+      "not_valid_username": "Este não é um nome de usuário válido",
+      "valid_hostname_fqdn_1_9223372036854775807": "This is not a valid FQDN(something like domain.org)",
+      "Bad_Notification_Element": "Esta não é uma boa configuração de notificação"
+    }
+}

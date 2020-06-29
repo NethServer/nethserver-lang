@@ -1,0 +1,65 @@
+{
+    "save": "Shrani",
+    "cancel": "Cancel",
+    "add": "Dodaj",
+    "delete": "Delete",
+    "enabled": "Omogočeno",
+    "disabled": "Onemogočeno",
+    "enable": "Omogoči",
+    "disable": "Onemogoči",
+    "actions": "Ukrepi",
+    "advanced_options": "Advanced options",
+    "search": "Search",
+    "next": "Naprej",
+    "prev": "Previous",
+    "of": "of",
+    "rows_per_page": "Rows per page",
+    "all": "All",
+    "dashboard": {
+        "app": "Bandwidth monitor",
+        "title": "Bandwidth monitor dashboard",
+        "status": "Status",
+        "is_enabled": "is enabled",
+        "is_disabled": "is disabled",
+        "openNtopngApp": "Open bandwidth monitor app",
+        "name": "Ime",
+        "ip_address": "IP naslov",
+        "throughput": "Throughput",
+        "traffic": "Promet",
+        "since": "Since",
+        "top_local_hosts": "Top local hosts",
+        "top_remote_hosts": "Top remote hosts",
+        "traffic_by_interface": "Traffic by interface",
+        "traffic_by_protocol": "Traffic by protocol",
+        "kbps": "kbit/s",
+        "no_data": "No data",
+        "others": "Others"
+    },
+    "settings": {
+        "title": "Settings",
+        "enable_ntopng": "Enable bandwidth monitor",
+        "web_interface_port": "Web interface port",
+        "enable_auth": "Enable authentication",
+        "interfaces": "Vmesniki",
+        "settings_update_successful": "Settings updated successfully",
+        "settings_update_failed": "Error while updating settings",
+        "is_running_at_this_url": "application is running at this URL",
+        "login_credentials": "Login credentials"
+    },
+    "logs": {
+        "title": "Dnevniki",
+        "follow": "Sledi",
+        "stop_follow": "Stop",
+        "start_follow_button": "Sledi",
+        "stop_follow_button": "Stop following",
+        "filter_label": "Regexp filter"
+    },
+    "about": {
+        "title": "About",
+        "website": "Web site",
+        "bug_tracker": "Bug tracker"
+    },
+    "docs": {
+        "ntopng_credentials": "Username: <code>admin</code><br>Default password: <code>admin</code>"
+    }
+}

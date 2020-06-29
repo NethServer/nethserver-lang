@@ -1,0 +1,61 @@
+{
+    "settings": {
+        "title": "Setări",
+        "external_access": "Acces extern",
+        "allow_external_iax_access": "Permite acces IAX extern",
+        "allow_external_sip_tls_access": "Permite acces SIP TLS extern",
+        "web_interface_access": "Interfață acces web",
+        "create_new": "Crează nou",
+        "network": "Rețea",
+        "network_mask": "Mască rețea",
+        "error_reading_asterisk_configuration": "Eroare la citirea configurației asterisk",
+        "error_reading_httpd_fpbx_configuration": "Eroare la citirea configurației httpd-fpbx",
+        "error_updating_configuration": "Eroare la actualizarea configurației",
+        "add_web_interface_access": "Adăugare acces la interfața web",
+        "ipAddress_validation": "Adresă IP invalidă",
+        "netmask_validation": "Mască rețea invalidă",
+        "ip_address": "Adresă IP",
+        "netmask": "Mască rețea",
+        "create_new_access": "Creează acces nou",
+        "no_web_interface_access": "Fără acces la interfața web",
+        "no_web_interface_access_description": "Poți crea una dând click pe butonul de mai jos",
+        "delete_web_interface_access": "Ștergere acces interfață web",
+        "delete_web_interface_access_message": "Această acțiune va șterge definitiv accesul la interfața web. Acest lucru nu poate fi anulat",
+        "are_you_sure": "Ești sigur?",
+        "configuration_updated": "Configurație actualizată"
+    },
+    "about": {
+        "title": "Despre",
+        "website": "Sit web",
+        "bug_tracker": "Bug tracker"
+    },
+    "logs": {
+        "title": "Jurnale",
+        "start_follow_button": "Urmărește",
+        "stop_follow_button": "Nu mai urmări",
+        "filter_label": "Filtru Regexp"
+    },
+    "dashboard":{
+        "title": "Tablou de bord FreePBX",
+        "app": "FreePBX",
+        "freepbx_admin_dashboard": "Tablou de bord administrator FreePBX",
+        "open_dashboard": "Deschide tabloul de bord",
+        "freepbx_description": "FreePBX este o interfață care îți permite să gestionezi sistemul Asterisk."
+    },
+    "docs": {
+        "allow_external_iax_access": "Permite accesul telefonic extern prin protocolul IAX",
+        "allow_external_sip_tls_access": "Permite accesul telefonic extern prin protocolul SIP TLS"
+    },
+    "actions": "Acțiuni",
+    "delete": "Șterge",
+    "next": "Următorul",
+    "prev": "Anterior",
+    "of": "al",
+    "rows_per_page": "Rând pe pagină",
+    "search": "Caută",
+    "all": "Tot",
+    "save": "Salvează",
+    "cancel": "Anulare",
+    "warning": "Avertizare",
+    "create": "Creează"
+}
