@@ -1127,8 +1127,8 @@ source_lang = en
 type = KEYVALUEJSON
 
 [nethserver.CockpitFreePBX]
-file_filter = ui/nethserver-nut/freepbx.<lang>.json
-source_file = ui/nethserver-nut/freepbx.json
+file_filter = ui/nethserver-freepbx/language.<lang>.json
+source_file = ui/nethserver-freepbx/language.json
 source_lang = en
 type = KEYVALUEJSON
 
