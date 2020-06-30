@@ -1,0 +1,61 @@
+{
+    "settings": {
+        "title": "Paramètres",
+        "external_access": "Accès externe",
+        "allow_external_iax_access": "Autoriser l'accès externe à IAX",
+        "allow_external_sip_tls_access": "Autoriser l'accès externe SIP TLS",
+        "web_interface_access": "Accès à l'interface web",
+        "create_new": "Créer nouveau",
+        "network": "Réseau",
+        "network_mask": "Masque de sous-réseau",
+        "error_reading_asterisk_configuration": "Erreur pendant la lecture de la configuration asrerisk",
+        "error_reading_httpd_fpbx_configuration": "Erreur pendant la lecture de la configuration httpd-fpbx",
+        "error_updating_configuration": "Erreur pendant la mise à jour de la configuration ",
+        "add_web_interface_access": "Ajouter un accès à l'interface web",
+        "ipAddress_validation": "Adresse IP non valide",
+        "netmask_validation": "Masque de réseau non valide",
+        "ip_address": "Adresse IP",
+        "netmask": "Masque de réseau",
+        "create_new_access": "Créer un nouvel accès",
+        "no_web_interface_access": "Pas d'accès à l'interface web",
+        "no_web_interface_access_description": "Vous pouvez en créer une en cliquant sur le bouton ci-dessous",
+        "delete_web_interface_access": "Supprimer l'accès à l'interface web",
+        "delete_web_interface_access_message": "Cette action supprimera définitivement l'accès à l'interface web. Ça ne peut pas être annulé",
+        "are_you_sure": "Êtes-vous sûr ?",
+        "configuration_updated": "Configuration mise à jour"
+    },
+    "about": {
+        "title": "A propos",
+        "website": "Site web",
+        "bug_tracker": "Bug tracker"
+    },
+    "logs": {
+        "title": "Journaux",
+        "start_follow_button": "Suivre",
+        "stop_follow_button": "Arrêter de suivre",
+        "filter_label": "Filtre regexp"
+    },
+    "dashboard":{
+        "title": "Tableau de bord FreePBX",
+        "app": "FreePBX",
+        "freepbx_admin_dashboard": "Tableau de bord administrateur FreePBX",
+        "open_dashboard": "Tableau de bord ouvert",
+        "freepbx_description": "FreePBX est une interface graphique qui vous donne la possibilité de gérer votre système Asterisk"
+    },
+    "docs": {
+        "allow_external_iax_access": "Autoriser un accès externe à la téléphonie à l'aide du protocole IAX",
+        "allow_external_sip_tls_access": "Autoriser un accès externe à la téléphonie à l'aide du protocole sécurisé SIP TLS"
+    },
+    "actions": "Actions",
+    "delete": "Supprimer",
+    "next": "Suivant",
+    "prev": "Précédent",
+    "of": "de",
+    "rows_per_page": "Ligne par page",
+    "search": "Chercher",
+    "all": "Tous",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "warning": "Attention",
+    "create": "Créer"
+}

@@ -1,0 +1,61 @@
+{
+    "settings": {
+        "title": "Nastavení",
+        "external_access": "Přístup zvenčí",
+        "allow_external_iax_access": "Umožnit IAX přístup zvenčí",
+        "allow_external_sip_tls_access": "Umožnit SIP TLS přístup zvenčí",
+        "web_interface_access": "Přístup k webovému rozhraní",
+        "create_new": "Vytvořit nové",
+        "network": "Síť",
+        "network_mask": "Maska sítě",
+        "error_reading_asterisk_configuration": "Chyba při načítání nastavení asterisk",
+        "error_reading_httpd_fpbx_configuration": "Chyba čtení nastavení httpd-fpbx",
+        "error_updating_configuration": "Chyba při aktualizaci nastavení",
+        "add_web_interface_access": "Přidat přístup do webového rozhraní",
+        "ipAddress_validation": "Neplatná IP adresa",
+        "netmask_validation": "Neplatná maska sítě",
+        "ip_address": "IP adresa",
+        "netmask": "Maska sítě",
+        "create_new_access": "Vytvořit nový přístup",
+        "no_web_interface_access": "Žádný přístup k webovému rozhraní",
+        "no_web_interface_access_description": "Nějakou můžete vytvořit kliknutím na tlačítko níže",
+        "delete_web_interface_access": "Smazat přístup k webovému rozhraní",
+        "delete_web_interface_access_message": "Tato akce nadobro smaže přístup k webovému rozhraní. Akci nelze vzít zpět",
+        "are_you_sure": "Opravdu",
+        "configuration_updated": "Nastavení zaktualizováno"
+    },
+    "about": {
+        "title": "O aplikaci",
+        "website": "Webová stránka",
+        "bug_tracker": "Systém správy hlášení problémů"
+    },
+    "logs": {
+        "title": "Záznamy událostí",
+        "start_follow_button": "Odebírat",
+        "stop_follow_button": "Přestat odebírat",
+        "filter_label": "Filtr s regulárním výrazem"
+    },
+    "dashboard":{
+        "title": "Přehled FreePBX",
+        "app": "FreePBX",
+        "freepbx_admin_dashboard": "Přehled správy FreePBX",
+        "open_dashboard": "Otevřít přehled",
+        "freepbx_description": "FreePBX je grafické uživatelské rozhraní pomocí kterého je možné spravovat asterisk."
+    },
+    "docs": {
+        "allow_external_iax_access": "Umožnit externí telefonii přistupovat přes IAX protokol",
+        "allow_external_sip_tls_access": "Umožnit externí telefonii přistupovat přes SIP TLS protokol"
+    },
+    "actions": "Akce",
+    "delete": "Smazat",
+    "next": "Další",
+    "prev": "Předchozí",
+    "of": "z",
+    "rows_per_page": "Řádek na stránku",
+    "search": "Hledat",
+    "all": "Vše",
+    "save": "Uložit",
+    "cancel": "Storno",
+    "warning": "Varování",
+    "create": "Vytvořit"
+}

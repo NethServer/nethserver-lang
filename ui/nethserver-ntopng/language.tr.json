@@ -1,0 +1,65 @@
+{
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "add": "Ekle",
+    "delete": "Sil",
+    "enabled": "Etkinleştirilmiş",
+    "disabled": "Etkisizleştirilmiş",
+    "enable": "Etkinleştir",
+    "disable": "Etkisizleştir",
+    "actions": "İşlemler",
+    "advanced_options": "Gelişmiş ayarlar",
+    "search": "Arama",
+    "next": "Sonraki",
+    "prev": "Önceki",
+    "of": " / ",
+    "rows_per_page": "Bir sayfadaki satır sayısı",
+    "all": "Tümü",
+    "dashboard": {
+        "app": "Bantgenişliği izleme",
+        "title": "Bant genişliği izleme panosu",
+        "status": "Durum",
+        "is_enabled": "etkin",
+        "is_disabled": "etkisiz",
+        "openNtopngApp": "Bant genişliği izleyici uygulamasını aç",
+        "name": "Ad",
+        "ip_address": "IP adresi",
+        "throughput": "Kullanım",
+        "traffic": "Trafik",
+        "since": "Başlangıç",
+        "top_local_hosts": "En yüksek yerel sunucular",
+        "top_remote_hosts": "En yüksek uzak sunucular",
+        "traffic_by_interface": "Arabirime göre trafik",
+        "traffic_by_protocol": "İletişim kuralına göre trafik",
+        "kbps": "kbit/s",
+        "no_data": "Herhangi bir veri yok",
+        "others": "Diğerleri"
+    },
+    "settings": {
+        "title": "Ayarlar",
+        "enable_ntopng": "Bant genişliği izleyici kullanılsın",
+        "web_interface_port": "Web arayüzü kapı numarası",
+        "enable_auth": "Kimlik doğrulaması kullanılsın",
+        "interfaces": "Arabirimler",
+        "settings_update_successful": "Ayarlar güncellendi",
+        "settings_update_failed": "Ayarlar güncellenirken sorun çıktı",
+        "is_running_at_this_url": "uygulamaya bu adresten erişilebilir",
+        "login_credentials": "Oturum açma bilgileri"
+    },
+    "logs": {
+        "title": "Günlükler",
+        "follow": "İzle",
+        "stop_follow": "Durdur",
+        "start_follow_button": "İzle",
+        "stop_follow_button": "İzlemeyi bırak",
+        "filter_label": "Kurallı ifade süzgeci"
+    },
+    "about": {
+        "title": "Hakkında",
+        "website": "Web sitesi",
+        "bug_tracker": "Hata izleyici"
+    },
+    "docs": {
+        "ntopng_credentials": "Kullanıcı adı: <code>admin</code><br>Varsayılan parola: <code>admin</code>"
+    }
+}

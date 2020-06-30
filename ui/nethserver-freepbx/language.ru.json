@@ -1,0 +1,61 @@
+{
+    "settings": {
+        "title": "Настройки",
+        "external_access": "External access",
+        "allow_external_iax_access": "Allow external IAX access",
+        "allow_external_sip_tls_access": "Allow external SIP TLS access",
+        "web_interface_access": "Web interface access",
+        "create_new": "Создать",
+        "network": "Сеть",
+        "network_mask": "Маска сети",
+        "error_reading_asterisk_configuration": "Error reading asterisk configuration",
+        "error_reading_httpd_fpbx_configuration": "Error reading httpd-fpbx configuration",
+        "error_updating_configuration": "Error updating configuration",
+        "add_web_interface_access": "Add web interface access",
+        "ipAddress_validation": "Invalid IP address",
+        "netmask_validation": "Invalid netmask",
+        "ip_address": "IP-адрес",
+        "netmask": "Маска сети",
+        "create_new_access": "Create new access",
+        "no_web_interface_access": "No web interface access",
+        "no_web_interface_access_description": "You can create one by clicking on the button below",
+        "delete_web_interface_access": "Delete web interface access",
+        "delete_web_interface_access_message": "This action will permanently delete the web interface access. This cannot be undone",
+        "are_you_sure": "Вы уверены",
+        "configuration_updated": "Configuration updated"
+    },
+    "about": {
+        "title": "О программе",
+        "website": "Web-сайт",
+        "bug_tracker": "Баг-трекер"
+    },
+    "logs": {
+        "title": "Логи",
+        "start_follow_button": "Отслеживать",
+        "stop_follow_button": "Остановить отслеживание",
+        "filter_label": "Regexp-фильтр"
+    },
+    "dashboard":{
+        "title": "FreePBX dashboard",
+        "app": "FreePBX",
+        "freepbx_admin_dashboard": "FreePBX Admin Dashboard",
+        "open_dashboard": "Open dashboard",
+        "freepbx_description": "FreePBX is a GUI that gives you the ability to manage your Asterisk system."
+    },
+    "docs": {
+        "allow_external_iax_access": "Allow external telephony access through IAX protocol",
+        "allow_external_sip_tls_access": "Allow external telephony access through secure SIP TLS protocol"
+    },
+    "actions": "Действия",
+    "delete": "Удалить",
+    "next": "Далее",
+    "prev": "Предыдущий",
+    "of": " ",
+    "rows_per_page": "Строк на страницу",
+    "search": "Поиск",
+    "all": "Всё",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "warning": "Предупреждение",
+    "create": "Создать"
+}

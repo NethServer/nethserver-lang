@@ -1,0 +1,65 @@
+{
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "add": "Adicionar",
+    "delete": "Eliminar",
+    "enabled": "Ativado",
+    "disabled": "Desativado",
+    "enable": "Ativar",
+    "disable": "Desativar",
+    "actions": "Ações",
+    "advanced_options": "Opções avançadas",
+    "search": "Procurar",
+    "next": "Seguinte",
+    "prev": "Anterior",
+    "of": "de",
+    "rows_per_page": "Linhas por página",
+    "all": "Tudo",
+    "dashboard": {
+        "app": "Monitor de largura de banda",
+        "title": "Painel do monitor de largura de banda",
+        "status": "Estado",
+        "is_enabled": "está ativado",
+        "is_disabled": "está desativado",
+        "openNtopngApp": "Abrir aplicação do monitor de largura de banda",
+        "name": "Nome",
+        "ip_address": "Endereço IP",
+        "throughput": "Produtividade",
+        "traffic": "Tráfego",
+        "since": "Desde",
+        "top_local_hosts": "Principais anfitriões locais",
+        "top_remote_hosts": "Top remote hosts",
+        "traffic_by_interface": "Traffic by interface",
+        "traffic_by_protocol": "Traffic by protocol",
+        "kbps": "kbit/s",
+        "no_data": "No data",
+        "others": "Others"
+    },
+    "settings": {
+        "title": "Definições",
+        "enable_ntopng": "Enable bandwidth monitor",
+        "web_interface_port": "Porto do interface Web",
+        "enable_auth": "Ativar autenticação",
+        "interfaces": "Interfaces",
+        "settings_update_successful": "Settings updated successfully",
+        "settings_update_failed": "Error while updating settings",
+        "is_running_at_this_url": "application is running at this URL",
+        "login_credentials": "Login credentials"
+    },
+    "logs": {
+        "title": "Registos",
+        "follow": "Seguir",
+        "stop_follow": "Parar",
+        "start_follow_button": "Seguir",
+        "stop_follow_button": "Deixar de seguir",
+        "filter_label": "Regexp filter"
+    },
+    "about": {
+        "title": "Sobre",
+        "website": "Site da Web",
+        "bug_tracker": "Rastreador de erros"
+    },
+    "docs": {
+        "ntopng_credentials": "Username: <code>admin</code><br>Default password: <code>admin</code>"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "settings": {
+        "title": "Paramètres",
+        "configuration":"Configuration",
+        "status":"Activer SOGo",
+        "ActiveSync":"Activer Microsoft ActiveSync",
+        "Dav":"Activer CalDAV et CardDAV",
+        "MailAuxiliaryUserAccountsEnabled":"Autoriser les utilisateurs à ajouter d'autres comptes IMAP",
+        "AdminUsers":"Administrateurs",
+        "advanced_mode":"Paramètres avancés",
+        "Notifications":"Notifications",
+        "ACLs":"Envoyer un courriel aux utilisateurs concernés d'un calendrier / carnet d'adresses",
+        "Folders":"Envoyer un courriel à la création d'un calendrier / carnet d'adresses",
+        "Appointment":"Envoyer un courriel aux participants de la réunion",
+        "Email":"Envoyer une alarme par courriel sur les événements et les tâches",
+        "VirtualHost":"Rendre SOGo joignable seulement pour ce domaine (FQDN)",
+        "WOWorkersCount":"Nombre de travailleurs (un par client ActiveSync connecté)",
+        "SOGoInternalSyncInterval":"Temps maximum en seconde avant de vérifier après des modifications",
+        "settings_updated_ok": "Les paramètres ont bien été mis à jour",
+        "settings_updated_error": "Les paramètres n'ont pas été mis à jour"
+    },
+    "about": {
+        "title": "A propos",
+        "website": "Site web",
+        "bug_tracker": "Bug tracker"
+    },
+    "logs": {
+      "title": "Journaux",
+      "follow": "Suivre",
+      "stop_follow": "Arrêter",
+      "start_follow_button": "Suivre",
+      "stop_follow_button": "Arrêter de suivre",
+      "filter_label": "Filtre regexp"
+    },
+    "dashboard":{
+        "title": "Tableau de bord"
+    },
+    "docs":{
+      "more_info_about":"Plus d'info à propos",
+      "sogo": "SOGo"
+    },
+    "validation":{
+      "validation_failed": "La validation a échoué",
+      "not_valid_username": "Ce n'est pas un nom d'utilisateur valide",
+      "valid_hostname_fqdn_1_9223372036854775807": "Ce n'est pas un FQDN valide (quelque chose comme domaine.org)",
+      "Bad_Notification_Element": "Paramètre de notification incorrect"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "save": "Salvează",
+    "cancel": "Anulare",
+    "add": "Adaugă",
+    "delete": "Șterge",
+    "enabled": "Activat",
+    "disabled": "Dezactivat",
+    "enable": "Activează",
+    "disable": "Dezactivează",
+    "actions": "Acțiuni",
+    "advanced_options": "Opțiuni avansate",
+    "search": "Caută",
+    "next": "Următorul",
+    "prev": "Anterior",
+    "of": "al",
+    "rows_per_page": "Rânduri pe pagină",
+    "all": "Tot",
+    "dashboard": {
+        "app": "Monitorizare lățime de bandă",
+        "title": "Panoul de bord pentru monitorizarea lățimii de bandă",
+        "status": "Stare",
+        "is_enabled": "este activat",
+        "is_disabled": "este dezactivat",
+        "openNtopngApp": "Aplicație open de monitorizare lățime de bandă",
+        "name": "Nume",
+        "ip_address": "Adresă IP",
+        "throughput": "Viteză de transfer",
+        "traffic": "Trafic",
+        "since": "De la",
+        "top_local_hosts": "Gazde locale de top",
+        "top_remote_hosts": "Gazde la distanță de top",
+        "traffic_by_interface": "Trafic după interfață",
+        "traffic_by_protocol": "Trafic după protocol",
+        "kbps": "kbit/s",
+        "no_data": "Fără date",
+        "others": "Altele"
+    },
+    "settings": {
+        "title": "Setări",
+        "enable_ntopng": "Activează monitorul de bandă",
+        "web_interface_port": "Portul interfeței WEB",
+        "enable_auth": "Activează autentificarea",
+        "interfaces": "Interfeţe",
+        "settings_update_successful": "Setări actualizate cu succes",
+        "settings_update_failed": "Eroare în timpul actualizării setărilor",
+        "is_running_at_this_url": "aplicația rulează la acest URL",
+        "login_credentials": "Date de autentificare"
+    },
+    "logs": {
+        "title": "Jurnale",
+        "follow": "Urmărește",
+        "stop_follow": "Oprire",
+        "start_follow_button": "Urmărește",
+        "stop_follow_button": "Nu mai urmări",
+        "filter_label": "Filtru Regexp"
+    },
+    "about": {
+        "title": "Despre",
+        "website": "Sit web",
+        "bug_tracker": "Bug tracker"
+    },
+    "docs": {
+        "ntopng_credentials": "Nume de utilizator: <code>admin</code><br>Parolă implicită: <code>admin</code>"
+    }
+}
