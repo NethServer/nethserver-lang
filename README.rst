@@ -43,19 +43,20 @@ Build the RPMs:
 
      tx pull -a
 
-1. (optional) clean up partially translated languages: ::
+2. (optional) clean up partially translated languages: ::
 
+     git add <files for new configurations just added to .tx/config>
      git clean -f -d
 
-2. Commit changes to git repository: ::
+3. Commit changes to git repository: ::
 
      git commit -a -m 'Pulled translation strings from Transifex'
 
-3. Build RPMs: ::
+4. Build RPMs: ::
 
      make-rpms nethserver-lang.spec
 
-4. If everything is ok, do not forget to push the commit back to GitHub, and open a Pull Request: ::
+5. If everything is ok, do not forget to push the commit back to GitHub, and open a Pull Request: ::
 
      git push
 
