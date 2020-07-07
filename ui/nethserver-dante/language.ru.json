@@ -34,10 +34,10 @@
     "send": "Отправить",
     "test_address": "Адрес",
     "include_configured_addresses": "Включая настроенные адреса",
-    "invalid_dns": "The 'Public host' field is using a private DNS name: the report will not be accessibile from Internet.",
-    "mining_configuration": "Data collection",
-    "missing_miners": "No data collected yet. Wait until tomorrow or click 'Collect now'",
-    "mining_now": "Collect now"
+    "invalid_dns": "Поле \"публичный хост\" используется DNS именем: отчет не будет доступен через Интернет",
+    "mining_configuration": "Сбор данных",
+    "missing_miners": "Данные пока не собраны. Подождите до завтра или нажмите \"Собрать сейчас\"",
+    "mining_now": "Собрать сейчас"
   },
   "about": {
     "title": "О программе",
@@ -45,7 +45,7 @@
     "bug_tracker": "Баг-трекер"
   },
   "dashboard": {
-    "title": "Report"
+    "title": "Отчет"
   },
   "validation": {
     "validation_failed": "Проверка не пройдена",

@@ -14,7 +14,7 @@ $L['TCPPorts_label'] = 'TCP';
 $L['UDPPorts_label'] = 'UDP';
 $L['enabled_label'] = 'Ativado';
 $L['disabled_label'] = 'Desativado';
-$L['restart_label'] = 'Restart';
+$L['restart_label'] = 'Reiniciar';
 $L['start_label'] = 'Início';
 $L['stop_label'] = 'Parar';
 

@@ -1055,7 +1055,6 @@
     "limit_red_access_by_ip": "Limitez l'accès au gestionnaire du serveur en spécifiant l'adresse IP autorisée",
     "LimitAccess": "Gestionnaire du serveur",
     "backup": "Sauvegarde",
-    "centos_upgrade": "Une nouvelle version de la distribution est disponible en tant que mise à jour. Pour éviter de l'installer, réglez l'origine des mises à jour logicielles sur \"Verrouillé\".",
     "interface_must_be_static": "Une interface verte doit avoir une adresse IP statique. L'utilisation de DHCP sur des interfaces vertes conduit à un comportement inattendu. S'il vous plaît, changez l'interface en statique si possible.",
     "hostname": "Nom d'hôte",
     "hostname_should_not_contain_localhost": "Le nom d'hôte ne devrait pas contenir \"localhost\"",

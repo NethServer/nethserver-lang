@@ -1,0 +1,61 @@
+{
+    "settings": {
+        "title": "Nastavenia",
+        "external_access": "External access",
+        "allow_external_iax_access": "Allow external IAX access",
+        "allow_external_sip_tls_access": "Allow external SIP TLS access",
+        "web_interface_access": "Web interface access",
+        "create_new": "Create new",
+        "network": "Sieť",
+        "network_mask": "Maska siete",
+        "error_reading_asterisk_configuration": "Error reading asterisk configuration",
+        "error_reading_httpd_fpbx_configuration": "Error reading httpd-fpbx configuration",
+        "error_updating_configuration": "Error updating configuration",
+        "add_web_interface_access": "Add web interface access",
+        "ipAddress_validation": "Neplatná adresa IP",
+        "netmask_validation": "Invalid netmask",
+        "ip_address": "Adresa IP",
+        "netmask": "Netmask",
+        "create_new_access": "Create new access",
+        "no_web_interface_access": "No web interface access",
+        "no_web_interface_access_description": "You can create one by clicking on the button below",
+        "delete_web_interface_access": "Delete web interface access",
+        "delete_web_interface_access_message": "This action will permanently delete the web interface access. This cannot be undone",
+        "are_you_sure": "Ste si istý",
+        "configuration_updated": "Configuration updated"
+    },
+    "about": {
+        "title": "O aplikácii",
+        "website": "Webová stránka",
+        "bug_tracker": "Systém správy hlásenia problémov"
+    },
+    "logs": {
+        "title": "Záznamy udalostí",
+        "start_follow_button": "Odoberať",
+        "stop_follow_button": "Prestať odoberať",
+        "filter_label": "Filter s regulárnym várazom"
+    },
+    "dashboard":{
+        "title": "FreePBX dashboard",
+        "app": "FreePBX",
+        "freepbx_admin_dashboard": "FreePBX Admin Dashboard",
+        "open_dashboard": "Open dashboard",
+        "freepbx_description": "FreePBX is a GUI that gives you the ability to manage your Asterisk system."
+    },
+    "docs": {
+        "allow_external_iax_access": "Allow external telephony access through IAX protocol",
+        "allow_external_sip_tls_access": "Allow external telephony access through secure SIP TLS protocol"
+    },
+    "actions": "Akcie",
+    "delete": "Vymazať",
+    "next": "Ďalej",
+    "prev": "Predchádzajúce",
+    "of": "z",
+    "rows_per_page": "Row per page",
+    "search": "Hľadať",
+    "all": "Všetko",
+    "save": "Uložiť",
+    "cancel": "Zrušiť",
+    "warning": "Upozornenie",
+    "create": "Vytvoriť"
+}

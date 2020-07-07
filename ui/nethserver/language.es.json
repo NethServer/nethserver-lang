@@ -1055,7 +1055,6 @@
     "limit_red_access_by_ip": "Limitar el acceso al administrador del servidor especificando las direcciones IP permitidas",
     "LimitAccess": "Server Manager",
     "backup": "Copia de seguridad",
-    "centos_upgrade": "Hay disponible una nueva versión mayor de distribución como actualización. Para evitar la instalación, cambia el origen de las actualizaciones de software a \"Bloqueado\"",
     "interface_must_be_static": "A green interface must have a static IP address. Using DHCP on green interfaces leads to unexpected behavior. Please, change the interface to static if possible.",
     "hostname": "Nombre de host",
     "hostname_should_not_contain_localhost": "Hostname should not contain localhost",

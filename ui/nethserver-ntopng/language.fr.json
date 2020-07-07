@@ -1,0 +1,65 @@
+{
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "add": "Ajouter",
+    "delete": "Supprimer",
+    "enabled": "Activé",
+    "disabled": "Desactivé",
+    "enable": "Activer",
+    "disable": "Désactiver",
+    "actions": "Actions",
+    "advanced_options": "Options avancées",
+    "search": "Chercher",
+    "next": "Suivant",
+    "prev": "Précédent",
+    "of": "de",
+    "rows_per_page": "Rangées par page",
+    "all": "Tous",
+    "dashboard": {
+        "app": "Moniteur de bande passante",
+        "title": "Bandwidth monitor dashboard",
+        "status": "État",
+        "is_enabled": "is enabled",
+        "is_disabled": "is disabled",
+        "openNtopngApp": "Open bandwidth monitor app",
+        "name": "Nom",
+        "ip_address": "Adresse IP",
+        "throughput": "Throughput",
+        "traffic": "Trafic",
+        "since": "Depuis",
+        "top_local_hosts": "Top local hosts",
+        "top_remote_hosts": "Top remote hosts",
+        "traffic_by_interface": "Traffic by interface",
+        "traffic_by_protocol": "Traffic by protocol",
+        "kbps": "kbit/s",
+        "no_data": "Aucune donnée",
+        "others": "Others"
+    },
+    "settings": {
+        "title": "Paramètres",
+        "enable_ntopng": "Enable bandwidth monitor",
+        "web_interface_port": "Port de l'interface web",
+        "enable_auth": "Activer l'authentification",
+        "interfaces": "Interfaces",
+        "settings_update_successful": "Paramètres mis à jour avec succès",
+        "settings_update_failed": "Erreur lors de la mise à jour des paramètres",
+        "is_running_at_this_url": "application is running at this URL",
+        "login_credentials": "Login credentials"
+    },
+    "logs": {
+        "title": "Journaux",
+        "follow": "Suivre",
+        "stop_follow": "Arrêter",
+        "start_follow_button": "Suivre",
+        "stop_follow_button": "Arrêter de suivre",
+        "filter_label": "Filtre regexp"
+    },
+    "about": {
+        "title": "A propos",
+        "website": "Site web",
+        "bug_tracker": "Bug tracker"
+    },
+    "docs": {
+        "ntopng_credentials": "Username: <code>admin</code><br>Default password: <code>admin</code>"
+    }
+}

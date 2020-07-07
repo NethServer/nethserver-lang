@@ -27,7 +27,7 @@
   "rows_per_page": "Строк на страницу",
   "all": "Всё",
   "package_required": "Недостающие пакеты",
-  "package_required_desc": "To access this page you have to install the required packages listed below",
+  "package_required_desc": "Для доступа к этой странице установите необходимые пакеты, показанные ниже",
   "install_package": "Установить пакет",
   "install_packages": "Установить пакеты",
   "packages_installed_ok": "Пакеты установлены!",
@@ -325,7 +325,7 @@
     "port_in_use": "Port already in use",
     "invalid_certificate": "Invalid certificate",
     "valid_minLength_8": "Minimum length is 8 characters",
-    "missing_wanpriority_rules": "Missing or duplicated interfaces in priority order"
+    "missing_wanpriority_rules": "Missing interface in priority order"
   },
   "docs": {
     "more_info_about": "Подробнее о {docsLink}.",

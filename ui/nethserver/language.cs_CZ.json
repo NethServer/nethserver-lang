@@ -1055,7 +1055,6 @@
     "limit_red_access_by_ip": "Omezit přístup ke správě serveru zadáním IP adres, ze kterých umožnit",
     "LimitAccess": "Správa serveru",
     "backup": "Záloha",
-    "centos_upgrade": "Je k dispozici nové vydání distribuce, na které je NethServer založený. Pokud nyní ještě nechcete nainstalovat, přepněte původ aktualizací software na „Uzamčeno“",
     "interface_must_be_static": "Je třeba, aby zelené rozhraní mělo statickou IP adresu. Použití DHCP na zelených rozhraních může vést k neočekávanému chování. Pokud je to možné, změňte nastavení rozhraní na statické.",
     "hostname": "Název stroje",
     "hostname_should_not_contain_localhost": "Název stroje by neměl obsahovat řetězec localhost",

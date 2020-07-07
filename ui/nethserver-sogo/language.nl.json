@@ -1,0 +1,48 @@
+{
+    "settings": {
+        "title": "Instellingen",
+        "configuration":"Configuratie",
+        "status":"SOGo inschakelen",
+        "ActiveSync":"Microsoft ActiveSync inschakelen",
+        "Dav":"CalDAV en CardDAV inschakelen",
+        "MailAuxiliaryUserAccountsEnabled":"Gebruikers toestaan andere IMAP-accounts toe te voegen",
+        "AdminUsers":"Beheerders",
+        "advanced_mode":"Geavanceerde instellingen",
+        "Notifications":"Notificaties",
+        "ACLs":"Stuur e-mail naar betrokken gebruikers van een agenda / adresboek",
+        "Folders":"Stuur een e-mail over het maken van een agenda / adresboek",
+        "Appointment":"Stuur e-mail naar deelnemers aan de vergadering",
+        "Email":"E-mail-gebaseerd alarm verzenden over gebeurtenissen en taken",
+        "VirtualHost":"Maak SOGo alleen bereikbaar vanaf dit domein (FQDN)",
+        "WOWorkersCount":"Aantal werknemers (een per aangesloten actieve client)",
+        "SOGoInternalSyncInterval":"Maximale tijd in seconden voordat controles na wijzigingen worden gecontroleerd",
+        "settings_updated_ok": "De instellingen zijn bijgewerkt",
+        "settings_updated_error": "De instellingen zijn niet bijgewerkt"
+    },
+    "about": {
+        "title": "Over ClamAV",
+        "website": "Website",
+        "bug_tracker": "Bug tracker"
+    },
+    "logs": {
+      "title": "Logs",
+      "follow": "Volg",
+      "stop_follow": "Stoppen",
+      "start_follow_button": "Volg",
+      "stop_follow_button": "Stop met volgen",
+      "filter_label": "Regexp filter"
+    },
+    "dashboard":{
+        "title": "Dashboard"
+    },
+    "docs":{
+      "more_info_about":"Meer informatie over",
+      "sogo": "SOGo"
+    },
+    "validation":{
+      "validation_failed": "De validatie is mislukt",
+      "not_valid_username": "Dit is geen geldige gebruikersnaam",
+      "valid_hostname_fqdn_1_9223372036854775807": "Dit is geen geldige FQDN (bijv.: domain.org)",
+      "Bad_Notification_Element": "Dit is geen correcte instelling voor meldingen"
+    }
+}

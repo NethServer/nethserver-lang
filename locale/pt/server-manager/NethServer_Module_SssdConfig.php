@@ -65,9 +65,9 @@ $L['valid_platform,ldap-credentials,ldaptestbind,34'] = 'Invalid DN syntax';
 $L['BindDN_label'] = 'Bind DN';
 $L['BindPassword_label'] = 'Bind Password';
 
-$L['BaseDN_label'] = 'Base DN';
-$L['UserDN_label'] = 'User DN';
-$L['GroupDN_label'] = 'Group DN';
+$L['BaseDN_label'] = 'DN Base';
+$L['UserDN_label'] = 'DN do Utilizador';
+$L['GroupDN_label'] = 'DN de Grupo';
 
 $L['StartTls_label'] = 'STARTTLS';
 $L['starttls_auto'] = 'Predefinição';

@@ -325,7 +325,7 @@
     "port_in_use": "Kapı numarası zaten kullanılıyor",
     "invalid_certificate": "Sertifika geçersiz",
     "valid_minLength_8": "En az 8 karakter uzunluğunda olmalıdır",
-    "missing_wanpriority_rules": "Öncelik sıralamasında eksik ya da çift arabirimler var"
+    "missing_wanpriority_rules": "Öncelik sıralamasında eksik arabirim var"
   },
   "docs": {
     "more_info_about": "{docsLink} hakkında ayrıntılı bilgiler.",

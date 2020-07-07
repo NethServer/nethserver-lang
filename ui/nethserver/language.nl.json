@@ -1055,7 +1055,6 @@
     "limit_red_access_by_ip": "Beperk de toegang tot serverbeheer met de toegestane IP-adressen",
     "LimitAccess": "Serverbeheer",
     "backup": "Backup",
-    "centos_upgrade": "Er is een nieuwe upstream-distributie-release beschikbaar als update. Om te voorkomen dat deze wordt geïnstalleerd, schakelt u de oorsprong van de software-updates in op \"Vergrendeld\" ",
     "interface_must_be_static": "Een groene interface moet een statisch IP-adres hebben. Het gebruik van DHCP op groene interfaces leidt tot onverwacht gedrag. Wijzig de interface indien mogelijk in statisch.",
     "hostname": "Hostnaam",
     "hostname_should_not_contain_localhost": "Hostnaam mag geen localhost bevatten",

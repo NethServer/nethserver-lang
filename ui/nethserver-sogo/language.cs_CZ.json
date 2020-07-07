@@ -1,0 +1,48 @@
+{
+    "settings": {
+        "title": "Nastavení",
+        "configuration":"Nastavení",
+        "status":"Zapnout SOGo",
+        "ActiveSync":"Zapnout Microsoft ActiveSync",
+        "Dav":"Zapnout CalDAV a CardDAV",
+        "MailAuxiliaryUserAccountsEnabled":"Umožnit uživatelům přidávat ostatní IMAP účty",
+        "AdminUsers":"Správci",
+        "advanced_mode":"Pokročilá nastavení",
+        "Notifications":"Upozorňování",
+        "ACLs":"Poslat e-mail uživatelům kalendáře / adresáře kontaktů, kterých se týká",
+        "Folders":"Při vytvoření kalendáře / adresáře kontaktů poslat e-mail",
+        "Appointment":"Poslat e-mail účastníkům jednání",
+        "Email":"pro události a úkoly poslat na e-mailu založené upozornění",
+        "VirtualHost":"Umožnit přístup k SOGo pouze z této domény (FQDN)",
+        "WOWorkersCount":"Počet zpracovávajících vláken (jedno pro každého z připojených klientů activesync)",
+        "SOGoInternalSyncInterval":"nejdelší doba (v sekundách) po které zjišťovat změny",
+        "settings_updated_ok": "Nastavení byla v pořádku zaktualizována",
+        "settings_updated_error": "Nastavení se nepodařilo zaktualizovat"
+    },
+    "about": {
+        "title": "O aplikaci",
+        "website": "Webová stránka",
+        "bug_tracker": "Systém správy hlášení problémů"
+    },
+    "logs": {
+      "title": "Záznamy událostí",
+      "follow": "Odebírat",
+      "stop_follow": "Zastavit",
+      "start_follow_button": "Odebírat",
+      "stop_follow_button": "Přestat odebírat",
+      "filter_label": "Filtr s regulárním výrazem"
+    },
+    "dashboard":{
+        "title": "Přehled"
+    },
+    "docs":{
+      "more_info_about":"Další podrobnosti",
+      "sogo": "SOGo"
+    },
+    "validation":{
+      "validation_failed": "Ověření se nezdařilo",
+      "not_valid_username": "Toto není platné uživatelské jméno",
+      "valid_hostname_fqdn_1_9223372036854775807": "Toto není platné FQDN (něco jako example.com)",
+      "Bad_Notification_Element": "Toto není správné nastavení upozorňování"
+    }
+}

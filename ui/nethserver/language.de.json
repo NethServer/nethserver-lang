@@ -1055,7 +1055,6 @@
     "limit_red_access_by_ip": "Bitte den Zugriff auf den Server-Manager beschränken, durch Angabe zulässiger IP-Adressen.",
     "LimitAccess": "Server-Manager",
     "backup": "Sicherung",
-    "centos_upgrade": "Eine neue Upstream-Distributionsversion ist als Update verfügbar. Um die Installation zu vermeiden, bitte den Ursprung der Software-Updates auf \"Gesperrt\" ändern.",
     "interface_must_be_static": "Der grünen Schnittstelle muss eine statische IP-Adresse zugeweisen sein. Die Verwendung von DHCP auf grünen Schnittstellen führt zu unerwartetem Verhalten. Bitte vergeben Sie der Schnittstelle möglichst eine statische IP-Adresse.",
     "hostname": "Hostname",
     "hostname_should_not_contain_localhost": "Der Hostname sollte keine Bezeichnung erhalten, die  \"localhost\" enthält.",

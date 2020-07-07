@@ -1055,7 +1055,6 @@
     "limit_red_access_by_ip": "Sunucu yönetimi bölümüne erişimi kısıtlamak için IP adresleri belirtebilirsiniz",
     "LimitAccess": "Sunucu Yönetimi",
     "backup": "Yedekleme",
-    "centos_upgrade": "Yükseltme olarak yayınlanmış yeni bir dağıtımı sürümü var. Bu sürümün kurulmasını önlemek için yazılım güncellemeleri kaynağını \"Kilitlenmiş\" olarak değiştirin",
     "interface_must_be_static": "Yeşil arabirimlerin IP adresi sabit olmalıdır. Yeşil arabirimlerde DHCP kullanılması beklenmedik sonuçlara yol açabilir. Lütfen olabiliyorsa arabirime sabit bir adres atayın.",
     "hostname": "Sunucu Adı",
     "hostname_should_not_contain_localhost": "Sunucu adında localhost sözcüğü bulunmamalıdır",

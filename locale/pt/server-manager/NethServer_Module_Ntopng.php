@@ -3,7 +3,7 @@
 $L['status_label'] = 'Activar ntopng'; 
 $L['ntopng_title'] = 'Monitor de largura de banda: ntopng';
 $L['username_label'] = 'Utilizador'; 
-$L['default_password_label'] = 'Default password'; 
+$L['default_password_label'] = 'Palavra-passe predefinida'; 
 $L['TCPPort_label'] = 'Porto do interface Web'; 
 $L['Ntopng_Tags'] = 'ntop larguradebanda monitor uso'; 
 $L['Ntopng_Title'] = 'Monitor de largura de banda';

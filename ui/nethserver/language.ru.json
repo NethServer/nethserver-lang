@@ -83,7 +83,7 @@
     "terminal": "Терминал",
     "nethserver-register": "Настраиваемые оповещения",
     "nethserver-antivirus": "Антивирус",
-    "nethserver-dante": "Report",
+    "nethserver-dante": "Отчет",
     "nethserver-dedalo": "Точка доступа",
     "nethserver-ejabberd": "Ejabberd",
     "nethserver-fail2ban": "Fail2Ban",
@@ -107,8 +107,8 @@
     "nethserver-cgp": "Collectd Charts",
     "nethserver-sogo": "SOGo",
     "nethserver-hotsync": "HotSync",
-    "nethserver-blacklist": "Threat shield",
-    "nethserver-mssql": "Microsoft SQL Server"
+    "nethserver-blacklist": "Защита от угроз",
+    "nethserver-mssql": "Microsoft SQL сервер"
   },
   "dashboard": {
     "title": "Рабочий стол",
@@ -170,7 +170,7 @@
     "datetime_save_error": "Дата и время не сохранены.",
     "shutdown_ok": "Система выключается...",
     "shutdown_error": "Произошла ошибка при выключении системы.",
-    "hostname_invalid_warn": "The server FQDN must not contain 'localhost' or 'localdomain'. You have to change your machine hostname before proceeding with other configurations",
+    "hostname_invalid_warn": "Сервер FQDN должен содержать 'localhost' или 'localdomain'. Необходимо изменить имя вашей машины перед использованием остальных настроек",
     "disk": "Диск",
     "root_partition": "ROOT PARTITION",
     "raid": "RAID",
@@ -1055,7 +1055,6 @@
     "limit_red_access_by_ip": "Ограничьте доступ к диспетчеру сервера, указав разрешенный IP-адреса",
     "LimitAccess": "Диспетчер сервера",
     "backup": "Резервное копирование",
-    "centos_upgrade": "Новый выпуск дистрибутива доступен в качестве обновления. Если Вы не хотите его устанавливать, то смените источник обновлений на \"Заблокированный\"",
     "interface_must_be_static": "A green interface must have a static IP address. Using DHCP on green interfaces leads to unexpected behavior. Please, change the interface to static if possible.",
     "hostname": "Имя хоста",
     "hostname_should_not_contain_localhost": "Hostname should not contain localhost",

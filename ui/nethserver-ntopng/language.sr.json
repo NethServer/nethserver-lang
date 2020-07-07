@@ -1,0 +1,65 @@
+{
+    "save": "Сачувај",
+    "cancel": "Откажи",
+    "add": "Додај",
+    "delete": "Обриши",
+    "enabled": "Омогућен",
+    "disabled": "Онемогућен",
+    "enable": "Омогући",
+    "disable": "Онемогући",
+    "actions": "Акције",
+    "advanced_options": "Напредне опције",
+    "search": "Претражи",
+    "next": "Следеће",
+    "prev": "Previous",
+    "of": "of",
+    "rows_per_page": "Rows per page",
+    "all": "Све",
+    "dashboard": {
+        "app": "Монитор протока",
+        "title": "Bandwidth monitor dashboard",
+        "status": "Статус",
+        "is_enabled": "is enabled",
+        "is_disabled": "is disabled",
+        "openNtopngApp": "Open bandwidth monitor app",
+        "name": "Име",
+        "ip_address": "ИП адреса",
+        "throughput": "Throughput",
+        "traffic": "Саобраћај",
+        "since": "Since",
+        "top_local_hosts": "Top local hosts",
+        "top_remote_hosts": "Top remote hosts",
+        "traffic_by_interface": "Traffic by interface",
+        "traffic_by_protocol": "Traffic by protocol",
+        "kbps": "kbit/s",
+        "no_data": "No data",
+        "others": "Others"
+    },
+    "settings": {
+        "title": "Подешавања",
+        "enable_ntopng": "Enable bandwidth monitor",
+        "web_interface_port": "Порт веб интерфејса",
+        "enable_auth": "Омогући аутентификацију",
+        "interfaces": "Интерфејси",
+        "settings_update_successful": "Settings updated successfully",
+        "settings_update_failed": "Error while updating settings",
+        "is_running_at_this_url": "application is running at this URL",
+        "login_credentials": "Login credentials"
+    },
+    "logs": {
+        "title": "Дневници",
+        "follow": "Прати",
+        "stop_follow": "Заустави",
+        "start_follow_button": "Прати",
+        "stop_follow_button": "Stop following",
+        "filter_label": "Regexp filter"
+    },
+    "about": {
+        "title": "About",
+        "website": "Web site",
+        "bug_tracker": "Bug tracker"
+    },
+    "docs": {
+        "ntopng_credentials": "Username: <code>admin</code><br>Default password: <code>admin</code>"
+    }
+}

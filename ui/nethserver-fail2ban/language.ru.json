@@ -14,8 +14,8 @@
         "Fail2ban_is_probably_down": "Вероятно, Fail2ban остановлен, пожалуйста, проверьте логи",
         "ip_unlocked_error": "IP не был разбанен",
         "ip_unlocked_ok": "IP был разбанен",
-        "No_banned_IP": "You have no banned IP",
-        "no_IP_desc": "Here are listed the blocked IP in the firewall"
+        "No_banned_IP": "У Вас нет заблокированных IP",
+        "no_IP_desc": "Список заблокированных IP в файрволе"
     },
     "settings": {
         "title": "Настройки",
@@ -73,7 +73,7 @@
         "security_jails": "Безопасный",
         "ssh_jails": "SSH",
         "vpn_jails": "VPN",
-        "webApps_jails": "web applications",
+        "webApps_jails": "Веб-приложения",
         "settings_updated_error": "настройки обновлены с ошибками",
         "settings_updated_ok": "настройки обновлены"
     },
@@ -91,7 +91,7 @@
         "filter_label": "Regexp-фильтр"
     },
     "dashboard":{
-        "title": "Fail2ban dashboard",
+        "title": "Панель управления Fail2ban",
         "app": "Fail2ban",
         "list_active_jails": "Список всех активных джейлов",
         "number_of_active_jail": "Активные джейлы",
@@ -100,7 +100,7 @@
         "number_of_enabled_jails": "Включенные джейлы",
         "number_total_of_bans":"Общее количество забаненных IP",
         "Fail2ban_is_probably_down": "Вероятно, Fail2ban остановлен, пожалуйста, проверьте логи",
-        "time_of_the_last_stats": "Last statistics update"
+        "time_of_the_last_stats": "Последнее обновление статистики"
 
     },
     "validation":{

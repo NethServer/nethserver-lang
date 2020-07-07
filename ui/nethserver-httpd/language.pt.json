@@ -79,7 +79,7 @@
     "FtpPassword": "Palavra-passe",
     "ServerNames": "Virtual host names (FQDN)",
     "Trusted_Network_Only": "Permitir apenas o acesso de redes de confiança",
-    "Apache_Authentication": "Require HTTP authentication",
+    "Apache_Authentication": "Necessário autenticação de HTTP",
     "PasswordValue": "Palavra-passe",
     "Force_HTTPS": "Requer ligação encriptada SSL",
     "Root_file_listing": "Root directory file listings",

@@ -1,0 +1,65 @@
+{
+    "save": "Uložiť",
+    "cancel": "Zrušiť",
+    "add": "Pridať",
+    "delete": "Vymazať",
+    "enabled": "Zapnuté",
+    "disabled": "Vypnuté",
+    "enable": "Zapnúť",
+    "disable": "Vypnúť",
+    "actions": "Akcie",
+    "advanced_options": "Pokročilé možnosti",
+    "search": "Hľadať",
+    "next": "Ďalej",
+    "prev": "Predchádzajúce",
+    "of": "z",
+    "rows_per_page": "Riadkov na stránku",
+    "all": "Všetko",
+    "dashboard": {
+        "app": "Bandwidth monitor",
+        "title": "Bandwidth monitor dashboard",
+        "status": "Stav",
+        "is_enabled": "is enabled",
+        "is_disabled": "is disabled",
+        "openNtopngApp": "Open bandwidth monitor app",
+        "name": "Názov",
+        "ip_address": "Adresa IP",
+        "throughput": "Throughput",
+        "traffic": "Traffic",
+        "since": "Since",
+        "top_local_hosts": "Top local hosts",
+        "top_remote_hosts": "Top remote hosts",
+        "traffic_by_interface": "Traffic by interface",
+        "traffic_by_protocol": "Traffic by protocol",
+        "kbps": "kbit/s",
+        "no_data": "Žiadne dáta",
+        "others": "Others"
+    },
+    "settings": {
+        "title": "Nastavenia",
+        "enable_ntopng": "Enable bandwidth monitor",
+        "web_interface_port": "Web interface port",
+        "enable_auth": "Enable authentication",
+        "interfaces": "Rozhrania",
+        "settings_update_successful": "Nastavenia boli úspešne aktualizované",
+        "settings_update_failed": "Pri aktualizácii nastavení došlo k chybe",
+        "is_running_at_this_url": "application is running at this URL",
+        "login_credentials": "Login credentials"
+    },
+    "logs": {
+        "title": "Záznamy udalostí",
+        "follow": "Odoberať",
+        "stop_follow": "Zastaviť",
+        "start_follow_button": "Odoberať",
+        "stop_follow_button": "Prestať odoberať",
+        "filter_label": "Filter s regulárnym várazom"
+    },
+    "about": {
+        "title": "O aplikácii",
+        "website": "Web stránka",
+        "bug_tracker": "Systém správy hlásenia problémov"
+    },
+    "docs": {
+        "ntopng_credentials": "Username: <code>admin</code><br>Default password: <code>admin</code>"
+    }
+}

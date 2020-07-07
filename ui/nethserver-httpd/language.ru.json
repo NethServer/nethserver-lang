@@ -1,7 +1,7 @@
 {
   "are_you_sure": "Вы уверены",
   "package_required": "Недостающие пакеты",
-  "package_required_desc": "To access this page you have to install the required packages listed below",
+  "package_required_desc": "Для доступа к этой странице установите необходимые пакеты, показанные ниже",
   "install_package": "Установить пакет",
   "install_packages": "Установить пакеты",
   "packages_installed_ok": "Пакеты установлены!",

@@ -129,7 +129,7 @@
     "port": "Porta",
     "routes": "Routes",
     "local_networks": "Redes locais",
-    "remote_networks": "Remote networks",
+    "remote_networks": "Redes remotas",
     "topology": "Topology",
     "subnet": "Subnet",
     "p2p": "P2P",
@@ -150,7 +150,7 @@
     "private_key_tun_ca": "Private key, tunnel and CA certificates",
     "psk_download": "PSK (Pre-shared Key)",
     "tun_servers": "Tunnel servers",
-    "tun_clients": "Tunnel clients",
+    "tun_clients": "Clientes de túnel",
     "remote_port": "Porto remoto",
     "remote_hosts": "Hospedeiros remotos",
     "wan_priorities": "Special WAN providers priority order",
@@ -325,7 +325,7 @@
     "port_in_use": "Port already in use",
     "invalid_certificate": "Invalid certificate",
     "valid_minLength_8": "Minimum length is 8 characters",
-    "missing_wanpriority_rules": "Missing or duplicated interfaces in priority order"
+    "missing_wanpriority_rules": "Missing interface in priority order"
   },
   "docs": {
     "more_info_about": "Mais informação sobre {docsLink}.",

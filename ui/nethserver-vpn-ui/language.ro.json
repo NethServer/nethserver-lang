@@ -97,11 +97,11 @@
     "hash": "Algoritm de integritate",
     "pfsgroup": "Grup Diffie-Hellman",
     "key_lifetime": "Durata de viață a cheii (secunde)",
-    "ike_version": "IKE version",
+    "ike_version": "Versiune IKE",
     "ikev1": "IKEv1",
     "ikev2": "IKEv2",
-    "force_ikev1": "Force IKEv1",
-    "force_ikev2": "Force IKEv2"
+    "force_ikev1": "Forțează IKEv1",
+    "force_ikev2": "Forțează IKEv2"
   },
   "openvpn_tun": {
     "menu_title": "Tuneluri OVPN",
@@ -187,8 +187,8 @@
     "configure_rw_server": "Configurează serverul RoadWarrior",
     "username_password_certificate": "Nume de utilizator, parolă și certificat",
     "username_password": "Nume de utilizator și parolă",
-    "username_otp_certificate": "Username, One time password and Certificate",
-    "username_otp_certificate_waning_all_users_must_install_an_otp_application": "This policy enforces the OTP usage: users will be required to enable 2FA before accessing the VPN.",
+    "username_otp_certificate": "Numele de utilizator, parola de primă conectare și certificatul",
+    "username_otp_certificate_waning_all_users_must_install_an_otp_application": "Această politică forțează utilizarea OTP: utilizatorii vor trebui să activeze 2FA înainte de a accesa VPN.",
     "certificate": "Certificat",
     "mode": "Mod",
     "routed": "Rutat",
@@ -268,7 +268,7 @@
     "account_killed_ok": "Contul a fost deconectat cu succes!",
     "account_killed_error": "Contul nu a fost deconectat.",
     "custom_routes": "Rute particularizate",
-    "send_email_configuration": "Send configuration via email to ",
+    "send_email_configuration": "Trimite configurația pe e-mail la",
     "address": "Adresă e-mail",
     "email_sent_ok": "E-mail trimis cu succes!",
     "email_sent_error": "E-mailul nu a fost trimis.",
@@ -285,19 +285,19 @@
     "today": "Astăzi",
     "last_week": "Ultima săptămână",
     "last_month": "Ultima lună",
-    "subnet": "subnet",
-    "net30": "net30 (obsolete)",
-    "topology_selection": "RoadWarrior topology",
+    "subnet": "subrețea",
+    "net30": "net30 (învechit)",
+    "topology_selection": "Topologie RoadWarrior",
     "topology": "Topologie",
-    "certEOL": "Certificate end of life",
-    "days_life": "Number of days",
-    "PushDhcpOptionsStatus": "Push DHCP options",
-    "The_IP_cannot_be_calculated": "The IP cannot be calculated",
-    "The_r2w_is_not_set": "The R2W is not set",
-    "export_connection_history": "Export connection history",
+    "certEOL": "Sfârșitul vieții certificatului",
+    "days_life": "Numărul de zile",
+    "PushDhcpOptionsStatus": "Setează opțiuni DHCP",
+    "The_IP_cannot_be_calculated": "IP-ul nu poate fi calculat",
+    "The_r2w_is_not_set": "R2W nu este setat",
+    "export_connection_history": "Exportă istoricul conexiunilor",
     "apply_changes": "Aplică",
-    "pending_changes": "OpenVPN RoadWarrior settings have been changed but not applied. Click 'Apply' to activate the new settings",
-    "warning_apply_changes": "New OpenVPN RoadWarrior settings will be applied immediately. Active connections will be dropped"
+    "pending_changes": "Setările OpenVPN RoadWarrior au fost schimbate, dar nu au fost aplicate. Dă click pe „Aplicați” pentru a activa noile setări",
+    "warning_apply_changes": "Noile setări OpenVPN RoadWarrior vor fi aplicate imediat. Conexiunile active vor fi întrerupte"
   },
   "logs": {
     "title": "Jurnale",
@@ -323,15 +323,15 @@
     "valid_lessThan_65536": "Un port TCP/UDP valid este un număr între 1 și 65536",
     "valid_hostname_fqdn_1_9223372036854775807": "Trebuie să conțină cel puțin 2 puncte, cum ar fi 'gazdamea.exemplu.com'",
     "port_in_use": "Port deja utilizat",
-    "invalid_certificate": "Invalid certificate",
-    "valid_minLength_8": "Minimum length is 8 characters",
-    "missing_wanpriority_rules": "Missing or duplicated interfaces in priority order"
+    "invalid_certificate": "Certificat invalid",
+    "valid_minLength_8": "Lungimea minimă este de 8 caractere",
+    "missing_wanpriority_rules": "Missing interface in priority order"
   },
   "docs": {
     "more_info_about": "Mai multe informații despre {docsLink}.",
     "right": "Specifică adresa publică statică sau %a dacă gazda la distanță un IP public dinamic.",
     "vpn_remote_network": "Configurează acești parametri numai dacă dorești să creezi un VPN Rețea la Rețea utilizând acest cont (compatibil cu NethServer 6). Nu compila aceste câmpuri dacă vrei să configurezi  un VPN Gazdă la Rețea.",
     "vpn_remote_netmask": "Compilează acest câmp numai dacă ai completat deja câmpul rețelei la distanță",
-    "topology_selection": "The subnet topology is suitable for most use cases and allow the usage of all IPs inside the pool. The net30 is an old topology for support with Windows clients running 2.0.9 or older clients: each client is allocated a virtual /30, taking 4 IPs per client, plus 4 for the server."
+    "topology_selection": "Topologia de subrețea este potrivită pentru majoritatea cazurilor de utilizare și permite utilizarea tuturor IP-urilor din interiorul intervalului. Net30 este o topologie veche pentru asistență cu clienții Windows care rulează clienți 2.0.9 sau mai vechi: fiecărui client i se alocă un virtual / 30, luând 4 IP-uri pentru fiecare client, plus 4 pentru server."
   }
 }

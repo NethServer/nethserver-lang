@@ -2,8 +2,8 @@
 
 $L['Ejabber_Title'] = 'Сервер сообщений';
 $L['Ejabber_Description'] = 'Управление сервером сообщений';
-$L['Ejabber_Tags'] = 'chat xmpp jabber ejabberd';
-$L['status_label'] = 'Enable ejabberd chat server';
+$L['Ejabber_Tags'] = 'чат xmpp jabber ejabberd';
+$L['status_label'] = 'Включить сервер сообщений ejabberd';
 $L['WebAdmin_label'] = 'Web-интерфейс администратора';
 $L['Advanced_label'] = 'Расширенные настройки';
 $L['S2S_label'] = 'Включить федерацию (S2S)';

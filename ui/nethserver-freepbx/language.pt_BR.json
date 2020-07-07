@@ -1,0 +1,61 @@
+{
+    "settings": {
+        "title": "Configurações",
+        "external_access": "Acesso externo",
+        "allow_external_iax_access": "Permitir acesso IAX externo",
+        "allow_external_sip_tls_access": "Permitir acesso SIP TLS exteno",
+        "web_interface_access": "Acesso interface WEB",
+        "create_new": "Criar novo",
+        "network": "Rede",
+        "network_mask": "Máscara de rede",
+        "error_reading_asterisk_configuration": "Erro lendo configuração do asterisk",
+        "error_reading_httpd_fpbx_configuration": "Erro lendo configuração do httpd-fpbx",
+        "error_updating_configuration": "Erro atualizando a configuração",
+        "add_web_interface_access": "Adicionar acesso a interface WEB",
+        "ipAddress_validation": "Endereço de IP invalido",
+        "netmask_validation": "Mascara de IP invalida",
+        "ip_address": "Endereço IP",
+        "netmask": "Mascara de rede",
+        "create_new_access": "Criar novo acesso",
+        "no_web_interface_access": "Nenhum acesso a interface WEB",
+        "no_web_interface_access_description": "Você pode criar um clicando no botão abaixo",
+        "delete_web_interface_access": "Remover acesso a interface WEB",
+        "delete_web_interface_access_message": "Esta ação excluirá permanentemente o acesso à interface WEB. Isto não pode ser desfeito",
+        "are_you_sure": "Você tem certeza",
+        "configuration_updated": "Configuração atualizada"
+    },
+    "about": {
+        "title": "Sobre",
+        "website": "Website",
+        "bug_tracker": "Informar Bug"
+    },
+    "logs": {
+        "title": "Registros",
+        "start_follow_button": "Seguir",
+        "stop_follow_button": "Parar de seguir",
+        "filter_label": "Filtro de Rejeição por Expressão"
+    },
+    "dashboard":{
+        "title": "Painel FreePBX",
+        "app": "FreePBX",
+        "freepbx_admin_dashboard": "Painel Administrativo FreePBX",
+        "open_dashboard": "Abrir painel",
+        "freepbx_description": "FreePBX é uma interface WEB para você gerenciar e configurar seu sistema Asterisk."
+    },
+    "docs": {
+        "allow_external_iax_access": "Permitir acesso externo à telefonia através do protocolo IAX",
+        "allow_external_sip_tls_access": "Permitir acesso externo à telefonia através do protocolo SIP TLS"
+    },
+    "actions": "Ações",
+    "delete": "Deletar",
+    "next": "Próximo",
+    "prev": "Anterior",
+    "of": "de",
+    "rows_per_page": "Linhas por página",
+    "search": "Procurar",
+    "all": "Todos",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "warning": "Aviso",
+    "create": "Criar"
+}

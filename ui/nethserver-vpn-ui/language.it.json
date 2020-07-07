@@ -325,7 +325,7 @@
     "port_in_use": "Porta già utilizzata",
     "invalid_certificate": "Invalid certificate",
     "valid_minLength_8": "Minimum length is 8 characters",
-    "missing_wanpriority_rules": "Missing or duplicated interfaces in priority order"
+    "missing_wanpriority_rules": "Missing interface in priority order"
   },
   "docs": {
     "more_info_about": "Maggiori informazioni su {docsLink}.",
