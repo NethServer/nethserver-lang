@@ -325,7 +325,7 @@
     "port_in_use": "Port deja utilizat",
     "invalid_certificate": "Certificat invalid",
     "valid_minLength_8": "Lungimea minimă este de 8 caractere",
-    "missing_wanpriority_rules": "Missing interface in priority order"
+    "missing_wanpriority_rules": "Interfața lipsește în ordinea priorităților"
   },
   "docs": {
     "more_info_about": "Mai multe informații despre {docsLink}.",

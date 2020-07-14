@@ -4,6 +4,20 @@
   "info": "Info",
   "search": "Zoeken",
   "warning": "Waarschuwing",
+  "actions": "Acties",
+  "action": "Actie",
+  "list": "Lijst",
+  "save": "Opslaan",
+  "edit": "Bewerken",
+  "enable": "Inschakelen",
+  "disable": "Uitschakelen",
+  "delete": "Verwijderen",
+  "next": "Volgende",
+  "prev": "Vorige",
+  "of": "van",
+  "rows_per_page": "Rijen per pagina",
+  "all": "Alle",
+  "are_you_sure": "Weet u het zeker",
   "dashboard": {
     "menu_title": "IPS",
     "title": "IPS-dashboard",
@@ -64,6 +78,21 @@
     "disable_all": "Alle categorieën uitschakelen",
     "filter_by": "Filteren op"
   },
+  "bypass": {
+    "menu_title": "Omzeilen",
+    "title": "Omzeilen",
+    "description": "Beschrijving",
+    "bypass": "Omzeilen",
+    "add_bypass": "Add bypass",
+    "edit_bypass": "Edit bypass",
+    "delete_bypass": "Delete bypass",
+    "bypass_created_ok": "Bron succesvol aangemaakt!",
+    "bypass_created_error": "Bron niet aangemaakt",
+    "bypass_updated_ok": "Bron succesvol bijgewerkt!",
+    "bypass_updated_error": "Bron niet bijgewerkt",
+    "bypass_deleted_ok": "Bron succesvol verwijderd!",
+    "bypass_deleted_error": "Bron niet verwijderd"
+  },
   "logs": {
     "title": "Logs",
     "start_follow_button": "Volg",
@@ -78,5 +107,13 @@
   "docs": {
     "more_info_about": "Meer info over {docsLink}",
     "ips": "Configuratie van IPS"
+  },
+  "validation": {
+    "validation_failed": "Validatie mislukt",
+    "bypass_already_exists": "A bypass for the same object already exists",
+    "destination_already_exists": "A bypass for the same destination already exists",
+    "object_not_found": "Object niet gevonden",
+    "object_not_supported": "Object niet ondersteund",
+    "valid_ip_or_cidr": "Moet een geldige IP of CIDR zijn"
   }
 }

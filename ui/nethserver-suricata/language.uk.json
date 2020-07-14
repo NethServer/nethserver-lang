@@ -4,6 +4,20 @@
   "info": "Інформація",
   "search": "Пошук",
   "warning": "Попередження",
+  "actions": "Дії",
+  "action": "Дія",
+  "list": "Список",
+  "save": "Зберегти",
+  "edit": "Змінити",
+  "enable": "Включити",
+  "disable": "Вимкнути",
+  "delete": "Видалити",
+  "next": "Далі",
+  "prev": "Попередній",
+  "of": "з",
+  "rows_per_page": "Рядків на сторінку",
+  "all": "Все",
+  "are_you_sure": "Ви впевнені",
   "dashboard": {
     "menu_title": "IPS",
     "title": "IPS dashboard",
@@ -64,6 +78,21 @@
     "disable_all": "Disable all categories",
     "filter_by": "Фільтрувати по"
   },
+  "bypass": {
+    "menu_title": "Bypass",
+    "title": "Bypass",
+    "description": "Опис",
+    "bypass": "Bypass",
+    "add_bypass": "Add bypass",
+    "edit_bypass": "Edit bypass",
+    "delete_bypass": "Delete bypass",
+    "bypass_created_ok": "Джерело створений!",
+    "bypass_created_error": "Джерело не було створено.",
+    "bypass_updated_ok": "Джерело оновлений!",
+    "bypass_updated_error": "Співрозмовник не був оновлений.",
+    "bypass_deleted_ok": "Джерело знаходиться на відстані!",
+    "bypass_deleted_error": "Джерело не було знищено."
+  },
   "logs": {
     "title": "Балки",
     "start_follow_button": "Відстежувати",
@@ -78,5 +107,13 @@
   "docs": {
     "more_info_about": "Докладніше про {docsLink}.",
     "ips": "Configuration of IPS"
+  },
+  "validation": {
+    "validation_failed": "Перевірка не пройдена",
+    "bypass_already_exists": "A bypass for the same object already exists",
+    "destination_already_exists": "A bypass for the same destination already exists",
+    "object_not_found": "Object not found",
+    "object_not_supported": "Object not supported",
+    "valid_ip_or_cidr": "Повинен бути дійсним IP або CIDR"
   }
 }

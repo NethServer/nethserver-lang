@@ -4,6 +4,20 @@
   "info": "Informação",
   "search": "Procurar",
   "warning": "Aviso",
+  "actions": "Ações",
+  "action": "Ação",
+  "list": "Lista",
+  "save": "Guardar",
+  "edit": "Editar",
+  "enable": "Ativar",
+  "disable": "Desativar",
+  "delete": "Eliminar",
+  "next": "Seguinte",
+  "prev": "Anterior",
+  "of": "de",
+  "rows_per_page": "Linhas por página",
+  "all": "Tudo",
+  "are_you_sure": "Tem a certeza",
   "dashboard": {
     "menu_title": "IPS",
     "title": "IPS dashboard",
@@ -64,6 +78,21 @@
     "disable_all": "Disable all categories",
     "filter_by": "Filter by"
   },
+  "bypass": {
+    "menu_title": "Contornar",
+    "title": "Contornar",
+    "description": "Descrição",
+    "bypass": "Contornar",
+    "add_bypass": "Add bypass",
+    "edit_bypass": "Edit bypass",
+    "delete_bypass": "Delete bypass",
+    "bypass_created_ok": "Source created successfully!",
+    "bypass_created_error": "Source not created.",
+    "bypass_updated_ok": "Source updated successfully!",
+    "bypass_updated_error": "Source not updated.",
+    "bypass_deleted_ok": "Source deleted successfully!",
+    "bypass_deleted_error": "Source not deleted."
+  },
   "logs": {
     "title": "Registos",
     "start_follow_button": "Seguir",
@@ -78,5 +107,13 @@
   "docs": {
     "more_info_about": "Mais informação sobre {docsLink}.",
     "ips": "Configuration of IPS"
+  },
+  "validation": {
+    "validation_failed": "Validação falhou",
+    "bypass_already_exists": "A bypass for the same object already exists",
+    "destination_already_exists": "A bypass for the same destination already exists",
+    "object_not_found": "Object not found",
+    "object_not_supported": "Object not supported",
+    "valid_ip_or_cidr": "Must be a valid ip or cidr"
   }
 }

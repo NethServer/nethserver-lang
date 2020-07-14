@@ -4,6 +4,20 @@
   "info": "Info",
   "search": "Cerca",
   "warning": "Avviso",
+  "actions": "Azioni",
+  "action": "Azione",
+  "list": "Lista",
+  "save": "Salva",
+  "edit": "Modifica",
+  "enable": "Abilita",
+  "disable": "Disabilita",
+  "delete": "Elimina",
+  "next": "Successivo",
+  "prev": "Precedente",
+  "of": "di",
+  "rows_per_page": "Righe per pagina",
+  "all": "Tutti",
+  "are_you_sure": "Sei sicuro",
   "dashboard": {
     "menu_title": "IPS",
     "title": "Dashboard IPS",
@@ -64,6 +78,21 @@
     "disable_all": "Disabilita tutte le categorie",
     "filter_by": "Filtra per"
   },
+  "bypass": {
+    "menu_title": "Bypass",
+    "title": "Bypass",
+    "description": "Descrizione",
+    "bypass": "Bypass",
+    "add_bypass": "Add bypass",
+    "edit_bypass": "Edit bypass",
+    "delete_bypass": "Delete bypass",
+    "bypass_created_ok": "Sorgente creata con successo!",
+    "bypass_created_error": "Sorgente non creata",
+    "bypass_updated_ok": "Sorgente modificata con successo!",
+    "bypass_updated_error": "Sorgente non modificata",
+    "bypass_deleted_ok": "Sorgente eliminata con successo!",
+    "bypass_deleted_error": "Sorgente non eliminata"
+  },
   "logs": {
     "title": "Log",
     "start_follow_button": "Segui",
@@ -78,5 +107,13 @@
   "docs": {
     "more_info_about": "Maggiori informazioni su {docsLink}.",
     "ips": "Configurazione IPS"
+  },
+  "validation": {
+    "validation_failed": "Verifica fallita",
+    "bypass_already_exists": "A bypass for the same object already exists",
+    "destination_already_exists": "A bypass for the same destination already exists",
+    "object_not_found": "Oggetto non trovato",
+    "object_not_supported": "Oggetto non supportato",
+    "valid_ip_or_cidr": "Deve essere un IP o un CIDR valido"
   }
 }

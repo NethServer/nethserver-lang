@@ -4,6 +4,20 @@
   "info": "Информация",
   "search": "Поиск",
   "warning": "Предупреждение",
+  "actions": "Действия",
+  "action": "Действие",
+  "list": "Список",
+  "save": "Сохранить",
+  "edit": "Изменить",
+  "enable": "Включить",
+  "disable": "Выключить",
+  "delete": "Удалить",
+  "next": "Далее",
+  "prev": "Предыдущий",
+  "of": " ",
+  "rows_per_page": "Строк на страницу",
+  "all": "Всё",
+  "are_you_sure": "Вы уверены",
   "dashboard": {
     "menu_title": "IPS",
     "title": "Панель управления IPS",
@@ -64,6 +78,21 @@
     "disable_all": "Отключить все категории",
     "filter_by": "Фильтровать по"
   },
+  "bypass": {
+    "menu_title": "Bypass",
+    "title": "Bypass",
+    "description": "Описание",
+    "bypass": "Bypass",
+    "add_bypass": "Add bypass",
+    "edit_bypass": "Edit bypass",
+    "delete_bypass": "Delete bypass",
+    "bypass_created_ok": "Источник создан!",
+    "bypass_created_error": "Источник не был создан.",
+    "bypass_updated_ok": "Источник обновлён!",
+    "bypass_updated_error": "Источник не был обновлён.",
+    "bypass_deleted_ok": "Источник удалён!",
+    "bypass_deleted_error": "Источник не был удалён."
+  },
   "logs": {
     "title": "Логи",
     "start_follow_button": "Обновлять",
@@ -78,5 +107,13 @@
   "docs": {
     "more_info_about": "Подробнее о {docsLink}.",
     "ips": "Настройки IPS"
+  },
+  "validation": {
+    "validation_failed": "Проверка не пройдена",
+    "bypass_already_exists": "A bypass for the same object already exists",
+    "destination_already_exists": "A bypass for the same destination already exists",
+    "object_not_found": "Объект не найден",
+    "object_not_supported": "Объект не поддерживается",
+    "valid_ip_or_cidr": "Должен быть действительным IP или CIDR"
   }
 }

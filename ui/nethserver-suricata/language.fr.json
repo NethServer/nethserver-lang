@@ -4,6 +4,20 @@
   "info": "Info",
   "search": "Chercher",
   "warning": "Attention",
+  "actions": "Actions",
+  "action": "Action",
+  "list": "Liste",
+  "save": "Sauvegarder",
+  "edit": "Modifier",
+  "enable": "Activer",
+  "disable": "Désactiver",
+  "delete": "Supprimer",
+  "next": "Suivant",
+  "prev": "Précédent",
+  "of": "de",
+  "rows_per_page": "Rangées par page",
+  "all": "Tous",
+  "are_you_sure": "Êtes-vous sûr ?",
   "dashboard": {
     "menu_title": "IPS (Détection d'intrusion)",
     "title": "Tableau de bord IPS",
@@ -64,6 +78,21 @@
     "disable_all": "Désctiver toutes les catégories",
     "filter_by": "Trier par"
   },
+  "bypass": {
+    "menu_title": "Bypass",
+    "title": "Bypass",
+    "description": "Description",
+    "bypass": "Bypass",
+    "add_bypass": "Add bypass",
+    "edit_bypass": "Edit bypass",
+    "delete_bypass": "Delete bypass",
+    "bypass_created_ok": "Source créée avec succès!",
+    "bypass_created_error": "Source non créée.",
+    "bypass_updated_ok": "Source mise à jour avec succès!",
+    "bypass_updated_error": "Source non mise à jour.",
+    "bypass_deleted_ok": "Source supprimée avec succès!",
+    "bypass_deleted_error": "Source non supprimée."
+  },
   "logs": {
     "title": "Journaux",
     "start_follow_button": "Suivre",
@@ -78,5 +107,13 @@
   "docs": {
     "more_info_about": "Plus d'info à propos {docsLink}.",
     "ips": "Configuration de l'IPS"
+  },
+  "validation": {
+    "validation_failed": "Validation échoué",
+    "bypass_already_exists": "A bypass for the same object already exists",
+    "destination_already_exists": "A bypass for the same destination already exists",
+    "object_not_found": "Objet non trouvé",
+    "object_not_supported": "Objet non supporté",
+    "valid_ip_or_cidr": "Doit êtreune IP ou un réseau CIDR valide"
   }
 }

@@ -4,6 +4,20 @@
   "info": "Informace",
   "search": "Hledat",
   "warning": "Varování",
+  "actions": "Akce",
+  "action": "Akce",
+  "list": "Seznam",
+  "save": "Uložit",
+  "edit": "Upravit",
+  "enable": "Zapnout",
+  "disable": "Vypnout",
+  "delete": "Smazat",
+  "next": "Další",
+  "prev": "Předchozí",
+  "of": "z",
+  "rows_per_page": "Řádků na stránku",
+  "all": "Vše",
+  "are_you_sure": "Opravdu",
   "dashboard": {
     "menu_title": "IPS",
     "title": "Přehled IPS",
@@ -64,6 +78,21 @@
     "disable_all": "Vypnout veškeré kategorie",
     "filter_by": "Filtrovat podle"
   },
+  "bypass": {
+    "menu_title": "Přemostění",
+    "title": "Přemostění",
+    "description": "Popis",
+    "bypass": "Přemostění",
+    "add_bypass": "Add bypass",
+    "edit_bypass": "Edit bypass",
+    "delete_bypass": "Delete bypass",
+    "bypass_created_ok": "Zdroj úspěšně zaktualizován!",
+    "bypass_created_error": "Zdroj nevytvořen",
+    "bypass_updated_ok": "Zdroj úspěšně zaktualizován!",
+    "bypass_updated_error": "Zdroj neaktualizován.",
+    "bypass_deleted_ok": "Zdroj úspěšně smazán!",
+    "bypass_deleted_error": "Zdroj nesmazán."
+  },
   "logs": {
     "title": "Záznamy událostí",
     "start_follow_button": "Následovat",
@@ -78,5 +107,13 @@
   "docs": {
     "more_info_about": "Více informací o {docsLink}.",
     "ips": "Nastavení IPS"
+  },
+  "validation": {
+    "validation_failed": "Ověření se nezdařilo",
+    "bypass_already_exists": "A bypass for the same object already exists",
+    "destination_already_exists": "A bypass for the same destination already exists",
+    "object_not_found": "Objekt nenalezen",
+    "object_not_supported": "Objekt není podporován",
+    "valid_ip_or_cidr": "Je třeba, aby byla platná IP adresa nebo cidr"
   }
 }

@@ -4,6 +4,20 @@
   "info": "Info",
   "search": "Suchen",
   "warning": "Warnung",
+  "actions": "Aktionen",
+  "action": "Aktion",
+  "list": "Liste",
+  "save": "Speichern",
+  "edit": "Bearbeiten",
+  "enable": "Aktivieren",
+  "disable": "Deaktivieren",
+  "delete": "Entfernen",
+  "next": "Weiter",
+  "prev": "Vorherige",
+  "of": "von",
+  "rows_per_page": "Zeilen pro Seite",
+  "all": "Alle",
+  "are_you_sure": "Sind Sie sicher",
   "dashboard": {
     "menu_title": "IPS",
     "title": "IPS-Übersicht",
@@ -64,6 +78,21 @@
     "disable_all": "Alle Kategorien deaktivieren",
     "filter_by": "Filtern nach"
   },
+  "bypass": {
+    "menu_title": "Umgehung",
+    "title": "Umgehung",
+    "description": "Beschreibung",
+    "bypass": "Umgehung",
+    "add_bypass": "Add bypass",
+    "edit_bypass": "Edit bypass",
+    "delete_bypass": "Delete bypass",
+    "bypass_created_ok": "Quelle erfolgreich erstellt!",
+    "bypass_created_error": "Quelle nicht erstellt.",
+    "bypass_updated_ok": "Quelle erfolgreich aktualisiert!",
+    "bypass_updated_error": "Quelle nicht aktualisiert.",
+    "bypass_deleted_ok": "Quelle erfolgreich gelöscht!",
+    "bypass_deleted_error": "Quelle nicht gelöscht."
+  },
   "logs": {
     "title": "Logs",
     "start_follow_button": "Zum Ende",
@@ -78,5 +107,13 @@
   "docs": {
     "more_info_about": "Mehr Info zu {docsLink}.",
     "ips": "Konfiguration von IPS"
+  },
+  "validation": {
+    "validation_failed": "Überprüfung fehlgeschlagen",
+    "bypass_already_exists": "A bypass for the same object already exists",
+    "destination_already_exists": "A bypass for the same destination already exists",
+    "object_not_found": "Objekt nicht gefunden",
+    "object_not_supported": "Objekt wird nicht unterstützt",
+    "valid_ip_or_cidr": "Muss eine gültige IP oder CIDR sein"
   }
 }

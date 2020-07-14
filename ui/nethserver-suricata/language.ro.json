@@ -4,6 +4,20 @@
   "info": "Info",
   "search": "Caută",
   "warning": "Avertizare",
+  "actions": "Acțiuni",
+  "action": "Acțiune",
+  "list": "Listă",
+  "save": "Salvează",
+  "edit": "Editare",
+  "enable": "Activează",
+  "disable": "Dezactivează",
+  "delete": "Șterge",
+  "next": "Următorul",
+  "prev": "Anterior",
+  "of": "al",
+  "rows_per_page": "Rânduri pe pagină",
+  "all": "Tot",
+  "are_you_sure": "Ești sigur?",
   "dashboard": {
     "menu_title": "IPS",
     "title": "Tablou de bord IPS",
@@ -64,6 +78,21 @@
     "disable_all": "Dezactivează toate categoriile",
     "filter_by": "Filtrează după"
   },
+  "bypass": {
+    "menu_title": "Ocolire",
+    "title": "Ocolire",
+    "description": "Descriere",
+    "bypass": "Ocolire",
+    "add_bypass": "Add bypass",
+    "edit_bypass": "Edit bypass",
+    "delete_bypass": "Delete bypass",
+    "bypass_created_ok": "Sursa creată cu succes!",
+    "bypass_created_error": "Sursa nu a fost creată.",
+    "bypass_updated_ok": "Sursă actualizată cu succes!",
+    "bypass_updated_error": "Sursa nu a fost actualizată.",
+    "bypass_deleted_ok": "Sursă ștearsă cu succes!",
+    "bypass_deleted_error": "Sursa nu a fost ștearsă."
+  },
   "logs": {
     "title": "Jurnale",
     "start_follow_button": "Urmărește",
@@ -78,5 +107,13 @@
   "docs": {
     "more_info_about": "Mai multe informații despre {docsLink}.",
     "ips": "Configurație IPS"
+  },
+  "validation": {
+    "validation_failed": "Validarea a eșuat",
+    "bypass_already_exists": "A bypass for the same object already exists",
+    "destination_already_exists": "A bypass for the same destination already exists",
+    "object_not_found": "Obiect negăsit",
+    "object_not_supported": "Obiect nesuportat",
+    "valid_ip_or_cidr": "Trebuie să fie un IP sau CIDR valid"
   }
 }
