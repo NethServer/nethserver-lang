@@ -1,8 +1,9 @@
-==============================
-NethServer localization (l10n)
-==============================
+.. _nethserver-lang-module:
 
-The localization process turns around the online tool Transifex. 
+nethserver-lang
+===============
+
+The localization process turns around the Transifex online tool. 
 
 The `Transifex client`_, available as ``/usr/bin/tx`` command, is required. Some
 Linux distributions have already packaged it.  For NethServer, it is
@@ -19,25 +20,46 @@ Edit ``~/.transifexrc``::
      token =
      username = <YOURUSERNAME>
 
+Refer also to :ref:`section-i18n` in the Developer's Manual.
 
 .. _`Transifex client`: http://docs.transifex.com/developer/client/
 .. _`EPEL`: https://dl.fedoraproject.org/pub/epel/6/x86_64/repoview/transifex-client.html
 
 
-Build localization packages
----------------------------
+Building a release RPM
+----------------------
 
-Preparing the environment:
+Periodic builds of the RPM are **started automatcally at Travis CI**. See
+:ref:`nethserver-makerpms-module` in the Developer's Manual for more information
+about the automated builds on Travis CI.
+
+According to the ``.travis.yml`` and ``build.sh`` scripts, the build procedure pulls translations
+of existing catalogs from Transifex, creates, adds a release tag and pushes a git commit and tag.
+Then starts the build of a new RPM that is published in the ``updates`` repository.
+
+As alternative, a release commit can be manually prepared with the :releasetag-section: command, as for
+other ``nethserver-*`` packages. ::
+
+    $ releasetag -T X.Y.Z
+    ...edit the changelog entry
+    $ git push --follow-tags
+
+The manual procedure is still useful when new resources are added to ``.tx/config``.
+See the :ref:`adding-new-resources-section` section below.
+
+Building RPMs for testing
+-------------------------
+
+To manually build the RPMs for testing prepare the build environment:
+
+* Install a build environment as described in
+  `Building RPMs <https://docs.nethserver.org/projects/nethserver-devel/en/latest/building_rpms.html>`_.
 
 * (Fork and) Clone the git repository into your machine::
 
      git clone https://github.com/NethServer/nethserver-lang.git
 
-* Make sure ``nethserver-mock`` package is installed. It is available
-  for NethServer and Fedora.
-
-
-Build the RPMs:
+Then run this workflow with :ref:`nethserver-makerpms-module`:
 
 1. Pull updates from Transifex: ::
 
@@ -54,67 +76,24 @@ Build the RPMs:
 
 4. Build RPMs: ::
 
-     make-rpms nethserver-lang.spec
+     makerpms nethserver-lang.spec
 
 5. If everything is ok, do not forget to push the commit back to GitHub, and open a Pull Request: ::
 
      git push
 
-
-Testing the translations
-------------------------
-
-The RPMs are uploaded to the ``nethserver-testing`` repository. The
-official way to test them is::
-
-     yum --enablerepo=nethserver-testing update nethserver-lang-de
-
-If you want to check the translations before they are packaged, follow
-this procedure on a NethServer **testing only machine**:
-
-* Install the original language pack (for instance, ``de``) ::
-
-     yum install nethserver-lang-de
-
-* Clone this repository ::
-
-     cd /srv
-     git clone https://github.com/NethServer/nethserver-lang.git
-
-* Pull latest strings from Transifex::
-
-      cd /srv/nethserver-lang
-      tx pull -a
-
-* Create a symlink for your language (for instance, ``de``), that
-  overrides the language pack ::
-
-      cd /usr/share/nethesis/NethServer/Language
-      mv de de.orig
-      ln -s /srv/nethserver-lang/locale/de/server-manager de
-
-.. warning:: This method works only for ``.php`` language
-             catalogs. For instance online help files (from ``.rst``),
-             ``.js`` and ``.mo`` files are not included.
-
-
-Package developer
------------------
-
-Push updated sources to Transifex::
-
-    tx push -s
-   
-Refer to Internationalization_ chapter on the Developer's Manual.
-
-.. _Internationalization: http://docs.nethserver.org/projects/nethserver-devel/en/latest/i18n.html
+.. _adding-new-resources-section:
 
 Adding new resources
 --------------------
 
-After the developer has pushed sources to Transifex, the new resources must be added inside ``.tx/config``.
+After the developer has pushed sources to Transifex,
+the new resources must be added here, inside the ``.tx/config`` file.
 
-Add the relevant configuration, for PHP resources something like: ::
+For Cockpit resources, refer to
+https://nethserver.github.io/nethserver-cockpit/i18n/#translations-packages
+
+For for PHP resources add to ``.tx/config`` a section like this :: 
 
   [nethserver.MyModule]
   file_filter = locale/<lang>/server-manager/NethServer_Module_MyModule.php
@@ -129,3 +108,7 @@ Then retrieve all files: ::
 Finally, add all files to the repository: ::
 
   git add *NethServer_Module_MyModule*
+
+And push the commit and open a Pull Request on GitHub ::
+
+  git push
