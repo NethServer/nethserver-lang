@@ -100,7 +100,7 @@
     "php_version": "Версія PHP",
     "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
-    "php71_version": "PHP 7.1",
+    "php71_version": "PHP 7.1 (obsolete)",
     "MaxExecutionTime": "Максимальний час виконання",
     "MemoryLimit": "Ліміт пам'яті сценарію",
     "PostMaxSize": "Максимальний розмір пошти",
@@ -117,10 +117,12 @@
     "alert_php_not_installed_detail": "It is possible to install it now.",
     "alert_install_button_label": "Встановити",
     "PhpCustomSettings": "Налаштування конфігурації PHP",
-    "php_version_php71": "PHP 7.1",
+    "php_version_php71": "PHP 7.1 (obsolete)",
     "php_version_php72": "PHP 7.2",
     "php_version_php73": "PHP 7.3",
-    "php_version_default": "PHP 5.4"
+    "php_version_default": "PHP 5.4",
+    "alert_php_obsoleted_title": "PHP 7.1 is obsolete",
+    "alert_php_upgrade_php_detail": "You are strongly encouraged to use another PHP version, this software collection is not maintained anymore."
   },
   "about": {
     "title": "Про програму",
@@ -184,7 +186,9 @@
     "MaxExecutionTime": "This sets the maximum time in seconds a script is allowed to run before it is terminated by the parser.",
     "MemoryLimit": "This sets the maximum amount of memory in bytes that a script is allowed to allocate, this value must be larger than the 'Maximum post size'.",
     "PostMaxSize": "Sets max size of post data allowed. This setting also affects file upload. To upload large files, this value must be larger than 'Upload maximum file size'.",
-    "UploadMaxFilesize":"The maximum size of an uploaded file, this value must be smaller than the 'Maximum post size'."
+    "UploadMaxFilesize":"The maximum size of an uploaded file, this value must be smaller than the 'Maximum post size'.",
+    "Websocket-label": "Experimental feature. The WebSocket API is an advanced technology that allows to open a two-way interactive communication session between the user's browser and the server.",
+    "WebSocketsPath-label": "Additional match rule based on the WebSocket URL path"
   },
   "validation": {
     "validation_failed": "Перевірка не пройдена",
@@ -202,7 +206,8 @@
     "user_not_found": "Обліковий запис не знайдений",
     "valid_username": "Першим символом повинна бути буква, далі тільки маленькі букви, цифри і символи \"-\" чи \"_\"",
     "valid_hostname_0_9223372036854775807": "Must be a fully qualified domain name or a resource path segment beginning with '/'",
-    "valid_minLength_1": "This field can not be empty"
+    "valid_minLength_1": "This field can not be empty",
+    "WebSocketsPathNotValid": "Only letters, digits and the symbols - (minus) _ (underscore) are accepted"
   },
   "proxypass": {
     "title": "Reverse proxy",
@@ -241,7 +246,10 @@
     "dnsHostRecord_do_not_be_removed": "The host name alias in System > Dashboard > Hostname / Alias is preserved",
     "automatic_HostRecord_creation": "Псевдонім імені хоста додається до Система> Інформаційна панель> Ім'я хоста/Псевдонім",
     "advanced_mode": "Розширені налаштування",
-    "ValidFromCIDR_help": "По одному елементу на рядок"
+    "ValidFromCIDR_help": "По одному елементу на рядок",
+    "Enable_WebSockets": "Enable WebSocket",
+    "WebSocketsPath":"WebSocket path",
+    "WebSocketsPath_help": "Optional web socket path"
 },
 "settings": {
     "title": "Налаштування",

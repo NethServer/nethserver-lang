@@ -100,7 +100,7 @@
     "php_version": "PHP sürümü",
     "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
-    "php71_version": "PHP 7.1",
+    "php71_version": "PHP 7.1 (kullanımdan kaldırıldı)",
     "MaxExecutionTime": "En uzun yürütme süresi",
     "MemoryLimit": "Betik bellek sınırı",
     "PostMaxSize": "En büyük gönderim boyutu",
@@ -117,10 +117,12 @@
     "alert_php_not_installed_detail": "Şimdi kurulabilir.",
     "alert_install_button_label": "Kur",
     "PhpCustomSettings": "PHP yapılandırmasını özelleştir",
-    "php_version_php71": "PHP 7.1",
+    "php_version_php71": "PHP 7.1 (kullanımdan kaldırıldı)",
     "php_version_php72": "PHP 7.2",
     "php_version_php73": "PHP 7.3",
-    "php_version_default": "PHP 5.4"
+    "php_version_default": "PHP 5.4",
+    "alert_php_obsoleted_title": "PHP 7.1 kullanımdan kaldırıldı",
+    "alert_php_upgrade_php_detail": "Başka bir PHP sürümünü kullanmanız önemle önerilir. Bu yazılım derlemesi artık desteklenmiyor."
   },
   "about": {
     "title": "Hakkında",
@@ -184,7 +186,9 @@
     "MaxExecutionTime": "Saniye cinsinden, işleyici tarafından sonlandırılmadan önce bir betiğin çalışmasına izin verilecek en uzun süre.",
     "MemoryLimit": "Bir betik tarafından kullanılabilecek en fazla bellek miktarı. Bu değer 'en büyük gönderim boyutu' değerinden büyük olmalıdır.",
     "PostMaxSize": "Gönderilebilecek en büyük veri boyutu. Bu ayar dosya yüklemesini de etkiler. Büyük dosyaları yükleyebilmek için bu değer 'Yüklenebilecek en büyük dosya boyutu' değerinden büyük olmalıdır.",
-    "UploadMaxFilesize":"Yüklenebilecek en büyük dosya boyutu. Bu değer 'En büyük gönderim boyutu' değerinden küçük olmalıdır."
+    "UploadMaxFilesize":"Yüklenebilecek en büyük dosya boyutu. Bu değer 'En büyük gönderim boyutu' değerinden küçük olmalıdır.",
+    "Websocket-label": "Deneysel özellik. WebSocket API, kullanıcının tarayıcısı ile sunucu arasında iki yönlü bir etkileşimli iletişim oturumu açılmasını sağlayan gelişmiş bir teknolojidir.",
+    "WebSocketsPath-label": "WebSocket adresi yoluna göre ek eşleşme kuralı"
   },
   "validation": {
     "validation_failed": "Doğrulanamadı",
@@ -202,7 +206,8 @@
     "user_not_found": "Hesap bulunamadı",
     "valid_username": "İlk karakter bir harf olmalıdır. Ardından yalnız küçük harfler ile '-' ve '_' simgeleri kullanılabilir",
     "valid_hostname_0_9223372036854775807": "Tam etki alanı adı ya da '/' ile başlayan bir kaynak yolu parçası olmalıdır",
-    "valid_minLength_1": "Bu alan boş bırakılamaz"
+    "valid_minLength_1": "Bu alan boş bırakılamaz",
+    "WebSocketsPathNotValid": "Yalnız harfler, rakamlar ve - (eksi) ile _ (alt çizgi) simgeleri kullanılabilir"
   },
   "proxypass": {
     "title": "Ters vekil sunucu",
@@ -241,7 +246,10 @@
     "dnsHostRecord_do_not_be_removed": "Sistem > Pano > Sunucu adı / Kısaltma bölümündeki sunucu adı kısaltması ayırtılmıştır",
     "automatic_HostRecord_creation": "Sistem > Pano > Sunucu adı / Kısaltma bölümüne sunucu adı kısaltması eklendi",
     "advanced_mode": "Gelişmiş ayarlar",
-    "ValidFromCIDR_help": "Her satıra bir tane yazın"
+    "ValidFromCIDR_help": "Her satıra bir tane yazın",
+    "Enable_WebSockets": "WebSocket kullanılsın",
+    "WebSocketsPath":"WebSocket yolu",
+    "WebSocketsPath_help": "İsteğe bağlı WebSocket yolu"
 },
 "settings": {
     "title": "Ayarlar",

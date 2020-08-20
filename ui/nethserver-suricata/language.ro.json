@@ -83,9 +83,9 @@
     "title": "Ocolire",
     "description": "Descriere",
     "bypass": "Ocolire",
-    "add_bypass": "Add bypass",
-    "edit_bypass": "Edit bypass",
-    "delete_bypass": "Delete bypass",
+    "add_bypass": "Adaugă bypass",
+    "edit_bypass": "Editează bypass",
+    "delete_bypass": "Șterge bypass",
     "bypass_created_ok": "Sursa creată cu succes!",
     "bypass_created_error": "Sursa nu a fost creată.",
     "bypass_updated_ok": "Sursă actualizată cu succes!",
@@ -110,8 +110,8 @@
   },
   "validation": {
     "validation_failed": "Validarea a eșuat",
-    "bypass_already_exists": "A bypass for the same object already exists",
-    "destination_already_exists": "A bypass for the same destination already exists",
+    "bypass_already_exists": "Un bypass pentru același obiect există deja",
+    "destination_already_exists": "Un bypass pentru aceeași destinație există deja",
     "object_not_found": "Obiect negăsit",
     "object_not_supported": "Obiect nesuportat",
     "valid_ip_or_cidr": "Trebuie să fie un IP sau CIDR valid"

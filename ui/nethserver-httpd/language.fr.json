@@ -100,7 +100,7 @@
     "php_version": "Version de PHP",
     "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
-    "php71_version": "PHP 7.1",
+    "php71_version": "PHP 7.1 (obsolete)",
     "MaxExecutionTime": "Temps maximum d’exécution",
     "MemoryLimit": "Script de limite mémoire",
     "PostMaxSize": "Maximum post size",
@@ -117,10 +117,12 @@
     "alert_php_not_installed_detail": "Il est possible de l'installer maintenant",
     "alert_install_button_label": "Installer",
     "PhpCustomSettings": "Personnaliser la configuration PHP",
-    "php_version_php71": "PHP 7.1",
+    "php_version_php71": "PHP 7.1 (obsolete)",
     "php_version_php72": "PHP 7.2",
     "php_version_php73": "PHP 7.3",
-    "php_version_default": "PHP 5.4"
+    "php_version_default": "PHP 5.4",
+    "alert_php_obsoleted_title": "PHP 7.1 is obsolete",
+    "alert_php_upgrade_php_detail": "You are strongly encouraged to use another PHP version, this software collection is not maintained anymore."
   },
   "about": {
     "title": "A propos",
@@ -184,7 +186,9 @@
     "MaxExecutionTime": "Cela définit la durée maximale en secondes pendant laquelle un script est autorisé à s'exécuter avant d'être terminé par l'analyseur.",
     "MemoryLimit": "Cela définit la quantité maximale de mémoire en octets qu'un script est autorisé à allouer. Cette valeur doit être supérieure à la 'Maximum post size'.",
     "PostMaxSize": "Définit la taille maximale autorisée des données de publication. Ce paramètre affecte également le téléversement de fichier. Pour téléverser des fichiers volumineux, cette valeur doit être supérieure à 'Upload maximum file size'.",
-    "UploadMaxFilesize":"Taille maximale d'un fichier téléversé, cette valeur doit être inférieure à 'Maximum post size'. "
+    "UploadMaxFilesize":"Taille maximale d'un fichier téléversé, cette valeur doit être inférieure à 'Maximum post size'. ",
+    "Websocket-label": "Experimental feature. The WebSocket API is an advanced technology that allows to open a two-way interactive communication session between the user's browser and the server.",
+    "WebSocketsPath-label": "Additional match rule based on the WebSocket URL path"
   },
   "validation": {
     "validation_failed": "Validation échoué",
@@ -202,7 +206,8 @@
     "user_not_found": "Compte non trouvé",
     "valid_username": "Le premier caractère doit être une lettre, seulement minuscules, des chiffres et des symboles tels que '-' et '_'",
     "valid_hostname_0_9223372036854775807": "Must be a fully qualified domain name or a resource path segment beginning with '/'",
-    "valid_minLength_1": "Le champ ne peut pas être vide"
+    "valid_minLength_1": "Le champ ne peut pas être vide",
+    "WebSocketsPathNotValid": "Only letters, digits and the symbols - (minus) _ (underscore) are accepted"
   },
   "proxypass": {
     "title": "Mandataire inverse",
@@ -241,7 +246,10 @@
     "dnsHostRecord_do_not_be_removed": "L'alias de nom d'hôte dans Système > Tableau de bord > Nom d'hôte est conservé",
     "automatic_HostRecord_creation": "Les alias de noms d'hôte sont ajoutés à Système > Tableau de bord > Nom d'hôte / Alias",
     "advanced_mode": "Paramètres avancés",
-    "ValidFromCIDR_help": "Un article par ligne"
+    "ValidFromCIDR_help": "Un article par ligne",
+    "Enable_WebSockets": "Enable WebSocket",
+    "WebSocketsPath":"WebSocket path",
+    "WebSocketsPath_help": "Optional web socket path"
 },
 "settings": {
     "title": "Paramètres",

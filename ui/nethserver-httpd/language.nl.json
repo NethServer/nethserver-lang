@@ -100,7 +100,7 @@
     "php_version": "Versie van PHP",
     "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
-    "php71_version": "PHP 7.1",
+    "php71_version": "PHP 7.1 (obsolete)",
     "MaxExecutionTime": "Maximale uitvoertijd",
     "MemoryLimit": "Scriptgeheugenlimiet",
     "PostMaxSize": "Maximale berichtgrootte",
@@ -117,10 +117,12 @@
     "alert_php_not_installed_detail": "Het is mogelijk om de PHP-versie nu te installeren.",
     "alert_install_button_label": "Installeer",
     "PhpCustomSettings": "PHP-configuratie aanpassen",
-    "php_version_php71": "PHP 7.1",
+    "php_version_php71": "PHP 7.1 (obsolete)",
     "php_version_php72": "PHP 7.2",
     "php_version_php73": "PHP 7.3",
-    "php_version_default": "PHP 5.4"
+    "php_version_default": "PHP 5.4",
+    "alert_php_obsoleted_title": "PHP 7.1 is obsolete",
+    "alert_php_upgrade_php_detail": "You are strongly encouraged to use another PHP version, this software collection is not maintained anymore."
   },
   "about": {
     "title": "Over",
@@ -184,7 +186,9 @@
     "MaxExecutionTime": "Dit stelt de maximale tijd in seconden in die een script mag uitvoeren voordat het wordt beëindigd door de parser.",
     "MemoryLimit": "Dit stelt de maximale hoeveelheid geheugen in bytes in die een script mag toewijzen, deze waarde moet groter zijn dan de 'Maximale berichtgrootte'.",
     "PostMaxSize": "Stelt de maximale grootte van toegestane postgegevens in. Deze instelling is ook van invloed op het uploaden van bestanden. Om grote bestanden te uploaden, moet deze waarde groter zijn dan 'Upload maximale bestandsgrootte'.",
-    "UploadMaxFilesize":"De maximale grootte van een geüpload bestand, deze waarde moet kleiner zijn dan de 'Maximale berichtgrootte'."
+    "UploadMaxFilesize":"De maximale grootte van een geüpload bestand, deze waarde moet kleiner zijn dan de 'Maximale berichtgrootte'.",
+    "Websocket-label": "Experimental feature. The WebSocket API is an advanced technology that allows to open a two-way interactive communication session between the user's browser and the server.",
+    "WebSocketsPath-label": "Additional match rule based on the WebSocket URL path"
   },
   "validation": {
     "validation_failed": "Validatie mislukt",
@@ -202,7 +206,8 @@
     "user_not_found": "Account niet gevonden",
     "valid_username": "Het eerste teken moet een letter zijn, en niet alleen lagere letters, cijfers en symbolen zoals '-' en '_'",
     "valid_hostname_0_9223372036854775807": "Must be a fully qualified domain name or a resource path segment beginning with '/'",
-    "valid_minLength_1": "Dit veld mag niet leeg zijn!"
+    "valid_minLength_1": "Dit veld mag niet leeg zijn!",
+    "WebSocketsPathNotValid": "Only letters, digits and the symbols - (minus) _ (underscore) are accepted"
   },
   "proxypass": {
     "title": "Reverse proxy",
@@ -241,7 +246,10 @@
     "dnsHostRecord_do_not_be_removed": "De alias van de hostnaam in Systeem > Dashboard > Hostnaam / alias is behouden",
     "automatic_HostRecord_creation": "Een alias voor de hostnaam is toegevoegd aan Systeem > Dashboard > Hostnaam / Alias",
     "advanced_mode": "Geavanceerde instellingen",
-    "ValidFromCIDR_help": "Eén item per regel"
+    "ValidFromCIDR_help": "Eén item per regel",
+    "Enable_WebSockets": "Enable WebSocket",
+    "WebSocketsPath":"WebSocket path",
+    "WebSocketsPath_help": "Optional web socket path"
 },
 "settings": {
     "title": "Instellingen",

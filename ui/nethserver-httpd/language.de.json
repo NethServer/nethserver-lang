@@ -100,7 +100,7 @@
     "php_version": "Version von PHP",
     "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
-    "php71_version": "PHP 7.1",
+    "php71_version": "PHP 7.1 (veraltet) ",
     "MaxExecutionTime": "Maximale Ausführungszeit",
     "MemoryLimit": "Skriptspeicherlimit",
     "PostMaxSize": "Maximale Postgröße",
@@ -117,10 +117,12 @@
     "alert_php_not_installed_detail": "Es ist jetzt möglich, es zu installieren.",
     "alert_install_button_label": "Installieren",
     "PhpCustomSettings": "PHP-Konfiguration bearbeiten",
-    "php_version_php71": "PHP 7.1",
+    "php_version_php71": "PHP 7.1 (veraltet) ",
     "php_version_php72": "PHP 7.2",
     "php_version_php73": "PHP 7.3",
-    "php_version_default": "PHP 5.4"
+    "php_version_default": "PHP 5.4",
+    "alert_php_obsoleted_title": "PHP 7.1 ist veraltet",
+    "alert_php_upgrade_php_detail": "Es wird dringend empfohlen, eine andere PHP-Version zu verwenden. Diese Software-Sammlung wird nicht mehr gepflegt."
   },
   "about": {
     "title": "Über",
@@ -184,7 +186,9 @@
     "MaxExecutionTime": "Hiermit wird die maximale Zeit in Sekunden festgelegt, die ein Skript ausgeführt werden darf, bevor es vom Parser beendet wird.",
     "MemoryLimit": "Hiermit wird die maximale Größe des Arbeitsspeichers in Byte festgelegt, die ein Skript belegen darf. Dieser Wert muss größer sein als die 'Maximale Postgröße'.",
     "PostMaxSize": "Legt die maximale Größe der zulässigen Post-Daten fest. Diese Einstellung wirkt sich auch auf das Hochladen von Dateien aus. Um große Dateien hochladen zu können, muss dieser Wert größer als \"Maximale Dateigröße hochladen\" sein.",
-    "UploadMaxFilesize":"Die maximale Größe einer hochgeladenen Datei, dieser Wert muss kleiner sein als die 'Maximale Postgröße'."
+    "UploadMaxFilesize":"Die maximale Größe einer hochgeladenen Datei, dieser Wert muss kleiner sein als die 'Maximale Postgröße'.",
+    "Websocket-label": "Experimentelles Merkmal. Die WebSocket-API ist eine moderne Technologie, mit der eine interaktive bidirektionale Kommunikationssitzung zwischen dem Browser des Benutzers und dem Server geöffnet werden kann.",
+    "WebSocketsPath-label": "Zusätzliche Vergleichsregel basierend auf dem WebSocket-URL-Pfad"
   },
   "validation": {
     "validation_failed": "Überprüfung fehlgeschlagen",
@@ -202,7 +206,8 @@
     "user_not_found": "Konto nicht gefunden",
     "valid_username": "Das erste Zeichen muss ein Buchstabe sein, danach nur Kleinbuchstaben, Zahlen und Symbole wie '-' und '_'",
     "valid_hostname_0_9223372036854775807": "Muß ein FQDN oder ein Pfadname beginnend mit '/' sein",
-    "valid_minLength_1": "Dieses Feld darf nicht leer sein"
+    "valid_minLength_1": "Dieses Feld darf nicht leer sein",
+    "WebSocketsPathNotValid": "Nur Buchstaben, Ziffern und Symbole - (Minus) _ (Unterstrich) erlaubt"
   },
   "proxypass": {
     "title": "Reverse Proxy",
@@ -241,7 +246,10 @@
     "dnsHostRecord_do_not_be_removed": "Der Hostnamen-Alias ​​unter System > Dashboard > Hostname/Alias ​​bleibt erhalten",
     "automatic_HostRecord_creation": "Ein Hostnamen-Alias ​​wird zu System > Dashboard > Hostname/Alias ​​hinzugefügt",
     "advanced_mode": "Erweiterte Einstellungen",
-    "ValidFromCIDR_help": "Ein Element pro Zeile"
+    "ValidFromCIDR_help": "Ein Element pro Zeile",
+    "Enable_WebSockets": "WebSocket aktivieren",
+    "WebSocketsPath":"WebSocket-Pfad",
+    "WebSocketsPath_help": "WebSocket-Pfad optional"
 },
 "settings": {
     "title": "Einstellungen",

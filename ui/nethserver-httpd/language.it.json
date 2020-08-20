@@ -100,7 +100,7 @@
     "php_version": "Version of PHP",
     "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
-    "php71_version": "PHP 7.1",
+    "php71_version": "PHP 7.1 (obsolete)",
     "MaxExecutionTime": "Tempo massimo di esecuzione",
     "MemoryLimit": "Dimensione massima memoria per script",
     "PostMaxSize": "Dimensione massima POST",
@@ -117,10 +117,12 @@
     "alert_php_not_installed_detail": "It is possible to install it now.",
     "alert_install_button_label": "Installa",
     "PhpCustomSettings": "Customize PHP configuration",
-    "php_version_php71": "PHP 7.1",
+    "php_version_php71": "PHP 7.1 (obsolete)",
     "php_version_php72": "PHP 7.2",
     "php_version_php73": "PHP 7.3",
-    "php_version_default": "PHP 5.4"
+    "php_version_default": "PHP 5.4",
+    "alert_php_obsoleted_title": "PHP 7.1 is obsolete",
+    "alert_php_upgrade_php_detail": "You are strongly encouraged to use another PHP version, this software collection is not maintained anymore."
   },
   "about": {
     "title": "Informazioni",
@@ -184,7 +186,9 @@
     "MaxExecutionTime": "Imposta il tempo massimo di esecuzione degli script, prima che vengano terminati dal parser.",
     "MemoryLimit": "Imposta la massima quantità di memoria in byte che uno script può utilizzare, il valore deve essere maggiore di 'Dimensione massima POST'.",
     "PostMaxSize": "Imposta la dimensione massima per le operazioni POST. Questa impostazione incide anche sull'upload dei file. Per caricare file grandi, questo valore deve essere maggiore di 'Massima dimensione upload'.",
-    "UploadMaxFilesize":"La dimensione massima di un file caricato, questo valore deve essere minore di 'Dimensione massima POST'."
+    "UploadMaxFilesize":"La dimensione massima di un file caricato, questo valore deve essere minore di 'Dimensione massima POST'.",
+    "Websocket-label": "Experimental feature. The WebSocket API is an advanced technology that allows to open a two-way interactive communication session between the user's browser and the server.",
+    "WebSocketsPath-label": "Additional match rule based on the WebSocket URL path"
   },
   "validation": {
     "validation_failed": "Verifica fallita",
@@ -202,7 +206,8 @@
     "user_not_found": "Account non trovato",
     "valid_username": "Il primo carattere deve essere una lettera, poi solo lettere minuscole, numeri, simboli \"-\" e \"_\"",
     "valid_hostname_0_9223372036854775807": "Must be a fully qualified domain name or a resource path segment beginning with '/'",
-    "valid_minLength_1": "Questo campo non può essere vuoto"
+    "valid_minLength_1": "Questo campo non può essere vuoto",
+    "WebSocketsPathNotValid": "Only letters, digits and the symbols - (minus) _ (underscore) are accepted"
   },
   "proxypass": {
     "title": "Reverse proxy",
@@ -241,7 +246,10 @@
     "dnsHostRecord_do_not_be_removed": "The host name alias in System > Dashboard > Hostname / Alias is preserved",
     "automatic_HostRecord_creation": "An host name alias is added to System > Dashboard > Hostname / Alias ",
     "advanced_mode": "Impostazioni avanzate",
-    "ValidFromCIDR_help": "Un elemento per riga"
+    "ValidFromCIDR_help": "Un elemento per riga",
+    "Enable_WebSockets": "Enable WebSocket",
+    "WebSocketsPath":"WebSocket path",
+    "WebSocketsPath_help": "Optional web socket path"
 },
 "settings": {
     "title": "Impostazioni",

@@ -83,9 +83,9 @@
     "title": "Umgehung",
     "description": "Beschreibung",
     "bypass": "Umgehung",
-    "add_bypass": "Add bypass",
-    "edit_bypass": "Edit bypass",
-    "delete_bypass": "Delete bypass",
+    "add_bypass": "Umleitung hinzufügen",
+    "edit_bypass": "Umleitung ändern",
+    "delete_bypass": "Umleitung löschen",
     "bypass_created_ok": "Quelle erfolgreich erstellt!",
     "bypass_created_error": "Quelle nicht erstellt.",
     "bypass_updated_ok": "Quelle erfolgreich aktualisiert!",
@@ -110,8 +110,8 @@
   },
   "validation": {
     "validation_failed": "Überprüfung fehlgeschlagen",
-    "bypass_already_exists": "A bypass for the same object already exists",
-    "destination_already_exists": "A bypass for the same destination already exists",
+    "bypass_already_exists": "Eine Umleitung für dasselbe Objekt besteht bereits",
+    "destination_already_exists": "Eine Umleitung für dasselbe Ziel besteht bereits",
     "object_not_found": "Objekt nicht gefunden",
     "object_not_supported": "Objekt wird nicht unterstützt",
     "valid_ip_or_cidr": "Muss eine gültige IP oder CIDR sein"

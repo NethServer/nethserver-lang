@@ -79,13 +79,13 @@
     "filter_by": "Şuna göre süz"
   },
   "bypass": {
-    "menu_title": "Geçirilecek",
-    "title": "Geçirilecek",
+    "menu_title": "Geçirme kaydı",
+    "title": "Geçirme kaydı",
     "description": "Açıklama",
-    "bypass": "Geçirilecek",
-    "add_bypass": "Add bypass",
-    "edit_bypass": "Edit bypass",
-    "delete_bypass": "Delete bypass",
+    "bypass": "Geçirme kaydı",
+    "add_bypass": "Geçirme kaydı ekle",
+    "edit_bypass": "Geçirme kaydını düzenle",
+    "delete_bypass": "Geçirme kaydını sil",
     "bypass_created_ok": "Kaynak eklendi!",
     "bypass_created_error": "Kaynak eklenmedi.",
     "bypass_updated_ok": "Kaynak güncellendi!",
@@ -110,8 +110,8 @@
   },
   "validation": {
     "validation_failed": "Doğrulanamadı",
-    "bypass_already_exists": "A bypass for the same object already exists",
-    "destination_already_exists": "A bypass for the same destination already exists",
+    "bypass_already_exists": "Aynı nesne için bir geçirme kaydı zaten var",
+    "destination_already_exists": "Aynı hedef için bir geçirme kaydı zaten var",
     "object_not_found": "Nesne bulunamadı",
     "object_not_supported": "Nesne desteklenmiyor",
     "valid_ip_or_cidr": "Geçerli bir IP ya da CIDR olmalı"

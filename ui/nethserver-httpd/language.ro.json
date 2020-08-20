@@ -100,7 +100,7 @@
     "php_version": "Versiune PHP",
     "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
-    "php71_version": "PHP 7.1",
+    "php71_version": "PHP 7.1 (învechit)",
     "MaxExecutionTime": "Timp maxim de execuție",
     "MemoryLimit": "Limită memorie script",
     "PostMaxSize": "Dimensiune maximă publicare",
@@ -117,10 +117,12 @@
     "alert_php_not_installed_detail": "Se poate instala acum.",
     "alert_install_button_label": "Instalare",
     "PhpCustomSettings": "Particularizează configurația PHP",
-    "php_version_php71": "PHP 7.1",
+    "php_version_php71": "PHP 7.1 (învechit)",
     "php_version_php72": "PHP 7.2",
     "php_version_php73": "PHP 7.3",
-    "php_version_default": "PHP 5.4"
+    "php_version_default": "PHP 5.4",
+    "alert_php_obsoleted_title": "PHP 7.1 este învechit",
+    "alert_php_upgrade_php_detail": "Te încurajăm să utilizezi o altă versiune PHP, această colecție de software nu mai este menținută."
   },
   "about": {
     "title": "Despre",
@@ -184,7 +186,9 @@
     "MaxExecutionTime": "Aceasta setează timpul maxim în secunde în care un script este permis să ruleze înainte de a fi încheiat de către analizor.",
     "MemoryLimit": "Aceasta setează cantitatea maximă de memorie în octeți pe care unui script îi este permis să o aloce; această valoare trebuie să fie mai mare decât „Dimensiunea maximă a publicării”.",
     "PostMaxSize": "Setează dimensiunea maximă permisă a datelor publicate. Această setare afectează și încărcarea fișierelor. Pentru a încărca fișiere mari, această valoare trebuie să fie mai mare decât „Dimensiune maximă fișier încărcat”.",
-    "UploadMaxFilesize":"Mărimea maximă a unui fișier încărcat; această valoare trebuie să fie mai mică decât „Dimensiunea maximă a publicării”."
+    "UploadMaxFilesize":"Mărimea maximă a unui fișier încărcat; această valoare trebuie să fie mai mică decât „Dimensiunea maximă a publicării”.",
+    "Websocket-label": "Caracteristică experimentală. API-ul WebSocket este o tehnologie avansată care permite deschiderea unei sesiuni de comunicare interactivă în două sensuri între browserul utilizatorului și server.",
+    "WebSocketsPath-label": "Regula de potrivire suplimentară bazată pe calea URL a WebSocket"
   },
   "validation": {
     "validation_failed": "Validarea a eșuat",
@@ -202,7 +206,8 @@
     "user_not_found": "Contul nu a fost găsit",
     "valid_username": "Primul caracter trebuie să fie o literă, apoi numai litere mici, cifre și simboluri de tipul '-' și '_'",
     "valid_hostname_0_9223372036854775807": "Trebuie să fie un nume de domeniu complet calificat sau un segment de cale de resurse care începe cu '/'",
-    "valid_minLength_1": "Acest câmp nu poate fi gol"
+    "valid_minLength_1": "Acest câmp nu poate fi gol",
+    "WebSocketsPathNotValid": "Sunt acceptate doar litere, cifre și simbolurile - (minus) _ (subliniere)"
   },
   "proxypass": {
     "title": "Proxy invers",
@@ -241,7 +246,10 @@
     "dnsHostRecord_do_not_be_removed": "Aliasul numelui de gazdă în Sistem > Tablou de bord > Nume de gazdă / Alias este păstrat",
     "automatic_HostRecord_creation": "Un alias al numelui de gazdă este adăugat în Sistem > Tablou de bord > Nume de gazdă / Alias",
     "advanced_mode": "Setări avansate",
-    "ValidFromCIDR_help": "Un articol pe linie"
+    "ValidFromCIDR_help": "Un articol pe linie",
+    "Enable_WebSockets": "Activare WebSocket",
+    "WebSocketsPath":"Cale WebSocket",
+    "WebSocketsPath_help": "Cale opțională WebSocket"
 },
 "settings": {
     "title": "Setări",
