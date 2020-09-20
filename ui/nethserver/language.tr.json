@@ -763,6 +763,7 @@
     "title": "SSH",
     "tcp_port": "TCP kapı numarası",
     "allow_root_login": "Root oturumu açılabilsin",
+    "require_strong_encryption": "Zayıf şifreleyiciler kullanılmasın",
     "allow_password_auth": "Parola doğrulaması kullanılabilsin",
     "ssh_edit_ok": "SSH yapılandırması kaydedildi!",
     "ssh_edit_error": "SSH yapılandırması kaydedilemedi.",
@@ -1049,6 +1050,8 @@
     "change_default_company": "Varsayılan kuruluşu değiştir",
     "one_or_more_dns_not_working": "Bir ya da bir kaç DNS sunucu yanıt vermiyor",
     "TCPPort": "TCP kapı numarası",
+    "StrongEncryption": "Zayıf şifreleyiciler kullanılmasın",
+    "change_default_ssh_encryption": "Zayıf SSH şifreleyiciler kullanılmasın",
     "service_is_enabled_but_is_not_running": "Hizmet çalışmıyor ya da etkinleştirilmemiş",
     "must_configure_backup_data": "En az bir veri yedeklemesi yapılandırmalısınız",
     "change_default_ssh_port": "Varsayılan SSH kapı numarasını değiştirmek brute force saldırılarının sayısını azaltır",
@@ -1224,6 +1227,7 @@
     "OtpSshd_Only_Password_Auth": "İki aşamalı kimlik doğrulaması yalnız parola kimlik doğrulaması için kullanılabilir. İki aşamalı kimlik doğrulaması, herkese açık anahtarlar ile yapılan kimlik doğrulamasını etkilemez.",
     "disaster_recovery": "Felaket kurtarma",
     "user_settings_page": "Kullanıcıların parola ve diğer ayarlarını Cockpit dışındaki bir web sayfasından (443 numaralı kapı üzerinden) değiştirebilmesini sağlar. Bu özellik yalnız 'Kabuk kullanıcılarını değiştir' seçeneği etkinleştirilmiş ise etkinleştirilebilir.",
-    "OtpR2WOath_Auth":"VPN ilkesi ağa erişmek için tek kullanımlık parola kullanılmasını zorunlu kılıyor."
+    "OtpR2WOath_Auth": "VPN ilkesi ağa erişmek için tek kullanımlık parola kullanılmasını zorunlu kılıyor.",
+    "older_ssh_client_might_not_connect": "SSH güvenliğini sıkılaştırmak eski istemcilerin bu sunucuya bağlanmasını engelleyebilir. Daha güçlü şifreleyiciler kullanıldığında büyük dosya aktarımları yavaşlayabilir. Sunucu yeniden başlatıldıktan sonra sunucu anahtarı değişmiş olacak ve istemcilerin yeni anahtarı onaylaması gerekecek."
   }
 }

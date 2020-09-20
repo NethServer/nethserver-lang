@@ -122,7 +122,8 @@
         "ndpi": "nDPI",
         "details_for": "Details voor",
         "name": "Naam",
-        "counter": "Teller"
+        "counter": "Teller",
+        "unknown": "Onbekend"
     },
     "wan": {
         "title": "WAN",
@@ -320,7 +321,19 @@
         "application": "Applicatie",
         "raw": "RAW-waarde, geen object gevonden",
         "local": "DNS",
-        "remote": "DHCP"
+        "remote": "DHCP",
+        "mac": "MAC adres",
+        "add_mac_address": "Add MAC address",
+        "mac_addresses": "MAC addresses",
+        "mac_address": "MAC adres",
+        "edit_mac_address": "Edit MAC address",
+        "mac_address_created_ok": "MAC address created successfully!",
+        "mac_address_created_error": "MAC address not created.",
+        "mac_address_updated_ok": "MAC address updated successfully!",
+        "mac_address_updated_error": "MAC address not updated.",
+        "mac_address_deleted_ok": "MAC address deleted successfully!",
+        "mac_address_deleted_error": "MAC address not deleted.",
+        "delete_mac_address": "Delete MAC address"
     },
     "port_forward": {
         "title": "Poort doorsturen",
@@ -387,8 +400,10 @@
         "reject": "Afwijzen",
         "drop": "Negeren",
         "log": "Log",
+        "state_enabled": "This rule is applied to new, established and related connections",
         "quick_rule": "Snelle regel (werkt onmiddellijk bij elke verbinding)",
         "log_enabled": "Log ingeschakeld",
+        "state": "Apply to existing connections",
         "duplicate": "Kopiëren",
         "expand": "Info uitvouwen",
         "to_firewall": "Naar firewall",
@@ -458,6 +473,7 @@
     "settings": {
         "title": "Instellingen",
         "traffic_internet": "Verkeer naar Internet (rode interface)",
+        "traffic_vpn": "Traffic between OpenVPN roadwarrior, OpenVPN tunnels and IPSec tunnels",
         "external_ping": "Ping vanaf Internet",
         "mac": "MAC validatie (IP/MAC binding)",
         "allowed": "Toegestaan",
@@ -498,8 +514,8 @@
         "rule_exists": "Regel bestaat al",
         "rule_not_exists": "Regel bestaat niet",
         "valid_ip_or_cidr": "Moet een geldige IP of CIDR zijn",
-        "src_dst_are_in_same_zone": "Bron en bestemming bevinden zich in dezelfde zone",
         "time_not_found": "Tijdobject bestaat niet",
+        "host_key_exists": "A host with the same name already exists",
         "host_doesnt_exists": "Host bestaat niet",
         "non_existing_port-forward": "Doorgestuude poort bestaat niet",
         "non_existing_host": "Host bestaat niet",
@@ -538,11 +554,18 @@
         "access_invalid": "Ongeldig toegangskenmerk",
         "port_list_empty": "Dit kenmerk is verplicht",
         "port_list_invalid": "Ongeldige lijst met poorten",
-        "tcp_ports_and_udp_ports_empty": "Er moet ten minste één TCP- of UDP-poort worden opgegeven"
+        "tcp_ports_and_udp_ports_empty": "Er moet ten minste één TCP- of UDP-poort worden opgegeven",
+        "mac_exists": "A MAC address with the same name already exists",
+        "mac_not_exists": "MAC address does not exist",
+        "mac_address_exists": "A MAC address with the same address already exists",
+        "valid_macAddress": "Invalid MAC address",
+        "mac_cannot_be_delete": "This MAC address can't be deleted because it is in use",
+        "must_be_one_of": "Must be one of"
     },
     "docs": {
         "pf_origin_port": "Voeg een enkele poort, een lijst met door komma's gescheiden poorten of een poortbereik in met \":\" als scheidingsteken zoals \"100:200 \".",
         "rules_source": "U kunt een IP-adres of een CIDR invoegen als u geen host- of CIDR-object wilt maken.",
+        "rules_state": "As default, rules are applied only to new connections. When this option is enabled, the rule will be applied to all connections including already established ones.",
         "rules_destination": "U kunt een IP-adres of een CIDR invoegen als u geen host- of CIDR-object wilt maken.",
         "objects_ports": "Ondersteunde syntaxis: door komma's gescheiden poortlijst of poortbereik (bijv. 10000-20000).",
         "mac_validation": "Verzoeken van IP-adressen die worden vermeld in DHCP-reserveringen zijn alleen toegestaan ​​als ze afkomstig zijn van het bijbehorende MAC-adres (zelfs als DHCP is uitgeschakeld).",

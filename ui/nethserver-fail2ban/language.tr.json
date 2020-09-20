@@ -7,6 +7,7 @@
     "rows_per_page": "Bir sayfadaki satır sayısı",
     "all": "Tümü",
     "advanced_mode": "Gelişmiş Ayarlar",
+    "save": "Kaydet",
     "unban": {
         "title": "Engellemeyi Kaldır",
         "BannedIP": "Engellenmiş IP",
@@ -26,7 +27,6 @@
         "notify_to": "Şu kişiye bildir",
         "add_email": "Bir e-posta adresi ekle",
         "MailJailState": "Gözaltı başlama/durma işlemleri bildirilsin",
-        "Recidive_Perpetual": "İçiçe gözaltı süreklidir",
         "BanLocalNetwork": "Yerel ağda engelleme yapılabilsin",
         "LogLevel": "Günlükleme Düzeyi",
         "LogLevel_INFO": "BİLGİ",
@@ -38,6 +38,10 @@
         "MaxRetry": "Girişim sayısı",
         "FindTime": "Zaman aralığı",
         "BanTime": "Engelleme zamanı",
+        "Recidive_Incremental": "Incremental ban time",
+        "Recidive_BanTime": "Static ban time",
+        "Recidive_Disabled": "Etkisizleştirilmiş",
+        "Recidive": "Recidive ban",
         "slider_value": "Değer",
         "FindTime_600": "10 dakika",
         "FindTime_900": "15 dakika",
@@ -48,6 +52,15 @@
         "FindTime_172800": "2 gün",
         "FindTime_604800": "1 hafta",
         "FindTime_1209600": "2 hafta",
+        "BanTime_60": "1 minutes",
+        "BanTime_120": "2 dakika",
+        "BanTime_180": "3 dakika",
+        "BanTime_240": "4 dakika",
+        "BanTime_300": "5 dakika",
+        "BanTime_360": "6 dakika",
+        "BanTime_420": "7 dakika",
+        "BanTime_480": "8 dakika",
+        "BanTime_540": "9 dakika",
         "BanTime_600": "10 dakika",
         "BanTime_900": "15 dakika",
         "BanTime_1800": "30 dakika",
@@ -73,7 +86,7 @@
         "security_jails": "Güvenlik",
         "ssh_jails": "SSH",
         "vpn_jails": "VPN",
-        "webApps_jails": "web uygulamaları",
+        "webApps_jails": "Web Uygulamaları",
         "settings_updated_error": "ayarlar güncellenirken sorun çıktı",
         "settings_updated_ok": "ayarlar güncellendi"
     },
@@ -118,6 +131,9 @@
         "IgnoreIP": "Bu listedeki IP adresleri Fail2ban tarafından engellenmeyecek (her satıra bir tane yazın)",
         "MailJailState": "Gözaltı işlemleri (başlama/durma) bildirilsin, root ve diğer alıcılara bildirilecek",
         "FindTime": "Fail2ban başlatıldığında, hizmet bu zaman aralığı için günlüklerdeki saldırganları tarar",
-        "LogLevel": "HATA AYIKLAMA düzeyi günlük boyutunun aşırı artmasına neden olarak disk alanını doldurabilir"
+        "LogLevel": "HATA AYIKLAMA düzeyi günlük boyutunun aşırı artmasına neden olarak disk alanını doldurabilir",
+        "Incremental_BanTime": "Increase the ban time after each failure found in log. When enabling, set a short ban time: a valid user can be banned for a a little while but a brute force attacker will be banned for a very long time.",
+        "Recidive": "Extend ban of persistent abusers, like brute force attack bots.",
+        "Recidive_BanTime": "Ban recidive hosts for 2 weeks. The rule applies when an IP address has been already banned multiple times."
     }
 }

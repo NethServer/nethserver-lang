@@ -763,6 +763,7 @@
     "title": "SSH",
     "tcp_port": "Port TCP",
     "allow_root_login": "Autoriser le login en tant que root",
+    "require_strong_encryption": "Disable weak ciphers",
     "allow_password_auth": "Autoriser l'authentification par mot de passe",
     "ssh_edit_ok": "Configuration SSH enregistrée avec succès!",
     "ssh_edit_error": "Configuration SSH non enregistrée.",
@@ -1049,6 +1050,8 @@
     "change_default_company": "Modifier la société par défaut",
     "one_or_more_dns_not_working": "Un ou plusieurs serveurs DNS ne répondent pas",
     "TCPPort": "port TCP",
+    "StrongEncryption": "Disable weak ciphers",
+    "change_default_ssh_encryption": "Disable SSH weak ciphers",
     "service_is_enabled_but_is_not_running": "Le service ne fonctionne pas ou n'est pas activé",
     "must_configure_backup_data": "Vous devriez configurer au moins une sauvegarde de données",
     "change_default_ssh_port": "Modifiez le port par défaut de SSH afin de diminuer le taux d'attaque par brute force",
@@ -1224,6 +1227,7 @@
     "OtpSshd_Only_Password_Auth": "2FA is available only for password authentication. Authentication with public keys will not be affected by 2FA.",
     "disaster_recovery": "Disaster recovery",
     "user_settings_page": "Allow users to change their password and other settings on a web page outside Cockpit (on port 443). This feature can be enabled only if 'Override the shell of users' is enabled as well.",
-    "OtpR2WOath_Auth":"The VPN policy requires the usage of OTP to access the network."
+    "OtpR2WOath_Auth": "The VPN policy requires the usage of OTP to access the network.",
+    "older_ssh_client_might_not_connect": "Hardening SSH could prevent old clients to connect to the server. Big files transfer can be slower with strong ciphers. The host key will change after restart and clients will have to accept it again."
   }
 }

@@ -7,6 +7,7 @@
     "rows_per_page": "Строк на страницу",
     "all": "Всё",
     "advanced_mode": "Расширенные настройки",
+    "save": "Сохранить",
     "unban": {
         "title": "Разбанить",
         "BannedIP": "Забаненные IP",
@@ -26,7 +27,6 @@
         "notify_to": "Уведомлять",
         "add_email": "Добавить email",
         "MailJailState": "Оповещать о событиях запуска/остановки джейла",
-        "Recidive_Perpetual": "Бессрочный джейл Recidive",
         "BanLocalNetwork": "Разрешить баны LAN-адресов",
         "LogLevel": "Детализация логов",
         "LogLevel_INFO": "ИНФОРМАЦИЯ",
@@ -38,6 +38,10 @@
         "MaxRetry": "Количество попыток",
         "FindTime": "Временной диапазон",
         "BanTime": "Время бана",
+        "Recidive_Incremental": "Incremental ban time",
+        "Recidive_BanTime": "Static ban time",
+        "Recidive_Disabled": "Отключено",
+        "Recidive": "Recidive ban",
         "slider_value": "Значение",
         "FindTime_600": "10 минут",
         "FindTime_900": "15 минут",
@@ -48,6 +52,15 @@
         "FindTime_172800": "2 дня",
         "FindTime_604800": "1 неделя",
         "FindTime_1209600": "2 недели",
+        "BanTime_60": "1 minutes",
+        "BanTime_120": "2 minutes",
+        "BanTime_180": "3 minutes",
+        "BanTime_240": "4 minutes",
+        "BanTime_300": "5 минут",
+        "BanTime_360": "6 minutes",
+        "BanTime_420": "7 minutes",
+        "BanTime_480": "8 minutes",
+        "BanTime_540": "9 minutes",
         "BanTime_600": "10 минут",
         "BanTime_900": "15 минут",
         "BanTime_1800": "30 минут",
@@ -73,7 +86,7 @@
         "security_jails": "Безопасный",
         "ssh_jails": "SSH",
         "vpn_jails": "VPN",
-        "webApps_jails": "Веб-приложения",
+        "webApps_jails": "Web Applications",
         "settings_updated_error": "настройки обновлены с ошибками",
         "settings_updated_ok": "настройки обновлены"
     },
@@ -118,6 +131,9 @@
         "IgnoreIP": "Все IP из этого списка никогда не будут забанены Fail2ban (по одному IP на строку)",
         "MailJailState": "Уведомления о всех относящихся к джейлу событиям (запуск или остановка) будут отправлены root и другим получателям",
         "FindTime": "При запуске fail2ban, служба ищет злоумышленников в логах за указанный промежуток времени",
-        "LogLevel": "Уровень ОТЛАДКА может генерировать лог огромных размеров, заполняя ваше дисковое пространство"
+        "LogLevel": "Уровень ОТЛАДКА может генерировать лог огромных размеров, заполняя ваше дисковое пространство",
+        "Incremental_BanTime": "Increase the ban time after each failure found in log. When enabling, set a short ban time: a valid user can be banned for a a little while but a brute force attacker will be banned for a very long time.",
+        "Recidive": "Extend ban of persistent abusers, like brute force attack bots.",
+        "Recidive_BanTime": "Ban recidive hosts for 2 weeks. The rule applies when an IP address has been already banned multiple times."
     }
 }

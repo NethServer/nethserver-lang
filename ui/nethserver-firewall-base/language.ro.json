@@ -122,7 +122,8 @@
         "ndpi": "nDPI",
         "details_for": "Detalii pentru",
         "name": "Nume",
-        "counter": "Contor"
+        "counter": "Contor",
+        "unknown": "Necunoscut"
     },
     "wan": {
         "title": "WAN",
@@ -320,7 +321,19 @@
         "application": "Aplicație",
         "raw": "Valoare RAW, nici un obiect găsit",
         "local": "DNS",
-        "remote": "DHCP"
+        "remote": "DHCP",
+        "mac": "Adresă MAC",
+        "add_mac_address": "Add MAC address",
+        "mac_addresses": "MAC addresses",
+        "mac_address": "Adresă MAC",
+        "edit_mac_address": "Edit MAC address",
+        "mac_address_created_ok": "MAC address created successfully!",
+        "mac_address_created_error": "MAC address not created.",
+        "mac_address_updated_ok": "MAC address updated successfully!",
+        "mac_address_updated_error": "MAC address not updated.",
+        "mac_address_deleted_ok": "MAC address deleted successfully!",
+        "mac_address_deleted_error": "MAC address not deleted.",
+        "delete_mac_address": "Delete MAC address"
     },
     "port_forward": {
         "title": "Redirecționare port",
@@ -387,8 +400,10 @@
         "reject": "Respinge",
         "drop": "Abandonează",
         "log": "Jurnal",
+        "state_enabled": "This rule is applied to new, established and related connections",
         "quick_rule": "Regulă rapidă (acționează imediat pe fiecare conexiune)",
         "log_enabled": "Jurnal activat",
+        "state": "Apply to existing connections",
         "duplicate": "Duplicare",
         "expand": "Extinde info",
         "to_firewall": "Către Firewall",
@@ -458,6 +473,7 @@
     "settings": {
         "title": "Setări",
         "traffic_internet": "Trafic spre Internet (interfață roșie)",
+        "traffic_vpn": "Traffic between OpenVPN roadwarrior, OpenVPN tunnels and IPSec tunnels",
         "external_ping": "Ping din Internet",
         "mac": "Validare MAC (IP/MAC binding)",
         "allowed": "Permis",
@@ -498,8 +514,8 @@
         "rule_exists": "Regula există deja",
         "rule_not_exists": "Regula nu există",
         "valid_ip_or_cidr": "Trebuie să fie un IP sau CIDR valid",
-        "src_dst_are_in_same_zone": "Sursa sau destinația sunt în aceeași zonă",
         "time_not_found": "Obiectul timp nu există",
+        "host_key_exists": "A host with the same name already exists",
         "host_doesnt_exists": "Gazda nu există",
         "non_existing_port-forward": "Redirecționarea portului nu există",
         "non_existing_host": "Gazda nu există",
@@ -538,11 +554,18 @@
         "access_invalid": "Atribut de acces invalid",
         "port_list_empty": "Acest atribut este obligatoriu",
         "port_list_invalid": "Listă porturi invalidă",
-        "tcp_ports_and_udp_ports_empty": "Cel puțin un port TCP sau UDP trebuie specificat"
+        "tcp_ports_and_udp_ports_empty": "Cel puțin un port TCP sau UDP trebuie specificat",
+        "mac_exists": "A MAC address with the same name already exists",
+        "mac_not_exists": "MAC address does not exist",
+        "mac_address_exists": "A MAC address with the same address already exists",
+        "valid_macAddress": "Invalid MAC address",
+        "mac_cannot_be_delete": "This MAC address can't be deleted because it is in use",
+        "must_be_one_of": "Must be one of"
     },
     "docs": {
         "pf_origin_port": "Introdu un singur port, o listă de porturi separate prin virgulă sau un interval de porturi folosind „:” ca separator ca „100: 200”.",
         "rules_source": "Poți introduce o adresă IP sau un CIDR dacă nu dorești să creezi o gazdă sau un obiect CIDR.",
+        "rules_state": "As default, rules are applied only to new connections. When this option is enabled, the rule will be applied to all connections including already established ones.",
         "rules_destination": "Poți introduce o adresă IP sau un CIDR dacă nu dorești să creezi o gazdă sau un obiect CIDR.",
         "objects_ports": "Sintaxa acceptată: listă de porturi separată de virgulă sau interval de porturi (adică 10000-20000)",
         "mac_validation": "Cererile de la adresele IP enumerate în rezervările DHCP sunt permise numai dacă provin de la adresa MAC asociată (chiar dacă DHCP este dezactivat).",

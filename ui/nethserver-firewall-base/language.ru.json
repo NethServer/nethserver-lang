@@ -122,7 +122,8 @@
         "ndpi": "nDPI",
         "details_for": "Подробнее о",
         "name": "Имя",
-        "counter": "Counter"
+        "counter": "Counter",
+        "unknown": "Неизвестно"
     },
     "wan": {
         "title": "WAN",
@@ -320,7 +321,19 @@
         "application": "Приложение",
         "raw": "RAW-значение, объект не найден",
         "local": "DNS",
-        "remote": "DHCP"
+        "remote": "DHCP",
+        "mac": "MAC-адрес",
+        "add_mac_address": "Add MAC address",
+        "mac_addresses": "MAC addresses",
+        "mac_address": "MAC-адрес",
+        "edit_mac_address": "Edit MAC address",
+        "mac_address_created_ok": "MAC address created successfully!",
+        "mac_address_created_error": "MAC address not created.",
+        "mac_address_updated_ok": "MAC address updated successfully!",
+        "mac_address_updated_error": "MAC address not updated.",
+        "mac_address_deleted_ok": "MAC address deleted successfully!",
+        "mac_address_deleted_error": "MAC address not deleted.",
+        "delete_mac_address": "Delete MAC address"
     },
     "port_forward": {
         "title": "Перенаправление порта",
@@ -387,8 +400,10 @@
         "reject": "Отвергнуть",
         "drop": "Сбросить",
         "log": "Лог",
+        "state_enabled": "This rule is applied to new, established and related connections",
         "quick_rule": "Быстрое правило (действует сразу на все воединения)",
         "log_enabled": "Журнал включён",
+        "state": "Apply to existing connections",
         "duplicate": "Дублировать",
         "expand": "Развернуть",
         "to_firewall": "К файрволу",
@@ -458,6 +473,7 @@
     "settings": {
         "title": "Настройки",
         "traffic_internet": "Трафик в интернет (красный интерфейс)",
+        "traffic_vpn": "Traffic between OpenVPN roadwarrior, OpenVPN tunnels and IPSec tunnels",
         "external_ping": "Пинг из интернета",
         "mac": "Проверка MAC (привязка IP/MAC)",
         "allowed": "Разрешено",
@@ -498,8 +514,8 @@
         "rule_exists": "Правило уже существует",
         "rule_not_exists": "Правило не существует",
         "valid_ip_or_cidr": "Должен быть действительным IP или CIDR",
-        "src_dst_are_in_same_zone": "Источник и назначение находятся в одной зоне",
         "time_not_found": "Временной объект не существует",
+        "host_key_exists": "A host with the same name already exists",
         "host_doesnt_exists": "Хост не существует",
         "non_existing_port-forward": "Перенаправление порта не существует",
         "non_existing_host": "Хост не существует",
@@ -538,11 +554,18 @@
         "access_invalid": "Invalid access attribute",
         "port_list_empty": "This attribute is mandatory",
         "port_list_invalid": "Invalid list of ports",
-        "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified"
+        "tcp_ports_and_udp_ports_empty": "At least one TCP or UDP port must be specified",
+        "mac_exists": "A MAC address with the same name already exists",
+        "mac_not_exists": "MAC address does not exist",
+        "mac_address_exists": "A MAC address with the same address already exists",
+        "valid_macAddress": "Invalid MAC address",
+        "mac_cannot_be_delete": "This MAC address can't be deleted because it is in use",
+        "must_be_one_of": "Must be one of"
     },
     "docs": {
         "pf_origin_port": "Введите порт, список портов через запятую, или диапазон портов, используя \":\" в качестве разделителя, например: \"100:200\".",
         "rules_source": "Вы можете ввести IP-адрес или CIDR, если не хотите создавать объект типа хост или CIDR.",
+        "rules_state": "As default, rules are applied only to new connections. When this option is enabled, the rule will be applied to all connections including already established ones.",
         "rules_destination": "Вы можете ввести IP-адрес или CIDR, если не хотите создавать объект типа хост или CIDR.",
         "objects_ports": "Supported syntax: comma-separated port list or port range (i.e. 10000-20000)",
         "mac_validation": "Requests from IP addresses listed in DHCP reservations are allowed only if are originated from the associated MAC address (even if DHCP is disabled).",

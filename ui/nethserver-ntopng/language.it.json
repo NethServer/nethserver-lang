@@ -19,8 +19,8 @@
         "app": "Monitoraggio banda",
         "title": "Bandwidth monitor dashboard",
         "status": "Stato",
-        "is_enabled": "is enabled",
-        "is_disabled": "is disabled",
+        "is_enabled": "è abilitato",
+        "is_disabled": "è disabilitato",
         "openNtopngApp": "Open bandwidth monitor app",
         "name": "Nome",
         "ip_address": "Indirizzo IP",
@@ -32,12 +32,12 @@
         "traffic_by_interface": "Traffic by interface",
         "traffic_by_protocol": "Traffic by protocol",
         "kbps": "kbit/s",
-        "no_data": "No data",
-        "others": "Others"
+        "no_data": "Nessun dato",
+        "others": "Altri"
     },
     "settings": {
         "title": "Impostazioni",
-        "enable_ntopng": "Enable bandwidth monitor",
+        "enable_ntopng": "Abilita monitor banda",
         "web_interface_port": "Porta interfaccia web",
         "enable_auth": "Abilita autenticazione",
         "interfaces": "Interfacce",

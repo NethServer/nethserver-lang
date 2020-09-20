@@ -122,7 +122,8 @@
         "ndpi": "nDPI",
         "details_for": "Dettagli per",
         "name": "Nome",
-        "counter": "Counter"
+        "counter": "Contatore",
+        "unknown": "Sconosciuto"
     },
     "wan": {
         "title": "WAN",
@@ -320,7 +321,19 @@
         "application": "Applicazione",
         "raw": "RAW value, no object found",
         "local": "DNS",
-        "remote": "DHCP"
+        "remote": "DHCP",
+        "mac": "Indirizzo MAC",
+        "add_mac_address": "Aggiungi MAC address",
+        "mac_addresses": "MAC addresse",
+        "mac_address": "Indirizzo MAC",
+        "edit_mac_address": "Modifica MAC address",
+        "mac_address_created_ok": "MAC address creato correttamente!",
+        "mac_address_created_error": "MAC address non creato.",
+        "mac_address_updated_ok": "MAC address modificato con successo!",
+        "mac_address_updated_error": "MAC address non modificato.",
+        "mac_address_deleted_ok": "MAC address eliminato con successo",
+        "mac_address_deleted_error": "MAC address non eliminato",
+        "delete_mac_address": "Elimina MAC address"
     },
     "port_forward": {
         "title": "Port Forward",
@@ -387,8 +400,10 @@
         "reject": "Rifiuta",
         "drop": "Drop",
         "log": "Log",
+        "state_enabled": "Questa regola viene applicata alle connessioni nuove, stabilite e correlate",
         "quick_rule": "Regola rapida (agisce immediatamente su tutte le connessioni)",
         "log_enabled": "Log abilitato",
+        "state": "Applica alle connessioni esistenti",
         "duplicate": "Duplica",
         "expand": "Espandi",
         "to_firewall": "Verso il Firewall",
@@ -406,7 +421,7 @@
         "wan_add_rules_info": "L'ordinamento è importante: la valutazione delle regole continua dopo una corrispondenza. La rotta è assegnata in base all'ultima corrispondenza.",
         "type_to_search": "Digitare per cercare oggetti, regole,,,",
         "two_providers_needed": "Le policy route possono essere creata solo se sono configurate due o più interfacce WAN.",
-        "show_network_services": "Show network services",
+        "show_network_services": "Visualizza servizi di rete",
         "network_services": "Servizi di rete",
         "edit_service": "Modifica servizio",
         "name": "Nome",
@@ -458,6 +473,7 @@
     "settings": {
         "title": "Impostazioni",
         "traffic_internet": "Traffico verso Internet (interfaccia red)",
+        "traffic_vpn": "Traffico fra OpenVPN roadwarrior, tunnel OpenVPN e tunnel IPSec",
         "external_ping": "Ping da Internet",
         "mac": "Validazione MAC (Binding IP/MAC)",
         "allowed": "Abilitato",
@@ -498,8 +514,8 @@
         "rule_exists": "La regola esiste già",
         "rule_not_exists": "La regola non esiste",
         "valid_ip_or_cidr": "Deve essere un IP o un CIDR valido",
-        "src_dst_are_in_same_zone": "La sorgente e la destinazione sono nella stessa zona",
         "time_not_found": "La condizione temporale non esiste",
+        "host_key_exists": "Esiste già un host con lo stesso nome",
         "host_doesnt_exists": "L'host non esiste",
         "non_existing_port-forward": "Il port forward non esiste",
         "non_existing_host": "L'host non esiste",
@@ -538,16 +554,23 @@
         "access_invalid": "Campo Accesso non valido",
         "port_list_empty": "Questo campo è obbligatorio",
         "port_list_invalid": "Lista porte non valida",
-        "tcp_ports_and_udp_ports_empty": "Deve essere specificata almeno una porta TCP o UDP"
+        "tcp_ports_and_udp_ports_empty": "Deve essere specificata almeno una porta TCP o UDP",
+        "mac_exists": "Esiste già un MAC address con lo stesso nome",
+        "mac_not_exists": "Questa MAC address non esiste",
+        "mac_address_exists": "Esiste già un MAC address con lo stesso indirizzo",
+        "valid_macAddress": "MAC address non valido",
+        "mac_cannot_be_delete": "Questo MAC address non può essere eliminata perché è in uso",
+        "must_be_one_of": "Deve essere uno fra"
     },
     "docs": {
         "pf_origin_port": "Inserire una singola porta, una lista di porte separate da virgola o un intervallo di porte usando \":\" come separatore, tipo \"100:200\"",
         "rules_source": "E' possibile inserire un indirizzo IP o un CIDR se non si desidera creare un oggetto host o CIDR.",
+        "rules_state": "Di default, le regole sono applicate solo alle nuove connessioni. Quando questa opzione è abilitata, la regola sarà applicate a tutte le connessioni, comprese quelle già stabilite.",
         "rules_destination": "E' possibile inserire un indirizzo IP o un CIDR se non si desidera creare un oggetto host o CIDR.",
         "objects_ports": "Sintassi supportata: lista di porte separate da virgola o range di porte (es. 10000-20000)",
         "mac_validation": "Le richieste fatte da indirizzi IP elencati nelle prenotazioni del DHCP sono consentite solo se originate dallo stesso indirizzo MAC presente nella prenotazione (funziona anche con DHCP disabilitato)",
         "mac_validation_policy": "Le richieste da indirizzi IP non presenti nella lista di prenotazioni del DHCP sono bloccate. Assicurarsi che gli amministratori di questo apparato abbiano i propri apparati (IP/MAC ) presenti nella lista delle prenotazioni del DHCP.",
         "list_of_ports": "Inserire uno o più numeri di porta separati da virgola, esempio: '8081, 9292'",
-        "network_services_system_services": "Network services can be added in System -> Services page"
+        "network_services_system_services": "I servizi di rete possono essere aggiungi nella pagina Sistema -> Servizi"
     }
 }

@@ -122,7 +122,8 @@
         "ndpi": "nDPI",
         "details_for": "Details für",
         "name": "Name",
-        "counter": "Zähler"
+        "counter": "Zähler",
+        "unknown": "Unbekannt"
     },
     "wan": {
         "title": "WAN",
@@ -320,7 +321,19 @@
         "application": "Anwendung",
         "raw": "RAW-Wert, kein Objekt gefunden",
         "local": "DNS",
-        "remote": "DHCP"
+        "remote": "DHCP",
+        "mac": "MAC Adresse",
+        "add_mac_address": "Add MAC address",
+        "mac_addresses": "MAC addresses",
+        "mac_address": "MAC Adresse",
+        "edit_mac_address": "Edit MAC address",
+        "mac_address_created_ok": "MAC address created successfully!",
+        "mac_address_created_error": "MAC address not created.",
+        "mac_address_updated_ok": "MAC address updated successfully!",
+        "mac_address_updated_error": "MAC address not updated.",
+        "mac_address_deleted_ok": "MAC address deleted successfully!",
+        "mac_address_deleted_error": "MAC address not deleted.",
+        "delete_mac_address": "Delete MAC address"
     },
     "port_forward": {
         "title": "Port-Weiterleitung",
@@ -387,8 +400,10 @@
         "reject": "Ablehnen",
         "drop": "Verworfen",
         "log": "Protokollieren",
+        "state_enabled": "This rule is applied to new, established and related connections",
         "quick_rule": "Blitzregel (wirkt sofort bei jeder Verbindung)",
         "log_enabled": "Protokoll aktiviert",
+        "state": "Apply to existing connections",
         "duplicate": "Duplikat",
         "expand": "Info erweitern",
         "to_firewall": "Zur Firewall",
@@ -458,6 +473,7 @@
     "settings": {
         "title": "Einstellungen",
         "traffic_internet": "Traffic ins Internet (Schnittstelle rot)",
+        "traffic_vpn": "Traffic between OpenVPN roadwarrior, OpenVPN tunnels and IPSec tunnels",
         "external_ping": "Ping vom Internet",
         "mac": "MAC Adressen Überprüfung (IP/MAC Bindung)",
         "allowed": "Erlaubt",
@@ -498,8 +514,8 @@
         "rule_exists": "Regel existiert bereits",
         "rule_not_exists": "Regel existiert nicht",
         "valid_ip_or_cidr": "Muss eine gültige IP oder CIDR sein",
-        "src_dst_are_in_same_zone": "Quelle und Ziel befinden sich in derselben Zone",
         "time_not_found": "Zeitobjekt existiert nicht",
+        "host_key_exists": "A host with the same name already exists",
         "host_doesnt_exists": "Host existiert nicht",
         "non_existing_port-forward": "Port-Weiterleitung existiert nicht",
         "non_existing_host": "Host existiert nicht",
@@ -538,11 +554,18 @@
         "access_invalid": "Ungültiges Zugriffsattribut",
         "port_list_empty": "Dieses Attribut ist obligatorisch",
         "port_list_invalid": "Ungültige Liste an Ports",
-        "tcp_ports_and_udp_ports_empty": "Mindestens ein TCP- oder UDP-Port muss definiert werden"
+        "tcp_ports_and_udp_ports_empty": "Mindestens ein TCP- oder UDP-Port muss definiert werden",
+        "mac_exists": "A MAC address with the same name already exists",
+        "mac_not_exists": "MAC address does not exist",
+        "mac_address_exists": "A MAC address with the same address already exists",
+        "valid_macAddress": "Invalid MAC address",
+        "mac_cannot_be_delete": "This MAC address can't be deleted because it is in use",
+        "must_be_one_of": "Must be one of"
     },
     "docs": {
         "pf_origin_port": "Bitte einen einzelnen Port, eine Liste mit durch Kommas getrennten Ports oder einen Portbereich einfügen, der \":\" als Trennzeichen verwendet, wie \"100: 200\".",
         "rules_source": "Bitte eine IP-Adresse oder ein CIDR eingeben, wenn kein Host- oder CIDR-Objekt erstellt werden soll.",
+        "rules_state": "As default, rules are applied only to new connections. When this option is enabled, the rule will be applied to all connections including already established ones.",
         "rules_destination": "Bitte eine IP-Adresse oder ein CIDR eingeben, wenn kein Host- oder CIDR-Objekt erstellt werden soll.",
         "objects_ports": "Unterstützte Syntax: durch Kommas getrennte Portliste oder Portbereich (d. h. 10000-20000)",
         "mac_validation": "Anforderungen von IP-Adressen, die in DHCP-Reservierungen aufgeführt sind, sind nur zulässig, wenn sie von der zugeordneten MAC-Adresse stammen (auch wenn DHCP deaktiviert ist).",

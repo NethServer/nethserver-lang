@@ -31,7 +31,7 @@
     "error_restored_list": "Beim Wiederherstellen der Elemente ist ein Fehler aufgetreten.",
     "are_you_sure": "Sind Sie sicher",
     "cancel": "Abbrechen",
-    "backup_disabled": "Backup ist deaktiviert. Aktivieren SIe es bovor die Daten wiederherstellen.",
+    "backup_disabled": "Backup ist deaktiviert. Bitte vor Wiederherstellung von Daten aktivieren.",
     "enable": "Aktivieren"
   },
   "about": {

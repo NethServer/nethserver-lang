@@ -7,6 +7,7 @@
     "rows_per_page": "Rijen per pagina",
     "all": "Alle",
     "advanced_mode": "Geavanceerde opties",
+    "save": "Opslaan",
     "unban": {
         "title": "Vrijgeven",
         "BannedIP": "Geblokkeerde IP",
@@ -26,7 +27,6 @@
         "notify_to": "Melden aan",
         "add_email": "Voeg een e-mail toe",
         "MailJailState": "Melden bij start/stop-gebeurtenissen in de blokkadelijst",
-        "Recidive_Perpetual": "Blokkade is eeuwigdurend",
         "BanLocalNetwork": "Sta blokkades op het LAN toe",
         "LogLevel": "Logging niveau",
         "LogLevel_INFO": "Informatie",
@@ -38,6 +38,10 @@
         "MaxRetry": "Aantal pogingen",
         "FindTime": "Tijdspanne",
         "BanTime": "Blokkadetijd",
+        "Recidive_Incremental": "Incremental ban time",
+        "Recidive_BanTime": "Static ban time",
+        "Recidive_Disabled": "Uitgeschakeld",
+        "Recidive": "Recidive ban",
         "slider_value": "Waarde",
         "FindTime_600": "10 minuten",
         "FindTime_900": "15 minuten",
@@ -48,6 +52,15 @@
         "FindTime_172800": "2 dagen",
         "FindTime_604800": "1 week",
         "FindTime_1209600": "2 weken",
+        "BanTime_60": "1 minutes",
+        "BanTime_120": "2 minutes",
+        "BanTime_180": "3 minutes",
+        "BanTime_240": "4 minutes",
+        "BanTime_300": "5 minuten",
+        "BanTime_360": "6 minutes",
+        "BanTime_420": "7 minutes",
+        "BanTime_480": "8 minutes",
+        "BanTime_540": "9 minutes",
         "BanTime_600": "10 minuten",
         "BanTime_900": "15 minuten",
         "BanTime_1800": "30 minuten",
@@ -73,7 +86,7 @@
         "security_jails": "Beveiliging",
         "ssh_jails": "SSH",
         "vpn_jails": "VPN",
-        "webApps_jails": "Webapplicaties",
+        "webApps_jails": "Web Applicaties",
         "settings_updated_error": "Instellingen bijgewerkt met fouten!",
         "settings_updated_ok": "Instellingen succesvol bijgewerkt"
     },
@@ -118,6 +131,9 @@
         "IgnoreIP": "Alle IP's in deze lijst worden nooit geblokkeerd door Fail2ban (één IP per regel)",
         "MailJailState": "Alle relatieve gebeurtenissen in de blokkadeservice (start of stop), worden gemeld aan root en andere ontvangers",
         "FindTime": "Wanneer Fail2ban start, zoekt de service naar aanvallers in de logboeken voor dit tijdsinterval",
-        "LogLevel": "Het DEBUG-niveau kan een enorme loggrootte genereren en uw schijfruimte vullen"
+        "LogLevel": "Het DEBUG-niveau kan een enorme loggrootte genereren en uw schijfruimte vullen",
+        "Incremental_BanTime": "Increase the ban time after each failure found in log. When enabling, set a short ban time: a valid user can be banned for a a little while but a brute force attacker will be banned for a very long time.",
+        "Recidive": "Extend ban of persistent abusers, like brute force attack bots.",
+        "Recidive_BanTime": "Ban recidive hosts for 2 weeks. The rule applies when an IP address has been already banned multiple times."
     }
 }

@@ -20,17 +20,17 @@
     "dashboard": {
         "title": "Threat shield",
         "last_blacklist_definitions": "Last threats definitions",
-        "ip_blacklist": "IP blacklist",
+        "ip_blacklist": "Blacklist IP",
         "dns_blacklist": "DNS blacklist",
         "ip_statistics": "IP blacklist statistics",
-        "dns_statistics": "DNS blacklist statistics",
+        "dns_statistics": "Statistiche blacklist DNS",
         "today_total_threats_blocked": "threats blocked today",
-        "today_most_blocked_source_hosts": "Today's most blocked source hosts",
+        "today_most_blocked_source_hosts": "Host sorgente più bloccati ",
         "today_most_blocked_destination_hosts": "Today's most blocked destination hosts",
         "check_for_updates": "Check for updates",
         "blacklist_update_successful": "Threat shield is up to date",
         "blacklist_update_failed": "Error while updating threats definitions",
-        "no_data": "No data",
+        "no_data": "Nessun dato",
         "ip_blacklist_enabled": "IP blacklist is enabled",
         "ip_blacklist_disabled": "IP blacklist is disabled",
         "dns_blacklist_enabled": "DNS blacklist is enabled",
@@ -83,7 +83,7 @@
         "yoroi_suspicious_level2_description": "Yoroi threat intelligence feed: yoroi_suspicious_level2"
     },
     "ip_blacklist": {
-        "title": "IP blacklist",
+        "title": "Blacklist IP",
         "enable_ip_blacklist": "Enable IP blacklist"
     },
     "dns_blacklist": {

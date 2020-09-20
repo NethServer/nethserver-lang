@@ -7,6 +7,7 @@
     "rows_per_page": "Rows per page",
     "all": "全部",
     "advanced_mode": "高级选项",
+    "save": "保存",
     "unban": {
         "title": "Unban",
         "BannedIP": "Banned IP",
@@ -26,7 +27,6 @@
         "notify_to": "Notify to",
         "add_email": "Add an email",
         "MailJailState": "Notify on jail start/stop events",
-        "Recidive_Perpetual": "Recidive jail is perpetual",
         "BanLocalNetwork": "Allow bans on the LAN",
         "LogLevel": "日志等级",
         "LogLevel_INFO": "INFO",
@@ -38,6 +38,10 @@
         "MaxRetry": "Number of attempts",
         "FindTime": "Time span",
         "BanTime": "Ban time",
+        "Recidive_Incremental": "Incremental ban time",
+        "Recidive_BanTime": "Static ban time",
+        "Recidive_Disabled": "禁止",
+        "Recidive": "Recidive ban",
         "slider_value": "Value",
         "FindTime_600": "10 分钟",
         "FindTime_900": "15 分钟",
@@ -48,6 +52,15 @@
         "FindTime_172800": "2 days",
         "FindTime_604800": "一周",
         "FindTime_1209600": "两周",
+        "BanTime_60": "1 minutes",
+        "BanTime_120": "2 minutes",
+        "BanTime_180": "3 minutes",
+        "BanTime_240": "4 minutes",
+        "BanTime_300": "5 分钟",
+        "BanTime_360": "6 minutes",
+        "BanTime_420": "7 minutes",
+        "BanTime_480": "8 minutes",
+        "BanTime_540": "9 minutes",
         "BanTime_600": "10 分钟",
         "BanTime_900": "15 分钟",
         "BanTime_1800": "30 分钟",
@@ -73,7 +86,7 @@
         "security_jails": "安全",
         "ssh_jails": "SSH",
         "vpn_jails": "VPN",
-        "webApps_jails": "web applications",
+        "webApps_jails": "Web应用程序",
         "settings_updated_error": "settings updated with errors",
         "settings_updated_ok": "settings updated"
     },
@@ -118,6 +131,9 @@
         "IgnoreIP": "All IP in this list will never be banned by Fail2ban (One IP per line)",
         "MailJailState": "All relative events to the jail (start or stop), will be notified to root and other recipients",
         "FindTime": "When fail2ban starts, the service looks for attackers in the logs for this time interval",
-        "LogLevel": "The DEBUG level could generate huge log size and fill your disk space"
+        "LogLevel": "The DEBUG level could generate huge log size and fill your disk space",
+        "Incremental_BanTime": "Increase the ban time after each failure found in log. When enabling, set a short ban time: a valid user can be banned for a a little while but a brute force attacker will be banned for a very long time.",
+        "Recidive": "Extend ban of persistent abusers, like brute force attack bots.",
+        "Recidive_BanTime": "Ban recidive hosts for 2 weeks. The rule applies when an IP address has been already banned multiple times."
     }
 }

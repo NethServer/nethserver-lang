@@ -763,6 +763,7 @@
     "title": "SSH",
     "tcp_port": "Port TCP",
     "allow_root_login": "Permite acces root",
+    "require_strong_encryption": "Dezactivează cifrurile slabe",
     "allow_password_auth": "Permite autentificare cu parolă",
     "ssh_edit_ok": "Configurația SSH salvată cu succes!",
     "ssh_edit_error": "Configurația SSH nu a fost salvată.",
@@ -1049,6 +1050,8 @@
     "change_default_company": "Schimbă compania implicită",
     "one_or_more_dns_not_working": "Unul sau mai multe servere DNS nu răspund",
     "TCPPort": "Port TCP",
+    "StrongEncryption": "Dezactivează cifrurile slabe",
+    "change_default_ssh_encryption": "Dezactivează cifrurile SSH slabe",
     "service_is_enabled_but_is_not_running": "Serviciul fie nu rulează, fie nu a fost activat",
     "must_configure_backup_data": "Ar trebui să configurezi cel puțin o copie de siguranță pentru date",
     "change_default_ssh_port": "Schimbă portul implicit SSH pentru a limita rata de succes a atacurilor brute force",
@@ -1224,6 +1227,7 @@
     "OtpSshd_Only_Password_Auth": "2FA este disponibil numai pentru autentificarea cu parolă. Autentificarea cu chei publice nu va fi afectată de 2FA.",
     "disaster_recovery": "Recuperare în caz de dezastru",
     "user_settings_page": "Permite utilizatorilor să își schimbe parola și alte setări pe o pagină web în afara Cockpit (la portul 443). Această caracteristică poate fi activată numai dacă este activată „Suprascriere shell utilizatori”.",
-    "OtpR2WOath_Auth":"Politica VPN necesită utilizarea OTP pentru a accesa rețeaua."
+    "OtpR2WOath_Auth": "Politica VPN necesită utilizarea OTP pentru a accesa rețeaua.",
+    "older_ssh_client_might_not_connect": "Întărirea SSH ar putea împiedica clienții vechi să se conecteze la server. Transferul de fișiere mari poate fi mai lent cu cifruri puternice. Cheia gazdei se va schimba după repornire, iar clienții vor trebui să o accepte din nou."
   }
 }

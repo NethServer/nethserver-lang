@@ -122,7 +122,8 @@
         "ndpi": "nDPI",
         "details_for": "Şunun ayrıntıları",
         "name": "Ad",
-        "counter": "Sayaç"
+        "counter": "Sayaç",
+        "unknown": "Bilinmiyor"
     },
     "wan": {
         "title": "WAN",
@@ -320,7 +321,19 @@
         "application": "Uygulama",
         "raw": "HAM değer, herhangi bir nesne bulunamadı",
         "local": "DNS",
-        "remote": "DHCP"
+        "remote": "DHCP",
+        "mac": "MAC adresi",
+        "add_mac_address": "Add MAC address",
+        "mac_addresses": "MAC addresses",
+        "mac_address": "MAC adresi",
+        "edit_mac_address": "Edit MAC address",
+        "mac_address_created_ok": "MAC address created successfully!",
+        "mac_address_created_error": "MAC address not created.",
+        "mac_address_updated_ok": "MAC address updated successfully!",
+        "mac_address_updated_error": "MAC address not updated.",
+        "mac_address_deleted_ok": "MAC address deleted successfully!",
+        "mac_address_deleted_error": "MAC address not deleted.",
+        "delete_mac_address": "Delete MAC address"
     },
     "port_forward": {
         "title": "Kapı Numarası Yönlendirmesi",
@@ -387,8 +400,10 @@
         "reject": "Reddet",
         "drop": "Düşür",
         "log": "Günlük",
+        "state_enabled": "This rule is applied to new, established and related connections",
         "quick_rule": "Hızlı kural (her bağlantı için hemen işler)",
         "log_enabled": "Günlük etkinleştirilmiş",
+        "state": "Apply to existing connections",
         "duplicate": "Kopyala",
         "expand": "Bilgileri genişlet",
         "to_firewall": "Güvenlik Duvarına",
@@ -458,6 +473,7 @@
     "settings": {
         "title": "Ayarlar",
         "traffic_internet": "İnternete çıkan trafik (kırmızı arabirim)",
+        "traffic_vpn": "Traffic between OpenVPN roadwarrior, OpenVPN tunnels and IPSec tunnels",
         "external_ping": "İnternet üzerinden Ping",
         "mac": "MAC doğrulaması (IP/MAC bağlama)",
         "allowed": "İzin verilen",
@@ -498,8 +514,8 @@
         "rule_exists": "Kural zaten var",
         "rule_not_exists": "Kural bulunamadı",
         "valid_ip_or_cidr": "Geçerli bir IP ya da CIDR olmalı",
-        "src_dst_are_in_same_zone": "Kaynak ve hedef aynı bölgede",
         "time_not_found": "Zaman nesnesi bulunamadı",
+        "host_key_exists": "A host with the same name already exists",
         "host_doesnt_exists": "Sunucu bulunamadı",
         "non_existing_port-forward": "Kapı numarası yönlendirmesi bulunamadı",
         "non_existing_host": "Sunucu bulunamadı",
@@ -538,11 +554,18 @@
         "access_invalid": "Erişim özniteliği geçersiz",
         "port_list_empty": "Bu öznitelik zorunludur",
         "port_list_invalid": "Kapı numaraları listesi geçersiz",
-        "tcp_ports_and_udp_ports_empty": "En az bir TCP ya da UDP kapı numarası belirtilmelidir"
+        "tcp_ports_and_udp_ports_empty": "En az bir TCP ya da UDP kapı numarası belirtilmelidir",
+        "mac_exists": "A MAC address with the same name already exists",
+        "mac_not_exists": "MAC address does not exist",
+        "mac_address_exists": "A MAC address with the same address already exists",
+        "valid_macAddress": "Invalid MAC address",
+        "mac_cannot_be_delete": "This MAC address can't be deleted because it is in use",
+        "must_be_one_of": "Must be one of"
     },
     "docs": {
         "pf_origin_port": "Tek bir kapı numarası, virgül ile ayrılmış bir kapı numarsaı listesi ya da ayraç olarak \":\" kullanarak (100:200 gibi) bir kapı numarası aralığı yazın. ",
         "rules_source": "Bir sunucu ya da CIDR nesnesi eklemek istemiyorsanız bir IP adresi ya da CIDR yazabilirsiniz.",
+        "rules_state": "As default, rules are applied only to new connections. When this option is enabled, the rule will be applied to all connections including already established ones.",
         "rules_destination": "Bir sunucu ya da CIDR nesnesi eklemek istemiyorsanız bir IP adresi ya da CIDR yazabilirsiniz.",
         "objects_ports": "Yazım biçimi: virgül ile ayrılmış kapı numaraları listesi ya da kapı numarası aralığı (10000-20000 gibi)",
         "mac_validation": "DHCP ayırtmaları içindeki IP adreslerinden gelen isteklere yalnız ilgili MAC adresinden geliyorlarsa izin verilir (DHCP etkisizleştirilmiş olsa bile).",

@@ -97,7 +97,7 @@
     "hash": "Algoritmo di integrità",
     "pfsgroup": "Gruppo Diffie-Hellman",
     "key_lifetime": "Durata chiave (secondi)",
-    "ike_version": "IKE version",
+    "ike_version": "Versione IKE",
     "ikev1": "IKEv1",
     "ikev2": "IKEv2",
     "force_ikev1": "Force IKEv1",

@@ -7,6 +7,7 @@
     "rows_per_page": "Lignes par page",
     "all": "Tous",
     "advanced_mode": "Options avancées",
+    "save": "Sauvegarder",
     "unban": {
         "title": "Dé-bannir",
         "BannedIP": "IP bannie",
@@ -26,7 +27,6 @@
         "notify_to": "Notifier",
         "add_email": "Ajoutez un courriel",
         "MailJailState": "Notifier les événements de démarrage/arrêt de la prison",
-        "Recidive_Perpetual": "La prison récidive est perpétuelle",
         "BanLocalNetwork": "Autoriser les bannissements sur le réseau local",
         "LogLevel": "Niveau de journalisation",
         "LogLevel_INFO": "INFO",
@@ -38,6 +38,10 @@
         "MaxRetry": "Nombre de tentatives",
         "FindTime": "Laps de temps",
         "BanTime": "Durée de bannissement",
+        "Recidive_Incremental": "Incremental ban time",
+        "Recidive_BanTime": "Static ban time",
+        "Recidive_Disabled": "Desactivé",
+        "Recidive": "Recidive ban",
         "slider_value": "Valeur",
         "FindTime_600": "10 minutes",
         "FindTime_900": "15 minutes",
@@ -48,6 +52,15 @@
         "FindTime_172800": "2 jours",
         "FindTime_604800": "1 semaine",
         "FindTime_1209600": "2 semaines",
+        "BanTime_60": "1 minutes",
+        "BanTime_120": "2 minutes",
+        "BanTime_180": "3 minutes",
+        "BanTime_240": "4 minutes",
+        "BanTime_300": "5 minutes",
+        "BanTime_360": "6 minutes",
+        "BanTime_420": "7 minutes",
+        "BanTime_480": "8 minutes",
+        "BanTime_540": "9 minutes",
         "BanTime_600": "10 minutes",
         "BanTime_900": "15 minutes",
         "BanTime_1800": "30 minutes",
@@ -118,6 +131,9 @@
         "IgnoreIP": "Toutes les adresses IP de cette liste ne seront jamais bannies par Fail2ban (Une adresse par ligne)",
         "MailJailState": "Tous les événements relatifs à la prison (démarrage ou arrêt) seront notifiés à root et aux autres destinataires",
         "FindTime": "Lorsque fail2ban démarre, le service recherche des attaquants dans les journaux pour cet intervalle de temps.",
-        "LogLevel": "Le niveau DEBUG peut générer une taille de journal énorme et remplir votre espace disque."
+        "LogLevel": "Le niveau DEBUG peut générer une taille de journal énorme et remplir votre espace disque.",
+        "Incremental_BanTime": "Increase the ban time after each failure found in log. When enabling, set a short ban time: a valid user can be banned for a a little while but a brute force attacker will be banned for a very long time.",
+        "Recidive": "Extend ban of persistent abusers, like brute force attack bots.",
+        "Recidive_BanTime": "Ban recidive hosts for 2 weeks. The rule applies when an IP address has been already banned multiple times."
     }
 }
