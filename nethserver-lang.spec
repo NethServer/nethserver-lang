@@ -3,8 +3,8 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.4.4
-Release: 10%{?dist}
+Version: 1.4.5
+Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
 Summary: NethServer localization project
@@ -230,6 +230,9 @@ BuildArch: noarch
 Cockpit translstions for all languages.
 
 %changelog
+* Wed Oct 07 2020 Davide Principi <davide.principi@nethesis.it> - 1.4.5-1
+- Upgrade NS6 to Active Directory Cockpit procedure - NethServer/dev#6290
+
 * Sun Sep 20 2020 nethbot <nethbot@nethesis.it> - 1.4.4-10
 - Automatic release 1.4.4-10
 
