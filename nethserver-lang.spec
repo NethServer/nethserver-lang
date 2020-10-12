@@ -3,7 +3,7 @@
    make -f /usr/share/nethserver-devtools/docs.mk %{?-l:XML_LANG}=%{-l*}
 
 Name: nethserver-lang
-Version: 1.4.5
+Version: 1.4.6
 Release: 1%{?dist}
 License: GPLv3
 URL: https://github.com/NethServer/nethserver-lang
@@ -230,6 +230,9 @@ BuildArch: noarch
 Cockpit translstions for all languages.
 
 %changelog
+* Mon Oct 12 2020 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.4.6-1
+- Cockpit : French translation broken - Bug NethServer/dev#6302
+
 * Wed Oct 07 2020 Davide Principi <davide.principi@nethesis.it> - 1.4.5-1
 - Upgrade NS6 to Active Directory Cockpit procedure - NethServer/dev#6290
 
