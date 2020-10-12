@@ -499,7 +499,7 @@
     "LocalLdapUpgrade_message1": "Cette opération n'est pas réversible ! La base de données LDAP peut être mise à niveau vers un fournisseur de comptes Active Directory local",
     "LocalLdapUpgrade_PDC_message1": "Les utilisateurs, mots de passe, groupes et comptes d'ordinateurs sont préservés. Les connexions aux dossiers partagés peuvent nécessiter des informations d'identification différentes!",
     "LocalLdapUpgrade_WS_message1": "Les utilisateurs, mots de passe, groupes et comptes d'ordinateurs sont préservés. Cependant, les connexions aux dossiers partagés nécessitent des informations d'identification différentes!",
-    "LocalLdapUpgrade_PDC_message2": "Lors de la connexion à un dossier partagé, le nom de domaine NetBIOS doit être préfixé par le nom d'utilisateur (c'est-à-dire "MONDOMAINE\nomutilisateur") ou inséré dans le champ de formulaire spécifique.",
+    "LocalLdapUpgrade_PDC_message2": "Lors de la connexion à un dossier partagé, le nom de domaine NetBIOS doit être préfixé par le nom d'utilisateur (c'est-à-dire 'MONDOMAINE\\utilisateur') ou inséré dans le champ de formulaire spécifique.",
     "ns6upgrade_event_ok": "The account provider is now Active Directory.",
     "ns6upgrade_event_error": "An unexpected error has occurred. See the logs for details.",
     "filter_by": "Trier par",
