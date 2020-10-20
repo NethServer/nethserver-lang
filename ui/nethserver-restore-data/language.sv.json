@@ -13,7 +13,7 @@
     "results": "Results",
     "no_results": "No results",
     "no_results_text": "Select a backup and insert at least 4 characters, then press Search",
-    "warning": "Warning",
+    "warning": "Varning",
     "too_many_results": "Your search has produced {0} results. Try to reduce the results changing the pattern. (Max results: 500)",
     "restore_files": "Restore {0} items",
     "overwrite_files": "Overwrite {0} items",
@@ -23,7 +23,7 @@
     "choose_mode": "Choose mode",
     "files_directories": "Files or directories",
     "mails": "Mail folders",
-    "advanced": "Advanced",
+    "advanced": "Avancerat",
     "nothing_selected": "Nothing selected to restore",
     "selected": "Selected",
     "overwritten": "overwritten",
@@ -35,7 +35,7 @@
     "enable": "Aktivera"
   },
   "about": {
-    "title": "About",
+    "title": "Om",
     "website": "Web site",
     "bug_tracker": "Bug tracker"
   },
@@ -50,7 +50,7 @@
     "app": "Återställ data",
     "last_run": "Last run",
     "configured_backups": "Configured backups",
-    "no_backups_found": "No backups found",
+    "no_backups_found": "Inga aäkerhetskopior funna",
     "no_backups_found_desc": "It seems that you have not configured any backup-data"
   },
   "docs": {

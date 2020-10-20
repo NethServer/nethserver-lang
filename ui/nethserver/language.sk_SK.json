@@ -175,7 +175,8 @@
     "root_partition": "KOREŇOVÁ PARTÍCIA",
     "raid": "RAID",
     "ok": "OK",
-    "error": "CHYBA"
+    "error": "CHYBA",
+    "hostname_change": "Current hostname is not valid"
   },
   "backup": {
     "title": "Záloha",

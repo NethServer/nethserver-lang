@@ -118,17 +118,18 @@
     },
     "validation":{
         "validation_failed": "Validatie mislukt",
-        "not_ip_address": "Ongeldig IPv4-adres: het moet zoiets zijn als '10.0.0.1'",
+        "not_a_valid_IP_or_CIDR": "It must be a IPv4 address like '1.2.3.4' or a CIDR network like '192.168.1.0/24'",
         "not_valid_email_address": "Ongeldig e-mailadres: het moet zoiets zijn als 'mijnnaam@domein.nl'",
         "valid_memberOf_enabled, disabled": "Kan worden ingeschakeld of uitgeschakeld",
         "valid_memberOf_true, false": "Kan waar of onwaar zijn",
         "valid_integer": "Moet een positief geheel getal zijn",
-        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "Moet lid zijn van KRITIEK, FOUT, WAARSCHUWING, BERICHT, INFO, DEBUG"
+        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "Moet lid zijn van KRITIEK, FOUT, WAARSCHUWING, BERICHT, INFO, DEBUG",
+        "0_0_0_0_network_is_prohibited": "The network 0.0.0.0/0 cannot be whitelisted: it is too wide."
     },
     "docs":{
         "fail2ban": "Fail2ban",
         "more_info_about": "Meer informatie",
-        "IgnoreIP": "Alle IP's in deze lijst worden nooit geblokkeerd door Fail2ban (één IP per regel)",
+        "IgnoreIP": "All IP (1.2.3.4) or CIDR network (192.168.1.0/24) in this list will never be banned by Fail2ban. Add one entry per line",
         "MailJailState": "Alle relatieve gebeurtenissen in de blokkadeservice (start of stop), worden gemeld aan root en andere ontvangers",
         "FindTime": "Wanneer Fail2ban start, zoekt de service naar aanvallers in de logboeken voor dit tijdsinterval",
         "LogLevel": "Het DEBUG-niveau kan een enorme loggrootte genereren en uw schijfruimte vullen",

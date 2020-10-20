@@ -175,7 +175,8 @@
     "root_partition": "КОРЕНЕВИЙ РОЗПОДІЛ",
     "raid": "RAID",
     "ok": "oK",
-    "error": "ПОМИЛКА"
+    "error": "ПОМИЛКА",
+    "hostname_change": "Current hostname is not valid"
   },
   "backup": {
     "title": "Створення резервних копій",

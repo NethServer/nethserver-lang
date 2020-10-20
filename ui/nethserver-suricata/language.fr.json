@@ -83,9 +83,9 @@
     "title": "Bypass",
     "description": "Description",
     "bypass": "Bypass",
-    "add_bypass": "Add bypass",
-    "edit_bypass": "Edit bypass",
-    "delete_bypass": "Delete bypass",
+    "add_bypass": "Ajouter un bypass",
+    "edit_bypass": "Editer le bypass",
+    "delete_bypass": "Supprimer le bypass",
     "bypass_created_ok": "Source créée avec succès!",
     "bypass_created_error": "Source non créée.",
     "bypass_updated_ok": "Source mise à jour avec succès!",
@@ -110,8 +110,8 @@
   },
   "validation": {
     "validation_failed": "Validation échoué",
-    "bypass_already_exists": "A bypass for the same object already exists",
-    "destination_already_exists": "A bypass for the same destination already exists",
+    "bypass_already_exists": "Un bypass pour le même objet existe déjà",
+    "destination_already_exists": "Un bypass pour la même destination existe déjà",
     "object_not_found": "Objet non trouvé",
     "object_not_supported": "Objet non supporté",
     "valid_ip_or_cidr": "Doit êtreune IP ou un réseau CIDR valide"

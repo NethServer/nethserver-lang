@@ -35,7 +35,7 @@
         "error_reading_system_info_configuration": "Error reading system info configuration"
     },
     "about": {
-        "title": "About",
+        "title": "Om",
         "website": "Web site",
         "bug_tracker": "Bug tracker"
     },
@@ -49,13 +49,13 @@
     "actions": "Actions",
     "delete": "Delete",
     "next": "Nästa",
-    "prev": "Previous",
-    "of": "of",
+    "prev": "Föregående",
+    "of": "av",
     "rows_per_page": "Row per page",
     "search": "Search",
-    "all": "All",
+    "all": "Alla",
     "save": "Spara",
     "cancel": "Avbryt",
-    "warning": "Warning",
+    "warning": "Varning",
     "create": "Create"
 }

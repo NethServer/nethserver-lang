@@ -1,11 +1,11 @@
 {
-    "action": "Action",
-    "list": "List",
+    "action": "Åtgärd",
+    "list": "Lista",
     "search": "Search",
     "next": "Nästa",
-    "prev": "Previous",
-    "rows_per_page": "Rows per page",
-    "all": "All",
+    "prev": "Föregående",
+    "rows_per_page": "Rader per sida",
+    "all": "Alla",
     "advanced_mode": "Avancerade inställningar",
     "save": "Spara",
     "unban": {
@@ -48,7 +48,7 @@
         "FindTime_1800": "30 minutes",
         "FindTime_3600": "1 hour",
         "FindTime_7200": "2 hours",
-        "FindTime_86400": "1 day",
+        "FindTime_86400": "1 dag",
         "FindTime_172800": "2 days",
         "FindTime_604800": "1 vecka",
         "FindTime_1209600": "2 veckor",
@@ -66,7 +66,7 @@
         "BanTime_1800": "30 minutes",
         "BanTime_3600": "1 hour",
         "BanTime_7200": "2 hours",
-        "BanTime_86400": "1 day",
+        "BanTime_86400": "1 dag",
         "BanTime_172800": "2 days",
         "BanTime_604800": "1 vecka",
         "BanTime_1209600": "2 veckor",
@@ -80,7 +80,7 @@
         "apache_jails": "Apache",
         "communication_jails": "Communication",
         "database_jails": "Database",
-        "email_jails": "Email",
+        "email_jails": "E-post",
         "ftp_jails": "FTP",
         "nginx_jails":"Nginx",
         "security_jails": "Security",
@@ -91,7 +91,7 @@
         "settings_updated_ok": "settings updated"
     },
     "about": {
-        "title": "About",
+        "title": "Om",
         "website": "Web site",
         "bug_tracker": "Bug tracker"
     },
@@ -118,17 +118,18 @@
     },
     "validation":{
         "validation_failed": "Validation failed",
-        "not_ip_address": "Invalid IPv4 address: it should be something like '10.0.0.1'",
+        "not_a_valid_IP_or_CIDR": "It must be a IPv4 address like '1.2.3.4' or a CIDR network like '192.168.1.0/24'",
         "not_valid_email_address": "Invalid mail address: it should be something like 'myname@domain.com'",
         "valid_memberOf_enabled, disabled": "Can be enabled or disabled",
         "valid_memberOf_true, false": "Can be true or false",
         "valid_integer": "Must be a positive integer",
-        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "Must be a member of CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG"
+        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "Must be a member of CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG",
+        "0_0_0_0_network_is_prohibited": "The network 0.0.0.0/0 cannot be whitelisted: it is too wide."
     },
     "docs":{
         "fail2ban": "Fail2ban",
         "more_info_about": "More Information about ",
-        "IgnoreIP": "All IP in this list will never be banned by Fail2ban (One IP per line)",
+        "IgnoreIP": "All IP (1.2.3.4) or CIDR network (192.168.1.0/24) in this list will never be banned by Fail2ban. Add one entry per line",
         "MailJailState": "All relative events to the jail (start or stop), will be notified to root and other recipients",
         "FindTime": "When fail2ban starts, the service looks for attackers in the logs for this time interval",
         "LogLevel": "The DEBUG level could generate huge log size and fill your disk space",

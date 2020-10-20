@@ -6,10 +6,10 @@ $L['username_label'] = 'Användarnamn';
 $L['default_password_label'] = 'Default password'; 
 $L['TCPPort_label'] = 'Web interface port'; 
 $L['Ntopng_Tags'] = 'ntop bandwidth monitor usage'; 
-$L['Ntopng_Title'] = 'Bandwidth monitor';
+$L['Ntopng_Title'] = 'Övervakning bandbredd';
 $L['Ntopng_Description'] = 'Bandwidth monitor configuration';
 $L['Authentication_label'] = 'Enable authentication';
-$L['Advanced_label'] = 'Advanced';
+$L['Advanced_label'] = 'Avancerat';
 $L['Interfaces_label'] = 'Gränssnitt';
 
 $L['NtopngStatus_Title'] = 'Bandbredds användning';

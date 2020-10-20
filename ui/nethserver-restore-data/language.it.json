@@ -15,10 +15,10 @@
     "no_results_text": "Selezionare un backup e digitare almeno 4 caratteri, poi premere Cerca",
     "warning": "Avviso",
     "too_many_results": "La ricerca ha prodotto {0} risultati. Provare a ridurre i risultati cambiando il pattern. (Massimo 500 risultati)",
-    "restore_files": "Restore {0} items",
-    "overwrite_files": "Overwrite {0} items",
-    "files_restored_ok": "Items restored successfully!",
-    "files_restored_error": "Items not restored.",
+    "restore_files": "Ripristina {0} file",
+    "overwrite_files": "Sovrascrivi {0} file",
+    "files_restored_ok": "File ripristinati con successo!",
+    "files_restored_error": "File non ripristinati.",
     "override_restore": "Sovrascrivi",
     "choose_mode": "Selezionare modalità",
     "files_directories": "File o directory",
@@ -27,8 +27,8 @@
     "nothing_selected": "Nessuna selezione da ripristinare",
     "selected": "Selezionato",
     "overwritten": "sovrascritto",
-    "restored_list": "List of restored items",
-    "error_restored_list": "There was an error restoring the items.",
+    "restored_list": "Lista dei file ripristinati",
+    "error_restored_list": "Errore durante il ripristino dei file.",
     "are_you_sure": "Sei sicuro",
     "cancel": "Annulla",
     "backup_disabled": "Il backup è disabilitato. Attivarlo per ripristinare i dati.",
@@ -46,7 +46,7 @@
     "filter_label": "Filtro regexp"
   },
   "dashboard": {
-    "title": "Restore data dashboard",
+    "title": "Dashboard",
     "app": "Ripristino dati",
     "last_run": "Ultima esecuzione",
     "configured_backups": "Backup configurati",
@@ -55,7 +55,7 @@
   },
   "docs": {
     "more_info_about": "Maggiori informazioni",
-    "override_restore": "<li>If <b>checked</b> the restored items will overwrite the current item.</li><li>If <b>not checked</b> the restored items will be created in the same path with date included in the name and <code>.restore</code> prepended (es. .restore-20190729-153318-myitem).</li>",
+    "override_restore": "<li>Se <b>selezionato</b> i file ripristinati sovrascriveranno i file attuali.</li><li>Se <b>non selezionato</b> i file ripristinati verranno creati nello stesso percorso con la data aggiunta al nome e <code>.restore</code> davanti (es. .restore-20190729-153318-file).</li>",
     "choose_mode": "<li><b>File o directory</b>: Cerca solo file e directory</li><li><b>Cartelle email</b>: Cerca solo cartelle email</li><li><b>Avanzato</b>: Cerca tutto (supporta wildcard)</li>"
   }
 }

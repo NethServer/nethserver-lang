@@ -1,12 +1,12 @@
 {
     "settings": {
         "title": "Paramètres",
-        "mssql_edition": "MSSQL Edition",
+        "mssql_edition": "Édition MsSQL",
         "not_valid_edition": "L'édition sélectionnée n'est pas valide",
         "error_reading_mssql_configuration": "Erreur lors de la lecture de la configuration de Microsoft SQL Server",
         "settings_updated_ok": "La configuration a bien été mise à jour",
         "settings_updated_error": "Erreur de mise à jour de la configuration",
-        "mssql_is_not_running": "MSSQL Server is not running",
+        "mssql_is_not_running": "Le serveur MsSQL n'est pas en cours d'exécution",
         "check_sql_service": "Vérifier SQL Server et démarrer le service",
         "not_valid_key": "La clé de produit n'est pas valide",
         "insert_a_key": "Insérer une clé de produit",
@@ -34,12 +34,12 @@
         "create": "Créer une base de données",
         "not_valid_database_name": "Le nom de la base de données n'est pas valide",
         "database_create_ok": "La base de données a été créée avec succès",
-        "create_database": "Create new empty database",
-        "error_reading_mssql_db_details": "Error while reading databases details",
-        "databases_details": "Databases details",
-        "terminal_utility": "Terminal utilty",
-        "terminal_utility_desc": "To use SQLCMD utility you can run this command from command line interface",
-        "sqlcmd_path": "SQLCMD path",
+        "create_database": "Créer une nouvelle base de données vide",
+        "error_reading_mssql_db_details": "Erreur lors de la lecture des détails de la base de données",
+        "databases_details": "Détails des Bases de données",
+        "terminal_utility": "Utilitaire de terminal",
+        "terminal_utility_desc": "Pour utiliser l'utilitaire SQLCMD, vous pouvez exécuter cette commande à partir de l'interface de ligne de commande",
+        "sqlcmd_path": "Chemin SQLCMD",
         "copy": "Copier"
     },
     "about": {
@@ -61,7 +61,7 @@
     },
     "dashboard":{
         "title": "Tableau de bord Microsoft SQL Server",
-        "app": "MSSQL",
+        "app": "MsSQL",
         "mssql_version": "Version SQL Server",
         "database": "Base de données",
         "databases": "Bases de données",

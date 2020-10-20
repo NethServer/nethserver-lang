@@ -43,7 +43,7 @@
         "copy": "Copy"
     },
     "about": {
-        "title": "About",
+        "title": "Om",
         "website": "Web site",
         "bug_tracker": "Bug tracker"
     },
@@ -82,11 +82,11 @@
     "save": "Spara",
     "cancel": "Avbryt",
     "next": "Nästa",
-    "prev": "Previous",
-    "of": "of",
-    "rows_per_page": "Rows per page",
+    "prev": "Föregående",
+    "of": "av",
+    "rows_per_page": "Rader per sida",
     "search": "Search",
-    "all": "All",
+    "all": "Alla",
     "package_required": "Missing packages",
     "package_required_desc": "To access this page you have to install the required packages listed below",
     "install_package": "Install package",

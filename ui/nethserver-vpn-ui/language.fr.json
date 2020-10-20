@@ -97,11 +97,11 @@
     "hash": "Algorithme d'intégrité",
     "pfsgroup": "Groupe Diffie-Hellman",
     "key_lifetime": "Durée de vie de la clé (secondes)",
-    "ike_version": "IKE version",
-    "ikev1": "IKEv1",
-    "ikev2": "IKEv2",
-    "force_ikev1": "Force IKEv1",
-    "force_ikev2": "Force IKEv2"
+    "ike_version": "version IKE",
+    "ikev1": "IKE v1",
+    "ikev2": "IKE v2",
+    "force_ikev1": "Forcer IKE v1",
+    "force_ikev2": "Forcer IKE v2"
   },
   "openvpn_tun": {
     "menu_title": "Tunnels OpenVPN",
@@ -187,8 +187,8 @@
     "configure_rw_server": "Configurer le serveur roadwarrior",
     "username_password_certificate": "Nom d'utilisateur, mot de passe et certificat",
     "username_password": "Nom d'utilisateur et mot de passe",
-    "username_otp_certificate": "Username, One time password and Certificate",
-    "username_otp_certificate_waning_all_users_must_install_an_otp_application": "This policy enforces the OTP usage: users will be required to enable 2FA before accessing the VPN.",
+    "username_otp_certificate": "Nom d'utilisateur, mot de passe et certificat",
+    "username_otp_certificate_waning_all_users_must_install_an_otp_application": "Cette politique applique l'utilisation de l'OTP: les utilisateurs devront activer 2FA avant d'accéder au VPN.",
     "certificate": "Certificat",
     "mode": "Mode",
     "routed": "Routé",
@@ -268,7 +268,7 @@
     "account_killed_ok": "Compte déconnecté avec succès!",
     "account_killed_error": "Compte non déconnecté.",
     "custom_routes": "Routes personnalisées",
-    "send_email_configuration": "Send configuration via email to ",
+    "send_email_configuration": "Envoyer la configuration par courriel à",
     "address": "Adresse courriel",
     "email_sent_ok": "Courriel envoyé avec succès!",
     "email_sent_error": "Courriel non envoyé",
@@ -285,19 +285,19 @@
     "today": "Aujourd'hui",
     "last_week": "Semaine dernière",
     "last_month": "Mois dernier",
-    "subnet": "subnet",
-    "net30": "net30 (obsolete)",
-    "topology_selection": "RoadWarrior topology",
+    "subnet": "Sous-réseaux",
+    "net30": "net30 (obsolète)",
+    "topology_selection": "Topologie RoadWarrior",
     "topology": "Topologie",
-    "certEOL": "Certificate end of life",
-    "days_life": "Number of days",
-    "PushDhcpOptionsStatus": "Push DHCP options",
-    "The_IP_cannot_be_calculated": "The IP cannot be calculated",
-    "The_r2w_is_not_set": "The R2W is not set",
-    "export_connection_history": "Export connection history",
+    "certEOL": "Certificat de fin de vie",
+    "days_life": "Nombre de jours",
+    "PushDhcpOptionsStatus": "Options push DHCP",
+    "The_IP_cannot_be_calculated": "L'IP ne peut pas être calculée",
+    "The_r2w_is_not_set": "Le R2W n'est pas défini",
+    "export_connection_history": "Exporter l'historique de connexion",
     "apply_changes": "Appliquer",
-    "pending_changes": "OpenVPN RoadWarrior settings have been changed but not applied. Click 'Apply' to activate the new settings",
-    "warning_apply_changes": "New OpenVPN RoadWarrior settings will be applied immediately. Active connections will be dropped"
+    "pending_changes": "Les paramètres d'OpenVPN RoadWarrior ont été modifiés mais pas appliqués. Cliquez sur «Appliquer» pour activer les nouveaux paramètres",
+    "warning_apply_changes": "Les nouveaux paramètres OpenVPN RoadWarrior seront appliqués immédiatement. Les connexions actives seront abandonnées"
   },
   "logs": {
     "title": "Journaux",
@@ -323,15 +323,15 @@
     "valid_lessThan_65536": " Un port TCP/UDP valide est un nombre compris entre 1 et 65536",
     "valid_hostname_fqdn_1_9223372036854775807": "doit contenir au moins deux points, tel que \"hôte.exemple.com\"",
     "port_in_use": "Port déjà utilisé",
-    "invalid_certificate": "Invalid certificate",
-    "valid_minLength_8": "Minimum length is 8 characters",
-    "missing_wanpriority_rules": "Missing interface in priority order"
+    "invalid_certificate": "Certificat non valide",
+    "valid_minLength_8": "La longueur minimale est de 8 caractères",
+    "missing_wanpriority_rules": "Interface manquante dans l'ordre de priorité"
   },
   "docs": {
     "more_info_about": "Plus d'info à propos {docsLink}.",
     "right": "Spécifiez l'adresse IP publique statique ou %any si le distant a une IP publique dynamique",
     "vpn_remote_network": "Configurez ces paramètres uniquement si vous souhaitez créer un réseau privé virtuel Net to Net à l'aide de ce compte (compatible avec NethServer 6). Ne compilez pas ces champs si vous configurez un hôte pour un net VPN",
     "vpn_remote_netmask": "Ne compilez ce champ que si vous avez déjà rempli le champ Réseau distant",
-    "topology_selection": "The subnet topology is suitable for most use cases and allow the usage of all IPs inside the pool. The net30 is an old topology for support with Windows clients running 2.0.9 or older clients: each client is allocated a virtual /30, taking 4 IPs per client, plus 4 for the server."
+    "topology_selection": "La topologie de sous-réseau convient à la plupart des cas d'utilisation et permet l'utilisation de toutes les adresses IP à l'intérieur du pool. Net30 est une ancienne topologie pour la prise en charge des clients Windows exécutant des clients 2.0.9 ou plus anciens: chaque client se voit attribuer un crédit virtuel /30, comprenant 4 IP par client, plus 4 pour le serveur."
   }
 }

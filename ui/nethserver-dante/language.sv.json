@@ -14,12 +14,12 @@
     "addresses": "Addresses",
     "dark": "Dark",
     "light": "Light",
-    "week": "Week",
-    "month": "Month",
+    "week": "Vecka",
+    "month": "Månad",
     "halfyear": "Six-Months",
     "save": "Spara",
     "open": "Öppna",
-    "every_day": "Every day",
+    "every_day": "Varje dag",
     "monday": "Måndag",
     "tuesday": "Tisdag",
     "wednesday": "Onsdag",
@@ -40,12 +40,12 @@
     "mining_now": "Collect now"
   },
   "about": {
-    "title": "About",
+    "title": "Om",
     "website": "Web site",
     "bug_tracker": "Bug tracker"
   },
   "dashboard": {
-    "title": "Report"
+    "title": "Rapport"
   },
   "validation": {
     "validation_failed": "Validation failed",

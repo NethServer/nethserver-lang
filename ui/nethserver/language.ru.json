@@ -175,7 +175,8 @@
     "root_partition": "ROOT PARTITION",
     "raid": "RAID",
     "ok": "OK",
-    "error": "ОШИБКА"
+    "error": "ОШИБКА",
+    "hostname_change": "Current hostname is not valid"
   },
   "backup": {
     "title": "Резервное копирование",

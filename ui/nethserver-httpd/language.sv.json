@@ -6,11 +6,11 @@
   "install_packages": "Install packages",
   "packages_installed_ok": "Packages installed successfully!",
   "packages_installed_error": "Packages not installed.",
-  "action": "Action",
+  "action": "Åtgärd",
   "actions": "Actions",
-  "list": "List",
-  "warning": "Warning",
-  "info": "Info",
+  "list": "Lista",
+  "warning": "Varning",
+  "info": "Information",
   "delete": "Delete",
   "create": "Create",
   "edit": "Edit",
@@ -125,7 +125,7 @@
     "alert_php_upgrade_php_detail": "You are strongly encouraged to use another PHP version, this software collection is not maintained anymore."
   },
   "about": {
-    "title": "About",
+    "title": "Om",
     "website": "Web site",
     "bug_tracker": "Bug tracker"
   },
@@ -137,7 +137,7 @@
     "filter_label": "Regexp filter"
   },
   "dashboard": {
-    "title": "Web server",
+    "title": "Webbserver",
     "header_title": "Web server dashboard",
     "apache_stats": "Statistik",
     "apache_uptime": "uptime",

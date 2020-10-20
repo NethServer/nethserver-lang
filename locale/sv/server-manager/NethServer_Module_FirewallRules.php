@@ -21,7 +21,7 @@ $L['accept_label'] = 'Allow trafic';
 
 $L['Edit_header'] = 'Edit rule #${0}';
 $L['status_label'] = 'Enabled';
-$L['Action_label'] = 'Action';
+$L['Action_label'] = 'Åtgärd';
 $L['Rule_label'] = 'Rule';
 $L['ActionReject_label'] = 'Reject';
 $L['ActionAccept_label'] = 'Accept';

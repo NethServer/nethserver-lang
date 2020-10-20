@@ -100,7 +100,7 @@
     "php_version": "Version de PHP",
     "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
-    "php71_version": "PHP 7.1 (obsolete)",
+    "php71_version": "PHP 7.1 (obsolète)",
     "MaxExecutionTime": "Temps maximum d’exécution",
     "MemoryLimit": "Script de limite mémoire",
     "PostMaxSize": "Maximum post size",
@@ -117,12 +117,12 @@
     "alert_php_not_installed_detail": "Il est possible de l'installer maintenant",
     "alert_install_button_label": "Installer",
     "PhpCustomSettings": "Personnaliser la configuration PHP",
-    "php_version_php71": "PHP 7.1 (obsolete)",
+    "php_version_php71": "PHP 7.1 (obsolète)",
     "php_version_php72": "PHP 7.2",
     "php_version_php73": "PHP 7.3",
     "php_version_default": "PHP 5.4",
-    "alert_php_obsoleted_title": "PHP 7.1 is obsolete",
-    "alert_php_upgrade_php_detail": "You are strongly encouraged to use another PHP version, this software collection is not maintained anymore."
+    "alert_php_obsoleted_title": "PHP 7.1 est obsolète ",
+    "alert_php_upgrade_php_detail": " \nVous êtes fortement encouragé à utiliser une autre version de PHP, cette collection de logiciels n'est plus maintenue."
   },
   "about": {
     "title": "A propos",
@@ -181,14 +181,14 @@
     "more_info_about": "Plus d'info à propos",
     "virtualhost": "Hôtes virtuels",
     "Reverse_Proxy": "Mandataire inverse",
-    "path-and-virtual-host-rules": "If you want to create a resource path matching rule, then enter the resource path beginning with a '/'. If you want to create a web site name matching rule, then type the web site fully qualified domain name.",
+    "path-and-virtual-host-rules": "Si vous souhaitez créer une règle de correspondance de chemin de ressource, entrez le chemin de ressource commençant par un «/». Si vous souhaitez créer une règle de correspondance de nom de site Web, saisissez le nom de domaine complet du site Web.",
     "ftp": "FTP",
     "MaxExecutionTime": "Cela définit la durée maximale en secondes pendant laquelle un script est autorisé à s'exécuter avant d'être terminé par l'analyseur.",
     "MemoryLimit": "Cela définit la quantité maximale de mémoire en octets qu'un script est autorisé à allouer. Cette valeur doit être supérieure à la 'Maximum post size'.",
     "PostMaxSize": "Définit la taille maximale autorisée des données de publication. Ce paramètre affecte également le téléversement de fichier. Pour téléverser des fichiers volumineux, cette valeur doit être supérieure à 'Upload maximum file size'.",
     "UploadMaxFilesize":"Taille maximale d'un fichier téléversé, cette valeur doit être inférieure à 'Maximum post size'. ",
-    "Websocket-label": "Experimental feature. The WebSocket API is an advanced technology that allows to open a two-way interactive communication session between the user's browser and the server.",
-    "WebSocketsPath-label": "Additional match rule based on the WebSocket URL path"
+    "Websocket-label": " \nFonction expérimentale. L'API WebSocket est une technologie avancée qui permet d'ouvrir une session de communication interactive bidirectionnelle entre le navigateur de l'utilisateur et le serveur.",
+    "WebSocketsPath-label": "Règle de correspondance supplémentaire basée sur le chemin de l'URL WebSocket"
   },
   "validation": {
     "validation_failed": "Validation échoué",
@@ -205,9 +205,9 @@
     "user_already_exists": "Un compte avec le même nom existe déjà",
     "user_not_found": "Compte non trouvé",
     "valid_username": "Le premier caractère doit être une lettre, seulement minuscules, des chiffres et des symboles tels que '-' et '_'",
-    "valid_hostname_0_9223372036854775807": "Must be a fully qualified domain name or a resource path segment beginning with '/'",
+    "valid_hostname_0_9223372036854775807": "Règle de correspondance supplémentaire basée sur le chemin de l'URL WebSocket",
     "valid_minLength_1": "Le champ ne peut pas être vide",
-    "WebSocketsPathNotValid": "Only letters, digits and the symbols - (minus) _ (underscore) are accepted"
+    "WebSocketsPathNotValid": "Seuls les lettres, les chiffres et les symboles - (moins) et _ (trait de soulignement) sont acceptés"
   },
   "proxypass": {
     "title": "Mandataire inverse",
@@ -247,9 +247,9 @@
     "automatic_HostRecord_creation": "Les alias de noms d'hôte sont ajoutés à Système > Tableau de bord > Nom d'hôte / Alias",
     "advanced_mode": "Paramètres avancés",
     "ValidFromCIDR_help": "Un article par ligne",
-    "Enable_WebSockets": "Enable WebSocket",
-    "WebSocketsPath":"WebSocket path",
-    "WebSocketsPath_help": "Optional web socket path"
+    "Enable_WebSockets": "Activer WebSocket",
+    "WebSocketsPath":"Chemin WebSocket",
+    "WebSocketsPath_help": "Chemin du WebSocket facultatif"
 },
 "settings": {
     "title": "Paramètres",

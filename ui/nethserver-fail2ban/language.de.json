@@ -38,10 +38,10 @@
         "MaxRetry": "Anzahl der Versuche",
         "FindTime": "Zeitspanne",
         "BanTime": "Sperrzeit",
-        "Recidive_Incremental": "Incremental ban time",
-        "Recidive_BanTime": "Static ban time",
+        "Recidive_Incremental": "Inkrementelle Sperrzeit",
+        "Recidive_BanTime": "Statische Sperrzeit",
         "Recidive_Disabled": "deaktivieren",
-        "Recidive": "Recidive ban",
+        "Recidive": "Sperre wiederholen",
         "slider_value": "Wert",
         "FindTime_600": "10 Minuten",
         "FindTime_900": "15 Minuten",
@@ -52,7 +52,7 @@
         "FindTime_172800": "2 Tage",
         "FindTime_604800": "1 Woche",
         "FindTime_1209600": "2 Wochen",
-        "BanTime_60": "1 minutes",
+        "BanTime_60": "1 Minute",
         "BanTime_120": "2 Minuten",
         "BanTime_180": "3 Minuten",
         "BanTime_240": "4 Minuten",
@@ -118,22 +118,23 @@
     },
     "validation":{
         "validation_failed": "Überprüfung fehlgeschlagen",
-        "not_ip_address": "Ungültige IPv4-Adresse: richtig wäre z.B. '10.0.0.1 '",
+        "not_a_valid_IP_or_CIDR": "Der Wert muss eine IP-Adresse wie '1.2.3.4' oder CIDR-Netzwerk wie '192.168.1.0/24' sein.",
         "not_valid_email_address": "Ungültige E-Mail-Adresse, richtig wäre z.B. \"myname@domain.com\"",
         "valid_memberOf_enabled, disabled": "Kann aktiviert oder deaktiviert werden.",
         "valid_memberOf_true, false": "Kann wahr oder falsch sein.",
         "valid_integer": "Muss eine positive ganze Zahl sein",
-        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "Muss Mitglied von CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG sein"
+        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "Muss Mitglied von CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG sein",
+        "0_0_0_0_network_is_prohibited": "Das Netzwerk 0.0.0.0/0 kann nicht auf die weiße Liste gesetzt werden: der Bereich ist zu ausgedehnt."
     },
     "docs":{
         "fail2ban": "Fail2ban",
         "more_info_about": "Weitere Informationen zu",
-        "IgnoreIP": "Alle IPs in dieser Liste werden niemals von Fail2ban gesperrt (eine IP pro Zeile)",
+        "IgnoreIP": "Alle IP (1.2.3.4) oder CIDR-Netze (192.168.1.0/24) in dieser Liste werden durch Fail2ban nie gesperrt. Bitte pro Zeile einen Eintrag machen",
         "MailJailState": "Alle relativen Ereignisse im Jail (Start oder Stopp) werden root und anderen Empfängern mitgeteilt",
         "FindTime": "Beim Start von fail2ban sucht der Dienst in den Protokollen nach Angreifern für dieses Zeitintervall",
         "LogLevel": "Die DEBUG-Stufe kann eine große Protokollgröße erzeugen und den Festplattenspeicher füllen",
-        "Incremental_BanTime": "Increase the ban time after each failure found in log. When enabling, set a short ban time: a valid user can be banned for a a little while but a brute force attacker will be banned for a very long time.",
-        "Recidive": "Extend ban of persistent abusers, like brute force attack bots.",
-        "Recidive_BanTime": "Ban recidive hosts for 2 weeks. The rule applies when an IP address has been already banned multiple times."
+        "Incremental_BanTime": "Bitte die Sperrzeit nach jedem gefundenen Fehler im Report vergrößern. Wenn möglich, eine kurze Sperrzeit setzen: ein gültiger Benutzer kann kurz gesperrt werden, aber ein gefährlicher Angreifer kann für lange Zeit gesperrt werden.",
+        "Recidive": "Bitte die Sperre für hartnäckige Täter erweitern, wie gefährliche Angreifer/Bots.",
+        "Recidive_BanTime": "Wiederholt angreifende Hosts für 2 Wochen sperren. Die Regel gilt, wenn eine IP-Adresse bereits mehrfach gesperrt wurde."
     }
 }

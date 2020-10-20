@@ -26,7 +26,7 @@
         "error_getting_clamav_instances": "Errore di rilevamento delle istanze di ClamAV"
     },
     "dashboard":{
-        "title": "Antivirus dashboard",
+        "title": "Dashboard Antivirus",
         "app": "Antivirus",
         "email_protection": "Protezione email",
         "web_protection": "Protezione web",

@@ -41,8 +41,8 @@
         "web_interface_port": "Porta interfaccia web",
         "enable_auth": "Abilita autenticazione",
         "interfaces": "Interfacce",
-        "settings_update_successful": "Settings updated successfully",
-        "settings_update_failed": "Error while updating settings",
+        "settings_update_successful": "Impostazioni salvate con successo",
+        "settings_update_failed": "Errore durante l'aggiornamento delle impostazioni",
         "is_running_at_this_url": "application is running at this URL",
         "login_credentials": "Login credentials"
     },

@@ -12,7 +12,7 @@
         "unit_name": "Unit name",
         "unit_description": "Unit description",
         "network_device": "Network device",
-        "register": "Register",
+        "register": "Registrera",
         "hotspot_assigned": "hotspot assigned",
         "authentication_error": "Authentication error",
         "error_retrieving_authentication_token": "Error retrieving authentication token",
@@ -58,7 +58,7 @@
         "login": "Login"
     },
     "about": {
-        "title": "About",
+        "title": "Om",
         "website": "Web site",
         "bug_tracker": "Bug tracker"
     },
@@ -99,9 +99,9 @@
     "save": "Spara",
     "cancel": "Avbryt",
     "next": "Nästa",
-    "prev": "Previous",
-    "of": "of",
+    "prev": "Föregående",
+    "of": "av",
     "rows_per_page": "Row per page",
     "search": "Search",
-    "all": "All"
+    "all": "Alla"
 }

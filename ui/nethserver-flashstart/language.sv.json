@@ -24,7 +24,7 @@
         "dns_configuration": "FlashStart doesn't require any DNS configuration neither in Nethsecurity nor in clients"
     },
     "about": {
-        "title": "About",
+        "title": "Om",
         "website": "Web site",
         "bug_tracker": "Bug tracker"
     },
@@ -39,13 +39,13 @@
     "actions": "Actions",
     "delete": "Delete",
     "next": "Nästa",
-    "prev": "Previous",
-    "of": "of",
-    "rows_per_page": "Rows per page",
+    "prev": "Föregående",
+    "of": "av",
+    "rows_per_page": "Rader per sida",
     "search": "Search",
-    "all": "All",
+    "all": "Alla",
     "save": "Spara",
     "cancel": "Avbryt",
-    "warning": "Warning",
+    "warning": "Varning",
     "create": "Create"
 }

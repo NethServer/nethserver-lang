@@ -175,7 +175,8 @@
     "root_partition": "Root partities",
     "raid": "RAID",
     "ok": "OK",
-    "error": "FOUT"
+    "error": "FOUT",
+    "hostname_change": "Current hostname is not valid"
   },
   "backup": {
     "title": "Backup",

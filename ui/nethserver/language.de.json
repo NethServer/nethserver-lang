@@ -175,7 +175,8 @@
     "root_partition": "ROOT PARTITION",
     "raid": "RAID",
     "ok": "OK",
-    "error": "FEHLER"
+    "error": "FEHLER",
+    "hostname_change": "Current hostname is not valid"
   },
   "backup": {
     "title": "Sicherung",
@@ -500,8 +501,8 @@
     "LocalLdapUpgrade_PDC_message1": "Benutzer, Passwörter, Gruppen und Computerkonten bleiben erhalten.  Freigegebene Ordnerverbindungen können unterschiedliche Anmeldeinformationen erfordern!",
     "LocalLdapUpgrade_WS_message1": "Benutzer, Passwörter und Gruppen bleiben erhalten;  Aber geteilte Ordnerverbindungen erfordern unterschiedliche Anmeldeinformationen!",
     "LocalLdapUpgrade_PDC_message2": "Bei der Verbindung zu einem freigegebenen Ordner muss der NetBIOS-Domänenname entweder dem Benutzernamen vorangestellt werden (d. H. \"MYDOMAIN \\ username\") oder in das jeweilige Formularfeld eingefügt werden.",
-    "ns6upgrade_event_ok": "The account provider is now Active Directory.",
-    "ns6upgrade_event_error": "An unexpected error has occurred. See the logs for details.",
+    "ns6upgrade_event_ok": "Der Kontoprovider ist jetzt Active Directory.",
+    "ns6upgrade_event_error": "Ein unerwarteter Fehler ist aufgetreten. Einzelheiten in den Protokollen suchen.\n ",
     "filter_by": "Filtern nach",
     "local_ad": "Lokales Active Directory",
     "local_ldap": "Lokales LDAP",
@@ -777,7 +778,7 @@
     "title": "SSH",
     "tcp_port": "TCP Port",
     "allow_root_login": "Erlaube Root Login",
-    "require_strong_encryption": "Disable weak ciphers",
+    "require_strong_encryption": "Schwache Chiffren deaktivieren",
     "allow_password_auth": "Erlaube Passwortauthentifizierung",
     "ssh_edit_ok": "SSH-Konfiguration erfolgreich gespeichert!",
     "ssh_edit_error": "SSH-Konfiguration nicht gespeichert",
@@ -1064,8 +1065,8 @@
     "change_default_company": "Die Standardfirma ändern",
     "one_or_more_dns_not_working": "Ein oder mehrere DNS-Server antworten nicht",
     "TCPPort": "TCP-Port",
-    "StrongEncryption": "Disable weak ciphers",
-    "change_default_ssh_encryption": "Disable SSH weak ciphers",
+    "StrongEncryption": "Schwache Chiffren deaktivieren",
+    "change_default_ssh_encryption": "Schwache SSH-Chiffren deaktivieren",
     "service_is_enabled_but_is_not_running": "Der Dienst wird nicht ausgeführt oder ist nicht aktiviert.",
     "must_configure_backup_data": "Bitte mindestens eine Datensicherung konfigurieren",
     "change_default_ssh_port": "Bitte den Standard-SSH-Port ändern, um die Angriffsraten für Attacken zu verringern",
@@ -1242,6 +1243,6 @@
     "disaster_recovery": "Notfallwiederherstellung",
     "user_settings_page": "Benutzern ermöglichen, ihr Kennwort und andere Einstellungen auf einer Webseite außerhalb von Cockpit (an Port 443) zu ändern. Diese Funktion kann nur aktiviert werden, wenn auch 'Benutzer-Shell überschreiben' aktiviert ist.",
     "OtpR2WOath_Auth": "Die VPN-Richtlinie erfordert die Verwendung von OTP für den Netzwerkzugriff.",
-    "older_ssh_client_might_not_connect": "Hardening SSH could prevent old clients to connect to the server. Big files transfer can be slower with strong ciphers. The host key will change after restart and clients will have to accept it again."
+    "older_ssh_client_might_not_connect": "Durch das Härten von SSH können alte Clients möglicherweise keine Verbindung zum Server herstellen. Die Übertragung großer Dateien kann mit starken Chiffren langsamer sein. Der Hostschlüssel ändert sich nach dem Neustart und die Clients müssen ihn erneut akzeptieren.\n "
   }
 }

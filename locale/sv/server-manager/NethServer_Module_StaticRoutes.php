@@ -13,5 +13,5 @@ $L['Update static ${0}`'] = 'Update static route `${0}`';
 $L['network_label'] = 'Network address'; 
 $L['Device_label']='Enhet';
 $L['any_label']='Any';
-$L['Advanced_label']='Advanced';
+$L['Advanced_label']='Avancerat';
 $L['Metric_label']='Metric';

@@ -175,7 +175,8 @@
     "root_partition": "ROOT PARTITION",
     "raid": "RAID",
     "ok": "GERAI",
-    "error": "KLAIDA"
+    "error": "KLAIDA",
+    "hostname_change": "Current hostname is not valid"
   },
   "backup": {
     "title": "Atsarginė kopija",

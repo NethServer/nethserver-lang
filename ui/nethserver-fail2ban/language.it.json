@@ -15,8 +15,8 @@
         "Fail2ban_is_probably_down": "Fail2ban potrebbe essere fermo, controllare i log",
         "ip_unlocked_error": "L'IP non è stato riabilitato",
         "ip_unlocked_ok": "L'IP è stato riabilitato",
-        "No_banned_IP": "You have no banned IP",
-        "no_IP_desc": "Here are listed the blocked IP in the firewall"
+        "No_banned_IP": "Non ci sono IP bannati",
+        "no_IP_desc": "Qui vengono mostrati gli IP bloccati dal firewall"
     },
     "settings": {
         "title": "Impostazioni",
@@ -41,7 +41,7 @@
         "Recidive_Incremental": "Tempo di ban incrementale",
         "Recidive_BanTime": "Tempo di ban statico",
         "Recidive_Disabled": "Disabilitato",
-        "Recidive": "Recidive ban",
+        "Recidive": "Ban recidivo",
         "slider_value": "Valore",
         "FindTime_600": "10 minuti",
         "FindTime_900": "15 minuti",
@@ -52,7 +52,7 @@
         "FindTime_172800": "2 giorni",
         "FindTime_604800": "1 settimana",
         "FindTime_1209600": "2 settimane",
-        "BanTime_60": "1 minutes",
+        "BanTime_60": "1 minuto",
         "BanTime_120": "2 minuti",
         "BanTime_180": "3 minuti",
         "BanTime_240": "4 minuti",
@@ -104,7 +104,7 @@
         "filter_label": "Filtro regexp"
     },
     "dashboard":{
-        "title": "Fail2ban dashboard",
+        "title": "Dashboard Fail2ban",
         "app": "Fail2ban",
         "list_active_jails": "Elenco jail attive",
         "number_of_active_jail": "Jail attive",
@@ -113,27 +113,28 @@
         "number_of_enabled_jails": "Jail abilitate",
         "number_total_of_bans":"IP bloccati totali",
         "Fail2ban_is_probably_down": "Fail2ban potrebbe essersi interrotto, controllare i log",
-        "time_of_the_last_stats": "Last statistics update"
+        "time_of_the_last_stats": "Statistiche aggiornate al"
 
     },
     "validation":{
         "validation_failed": "Verifica fallita",
-        "not_ip_address": "Indirizzo IPv4 non valido: esempio '10.0.0.1'",
+        "not_a_valid_IP_or_CIDR": "Il valore deve essere un IP valido come '1.2.3.4' o una rete CIDR come '192.168.1.0/24'",
         "not_valid_email_address": "Indirizzo email non valido: esempio 'myname@domain.com'",
         "valid_memberOf_enabled, disabled": "Può essere abilitato o disabilitato",
         "valid_memberOf_true, false": "Può essere vero o falso",
         "valid_integer": "Deve essere un intero positivo",
-        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "Può essere CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG"
+        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "Può essere CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG",
+        "0_0_0_0_network_is_prohibited": "The network 0.0.0.0/0 cannot be whitelisted: it is too wide."
     },
     "docs":{
         "fail2ban": "Fail2ban",
         "more_info_about": "Maggiori informazioni su",
-        "IgnoreIP": "Gli IP in questa lista non verranno mai bloccati da Fail2ban (un IP per riga)",
+        "IgnoreIP": "All IP (1.2.3.4) or CIDR network (192.168.1.0/24) in this list will never be banned by Fail2ban. Add one entry per line",
         "MailJailState": "Gli eventi relativi alla jail (start o stop) verranno notificati a root e altri destinatari",
         "FindTime": "Quando Fail2ban parte, il servizio cerca attacchi nei log per questo intervallo di tempo",
         "LogLevel": "Il livello DEBUG potrebbe generare log enormi e riempire il disco",
-        "Incremental_BanTime": "Increase the ban time after each failure found in log. When enabling, set a short ban time: a valid user can be banned for a a little while but a brute force attacker will be banned for a very long time.",
-        "Recidive": "Extend ban of persistent abusers, like brute force attack bots.",
-        "Recidive_BanTime": "Ban recidive hosts for 2 weeks. The rule applies when an IP address has been already banned multiple times."
+        "Incremental_BanTime": "Aumenta il tempo di ban dopo ogni tentativo. Se abilitato, utilizzare un breve tempo di ban: un utente legittimo verrà bloccato per poco tempo mentre un attaccante verrà bannato per un tempo molto lungo.",
+        "Recidive": "Estende il tempo di ban per attacchi insistenti, come brute force o bot.",
+        "Recidive_BanTime": "Blocca host recidivi per 2 settimane. La regola di applica quando un indirizzo IP è stato già bloccato molte volte."
     }
 }

@@ -45,5 +45,5 @@ $L['Time_label'] = 'Check this account every';
 $L['Delete_label'] = 'Delete downloaded messages';
 $L['Username_label'] = 'Användarnamn';
 $L['Password_label'] = 'Password';
-$L['Advanced_label'] = 'Advanced';
+$L['Advanced_label'] = 'Avancerat';
 $L['FilterCheck_label'] = 'Scan messages with email filter';

@@ -320,8 +320,8 @@
         "ports_comma": "Inserire porte (separate da virgola)",
         "application": "Applicazione",
         "raw": "RAW value, no object found",
-        "local": "DNS",
-        "remote": "DHCP",
+        "local": "DHCP",
+        "remote": "DNS",
         "mac": "Indirizzo MAC",
         "add_mac_address": "Aggiungi MAC address",
         "mac_addresses": "MAC addresse",
@@ -350,7 +350,7 @@
         "protocol": "Protocollo",
         "description": "Descrizione",
         "wan_ip": "WAN IP",
-        "allow_only": "IP pubblici esterni ammessi (uno per riga)",
+        "allow_only": "Restringere l'accesso a",
         "allow_only_short": "IP pubblici ammessi",
         "write_log": "Scrivi log",
         "tcp": "TCP",
@@ -373,7 +373,8 @@
         "pf_updated_ok": "Port forward modificato con successo!",
         "pf_updated_error": "Port forward non modificato.",
         "pf_deleted_ok": "Port forward eliminato con successo!",
-        "pf_deleted_error": "Port forward non eliminato."
+        "pf_deleted_error": "Port forward non eliminato.",
+        "any": "Qualsiasi"
     },
     "rules": {
         "title": "Regole",
@@ -429,7 +430,10 @@
         "udpPorts": "Porte UDP",
         "access": "Accesso",
         "service_edited_successfully": "Servizio modificato con successo",
-        "service_edited_error": "Servizio non modificato"
+        "service_edited_error": "Servizio non modificato",
+        "order": "Posizione regola",
+        "create_first_label": "Crea in cima",
+        "create_last_label": "Crea in fondo"
     },
     "protocols": {
         "ah": "AH",
@@ -542,7 +546,7 @@
         "not_exists_host-group": "Il gruppo di host non esiste",
         "host_group_cannot_be_delete": "Questo gruppo di host non può essere eliminato perché è in uso",
         "valid_lessThan_256": "Minore di 256",
-        "valid_ipV4Address": "Indirizzo non valido",
+        "valid_ipV4Address": "Indirizzo IP non valido",
         "valid_username": "Il primo carattere deve essere una lettera, poi solo lettere minuscole, numeri, simboli \"-\" e \"_\"",
         "valid_notEmpty": "Non può essere vuoto",
         "valid_cidrBlock": "Deve essere una rete CIDR valida",
@@ -560,7 +564,8 @@
         "mac_address_exists": "Esiste già un MAC address con lo stesso indirizzo",
         "valid_macAddress": "MAC address non valido",
         "mac_cannot_be_delete": "Questo MAC address non può essere eliminata perché è in uso",
-        "must_be_one_of": "Deve essere uno fra"
+        "must_be_one_of": "Deve essere uno fra",
+        "Not_valid_ipV4Address_or_CIDR": "Il valore deve essere un IP valido come '1.2.3.4' o una rete CIDR come '192.168.1.0/24'"
     },
     "docs": {
         "pf_origin_port": "Inserire una singola porta, una lista di porte separate da virgola o un intervallo di porte usando \":\" come separatore, tipo \"100:200\"",
@@ -571,6 +576,8 @@
         "mac_validation": "Le richieste fatte da indirizzi IP elencati nelle prenotazioni del DHCP sono consentite solo se originate dallo stesso indirizzo MAC presente nella prenotazione (funziona anche con DHCP disabilitato)",
         "mac_validation_policy": "Le richieste da indirizzi IP non presenti nella lista di prenotazioni del DHCP sono bloccate. Assicurarsi che gli amministratori di questo apparato abbiano i propri apparati (IP/MAC ) presenti nella lista delle prenotazioni del DHCP.",
         "list_of_ports": "Inserire uno o più numeri di porta separati da virgola, esempio: '8081, 9292'",
-        "network_services_system_services": "I servizi di rete possono essere aggiungi nella pagina Sistema -> Servizi"
+        "network_services_system_services": "I servizi di rete possono essere aggiungi nella pagina Sistema -> Servizi",
+        "rules_service": "Inserire il nome del servizio di rete in esecuzione sul firewall, altrimenti lasciare vuoto per indicare qualsiasi servizio",
+        "allow_only": "Restringe l'accesso al port forward solo per una lista di IP pubblici o reti (scritte in formato CIDR). Aggiungere un elemento per riga. Lasciare il campo vuoto per consentire l'accesso da qualsiasi sorgente."
     }
 }

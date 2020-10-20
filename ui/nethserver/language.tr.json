@@ -175,7 +175,8 @@
     "root_partition": "KÖK BÖLÜM",
     "raid": "RAID",
     "ok": "Tamam",
-    "error": "HATA"
+    "error": "HATA",
+    "hostname_change": "Geçerli sunucu adı geçersiz"
   },
   "backup": {
     "title": "Yedekleme",
@@ -500,8 +501,8 @@
     "LocalLdapUpgrade_PDC_message1": "Kullanıcı, parola, grup ve bilgisayar hesapları korunur. Paylaşılmış klasör bağlantıları için farklı kimlik doğrulama bilgileri kullanılması gerekebilir!",
     "LocalLdapUpgrade_WS_message1": "Kullanıcı, parola ve grup hesapları korunur. Paylaşılmış klasör bağlantıları için farklı kimlik doğrulama bilgileri kullanılması gerekebilir!",
     "LocalLdapUpgrade_PDC_message2": "Paylaşılmış bir klasöre bağlanılırken, NetBIOS etki alanı adı kullanıcı adının önüne (ETKIALANI\\kullaniciadi gibi) ya da özel form alanına yazılmalıdır.",
-    "ns6upgrade_event_ok": "The account provider is now Active Directory.",
-    "ns6upgrade_event_error": "An unexpected error has occurred. See the logs for details.",
+    "ns6upgrade_event_ok": "Atık hesap hizmeti Aktif Dizin tarafından sağlanıyor.",
+    "ns6upgrade_event_error": "Beklenmeyen bir sorun çıktı. Ayrıntılı bilgi almak için günlük kayıtlarına bakabilirsiniz.",
     "filter_by": "Şuna göre süz",
     "local_ad": "Yerel Aktif Dizin",
     "local_ldap": "Yerel LDAP",

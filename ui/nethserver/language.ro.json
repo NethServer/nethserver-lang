@@ -175,7 +175,8 @@
     "root_partition": "Partiție ROOT",
     "raid": "RAID",
     "ok": "OK",
-    "error": "Eroare"
+    "error": "Eroare",
+    "hostname_change": "Current hostname is not valid"
   },
   "backup": {
     "title": "Copie de siguranță",
