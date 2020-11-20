@@ -651,11 +651,12 @@
     "BindPassword": "Лозинка везивања",
     "BaseDN": "Базни ДН",
     "BindDN": "Везани ДН",
-    "LdapURI": "LDAP URI",
+    "LdapURI": "ЛДАП линк сервера",
     "NsdcIp": "Active Directory IP",
     "UserDN": "Кориснички ДН",
     "GroupDN": "Групни ДН",
-    "StartTls": "Start TLS",
+    "StartTls": "СТАРТТЛС",
+    "BindType": "Bind type",
     "edit_delegation": "Edit delegations of {name}"
   },
   "network": {

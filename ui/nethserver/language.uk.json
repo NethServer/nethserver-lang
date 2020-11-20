@@ -651,11 +651,12 @@
     "BindPassword": "Пароль для прив/'язки",
     "BaseDN": "База для пошуку (Base DN)",
     "BindDN": "Ім/'я для прив/'язки (Bind DN)",
-    "LdapURI": "LDAP URI",
+    "LdapURI": "URI LDAP-сервера",
     "NsdcIp": "IP-адреса Active Directory",
     "UserDN": "Користувач (User DN)",
     "GroupDN": "Група (Group DN)",
-    "StartTls": "Запуск TLS",
+    "StartTls": "STARTTLS",
+    "BindType": "Bind type",
     "edit_delegation": "Редагуйте делегування {ім'я}"
   },
   "network": {

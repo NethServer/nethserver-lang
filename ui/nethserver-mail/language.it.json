@@ -493,7 +493,8 @@
         "countMessages": "Count messages",
         "Synchronization_info":"Synchronization information",
         "synchronization_informations_ok": "Synchronization information has been updated",
-        "synchronization_informations_error": "Synchronization information has not been updated"
+        "synchronization_informations_error": "Synchronization information has not been updated",
+        "Exclude": "Exclude folders"
     },
     "docs": {
         "more_info_about": "Maggiori informazioni",
@@ -508,14 +509,15 @@
         "settings": "Impostazioni",
         "signature": "Abilitare la firma DKIM sui messaggi in uscita per prevenire lo spoofing.",
         "acls": "Digitare per ricercare una destinazione per le ACL",
-        "bayes_title": "Sttao allenamento filtro Bayesiano.",
+        "bayes_title": "Stato allenamento filtro Bayesiano.",
         "bayes_description": "Il filtro Bayesiano sarà efficace dopo che avrà analizzato 200 mail valide (ham) e 200 mail di spam.",
         "sender_info": "Inserire un indirizzo email valido o un dominio, compresa la '@' iniziale, es. '@nethserver.org'.",
         "access_bypass_list": "Inserire gli indirizzi IP che non supportano l'autenticazione o la cifratura (stampanti, scanner, etc.)",
         "sender_validation": "Se abilitato, l'indirizzo email del mittente (From:) deve corrispondere all'utente di login o i suoi indirizzi addizionali.",
         "lifetime": "Il valore 0 significa riprovare solo una volta.",
         "DeleteDestination": "Eliminare messaggi nel server locale non presenti nel server remoto. Utile per backup o prima di sync.",
-        "imapsync":"Imapsync"
+        "imapsync":"Imapsync",
+        "Exclude_Folders": "The exclusion works with regular expression rules. When excluding the 'Foo' folder, all folders matching 'Foo' in the name will be excluded from the synchronization. To force an exact match, start the exclusion folder name by '^' and end it by '$' like ^Foo$. Add one entry per line."
     },
     "mailbox": {
         "public_created_ok": "Cartella pubblica creata con successo",

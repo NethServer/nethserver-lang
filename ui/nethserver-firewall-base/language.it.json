@@ -485,7 +485,9 @@
         "settings_updated_ok": "Impostazioni aggiornate correttamente\"",
         "settings_updated_error": "Impostazioni non aggiornate.",
         "portforward": "Port forward",
-        "enable_hairpinnat": "Abilita hairpin NAT"
+        "enable_hairpinnat": "Abilita hairpin NAT",
+        "application_level_gateway": "Application Layer Gateway (ALG)",
+        "enable_SipAlg": "Abilita gestione SIP-ALG e H.323-ALG"
     },
     "logs": {
         "title": "Log",
@@ -578,6 +580,7 @@
         "list_of_ports": "Inserire uno o più numeri di porta separati da virgola, esempio: '8081, 9292'",
         "network_services_system_services": "I servizi di rete possono essere aggiungi nella pagina Sistema -> Servizi",
         "rules_service": "Inserire il nome del servizio di rete in esecuzione sul firewall, altrimenti lasciare vuoto per indicare qualsiasi servizio",
-        "allow_only": "Restringe l'accesso al port forward solo per una lista di IP pubblici o reti (scritte in formato CIDR). Aggiungere un elemento per riga. Lasciare il campo vuoto per consentire l'accesso da qualsiasi sorgente."
+        "allow_only": "Restringe l'accesso al port forward solo per una lista di IP pubblici o reti (scritte in formato CIDR). Aggiungere un elemento per riga. Lasciare il campo vuoto per consentire l'accesso da qualsiasi sorgente.",
+        "SipAlg": "ALG è un componente che gestisce i protocolli SIP e H.323 consentendo il corretto funzionamento dietro NAT. Quando abilitato ALG svolge vari compiti tra cui ispezionare e riscrivere i pacchetti di rete VoIP (Voice over Internet Protocol) e aprire dinamicamente le porte richieste per la comunicazione. Disabilitare questa opzione solo se si riscontrano problemi di audio e/o di chiamata con il proprio PBX o client VoIP."
     }
 }

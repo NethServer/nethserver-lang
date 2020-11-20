@@ -651,11 +651,12 @@
     "BindPassword": "Heslo pro spojení",
     "BaseDN": "Základ rozlišeného názvu (DN)",
     "BindDN": "Spojovací rozlišený název (DN)",
-    "LdapURI": "URI adresa LDAP",
+    "LdapURI": "URI adresa LDAP serveru",
     "NsdcIp": "IP adresa Active Directory",
     "UserDN": "Rozlišený název uživatele",
     "GroupDN": "Rozlišený název skupiny",
-    "StartTls": "Start TLS",
+    "StartTls": "STARTTLS",
+    "BindType": "Bind type",
     "edit_delegation": "Upravit pověření {name}"
   },
   "network": {

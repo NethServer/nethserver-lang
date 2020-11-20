@@ -83,8 +83,8 @@
         "mail_per_hour": "Nachrichten pro Stunde",
         "mail_per_day": "Nachrichten pro Tag",
         "top_talkers_title": "Hauptsender",
-        "top-recipients-size": "Hauptempfänger naxh Größe",
-        "top-recipients-count": "Hauptempfänger anch Anzahl",
+        "top-recipients-size": "Hauptempfänger nach Größe",
+        "top-recipients-count": "Hauptempfänger nach Anzahl",
         "top-senders-size": "Hauptsender nach Größe",
         "top-senders-count": "Hauptsender nach Anzahl",
         "mails": "Nachrichten",
@@ -493,7 +493,8 @@
         "countMessages": "Nachrichten zählen",
         "Synchronization_info":"Synchronisationsinformation",
         "synchronization_informations_ok": "Synchronisationsinformation wurde aktualisiert",
-        "synchronization_informations_error": "Synchronisationsinformation wurde nicht aktualisiert"
+        "synchronization_informations_error": "Synchronisationsinformation wurde nicht aktualisiert",
+        "Exclude": "Ordner ausnehmen"
     },
     "docs": {
         "more_info_about": "Mehr Infos über",
@@ -515,7 +516,8 @@
         "sender_validation": "Wenn aktiviert, muss die Emailadresse (From:) mit dem Login-Benutzer oder zusätzlichen Adressen übereinstimmen.",
         "lifetime": "Ein Wert von 0 bedeutet nur einmal wiederholen.",
         "DeleteDestination": "Nachrichten auf dem lokalen Server löschen, die sich nicht auf dem Remote-Server befinden. Nützlich für Backup oder Vorsynchronisation.",
-        "imapsync":"Imapsync"
+        "imapsync":"Imapsync",
+        "Exclude_Folders": "Die Ausnahme funktioniert mit Regeln für reguläre Ausdrücke. Wenn Sie den Ordner 'Foo' ausschließen, werden alle Ordner, die 'Foo' im Namen enthalten, von der Synchronisierung ausgeschlossen. Um eine genaue Übereinstimmung zu erzwingen, beginnen Sie den Namen des Ausschlussordners mit '^' und beenden Sie ihn mit '$' wie z.Bsp. ^ Foo $. Fügen Sie einen Eintrag pro Zeile hinzu."
     },
     "mailbox": {
         "public_created_ok": "Öffentliches Postfach erfolgreich erstellt",

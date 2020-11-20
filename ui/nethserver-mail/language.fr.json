@@ -493,7 +493,8 @@
         "countMessages": "Compter les messages",
         "Synchronization_info":"Information de synchronisation",
         "synchronization_informations_ok": "L'information de synchronisation a été mise a jour",
-        "synchronization_informations_error": "L'information de synchronisation n'a pas été mise a jour"
+        "synchronization_informations_error": "L'information de synchronisation n'a pas été mise a jour",
+        "Exclude": "Exclude folders"
     },
     "docs": {
         "more_info_about": "Plus d'info à propos",
@@ -515,7 +516,8 @@
         "sender_validation": "Si activé, l'adresse courriel de l'expéditeur (De:) doit correspondre à l'identifiant de l'utilisateur ou à une adresse supplémentaire",
         "lifetime": "Une valeur à 0 signifie une nouvelle tentative une seule fois",
         "DeleteDestination": "Supprimez les messages du serveur local qui ne se trouvent pas sur le serveur distant. Utile pour la sauvegarde ou la pré-synchronisation.",
-        "imapsync":"Imapsync"
+        "imapsync":"Imapsync",
+        "Exclude_Folders": "The exclusion works with regular expression rules. When excluding the 'Foo' folder, all folders matching 'Foo' in the name will be excluded from the synchronization. To force an exact match, start the exclusion folder name by '^' and end it by '$' like ^Foo$. Add one entry per line."
     },
     "mailbox": {
         "public_created_ok": "Boîte aux lettres publique créée avec succès",

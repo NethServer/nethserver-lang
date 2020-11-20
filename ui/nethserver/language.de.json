@@ -176,7 +176,7 @@
     "raid": "RAID",
     "ok": "OK",
     "error": "FEHLER",
-    "hostname_change": "Current hostname is not valid"
+    "hostname_change": "Der aktuelle Hostname ist ungültig"
   },
   "backup": {
     "title": "Sicherung",
@@ -651,11 +651,12 @@
     "BindPassword": "Bind Passwort",
     "BaseDN": "Basis DN",
     "BindDN": "Bind DN",
-    "LdapURI": "LDAP URI",
+    "LdapURI": "LDAP-Server-URI",
     "NsdcIp": "Active Directory IP",
     "UserDN": "Benutzer DN",
     "GroupDN": "Gruppe DN",
-    "StartTls": "Start TLS",
+    "StartTls": "STARTTLS",
+    "BindType": "Bind type",
     "edit_delegation": "Bearbeiten Sie Delegationen von {name}"
   },
   "network": {

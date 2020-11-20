@@ -651,11 +651,12 @@
     "BindPassword": "Bağlantı Parolası",
     "BaseDN": "Temel Ayrılmış Ad (Base DN)",
     "BindDN": "Bağlantı Ayrılmış Adı (Bind DN)",
-    "LdapURI": "LDAP Adresi",
+    "LdapURI": "LDAP Sunucu Adresi",
     "NsdcIp": "Aktif Dizin IP Adresi",
     "UserDN": "Kullanıcı Ayrılmış Adı (User DN)",
     "GroupDN": "Grup Ayrılmış Adı (Group DN)",
-    "StartTls": "Start TLS",
+    "StartTls": "STARTTLS",
+    "BindType": "Bağlantı türü",
     "edit_delegation": "{name} atamalarını düzenle"
   },
   "network": {

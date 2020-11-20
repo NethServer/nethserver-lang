@@ -485,7 +485,9 @@
         "settings_updated_ok": "Ayarlar güncellendi!",
         "settings_updated_error": "Ayarlar güncellenemedi.",
         "portforward": "Kapı numarası yönlendirmesi",
-        "enable_hairpinnat": "Keskin NAT kullanılsın"
+        "enable_hairpinnat": "Keskin NAT kullanılsın",
+        "application_level_gateway": "Uygulama Katmanı Geçidi (ALG)",
+        "enable_SipAlg": "SIP-ALG ve H.323-ALG Kullanılsın"
     },
     "logs": {
         "title": "Günlükler",
@@ -578,6 +580,7 @@
         "list_of_ports": "Bir ya da virgül ile ayrılmış birkaç kapı numarası yazın. Örnek: '8081, 9292'",
         "network_services_system_services": "Ağ hizmetleri Sistem -> Hizmetler bölümünden eklenebilir",
         "rules_service": "Güvenlik duvarı üzerinde çalışan ağ hizmetinin adını yazın. Tüm hizmetler için boş bırakın",
-        "allow_only": "Kapı numarası yönlendirme erişimini yalnız listedeki herkese açık IP adresleri ya da ağlar (CIDR biçiminde yazılmış) ile sınırlar. Her kaydı ayrı bir satıra yazın. Herkese izin vermek için alanı boş bırakın."
+        "allow_only": "Kapı numarası yönlendirme erişimini yalnız listedeki herkese açık IP adresleri ya da ağlar (CIDR biçiminde yazılmış) ile sınırlar. Her kaydı ayrı bir satıra yazın. Herkese izin vermek için alanı boş bırakın.",
+        "SipAlg": "ALG, SIP ve H.323 iletişim kurallarının NAT üzerinden kullanılabilmesini sağlar. Bu seçenek etkinleştirildiğinde, ALG, Voice over Internet Protocol (VoIP) ağ paketlerini algılayıp yeniden yazarak gereken kapı numaralarını açar. Bu seçeneği yalnız PBX ya da VoIP istemcinizde görüşme sorunları yaşıyorsanız devre dışı bırakmayı deneyin."
     }
 }

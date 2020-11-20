@@ -485,7 +485,9 @@
         "settings_updated_ok": "Налаштування оновлені!",
         "settings_updated_error": "Параметри не були оновлені.",
         "portforward": "Перенаправлення порту",
-        "enable_hairpinnat": "Включити hairpin NAT"
+        "enable_hairpinnat": "Включити hairpin NAT",
+        "application_level_gateway": "Application Layer Gateway (ALG)",
+        "enable_SipAlg": "Enable SIP-ALG and H.323-ALG"
     },
     "logs": {
         "title": "Список",
@@ -578,6 +580,7 @@
         "list_of_ports": "Введіть один або кілька номерів портів, розділених комою, наприклад: '8081, 9292'",
         "network_services_system_services": "Послуги мережі можна додати на сторінці Система -> Сервіси",
         "rules_service": "Enter the name of a network service running on the firewall, otherwise leave empty to match any service",
-        "allow_only": "Restrict access to port forward only from a list of public IP addresses or networks (written in CIDR format). Add one entry per line. Leave the field empty to allow access by anyone."
+        "allow_only": "Restrict access to port forward only from a list of public IP addresses or networks (written in CIDR format). Add one entry per line. Leave the field empty to allow access by anyone.",
+        "SipAlg": "ALG allows SIP and H.323 protocols to operate through NAT. When enabled, ALG will inspect and rewrite Voice over Internet Protocol (VoIP) network packets and open required ports. Try to disable this option only if you're experiencing audio and call problems with your PBX or VoIP client."
     }
 }

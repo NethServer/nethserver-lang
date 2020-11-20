@@ -485,7 +485,9 @@
         "settings_updated_ok": "Réglages mis à jour avec succès !",
         "settings_updated_error": "Réglages non actualisés.",
         "portforward": "Transfert de port",
-        "enable_hairpinnat": "Activer le hairpin NAT"
+        "enable_hairpinnat": "Activer le hairpin NAT",
+        "application_level_gateway": "Application Layer Gateway (ALG)",
+        "enable_SipAlg": "Enable SIP-ALG and H.323-ALG"
     },
     "logs": {
         "title": "Journaux",
@@ -578,6 +580,7 @@
         "list_of_ports": "Entrez un ou plusieurs numéros de port séparés par une virgule, ex.: '8081, 9292'",
         "network_services_system_services": "Les services réseau peuvent être ajoutés dans la page Système -> Services",
         "rules_service": "Entrez le nom d'un service réseau exécuté sur le pare-feu, sinon laissez vide pour correspondre à n'importe quel service",
-        "allow_only": "Restreignez l'accès au transfert de port uniquement à partir d'une liste d'adresses IP ou de réseaux publics (écrite au format CIDR). Ajoutez une entrée par ligne. Laissez le champ vide pour autoriser l'accès de n'importe qui."
+        "allow_only": "Restreignez l'accès au transfert de port uniquement à partir d'une liste d'adresses IP ou de réseaux publics (écrite au format CIDR). Ajoutez une entrée par ligne. Laissez le champ vide pour autoriser l'accès de n'importe qui.",
+        "SipAlg": "ALG allows SIP and H.323 protocols to operate through NAT. When enabled, ALG will inspect and rewrite Voice over Internet Protocol (VoIP) network packets and open required ports. Try to disable this option only if you're experiencing audio and call problems with your PBX or VoIP client."
     }
 }

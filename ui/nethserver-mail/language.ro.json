@@ -486,14 +486,15 @@
         "delete_imapsync_configuration":"Șterge sincronizarea IMAP pentru",
         "Messages":"Mesaje",
         "Size":"Mărime",
-        "Folders":"Folders",
+        "Folders":"Dosare",
         "RemoteAccount":"Cont remote",
-        "LocalAccount":"Local account",
-        "PleaseWait": "Please wait, the operation could take a while ...",
-        "countMessages": "Count messages",
-        "Synchronization_info":"Synchronization information",
-        "synchronization_informations_ok": "Synchronization information has been updated",
-        "synchronization_informations_error": "Synchronization information has not been updated"
+        "LocalAccount":"Cont local",
+        "PleaseWait": "Te rog să aștepți deoarece operațiunea poate dura ceva timp ...",
+        "countMessages": "Numără mesajele",
+        "Synchronization_info":"Informații sincronizare",
+        "synchronization_informations_ok": "Informațiile de sincronizare au fost actualizate",
+        "synchronization_informations_error": "Informațiile de sincronizare nu au fost actualizate",
+        "Exclude": "Exclude folders"
     },
     "docs": {
         "more_info_about": "Mai multe informații despre",
@@ -515,7 +516,8 @@
         "sender_validation": "Dacă este activat, adresa de e-mail a expeditorului (De la :) trebuie să corespundă utilizatorului de conectare sau adreselor suplimentare.",
         "lifetime": "O valoare 0 înseamnă reîncercare o singură dată.",
         "DeleteDestination": "Ștergere mesaje de pe serverul local care nu sunt pe serverul la distanță. Util pentru copie de siguranță sau sincronizare.",
-        "imapsync":"Imapsync"
+        "imapsync":"Imapsync",
+        "Exclude_Folders": "The exclusion works with regular expression rules. When excluding the 'Foo' folder, all folders matching 'Foo' in the name will be excluded from the synchronization. To force an exact match, start the exclusion folder name by '^' and end it by '$' like ^Foo$. Add one entry per line."
     },
     "mailbox": {
         "public_created_ok": "Cutie poștală publică creată cu succes",

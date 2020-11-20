@@ -651,11 +651,12 @@
     "BindPassword": "Mot de passe Bind",
     "BaseDN": "Base DN",
     "BindDN": "Bind DN",
-    "LdapURI": "LDAP URI",
+    "LdapURI": "URI du serveur LDAP",
     "NsdcIp": "IP Active Directory",
     "UserDN": "Utilisateur DN",
     "GroupDN": "Groupe DN",
-    "StartTls": "Start TLS",
+    "StartTls": "STARTTLS",
+    "BindType": "Bind type",
     "edit_delegation": "Modifier les délégations de {name}"
   },
   "network": {

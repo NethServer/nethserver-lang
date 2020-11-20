@@ -493,7 +493,8 @@
         "countMessages": "İletileri say",
         "Synchronization_info":"Eşitleme bilgileri",
         "synchronization_informations_ok": "Eşitleme bilgileri güncellendi",
-        "synchronization_informations_error": "Eşitleme bilgileri güncellenmedi"
+        "synchronization_informations_error": "Eşitleme bilgileri güncellenmedi",
+        "Exclude": "Katılmayacak klasörler"
     },
     "docs": {
         "more_info_about": "Şunun hakkında ayrıntılı bilgiler",
@@ -515,7 +516,8 @@
         "sender_validation": "Bu seçenek etkinleştirildiğinde, gönderen e-posta adresi (From:) kullanıcı adı ya da ek adreslerden biri ile aynı olmalıdır.",
         "lifetime": "0 değeri yalnız bir kez deneneceği anlamına gelir.",
         "DeleteDestination": "Uzak sunucuda olmayan iletiler yerel sunucudan silinsin. Yedekleme ya da ön eşitleme için kullanışlıdır.",
-        "imapsync":"Imapsync"
+        "imapsync":"Imapsync",
+        "Exclude_Folders": "Katılmayacaklar, kurallı ifadeler ile çalışır. 'Foo' klasörü katılmadığında, adında 'Foo' geçen klasörlerin hiçbiri eşitlenmez. Tam eşitlemenin dayatılması için, katılmayacak ^Foo$ örneğindeki gibi, klasör adının başına '^', sonuna '$' karakterlerini ekleyin. Her klasörü ayrı bir satıra yazın."
     },
     "mailbox": {
         "public_created_ok": "Herkese açık e-posta kutusu eklendi",

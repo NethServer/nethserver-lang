@@ -485,7 +485,9 @@
         "settings_updated_ok": "Einstellungen erfolgreich aktualisiert!",
         "settings_updated_error": "Einstellungen nicht aktualisiert.",
         "portforward": "Port-Weiterleitung",
-        "enable_hairpinnat": "Hairpin-NAT aktivieren"
+        "enable_hairpinnat": "Hairpin-NAT aktivieren",
+        "application_level_gateway": "Application Layer Gateway (ALG)",
+        "enable_SipAlg": "Enable SIP-ALG and H.323-ALG"
     },
     "logs": {
         "title": "Logs",
@@ -578,6 +580,7 @@
         "list_of_ports": "Tragen Sie eine oder mehrere durch Kommata getrennte Portnummern ein, z.B.: '8081, 9292'.",
         "network_services_system_services": "Netzwerkdienste können auf der Seite System > Dienste hinzugefügt werden.",
         "rules_service": "Bitte den Namen eines Netzwerkdienstes eingeben, der auf der Firewall ausgeführt wird. Andernfalls leer lassen, damit er mit einem Dienst übereinstimmt",
-        "allow_only": "Bitte den Zugriff auf die Portweiterleitung beschränken auf eine Liste öffentlicher IP-Adressen oder Netzwerke (im CIDR-Format). Bitte einen Eintrag pro Zeile hinzufügen. Das Feld leerlassen, damit jeder darauf zugreifen kann.\n \n "
+        "allow_only": "Bitte den Zugriff auf die Portweiterleitung beschränken auf eine Liste öffentlicher IP-Adressen oder Netzwerke (im CIDR-Format). Bitte einen Eintrag pro Zeile hinzufügen. Das Feld leerlassen, damit jeder darauf zugreifen kann.\n \n ",
+        "SipAlg": "ALG allows SIP and H.323 protocols to operate through NAT. When enabled, ALG will inspect and rewrite Voice over Internet Protocol (VoIP) network packets and open required ports. Try to disable this option only if you're experiencing audio and call problems with your PBX or VoIP client."
     }
 }
