@@ -27,7 +27,7 @@
     "sources": "Top 10 alerte după IP-ul sursă",
     "destinations": "Top 10 alerte după IP-ul de destinație",
     "hits": "Accesări",
-    "last_updated_24h": "Ultimele 24 de ore",
+    "last_updated_4h": "Last 4 hours",
     "last_updated": "De la {time} în urmă",
     "no_data_found": "Nici o dată găsită",
     "counters": "Contoare",

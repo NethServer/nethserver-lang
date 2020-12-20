@@ -108,7 +108,8 @@
     "nethserver-sogo": "SOGo",
     "nethserver-hotsync": "HotSync",
     "nethserver-blacklist": "Threat shield",
-    "nethserver-mssql": "Microsoft SQL Server"
+    "nethserver-mssql": "Microsoft SQL Server",
+    "nethserver-business": "Business Cube"
   },
   "dashboard": {
     "title": "Dashboard",
@@ -323,7 +324,12 @@
     "restore_network": "Ripristina configurazione di rete",
     "skip_network_info": "La configurazione di rete corrente verrà mantenuta, ma alcune applicazioni potrebbero essere disabilitate al termine del processo. Dopo il restore, verificare la configurazione del sistema per riabilitare tutte le applicazioni richieste.",
     "format_disk": "Formatta disco",
-    "format_disk_message": "La formattazione cancellerà tutti i dati in questo disco"
+    "format_disk_message": "La formattazione cancellerà tutti i dati in questo disco",
+    "DisplayTheResticPasswordEncryption": "Restic encryption secret for",
+    "PasswordEncrypt": "Encryption secret",
+    "ShowPasswordEncrypt": "Show restic secret",
+    "PasswordEncryptCreatedAfterSaved": "Encryption secret will be generated at the end of the wizard. To show it, click on the 'Show restic secret' button.",
+    "PasswordEncryptWarning":"The data saved inside the destination storage are encrypted using the 'Encryption secret' above. Please store the secret on a safe place. Without this secret, you will not be able restore the data backup."
   },
   "disk_usage": {
     "title": "Utilizzo disco",
@@ -386,7 +392,12 @@
     "cert_encrypt_ok": "Let's Encrypt attivato con successo!",
     "cert_encrypt_error": "Let's Encrypt non è stato attivato.",
     "cert_self_ok": "Certificato auto-firmato modificato con successo!",
-    "cert_self_error": "Certificato auto-firmato non modificato."
+    "cert_self_error": "Certificato auto-firmato non modificato.",
+    "add_Knowndomain": "Add all known FQDNs",
+    "delete": "Elimina",
+    "delete_certificate": "Delete the certificate",
+    "deletion_ok": "The certificate has been deleted",
+    "deletion_error": "The certificate has not been deleted"
   },
   "dns": {
     "title": "DNS",
@@ -1080,6 +1091,7 @@
     "subscription": "Subscription",
     "support_active": "E' attiva una sessione di supporto remoto",
     "hostname_should_not_contain_localdomain": "L'hostname non può contenere 'localdomain'",
+    "hostname_should_be_third_level_domain": "The hostname must have a second level domain suffix, like \"host.example.com\"",
     "first_hostname_part_maximum_length_15": "La lunghezza massima della prima parte del nome host è di 15 caratteri",
     "unmapped_interface_from_restore": "Questa interfaccia non è stata attivata dopo il ripristino. Assegnare il ruolo a una nuova interfaccia o rimuoverla",
     "network_recovery_mode": "Il sistema è configurato con un indirizzo IP temporaneo dallo strumento network-recovery: ogni modifica in questa pagina ripristinerà la configurazione di rete mostrata qui sotto."
@@ -1123,7 +1135,6 @@
     "valid_ipV4Address": "Indirizzo non valido",
     "valid_ipV4Netmask": "Maschera di rete IPv4 non valida: esempio '255.255.255.0'",
     "all_domains_must_be_fqdn": "Tutti i domini devono essere FQDN (Fully Qualified Domain Name) validi",
-    "letencrypt_domain_failed": "Challenge fallita per questi domini",
     "invalid_x509_ceritficate": "Certificato X.509 (codifica PEM)",
     "invalid_x509_key": "Chiave privata RSA o EC (codifica PEM)",
     "cert_safetyguard": "Il certificato ECC selezionato non è compatibile con la policy TLS attuale",
@@ -1213,7 +1224,10 @@
     "TokenValidationError": "Codice di verifica non valido.",
     "TokenValidationOK": "Codice di verifica valido!",
     "valid_hostname_0_9223372036854775807":"Nome dominio non valido, deve essere qualcosa tipo 'dominio.org'",
-    "Host_already_in_use_by_another_smarthost_relay": "Lo smart host è già utilizzato in un altro smart host relay, non puà essere utilizzato come default per il server"
+    "Host_already_in_use_by_another_smarthost_relay": "Lo smart host è già utilizzato in un altro smart host relay, non puà essere utilizzato come default per il server",
+    "letsencrypt_registration_failed_rate_limit_reached": "Rate limit reached. Please wait at least 3 hours before performing a new request or make sure to change your public IP address",
+    "letsencrypt_unknow_error":"Challenge failed, please see the error message below.",
+    "letsencrypt_domain_failed": "Challenge fallita per questi domini"
   },
   "docs": {
     "more_info_about": "Maggiori informazioni",

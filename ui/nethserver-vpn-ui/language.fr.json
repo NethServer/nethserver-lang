@@ -325,13 +325,16 @@
     "port_in_use": "Port déjà utilisé",
     "invalid_certificate": "Certificat non valide",
     "valid_minLength_8": "La longueur minimale est de 8 caractères",
-    "missing_wanpriority_rules": "Interface manquante dans l'ordre de priorité"
+    "missing_wanpriority_rules": "Interface manquante dans l'ordre de priorité",
+    "valid_notEmpty":"This field cannot be empty",
+    "valid_username":"Le premier caractère doit être une lettre, seulement minuscules, des chiffres et des symboles tels que '-' et '_'"
   },
   "docs": {
     "more_info_about": "Plus d'info à propos {docsLink}.",
     "right": "Spécifiez l'adresse IP publique statique ou %any si le distant a une IP publique dynamique",
     "vpn_remote_network": "Configurez ces paramètres uniquement si vous souhaitez créer un réseau privé virtuel Net to Net à l'aide de ce compte (compatible avec NethServer 6). Ne compilez pas ces champs si vous configurez un hôte pour un net VPN",
     "vpn_remote_netmask": "Ne compilez ce champ que si vous avez déjà rempli le champ Réseau distant",
-    "topology_selection": "La topologie de sous-réseau convient à la plupart des cas d'utilisation et permet l'utilisation de toutes les adresses IP à l'intérieur du pool. Net30 est une ancienne topologie pour la prise en charge des clients Windows exécutant des clients 2.0.9 ou plus anciens: chaque client se voit attribuer un crédit virtuel /30, comprenant 4 IP par client, plus 4 pour le serveur."
+    "topology_selection": "La topologie de sous-réseau convient à la plupart des cas d'utilisation et permet l'utilisation de toutes les adresses IP à l'intérieur du pool. Net30 est une ancienne topologie pour la prise en charge des clients Windows exécutant des clients 2.0.9 ou plus anciens: chaque client se voit attribuer un crédit virtuel /30, comprenant 4 IP par client, plus 4 pour le serveur.",
+    "remote_networks": "This field is optional, enter remote networks if you need to create specific firewall rules for this tunnel, otherwise it can be left blank."
   }
 }

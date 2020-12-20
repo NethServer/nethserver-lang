@@ -27,7 +27,7 @@
     "sources": "Топ 10 оповещений по IP источника",
     "destinations": "Топ 10 оповещений по IP назначения",
     "hits": "Попадания",
-    "last_updated_24h": "Последние 24 часа",
+    "last_updated_4h": "Last 4 hours",
     "last_updated": "Прошло {time}",
     "no_data_found": "Нет данных",
     "counters": "Счетчики",

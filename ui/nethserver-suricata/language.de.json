@@ -27,7 +27,7 @@
     "sources": "Top 10 Warnungen nach Quell-IP",
     "destinations": "Top 10 Warnungen nach Ziel-IP",
     "hits": "Hits",
-    "last_updated_24h": "Letzte 24 Stunden",
+    "last_updated_4h": "Last 4 hours",
     "last_updated": "Seit vor {time}",
     "no_data_found": "Keine Daten gefunden",
     "counters": "Zähler",

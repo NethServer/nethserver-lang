@@ -27,7 +27,7 @@
     "sources": "Primi 10 allarmi per IP sorgente",
     "destinations": "Primi 10 allarmi per IP destinazione",
     "hits": "Occorrenze",
-    "last_updated_24h": "Ultime 24 ore",
+    "last_updated_4h": "Last 4 hours",
     "last_updated": "Da {time} fa",
     "no_data_found": "Dati non trovati",
     "counters": "Connessioni",

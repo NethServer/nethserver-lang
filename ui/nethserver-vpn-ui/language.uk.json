@@ -325,13 +325,16 @@
     "port_in_use": "Порт вже використовується",
     "invalid_certificate": "Invalid certificate",
     "valid_minLength_8": "Minimum length is 8 characters",
-    "missing_wanpriority_rules": "Missing interface in priority order"
+    "missing_wanpriority_rules": "Missing interface in priority order",
+    "valid_notEmpty":"This field cannot be empty",
+    "valid_username":"Першим символом повинна бути буква, далі тільки маленькі букви, цифри і символи \"-\" та \"_\""
   },
   "docs": {
     "more_info_about": "Докладніше про {docsLink}.",
     "right": "Укажіть статичну загальнодоступну IP-адресу або %a, якщо пульт має динамічний загальнодоступний IP-адресу.",
     "vpn_remote_network": "Налаштуйте ці параметри лише в тому випадку, якщо ви хочете створити VPN від Net до Net за допомогою цього облікового запису (сумісний з NethServer 6). Не компілюйте ці поля, якщо ви налаштовуєте хост для мережі VPN.",
     "vpn_remote_netmask": "Складіть це поле лише в тому випадку, якщо ви вже заповнили віддалене мережеве поле",
-    "topology_selection": "The subnet topology is suitable for most use cases and allow the usage of all IPs inside the pool. The net30 is an old topology for support with Windows clients running 2.0.9 or older clients: each client is allocated a virtual /30, taking 4 IPs per client, plus 4 for the server."
+    "topology_selection": "The subnet topology is suitable for most use cases and allow the usage of all IPs inside the pool. The net30 is an old topology for support with Windows clients running 2.0.9 or older clients: each client is allocated a virtual /30, taking 4 IPs per client, plus 4 for the server.",
+    "remote_networks": "This field is optional, enter remote networks if you need to create specific firewall rules for this tunnel, otherwise it can be left blank."
   }
 }

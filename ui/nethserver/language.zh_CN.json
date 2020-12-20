@@ -108,7 +108,8 @@
     "nethserver-sogo": "SOGo",
     "nethserver-hotsync": "HotSync",
     "nethserver-blacklist": "Threat shield",
-    "nethserver-mssql": "Microsoft SQL Server"
+    "nethserver-mssql": "Microsoft SQL Server",
+    "nethserver-business": "Business Cube"
   },
   "dashboard": {
     "title": "仪表板",
@@ -323,7 +324,12 @@
     "restore_network": "Restore network configuration",
     "skip_network_info": "Current network configuration will be preserved, but some applications may be disabled at the end of the process. After restoring, review the system configuration to re-enable all required applications.",
     "format_disk": "Format disk",
-    "format_disk_message": "Formatting will erase all data on this disk"
+    "format_disk_message": "Formatting will erase all data on this disk",
+    "DisplayTheResticPasswordEncryption": "Restic encryption secret for",
+    "PasswordEncrypt": "Encryption secret",
+    "ShowPasswordEncrypt": "Show restic secret",
+    "PasswordEncryptCreatedAfterSaved": "Encryption secret will be generated at the end of the wizard. To show it, click on the 'Show restic secret' button.",
+    "PasswordEncryptWarning":"The data saved inside the destination storage are encrypted using the 'Encryption secret' above. Please store the secret on a safe place. Without this secret, you will not be able restore the data backup."
   },
   "disk_usage": {
     "title": "磁盘用量",
@@ -386,7 +392,12 @@
     "cert_encrypt_ok": "Let's encrypt请求成功!",
     "cert_encrypt_error": "Let's encrypt未请求.",
     "cert_self_ok": "自签名证书编辑成功!",
-    "cert_self_error": "自签名证书未编辑."
+    "cert_self_error": "自签名证书未编辑.",
+    "add_Knowndomain": "Add all known FQDNs",
+    "delete": "删除",
+    "delete_certificate": "Delete the certificate",
+    "deletion_ok": "The certificate has been deleted",
+    "deletion_error": "The certificate has not been deleted"
   },
   "dns": {
     "title": "DNS",
@@ -1080,6 +1091,7 @@
     "subscription": "Subscription",
     "support_active": "A remote support session is active",
     "hostname_should_not_contain_localdomain": "The hostname should not contain 'localdomain'",
+    "hostname_should_be_third_level_domain": "The hostname must have a second level domain suffix, like \"host.example.com\"",
     "first_hostname_part_maximum_length_15": "First hostname part must be maximum 15 characters lenght",
     "unmapped_interface_from_restore": "This interface has not been activated after the restore. Assign the role to a new interface or remove it",
     "network_recovery_mode": "The system is configured with a temporary IP address by the network-recovery tool: any change to this page will restore the network configuration as set below."
@@ -1123,7 +1135,6 @@
     "valid_ipV4Address": "Invalid address",
     "valid_ipV4Netmask": "Invalid IPv4 network mask: it should be something like '255.255.255.0'",
     "all_domains_must_be_fqdn": "All domains must be valid FQDN (Fully Qualified Domain Name)",
-    "letencrypt_domain_failed": "Challenge failed for this domain(s)",
     "invalid_x509_ceritficate": "X.509证书 (PEM 编码)",
     "invalid_x509_key": "RSA或EC私钥（PEM编码）",
     "cert_safetyguard": "所选的ECC证书与当前的TLS策略不兼容",
@@ -1213,7 +1224,10 @@
     "TokenValidationError": "Verification code is not valid.",
     "TokenValidationOK": "Verification code is valid!",
     "valid_hostname_0_9223372036854775807":"Invalid domain name, it must be something like 'domain.org'",
-    "Host_already_in_use_by_another_smarthost_relay": "This smart host is already used for another smart host relay, you cannot use it as default for the server"
+    "Host_already_in_use_by_another_smarthost_relay": "This smart host is already used for another smart host relay, you cannot use it as default for the server",
+    "letsencrypt_registration_failed_rate_limit_reached": "Rate limit reached. Please wait at least 3 hours before performing a new request or make sure to change your public IP address",
+    "letsencrypt_unknow_error":"Challenge failed, please see the error message below.",
+    "letsencrypt_domain_failed": "Challenge failed for this domain(s)"
   },
   "docs": {
     "more_info_about": "More info about",

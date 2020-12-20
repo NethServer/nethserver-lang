@@ -325,13 +325,16 @@
     "port_in_use": "Port už je používán",
     "invalid_certificate": "Invalid certificate",
     "valid_minLength_8": "Minimum length is 8 characters",
-    "missing_wanpriority_rules": "Missing interface in priority order"
+    "missing_wanpriority_rules": "Missing interface in priority order",
+    "valid_notEmpty":"This field cannot be empty",
+    "valid_username":"Je třeba, aby první znak bylo písmeno, pak pouze malá písmena, číslice a symboly jako „-“ a „_“"
   },
   "docs": {
     "more_info_about": "Více informací o {docsLink}.",
     "right": "Zadejte statickou veřejnou IP adresu nebo %any pokud protějšek má dynamickou veřejnou IP adresu.",
     "vpn_remote_network": "Tyto parametry nastavte pouze pokud chcete vytvořit VPN propojení dvou sítí s použitím tohoto účtu (kompatibilní s NethServer 6). Pokud nastavujete VPN mezi strojem a sítí, tyto kolonky nevyplňujte.",
     "vpn_remote_netmask": "Tuto kolonku vyplňujte pouze pokud jste už vyplnili kolonku Vzdálená síť",
-    "topology_selection": "The subnet topology is suitable for most use cases and allow the usage of all IPs inside the pool. The net30 is an old topology for support with Windows clients running 2.0.9 or older clients: each client is allocated a virtual /30, taking 4 IPs per client, plus 4 for the server."
+    "topology_selection": "The subnet topology is suitable for most use cases and allow the usage of all IPs inside the pool. The net30 is an old topology for support with Windows clients running 2.0.9 or older clients: each client is allocated a virtual /30, taking 4 IPs per client, plus 4 for the server.",
+    "remote_networks": "This field is optional, enter remote networks if you need to create specific firewall rules for this tunnel, otherwise it can be left blank."
   }
 }

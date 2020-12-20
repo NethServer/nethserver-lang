@@ -27,7 +27,7 @@
     "sources": "Top 10 waarschuwingen per bron-IP",
     "destinations": "Top 10 waarschuwingen per doel-IP",
     "hits": "Hits",
-    "last_updated_24h": "Laatste 24u",
+    "last_updated_4h": "Last 4 hours",
     "last_updated": "Laatste bijgewerkt om {time}",
     "no_data_found": "Geen gegevens gevonden",
     "counters": "Tellers",

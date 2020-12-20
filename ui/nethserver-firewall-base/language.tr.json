@@ -567,7 +567,8 @@
         "valid_macAddress": "MAC adresi geçersiz",
         "mac_cannot_be_delete": "Bu MAC adresi kullanılmakta olduğundan silinemez",
         "must_be_one_of": "Şunlardan biri olmalıdır",
-        "Not_valid_ipV4Address_or_CIDR": "Değer '1.2.3.4' gibi bir IP adresi ya da '192.168.1.0/24' gibi bir CIDR ağı olmalıdır"
+        "Not_valid_ipV4Address_or_CIDR": "Değer '1.2.3.4' gibi bir IP adresi ya da '192.168.1.0/24' gibi bir CIDR ağı olmalıdır",
+        "valid_memberOf_accept,drop": "The valid actions are 'Accept' or 'Drop'"
     },
     "docs": {
         "pf_origin_port": "Tek bir kapı numarası, virgül ile ayrılmış bir kapı numarsaı listesi ya da ayraç olarak \":\" kullanarak (100:200 gibi) bir kapı numarası aralığı yazın. ",

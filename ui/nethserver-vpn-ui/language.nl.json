@@ -325,13 +325,16 @@
     "port_in_use": "Poort is al in gebruik",
     "invalid_certificate": "Invalid certificate",
     "valid_minLength_8": "Minimum length is 8 characters",
-    "missing_wanpriority_rules": "Missing interface in priority order"
+    "missing_wanpriority_rules": "Missing interface in priority order",
+    "valid_notEmpty":"This field cannot be empty",
+    "valid_username":"Het eerste teken moet een letter zijn, en niet alleen lagere letters, cijfers en symbolen zoals '-' en '_'"
   },
   "docs": {
     "more_info_about": "Meer info over {docsLink}",
     "right": "Geef het statische openbare IP-adres op of% any als de afstandsbediening een dynamisch openbaar IP-adres heeft.",
     "vpn_remote_network": "Configureer deze parameters alleen als u met deze account een Net to Net VPN wilt maken (compatibel met NethServer 6). Compileer deze velden niet als u een host configureert voor Net VPN.",
     "vpn_remote_netmask": "Compileer dit veld alleen als u het veld Extern netwerk al hebt ingevuld.",
-    "topology_selection": "The subnet topology is suitable for most use cases and allow the usage of all IPs inside the pool. The net30 is an old topology for support with Windows clients running 2.0.9 or older clients: each client is allocated a virtual /30, taking 4 IPs per client, plus 4 for the server."
+    "topology_selection": "The subnet topology is suitable for most use cases and allow the usage of all IPs inside the pool. The net30 is an old topology for support with Windows clients running 2.0.9 or older clients: each client is allocated a virtual /30, taking 4 IPs per client, plus 4 for the server.",
+    "remote_networks": "This field is optional, enter remote networks if you need to create specific firewall rules for this tunnel, otherwise it can be left blank."
   }
 }

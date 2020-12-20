@@ -487,7 +487,7 @@
         "portforward": "Port-Weiterleitung",
         "enable_hairpinnat": "Hairpin-NAT aktivieren",
         "application_level_gateway": "Application Layer Gateway (ALG)",
-        "enable_SipAlg": "Enable SIP-ALG and H.323-ALG"
+        "enable_SipAlg": "SIP-ALG und H.323-ALG einschalten"
     },
     "logs": {
         "title": "Logs",
@@ -567,7 +567,8 @@
         "valid_macAddress": "MAC-Adresse ungültig",
         "mac_cannot_be_delete": "Diese MAC-Adresse kann nicht gelöscht werden, da sie verwendet wird",
         "must_be_one_of": "Muß eine von sein",
-        "Not_valid_ipV4Address_or_CIDR": "Der Wert muss eine IP-Adresse wie '1.2.3.4' oder CIDR-Netzwerk wie '192.168.1.0/24' sein."
+        "Not_valid_ipV4Address_or_CIDR": "Der Wert muss eine IP-Adresse wie '1.2.3.4' oder CIDR-Netzwerk wie '192.168.1.0/24' sein.",
+        "valid_memberOf_accept,drop": "The valid actions are 'Accept' or 'Drop'"
     },
     "docs": {
         "pf_origin_port": "Bitte einen einzelnen Port, eine Liste mit durch Kommas getrennten Ports oder einen Portbereich einfügen, der \":\" als Trennzeichen verwendet, wie \"100: 200\".",
@@ -581,6 +582,6 @@
         "network_services_system_services": "Netzwerkdienste können auf der Seite System > Dienste hinzugefügt werden.",
         "rules_service": "Bitte den Namen eines Netzwerkdienstes eingeben, der auf der Firewall ausgeführt wird. Andernfalls leer lassen, damit er mit einem Dienst übereinstimmt",
         "allow_only": "Bitte den Zugriff auf die Portweiterleitung beschränken auf eine Liste öffentlicher IP-Adressen oder Netzwerke (im CIDR-Format). Bitte einen Eintrag pro Zeile hinzufügen. Das Feld leerlassen, damit jeder darauf zugreifen kann.\n \n ",
-        "SipAlg": "ALG allows SIP and H.323 protocols to operate through NAT. When enabled, ALG will inspect and rewrite Voice over Internet Protocol (VoIP) network packets and open required ports. Try to disable this option only if you're experiencing audio and call problems with your PBX or VoIP client."
+        "SipAlg": "ALG ermöglicht SIP und H.323 Protokolle durch NAT. Wenn aktiviert überprüft und ändert ALG Voice over Internet Protocol (VoIP) Pakete und öffnet die erforderlichen Ports. Diese Option nur deaktivieren wenn Audio- oder Verbindungsprobleme mit Ihrem PBX oder VoIP client auftreten."
     }
 }

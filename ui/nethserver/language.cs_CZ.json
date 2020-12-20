@@ -108,7 +108,8 @@
     "nethserver-sogo": "SOGo",
     "nethserver-hotsync": "HotSync",
     "nethserver-blacklist": "Štít proti hrozbám",
-    "nethserver-mssql": "Microsoft SQL Server"
+    "nethserver-mssql": "Microsoft SQL Server",
+    "nethserver-business": "Business Cube"
   },
   "dashboard": {
     "title": "Přehled",
@@ -323,7 +324,12 @@
     "restore_network": "Obnovit nastavení sítě",
     "skip_network_info": "Current network configuration will be preserved, but some applications may be disabled at the end of the process. After restoring, review the system configuration to re-enable all required applications.",
     "format_disk": "Formátovat disk",
-    "format_disk_message": "Formatting will erase all data on this disk"
+    "format_disk_message": "Formatting will erase all data on this disk",
+    "DisplayTheResticPasswordEncryption": "Restic encryption secret for",
+    "PasswordEncrypt": "Encryption secret",
+    "ShowPasswordEncrypt": "Show restic secret",
+    "PasswordEncryptCreatedAfterSaved": "Encryption secret will be generated at the end of the wizard. To show it, click on the 'Show restic secret' button.",
+    "PasswordEncryptWarning":"The data saved inside the destination storage are encrypted using the 'Encryption secret' above. Please store the secret on a safe place. Without this secret, you will not be able restore the data backup."
   },
   "disk_usage": {
     "title": "Využití datového úložiště",
@@ -386,7 +392,12 @@
     "cert_encrypt_ok": "Let's encrypt úspěšně zažádáno.",
     "cert_encrypt_error": "Let's encrypt nezažádáno.",
     "cert_self_ok": "Sám sebou podepsaný certifikát úspěšně upraven.",
-    "cert_self_error": "Sám sebou podepsaný certifikát neupraven."
+    "cert_self_error": "Sám sebou podepsaný certifikát neupraven.",
+    "add_Knowndomain": "Add all known FQDNs",
+    "delete": "Smazat",
+    "delete_certificate": "Delete the certificate",
+    "deletion_ok": "The certificate has been deleted",
+    "deletion_error": "The certificate has not been deleted"
   },
   "dns": {
     "title": "DNS",
@@ -1080,6 +1091,7 @@
     "subscription": "Předplatné",
     "support_active": "Relace podpory na dálku je aktivní",
     "hostname_should_not_contain_localdomain": "Název stroje by neměl obsahovat „localdomain“",
+    "hostname_should_be_third_level_domain": "The hostname must have a second level domain suffix, like \"host.example.com\"",
     "first_hostname_part_maximum_length_15": "Je třeba, aby první část názvu hostitele byla nejvýše 15 znaků dlouhá",
     "unmapped_interface_from_restore": "Po obnovení nebylo toto rozhraní zaktivováno. Přiřaďte novému rozhraní roli nebo ho odeberte",
     "network_recovery_mode": "Systém má nyní pomocí nástroje network-recovery nastavenou dočasnou IP adresu. Jakékoli změny na této stránce obnoví nastavení sítě tak, jak je uvedeno níže."
@@ -1123,7 +1135,6 @@
     "valid_ipV4Address": "Neplatná adresa",
     "valid_ipV4Netmask": "Neplatná IPv4 síťová maska: mělo by být něco jako „255.255.255.0“",
     "all_domains_must_be_fqdn": "Je třeba, aby všechny domény byly FQDN (Úplný doménový název)",
-    "letencrypt_domain_failed": "Pro tyto domény se nezdařila výzva",
     "invalid_x509_ceritficate": "X.509 certifikát (v PEM kódování)",
     "invalid_x509_key": "RSA nebo EC soukromý klíč (PEM kódování)",
     "cert_safetyguard": "Označený ECC certifikát není kompatibilní se stávající zásadou pro TLS",
@@ -1213,7 +1224,10 @@
     "TokenValidationError": "Ověřovací kód není platný.",
     "TokenValidationOK": "Ověřovací kód je platný",
     "valid_hostname_0_9223372036854775807":"Invalid domain name, it must be something like 'domain.org'",
-    "Host_already_in_use_by_another_smarthost_relay": "This smart host is already used for another smart host relay, you cannot use it as default for the server"
+    "Host_already_in_use_by_another_smarthost_relay": "This smart host is already used for another smart host relay, you cannot use it as default for the server",
+    "letsencrypt_registration_failed_rate_limit_reached": "Rate limit reached. Please wait at least 3 hours before performing a new request or make sure to change your public IP address",
+    "letsencrypt_unknow_error":"Challenge failed, please see the error message below.",
+    "letsencrypt_domain_failed": "Pro tyto domény se nezdařila výzva"
   },
   "docs": {
     "more_info_about": "Další informace o",

@@ -27,7 +27,7 @@
     "sources": "Top 10 des alertes par adresse IP source",
     "destinations": "Top 10 des alertes par adresse IP destinataire",
     "hits": "Hits",
-    "last_updated_24h": "Dernières 24 heures",
+    "last_updated_4h": "Last 4 hours",
     "last_updated": "Depuis {time}",
     "no_data_found": "Pas de donnée trouvée",
     "counters": "Compteurs",

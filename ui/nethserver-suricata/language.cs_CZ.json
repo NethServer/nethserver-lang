@@ -27,7 +27,7 @@
     "sources": "10 nejčastějších výstrah podle zdrojové IP adresy",
     "destinations": "10 nejčastějších výstrah podle cílové IP adresy",
     "hits": "Zásahy",
-    "last_updated_24h": "Uplynulých 24 hodin",
+    "last_updated_4h": "Last 4 hours",
     "last_updated": "Před {time}",
     "no_data_found": "Nenalezena žádná data",
     "counters": "Čítače",

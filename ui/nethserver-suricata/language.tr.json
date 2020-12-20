@@ -27,7 +27,7 @@
     "sources": "Kaynak IP adresine göre ilk 10 uyarı",
     "destinations": "Hedef IP adresine göre ilk 10 uyarı",
     "hits": "Tıklanma",
-    "last_updated_24h": "Son 24 saat",
+    "last_updated_4h": "Son 4 saat",
     "last_updated": "{time} önceden bu yana",
     "no_data_found": "Herhangi bir veri bulunamadı",
     "counters": "Sayaçlar",

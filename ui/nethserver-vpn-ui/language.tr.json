@@ -325,13 +325,16 @@
     "port_in_use": "Kapı numarası zaten kullanılıyor",
     "invalid_certificate": "Sertifika geçersiz",
     "valid_minLength_8": "En az 8 karakter uzunluğunda olmalıdır",
-    "missing_wanpriority_rules": "Öncelik sıralamasında eksik arabirim var"
+    "missing_wanpriority_rules": "Öncelik sıralamasında eksik arabirim var",
+    "valid_notEmpty":"Bu alan boş bırakılamaz",
+    "valid_username":"İlk karakter bir harf olmalıdır. Ardından yalnız küçük harfler ile '-' ve '_' simgeleri kullanılabilir"
   },
   "docs": {
     "more_info_about": "{docsLink} hakkında ayrıntılı bilgiler.",
     "right": "Uzak herkese açık sabit IP adresini yazın. Sabit IP adresi yoksa %any yazın.",
     "vpn_remote_network": "Bu parametreleri yalnız bu hesabı kullanarak bir ağdan ağa VPN (NethServer 6 ile uyumlu) oluşturmak istiyorsanız yapılandırın. Bir sunucudan ağa VPN yapılandırıyorsanız bu alanları doldurmayın.",
     "vpn_remote_netmask": "Bu alanı yalnız uzak ağ alanını doldurduysanız kullanın",
-    "topology_selection": "Alt ağ topolojisi çoğu duruma uygundur. ve havuzdaki tüm IP adreslerinin kullanılmasına izin verir. net30, Windows 2.0.9 ya da daha eski istemciler tarafından desteklenen eski bir topolojidir. Her istemci için sanal bir /30 ayrılır, her istemci için 4 ve sunucu için de 4 IP adresi alınır."
+    "topology_selection": "Alt ağ topolojisi çoğu duruma uygundur. ve havuzdaki tüm IP adreslerinin kullanılmasına izin verir. net30, Windows 2.0.9 ya da daha eski istemciler tarafından desteklenen eski bir topolojidir. Her istemci için sanal bir /30 ayrılır, her istemci için 4 ve sunucu için de 4 IP adresi alınır.",
+    "remote_networks": "Bu alanı doldurmak isteğe bağlıdır. Bu tünel için özel güvenlik duvarı kuralları oluşturmanız gerekiyorsa uzak ağları yazın yoksa boş bırakılabilir."
   }
 }

@@ -324,7 +324,7 @@
         "remote": "DNS",
         "mac": "Indirizzo MAC",
         "add_mac_address": "Aggiungi MAC address",
-        "mac_addresses": "MAC addresse",
+        "mac_addresses": "MAC address",
         "mac_address": "Indirizzo MAC",
         "edit_mac_address": "Modifica MAC address",
         "mac_address_created_ok": "MAC address creato correttamente!",
@@ -567,7 +567,8 @@
         "valid_macAddress": "MAC address non valido",
         "mac_cannot_be_delete": "Questo MAC address non può essere eliminata perché è in uso",
         "must_be_one_of": "Deve essere uno fra",
-        "Not_valid_ipV4Address_or_CIDR": "Il valore deve essere un IP valido come '1.2.3.4' o una rete CIDR come '192.168.1.0/24'"
+        "Not_valid_ipV4Address_or_CIDR": "Il valore deve essere un IP valido come '1.2.3.4' o una rete CIDR come '192.168.1.0/24'",
+        "valid_memberOf_accept,drop": "The valid actions are 'Accept' or 'Drop'"
     },
     "docs": {
         "pf_origin_port": "Inserire una singola porta, una lista di porte separate da virgola o un intervallo di porte usando \":\" come separatore, tipo \"100:200\"",

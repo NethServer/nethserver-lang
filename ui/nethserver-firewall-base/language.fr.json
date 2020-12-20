@@ -567,7 +567,8 @@
         "valid_macAddress": "Adresse MAC non valide",
         "mac_cannot_be_delete": "Cette adresse MAC ne peut être supprimée car elle est en cours d'utilisation",
         "must_be_one_of": "Doit faire partie de",
-        "Not_valid_ipV4Address_or_CIDR": "Il doit s'agir d'une adresse IPv4 comme «1.2.3.4» ou d'un réseau CIDR comme «192.168.1.0/24»"
+        "Not_valid_ipV4Address_or_CIDR": "Il doit s'agir d'une adresse IPv4 comme «1.2.3.4» ou d'un réseau CIDR comme «192.168.1.0/24»",
+        "valid_memberOf_accept,drop": "The valid actions are 'Accept' or 'Drop'"
     },
     "docs": {
         "pf_origin_port": "Renseignez un port, une liste de ports séparés par un point-virgule ou une plage de ports en utilisant \":\" comme séparateur tel que \"100:200\"",

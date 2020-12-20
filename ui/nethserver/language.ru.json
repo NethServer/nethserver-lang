@@ -108,7 +108,8 @@
     "nethserver-sogo": "SOGo",
     "nethserver-hotsync": "HotSync",
     "nethserver-blacklist": "Защита от угроз",
-    "nethserver-mssql": "Microsoft SQL сервер"
+    "nethserver-mssql": "Microsoft SQL сервер",
+    "nethserver-business": "Business Cube"
   },
   "dashboard": {
     "title": "Рабочий стол",
@@ -323,7 +324,12 @@
     "restore_network": "Restore network configuration",
     "skip_network_info": "Current network configuration will be preserved, but some applications may be disabled at the end of the process. After restoring, review the system configuration to re-enable all required applications.",
     "format_disk": "Форматировать диск",
-    "format_disk_message": "Formatting will erase all data on this disk"
+    "format_disk_message": "Formatting will erase all data on this disk",
+    "DisplayTheResticPasswordEncryption": "Restic encryption secret for",
+    "PasswordEncrypt": "Encryption secret",
+    "ShowPasswordEncrypt": "Show restic secret",
+    "PasswordEncryptCreatedAfterSaved": "Encryption secret will be generated at the end of the wizard. To show it, click on the 'Show restic secret' button.",
+    "PasswordEncryptWarning":"The data saved inside the destination storage are encrypted using the 'Encryption secret' above. Please store the secret on a safe place. Without this secret, you will not be able restore the data backup."
   },
   "disk_usage": {
     "title": "Использование диска",
@@ -386,7 +392,12 @@
     "cert_encrypt_ok": "Let's encrypt запрошен!",
     "cert_encrypt_error": "Let's encrypt не был запрошен.",
     "cert_self_ok": "Самоподписанный сертификат изменён!",
-    "cert_self_error": "Самоподписанный сертификат не был изменён."
+    "cert_self_error": "Самоподписанный сертификат не был изменён.",
+    "add_Knowndomain": "Add all known FQDNs",
+    "delete": "Удалить",
+    "delete_certificate": "Delete the certificate",
+    "deletion_ok": "The certificate has been deleted",
+    "deletion_error": "The certificate has not been deleted"
   },
   "dns": {
     "title": "DNS",
@@ -1080,6 +1091,7 @@
     "subscription": "Подписка",
     "support_active": "Сессия удаленной поддержки активна",
     "hostname_should_not_contain_localdomain": "Имя хоста не должно содержать 'localdomain'",
+    "hostname_should_be_third_level_domain": "The hostname must have a second level domain suffix, like \"host.example.com\"",
     "first_hostname_part_maximum_length_15": "First hostname part must be maximum 15 characters lenght",
     "unmapped_interface_from_restore": "This interface has not been activated after the restore. Assign the role to a new interface or remove it",
     "network_recovery_mode": "The system is configured with a temporary IP address by the network-recovery tool: any change to this page will restore the network configuration as set below."
@@ -1123,7 +1135,6 @@
     "valid_ipV4Address": "Invalid address",
     "valid_ipV4Netmask": "Неверная сетевая маска IPv4: должно быть что-то вроде '255.255.255.0'",
     "all_domains_must_be_fqdn": "Все домены должны быть действительными FQDN (Fully Qualified Domain Name)",
-    "letencrypt_domain_failed": "Challenge failed for this domain(s)",
     "invalid_x509_ceritficate": "Сертификат X.509 (кодировка PEM)",
     "invalid_x509_key": "Закрытый ключ RSA или EC (кодировка PEM)",
     "cert_safetyguard": "Выбранный ECC-сертификат не совместим с текущей политикой TLS",
@@ -1213,7 +1224,10 @@
     "TokenValidationError": "Verification code is not valid.",
     "TokenValidationOK": "Verification code is valid!",
     "valid_hostname_0_9223372036854775807":"Invalid domain name, it must be something like 'domain.org'",
-    "Host_already_in_use_by_another_smarthost_relay": "This smart host is already used for another smart host relay, you cannot use it as default for the server"
+    "Host_already_in_use_by_another_smarthost_relay": "This smart host is already used for another smart host relay, you cannot use it as default for the server",
+    "letsencrypt_registration_failed_rate_limit_reached": "Rate limit reached. Please wait at least 3 hours before performing a new request or make sure to change your public IP address",
+    "letsencrypt_unknow_error":"Challenge failed, please see the error message below.",
+    "letsencrypt_domain_failed": "Challenge failed for this domain(s)"
   },
   "docs": {
     "more_info_about": "Больше информации о",

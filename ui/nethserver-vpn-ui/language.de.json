@@ -325,13 +325,16 @@
     "port_in_use": "Port wird schon verwendet",
     "invalid_certificate": "Zertifikat ungültig",
     "valid_minLength_8": "Mindestlänge ist 8 Zeichen",
-    "missing_wanpriority_rules": "Schnittstelle in Prioritätsreihenfolge fehlt"
+    "missing_wanpriority_rules": "Schnittstelle in Prioritätsreihenfolge fehlt",
+    "valid_notEmpty":"This field cannot be empty",
+    "valid_username":"Das erste Zeichen muss ein Buchstabe sein, danach nur Kleinbuchstaben, Zahlen und Symbole wie '-' und '_'"
   },
   "docs": {
     "more_info_about": "Mehr Info zu {docsLink}.",
     "right": "Bitte die statische öffentliche IP-Adresse angeben oder %any, wenn Remote eine dynamische öffentliche IP hat.",
     "vpn_remote_network": "Bitte diese Parameter nur konfigurieren, wenn mit diesem Konto ein Net-to-Net-VPN erstellt wird (kompatibel mit NethServer 6). Bitte diese Felder nicht erstellen, wenn ein Host für Net-VPN konfiguriert werden soll.",
     "vpn_remote_netmask": "Bitte dieses Feld nur erstellen, wenn das Feld Remote-Netzwerk bereits ausgefüllt wurde",
-    "topology_selection": "Die Subnetz-Topologie ist für die meisten Anwendungsfälle geeignet und ermöglicht die Verwendung aller IPs im Pool. Net30 ist eine alte Topologie für die Unterstützung von Windows-Clients mit Clients der Version 2.0.9 oder älter: Jedem Client wird eine virtuelle /30 zugewiesen, 4 IPs pro Client und 4 für den Server."
+    "topology_selection": "Die Subnetz-Topologie ist für die meisten Anwendungsfälle geeignet und ermöglicht die Verwendung aller IPs im Pool. Net30 ist eine alte Topologie für die Unterstützung von Windows-Clients mit Clients der Version 2.0.9 oder älter: Jedem Client wird eine virtuelle /30 zugewiesen, 4 IPs pro Client und 4 für den Server.",
+    "remote_networks": "This field is optional, enter remote networks if you need to create specific firewall rules for this tunnel, otherwise it can be left blank."
   }
 }
