@@ -100,7 +100,7 @@
         "reset": "Annulla",
         "warning_apply_changes": "Le nuove regole del firewall verranno applicate immediatamente. Le connessioni attive non verranno interrotte",
         "warning_restore_changes": "La configurazione attiva andrà perduta",
-        "warning_reset_changes": "Le nuove impostazioni verraano scartate",
+        "warning_reset_changes": "Le nuove impostazioni verranno scartate",
         "snat": "SNAT",
         "iprange": "Range IP",
         "cidr": "Reti",

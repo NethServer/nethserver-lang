@@ -487,7 +487,7 @@
         "portforward": "Redirecționare port",
         "enable_hairpinnat": "Activare NAT Hairpin",
         "application_level_gateway": "Application Layer Gateway (ALG)",
-        "enable_SipAlg": "Enable SIP-ALG and H.323-ALG"
+        "enable_SipAlg": "Activare SIP-ALG și H.323-ALG"
     },
     "logs": {
         "title": "Jurnale",
@@ -568,7 +568,7 @@
         "mac_cannot_be_delete": "Această adresă MAC nu poate fi ștearsă deoarece este în uz",
         "must_be_one_of": "Trebuie să fie una din",
         "Not_valid_ipV4Address_or_CIDR": "Trebuie să fie o adresă IPv4 precum „1.2.3.4” sau o rețea CIDR precum „192.168.1.0/24”",
-        "valid_memberOf_accept,drop": "The valid actions are 'Accept' or 'Drop'"
+        "valid_memberOf_accept,drop": "Acțiunile valide sunt „Acceptare” sau „Respingere”"
     },
     "docs": {
         "pf_origin_port": "Introdu un singur port, o listă de porturi separate prin virgulă sau un interval de porturi folosind „:” ca separator ca „100: 200”.",
@@ -582,6 +582,6 @@
         "network_services_system_services": "Serviciile de rețea pot fi adăugate în pagina Sistem -> Servicii",
         "rules_service": "Scrie numele unui serviciu de rețea care rulează pe firewall, altfel lasă necompletat pentru a se potrivi cu orice serviciu",
         "allow_only": "Restricționează accesul la redirecționarea porturilor numai dintr-o listă de adrese IP publice sau rețele (scrise în format CIDR). Adăugă câte o intrare pe linie. Lasă câmpul gol pentru a permite accesul oricui.",
-        "SipAlg": "ALG allows SIP and H.323 protocols to operate through NAT. When enabled, ALG will inspect and rewrite Voice over Internet Protocol (VoIP) network packets and open required ports. Try to disable this option only if you're experiencing audio and call problems with your PBX or VoIP client."
+        "SipAlg": "ALG permite protocoalelor SIP și H.323 să funcționeze prin NAT. Când este activat, ALG va inspecta și rescrie pachetele de rețea Voice over Internet Protocol (VoIP) și va deschide porturile necesare. Încercă să dezactivezi această opțiune numai dacă ai probleme audio și de apel cu clientul tău PBX sau VoIP."
     }
 }

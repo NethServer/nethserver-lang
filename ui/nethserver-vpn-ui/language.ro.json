@@ -174,7 +174,9 @@
     "lzo": "LZO",
     "lz4": "LZ4",
     "running": "Rulează",
-    "remote_server": "Server la distanță"
+    "remote_server": "Server la distanță",
+    "tunnel_config_uploaded_ok": "Configurația tunelului a fost încărcată corect",
+    "tunnel_config_uploaded_error": "Eroare de încărcare a configurației tunelului"
   },
   "openvpn_rw": {
     "menu_title": "OVPN RoadWarrior",
@@ -326,7 +328,7 @@
     "invalid_certificate": "Certificat invalid",
     "valid_minLength_8": "Lungimea minimă este de 8 caractere",
     "missing_wanpriority_rules": "Interfața lipsește în ordinea priorităților",
-    "valid_notEmpty":"This field cannot be empty",
+    "valid_notEmpty":"Acest câmp nu poate fi gol",
     "valid_username":"Primul caracter trebuie să fie o literă, apoi numai litere mici, cifre și simboluri de tipul '-' și '_'"
   },
   "docs": {
@@ -335,6 +337,6 @@
     "vpn_remote_network": "Configurează acești parametri numai dacă dorești să creezi un VPN Rețea la Rețea utilizând acest cont (compatibil cu NethServer 6). Nu compila aceste câmpuri dacă vrei să configurezi  un VPN Gazdă la Rețea.",
     "vpn_remote_netmask": "Compilează acest câmp numai dacă ai completat deja câmpul rețelei la distanță",
     "topology_selection": "Topologia de subrețea este potrivită pentru majoritatea cazurilor de utilizare și permite utilizarea tuturor IP-urilor din interiorul intervalului. Net30 este o topologie veche pentru asistență cu clienții Windows care rulează clienți 2.0.9 sau mai vechi: fiecărui client i se alocă un virtual / 30, luând 4 IP-uri pentru fiecare client, plus 4 pentru server.",
-    "remote_networks": "This field is optional, enter remote networks if you need to create specific firewall rules for this tunnel, otherwise it can be left blank."
+    "remote_networks": "Acest câmp este opțional, introdu rețele la distanță dacă trebuie să creezi reguli firewall specifice pentru acest tunel, altfel poate fi lăsat necompletat."
   }
 }

@@ -325,11 +325,11 @@
     "skip_network_info": "Configurația curentă a rețelei va fi păstrată, dar unele aplicații pot fi dezactivate la sfârșitul procesului. După restaurare, verifică configurația sistemului pentru a reactiva toate aplicațiile necesare.",
     "format_disk": "Formatare disc",
     "format_disk_message": "Formatarea va șterge toate datele de pe disc",
-    "DisplayTheResticPasswordEncryption": "Restic encryption secret for",
-    "PasswordEncrypt": "Encryption secret",
-    "ShowPasswordEncrypt": "Show restic secret",
-    "PasswordEncryptCreatedAfterSaved": "Encryption secret will be generated at the end of the wizard. To show it, click on the 'Show restic secret' button.",
-    "PasswordEncryptWarning":"The data saved inside the destination storage are encrypted using the 'Encryption secret' above. Please store the secret on a safe place. Without this secret, you will not be able restore the data backup."
+    "DisplayTheResticPasswordEncryption": "Cheie criptare Restic pentru",
+    "PasswordEncrypt": "Cheie criptare",
+    "ShowPasswordEncrypt": "Afișare cheie Restic",
+    "PasswordEncryptCreatedAfterSaved": "Cheia de criptare va fi generată la sfârșitul vrăjitorului. Pentru a o afișa, dă clic pe butonul „Afișare cheie Restic”.",
+    "PasswordEncryptWarning":"Datele salvate în spațiul de destinație sunt criptate folosind „Cheia de criptare” de mai sus. Te rog să păstrezi cheia într-un loc sigur. Fără această cheie nu vei putea restaura backup-ul datelor."
   },
   "disk_usage": {
     "title": "Utilizare disc",
@@ -393,11 +393,11 @@
     "cert_encrypt_error": "Let's encrypt nu a fost solicitat.",
     "cert_self_ok": "Certificat auto-semnat editat cu succes!",
     "cert_self_error": "Certificatul auto-semnat nu a fost editat.",
-    "add_Knowndomain": "Add all known FQDNs",
+    "add_Knowndomain": "Adaugă toate FQDN-urile cunoscute",
     "delete": "Șterge",
-    "delete_certificate": "Delete the certificate",
-    "deletion_ok": "The certificate has been deleted",
-    "deletion_error": "The certificate has not been deleted"
+    "delete_certificate": "Ștergere certificat",
+    "deletion_ok": "Certificatul a fost șters",
+    "deletion_error": "Certificatul nu a fost șters"
   },
   "dns": {
     "title": "DNS",
@@ -667,7 +667,7 @@
     "UserDN": "Utilizator DN",
     "GroupDN": "Grup DN",
     "StartTls": "STARTTLS",
-    "BindType": "Bind type",
+    "BindType": "Tip legătură",
     "edit_delegation": "Editează delegările pentru {name}"
   },
   "network": {
@@ -738,7 +738,7 @@
     "children": "Copii",
     "other": "Altul",
     "edit_logic_interface": "Editare interfață logică",
-    "add_logic_interface": "Adăugare interfață logică",
+    "add_logic_interface": "Adaugă interfață logică",
     "wizard_choose_role_title": "Alege rol pentru interfață",
     "wizard_choose_type_title": "Alege tipul de interfață",
     "wizard_choose_config": "Configurează protocol IP",
@@ -1091,7 +1091,7 @@
     "subscription": "Abonament",
     "support_active": "O sesiune de suport de la distanță este activă",
     "hostname_should_not_contain_localdomain": "Numele de gazdă nu ar trebui să conțină 'localdomain'",
-    "hostname_should_be_third_level_domain": "The hostname must have a second level domain suffix, like \"host.example.com\"",
+    "hostname_should_be_third_level_domain": "Numele de gazdă trebuie să aibă un sufix de domeniu de nivelul doi, cum ar fi „host.example.com”",
     "first_hostname_part_maximum_length_15": "Prima parte a numelui de gazdă trebuie să aibă o lungime mai mică de 15 caractere ",
     "unmapped_interface_from_restore": "Această interfață nu a fost activată după restaurare. Alocă rolul unei noi interfețe sau elimin-o",
     "network_recovery_mode": "Sistemul este configurat cu o adresă IP temporară de către instrumentul de recuperare a rețelei: orice modificare adusă acestei pagini va restabili configurația rețelei așa cum este setată mai jos."
@@ -1225,8 +1225,8 @@
     "TokenValidationOK": "Cod de verificare valid!",
     "valid_hostname_0_9223372036854775807":"Nume de domeniu invalid; trebuie să fie ceva de forma 'domeniu.ro'",
     "Host_already_in_use_by_another_smarthost_relay": "Aceast smarthost este deja folosit pentru un alt releu de smarthost; nu îl poți utiliza ca implicit pentru server",
-    "letsencrypt_registration_failed_rate_limit_reached": "Rate limit reached. Please wait at least 3 hours before performing a new request or make sure to change your public IP address",
-    "letsencrypt_unknow_error":"Challenge failed, please see the error message below.",
+    "letsencrypt_registration_failed_rate_limit_reached": "Limita a fost atinsă. Te rog să aștepți cel puțin 3 ore înainte de a efectua o nouă solicitare sau asigură-te că modifici adresa IP publică",
+    "letsencrypt_unknow_error":"Verificarea a eșuat, te rog să consulți mesajul de eroare de mai jos.",
     "letsencrypt_domain_failed": "Provocarea a eșuat pentru acest domeniu(ii)"
   },
   "docs": {

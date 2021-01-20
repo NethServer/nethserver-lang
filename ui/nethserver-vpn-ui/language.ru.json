@@ -174,7 +174,9 @@
     "lzo": "LZO",
     "lz4": "LZ4",
     "running": "Работает",
-    "remote_server": "Удалённый сервер"
+    "remote_server": "Удалённый сервер",
+    "tunnel_config_uploaded_ok": "Tunnel configuration correctly uploaded",
+    "tunnel_config_uploaded_error": "Tunnel configuration upload error"
   },
   "openvpn_rw": {
     "menu_title": "OVPN RoadWarrior",

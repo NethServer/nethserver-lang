@@ -494,7 +494,7 @@
         "Synchronization_info":"Informații sincronizare",
         "synchronization_informations_ok": "Informațiile de sincronizare au fost actualizate",
         "synchronization_informations_error": "Informațiile de sincronizare nu au fost actualizate",
-        "Exclude": "Exclude folders"
+        "Exclude": "Exclude dosarele"
     },
     "docs": {
         "more_info_about": "Mai multe informații despre",
@@ -517,7 +517,7 @@
         "lifetime": "O valoare 0 înseamnă reîncercare o singură dată.",
         "DeleteDestination": "Ștergere mesaje de pe serverul local care nu sunt pe serverul la distanță. Util pentru copie de siguranță sau sincronizare.",
         "imapsync":"Imapsync",
-        "Exclude_Folders": "The exclusion works with regular expression rules. When excluding the 'Foo' folder, all folders matching 'Foo' in the name will be excluded from the synchronization. To force an exact match, start the exclusion folder name by '^' and end it by '$' like ^Foo$. Add one entry per line."
+        "Exclude_Folders": "Excluderea funcționează cu reguli de expresie normale. La excluderea dosarului „Foo”, toate dosarele care conțin „Foo” în nume vor fi excluse din sincronizare. Pentru a forța o potrivire exactă, începe numele dosarului de exclus cu „^” și încheie-l cu „$” ca ^ Foo $. Adăugă o intrare pe linie."
     },
     "mailbox": {
         "public_created_ok": "Cutie poștală publică creată cu succes",
