@@ -568,7 +568,7 @@
         "mac_cannot_be_delete": "Diese MAC-Adresse kann nicht gelöscht werden, da sie verwendet wird",
         "must_be_one_of": "Muß eine von sein",
         "Not_valid_ipV4Address_or_CIDR": "Der Wert muss eine IP-Adresse wie '1.2.3.4' oder CIDR-Netzwerk wie '192.168.1.0/24' sein.",
-        "valid_memberOf_accept,drop": "The valid actions are 'Accept' or 'Drop'"
+        "valid_memberOf_accept,drop": "Gültige Aktionen sind 'Akzeptieren' oder 'Sperren'"
     },
     "docs": {
         "pf_origin_port": "Bitte einen einzelnen Port, eine Liste mit durch Kommas getrennten Ports oder einen Portbereich einfügen, der \":\" als Trennzeichen verwendet, wie \"100: 200\".",

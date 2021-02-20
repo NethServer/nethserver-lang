@@ -325,11 +325,11 @@
     "skip_network_info": "Die aktuelle Netzwerkkonfiguration bleibt erhalten, einige Anwendungen werden jedoch möglicherweise am Ende des Vorgangs deaktiviert. Bitte nach dem Wiederherstellen die Systemkonfiguration überprüfen, um alle erforderlichen Anwendungen wieder zu aktivieren.",
     "format_disk": "Festplatte formatieren",
     "format_disk_message": "Formatieren wird alle Daten auf der Disk zerstören",
-    "DisplayTheResticPasswordEncryption": "Restic encryption secret for",
-    "PasswordEncrypt": "Encryption secret",
-    "ShowPasswordEncrypt": "Show restic secret",
-    "PasswordEncryptCreatedAfterSaved": "Encryption secret will be generated at the end of the wizard. To show it, click on the 'Show restic secret' button.",
-    "PasswordEncryptWarning":"The data saved inside the destination storage are encrypted using the 'Encryption secret' above. Please store the secret on a safe place. Without this secret, you will not be able restore the data backup."
+    "DisplayTheResticPasswordEncryption": "Restic Verschlüsselungscode für",
+    "PasswordEncrypt": "Verschlüsselungscode",
+    "ShowPasswordEncrypt": "Verschlüsselungscode anzeigen",
+    "PasswordEncryptCreatedAfterSaved": "Der Verschlüsselungscode wird am Ende des Assistenten generiert. Zum Anzeigen bitte auf \"Verschlüsselungscode anzeigen\" klicken",
+    "PasswordEncryptWarning":"Die im Zielspeicher gespeicherten Daten werden mit dem oben genannten \"Verschlüsselungscode\" verschlüsselt. Bitte den Code an einem sicheren Ort aufbewahren. Ohne diesen Code kann man die Datensicherung nicht wiederherstellen."
   },
   "disk_usage": {
     "title": "Plattenverbrauch",
@@ -349,7 +349,7 @@
     "title": "Zertifikate",
     "upload_certificates": "Zertifikat hochladen",
     "edit_self_signed": "Selbstsigniertes Zertifikat bearbeiten",
-    "request_lets_encrypt": "Let's Encrypt Zertifikat anfordern",
+    "request_lets_encrypt": "Let's Encrypt certificate",
     "name": "Name",
     "file": "Datei",
     "issuer": "Anforderer",
@@ -377,7 +377,6 @@
     "domain": "Domäne",
     "domains": "Domänen",
     "add_domain": "Domäne hinzufügen",
-    "renew_days": "Tage verlängern",
     "request": "Anforderung",
     "cockpit_reload_warning_title": "Bemerkung",
     "cockpit_reload_warning_message": "Das neue Zertifikat wird auf dem Cockpit-Server 90 Sekunden nachdem der letzte Benutzer sich abgemeldet hat angewendet. ",
@@ -393,11 +392,11 @@
     "cert_encrypt_error": "Let's encrypt-Anforderung fehlgeschlagen.",
     "cert_self_ok": "Selbstsigniertes Zertifikat erfolgreich bearbeitet!",
     "cert_self_error": "Selbstsigniertes Zertifikat nicht bearbeitet.",
-    "add_Knowndomain": "Add all known FQDNs",
+    "add_Knowndomain": "Alle bekannten FQDNs hinzufügen",
     "delete": "Entfernen",
-    "delete_certificate": "Delete the certificate",
-    "deletion_ok": "The certificate has been deleted",
-    "deletion_error": "The certificate has not been deleted"
+    "delete_certificate": "Das Zertifikat löschen",
+    "deletion_ok": "Das Zertifikat wurde gelöscht",
+    "deletion_error": "Das Zertifikat wurde nicht gelöscht"
   },
   "dns": {
     "title": "DNS",
@@ -737,8 +736,8 @@
     "missing": "Fehlt",
     "children": "Kinder",
     "other": "Andere",
-    "edit_logic_interface": "Edit logical interface",
-    "add_logic_interface": "Add logical interface",
+    "edit_logic_interface": "Logische Schnittstelle ändern",
+    "add_logic_interface": "Logische Schnittstelle hinzufügen",
     "wizard_choose_role_title": "Bitte Rolle für die Schnittstelle wählen",
     "wizard_choose_type_title": "Bitte Schnittstellenart wählen",
     "wizard_choose_config": "IP-Protokoll konfigurieren",
@@ -1091,7 +1090,7 @@
     "subscription": "Abonnement",
     "support_active": "Eine Remote-Unterstützungs-Sitzung ist aktiv.",
     "hostname_should_not_contain_localdomain": "Der Hostname sollte 'localdomain' nicht enthalten",
-    "hostname_should_be_third_level_domain": "The hostname must have a second level domain suffix, like \"host.example.com\"",
+    "hostname_should_be_third_level_domain": "Der Hostname muss über ein Domänensuffix der zweiten Ebene verfügen, z. B. \"host.example.com\"",
     "first_hostname_part_maximum_length_15": "Der erste Teil des Hostnamens darf maximal 15 Zeichen lang sein.",
     "unmapped_interface_from_restore": "Diese Schnittstelle ist nach der Wiederherstellung nicht aktiviert worden. Ordnen Sie die Rolle einer neuen Schnittstelle zu oder entfernen Sie sie",
     "network_recovery_mode": "Das System wird durch das Netzwerk-Wiederherstellungs-Tool mit einer temporären IP-Adresse konfiguriert: Jede Änderung an dieser Seite stellt die Netzwerkkonfiguration wie unten angegeben wieder her."
@@ -1225,8 +1224,8 @@
     "TokenValidationOK": "Prüfcode ist gültig!",
     "valid_hostname_0_9223372036854775807":"Ungültiger Domainname, es muss so etwas wie 'domain.org' sein.",
     "Host_already_in_use_by_another_smarthost_relay": "Dieser Smarthost wird bereits für ein anderes Smart-Host-Relay verwendet. Man kann ihn nicht als Standard für den Server verwenden",
-    "letsencrypt_registration_failed_rate_limit_reached": "Rate limit reached. Please wait at least 3 hours before performing a new request or make sure to change your public IP address",
-    "letsencrypt_unknow_error":"Challenge failed, please see the error message below.",
+    "letsencrypt_registration_failed_rate_limit_reached": "Grenzwert erreicht. Bitte mindestens 3 Stunden warten, bis zur nächsten Anfrage oder öffentliche IP-Adresse ändern",
+    "letsencrypt_unknow_error":"Aufgabe fehlgeschlagen, siehe Fehlermeldung unten.",
     "letsencrypt_domain_failed": "Prüfung für diese Domain(s) fehlgeschlagen"
   },
   "docs": {
