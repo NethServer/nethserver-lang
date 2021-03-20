@@ -168,6 +168,7 @@
         "search_domain": "Bu etki alanının IP kara listesi tarafından engellenme durumunu denetle",
         "search_ip_or_domain": "Bu IP adresinin ya da etki alanının IP ya da DNS kara listesi tarafından engellenme durumunu denetle",
         "whitelist_dns": "Bu kaynaklardan yapılan DNS istekleri DNS vekil sunucusuna yönlendirilmeyecek",
+        "whitelist_blacklist": "Bir kara liste kategorisinde bulunsalar bile, belirtilen uzak sunuculardan gelen/giden ağ trafiğine her zaman izin verilir.",
         "dns_zones": "Bu bölgelerden yapılan DNS istekleri 1153 numaralı kapıyı dinleyen DNS süzgecine yönlendirilecek"
     }
 }

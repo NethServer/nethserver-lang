@@ -3,12 +3,12 @@
         "title": "Настройки",
         "official_signatures": "ClamAV official signatures",
         "unofficial_signatures_rating": "Third-party signatures rating",
-        "error_reading_configuration": "Error reading antivirus configuration",
-        "error_validating_configuration": "Error validating antivirus configuration",
-        "configuration_update_successful": "Configuration update successful",
-        "configuration_update_failed": "Configuration update failed",
+        "error_reading_configuration": "Ошибка чтения конфигурации антивируса",
+        "error_validating_configuration": "Ошибка проверки конфигурации антивируса",
+        "configuration_update_successful": "Обновление конфигурации выполнено успешно",
+        "configuration_update_failed": "Ошибка обновления конфигурации",
         "info_notification": "Signatures are downloaded at hourly intervals. Changes to this page will take effect on next automatic signatures download.",
-        "error_reading_total_memory": "Error reading total memory",
+        "error_reading_total_memory": "Ошибка чтения общей памяти",
         "memory_warning": "The system has less than 4GB of RAM. You're strongly advised to disable official ClamAV signatures to avoid memory filling."
     },
     "about": {
@@ -26,19 +26,19 @@
         "error_getting_clamav_instances": "Error getting ClamAV instances"
     },
     "dashboard":{
-        "title": "Antivirus dashboard",
+        "title": "Панель управления антивируса",
         "app": "Антивирус",
-        "email_protection": "Email protection",
-        "web_protection": "Web protection",
-        "error_getting_dashboard_data": "Error getting dashboard data",
-        "malware_found": "Malware found",
-        "signatures_loaded": "Signatures loaded",
+        "email_protection": "Защита почты",
+        "web_protection": "Защита Web трафика",
+        "error_getting_dashboard_data": "Ошибка при получении данных панели управления",
+        "malware_found": "Обнаружено вредоносное ПО",
+        "signatures_loaded": "Сигнатуры загружены",
         "status": "Состояние",
-        "no_data_available": "No data available",
+        "no_data_available": "Данные недоступны",
         "other": "Другой",
-        "memory_used": "Memory used",
+        "memory_used": "Используемая память",
         "since": "с",
-        "no_instance_installed": "No ClamAV instance installed"
+        "no_instance_installed": "Служба ClamAV не установлена"
     },
     "docs": {
         "official_signatures": "Official ClamAV signatures use a large amount of memory. Official signatures detect many old threats but are not very effective against the latest malware.",

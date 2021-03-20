@@ -349,7 +349,7 @@
     "title": "Certificats",
     "upload_certificates": "Téléverser certificat",
     "edit_self_signed": "Éditer le certificat auto-signé",
-    "request_lets_encrypt": "Let's Encrypt certificate",
+    "request_lets_encrypt": "Certificat Let's Encrypt",
     "name": "Nom",
     "file": "Fichier",
     "issuer": "Émetteur ",
@@ -394,7 +394,7 @@
     "cert_self_error": "Certificat auto-signé non édité.",
     "add_Knowndomain": "Add all known FQDNs",
     "delete": "Supprimer",
-    "delete_certificate": "Delete the certificate",
+    "delete_certificate": "Supprimer le certificat",
     "deletion_ok": "The certificate has been deleted",
     "deletion_error": "The certificate has not been deleted"
   },
@@ -667,7 +667,8 @@
     "GroupDN": "Groupe DN",
     "StartTls": "STARTTLS",
     "BindType": "Bind type",
-    "edit_delegation": "Modifier les délégations de {name}"
+    "edit_delegation": "Modifier les délégations de {name}",
+    "total": "Total"
   },
   "network": {
     "title": "Réseau",
@@ -896,6 +897,8 @@
     "user_settings_page_urls_explain": "Ces URL sont obtenues par des alias de serveur et des adresses IP sur des interfaces vertes et rouges.",
     "password_updated_error_1": "Mot de passe non modifié. Veiller à ce que",
     "password_updated_error_2": "Ancien mot de passe",
+    "smarthost_test_configuration": "Configuration",
+    "smarthost_send_an_email": "Send test mail",
     "password_updated_error_3": "est correct"
   },
   "logs": {
@@ -1257,6 +1260,7 @@
     "disaster_recovery": "Récupération après sinistre",
     "user_settings_page": "Autoriser les utilisateurs à modifier leur mot de passe et d'autres paramètres sur une page Web en dehors de Cockpit (sur le port 443). Cette fonctionnalité ne peut être activée que si «Remplacer le shell des utilisateurs» est également activé.",
     "OtpR2WOath_Auth": "La politique VPN nécessite l'utilisation d'OTP pour accéder au réseau.",
+    "smarthost_encrypt": "Encryption on port 465 (SMTPS) is not supported, only StartTLS is supported (default port 587)",
     "older_ssh_client_might_not_connect": "Le renforcement de SSH pourrait empêcher les anciens clients de se connecter au serveur. Le transfert de gros fichiers peut être plus lent avec des chiffrements puissants. La clé d'hôte changera après le redémarrage et les clients devront l'accepter à nouveau."
   }
 }

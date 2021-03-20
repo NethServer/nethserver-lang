@@ -667,7 +667,8 @@
     "GroupDN": "Grup Ayrılmış Adı (Group DN)",
     "StartTls": "STARTTLS",
     "BindType": "Bağlantı türü",
-    "edit_delegation": "{name} atamalarını düzenle"
+    "edit_delegation": "{name} atamalarını düzenle",
+    "total": "Toplam"
   },
   "network": {
     "title": "Ağ",
@@ -896,6 +897,8 @@
     "user_settings_page_urls_explain": "Bu adresler yeşil ve kırmızı arabirimlerin sunucu kısaltmaları ve IP adreslerinden alınır.",
     "password_updated_error_1": "Parola değiştirilemedi. Şundan emin olun",
     "password_updated_error_2": "eski parola",
+    "smarthost_test_configuration": "Yapılandırma",
+    "smarthost_send_an_email": "Deneme e-postası gönder",
     "password_updated_error_3": "doğru"
   },
   "logs": {
@@ -1257,6 +1260,7 @@
     "disaster_recovery": "Felaket kurtarma",
     "user_settings_page": "Kullanıcıların parola ve diğer ayarlarını Cockpit dışındaki bir web sayfasından (443 numaralı kapı üzerinden) değiştirebilmesini sağlar. Bu özellik yalnız 'Kabuk kullanıcılarını değiştir' seçeneği etkinleştirilmiş ise etkinleştirilebilir.",
     "OtpR2WOath_Auth": "VPN ilkesi ağa erişmek için tek kullanımlık parola kullanılmasını zorunlu kılıyor.",
+    "smarthost_encrypt": "465 (SMTPS) kapı numarası üzerinde şifreleme desteklenmez. Yalnız StartTLS desteklenir (varsayılan kapı numarası 587)",
     "older_ssh_client_might_not_connect": "SSH güvenliğini sıkılaştırmak eski istemcilerin bu sunucuya bağlanmasını engelleyebilir. Daha güçlü şifreleyiciler kullanıldığında büyük dosya aktarımları yavaşlayabilir. Sunucu yeniden başlatıldıktan sonra sunucu anahtarı değişmiş olacak ve istemcilerin yeni anahtarı onaylaması gerekecek."
   }
 }

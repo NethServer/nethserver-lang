@@ -168,6 +168,7 @@
         "search_domain": "Verificare dacă domeniul este blocat de lista neagră DNS",
         "search_ip_or_domain": "Verificare dacă acest IP sau domeniul este blocat de lista neagră IP sau DNS",
         "whitelist_dns": "Cererile DNS de la această sursă nu vor fi redirecționate către proxy-ul DNS",
+        "whitelist_blacklist": "Always allow network traffic from/to given remote hosts, even if they are part of a blacklist category",
         "dns_zones": "Cererile DNS care provin din aceste zone vor fi redirecționate către filtrul DNS de pe portul 1153"
     }
 }

@@ -28,7 +28,7 @@
     "saturday": "Samstag",
     "sunday": "Sonntag",
     "anonymization": "Anonymisierung",
-    "max_entries": "Max.Einträge",
+    "max_entries": "Max. Einträge",
     "test_mail": "Test-Mail",
     "send_mail": "Mail versenden",
     "send": "Senden",
@@ -36,8 +36,8 @@
     "include_configured_addresses": "Konfigurierte Adressen einschließen",
     "invalid_dns": "Das Feld \"öffentlicher Host\" verwendet einen privaten DNS-Namen: Report wird nicht von Internet erreichbar sein.",
     "mining_configuration": "Datensammlung",
-    "missing_miners": "Kein Dazen bisher gesammelt. Warten Sie bis morgen oder clicken Sie 'Sammle jetzt'.",
-    "mining_now": "Sammle jetzt"
+    "missing_miners": "Kein Daten bisher gesammelt. Warten Sie bis morgen oder klicken Sie auf 'jetzt sammeln'.",
+    "mining_now": "jetzt sammeln"
   },
   "about": {
     "title": "Über",

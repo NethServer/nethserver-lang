@@ -168,6 +168,7 @@
         "search_domain": "Vérifiez si ce domaine n'est pas bloqué par une liste noire de DNS",
         "search_ip_or_domain": "Vérifiez si cette IP n'est pas bloquée par une liste noire d'IP ou de  DNS",
         "whitelist_dns": "Les requêtes DNS de ces sources ne seront pas redirigées vers le proxy DNS",
+        "whitelist_blacklist": "Always allow network traffic from/to given remote hosts, even if they are part of a blacklist category",
         "dns_zones": "Les requêtes DNS provenant de ces zones seront redirigées vers le filtre DNS en écoute sur le port 1153"
     }
 }

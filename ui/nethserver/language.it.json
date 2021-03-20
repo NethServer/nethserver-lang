@@ -667,7 +667,8 @@
     "GroupDN": "Group DN",
     "StartTls": "STARTTLS",
     "BindType": "Tipo di bind",
-    "edit_delegation": "Modifica deleghe di {nome}"
+    "edit_delegation": "Modifica deleghe di {nome}",
+    "total": "Totale"
   },
   "network": {
     "title": "Rete",
@@ -896,6 +897,8 @@
     "user_settings_page_urls_explain": "Questi indirizzi sono ricavati dagli alias del server e dagli indirizzi IP delle interface green e red.",
     "password_updated_error_1": "Password non modificata. Assicurarsi che",
     "password_updated_error_2": "la vecchia password",
+    "smarthost_test_configuration": "Configurazione",
+    "smarthost_send_an_email": "Invia mail di prova",
     "password_updated_error_3": "è corretta"
   },
   "logs": {
@@ -1257,6 +1260,7 @@
     "disaster_recovery": "Ripristino di emergenza",
     "user_settings_page": "Permetti agli utenti di cambiare la password e altre impostazioni su una pagina web fuori da Cockpit (sulla porta 443). Questa funzionalità può essere abilitata solo se anche 'Ignora la shell degli utenti' è abilitato.",
     "OtpR2WOath_Auth": "La policy VPN richiede l'uso di un OTP per accedere alla rete.",
+    "smarthost_encrypt": "Encryption on port 465 (SMTPS) is not supported, only StartTLS is supported (default port 587)",
     "older_ssh_client_might_not_connect": "Applicare l'hardening alla configurazione di SSH può impedire la connessione ai vecchi client. Il trasferimento di file di grandi dimensioni può essere più lento con cifrari forti, La chiave dell'host sarà modificata e i client dovranno accettarla nuovamente. "
   }
 }
