@@ -494,6 +494,8 @@
         "Synchronization_info":"Eşitleme bilgileri",
         "synchronization_informations_ok": "Eşitleme bilgileri güncellendi",
         "synchronization_informations_error": "Eşitleme bilgileri güncellenmedi",
+        "TrashSync": "Çöp Kutusu Eşitlensin",
+        "DefaultExclusion": "Varsayılan katılmayacaklar",
         "Exclude": "Katılmayacak klasörler"
     },
     "docs": {
@@ -517,6 +519,7 @@
         "lifetime": "0 değeri yalnız bir kez deneneceği anlamına gelir.",
         "DeleteDestination": "Uzak sunucuda olmayan iletiler yerel sunucudan silinsin. Yedekleme ya da ön eşitleme için kullanışlıdır.",
         "imapsync":"Imapsync",
+        "TrashSync":"Gerçek çöp kutusu klasörünün adı, IMAP istemcisi yapılandırmasına bağlıdır. Çöp kutusu klasör adı 'Çöp Kutusu (Trash)' ya da 'Silinmiş Ögeler (Deleted Items)' ile başlamıyorsa, bu seçeneğin bir etkisi yoktur.",
         "Exclude_Folders": "Katılmayacaklar, kurallı ifadeler ile çalışır. 'Foo' klasörü katılmadığında, adında 'Foo' geçen klasörlerin hiçbiri eşitlenmez. Tam eşitlemenin dayatılması için, katılmayacak ^Foo$ örneğindeki gibi, klasör adının başına '^', sonuna '$' karakterlerini ekleyin. Her klasörü ayrı bir satıra yazın."
     },
     "mailbox": {
@@ -560,6 +563,7 @@
         "reserved_for_builtin": "Bu ad içsel takma adlar için ayırtılmış",
         "pseudonym_not_found": "Takma ad bulunamadı",
         "account_cant_be_empty": "Hedef boş olamaz",
+        "unallowed_self_loop": "Hedef kendisini gösteremez",
         "mailbox_not_found": "E-posta kutusu bulunamadı",
         "unsupported_type": "Hedef türü desteklenmiyor",
         "builtin_not_found": "İç takma ad bulunamadı",

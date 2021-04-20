@@ -120,6 +120,12 @@
     "no_acls_support_title": "Accesul la dosarele partajate este posibil doar în modul guest",
     "no_acls_support_message": "Pentru a activa autentificarea Samba și opțiunile de acces speciale configurează un furnizor de conturi Active Directory.",
     "update_at": "Dimensiunile fișierelor actualizate la",
+    "item_disable_button": "Dezactivează",
+    "item_enable_button": "Activează",
+    "ibay_enabled_ok": "Dosarul partajat a fost activat",
+    "ibay_disabled_ok": "Dosarul partajat a fost dezactivat",
+    "ibay_enabled_Failed": "Activarea dosarului partajat a eșuat",
+    "ibay_disabled_Failed": "Dezactivarea dosarului partajat a eșuat",
     "not_available": "Nedisponibil"
   },
   "audit": {
@@ -184,7 +190,8 @@
     "valid_hostname_simple_0_0": "Trebuie să fie un nume de gazdă simplu, cum ar fi 'WORKGROUP'",
     "group_not_found": "Alege grupul proprietar",
     "valid_maxLength_15": "Lungimea maximă este de 15 caractere",
-    "malformed_acls": "Valoarea ACL {value} nu poate fi aplicată"
+    "malformed_acls": "Valoarea ACL {value} nu poate fi aplicată",
+    "must_be_ascii": "Trebuie să conțină numai caractere ASCII; caracterele speciale nu sunt valide"
   },
   "advanced_mode": "Opțiuni avansate"
 }

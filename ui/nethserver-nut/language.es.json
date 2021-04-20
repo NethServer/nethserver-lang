@@ -16,32 +16,32 @@
     "model": "Modelo",
     "driver": "Controlador",
     "device": "Dispositivo",
-    "device_usb_auto": "USB (automatico)",
+    "device_usb_auto": "USB (automático)",
     "device_ttyS0": "COM1 (ttyS0) ",
     "device_ttyS1": "COM2 (ttyS1) ",
     "device_ttyS2": "COM3 (ttyS2) ",
     "device_ttyUSB0": "USB2Serial (ttysUSB0)",
     "device_ttyUSB1": "USB2Serial (ttysUSB1) ",
-    "ups_credentials": "UPS credentials",
-    "ups_name": "UPS name",
-    "ups_user": "UPS user",
-    "password_for_clients": "Password for clients",
+    "ups_credentials": "Credenciales de UPS",
+    "ups_name": "Nombre de UPS",
+    "ups_user": "Usuario de UPS",
+    "password_for_clients": "Contraseña para clientes",
     "server_address": "Dirección del Servidor",
     "password": "Contraseña",
-    "configuration_saved": "Configuration saved succesfully",
-    "configuration_failed": "Configuration not saved",
-    "master_validation": "Server address must be a valid hostname",
-    "password_validation": "Password must not be empty",
-    "ups_name_validation": "UPS name must not be empty",
-    "ups_user_validation": "UPS user must be a valid username",
-    "driver_validation": "Please search for a model and choose a driver",
-    "search_for_model": "Search for model",
-    "hostname_or_ip_address": "Hostname or IP address"
+    "configuration_saved": "Configuración guardada con éxito",
+    "configuration_failed": "Configuración no guardada",
+    "master_validation": "La dirección del servidor debe ser un nombre de host válido",
+    "password_validation": "La contraseña no debe estar vacía",
+    "ups_name_validation": "El nombre de UPS no debe estar vacío",
+    "ups_user_validation": "El usuario de UPS debe ser un nombre de usuario válido.",
+    "driver_validation": "Busque un modelo y elija un controlador",
+    "search_for_model": "Buscar modelo",
+    "hostname_or_ip_address": "Nombre de host ó la dirección IP"
   },
   "about": {
     "title": "Acerca de",
     "website": "Sitio Web",
-    "bug_tracker": "Seguidor de fallas"
+    "bug_tracker": "Rastreador de fallas"
   },
   "logs": {
     "title": "Logs",
@@ -51,7 +51,7 @@
     "filter_label": "Filtro Regexp"
   },
   "dashboard":{
-    "title": "UPS dashboard",
+    "title": "Panel de Control de UPS",
     "app": "UPS",
     "load": "Carga",
     "battery_charge": "Carga de la batería",
@@ -60,20 +60,20 @@
     "input_voltage": "Voltaje de entrada",
     "output_voltage": "Voltaje de salida",
     "temperature": "Temperatura",
-    "full_status": "Full status",
+    "full_status": "Estado completo",
     "details": "Detalles",
     "battery_runtime": "Duración de la batería",
     "battery_voltage": "Voltaje de batería",
     "minutes": "minutos",
-    "clients_connected": "Clients connected",
-    "ups_clients": "UPS clients",
-    "ups_not_configured": "UPS not configured",
-    "empty_state": "Configuration is incomplete or incorrect. Click the button below to configure",
+    "clients_connected": "Clientes conectados",
+    "ups_clients": "Clientes de UPS",
+    "ups_not_configured": "UPS no configurado",
+    "empty_state": "La configuración está incompleta o es incorrecta. Haga clic en el botón de abajo para configurar ",
     "online": "En línea",
     "offline": "Fuera de línea",
     "empty_piechart_label": "Las estadisticas no estan disponibles"
   },
   "docs": {
-    "model": "Manufacturer is shown in bold, it is followed by model name and support level (number of stars)."
+    "model": "El fabricante se muestra en negrita, seguido del nombre del modelo y el nivel de soporte (número de estrellas). "
   }
 }

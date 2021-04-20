@@ -30,7 +30,6 @@
         "BanLocalNetwork": "Yerel ağda engelleme yapılabilsin",
         "LogLevel": "Günlükleme Düzeyi",
         "LogLevel_INFO": "BİLGİ",
-        "LogLevel_DEBUG": "HATA AYIKLAMA",
         "LogLevel_NOTICE": "BİLDİRİM",
         "LogLevel_WARNING": "UYARI",
         "LogLevel_ERROR": "HATA",
@@ -123,7 +122,7 @@
         "valid_memberOf_enabled, disabled": "Etkinleştirilebilir ya da etkisizleştirilebilir",
         "valid_memberOf_true, false": "Doğru ya da yanlış olabilir",
         "valid_integer": "Bir pozitif tamsayı olmalıdır",
-        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "KRİTİK, HATA; UYARI, BİLDİRİM, BİLGİ ya da HATA AYIKLAMA üyesi olmalıdır",
+        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO": "KRİTİK, HATA; UYARI, BİLDİRİM ya da BİLGİ üyesi olmalıdır",
         "0_0_0_0_network_is_prohibited": "0.0.0.0/0 ağı beyaz listeye eklenemez: Aralık çok geniş."
     },
     "docs":{

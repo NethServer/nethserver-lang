@@ -1,17 +1,17 @@
 {
     "settings": {
         "title": "Ajustes",
-        "before_using_flashstart": "Antes de usar FlasStar ud necesita crear una cuenta accediendo",
+        "before_using_flashstart": "Antes de utilizar FlashStart, debe crear una cuenta accediendo",
         "enable_flashstart_filter": "Habilitar filtros FlashStart",
         "username_email": "Nombre de usuario (e-mail)",
         "password": "Contraseña",
         "username_validation": "Nombre de usuario invalido",
-        "username_validation_bad_login": "Accceso fallido, Nombre de usuario o password incorrecto",
-        "password_validation": "Contraseña invalido",
-        "password_validation_bad_login": "Accceso fallido, Nombre de usuario o password incorrecto",
+        "username_validation_bad_login": "Error de inicio de sesión. Nombre de usuario o contraseña incorrecta ",
+        "password_validation": "Contraseña invalida",
+        "password_validation_bad_login": "Error de inicio de sesión. Nombre de usuario o contraseña incorrecta ",
         "bypass_validation": "Esto debe ser una lista de direcciones ip validas",
         "error_reading_flashstart_configuration": "Error leyendo la configuracion de FlashStart",
-        "flashstart_auth": "Autenticacion de FlashStart",
+        "flashstart_auth": "Autenticación de FlashStart",
         "networks_to_filter": "Redes a filtrar",
         "green_network_description": "Redes locales (verde)",
         "blue_network_description": "Redes de invitados (Azul)",
@@ -19,29 +19,29 @@
         "error_reading_network_roles_configuration": "Error leyendo la configuracion de roles de red",
         "bypass": "Desvio",
         "bypass_source_ips": "Desviar IPs de origen (una por linea)",
-        "configuration_update_successful": "Configuracion actualizada",
-        "configuration_update_failed": "Actualizacion de configuracion fallida",
-        "dns_configuration": "FlashStar no requiere ninguna configuracion de DNS ya sea en Nethsecurity o los clientes"
+        "configuration_update_successful": "Configuración actualizada",
+        "configuration_update_failed": "Actualización de configuración fallida",
+        "dns_configuration": "FlashStart no requiere ninguna configuración de DNS ni en Nethsecurity ni en clientes"
     },
     "about": {
         "title": "Acerca de",
         "website": "Sitio Web",
-        "bug_tracker": "Seguidor de fallas"
+        "bug_tracker": "Rastreador de fallas"
     },
     "dashboard":{
         "title": "Panel de Control",
         "error_retrieving_dashboard_data": "Error recuperando los datos del panel de control",
         "flashstart_enabled": "FlashStart habilitado",
-        "authentication_status": "Estado de autenticacion",
-        "cloud_portal": "Filter configuration",
-        "access": "Edit on cloud portal"
+        "authentication_status": "Estado de autenticación",
+        "cloud_portal": "Configuración de filtro",
+        "access": "Editar en la nube"
     },
     "actions": "Acciones",
     "delete": "Borrar",
     "next": "Siguiente",
     "prev": "Anterior",
     "of": "de",
-    "rows_per_page": "Filas por pagina",
+    "rows_per_page": "Filas por página",
     "search": "Buscar",
     "all": "Todo",
     "save": "Guardar",

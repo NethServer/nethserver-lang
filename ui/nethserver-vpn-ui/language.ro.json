@@ -329,6 +329,7 @@
     "valid_minLength_8": "Lungimea minimă este de 8 caractere",
     "missing_wanpriority_rules": "Interfața lipsește în ordinea priorităților",
     "valid_notEmpty":"Acest câmp nu poate fi gol",
+    "ipsec_tunnel_name_cannot_contain_spaces": "Tunnel name can't contain spaces",
     "valid_username":"Primul caracter trebuie să fie o literă, apoi numai litere mici, cifre și simboluri de tipul '-' și '_'"
   },
   "docs": {

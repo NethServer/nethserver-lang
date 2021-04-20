@@ -2,19 +2,19 @@
     "settings": {
         "title": "Ajustes",
         "settings_description_1": "Todo servidor tienen una lista de alarmas definidas por defecto. Solo algunas alarmas pueden ser personalizadas",
-        "settings_description_2": "Esta pagina lista solamente las alarmas  personalizadas de ",
+        "settings_description_2": "Esta página enumera solo las alarmas personalizadas de",
         "settings_description_3": "Por defecto, los cambios realizados en el centro de Operaciones de Nethesis se aplican cada noche.",
-        "settings_description_4": "Use el boton \"Descargar configuracion de alertas\" para forzar la descarga de configuraciones.",
+        "settings_description_4": "Use el botón \"Descargar configuración de alertas\" para forzar la descarga de configuraciones.",
         "enable_automatic_download_alerts": "Descarga automatica de las alertas personalizadas (recomendado)",
-        "error_reading_subscription_configuration": "Error leyendo la configuracion de subscripcion",
-        "configuration_updated": "Configuracion actualizada",
-        "error_updating_configuration": "Error actualizando la configuracion",
+        "error_reading_subscription_configuration": "Error leyendo la configuración de suscripción",
+        "configuration_updated": "Configuración actualizada",
+        "error_updating_configuration": "Error actualizando la configuración",
         "custom_alerts": "Alertas personalizadas",
         "download_alert_config": "Descargar configuración de alertas",
-        "alert_config_downloaded": "Configuracion de alertas descargada",
-        "error_downloading_alert_config": "Error descargando la configuracion de alertas",
+        "alert_config_downloaded": "Configuración de alertas descargada",
+        "error_downloading_alert_config": "Error descargando la configuración de alertas",
         "no_custom_alert": "No hay alertas personalizadas",
-        "no_custom_alert_description": "Ud puede crear una haciendo click en el boton de mas abajo",
+        "no_custom_alert_description": "Ud. puede crear una haciendo click en el botón de mas abajo",
         "access_nethesis_operation_center": "Acceder al centro de operaciones de Nethesis",
         "alert": "Alertar",
         "parameter": "Parámetro",
@@ -30,18 +30,18 @@
         "warning_above": "Alerta arriba",
         "critical_under": "Critico abajo",
         "last_update": "Última actualización",
-        "error_reading_last_update": "Error leyendo la ultima actualizacion",
-        "error_reading_custom_alerts_configuration": "Error leyendo la configuracion personalizada de alertas",
-        "error_reading_system_info_configuration": "Error leyendo la configuracion del sistema"
+        "error_reading_last_update": "Error leyendo la ultima actualización",
+        "error_reading_custom_alerts_configuration": "Error leyendo la configuración personalizada de alertas",
+        "error_reading_system_info_configuration": "Error leyendo la configuración del sistema"
     },
     "about": {
         "title": "Acerca de",
         "website": "Sitio Web",
-        "bug_tracker": "Seguidor de fallas"
+        "bug_tracker": "Rastreador de fallas"
     },
     "dashboard":{
         "title": "Panel de Control",
-        "error_reading_system_info_configuration": "Error leyendo la configuracion del sistema ",
+        "error_reading_system_info_configuration": "Error leyendo la configuración del sistema ",
         "empty_state_title": "Manejar tus alertas personalizadas",
         "empty_state_description": "El centro de operaciones de Nethesis es una interfaz grafica que te provee la habilidad de personalizar tus alertas.",
         "access_nethesis_operation_center": "Acceder al centro de operaciones de Nethesis"

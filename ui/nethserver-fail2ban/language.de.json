@@ -30,7 +30,6 @@
         "BanLocalNetwork": "Erlaube Bann im LAN",
         "LogLevel": "Logging Level",
         "LogLevel_INFO": "INFO",
-        "LogLevel_DEBUG": "DEBUG",
         "LogLevel_NOTICE": "NOTICE",
         "LogLevel_WARNING": "WARNUNG",
         "LogLevel_ERROR": "FEHLER",
@@ -123,7 +122,7 @@
         "valid_memberOf_enabled, disabled": "Kann aktiviert oder deaktiviert werden",
         "valid_memberOf_true, false": "Kann wahr oder falsch sein.",
         "valid_integer": "Muss eine positive ganze Zahl sein",
-        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "Muss Mitglied von CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG sein",
+        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO": "Must be a member of CRITICAL, ERROR, WARNING, NOTICE, INFO",
         "0_0_0_0_network_is_prohibited": "Das Netzwerk 0.0.0.0/0 kann nicht auf die weiße Liste gesetzt werden: der Bereich ist zu groß"
     },
     "docs":{

@@ -2,22 +2,22 @@
     "settings": {
         "title": "Ajustes",
         "configuration":"Configuración",
-        "status":"Enable SOGo",
-        "ActiveSync":"Enable Microsoft ActiveSync",
-        "Dav":"Enable CalDAV and CardDAV",
-        "MailAuxiliaryUserAccountsEnabled":"Allow Users to add other IMAP accounts",
-        "AdminUsers":"Administrators",
+        "status":"Habilitar SOGo",
+        "ActiveSync":"Habilitar Microsoft ActiveSync",
+        "Dav":"Habilitar CalDAV y CardDAV",
+        "MailAuxiliaryUserAccountsEnabled":"Permitir a los usuarios agregar otras cuentas IMAP",
+        "AdminUsers":"Administradores",
         "advanced_mode":"Ajustes avanzados",
         "Notifications":"Notificaciones",
-        "ACLs":"Send email to involved users of a calendar/address book",
-        "Folders":"Send email on the creation of a calendar/address book",
-        "Appointment":"Send email to meeting participants",
-        "Email":"send email-based alarm on events and tasks",
-        "VirtualHost":"Make SOGo reachable only from this domain (FQDN)",
-        "WOWorkersCount":"Number of workers (one per activesync client connected)",
-        "SOGoInternalSyncInterval":"maximum time in second before to checks after changes",
-        "settings_updated_ok": "The settings have been well updated",
-        "settings_updated_error": "The settings have not well updated"
+        "ACLs":"Enviar correo electrónico a los usuarios involucrados de un calendario / libreta de direcciones ",
+        "Folders":"Enviar correo electrónico sobre la creación de un calendario / libreta de direcciones",
+        "Appointment":"Enviar correo electrónico a los participantes de la reunión",
+        "Email":"enviar alarmas por correo electrónico sobre eventos y tareas",
+        "VirtualHost":"Hacer que SOGo sea accesible solo desde este dominio (FQDN)",
+        "WOWorkersCount":"Número de trabajadores (uno por cliente activo sincronizado conectado)",
+        "SOGoInternalSyncInterval":"tiempo máximo en segundos antes de las comprobaciones después de los cambios ",
+        "settings_updated_ok": "La configuración se ha actualizado bien",
+        "settings_updated_error": "La configuración no se ha actualizado bien"
     },
     "about": {
         "title": "Acerca de",
@@ -36,13 +36,13 @@
         "title": "Panel de Control"
     },
     "docs":{
-      "more_info_about":"More informations about",
+      "more_info_about":"Más información sobre",
       "sogo": "SOGo"
     },
     "validation":{
-      "validation_failed": "The validation has failed",
-      "not_valid_username": "This is not a valid username",
-      "valid_hostname_fqdn_1_9223372036854775807": "This is not a valid FQDN(something like domain.org)",
-      "Bad_Notification_Element": "This is not a good notification setting"
+      "validation_failed": "La validación ha fallado",
+      "not_valid_username": "Este no es un nombre de usuario válido",
+      "valid_hostname_fqdn_1_9223372036854775807": "Este no es un FQDN válido (algo como dominio.org)",
+      "Bad_Notification_Element": "Esta no es una buena configuración de notificación"
     }
 }

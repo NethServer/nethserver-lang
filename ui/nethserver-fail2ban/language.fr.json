@@ -30,7 +30,6 @@
         "BanLocalNetwork": "Autoriser les bannissements sur le réseau local",
         "LogLevel": "Niveau de journalisation",
         "LogLevel_INFO": "INFO",
-        "LogLevel_DEBUG": "DEBUG",
         "LogLevel_NOTICE": "NOTICE",
         "LogLevel_WARNING": "WARNING",
         "LogLevel_ERROR": "ECHEC - KO",
@@ -123,7 +122,7 @@
         "valid_memberOf_enabled, disabled": "Peut-être activé ou désactivé",
         "valid_memberOf_true, false": "Peut-être vrai ou faux",
         "valid_integer": "Doit être un entier positif",
-        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "Doit être un membre de CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG",
+        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO": "Must be a member of CRITICAL, ERROR, WARNING, NOTICE, INFO",
         "0_0_0_0_network_is_prohibited": "Le réseau 0.0.0.0/0 ne peut pas être ajouté à la liste blanche: il est trop large."
     },
     "docs":{

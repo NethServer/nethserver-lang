@@ -14,6 +14,7 @@
     "next": "Următorul",
     "prev": "Anterior",
     "of": "al",
+    "missing": "Lipsă",
     "rows_per_page": "Rânduri pe pagină",
     "all": "Tot",
     "close": "Închide",
@@ -168,7 +169,7 @@
         "search_domain": "Verificare dacă domeniul este blocat de lista neagră DNS",
         "search_ip_or_domain": "Verificare dacă acest IP sau domeniul este blocat de lista neagră IP sau DNS",
         "whitelist_dns": "Cererile DNS de la această sursă nu vor fi redirecționate către proxy-ul DNS",
-        "whitelist_blacklist": "Always allow network traffic from/to given remote hosts, even if they are part of a blacklist category",
+        "whitelist_blacklist": "Permite întotdeauna traficul de rețea de la/la gazdele la distanță, chiar dacă acestea sunt parte din categoria listă neagră",
         "dns_zones": "Cererile DNS care provin din aceste zone vor fi redirecționate către filtrul DNS de pe portul 1153"
     }
 }

@@ -1,6 +1,6 @@
 <?php
 $L['Awstats_Title'] = ' Estadísticas Awstats';
-$L['Awstats_Description'] = 'Produce access log statistic';
+$L['Awstats_Description'] = 'Producir estadísticas de registro de acceso';
 $L['Settings_Title'] = 'Configuración';
 $L['Statistics_Title'] = 'Estadística';
 $L['AwstatsStatistics_Title'] = 'Consultar estadísticas de log';

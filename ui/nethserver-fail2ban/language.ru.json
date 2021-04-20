@@ -30,7 +30,6 @@
         "BanLocalNetwork": "Разрешить баны LAN-адресов",
         "LogLevel": "Детализация логов",
         "LogLevel_INFO": "ИНФОРМАЦИЯ",
-        "LogLevel_DEBUG": "ОТЛАДКА",
         "LogLevel_NOTICE": "УВЕДОМЛЕНИЕ",
         "LogLevel_WARNING": "ПРЕДУПРЕЖДЕНИЕ",
         "LogLevel_ERROR": "ОШИБКА",
@@ -123,7 +122,7 @@
         "valid_memberOf_enabled, disabled": "Может быть включено или отключено",
         "valid_memberOf_true, false": "Может быть истина или ложь",
         "valid_integer": "Должно быть положительным целым числом",
-        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "Должно быть одним из КРИТИЧЕСКОЕ, ОШИБКА, ПРЕДУПРЕЖДЕНИЕ, УВЕДОМЛЕНИЕ, ИНФОРМАЦИЯ, ОТЛАДКА",
+        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO": "Must be a member of CRITICAL, ERROR, WARNING, NOTICE, INFO",
         "0_0_0_0_network_is_prohibited": "The network 0.0.0.0/0 cannot be whitelisted: it is too wide."
     },
     "docs":{

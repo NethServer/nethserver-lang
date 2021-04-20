@@ -349,7 +349,7 @@
     "title": "Certificate",
     "upload_certificates": "Încarcă certificat",
     "edit_self_signed": "Editează certificatul auto-semnat",
-    "request_lets_encrypt": "Let's Encrypt certificate",
+    "request_lets_encrypt": "Certificat Let's Encrypt",
     "name": "Nume",
     "file": "Fișier",
     "issuer": "Emitent",
@@ -898,7 +898,7 @@
     "password_updated_error_1": "Parola nu a fost schimbată. Asigură asta",
     "password_updated_error_2": "parola veche",
     "smarthost_test_configuration": "Configurație",
-    "smarthost_send_an_email": "Send test mail",
+    "smarthost_send_an_email": "Trimite mail de test",
     "password_updated_error_3": "este corect"
   },
   "logs": {
@@ -1260,7 +1260,7 @@
     "disaster_recovery": "Recuperare în caz de dezastru",
     "user_settings_page": "Permite utilizatorilor să își schimbe parola și alte setări pe o pagină web în afara Cockpit (la portul 443). Această caracteristică poate fi activată numai dacă este activată „Suprascriere shell utilizatori”.",
     "OtpR2WOath_Auth": "Politica VPN necesită utilizarea OTP pentru a accesa rețeaua.",
-    "smarthost_encrypt": "Encryption on port 465 (SMTPS) is not supported, only StartTLS is supported (default port 587)",
+    "smarthost_encrypt": "Criptarea pe portul 465(SMTPS) nu este suportată; doar StartTLS este suportat (port implicit 587)",
     "older_ssh_client_might_not_connect": "Întărirea SSH ar putea împiedica clienții vechi să se conecteze la server. Transferul de fișiere mari poate fi mai lent cu cifruri puternice. Cheia gazdei se va schimba după repornire, iar clienții vor trebui să o accepte din nou."
   }
 }

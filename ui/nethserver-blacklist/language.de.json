@@ -14,6 +14,7 @@
     "next": "Weiter",
     "prev": "Vorherige",
     "of": "von",
+    "missing": "Fehlt",
     "rows_per_page": "Zeilen pro Seite",
     "all": "Alle",
     "close": "Schließen",
@@ -168,7 +169,7 @@
         "search_domain": "Bitte prüfen, ob diese Domäne durch die DNS-Blacklist blockiert ist",
         "search_ip_or_domain": "Bitte prüfen, ob diese IP/Domäne durch die IP-/DNS-Blacklist blockiert ist",
         "whitelist_dns": "DNS-Anforderungen von diesen Quellen werden nicht an den DNS-Proxy umgeleitet",
-        "whitelist_blacklist": "Always allow network traffic from/to given remote hosts, even if they are part of a blacklist category",
+        "whitelist_blacklist": "Traffic von/zu eingetragenem Remotehost zulassen - auch wenn dieser in einer Blacklist-Kategorie enthalten ist.",
         "dns_zones": "DNS-Anforderungen, die von diesen Zonen kommen, werden an den DNS-Filter umgeleitet, der Port 1153 überwacht"
     }
 }

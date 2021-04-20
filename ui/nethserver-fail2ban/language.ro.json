@@ -30,7 +30,6 @@
         "BanLocalNetwork": "Permite blocări pe LAN",
         "LogLevel": "Nivel de logare",
         "LogLevel_INFO": "INFO",
-        "LogLevel_DEBUG": "DEBUG",
         "LogLevel_NOTICE": "ÎNȘTIINȚARE",
         "LogLevel_WARNING": "ATENȚIE",
         "LogLevel_ERROR": "Eroare",
@@ -123,7 +122,7 @@
         "valid_memberOf_enabled, disabled": "Poate fi activat sau dezactivat",
         "valid_memberOf_true, false": "Poate fi adevarat sau fals",
         "valid_integer": "Trebuie să fie un integer pozitiv",
-        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "Trebuie să fie membru al CRITIC, EROARE, AVERTIZARE, ÎNȘTIINȚARE, INFO, DEBUG",
+        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO": "Trebuie să fie membru al CRITICAL, ERROR, WARNING, NOTICE, INFO",
         "0_0_0_0_network_is_prohibited": "Rețeaua 0.0.0.0/0 nu poate fi trecută pe lista albă: este prea mare."
     },
     "docs":{

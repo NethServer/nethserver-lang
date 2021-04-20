@@ -1,26 +1,26 @@
 {
     "settings": {
         "title": "Ajustes",
-        "external_access": "External access",
-        "allow_external_iax_access": "Allow external IAX access",
-        "allow_external_sip_tls_access": "Allow external SIP TLS access",
-        "web_interface_access": "Web interface access",
+        "external_access": "Acceso externo",
+        "allow_external_iax_access": "Permitir el acceso externo a IAX",
+        "allow_external_sip_tls_access": "Permitir el acceso TLS SIP externo",
+        "web_interface_access": "Acceso a la interfaz web",
         "create_new": "Crear nuevo",
         "network": "Red",
         "network_mask": "Mascara de red",
-        "error_reading_asterisk_configuration": "Error reading asterisk configuration",
-        "error_reading_httpd_fpbx_configuration": "Error reading httpd-fpbx configuration",
+        "error_reading_asterisk_configuration": "Error al leer la configuración del asterisk",
+        "error_reading_httpd_fpbx_configuration": "Error al leer la configuración de httpd-fpbx",
         "error_updating_configuration": "Error actualizando la configuracion",
-        "add_web_interface_access": "Add web interface access",
-        "ipAddress_validation": "Invalid IP address",
-        "netmask_validation": "Invalid netmask",
+        "add_web_interface_access": "Agregar acceso a la interfaz web",
+        "ipAddress_validation": "Dirección IP inválida",
+        "netmask_validation": "Máscara de red no válida",
         "ip_address": "Direccion IP",
         "netmask": "Mascara de Red",
-        "create_new_access": "Create new access",
-        "no_web_interface_access": "No web interface access",
+        "create_new_access": "Crear nuevo acceso",
+        "no_web_interface_access": "Sin acceso a la interfaz web",
         "no_web_interface_access_description": "Ud puede crear una haciendo click en el boton de mas abajo",
-        "delete_web_interface_access": "Delete web interface access",
-        "delete_web_interface_access_message": "This action will permanently delete the web interface access. This cannot be undone",
+        "delete_web_interface_access": "Eliminar el acceso a la interfaz web",
+        "delete_web_interface_access_message": "Esta acción eliminará permanentemente el acceso a la interfaz web. Esta no se puede deshacer ",
         "are_you_sure": "¿Estás seguro?",
         "configuration_updated": "Configuracion actualizada"
     },
@@ -36,15 +36,15 @@
         "filter_label": "Filtro Regexp"
     },
     "dashboard":{
-        "title": "FreePBX dashboard",
+        "title": "Panel de control FreePBX",
         "app": "FreePBX",
-        "freepbx_admin_dashboard": "FreePBX Admin Dashboard",
-        "open_dashboard": "Open dashboard",
-        "freepbx_description": "FreePBX is a GUI that gives you the ability to manage your Asterisk system."
+        "freepbx_admin_dashboard": "Panel de Control Administrativo de FreePBX",
+        "open_dashboard": "Abrir Panel de Control",
+        "freepbx_description": "FreePBX es una GUI que le brinda la capacidad de administrar su sistema Asterisk. "
     },
     "docs": {
-        "allow_external_iax_access": "Allow external telephony access through IAX protocol",
-        "allow_external_sip_tls_access": "Allow external telephony access through secure SIP TLS protocol"
+        "allow_external_iax_access": "Permitir el acceso de telefonía externa a través del protocolo IAX",
+        "allow_external_sip_tls_access": "Permitir el acceso de telefonía externa a través del protocolo seguro SIP TLS "
     },
     "actions": "Acciones",
     "delete": "Borrar",

@@ -329,6 +329,7 @@
     "valid_minLength_8": "En az 8 karakter uzunluğunda olmalıdır",
     "missing_wanpriority_rules": "Öncelik sıralamasında eksik arabirim var",
     "valid_notEmpty":"Bu alan boş bırakılamaz",
+    "ipsec_tunnel_name_cannot_contain_spaces": "Tünel adında boşluk karakteri kullanılamaz",
     "valid_username":"İlk karakter bir harf olmalıdır. Ardından yalnız küçük harfler ile '-' ve '_' simgeleri kullanılabilir"
   },
   "docs": {

@@ -120,6 +120,12 @@
     "no_acls_support_title": "Paylaşılmış klasörlere yalnız ziyaretçi olarak erişilebilir.",
     "no_acls_support_message": "Samba kimlik doğrulamasını etkinleştirmek ve özel erişim seçenekleri için bir Aktif Dizin hesap hizmeti sağlayıcı yapılandırın.  ",
     "update_at": "Dosya boyutlarının güncellenme zamanı",
+    "item_disable_button": "Etkisizleştir",
+    "item_enable_button": "Etkinleştir",
+    "ibay_enabled_ok": "Paylaşılmış klasör etkinleştirildi",
+    "ibay_disabled_ok": "Paylaşılmış klasör etkisizleştirildi",
+    "ibay_enabled_Failed": "Paylaşılmış klasör etkinleştirilemedi",
+    "ibay_disabled_Failed": "Paylaşılmış klasör etkisizleştirilemedi",
     "not_available": "Kullanılamaz"
   },
   "audit": {
@@ -184,7 +190,8 @@
     "valid_hostname_simple_0_0": "'ÇALIŞMAGRUBU' gibi basit bir sunucu adı olmalıdır",
     "group_not_found": "Sahip grubunu seçin",
     "valid_maxLength_15": "En fazla 15 karakter uzunluğunda olabilir",
-    "malformed_acls": "{value}  Erişim Denetimi listesi değeri uygulanamaz"
+    "malformed_acls": "{value}  Erişim Denetimi listesi değeri uygulanamaz",
+    "must_be_ascii": "Yalnız ASCII karakterleri kullanılabilir. Aksanlı harfler gibi özel karakterler kullanılamaz"
   },
   "advanced_mode": "Gelişmiş Ayarlar"
 }

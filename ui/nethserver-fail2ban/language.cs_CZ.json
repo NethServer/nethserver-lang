@@ -30,7 +30,6 @@
         "BanLocalNetwork": "Umožnit vyloučení na místní síti (LAN)",
         "LogLevel": "Stupeň podrobnosti zaznamenávání událostí",
         "LogLevel_INFO": "INFO",
-        "LogLevel_DEBUG": "LADĚNÍ",
         "LogLevel_NOTICE": "UPOZORNĚNÍ",
         "LogLevel_WARNING": "VAROVÁNÍ",
         "LogLevel_ERROR": "CHYBA",
@@ -123,7 +122,7 @@
         "valid_memberOf_enabled, disabled": "Může být zapnuto nebo vypnuto",
         "valid_memberOf_true, false": "Může být true nebo false",
         "valid_integer": "Je třeba, aby bylo kladné celé číslo",
-        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG": "Je třeba, aby bylo členem CRITICAL, ERROR, WARNING, NOTICE, INFO, DEBUG",
+        "valid_memberOf_CRITICAL, ERROR, WARNING, NOTICE, INFO": "Must be a member of CRITICAL, ERROR, WARNING, NOTICE, INFO",
         "0_0_0_0_network_is_prohibited": "The network 0.0.0.0/0 cannot be whitelisted: it is too wide."
     },
     "docs":{

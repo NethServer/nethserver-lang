@@ -120,6 +120,12 @@
     "no_acls_support_title": "L'accès aux dossiers partagés n'est possible seulement en tant qu'invité",
     "no_acls_support_message": "Configurez un fournisseur de compte Active Directory afin d'activer l'authentification Samba et des options spéciales d'accès.",
     "update_at": "Taille des fichiers mis à jour à",
+    "item_disable_button": "Désactiver",
+    "item_enable_button": "Activer",
+    "ibay_enabled_ok": "The shared folder has been enabled",
+    "ibay_disabled_ok": "The shared folder has been disabled",
+    "ibay_enabled_Failed": "Shared folder enabling has failed",
+    "ibay_disabled_Failed": "Shared folder disabling has failed",
     "not_available": "Non disponible"
   },
   "audit": {
@@ -184,7 +190,8 @@
     "valid_hostname_simple_0_0": "Doit être un nom d'hôte simple tel que 'WORKGROUP'",
     "group_not_found": "Choisissez le groupe propriétaire",
     "valid_maxLength_15": "La longueur maximale est de 15 caractères",
-    "malformed_acls": "La valeur d'ACL {value} ne peut pas être appliquée"
+    "malformed_acls": "La valeur d'ACL {value} ne peut pas être appliquée",
+    "must_be_ascii": "Must contain only ASCII characters: special characters, like accented letters, are not valid"
   },
   "advanced_mode": "Options avancées"
 }

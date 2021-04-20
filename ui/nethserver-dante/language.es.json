@@ -5,8 +5,8 @@
     "settings_updated_error": "Ajustes no actualizados",
     "public_host": "Host Publico",
     "full_url": "Url Final",
-    "host_configuration": "Configuracion de Host",
-    "report_configuration": "Configuracion de Reportes",
+    "host_configuration": "Configuración de Host",
+    "report_configuration": "Configuración de Reportes",
     "theme": "Tema",
     "palette": "Paleta",
     "interval": "Intervalo",
@@ -16,7 +16,7 @@
     "light": "Claro",
     "week": "Semanal",
     "month": "Mes",
-    "halfyear": "Seis Meses",
+    "halfyear": "Semestral",
     "save": "Guardar",
     "open": "Abrir",
     "every_day": "Cada día",
@@ -27,25 +27,25 @@
     "friday": "Viernes",
     "saturday": "Sabado ",
     "sunday": "Domingo",
-    "anonymization": "Convertir informacion en anonima",
-    "max_entries": "Entradas Maximas",
-    "test_mail": "Probar mail",
-    "send_mail": "Enviar Correo",
+    "anonymization": "Convertir información en Anónima",
+    "max_entries": "Entradas Máximas",
+    "test_mail": "Probar correo",
+    "send_mail": "Enviar correo",
     "send": "Enviar",
     "test_address": "Dirección",
     "include_configured_addresses": "Incluir direcciones configuradas",
-    "invalid_dns": "The 'Public host' field is using a private DNS name: the report will not be accessibile from Internet.",
-    "mining_configuration": "Data collection",
-    "missing_miners": "No data collected yet. Wait until tomorrow or click 'Collect now'",
-    "mining_now": "Collect now"
+    "invalid_dns": "El campo 'Host público' utiliza un nombre DNS privado: no se podrá acceder al informe desde Internet. ",
+    "mining_configuration": "Recopilación de datos",
+    "missing_miners": "Aún no se han recopilado datos. Espere hasta mañana o haga clic en 'Recoger ahora' ",
+    "mining_now": "Recoger ahora"
   },
   "about": {
     "title": "Acerca de",
     "website": "Sitio Web",
-    "bug_tracker": "Seguidor de fallas"
+    "bug_tracker": "Rastreador de fallas"
   },
   "dashboard": {
-    "title": "Report"
+    "title": "Reporte"
   },
   "validation": {
     "validation_failed": "Validación faliida",

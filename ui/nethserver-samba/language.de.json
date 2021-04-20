@@ -120,6 +120,12 @@
     "no_acls_support_title": "Der Zugriff auf freigegebene Ordner ist nur als Gast möglich.",
     "no_acls_support_message": "Um die Samba-Authentifizierung und spezielle Zugriffsoptionen zu aktivieren, bitte ein Active Directory konfigurieren.",
     "update_at": "Dateigrößen aktualisiert um",
+    "item_disable_button": "Deaktivieren",
+    "item_enable_button": "Aktivieren",
+    "ibay_enabled_ok": "The shared folder has been enabled",
+    "ibay_disabled_ok": "The shared folder has been disabled",
+    "ibay_enabled_Failed": "Shared folder enabling has failed",
+    "ibay_disabled_Failed": "Shared folder disabling has failed",
     "not_available": "Nicht verfügbar"
   },
   "audit": {
@@ -184,7 +190,8 @@
     "valid_hostname_simple_0_0": "Muss ein einfacher Hostname wie 'ARBEITSGRUPPE' sein",
     "group_not_found": "Besitzer-Gruppe wählen",
     "valid_maxLength_15": "Maximale Länge ist 15 Zeichen",
-    "malformed_acls": "Der ACL-Wert {value} kann nicht angewendet werden"
+    "malformed_acls": "Der ACL-Wert {value} kann nicht angewendet werden",
+    "must_be_ascii": "Must contain only ASCII characters: special characters, like accented letters, are not valid"
   },
   "advanced_mode": "Erweiterte Optionen"
 }

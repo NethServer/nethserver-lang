@@ -120,6 +120,12 @@
     "no_acls_support_title": "Přístup ke sdíleným složkám je možné pouze jako host.",
     "no_acls_support_message": "Pro zapnutí Samba ověřování a speciálním volbách přístupu nastavte poskytovatele účtů Active Directory.",
     "update_at": "Velikosti souborů aktualizovány na",
+    "item_disable_button": "Vypnout",
+    "item_enable_button": "Zapnout",
+    "ibay_enabled_ok": "The shared folder has been enabled",
+    "ibay_disabled_ok": "The shared folder has been disabled",
+    "ibay_enabled_Failed": "Shared folder enabling has failed",
+    "ibay_disabled_Failed": "Shared folder disabling has failed",
     "not_available": "Není k dispozici"
   },
   "audit": {
@@ -184,7 +190,8 @@
     "valid_hostname_simple_0_0": "Je třeba, aby bylo jednoduchý název stroje jako „WORKGROUP“",
     "group_not_found": "Zvolte vlastnící skupinu",
     "valid_maxLength_15": "Nejvyšší možná délka je 15 znaků",
-    "malformed_acls": "Hodnotu ACL seznamu {value} není možné uplatnit"
+    "malformed_acls": "Hodnotu ACL seznamu {value} není možné uplatnit",
+    "must_be_ascii": "Must contain only ASCII characters: special characters, like accented letters, are not valid"
   },
   "advanced_mode": "Pokročilé předvolby"
 }

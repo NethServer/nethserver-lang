@@ -329,6 +329,7 @@
     "valid_minLength_8": "La longueur minimale est de 8 caractères",
     "missing_wanpriority_rules": "Interface manquante dans l'ordre de priorité",
     "valid_notEmpty":"This field cannot be empty",
+    "ipsec_tunnel_name_cannot_contain_spaces": "Tunnel name can't contain spaces",
     "valid_username":"Le premier caractère doit être une lettre, seulement minuscules, des chiffres et des symboles tels que '-' et '_'"
   },
   "docs": {
