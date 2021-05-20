@@ -494,8 +494,8 @@
         "Synchronization_info":"Synchronisationsinformation",
         "synchronization_informations_ok": "Synchronisationsinformation wurde aktualisiert",
         "synchronization_informations_error": "Synchronisationsinformation wurde nicht aktualisiert",
-        "TrashSync": "Synchronize the Trash",
-        "DefaultExclusion": "Default exclusion",
+        "TrashSync": "Synchronisiere den Papierkorb",
+        "DefaultExclusion": "Standardausschluß",
         "Exclude": "Ordner ausnehmen"
     },
     "docs": {
@@ -519,7 +519,7 @@
         "lifetime": "Ein Wert von 0 bedeutet nur einmal wiederholen.",
         "DeleteDestination": "Nachrichten auf dem lokalen Server löschen, die sich nicht auf dem Remote-Server befinden. Nützlich für Backup oder Vorsynchronisation.",
         "imapsync":"Imapsync",
-        "TrashSync":"The actual trash folder name depends on the IMAP client configuration. If the trash folder name does not start with 'Trash' or 'Deleted Items' this option has no effect.",
+        "TrashSync":"Der tatsächliche Name des Papierkorb-Ordners hängt von der IMAP-Clientkonfiguration ab. Wenn der Name des Papierkorb-Ordners nicht mit \"Papierkorb\" oder \"Gelöschte Objekte\" beginnt, hat diese Option keine Auswirkung.",
         "Exclude_Folders": "Die Ausnahme funktioniert mit Regeln für reguläre Ausdrücke. Wenn Sie den Ordner 'Foo' ausschließen, werden alle Ordner, die 'Foo' im Namen enthalten, von der Synchronisierung ausgeschlossen. Um eine genaue Übereinstimmung zu erzwingen, beginnen Sie den Namen des Ausschlussordners mit '^' und beenden Sie ihn mit '$' wie z.Bsp. ^ Foo $. Fügen Sie einen Eintrag pro Zeile hinzu."
     },
     "mailbox": {
@@ -563,7 +563,7 @@
         "reserved_for_builtin": "Dieser Name ist für System-Pseudonyme reserviert.",
         "pseudonym_not_found": "Pseudonym nicht gefunden.",
         "account_cant_be_empty": "Ziel kann nicht leer sein.",
-        "unallowed_self_loop": "The destination cannot be the address itself",
+        "unallowed_self_loop": "Das Ziel darf nicht die gleiche Adresse sein",
         "mailbox_not_found": "Mailbox nicht gefunden.",
         "unsupported_type": "Zieltyp nicht unterstützt.",
         "builtin_not_found": "System-Pseudonym nicht gefunden.",

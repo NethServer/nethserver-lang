@@ -160,6 +160,8 @@
         "fireqos_temporary_disabled": "Verkeersvorming wordt tijdelijk uitgeschakeld tijdens de snelheidstest",
         "speedtest_error": "Speedtest mislukt: controleer de internetverbinding",
         "click_to_open": "Klik om details uit te vouwen",
+        "email_notifications_is_not_set":"The email for notification is not set",
+        "settings_email_notifications":"E-mailmeldingen",
         "current_ip": "Huidig ​​openbaar IP"
     },
     "traffic_shaping": {
@@ -210,7 +212,10 @@
         "source_nat_configured_error": "Bron NAT niet geconfigureerd",
         "no_aliases_found": "Geen aliassen gevonden",
         "no_aliases_found_text": "Het lijkt erop dat u geen aliassen hebt geconfigureerd. Ga naar de netwerkpagina om enkele te configureren",
-        "go_to_network": "Ga naar de netwerkinstellingen"
+        "go_to_network": "Ga naar de netwerkinstellingen",
+        "no_object": "No object",
+        "source_objects": "Source objects",
+        "map_to": "map to"
     },
     "objects": {
         "title": "Objecten",
@@ -528,7 +533,8 @@
         "host_not_removable": "Deze host kan niet worden verwijderd, omdat deze in gebruik is",
         "service_exists": "Er bestaat al een service met dezelfde naam",
         "not_exists_service": "Service bestaat niet",
-        "not_valid_port_range": "Ongeldig poortbereik",
+        "service_not_removable": "This service can't be removed because it is in use",
+        "not_valid_port_range": "Invalid port range",
         "not_valid_port_number": "Ongeldig poortnummer",
         "zone_exists": "Er bestaat al een zone met dezelfde naam",
         "not_exists_zone": "Zone bestaat niet",
@@ -568,7 +574,9 @@
         "mac_cannot_be_delete": "This MAC address can't be deleted because it is in use",
         "must_be_one_of": "Must be one of",
         "Not_valid_ipV4Address_or_CIDR": "It must be a IPv4 address like '1.2.3.4' or a CIDR network like '192.168.1.0/24'",
-        "valid_memberOf_accept,drop": "The valid actions are 'Accept' or 'Drop'"
+        "valid_memberOf_accept,drop": "The valid actions are 'Accept' or 'Drop'",
+        "non_existing_firewall_object": "Firewall object does not exist",
+        "snat_fw_object_duplicated": "Firewall object is duplicated"
     },
     "docs": {
         "pf_origin_port": "Voeg een enkele poort, een lijst met door komma's gescheiden poorten of een poortbereik in met \":\" als scheidingsteken zoals \"100:200 \".",
@@ -582,6 +590,8 @@
         "network_services_system_services": "Netwerkservices kunnen worden toegevoegd op de pagina Systeem > Services",
         "rules_service": "Enter the name of a network service running on the firewall, otherwise leave empty to match any service",
         "allow_only": "Restrict access to port forward only from a list of public IP addresses or networks (written in CIDR format). Add one entry per line. Leave the field empty to allow access by anyone.",
-        "SipAlg": "ALG allows SIP and H.323 protocols to operate through NAT. When enabled, ALG will inspect and rewrite Voice over Internet Protocol (VoIP) network packets and open required ports. Try to disable this option only if you're experiencing audio and call problems with your PBX or VoIP client."
+        "SipAlg": "ALG allows SIP and H.323 protocols to operate through NAT. When enabled, ALG will inspect and rewrite Voice over Internet Protocol (VoIP) network packets and open required ports. Try to disable this option only if you're experiencing audio and call problems with your PBX or VoIP client.",
+        "more_info_about": "Meer info over",
+        "snat_order": "The following entries are order-sensitive. The first entry that matches a particular connection will be the one that is used."
     }
 }

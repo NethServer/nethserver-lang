@@ -160,6 +160,8 @@
         "fireqos_temporary_disabled": "Контроль трафіку тимчасово відключений на час проведення тесту швидкості інтернету.",
         "speedtest_error": "Помилка Speedtest: будь ласка, перевірте інтернет-средіненіе.",
         "click_to_open": "Клацніть, щоб розгорнути деталі",
+        "email_notifications_is_not_set":"The email for notification is not set",
+        "settings_email_notifications":"email-повідомлення",
         "current_ip": "Поточний загальнодоступний IP"
     },
     "traffic_shaping": {
@@ -210,7 +212,10 @@
         "source_nat_configured_error": "Source NAT не налаштований.",
         "no_aliases_found": "Аліаси не знайдені",
         "no_aliases_found_text": "Схоже, що ви не налаштували жодного аліаса. Перейдіть на сторінку Мережа для настройки",
-        "go_to_network": "Перейти до налаштувань мережі"
+        "go_to_network": "Перейти до налаштувань мережі",
+        "no_object": "No object",
+        "source_objects": "Source objects",
+        "map_to": "map to"
     },
     "objects": {
         "title": "Об'єкти",
@@ -528,7 +533,8 @@
         "host_not_removable": "Цей хост не може бути знищено, оскільки він використовується",
         "service_exists": "Служба з таким ім'ям вже існує",
         "not_exists_service": "служба не сущесвуют",
-        "not_valid_port_range": "Неправильний діапазон портів",
+        "service_not_removable": "This service can't be removed because it is in use",
+        "not_valid_port_range": "Invalid port range",
         "not_valid_port_number": "Неправильний номер порту",
         "zone_exists": "Зона з таким ім'ям вже існує",
         "not_exists_zone": "Зона не існує",
@@ -568,7 +574,9 @@
         "mac_cannot_be_delete": "This MAC address can't be deleted because it is in use",
         "must_be_one_of": "Must be one of",
         "Not_valid_ipV4Address_or_CIDR": "It must be a IPv4 address like '1.2.3.4' or a CIDR network like '192.168.1.0/24'",
-        "valid_memberOf_accept,drop": "The valid actions are 'Accept' or 'Drop'"
+        "valid_memberOf_accept,drop": "The valid actions are 'Accept' or 'Drop'",
+        "non_existing_firewall_object": "Firewall object does not exist",
+        "snat_fw_object_duplicated": "Firewall object is duplicated"
     },
     "docs": {
         "pf_origin_port": "Введіть порт, список портів через кому, або діапазон портів, використовуючи \":\" як роздільник, наприклад: \"100:200\".",
@@ -582,6 +590,8 @@
         "network_services_system_services": "Послуги мережі можна додати на сторінці Система -> Сервіси",
         "rules_service": "Enter the name of a network service running on the firewall, otherwise leave empty to match any service",
         "allow_only": "Restrict access to port forward only from a list of public IP addresses or networks (written in CIDR format). Add one entry per line. Leave the field empty to allow access by anyone.",
-        "SipAlg": "ALG allows SIP and H.323 protocols to operate through NAT. When enabled, ALG will inspect and rewrite Voice over Internet Protocol (VoIP) network packets and open required ports. Try to disable this option only if you're experiencing audio and call problems with your PBX or VoIP client."
+        "SipAlg": "ALG allows SIP and H.323 protocols to operate through NAT. When enabled, ALG will inspect and rewrite Voice over Internet Protocol (VoIP) network packets and open required ports. Try to disable this option only if you're experiencing audio and call problems with your PBX or VoIP client.",
+        "more_info_about": "Більше інформації про",
+        "snat_order": "The following entries are order-sensitive. The first entry that matches a particular connection will be the one that is used."
     }
 }

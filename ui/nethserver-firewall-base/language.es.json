@@ -160,6 +160,8 @@
         "fireqos_temporary_disabled": "El formateo de trafico esta temporalmente deshabilitado durante el test de velocidad.",
         "speedtest_error": "La prueba de velocidad de conexion fallo, por favor chequee la conexion a internet",
         "click_to_open": "Haga Click para expandir los detalles",
+        "email_notifications_is_not_set":"El Correo electrónico para la notificación no está configurado",
+        "settings_email_notifications":"Notificaciones por correo",
         "current_ip": "Ip Publica en uso"
     },
     "traffic_shaping": {
@@ -210,7 +212,10 @@
         "source_nat_configured_error": "Origen NAT no configurada.",
         "no_aliases_found": "No se encontraron alias",
         "no_aliases_found_text": "Parece que no ha configurado ningún alias. Vaya a la página Red para configurar algunos ",
-        "go_to_network": "Vaya a la configuracion de Redes"
+        "go_to_network": "Vaya a la configuracion de Redes",
+        "no_object": "Ningún objeto",
+        "source_objects": "Origen de los objetos",
+        "map_to": "mapear a"
     },
     "objects": {
         "title": "Objetos",
@@ -528,7 +533,8 @@
         "host_not_removable": "Este host no se puede eliminar porque está en uso",
         "service_exists": "Ya existe un servicio con el mismo nombre",
         "not_exists_service": "El servicio no existe",
-        "not_valid_port_range": "Intervalo de puertos no válido.",
+        "service_not_removable": "Este servicio no puede ser eliminado porque está en uso",
+        "not_valid_port_range": "Rango de puerto no válido",
         "not_valid_port_number": "Número de puerto no válido",
         "zone_exists": "Ya existe una zona con el mismo nombre",
         "not_exists_zone": "La zona no existe",
@@ -568,7 +574,9 @@
         "mac_cannot_be_delete": "Esta dirección MAC no se puede borrar porque está en uso",
         "must_be_one_of": "Debe ser uno de",
         "Not_valid_ipV4Address_or_CIDR": "Debe ser una dirección IPv4 como '1.2.3.4' o una red CIDR como '192.168.1.0/24'",
-        "valid_memberOf_accept,drop": "Las acciones válidas son \"Aceptar\" o \" Descartar\"."
+        "valid_memberOf_accept,drop": "Las acciones válidas son \"Aceptar\" o \" Descartar\".",
+        "non_existing_firewall_object": "El objeto Firewall no existe",
+        "snat_fw_object_duplicated": "El objeto Firewall está duplicado"
     },
     "docs": {
         "pf_origin_port": "Inserte un solo puerto, una lista de puertos separados por comas o un rango de puertos usando \":\" como separador como \"100:200\".",
@@ -582,6 +590,8 @@
         "network_services_system_services": "Los servicios de red se pueden añadir en la página Sistema -> Servicios",
         "rules_service": "Introduzca el nombre de un servicio de red que se ejecute en el firewall; de lo contrario, déjelo vacío para que coincida con cualquier servicio",
         "allow_only": "Restringir el acceso al reenvío de puertos sólo desde una lista de direcciones IP o redes públicas (escritas en formato CIDR). Añada una entrada por línea. Deje el campo vacío para permitir el acceso a cualquiera.",
-        "SipAlg": "ALG permite que los protocolos SIP y H.323 funcionen a través de NAT. Cuando se activa, ALG inspecciona y reescribe los paquetes de red de Voz sobre Internet (VoIP) y abre los puertos necesarios. Intenta desactivar esta opción sólo si tienes problemas de audio y de llamadas con tu centralita o cliente VoIP."
+        "SipAlg": "ALG permite que los protocolos SIP y H.323 funcionen a través de NAT. Cuando se activa, ALG inspecciona y reescribe los paquetes de red de Voz sobre Internet (VoIP) y abre los puertos necesarios. Intenta desactivar esta opción sólo si tienes problemas de audio y de llamadas con tu centralita o cliente VoIP.",
+        "more_info_about": "Más información",
+        "snat_order": "Las siguientes entradas son sensibles al orden. Se utilizará la primera entrada que coincida con una conexión concreta."
     }
 }

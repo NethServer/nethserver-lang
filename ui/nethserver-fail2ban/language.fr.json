@@ -22,7 +22,7 @@
         "title": "Réglages",
         "configuration": "Configuration",
         "status": "Activer le service",
-        "IgnoreIP": "Liste blanche d'adresse IP",
+        "IgnoreIP": "Liste blanche",
         "mail": "Notifications par courriel",
         "notify_to": "Notifier",
         "add_email": "Ajoutez un courriel",
@@ -117,7 +117,7 @@
     },
     "validation":{
         "validation_failed": "Validation échoué",
-        "not_a_valid_IP_or_CIDR": "Il doit s'agir d'une adresse IPv4 comme «1.2.3.4» ou d'un réseau CIDR comme «192.168.1.0/24»",
+        "not_a_valid_IP_or_CIDR_or_FQDN": "It must be a IPv4 address like '1.2.3.4', a CIDR network like '192.168.1.0/24' or a fully qualified domain name like 'my.domain.com'",
         "not_valid_email_address": "Adresse courriel invalide: elle doit être quelque chose comme 'monnom@domaine.com'",
         "valid_memberOf_enabled, disabled": "Peut-être activé ou désactivé",
         "valid_memberOf_true, false": "Peut-être vrai ou faux",
@@ -128,7 +128,7 @@
     "docs":{
         "fail2ban": "Fail2ban",
         "more_info_about": "Plus d'info à propos",
-        "IgnoreIP": "Tous les réseaux IP (1.2.3.4) ou CIDR (192.168.1.0/24) de cette liste ne seront jamais interdits par Fail2ban. Ajouter une entrée par ligne",
+        "IgnoreIP": "All IP (1.2.3.4), CIDR network (192.168.1.0/24) or a fully qualified domain name (my.domain.com) in this list will never be banned by Fail2ban. Add one entry per line",
         "MailJailState": "Tous les événements relatifs à la prison (démarrage ou arrêt) seront notifiés à root et aux autres destinataires",
         "FindTime": "Lorsque fail2ban démarre, le service recherche des attaquants dans les journaux pour cet intervalle de temps.",
         "LogLevel": "Le niveau DEBUG peut générer une taille de journal énorme et remplir votre espace disque.",

@@ -1248,7 +1248,7 @@
     "dhcp_comma_separated_field": "Escribe una dirección IP o varias direcciones IP separadas por comas",
     "dhcp_servers": "Servidores",
     "remote_shell": "Habilite esta opción para conceder acceso al Terminal y al Administrador de Servidores.",
-    "list_of_ports": "Introduzca uno o varios números de puerto separados por una coma, por ejemplo: '8081, 9292'",
+    "list_of_ports": "Inserte un solo puerto, una lista de puertos separados por comas o un rango de puertos usando \":\" como separador como \"100:200\".",
     "AllowGroupsToSSH_SFTP": "Seleccione uno o más grupos para conceder acceso SSH y/o SFTP. A los administradores siempre se les concede acceso SSH y SFTP. La cuenta de root sigue estando sujeta a la configuración de la casilla \"Permitir inicio de sesión de root\".",
     "ssh_everyone_info": "Establezca el permiso básico para las cuentas no administrativas.",
     "ssh_administrators_info": "Los administradores siempre tienen acceso SSH y SFTP.",
@@ -1261,6 +1261,7 @@
     "user_settings_page": "Permitir a los usuarios cambiar su contraseña y otros ajustes en una página web fuera de Cockpit (en el puerto 443). Esta función sólo puede activarse si \"Anular el shell de los usuarios\" está correctamente activado.",
     "OtpR2WOath_Auth": "La política de VPN requiere el uso de OTP para acceder a la red.",
     "smarthost_encrypt": "No se admite el cifrado en el puerto 465 (SMTPS), sólo se admite StartTLS (puerto 587 por defecto)",
+    "root_email_is_used_for_notifications": "Configure dónde se enviarán las notificaciones por correo. Las notificaciones incluyen todo el correo generado por cron. Esta opción también anulará las direcciones de notificación WAN configuradas desde el Administrador del servidor antiguo.",
     "older_ssh_client_might_not_connect": "El fortalecimiento de SSH podría impedir que los clientes antiguos se conecten al servidor. La transferencia de archivos grandes puede ser más lenta con cifrados fuertes. La clave del host cambiará después de reiniciar y los clientes tendrán que aceptarla de nuevo."
   }
 }

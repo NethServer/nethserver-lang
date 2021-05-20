@@ -22,7 +22,7 @@
         "title": "Nastavení",
         "configuration": "Nastavení",
         "status": "Zapnout službu",
-        "IgnoreIP": "Seznam IP adres, ze kterých je přístup povolen (whitelist)",
+        "IgnoreIP": "Seznam povolených",
         "mail": "Oznamování e-mailem",
         "notify_to": "Upozornit na",
         "add_email": "Přidat e-mail",
@@ -117,7 +117,7 @@
     },
     "validation":{
         "validation_failed": "Ověření se nezdařilo",
-        "not_a_valid_IP_or_CIDR": "It must be a IPv4 address like '1.2.3.4' or a CIDR network like '192.168.1.0/24'",
+        "not_a_valid_IP_or_CIDR_or_FQDN": "It must be a IPv4 address like '1.2.3.4', a CIDR network like '192.168.1.0/24' or a fully qualified domain name like 'my.domain.com'",
         "not_valid_email_address": "Neplatná e-mailová adresa: mělo by být něco jako „mojejmeno@domena.pripona“",
         "valid_memberOf_enabled, disabled": "Může být zapnuto nebo vypnuto",
         "valid_memberOf_true, false": "Může být true nebo false",
@@ -128,7 +128,7 @@
     "docs":{
         "fail2ban": "Fail2ban",
         "more_info_about": "Více informací o",
-        "IgnoreIP": "All IP (1.2.3.4) or CIDR network (192.168.1.0/24) in this list will never be banned by Fail2ban. Add one entry per line",
+        "IgnoreIP": "All IP (1.2.3.4), CIDR network (192.168.1.0/24) or a fully qualified domain name (my.domain.com) in this list will never be banned by Fail2ban. Add one entry per line",
         "MailJailState": "Všechny události, vztažené k jail (start nebo stop) budou oznámeny správci systému a dalším příjemcům",
         "FindTime": "Když se fail2ban spouští, služba hledá útočníky v záznamech událostí v tomto časovém intervalu",
         "LogLevel": "Stupeň DEBUG může vytvářet obrovské záznamy událostí a zaplnit úložiště",

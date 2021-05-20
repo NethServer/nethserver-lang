@@ -160,6 +160,8 @@
         "fireqos_temporary_disabled": "Trafik şekillendirme hız sınaması sırasında geçici olarak devre dışı bırakılır.",
         "speedtest_error": "Yayılma sınaması tamamlanamadı. Lütfen İnternet bağlantınızı denetleyin.",
         "click_to_open": "Ayrıntıları görüntülemek için tıklayın",
+        "email_notifications_is_not_set":"E-posta bildirimi ayarlanmamış",
+        "settings_email_notifications":"E-posta bildirimleri",
         "current_ip": "Geçerli herkese açık IP adresi"
     },
     "traffic_shaping": {
@@ -210,7 +212,10 @@
         "source_nat_configured_error": "Kaynak NAT yapılandırılamadı.",
         "no_aliases_found": "Herhangi bir takma ad bulunamadı",
         "no_aliases_found_text": "Herhangi bir takma ad yapılandırmamışsınız gibi görünüyor. Ağ bölümüne giderek bir takma ad yapılandırabilirsiniz",
-        "go_to_network": "Ağ ayarlarına git"
+        "go_to_network": "Ağ ayarlarına git",
+        "no_object": "Herhangi bir nesne yok",
+        "source_objects": "Kaynak nesneler",
+        "map_to": "şununla eşleştir"
     },
     "objects": {
         "title": "Nesneler",
@@ -528,6 +533,7 @@
         "host_not_removable": "Bu sunucu kullanılmakta olduğundan silinemez",
         "service_exists": "Aynı adlı bir hizmet zaten var",
         "not_exists_service": "Hizmet bulunamadı",
+        "service_not_removable": "Bu hizmet kullanılmakta olduğundan silinemez",
         "not_valid_port_range": "Kapı numarası aralığı geçersiz",
         "not_valid_port_number": "Kapı numarası geçersiz",
         "zone_exists": "Aynı adlı bir bölge zaten var",
@@ -568,7 +574,9 @@
         "mac_cannot_be_delete": "Bu MAC adresi kullanılmakta olduğundan silinemez",
         "must_be_one_of": "Şunlardan biri olmalıdır",
         "Not_valid_ipV4Address_or_CIDR": "Değer '1.2.3.4' gibi bir IP adresi ya da '192.168.1.0/24' gibi bir CIDR ağı olmalıdır",
-        "valid_memberOf_accept,drop": "Kullanılabilecek işlemler 'Onayla' ya da 'Reddet'"
+        "valid_memberOf_accept,drop": "Kullanılabilecek işlemler 'Onayla' ya da 'Reddet'",
+        "non_existing_firewall_object": "Güvenlik duvarı nesnesi bulunamadı",
+        "snat_fw_object_duplicated": "Güvenlik duvarı nesnesi kopyalandı"
     },
     "docs": {
         "pf_origin_port": "Tek bir kapı numarası, virgül ile ayrılmış bir kapı numarsaı listesi ya da ayraç olarak \":\" kullanarak (100:200 gibi) bir kapı numarası aralığı yazın. ",
@@ -582,6 +590,8 @@
         "network_services_system_services": "Ağ hizmetleri Sistem -> Hizmetler bölümünden eklenebilir",
         "rules_service": "Güvenlik duvarı üzerinde çalışan ağ hizmetinin adını yazın. Tüm hizmetler için boş bırakın",
         "allow_only": "Kapı numarası yönlendirme erişimini yalnız listedeki herkese açık IP adresleri ya da ağlar (CIDR biçiminde yazılmış) ile sınırlar. Her kaydı ayrı bir satıra yazın. Herkese izin vermek için alanı boş bırakın.",
-        "SipAlg": "ALG, SIP ve H.323 iletişim kurallarının NAT üzerinden kullanılabilmesini sağlar. Bu seçenek etkinleştirildiğinde, ALG, Voice over Internet Protocol (VoIP) ağ paketlerini algılayıp yeniden yazarak gereken kapı numaralarını açar. Bu seçeneği yalnız PBX ya da VoIP istemcinizde görüşme sorunları yaşıyorsanız devre dışı bırakmayı deneyin."
+        "SipAlg": "ALG, SIP ve H.323 iletişim kurallarının NAT üzerinden kullanılabilmesini sağlar. Bu seçenek etkinleştirildiğinde, ALG, Voice over Internet Protocol (VoIP) ağ paketlerini algılayıp yeniden yazarak gereken kapı numaralarını açar. Bu seçeneği yalnız PBX ya da VoIP istemcinizde görüşme sorunları yaşıyorsanız devre dışı bırakmayı deneyin.",
+        "more_info_about": "Şunun hakkında ayrıntılı bilgiler",
+        "snat_order": "Aşağıdaki kayıtlar sıraya duyarlıdır. Belirli bir bağlantı ile eşleşen ilk kayıt, kullanılan kayıt olur."
     }
 }

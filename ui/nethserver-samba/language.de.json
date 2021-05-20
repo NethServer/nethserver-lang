@@ -122,10 +122,10 @@
     "update_at": "Dateigrößen aktualisiert um",
     "item_disable_button": "Deaktivieren",
     "item_enable_button": "Aktivieren",
-    "ibay_enabled_ok": "The shared folder has been enabled",
-    "ibay_disabled_ok": "The shared folder has been disabled",
-    "ibay_enabled_Failed": "Shared folder enabling has failed",
-    "ibay_disabled_Failed": "Shared folder disabling has failed",
+    "ibay_enabled_ok": "Der Freigegebene-Ordner wurde aktiviert",
+    "ibay_disabled_ok": "Der Freigegebene-Ordner wurde deaktiviert",
+    "ibay_enabled_Failed": "Die Aktivierung des Freigegebene-Ordners ist Fehlgeschlagen",
+    "ibay_disabled_Failed": "Die Deaktivierung des Freigegebene-Ordners ist Fehlgeschlagen",
     "not_available": "Nicht verfügbar"
   },
   "audit": {
@@ -191,7 +191,7 @@
     "group_not_found": "Besitzer-Gruppe wählen",
     "valid_maxLength_15": "Maximale Länge ist 15 Zeichen",
     "malformed_acls": "Der ACL-Wert {value} kann nicht angewendet werden",
-    "must_be_ascii": "Must contain only ASCII characters: special characters, like accented letters, are not valid"
+    "must_be_ascii": "Darf nur ASCII Zeichen enthalten, Sonderzeichen sind unzulässig"
   },
   "advanced_mode": "Erweiterte Optionen"
 }

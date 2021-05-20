@@ -22,7 +22,7 @@
         "title": "Ayarlar",
         "configuration": "Yapılandırma",
         "status": "Hizmeti etkinleştir",
-        "IgnoreIP": "IP Beyaz Listesi",
+        "IgnoreIP": "Beyaz liste",
         "mail": "E-posta bildirimleri",
         "notify_to": "Şu kişiye bildir",
         "add_email": "Bir e-posta adresi ekle",
@@ -117,7 +117,7 @@
     },
     "validation":{
         "validation_failed": "Doğrulanamadı",
-        "not_a_valid_IP_or_CIDR": "Değer '1.2.3.4' gibi bir IP adresi ya da '192.168.1.0/24' gibi bir CIDR ağı olmalıdır",
+        "not_a_valid_IP_or_CIDR_or_FQDN": "Değer '1.2.3.4' gibi bir IP adresi, '192.168.1.0/24' gibi bir CIDR ağı ya da 'benim.sitem.com' gibi tam olarak belirtilmiş bir etki alanı adı olmalıdır",
         "not_valid_email_address": "E-posta adresi geçersiz: 'ad@etkialani.com' örneğindeki gibi olmalıdır",
         "valid_memberOf_enabled, disabled": "Etkinleştirilebilir ya da etkisizleştirilebilir",
         "valid_memberOf_true, false": "Doğru ya da yanlış olabilir",
@@ -128,7 +128,7 @@
     "docs":{
         "fail2ban": "Fail2ban",
         "more_info_about": "Şunun hakkında ayrıntılı bilgiler",
-        "IgnoreIP": "Bu listedeki IP adresleri (1.2.3.4) ya da CIDR ağları (192.168.1.0/24) Fail2ban tarafından engellenmeyecek. Her kaydı ayrı bir satıra yazın",
+        "IgnoreIP": "Bu listedeki IP adresleri (1.2.3.4), CIDR ağları (192.168.1.0/24) ya da 'benim.sitem.com' gibi tam olarak belirtilmiş etki alanı adları Fail2ban tarafından engellenmez. Her kaydı ayrı bir satıra yazın",
         "MailJailState": "Gözaltı işlemleri (başlama/durma) bildirilsin, root ve diğer alıcılara bildirilecek",
         "FindTime": "Fail2ban başlatıldığında, hizmet bu zaman aralığı için günlüklerdeki saldırganları tarar",
         "LogLevel": "HATA AYIKLAMA düzeyi günlük boyutunun aşırı artmasına neden olarak disk alanını doldurabilir",

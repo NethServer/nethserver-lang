@@ -160,6 +160,8 @@
         "fireqos_temporary_disabled": "Traffic Shaping ist während des Geschwindigkeitstests vorübergehend deaktiviert.",
         "speedtest_error": "Speedtest fehlgeschlagen: Bitte die Internetverbindung überprüfen.",
         "click_to_open": "Klicken, um Details zu erweitern",
+        "email_notifications_is_not_set":"The email for notification is not set",
+        "settings_email_notifications":"E-Mail Benachrichtigungen",
         "current_ip": "Aktuelle öffentliche IP"
     },
     "traffic_shaping": {
@@ -210,7 +212,10 @@
         "source_nat_configured_error": "Source-NAT nicht konfiguriert.",
         "no_aliases_found": "Keine Aliase gefunden",
         "no_aliases_found_text": "Es scheint, dass keine Aliase konfiguriert wurden. Bitte zur Netzwerk-Seite gehen, um einige zu konfigurieren",
-        "go_to_network": "Bitte zu den Netzwerkeinstellungen gehen"
+        "go_to_network": "Bitte zu den Netzwerkeinstellungen gehen",
+        "no_object": "No object",
+        "source_objects": "Source objects",
+        "map_to": "map to"
     },
     "objects": {
         "title": "Objekte",
@@ -528,7 +533,8 @@
         "host_not_removable": "Dieser Host kann nicht entfernt werden, da er gerade verwendet wird",
         "service_exists": "Ein Dienst mit demselben Namen existiert bereits",
         "not_exists_service": "Service existiert nicht",
-        "not_valid_port_range": "Ungültiger Portbereich.",
+        "service_not_removable": "This service can't be removed because it is in use",
+        "not_valid_port_range": "Invalid port range",
         "not_valid_port_number": "Ungültige Portnummer",
         "zone_exists": "Eine Zone mit demselben Namen existiert bereits",
         "not_exists_zone": "Zone existiert nicht",
@@ -568,7 +574,9 @@
         "mac_cannot_be_delete": "Diese MAC-Adresse kann nicht gelöscht werden, da sie verwendet wird",
         "must_be_one_of": "Muß eine von sein",
         "Not_valid_ipV4Address_or_CIDR": "Der Wert muss eine IP-Adresse wie '1.2.3.4' oder CIDR-Netzwerk wie '192.168.1.0/24' sein.",
-        "valid_memberOf_accept,drop": "Gültige Aktionen sind 'Akzeptieren' oder 'Sperren'"
+        "valid_memberOf_accept,drop": "Gültige Aktionen sind 'Akzeptieren' oder 'Sperren'",
+        "non_existing_firewall_object": "Firewall object does not exist",
+        "snat_fw_object_duplicated": "Firewall object is duplicated"
     },
     "docs": {
         "pf_origin_port": "Bitte einen einzelnen Port, eine Liste mit durch Kommas getrennten Ports oder einen Portbereich einfügen, der \":\" als Trennzeichen verwendet, wie \"100: 200\".",
@@ -582,6 +590,8 @@
         "network_services_system_services": "Netzwerkdienste können auf der Seite System > Dienste hinzugefügt werden.",
         "rules_service": "Bitte den Namen eines Netzwerkdienstes eingeben, der auf der Firewall ausgeführt wird. Andernfalls leer lassen, damit er mit einem Dienst übereinstimmt",
         "allow_only": "Bitte den Zugriff auf die Portweiterleitung beschränken auf eine Liste öffentlicher IP-Adressen oder Netzwerke (im CIDR-Format). Bitte einen Eintrag pro Zeile hinzufügen. Das Feld leerlassen, damit jeder darauf zugreifen kann.\n \n ",
-        "SipAlg": "ALG ermöglicht SIP und H.323 Protokolle durch NAT. Wenn aktiviert überprüft und ändert ALG Voice over Internet Protocol (VoIP) Pakete und öffnet die erforderlichen Ports. Diese Option nur deaktivieren wenn Audio- oder Verbindungsprobleme mit Ihrem PBX oder VoIP client auftreten."
+        "SipAlg": "ALG ermöglicht SIP und H.323 Protokolle durch NAT. Wenn aktiviert überprüft und ändert ALG Voice over Internet Protocol (VoIP) Pakete und öffnet die erforderlichen Ports. Diese Option nur deaktivieren wenn Audio- oder Verbindungsprobleme mit Ihrem PBX oder VoIP client auftreten.",
+        "more_info_about": "Mehr Infos über",
+        "snat_order": "The following entries are order-sensitive. The first entry that matches a particular connection will be the one that is used."
     }
 }

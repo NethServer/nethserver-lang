@@ -160,6 +160,8 @@
         "fireqos_temporary_disabled": "Modelarea traficului este dezactivată temporar pe durata testului de viteză.",
         "speedtest_error": "Testul de viteză a eșuat: te rog să verifici conexiunea la internet.",
         "click_to_open": "Click pentru a extinde detaliile",
+        "email_notifications_is_not_set":"The email for notification is not set",
+        "settings_email_notifications":"Notificări email",
         "current_ip": "IP public curent"
     },
     "traffic_shaping": {
@@ -210,7 +212,10 @@
         "source_nat_configured_error": "Sursa NAT neconfigurată.",
         "no_aliases_found": "Nici un alias găsit",
         "no_aliases_found_text": "Se pare că nu ai configurat nici un alias. Mergi la pagina Rețea pentru a configura câteva",
-        "go_to_network": "Mergi la setări Rețea"
+        "go_to_network": "Mergi la setări Rețea",
+        "no_object": "No object",
+        "source_objects": "Source objects",
+        "map_to": "map to"
     },
     "objects": {
         "title": "Obiecte",
@@ -528,7 +533,8 @@
         "host_not_removable": "Această gazdă nu poate fi îndepărtată deoarece este în uz",
         "service_exists": "Un serviciu cu același nume există deja",
         "not_exists_service": "Serviciul nu există",
-        "not_valid_port_range": "Interval porturi invalid",
+        "service_not_removable": "This service can't be removed because it is in use",
+        "not_valid_port_range": "Invalid port range",
         "not_valid_port_number": "Număr port invalid",
         "zone_exists": "O zonă cu același nume există deja",
         "not_exists_zone": "Zona nu există",
@@ -568,7 +574,9 @@
         "mac_cannot_be_delete": "Această adresă MAC nu poate fi ștearsă deoarece este în uz",
         "must_be_one_of": "Trebuie să fie una din",
         "Not_valid_ipV4Address_or_CIDR": "Trebuie să fie o adresă IPv4 precum „1.2.3.4” sau o rețea CIDR precum „192.168.1.0/24”",
-        "valid_memberOf_accept,drop": "Acțiunile valide sunt „Acceptare” sau „Respingere”"
+        "valid_memberOf_accept,drop": "Acțiunile valide sunt „Acceptare” sau „Respingere”",
+        "non_existing_firewall_object": "Firewall object does not exist",
+        "snat_fw_object_duplicated": "Firewall object is duplicated"
     },
     "docs": {
         "pf_origin_port": "Introdu un singur port, o listă de porturi separate prin virgulă sau un interval de porturi folosind „:” ca separator ca „100: 200”.",
@@ -582,6 +590,8 @@
         "network_services_system_services": "Serviciile de rețea pot fi adăugate în pagina Sistem -> Servicii",
         "rules_service": "Scrie numele unui serviciu de rețea care rulează pe firewall, altfel lasă necompletat pentru a se potrivi cu orice serviciu",
         "allow_only": "Restricționează accesul la redirecționarea porturilor numai dintr-o listă de adrese IP publice sau rețele (scrise în format CIDR). Adăugă câte o intrare pe linie. Lasă câmpul gol pentru a permite accesul oricui.",
-        "SipAlg": "ALG permite protocoalelor SIP și H.323 să funcționeze prin NAT. Când este activat, ALG va inspecta și rescrie pachetele de rețea Voice over Internet Protocol (VoIP) și va deschide porturile necesare. Încercă să dezactivezi această opțiune numai dacă ai probleme audio și de apel cu clientul tău PBX sau VoIP."
+        "SipAlg": "ALG permite protocoalelor SIP și H.323 să funcționeze prin NAT. Când este activat, ALG va inspecta și rescrie pachetele de rețea Voice over Internet Protocol (VoIP) și va deschide porturile necesare. Încercă să dezactivezi această opțiune numai dacă ai probleme audio și de apel cu clientul tău PBX sau VoIP.",
+        "more_info_about": "Mai multe informații despre",
+        "snat_order": "The following entries are order-sensitive. The first entry that matches a particular connection will be the one that is used."
     }
 }
