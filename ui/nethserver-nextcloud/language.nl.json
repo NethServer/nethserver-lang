@@ -1,7 +1,7 @@
 {
   "configuration": "Configuratie",
   "logs": "Logs",
-  "about": "Over ClamAV",
+  "about": "Over",
   "log_file": "Log bestand",
   "follow": "Volg",
   "stop_follow": "Stop met volgen",

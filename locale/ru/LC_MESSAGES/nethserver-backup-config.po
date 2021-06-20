@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Gregory Malets <gregory.malets@me.com>, 2017
+# Gregory Malets, 2017
 # Вячеслав, 2019
 # 
 #, fuzzy

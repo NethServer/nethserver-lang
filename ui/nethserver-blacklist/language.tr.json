@@ -101,7 +101,7 @@
         "interface": "Arabirim",
         "source": "Kaynak",
         "destination": "Hedef",
-        "protocol": "İletişim Kuralı",
+        "protocol": "İletişim kuralı",
         "destination_port": "Hedef kapı numarası",
         "destination_service": "Hedef hizmet",
         "filter": "Arama süzgeci",

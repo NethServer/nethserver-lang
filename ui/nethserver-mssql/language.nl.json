@@ -1,12 +1,12 @@
 {
     "settings": {
         "title": "Instellingen",
-        "mssql_edition": "MSSQL Edition",
+        "mssql_edition": "MSSQL Editie",
         "not_valid_edition": "Geselecteerde editie is niet geldig",
         "error_reading_mssql_configuration": "Fout bij het lezen van Microsoft SQL Server-configuratie",
         "settings_updated_ok": "Configuratie succesvol bijgewerkt",
         "settings_updated_error": "Configuratie niet bijgewerkt",
-        "mssql_is_not_running": "MSSQL Server is not running",
+        "mssql_is_not_running": "MSSQL Server is niet opgestart",
         "check_sql_service": "Controleer SQL Server en start de service",
         "not_valid_key": "Productcode is niet geldig",
         "insert_a_key": "Een productcode invoegen",
@@ -34,12 +34,12 @@
         "create": "Database aanmaken",
         "not_valid_database_name": "Databasenaam is niet geldig",
         "database_create_ok": "Database met succes aangemaakt",
-        "create_database": "Create new empty database",
-        "error_reading_mssql_db_details": "Error while reading databases details",
-        "databases_details": "Databases details",
-        "terminal_utility": "Terminal utilty",
-        "terminal_utility_desc": "To use SQLCMD utility you can run this command from command line interface",
-        "sqlcmd_path": "SQLCMD path",
+        "create_database": "Creëer een nieuwe lege database",
+        "error_reading_mssql_db_details": "Fout bij het lezen van details van de database",
+        "databases_details": "Details van de database",
+        "terminal_utility": "Terminal",
+        "terminal_utility_desc": "Om het SQLCMD gereedschap te gebruiken, kan je dit commando geven via de command line interface",
+        "sqlcmd_path": "SQLCMD pad",
         "copy": "Kopiëren"
     },
     "about": {

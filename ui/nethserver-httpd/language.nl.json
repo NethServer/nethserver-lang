@@ -100,7 +100,7 @@
     "php_version": "Versie van PHP",
     "php73_version": "PHP 7.3",
     "php72_version": "PHP 7.2",
-    "php71_version": "PHP 7.1 (obsolete)",
+    "php71_version": "PHP 7.1 (verouderd)",
     "MaxExecutionTime": "Maximale uitvoertijd",
     "MemoryLimit": "Scriptgeheugenlimiet",
     "PostMaxSize": "Maximale berichtgrootte",
@@ -117,12 +117,12 @@
     "alert_php_not_installed_detail": "Het is mogelijk om de PHP-versie nu te installeren.",
     "alert_install_button_label": "Installeer",
     "PhpCustomSettings": "PHP-configuratie aanpassen",
-    "php_version_php71": "PHP 7.1 (obsolete)",
+    "php_version_php71": "PHP 7.1 (verouderd)",
     "php_version_php72": "PHP 7.2",
     "php_version_php73": "PHP 7.3",
     "php_version_default": "PHP 5.4",
-    "alert_php_obsoleted_title": "PHP 7.1 is obsolete",
-    "alert_php_upgrade_php_detail": "You are strongly encouraged to use another PHP version, this software collection is not maintained anymore."
+    "alert_php_obsoleted_title": "PHP 7.1 is verouderd",
+    "alert_php_upgrade_php_detail": "Je wordt ten zeerste aangeraden een andere PHP versie te gebruiken, deze softwareverzameling wordt niet meer onderhouden"
   },
   "about": {
     "title": "Over",
@@ -181,14 +181,14 @@
     "more_info_about": "Meer info over",
     "virtualhost": "Virtuele hosts",
     "Reverse_Proxy": "Reverse Proxy",
-    "path-and-virtual-host-rules": "If you want to create a resource path matching rule, then enter the resource path beginning with a '/'. If you want to create a web site name matching rule, then type the web site fully qualified domain name.",
+    "path-and-virtual-host-rules": "Als je een overeenstemmende regel met een bronpad wil creëren, vul dan het bronpad in beginnend met '/'.  Als je een overeenstemmende regel wil creëren met een websitenaam, vul dan de fully qualified domain name van de website in.",
     "ftp": "FTP",
     "MaxExecutionTime": "Dit stelt de maximale tijd in seconden in die een script mag uitvoeren voordat het wordt beëindigd door de parser.",
     "MemoryLimit": "Dit stelt de maximale hoeveelheid geheugen in bytes in die een script mag toewijzen, deze waarde moet groter zijn dan de 'Maximale berichtgrootte'.",
     "PostMaxSize": "Stelt de maximale grootte van toegestane postgegevens in. Deze instelling is ook van invloed op het uploaden van bestanden. Om grote bestanden te uploaden, moet deze waarde groter zijn dan 'Upload maximale bestandsgrootte'.",
     "UploadMaxFilesize":"De maximale grootte van een geüpload bestand, deze waarde moet kleiner zijn dan de 'Maximale berichtgrootte'.",
-    "Websocket-label": "Experimental feature. The WebSocket API is an advanced technology that allows to open a two-way interactive communication session between the user's browser and the server.",
-    "WebSocketsPath-label": "Additional match rule based on the WebSocket URL path"
+    "Websocket-label": "Experimentele mogelijkheid.  De WebSocket API is een geavanceerde technologie die toelaat om een tweeweg interactieve communicatiesessie te openen tussen de browser van de gebruiker en de server.",
+    "WebSocketsPath-label": "Aanvullende overeenstemmende regel gebaseerd op het WebSocket URL pad"
   },
   "validation": {
     "validation_failed": "Validatie mislukt",
@@ -205,9 +205,9 @@
     "user_already_exists": "Er bestaat al een account met dezelfde naam",
     "user_not_found": "Account niet gevonden",
     "valid_username": "Het eerste teken moet een letter zijn, en niet alleen lagere letters, cijfers en symbolen zoals '-' en '_'",
-    "valid_hostname_0_9223372036854775807": "Must be a fully qualified domain name or a resource path segment beginning with '/'",
+    "valid_hostname_0_9223372036854775807": "Dient een fully qualified domain name te zijn of een segment van een bronpad beginnend met '/'",
     "valid_minLength_1": "Dit veld mag niet leeg zijn!",
-    "WebSocketsPathNotValid": "Only letters, digits and the symbols - (minus) _ (underscore) are accepted"
+    "WebSocketsPathNotValid": "Alleen letters, cijfers en symbolen - (minus) _ (underscore) zijn toegelaten"
   },
   "proxypass": {
     "title": "Reverse proxy",
@@ -247,9 +247,9 @@
     "automatic_HostRecord_creation": "Een alias voor de hostnaam is toegevoegd aan Systeem > Dashboard > Hostnaam / Alias",
     "advanced_mode": "Geavanceerde instellingen",
     "ValidFromCIDR_help": "Eén item per regel",
-    "Enable_WebSockets": "Enable WebSocket",
-    "WebSocketsPath":"WebSocket path",
-    "WebSocketsPath_help": "Optional web socket path"
+    "Enable_WebSockets": "WebSocket inschakelen",
+    "WebSocketsPath":"WebSocket pad",
+    "WebSocketsPath_help": "Optioneel web socket pad"
 },
 "settings": {
     "title": "Instellingen",
