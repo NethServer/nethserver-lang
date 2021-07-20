@@ -19,12 +19,12 @@
   "search": "Arama",
   "cancel": "İptal",
   "save": "Kaydet",
-  "advanced_mode": "Gelişmiş Ayarlar",
+  "advanced_mode": "Gelişmiş ayarlar",
   "modal": {
     "cancel_button": "İptal",
     "delete_button": "Sil",
     "create_button": "Ekle",
-    "apply_button": "Değişiklikleri Uygula",
+    "apply_button": "Değişiklikleri uygula",
     "save_button": "Kaydet",
     "spinner_message": "Değişiklikler uygulanıyor"
   },
@@ -75,7 +75,7 @@
     "name": "Ad",
     "description_label": "Açıklama",
     "Ftp_Authentication": "FTP erişimi kullanılsın",
-    "UserName": "Kullanıcı Adı",
+    "UserName": "Kullanıcı adı",
     "FtpPassword": "Parola",
     "ServerNames": "Sanal sunucu adları (FQDN)",
     "Trusted_Network_Only": "Yalnız güvenilen ağlardan erişilebilsin",
@@ -180,7 +180,7 @@
   "docs": {
     "more_info_about": "Şunun hakkında ayrıntılı bilgiler",
     "virtualhost": "Sanal sunucular",
-    "Reverse_Proxy": "Ters Vekil Sunucu",
+    "Reverse_Proxy": "Ters vekil sunucu",
     "path-and-virtual-host-rules": "Bir kaynak yolu eşleştirme kuralı eklemek istiyorsanız, kaynak yolunu '/' ile başlayarak yazın. Bir web sitesi adı eşleştirme kuralı eklemek istiyorsanız, web sitesinin tam etki alanı adını yazın.",
     "ftp": "FTP",
     "MaxExecutionTime": "Saniye cinsinden, işleyici tarafından sonlandırılmadan önce bir betiğin çalışmasına izin verilecek en uzun süre.",
@@ -212,7 +212,7 @@
   "proxypass": {
     "title": "Ters vekil sunucu",
     "paths": "Yollar",
-    "virtualhosts": "Sanal Sunucular",
+    "virtualhosts": "Sanal sunucular",
     "HttpdForced": "HTTPS yönlendirmesi dayatılsın",
     "edit_title": "{name} ters vekil sunucusunu düzenle",
     "create_title": "Bir ters vekil sunucu ekle",

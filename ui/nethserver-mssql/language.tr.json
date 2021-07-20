@@ -1,16 +1,16 @@
 {
     "settings": {
         "title": "Ayarlar",
-        "mssql_edition": "MSSQL Sürümü",
+        "mssql_edition": "MSSQL sürümü",
         "not_valid_edition": "Seçilmiş sürüm geçersiz",
         "error_reading_mssql_configuration": "Microsoft SQL Server yapılandırması okunurken sorun çıktı",
         "settings_updated_ok": "Yapılandırma güncellendi",
         "settings_updated_error": "Yapılandırma güncellenirken sorun çıktı",
-        "mssql_is_not_running": "MSSQL Sunucusu çalışmıyor",
+        "mssql_is_not_running": "MSSQL sunucusu çalışmıyor",
         "check_sql_service": "SQL Server hizmetini denetleyip yeniden başlatın",
-        "not_valid_key": "Ürün Anahtarı geçersiz",
-        "insert_a_key": "Bir Ürün Anahtarı Ekleyin",
-        "product_key": "Ürün Anahtarı",
+        "not_valid_key": "Ürün anahtarı geçersiz",
+        "insert_a_key": "Bir ürün anahtarı ekleyin",
+        "product_key": "Ürün anahtarı",
         "sa_user_mgmt": "SA kullanıcı yönetimi",
         "sa_password": "SA parolası",
         "change_password": "Parolayı değiştir",
@@ -48,7 +48,7 @@
         "bug_tracker": "Hata izleyici"
     },
     "validation": {
-        "NotValidProductKey": "Ürün Anahtarı geçersiz",
+        "NotValidProductKey": "Ürün anahtarı geçersiz",
         "DbAlreadyExists": "Veritabanı zaten var"
     },
     "logs": {

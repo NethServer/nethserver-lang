@@ -2,11 +2,11 @@
 
 $L['IpsecTunnels_Title'] = 'IPsec tünelleri';
 $L['create_header_label'] = 'Yeni tünel ekle';
-$L['update_header_label'] = 'Varolan tüneli düzenle';
+$L['update_header_label'] = 'Var olan tüneli düzenle';
 $L['general_label'] = 'Genel';
 $L['name_label'] = 'Ad';
 $L['status_label'] = 'Tüneli etkinleştir';
-$L['psk_label'] = 'Önceden Paylaşılmış Anahtar';
+$L['psk_label'] = 'Önceden paylaşılmış anahtar';
 $L['left_label'] = 'Yerel IP';
 $L['leftsubnets_label'] = 'Yerel alt ağlar';
 $L['leftnexthop_label'] = 'sonrakisoldurak';
@@ -16,8 +16,8 @@ $L['rightsubnets_label'] = 'Uzak alt ağlar';
 $L['rightnexthop_label'] = 'sonrakisagdurak';
 $L['rightid_label'] = 'Uzak belirteç';
 $L['Advanced_label'] = 'Gelişmiş ayarlar';
-$L['dpdaction_label'] = 'DPD Kullanılsın (Ölü Uç Algılama)';
-$L['pfs_label'] = 'PFS Kullanılsın (Kusursuz İleri Gizlilik)';
+$L['dpdaction_label'] = 'DPD kullanılsın (ölü uç algılama)';
+$L['pfs_label'] = 'PFS kullanılsın (kusursuz ileri gizlilik)';
 $L['compress_label'] = 'Sıkıştırma kullanılsın';
 $L['phase1_label'] = '1. Faz (IKE)';
 $L['ike_auto_label'] = 'Otomatik';

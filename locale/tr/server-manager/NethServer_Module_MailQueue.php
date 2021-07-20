@@ -3,9 +3,9 @@
 $L['Delete_label'] = 'Sil';
 $L['Delete_Header'] = '${0} iletisini sil';
 $L['Delete_Message'] = '${0} iletisini silmek istediğinize emin misiniz?';
-$L['MailQueue_Description'] = 'Posta kuyruğu yönetimi'; 
+$L['MailQueue_Description'] = 'E-posta kuyruğu yönetimi'; 
 $L['MailQueue_Tags'] = 'mail email queue postfix mailqueue posta e-posta kuyruk'; 
-$L['MailQueue_Title'] = 'Posta kuyruğu'; 
+$L['MailQueue_Title'] = 'E-posta kuyruğu'; 
 $L['AndXMore'] = '..ve ${0} diğer';
 $L['Refresh_label'] = 'Yenile';
 $L['Id_label'] = 'Kod';

@@ -12,4 +12,4 @@ $L['MailStatus_label'] = 'E-posta kutusu';
 $L['Unlimited_quota'] = 'Sınırsız'; 
 $L['ever'] = 'her zaman';
 $L['CreateMailAddresses_label'] = 'Varsayılan e-posta adreslerini ekle';
-$L['MailAddressList_label'] = 'Posta adresleri';
+$L['MailAddressList_label'] = 'E-posta adresleri';

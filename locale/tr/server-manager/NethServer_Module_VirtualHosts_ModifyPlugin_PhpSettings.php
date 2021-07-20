@@ -1,6 +1,6 @@
 <?php
 
-$L['phpsettings_Title'] = 'PHP Ayarları';
+$L['phpsettings_Title'] = 'PHP ayarları';
 $L['AllowUrlfOpen_label'] = 'PHP uzak dosyalara erişebilsin';
 $L['Status_label'] = 'Web erişimi kullanılsın';
 $L['Php memory limit (${0})'] = 'Kullanılabilecek en fazla bellek (${0})';
@@ -8,9 +8,9 @@ $L['Maximum upload file size (${0})'] = 'Yüklenebilecek en büyük dosya boyutu
 $L['Maximum post size (${0})'] = 'Gönderilebilecek en büyük veri boyutu (${0})';
 $L['Maximum execution time (${0})'] = 'En uzun betik yürütme süresi (${0})';
 $L['Maximum file uploads (${0})'] = 'Yüklenebilecek en fazla dosya sayısı (${0})';
-$L['MemoryLimit_label'] = 'Bellek Sınırı Uyarısı';
+$L['MemoryLimit_label'] = 'Bellek sınırı uyarısı';
 $L['MemoryLimitLabelMustBeSuperiorThanUpPostMaxSize'] = 'Kullanılabilecek en fazla bellek değeri Gönderilebilecek en büyük veri boyutu değerinden büyük olmalıdır';
-$L['PostMaxSize_label'] = 'Gönderi Boyutu Uyarısı';
+$L['PostMaxSize_label'] = 'Gönderi boyutu uyarısı';
 $L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'Gönderilebilecek en büyük veri boyutu değeri Yüklenebilecek en büyük dosya boyutu değerinden büyük olmalıdır';
 $L['default'] = 'varsayılan';
 $L['${0} MB'] = '${0} Megabayt';

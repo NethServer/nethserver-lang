@@ -1,6 +1,6 @@
 <?php
 $L['Php56_Title'] = 'PHP V5.6 SCL';
-$L['Php56AdjustableValues_Title'] = 'PHP56 Ayarları Yönetimi';
+$L['Php56AdjustableValues_Title'] = 'PHP56 ayarları yönetimi';
 $L['AllowUrlFopen_label'] = 'PHP uzak dosyalara erişebilsin';
 $L['Php memory limit (${0})'] = 'Kullanılabilecek en fazla bellek (${0})';
 $L['Maximum upload file size (${0})'] = 'Yüklenebilecek en büyük dosya boyutu (${0})';
@@ -10,7 +10,7 @@ $L['Maximum number of files (${0})'] = 'Yüklenebilecek en fazla dosya sayısı 
 $L['Maximum input time (${0})'] = 'Aktarılan verinin işlenebileceği en uzun süre (${0})';
 $L['MemoryLimit_label'] = 'Bellek Sınırı Uyarısı';
 $L['MemoryLimitLabelMustBeSuperiorThanPostMaxSize'] = 'Kullanılabilecek en fazla bellek değeri Gönderilebilecek en büyük veri boyutu değerinden büyük olmalıdır';
-$L['PostMaxSize_label'] = 'Gönderi Boyutu Uyarısı';
+$L['PostMaxSize_label'] = 'Gönderi boyutu uyarısı';
 $L['PostMaxSizeMustBeSuperiorThanUpMaxFileSize'] = 'Gönderilebilecek en büyük veri boyutu değeri Yüklenebilecek en büyük dosya boyutu değerinden büyük olmalıdır';
 $L['default'] = 'varsayılan';
 $L['${0} MB'] = '${0} Megabayt';

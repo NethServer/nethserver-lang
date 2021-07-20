@@ -52,6 +52,7 @@
     "openvpn_tun_interfaces": "OpenVPN tunnels interfaces",
     "openvpn_rw_interfaces": "OpenVPN roadwarrior interfaces",
     "openvpn_rw_top_traffic_accounts": "Today top traffic accounts",
+    "number_users_per_wan_ip": "Clients currently connected by WAN",
     "bytes": "Байт",
     "account": "Account",
     "traffic": "Traffic"
@@ -264,6 +265,7 @@
     "bytes_sent": "Sent",
     "real_address": "Віддалена IP-адреса",
     "virtual_address": "Віртуальна IP-адреса",
+    "wan_ip": "WAN IP",
     "state": "Область",
     "kill": "Disconnect",
     "kill_account": "Disconnect account",
@@ -330,6 +332,7 @@
     "missing_wanpriority_rules": "Missing interface in priority order",
     "valid_notEmpty":"This field cannot be empty",
     "ipsec_tunnel_name_cannot_contain_spaces": "Tunnel name can't contain spaces",
+    "valid_maxLength_10":"The maximum length is 10 characters",
     "valid_username":"Першим символом повинна бути буква, далі тільки маленькі букви, цифри і символи \"-\" та \"_\""
   },
   "docs": {

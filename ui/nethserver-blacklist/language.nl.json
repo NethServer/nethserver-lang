@@ -165,9 +165,9 @@
     },
     "docs": {
         "blacklist_download_url": "Van hier worden definities van bedreigingen gedownload. Als de machine een abonnement heeft, worden de referenties automatisch naar de externe server verzonden voor toegang tot commerciële zwarte lijsten",
-        "search_ip_address": "Check if this IP address is blocked by IP blacklist",
-        "search_domain": "Check if this domain is blocked by DNS blacklist",
-        "search_ip_or_domain": "Check if this IP or domain is blocked by IP or DNS blacklist",
+        "search_ip_address": "Zie na of dit IP adres is geblokkeerd door de IP Zwarte lijst",
+        "search_domain": "Zie na of dit domein is geblokkeerd door de DNS Zwarte lijst",
+        "search_ip_or_domain": "Zie na of dit IP of domein is geblokkeerd door de IP of DNS Zwarte lijst",
         "whitelist_dns": "DNS verzoeken van deze bron zullen niet naar de DNS proxy geleid worden",
         "whitelist_blacklist": "Altijd netwerktrafiek van/naar de opgegeven externe hosts toelaten, zelfs als ze deel uitmaken van een categorie in de zwarte lijst",
         "dns_zones": "DNS verzoeken komende van deze zones zullen naar de DNS filter geleid worden luisterend op poort 1153"

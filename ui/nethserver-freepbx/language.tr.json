@@ -38,7 +38,7 @@
     "dashboard":{
         "title": "FreePBX panosu",
         "app": "FreePBX",
-        "freepbx_admin_dashboard": "FreePBX Yönetim Panosu",
+        "freepbx_admin_dashboard": "FreePBX yönetim panosu",
         "open_dashboard": "Panoyu aç",
         "freepbx_description": "FreePBX, Asterisk sisteminizi yönetebileceğiniz bir görsel kullanıcı arayüzüdür."
     },

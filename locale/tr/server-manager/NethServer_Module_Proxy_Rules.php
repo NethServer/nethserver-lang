@@ -1,10 +1,10 @@
 <?php
 
 $L['Rules_Title'] = 'Kurallar';
-$L['Key_label'] = 'Kural No';
+$L['Key_label'] = 'Kural no';
 $L['Src_label'] = 'Kaynak';
 $L['Dst_label'] = 'Hedef etki alanları';
-$L['id_label'] = 'Kural No';
+$L['id_label'] = 'Kural no';
 $L['Action_label'] = 'İşlem';
 $L['class_label'] = 'Öncelik';
 $L['low_label'] = 'Düşük';

@@ -160,7 +160,7 @@
         "ip_search_invalid": "IP adresi geçersiz",
         "domain_search_empty": "Etki alanının yazılması zorunludur",
         "domain_search_invalid": "Etki alanı geçersiz",
-        "ip_or_domain_search_empty": "Ip adresi ya da etki alanının yazılması zorunludur",
+        "ip_or_domain_search_empty": "IP adresi ya da etki alanının yazılması zorunludur",
         "ip_or_domain_search_invalid": "IP adresi ya da etki alanı geçersiz"
     },
     "docs": {

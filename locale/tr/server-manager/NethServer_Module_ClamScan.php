@@ -1,11 +1,11 @@
 <?php
-$L['ClamScan_Title'] = 'Virusten Koruma Tarayıcısı';
+$L['ClamScan_Title'] = 'Virusten koruma tarayıcısı';
 $L['ClamScan_Description'] = 'clamscan - dosya ve klasörleri viruslere karşı tarar';
 $L['ClamScan_header'] = 'Dosya ve klasörleri viruslere karşı tarar';
 $L['status_label'] = 'Dosya sistemi taransın';
 $L['FilesystemScan_daily_label'] = 'Günde bir taransın';
 $L['FilesystemScan_weekly_label'] = 'Haftada bir taransın';
-$L['DetectPua_label'] = 'İstenmeyebilecek Uygulamalar Algılansın';
+$L['DetectPua_label'] = 'İstenmeyebilecek uygulamalar algılansın';
 $L['ExcludePua_label'] = 'Katılmayacak kategori ya da kategoriler (virgül ile ayırın)';
 $L['PuaText_label'] = 'PUA - istenmeyebilecek uygulamalar istenmeyen içerik ile kullanılabilecek uygulamalardır';
 $L['Bytecode_label'] = 'Bytecode imzaları kullanılsın';

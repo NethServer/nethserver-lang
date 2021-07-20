@@ -2,7 +2,7 @@
 $L['Ssh_Title'] = 'SSH';
 $L['Ssh_Description'] = 'Güvenli Kabuk (SSH) sunucu erişimi yönetimi';
 $L['Ssh_Tags'] = 'sshd ssh rsh secure shell telnet remote uzak';
-$L['Ssh_header'] = 'Güvenli Kabuk Erişimi';
+$L['Ssh_header'] = 'Güvenli kabuk erişimi';
 $L['Ssh_Action'] = 'SSH bağlantıları için dinlenecek kapı numarası: ${port}';
 $L['port_label'] = 'TCP kapı numarası';
 $L['passwordAuth_label'] = 'Parola doğrulaması kullanılabilsin';

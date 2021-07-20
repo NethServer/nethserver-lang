@@ -6,10 +6,10 @@ $L['FileServer_Tags'] = 'smb samba windows network workgroup administrator admin
 
 $L['FileServer_header'] = 'Windows dosya sunucusu';
 $L['Save_label'] = 'Kaydet';
-$L['Workgroup_label'] = 'Çalışma Grubu / NetBIOS etki alanı adı';
+$L['Workgroup_label'] = 'Çalışma grubu / NetBIOS etki alanı adı';
 $L['SpecialPrivileges_label'] = 'Özel izinler';
-$L['HomeAdm_label'] = 'Etki Alanı Yöneticileri grubuna kullanıcı klasörleri üzerinde tam izin verilsin (home$ paylaşımı)';
-$L['ShareAdm_label'] = 'Etki Alanı Yöneticileri grubuna paylaşılmış klasörler üzerinde tam izin verilsin';
+$L['HomeAdm_label'] = 'Etki alanı yöneticileri grubuna kullanıcı klasörleri üzerinde tam izin verilsin (home$ paylaşımı)';
+$L['ShareAdm_label'] = 'Etki alanı yöneticileri grubuna paylaşılmış klasörler üzerinde tam izin verilsin';
 $L['InheritOwner_label'] = 'Paylaşılmış bir klasör üzerine yeni bir dosya ya da klasör eklendiğinde';
 $L['InheritOwner_yes_label'] = 'Üst klasörün sahibine tam izin verilsin';
 $L['InheritOwner_no_label'] = 'Sahibe tam izin verilsin';

@@ -15,7 +15,7 @@
         "error_downloading_alert_config": "Uyarı yapılandırması indirilirken sorun çıktı",
         "no_custom_alert": "Herhangi bir özel uyarı bulunamadı ",
         "no_custom_alert_description": "Yeni bir özel uyarı eklemek için aşağıdaki düğmeyi kullanın",
-        "access_nethesis_operation_center": "Nethesis İşlem Merkezine Git",
+        "access_nethesis_operation_center": "Nethesis işlem merkezine git",
         "alert": "Uyarı",
         "parameter": "Parametre",
         "threshold": "Eşik",

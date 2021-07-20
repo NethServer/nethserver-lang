@@ -1,10 +1,10 @@
 <?php 
-$L['Create a new Job'] = 'Zamanlanmış Görev Ekle'; 
+$L['Create a new Job'] = 'Zamanlanmış görev ekle'; 
 $L['Description_label'] = 'Açıklama'; 
-$L['CronTab_Title'] = 'Zamanlanmış Görev Yönetimi'; 
-$L['Key_label'] = 'Zamanlanmış Görev Adı'; 
+$L['CronTab_Title'] = 'Zamanlanmış görev yönetimi'; 
+$L['Key_label'] = 'Zamanlanmış görev adı'; 
 $L['PlugService_Title'] = 'Hizmetler'; 
-$L['Update Job `${0}`'] = '`${0}` Zamanlanmış Görevini Güncelle'; 
+$L['Update Job `${0}`'] = '`${0}` zamanlanmış görevini güncelle'; 
 $L['monday_label'] = 'Pazartesi';
 $L['tuesday_label'] = 'Salı';
 $L['wednesday_label'] = 'Çarşamba';
@@ -55,8 +55,8 @@ $L['status_label'] = 'Durum';
 $L['Advanced_label'] = 'Gelişmiş Ayarlar';
 $L['AdvancedCron_label'] = 'Görevin zamanını ayarlayın';
 $L['AdvancedUser_label'] = 'Görevi çalıştıracak kişiyi ayarlayın';
-$L['Advanced_disabled_label'] = 'Temel Ayarlar';
-$L['Advanced_enabled_label'] = 'Gelişmiş Ayarlar';
+$L['Advanced_disabled_label'] = 'Temel ayarlar';
+$L['Advanced_enabled_label'] = 'Gelişmiş ayarlar';
 $L['Mail_label_checkbox'] = 'root kullanıcısına e-posta bildirimi gönderilsin';
 $L['Service_key_exists_message'] = 'Bu ad zaten kullanılmış';
 $L['Enabled_label'] = 'Etkinleştirilmiş';

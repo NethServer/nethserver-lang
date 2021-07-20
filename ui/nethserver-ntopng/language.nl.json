@@ -17,34 +17,34 @@
     "all": "Alle",
     "dashboard": {
         "app": "Bandbreedte monitor",
-        "title": "Bandwidth monitor dashboard",
+        "title": "Dashboard Bandbreedtemonitor",
         "status": "Status",
-        "is_enabled": "is enabled",
-        "is_disabled": "is disabled",
-        "openNtopngApp": "Open bandwidth monitor app",
+        "is_enabled": "is ingeschakeld",
+        "is_disabled": "is uitgeschakeld",
+        "openNtopngApp": "Open de bandbreedtemonitor-app",
         "name": "Naam",
         "ip_address": "IP adres",
-        "throughput": "Throughput",
+        "throughput": "Doorvoer",
         "traffic": "Verkeer",
         "since": "Sinds",
-        "top_local_hosts": "Top local hosts",
-        "top_remote_hosts": "Top remote hosts",
-        "traffic_by_interface": "Traffic by interface",
-        "traffic_by_protocol": "Traffic by protocol",
-        "kbps": "kbit/s",
+        "top_local_hosts": "Top locale hosts",
+        "top_remote_hosts": "Top afgelegen hosts",
+        "traffic_by_interface": "Trafiek per interface",
+        "traffic_by_protocol": "Trafiek per protocol",
+        "kbps": "kbits/s",
         "no_data": "Geen gegevens",
-        "others": "Others"
+        "others": "Anderen"
     },
     "settings": {
         "title": "Instellingen",
-        "enable_ntopng": "Enable bandwidth monitor",
+        "enable_ntopng": "Schakel bandbreedtemonitor in",
         "web_interface_port": "Web interface poort",
         "enable_auth": "Schakel authenticatie in",
         "interfaces": "Interfaces",
         "settings_update_successful": "Instellingen succesvol bijgewerkt",
         "settings_update_failed": "Instellingen niet bijgewerkt",
-        "is_running_at_this_url": "application is running at this URL",
-        "login_credentials": "Login credentials"
+        "is_running_at_this_url": "applicatie draait op deze URL",
+        "login_credentials": "Logincredentials"
     },
     "logs": {
         "title": "Logs",
@@ -60,6 +60,6 @@
         "bug_tracker": "Bug tracker"
     },
     "docs": {
-        "ntopng_credentials": "Username: <code>admin</code><br>Default password: <code>admin</code>"
+        "ntopng_credentials": "Gebruikersnaam: <code>admin</code><br>Standaard wachtwoord: <code>admin</code>"
     }
 }

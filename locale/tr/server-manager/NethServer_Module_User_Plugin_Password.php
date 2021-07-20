@@ -1,2 +1,2 @@
 <?php
-$L['PassExpires_label'] = 'Parola Son Kullanma Tarihi';
+$L['PassExpires_label'] = 'Parola son kullanma tarihi';

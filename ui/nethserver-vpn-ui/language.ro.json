@@ -52,6 +52,7 @@
     "openvpn_tun_interfaces": "Interfețe tuneluri OpenVPN",
     "openvpn_rw_interfaces": "Interfețe OpenVPN roadwarrior",
     "openvpn_rw_top_traffic_accounts": "Conturile cu cel traficul cel mai mare astăzi",
+    "number_users_per_wan_ip": "Clients currently connected by WAN",
     "bytes": "Octeți",
     "account": "Cont",
     "traffic": "Trafic"
@@ -264,6 +265,7 @@
     "bytes_sent": "Trimis",
     "real_address": "Adresă IP la distanță",
     "virtual_address": "Adresă IP virtuală",
+    "wan_ip": "IP WAN",
     "state": "Stare",
     "kill": "Deconectare",
     "kill_account": "Deconectare cont",
@@ -330,6 +332,7 @@
     "missing_wanpriority_rules": "Interfața lipsește în ordinea priorităților",
     "valid_notEmpty":"Acest câmp nu poate fi gol",
     "ipsec_tunnel_name_cannot_contain_spaces": "Tunnel name can't contain spaces",
+    "valid_maxLength_10":"The maximum length is 10 characters",
     "valid_username":"Primul caracter trebuie să fie o literă, apoi numai litere mici, cifre și simboluri de tipul '-' și '_'"
   },
   "docs": {

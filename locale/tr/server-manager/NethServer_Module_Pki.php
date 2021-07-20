@@ -29,8 +29,8 @@ $L['Show_header'] = '${0} sertifikasını görüntüle';
 $L['SetDefault_label'] = 'Varsayılan olarak ata';
 
 $L['Key_label'] = 'Ad';
-$L['Issuer_label'] = 'Sertifikayı Veren';
-$L['ExpireDate_label'] = 'Sona Erme Tarihi';
+$L['Issuer_label'] = 'Sertifika sağlayıcı';
+$L['ExpireDate_label'] = 'Sona erme tarihi';
 $L['Actions_label'] = 'İşlemler';
 $L['Default_label'] = 'Varsayılan';
 $L['Confirm_label'] = 'Onayla';

@@ -16,7 +16,7 @@
     "rows_per_page": "Bir sayfadaki satır sayısı",
     "all": "Tümü",
     "dashboard": {
-        "app": "Bantgenişliği izleme",
+        "app": "Bant genişliği izleme",
         "title": "Bant genişliği izleme panosu",
         "status": "Durum",
         "is_enabled": "etkin",

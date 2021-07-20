@@ -52,6 +52,7 @@
     "openvpn_tun_interfaces": "OpenVPN tunnels interfaces",
     "openvpn_rw_interfaces": "OpenVPN roadwarrior interfaces",
     "openvpn_rw_top_traffic_accounts": "Vandaag de beste verkeersaccounts",
+    "number_users_per_wan_ip": "Geconnecteerde clients per WAN",
     "bytes": "Bytes",
     "account": "Account",
     "traffic": "Verkeer"
@@ -97,11 +98,11 @@
     "hash": "Integrity-algoritme",
     "pfsgroup": "Diffie-Hellman-groep",
     "key_lifetime": "Levensduur van de sleutel (seconden)",
-    "ike_version": "IKE version",
+    "ike_version": "IKE versie",
     "ikev1": "IKEv1",
     "ikev2": "IKEv2",
-    "force_ikev1": "Force IKEv1",
-    "force_ikev2": "Force IKEv2"
+    "force_ikev1": "Forceer IKEv1",
+    "force_ikev2": "Forceer IKEv2"
   },
   "openvpn_tun": {
     "menu_title": "OVPN Tunnels",
@@ -175,8 +176,8 @@
     "lz4": "LZ4",
     "running": "Draait",
     "remote_server": "Externe server",
-    "tunnel_config_uploaded_ok": "Tunnel configuration correctly uploaded",
-    "tunnel_config_uploaded_error": "Tunnel configuration upload error"
+    "tunnel_config_uploaded_ok": "Tunnelconfiguratie correct opgeladen",
+    "tunnel_config_uploaded_error": "Tunnelconfiguratie fout opgeladen"
   },
   "openvpn_rw": {
     "menu_title": "OVPN RoadWarrior",
@@ -189,8 +190,8 @@
     "configure_rw_server": "RoadWarrior-server configureren",
     "username_password_certificate": "Gebruikersnaam, wachtwoord en certificaat",
     "username_password": "Gebruikersnaam en wachtwoord",
-    "username_otp_certificate": "Username, One time password and Certificate",
-    "username_otp_certificate_waning_all_users_must_install_an_otp_application": "This policy enforces the OTP usage: users will be required to enable 2FA before accessing the VPN.",
+    "username_otp_certificate": "Gebruikersnaam, éénmalig wachtwoord en certificaat",
+    "username_otp_certificate_waning_all_users_must_install_an_otp_application": "Dit beleid verplicht OTP-gebruik: van gebruikers zal geëist worden dat ze 2FA inschakelen alvorens VPN te gebruiken.",
     "certificate": "Certificaat",
     "mode": "Modus",
     "routed": "Routed",
@@ -264,13 +265,14 @@
     "bytes_sent": "Bytes verzonden",
     "real_address": "Extern IP-adres",
     "virtual_address": "Virtueel IP-adres",
+    "wan_ip": "WAN IP",
     "state": "Status",
     "kill": "Verbinding verbreken",
     "kill_account": "Account ontkoppelen",
     "account_killed_ok": "Account succesvol ontkoppeld!",
     "account_killed_error": "Account niet ontkoppeld",
     "custom_routes": "Aangepaste routes",
-    "send_email_configuration": "Send configuration via email to ",
+    "send_email_configuration": "Zend de configuratie via mail naar",
     "address": "E-mailadres",
     "email_sent_ok": "E-mail succesvol verzonden!",
     "email_sent_error": "E-mail niet verzonden",
@@ -288,18 +290,18 @@
     "last_week": "Vorige week",
     "last_month": "Vorige maand",
     "subnet": "subnet",
-    "net30": "net30 (obsolete)",
-    "topology_selection": "RoadWarrior topology",
+    "net30": "net30 (verouderd)",
+    "topology_selection": "RoadWarrior topologie",
     "topology": "Topologie",
-    "certEOL": "Certificate end of life",
-    "days_life": "Number of days",
-    "PushDhcpOptionsStatus": "Push DHCP options",
-    "The_IP_cannot_be_calculated": "The IP cannot be calculated",
-    "The_r2w_is_not_set": "The R2W is not set",
-    "export_connection_history": "Export connection history",
+    "certEOL": "Certificaat EOL",
+    "days_life": "Aantal dagen",
+    "PushDhcpOptionsStatus": "Push DHCP opties",
+    "The_IP_cannot_be_calculated": "Het IP kan niet worden berekend",
+    "The_r2w_is_not_set": "De R2W is niet ingesteld",
+    "export_connection_history": "Exporteer de verbindingsgeschiedenis",
     "apply_changes": "Toepassen",
-    "pending_changes": "OpenVPN RoadWarrior settings have been changed but not applied. Click 'Apply' to activate the new settings",
-    "warning_apply_changes": "New OpenVPN RoadWarrior settings will be applied immediately. Active connections will be dropped"
+    "pending_changes": "OpenVPN RoadWarrior instellingen zijn gewijzigd, doch niet toegepast. Klik 'Toepassen' om de nieuwe instellingen te activeren",
+    "warning_apply_changes": "Nieuwe OpenVPN RoadWarrior instellingen zullen onmiddellijk toegepast worden. Actieve connecties zullen verbroken worden"
   },
   "logs": {
     "title": "Logs",
@@ -325,11 +327,12 @@
     "valid_lessThan_65536": "Een geldige TCP/UDP-poort is een nummer tussen 1 en 65536",
     "valid_hostname_fqdn_1_9223372036854775807": "Moet ten minste twee punten bevatten, zoals 'myhost.example.com'",
     "port_in_use": "Poort is al in gebruik",
-    "invalid_certificate": "Invalid certificate",
-    "valid_minLength_8": "Minimum length is 8 characters",
-    "missing_wanpriority_rules": "Missing interface in priority order",
-    "valid_notEmpty":"This field cannot be empty",
-    "ipsec_tunnel_name_cannot_contain_spaces": "Tunnel name can't contain spaces",
+    "invalid_certificate": "Ongeldig certificaat",
+    "valid_minLength_8": "Minimale lengte is 8 tekens",
+    "missing_wanpriority_rules": "Ontbrekende interface in voorrangsvolgorde",
+    "valid_notEmpty":"Dit veld kan niet leeg zijn",
+    "ipsec_tunnel_name_cannot_contain_spaces": "Tunnelnaam kan geen spaties bevatten",
+    "valid_maxLength_10":"De maximale lengte is 10 tekens",
     "valid_username":"Het eerste teken moet een letter zijn, en niet alleen lagere letters, cijfers en symbolen zoals '-' en '_'"
   },
   "docs": {
@@ -337,7 +340,7 @@
     "right": "Geef het statische openbare IP-adres op of% any als de afstandsbediening een dynamisch openbaar IP-adres heeft.",
     "vpn_remote_network": "Configureer deze parameters alleen als u met deze account een Net to Net VPN wilt maken (compatibel met NethServer 6). Compileer deze velden niet als u een host configureert voor Net VPN.",
     "vpn_remote_netmask": "Compileer dit veld alleen als u het veld Extern netwerk al hebt ingevuld.",
-    "topology_selection": "The subnet topology is suitable for most use cases and allow the usage of all IPs inside the pool. The net30 is an old topology for support with Windows clients running 2.0.9 or older clients: each client is allocated a virtual /30, taking 4 IPs per client, plus 4 for the server.",
-    "remote_networks": "This field is optional, enter remote networks if you need to create specific firewall rules for this tunnel, otherwise it can be left blank."
+    "topology_selection": "De subnet topologie is in de meeste gevallen passend en laat het gebruik toe van alle IP's in de pool. De net30 is een oude topologie voor ondersteuning van Windowsclients die 2.0.9 uitvoeren of oudere clients: iedere client is een virtuele /30 toegewezen, 4 IP's per client, plus 4 voor de server.  ",
+    "remote_networks": "Dit veld is optioneel, geef afgelegen netwerken op als je specifieke firewall-regels wil creëren voor deze tunnel. In het andere geval kan je het leeg laten."
   }
 }

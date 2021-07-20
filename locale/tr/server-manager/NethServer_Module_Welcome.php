@@ -1,7 +1,7 @@
 <?php 
 
-$L['NethServer_Welcome_Header'] = 'NethServer\'a hoş geldiniz'; 
-$L['Welcome_Description'] = 'Hoş geldiniz sayfası'; 
+$L['NethServer_Welcome_Header'] = 'NethServer platformuna hoş geldiniz'; 
+$L['Welcome_Description'] = 'Karşılama sayfası'; 
 $L['Welcome_Tags'] = 'hoş geldiniz'; 
 $L['Welcome_Title'] = 'Hoş geldiniz';
 $L['Welcome_Body'] = 'UYARI: Bu bir ALFA sürümüdür! NethServer SME sunucu ve CentOS üzerine geliştirilmiştir. Ayrıntılı bilgi için resmi web sitesine bakın.';

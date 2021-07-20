@@ -52,6 +52,7 @@
     "openvpn_tun_interfaces": "rozhraní OpenVPN tunelů",
     "openvpn_rw_interfaces": "Rozhraní OpenVPN uživatelů na cestách",
     "openvpn_rw_top_traffic_accounts": "Účty s nejvyšším provozem za dnešek",
+    "number_users_per_wan_ip": "Clients currently connected by WAN",
     "bytes": "Bajtů",
     "account": "Účet",
     "traffic": "Provoz"
@@ -264,6 +265,7 @@
     "bytes_sent": "Odesláno",
     "real_address": "IP adresa na protějšku",
     "virtual_address": "Virtuální IP adresa",
+    "wan_ip": "IP adresa WAN",
     "state": "Stav",
     "kill": "Odpojit",
     "kill_account": "Odpojit účet",
@@ -330,6 +332,7 @@
     "missing_wanpriority_rules": "Missing interface in priority order",
     "valid_notEmpty":"This field cannot be empty",
     "ipsec_tunnel_name_cannot_contain_spaces": "Tunnel name can't contain spaces",
+    "valid_maxLength_10":"The maximum length is 10 characters",
     "valid_username":"Je třeba, aby první znak bylo písmeno, pak pouze malá písmena, číslice a symboly jako „-“ a „_“"
   },
   "docs": {

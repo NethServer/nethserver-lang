@@ -46,7 +46,7 @@ $L['ZonesKey_label'] = 'Bölge';
 $L['Zones_create_label'] = 'Bölge ekle';
 $L['Zone_key_exists_message'] = 'Bölge belirteci zaten kullanılıyor';
 $L['Zones_CreateZone_label'] = 'Bölge ekle';
-$L['Zones_update_label'] = '"${0}" bölgesini düzenleyin';
+$L['Zones_update_label'] = '"${0}" bölgesini düzenle';
 $L['Zones_Title'] = 'Bölgeler';
 
 $L['valid_platform,fwobject-zone-delete,fwobject-referenced,3'] = 'Güvenlik duvarı kuralları tarafından kullanıldığından ${2} bölgesi silinemedi. ';
@@ -81,7 +81,7 @@ $L['TimesKey_label'] = 'Koşul adı';
 $L['TimeStart_label'] = 'Başlangıç zamanı';
 $L['TimeStop_label'] = 'Bitiş zamanı';
 $L['WeekDays_label'] = 'Haftanın günü';
-$L['TimeStop_compare_TimeStart_message'] = 'Değer "Başlangıç Zamanı"ndan sonra olmalıdır (${0})';
+$L['TimeStop_compare_TimeStart_message'] = 'Değer "Başlangıç zamanı" sonrasında olmalıdır (${0})';
 
 $L['WeekDay_Sun_label'] = 'Pazar';
 $L['WeekDay_Mon_label'] = 'Pazartesi';

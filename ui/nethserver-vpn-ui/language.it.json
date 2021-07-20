@@ -52,6 +52,7 @@
     "openvpn_tun_interfaces": "Traffico su tunnel OpenVPN per interfaccia",
     "openvpn_rw_interfaces": "Traffico su interfaccia OpenVPN RoadWarrior",
     "openvpn_rw_top_traffic_accounts": "Account con più traffico (oggi)",
+    "number_users_per_wan_ip": "Clients currently connected by WAN",
     "bytes": "Bytes",
     "account": "Account",
     "traffic": "Traffico"
@@ -264,6 +265,7 @@
     "bytes_sent": "Inviati",
     "real_address": "Indirizzo IP remoto",
     "virtual_address": "Indirizzo IP client",
+    "wan_ip": "WAN IP",
     "state": "Stato",
     "kill": "Disconnetti",
     "kill_account": "Disconnetti account",
@@ -330,6 +332,7 @@
     "missing_wanpriority_rules": "Interfaccia in ordine di priorità mancante",
     "valid_notEmpty":"This field cannot be empty",
     "ipsec_tunnel_name_cannot_contain_spaces": "Tunnel name can't contain spaces",
+    "valid_maxLength_10":"The maximum length is 10 characters",
     "valid_username":"Il primo carattere deve essere una lettera, poi solo lettere minuscole, numeri, simboli \"-\" e \"_\""
   },
   "docs": {

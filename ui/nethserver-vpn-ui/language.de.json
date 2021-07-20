@@ -52,6 +52,7 @@
     "openvpn_tun_interfaces": "OpenVPN-Tunnel-Schnittstellen",
     "openvpn_rw_interfaces": "OpenVPN-Roadwarrior-Schnittstellen",
     "openvpn_rw_top_traffic_accounts": "Top-Traffic-Konten heute",
+    "number_users_per_wan_ip": "Clients, die derzeit über WAN verbunden sind",
     "bytes": "Bytes",
     "account": "Benutzerkonto",
     "traffic": "Verkehr"
@@ -264,6 +265,7 @@
     "bytes_sent": "Gesendet",
     "real_address": "Remote-IP-Adresse",
     "virtual_address": "Virtuelle IP-Adresse",
+    "wan_ip": "WAN-IP",
     "state": "Status",
     "kill": "Trennen",
     "kill_account": "Konto trennen",
@@ -330,6 +332,7 @@
     "missing_wanpriority_rules": "Schnittstelle in Prioritätsreihenfolge fehlt",
     "valid_notEmpty":"Dieses Feld darf nicht leer sein",
     "ipsec_tunnel_name_cannot_contain_spaces": "Der Tunnelname darf keine Leerzeichen enthalten",
+    "valid_maxLength_10":"Die maximale Länge beträgt 10 Zeichen",
     "valid_username":"Das erste Zeichen muss ein Buchstabe sein, danach nur Kleinbuchstaben, Zahlen und Symbole wie '-' und '_'"
   },
   "docs": {
