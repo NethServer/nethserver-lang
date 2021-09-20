@@ -52,7 +52,7 @@
     "openvpn_tun_interfaces": "Interfețe tuneluri OpenVPN",
     "openvpn_rw_interfaces": "Interfețe OpenVPN roadwarrior",
     "openvpn_rw_top_traffic_accounts": "Conturile cu cel traficul cel mai mare astăzi",
-    "number_users_per_wan_ip": "Clients currently connected by WAN",
+    "number_users_per_wan_ip": "Clienți conectați prin WAN",
     "bytes": "Octeți",
     "account": "Cont",
     "traffic": "Trafic"
@@ -331,8 +331,8 @@
     "valid_minLength_8": "Lungimea minimă este de 8 caractere",
     "missing_wanpriority_rules": "Interfața lipsește în ordinea priorităților",
     "valid_notEmpty":"Acest câmp nu poate fi gol",
-    "ipsec_tunnel_name_cannot_contain_spaces": "Tunnel name can't contain spaces",
-    "valid_maxLength_10":"The maximum length is 10 characters",
+    "ipsec_tunnel_name_cannot_contain_spaces": "Numele tunelului nu poate conține spații",
+    "valid_maxLength_10":"Lungimea maximă este de 10 caractere",
     "valid_username":"Primul caracter trebuie să fie o literă, apoi numai litere mici, cifre și simboluri de tipul '-' și '_'"
   },
   "docs": {

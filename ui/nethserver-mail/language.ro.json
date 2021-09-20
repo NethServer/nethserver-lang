@@ -494,8 +494,8 @@
         "Synchronization_info":"Informații sincronizare",
         "synchronization_informations_ok": "Informațiile de sincronizare au fost actualizate",
         "synchronization_informations_error": "Informațiile de sincronizare nu au fost actualizate",
-        "TrashSync": "Synchronize the Trash",
-        "DefaultExclusion": "Default exclusion",
+        "TrashSync": "Sincronizează coșul de gunoi",
+        "DefaultExclusion": "Excludere implicită",
         "Exclude": "Exclude dosarele"
     },
     "docs": {
@@ -519,7 +519,7 @@
         "lifetime": "O valoare 0 înseamnă reîncercare o singură dată.",
         "DeleteDestination": "Ștergere mesaje de pe serverul local care nu sunt pe serverul la distanță. Util pentru copie de siguranță sau sincronizare.",
         "imapsync":"Imapsync",
-        "TrashSync":"The actual trash folder name depends on the IMAP client configuration. If the trash folder name does not start with 'Trash' or 'Deleted Items' this option has no effect.",
+        "TrashSync":"Numele real al dosarului coș de gunoi depinde de configurația clientului IMAP. Dacă numele dosarului Coș de gunoi nu începe cu „Coș de gunoi” sau „Elemente șterse”, această opțiune nu are efect.",
         "Exclude_Folders": "Excluderea funcționează cu reguli de expresie normale. La excluderea dosarului „Foo”, toate dosarele care conțin „Foo” în nume vor fi excluse din sincronizare. Pentru a forța o potrivire exactă, începe numele dosarului de exclus cu „^” și încheie-l cu „$” ca ^ Foo $. Adăugă o intrare pe linie."
     },
     "mailbox": {
@@ -563,7 +563,7 @@
         "reserved_for_builtin": "Acest nume este rezervat pentru pseudonimele încorporate",
         "pseudonym_not_found": "Pseudonimul nu a fost găsit",
         "account_cant_be_empty": "Destinația nu poate fi goală",
-        "unallowed_self_loop": "The destination cannot be the address itself",
+        "unallowed_self_loop": "Destinația nu poate fi adresa în sine",
         "mailbox_not_found": "Căsuța poștală nu a fost găsită",
         "unsupported_type": "Tip destinație nesuportat",
         "builtin_not_found": "Pseudonim încorporat negăsit",

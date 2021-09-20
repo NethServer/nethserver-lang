@@ -52,7 +52,7 @@
     "openvpn_tun_interfaces": "Interfaces de túneles OpenVPN",
     "openvpn_rw_interfaces": "Interfaces de OpenVPN roadwarrior",
     "openvpn_rw_top_traffic_accounts": "Máximo de tráfico de cuentas al día",
-    "number_users_per_wan_ip": "Clients currently connected by WAN",
+    "number_users_per_wan_ip": "Clientes actualmente conectados por WAN",
     "bytes": "Bytes",
     "account": "Cuenta",
     "traffic": "Tráfico"
@@ -332,7 +332,7 @@
     "missing_wanpriority_rules": "Falta interfaz en orden de prioridad",
     "valid_notEmpty":"Este campo no puede estar vacío",
     "ipsec_tunnel_name_cannot_contain_spaces": "El nombre del túnel no puede contener espacios",
-    "valid_maxLength_10":"The maximum length is 10 characters",
+    "valid_maxLength_10":"La longitud máxima es de 10 caracteres",
     "valid_username":"El primer carácter debe ser una letra, en lugar de letras minúsculas, números y símbolos como '-' y '_'"
   },
   "docs": {

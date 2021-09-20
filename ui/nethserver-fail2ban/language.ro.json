@@ -117,7 +117,7 @@
     },
     "validation":{
         "validation_failed": "Validarea a eșuat",
-        "not_a_valid_IP_or_CIDR_or_FQDN": "It must be a IPv4 address like '1.2.3.4', a CIDR network like '192.168.1.0/24' or a fully qualified domain name like 'my.domain.com'",
+        "not_a_valid_IP_or_CIDR_or_FQDN": "Trebuie să fie o adresă IPv4 precum „1.2.3.4”, o rețea CIDR precum „192.168.1.0/24” sau un nume de domeniu complet calificat precum „domeniulmeu.ro”",
         "not_valid_email_address": "Adresa de e-mail invalidă: ar trebui să fie ceva de genul „numelemeu@domain.ro”",
         "valid_memberOf_enabled, disabled": "Poate fi activat sau dezactivat",
         "valid_memberOf_true, false": "Poate fi adevarat sau fals",
@@ -128,7 +128,7 @@
     "docs":{
         "fail2ban": "Fail2ban",
         "more_info_about": "Mai multe informații despre",
-        "IgnoreIP": "All IP (1.2.3.4), CIDR network (192.168.1.0/24) or a fully qualified domain name (my.domain.com) in this list will never be banned by Fail2ban. Add one entry per line",
+        "IgnoreIP": "Toate IP-urile (1.2.3.4), rețelele CIDR (192.168.1.0/24) sau numele de domeniu complete calificate (my.domain.com) din această listă nu vor fi niciodată interzise de Fail2ban. Adăugă o intrare pe linie",
         "MailJailState": "Toate evenimentele legate de jail (pornire sau oprire), vor fi notificate către root și alți destinatari",
         "FindTime": "Când pornește fail2ban, serviciul caută atacatori în jurnalele pentru acest interval de timp",
         "LogLevel": "Nivelul de DEBUG ar putea genera o dimensiune mare a jurnalului și ar putea umple spațiul pe disc",

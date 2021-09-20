@@ -160,7 +160,7 @@
         "fireqos_temporary_disabled": "Modelarea traficului este dezactivată temporar pe durata testului de viteză.",
         "speedtest_error": "Testul de viteză a eșuat: te rog să verifici conexiunea la internet.",
         "click_to_open": "Click pentru a extinde detaliile",
-        "email_notifications_is_not_set":"The email for notification is not set",
+        "email_notifications_is_not_set":"Emailul pentru notificări nu este setat",
         "settings_email_notifications":"Notificări email",
         "current_ip": "IP public curent"
     },
@@ -213,9 +213,9 @@
         "no_aliases_found": "Nici un alias găsit",
         "no_aliases_found_text": "Se pare că nu ai configurat nici un alias. Mergi la pagina Rețea pentru a configura câteva",
         "go_to_network": "Mergi la setări Rețea",
-        "no_object": "No object",
-        "source_objects": "Source objects",
-        "map_to": "map to"
+        "no_object": "Nici un obiect",
+        "source_objects": "Obiecte sursă",
+        "map_to": "direcționează către"
     },
     "objects": {
         "title": "Obiecte",
@@ -522,6 +522,9 @@
         "fw_not_allowed": "Firewall nu este permis",
         "reject_not_allowed": "Acțiunea de refuz nu este permisă",
         "divert_not_allowed": "Politica de rutare nu este permisă",
+        "ivpn_zone_not_allowed_as_dst_and_src":"The IPSec (IVPN) role can't be used with a NDPI target, please create a rule with a host object or the VPN's CIDR network.",
+        "ovpn_zone_not_allowed_as_dst_and_src":"The OpenVPN (OVPN) role can't be used with a NDPI target, please create a rule with a host object or the VPN's CIDR network.",
+        "vpn_zone_not_allowed_as_dst_and_src":"The VPN role can't be used with a NDPI target, please create a rule with a host object or the VPN's CIDR network.",
         "rule_exists": "Regula există deja",
         "rule_not_exists": "Regula nu există",
         "valid_ip_or_cidr": "Trebuie să fie un IP sau CIDR valid",
@@ -533,9 +536,13 @@
         "host_not_removable": "Această gazdă nu poate fi îndepărtată deoarece este în uz",
         "service_exists": "Un serviciu cu același nume există deja",
         "not_exists_service": "Serviciul nu există",
-        "service_not_removable": "This service can't be removed because it is in use",
-        "not_valid_port_range": "Invalid port range",
+        "service_not_removable": "Acest serviciu nu poate fi eliminat deoarece este în uz",
+        "not_valid_port_range": "Interval port invalid",
         "not_valid_port_number": "Număr port invalid",
+        "not_valid_port_range_order": "Right side of port range must be higher than left side",
+        "forbbiden_name_for_zone":"This name of zone is reserved by the firewall",
+        "valid_regexp_/^[A-Za-z][A-Za-z0-9_]+$/": "Must start by a letter then only digits and letters with '_' are allowed",
+        "valid_maxLength_5": "The maximum length is 5 characters",
         "zone_exists": "O zonă cu același nume există deja",
         "not_exists_zone": "Zona nu există",
         "zone_cannot_be_delete": "Serviciul nu poate fi îndepărtat deoarece este în uz",
@@ -575,8 +582,8 @@
         "must_be_one_of": "Trebuie să fie una din",
         "Not_valid_ipV4Address_or_CIDR": "Trebuie să fie o adresă IPv4 precum „1.2.3.4” sau o rețea CIDR precum „192.168.1.0/24”",
         "valid_memberOf_accept,drop": "Acțiunile valide sunt „Acceptare” sau „Respingere”",
-        "non_existing_firewall_object": "Firewall object does not exist",
-        "snat_fw_object_duplicated": "Firewall object is duplicated"
+        "non_existing_firewall_object": "Obiectul firewall nu există",
+        "snat_fw_object_duplicated": "Obiectul firewall este duplicat"
     },
     "docs": {
         "pf_origin_port": "Introdu un singur port, o listă de porturi separate prin virgulă sau un interval de porturi folosind „:” ca separator ca „100: 200”.",
@@ -592,6 +599,6 @@
         "allow_only": "Restricționează accesul la redirecționarea porturilor numai dintr-o listă de adrese IP publice sau rețele (scrise în format CIDR). Adăugă câte o intrare pe linie. Lasă câmpul gol pentru a permite accesul oricui.",
         "SipAlg": "ALG permite protocoalelor SIP și H.323 să funcționeze prin NAT. Când este activat, ALG va inspecta și rescrie pachetele de rețea Voice over Internet Protocol (VoIP) și va deschide porturile necesare. Încercă să dezactivezi această opțiune numai dacă ai probleme audio și de apel cu clientul tău PBX sau VoIP.",
         "more_info_about": "Mai multe informații despre",
-        "snat_order": "The following entries are order-sensitive. The first entry that matches a particular connection will be the one that is used."
+        "snat_order": "Următoarele intrări sunt dependente de ordinea în care apar. Prima intrare care se potrivește cu o anumită conexiune va fi cea utilizată."
     }
 }
