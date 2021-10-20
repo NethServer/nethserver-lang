@@ -64,7 +64,7 @@
         "no_category_enabled": "Nicht aktivierte Kategorie"
     },
     "categories": {
-        "firehol_level1": "FireHOL Level 2",
+        "firehol_level1": "FireHOL level 1",
         "firehol_level2": "FireHOL level 2",
         "firehol_level1_description": "Eine Firewall-Blacklist, die aus IP-Listen besteht und maximalen Schutz bei minimalen Fehlalarmen bietet. Geeignet für den grundlegenden Schutz auf allen Servern, Routern und Firewalls mit Internetverbindung (einschließlich: dshield feodo fullbogons spamhaus_drop spamhaus_edrop sslbl zeus_badips ransomware_rw)",
         "firehol_level2_description": "Ein Ipset aus Blocklisten, die Angriffe in den letzten 48 Stunden verfolgen (einschließlich: blocklist_de dshield_1d greensnow)",
