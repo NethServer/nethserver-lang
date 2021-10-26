@@ -122,10 +122,10 @@
     "update_at": "Valori aggiornati a",
     "item_disable_button": "Disabilita",
     "item_enable_button": "Abilita",
-    "ibay_enabled_ok": "The shared folder has been enabled",
-    "ibay_disabled_ok": "The shared folder has been disabled",
-    "ibay_enabled_Failed": "Shared folder enabling has failed",
-    "ibay_disabled_Failed": "Shared folder disabling has failed",
+    "ibay_enabled_ok": "La cartella condivisa è stata abilitata",
+    "ibay_disabled_ok": "La cartella condivisa è stata disabilitata",
+    "ibay_enabled_Failed": "L'abilitazione della cartella condivisa è fallita",
+    "ibay_disabled_Failed": "La disabilitazione della cartella condivisa è fallita",
     "not_available": "Non disponibile."
   },
   "audit": {
@@ -191,7 +191,7 @@
     "group_not_found": "Selezionare il gruppo proprietario",
     "valid_maxLength_15": "La lunghezza massima è 15 caratteri",
     "malformed_acls": "L'ACL {value} non può essere applicata",
-    "must_be_ascii": "Must contain only ASCII characters: special characters, like accented letters, are not valid"
+    "must_be_ascii": "Deve contenere solo caratteri ASCII: caratteri speciali, come lettere accentate, non sono validi."
   },
   "advanced_mode": "Opzioni avanzate"
 }

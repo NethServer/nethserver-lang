@@ -325,11 +325,13 @@
     "skip_network_info": "La configurazione di rete corrente verrà mantenuta, ma alcune applicazioni potrebbero essere disabilitate al termine del processo. Dopo il restore, verificare la configurazione del sistema per riabilitare tutte le applicazioni richieste.",
     "format_disk": "Formatta disco",
     "format_disk_message": "La formattazione cancellerà tutti i dati in questo disco",
-    "DisplayTheResticPasswordEncryption": "Restic encryption secret for",
-    "PasswordEncrypt": "Encryption secret",
-    "ShowPasswordEncrypt": "Show restic secret",
-    "PasswordEncryptCreatedAfterSaved": "Encryption secret will be generated at the end of the wizard. To show it, click on the 'Show restic secret' button.",
-    "PasswordEncryptWarning":"The data saved inside the destination storage are encrypted using the 'Encryption secret' above. Please store the secret on a safe place. Without this secret, you will not be able restore the data backup."
+    "DisplayTheResticPasswordEncryption": "Chiave crittografica di restic per",
+    "PasswordEncrypt": "Chiave crittografica",
+    "ShowPasswordEncrypt": "Visualizza chiave di restic",
+    "PasswordEncryptCreatedAfterSaved": "La chiave crittografica verrà generata al termine del wizard. Per visualizzarla, fare click su \"Visualizza chiave crittografica restic\"",
+    "PasswordEncryptWarning":"I dati salvati nella destinazione sono cifrati utilizzando la 'Chiave crittografica' riportata sopra. Si prega di salvare la chiave in un posto sicuro. Senza la chiave crittografica, non sarà possibile ripristinare il backup dei dati.",
+    "S3BucketFormat": "Formato bucket S3",
+    "S3HostFormat": "Formato host S3"
   },
   "disk_usage": {
     "title": "Utilizzo disco",
@@ -349,7 +351,7 @@
     "title": "Certificati",
     "upload_certificates": "Carica certificato",
     "edit_self_signed": "Modifica certificato auto-firmato",
-    "request_lets_encrypt": "Let's Encrypt certificate",
+    "request_lets_encrypt": "Certificato  Let's Encrypt",
     "name": "Nome",
     "file": "File",
     "issuer": "Emittente",
@@ -392,11 +394,11 @@
     "cert_encrypt_error": "Let's Encrypt non è stato attivato.",
     "cert_self_ok": "Certificato auto-firmato modificato con successo!",
     "cert_self_error": "Certificato auto-firmato non modificato.",
-    "add_Knowndomain": "Add all known FQDNs",
+    "add_Knowndomain": "Aggiungi tutto gli FQDN conosciuti",
     "delete": "Elimina",
-    "delete_certificate": "Delete the certificate",
-    "deletion_ok": "The certificate has been deleted",
-    "deletion_error": "The certificate has not been deleted"
+    "delete_certificate": "Elimina il certificato",
+    "deletion_ok": "Il certificato è stato eliminato",
+    "deletion_error": "Il certificato non è stato eliminato."
   },
   "dns": {
     "title": "DNS",
@@ -737,8 +739,8 @@
     "missing": "Mancante",
     "children": "Figlio",
     "other": "Altro",
-    "edit_logic_interface": "Edit logical interface",
-    "add_logic_interface": "Add logical interface",
+    "edit_logic_interface": "Modifica interfaccia logica",
+    "add_logic_interface": "Aggiungi interfaccia logica",
     "wizard_choose_role_title": "Selezionare un Ruolo per l'interfaccia",
     "wizard_choose_type_title": "Selezionare il tipo di interfaccia",
     "wizard_choose_config": "Configura il protocollo IP",
@@ -1093,7 +1095,7 @@
     "subscription": "Subscription",
     "support_active": "E' attiva una sessione di supporto remoto",
     "hostname_should_not_contain_localdomain": "L'hostname non può contenere 'localdomain'",
-    "hostname_should_be_third_level_domain": "The hostname must have a second level domain suffix, like \"host.example.com\"",
+    "hostname_should_be_third_level_domain": "L'hostname deve avere un suffisso di secondo livello, come \"host.example.com\"",
     "first_hostname_part_maximum_length_15": "La lunghezza massima della prima parte del nome host è di 15 caratteri",
     "unmapped_interface_from_restore": "Questa interfaccia non è stata attivata dopo il ripristino. Assegnare il ruolo a una nuova interfaccia o rimuoverla",
     "network_recovery_mode": "Il sistema è configurato con un indirizzo IP temporaneo dallo strumento network-recovery: ogni modifica in questa pagina ripristinerà la configurazione di rete mostrata qui sotto."
@@ -1227,8 +1229,8 @@
     "TokenValidationOK": "Codice di verifica valido!",
     "valid_hostname_0_9223372036854775807":"Nome dominio non valido, deve essere qualcosa tipo 'dominio.org'",
     "Host_already_in_use_by_another_smarthost_relay": "Lo smart host è già utilizzato in un altro smart host relay, non puà essere utilizzato come default per il server",
-    "letsencrypt_registration_failed_rate_limit_reached": "Rate limit reached. Please wait at least 3 hours before performing a new request or make sure to change your public IP address",
-    "letsencrypt_unknow_error":"Challenge failed, please see the error message below.",
+    "letsencrypt_registration_failed_rate_limit_reached": "Il limite di richieste è stato raggiunto. Si prega di attendere almeno 3 ore prima di effettuare una nuova richieste oppure assicurarsi di cambiare il proprio indirizzo IP pubblico.",
+    "letsencrypt_unknow_error":"Challenge fallita, si prega di vedere il messaggio di errore qui sotto.",
     "letsencrypt_domain_failed": "Challenge fallita per questi domini"
   },
   "docs": {
@@ -1260,8 +1262,10 @@
     "disaster_recovery": "Ripristino di emergenza",
     "user_settings_page": "Permetti agli utenti di cambiare la password e altre impostazioni su una pagina web fuori da Cockpit (sulla porta 443). Questa funzionalità può essere abilitata solo se anche 'Ignora la shell degli utenti' è abilitato.",
     "OtpR2WOath_Auth": "La policy VPN richiede l'uso di un OTP per accedere alla rete.",
-    "smarthost_encrypt": "Encryption on port 465 (SMTPS) is not supported, only StartTLS is supported (default port 587)",
-    "root_email_is_used_for_notifications": "Configure where mail notifications will be delivered. Notifications include all mail generated by cron. This option will also override WAN notification addresses configured from the Old Server Manager",
-    "older_ssh_client_might_not_connect": "Applicare l'hardening alla configurazione di SSH può impedire la connessione ai vecchi client. Il trasferimento di file di grandi dimensioni può essere più lento con cifrari forti, La chiave dell'host sarà modificata e i client dovranno accettarla nuovamente. "
+    "smarthost_encrypt": "La cifratura sulla porta 465 (SMTPS) non è supportata, solo StartTLS è supportata (porta di default 587).",
+    "root_email_is_used_for_notifications": "Configura dove verranno consegnate le mail di notifica. Le notifiche includono tutte le mail generate da cron. Questa opzione sovrascrive gli indirizzi di notifica per le WAN configurate dal Vecchio Server Manger.",
+    "older_ssh_client_might_not_connect": "Applicare l'hardening alla configurazione di SSH può impedire la connessione ai vecchi client. Il trasferimento di file di grandi dimensioni può essere più lento con cifrari forti, La chiave dell'host sarà modificata e i client dovranno accettarla nuovamente. ",
+    "s3_bucket": "Inserire il nome del bucket come \"mybucket\". Se si desidera salvare il backup in una sotto cartella, inserire il nome del bucket come \"mybucket/backupdir\".",
+    "s3_host": "S3 può essere configurato con i bucket in formato URL-style oppure virtual hosted-style. Il formato dell'host (o endpoint) dipende dal provider S3. Alcuni provider richiedono solo l'host di base come \"s3.amazonaws.com\" o \"s3.wasabisys.com\". Altri provider possono richiedere di aggiungere la regione come \"s3.eu-central-1.amazonaws.com\" o \"fra1.digitaloceanspaces.com/\"."
   }
 }

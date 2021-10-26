@@ -329,7 +329,9 @@
     "PasswordEncrypt": "Cheie criptare",
     "ShowPasswordEncrypt": "Afișare cheie Restic",
     "PasswordEncryptCreatedAfterSaved": "Cheia de criptare va fi generată la sfârșitul vrăjitorului. Pentru a o afișa, dă clic pe butonul „Afișare cheie Restic”.",
-    "PasswordEncryptWarning":"Datele salvate în spațiul de destinație sunt criptate folosind „Cheia de criptare” de mai sus. Te rog să păstrezi cheia într-un loc sigur. Fără această cheie nu vei putea restaura backup-ul datelor."
+    "PasswordEncryptWarning":"Datele salvate în spațiul de destinație sunt criptate folosind „Cheia de criptare” de mai sus. Te rog să păstrezi cheia într-un loc sigur. Fără această cheie nu vei putea restaura backup-ul datelor.",
+    "S3BucketFormat": "S3 bucket format",
+    "S3HostFormat": "S3 host format"
   },
   "disk_usage": {
     "title": "Utilizare disc",
@@ -1262,6 +1264,8 @@
     "OtpR2WOath_Auth": "Politica VPN necesită utilizarea OTP pentru a accesa rețeaua.",
     "smarthost_encrypt": "Criptarea pe portul 465(SMTPS) nu este suportată; doar StartTLS este suportat (port implicit 587)",
     "root_email_is_used_for_notifications": "Configurează unde vor fi livrate notificările prin email. Notificările includ toate mesajele generate de cron. Această opțiune va suprascrie, de asemenea, adresele de notificare WAN configurate din vechiul manager de server",
-    "older_ssh_client_might_not_connect": "Întărirea SSH ar putea împiedica clienții vechi să se conecteze la server. Transferul de fișiere mari poate fi mai lent cu cifruri puternice. Cheia gazdei se va schimba după repornire, iar clienții vor trebui să o accepte din nou."
+    "older_ssh_client_might_not_connect": "Întărirea SSH ar putea împiedica clienții vechi să se conecteze la server. Transferul de fișiere mari poate fi mai lent cu cifruri puternice. Cheia gazdei se va schimba după repornire, iar clienții vor trebui să o accepte din nou.",
+    "s3_bucket": "Enter the bucket name like \"mybucket\". If you want to save the backup inside a subfolder, enter the bucket name like \"mybucket/backupdir\".",
+    "s3_host": "S3 can be configured with URL-style or virtual hosted-style buckets. The host (or endpoint) format depends on the S3 provider. Some provider requires only the base host like \"s3.amazonaws.com\" or \"s3.wasabisys.com\". Other providers may require adding also the region like \"s3.eu-central-1.amazonaws.com\" or \"fra1.digitaloceanspaces.com/\"."
   }
 }

@@ -486,17 +486,17 @@
         "delete_imapsync_configuration":"Eliminare sincronizzazione IMAP per",
         "Messages":"Messaggi",
         "Size":"Dimensione",
-        "Folders":"Folders",
+        "Folders":"Cartelle",
         "RemoteAccount":"Account remoto",
-        "LocalAccount":"Local account",
-        "PleaseWait": "Please wait, the operation could take a while ...",
-        "countMessages": "Count messages",
-        "Synchronization_info":"Synchronization information",
-        "synchronization_informations_ok": "Synchronization information has been updated",
-        "synchronization_informations_error": "Synchronization information has not been updated",
-        "TrashSync": "Synchronize the Trash",
-        "DefaultExclusion": "Default exclusion",
-        "Exclude": "Exclude folders"
+        "LocalAccount":"Account locale",
+        "PleaseWait": "Si prega di attendere, l'operazione potrebbe richiedere un po' di tempo ...",
+        "countMessages": "Conta i messaggi",
+        "Synchronization_info":"Informazioni sulla sincronizzazione",
+        "synchronization_informations_ok": "Le informazioni sulla sincronizzazione sono state aggiornate",
+        "synchronization_informations_error": "Le informazioni sulla sincronizzazione non sono state aggiornate",
+        "TrashSync": "Sincronizza il Cestino",
+        "DefaultExclusion": "Esclusioni di default",
+        "Exclude": "Escludi cartelle"
     },
     "docs": {
         "more_info_about": "Maggiori informazioni",
@@ -519,8 +519,8 @@
         "lifetime": "Il valore 0 significa riprovare solo una volta.",
         "DeleteDestination": "Eliminare messaggi nel server locale non presenti nel server remoto. Utile per backup o prima di sync.",
         "imapsync":"Imapsync",
-        "TrashSync":"The actual trash folder name depends on the IMAP client configuration. If the trash folder name does not start with 'Trash' or 'Deleted Items' this option has no effect.",
-        "Exclude_Folders": "The exclusion works with regular expression rules. When excluding the 'Foo' folder, all folders matching 'Foo' in the name will be excluded from the synchronization. To force an exact match, start the exclusion folder name by '^' and end it by '$' like ^Foo$. Add one entry per line."
+        "TrashSync":"Il nome della cartella del cestino dipende dalla configurazione IMAP del client. Questa opzione non ha effetto se il nome della cartella non inizia per 'Trash' o 'Deleted Items'.",
+        "Exclude_Folders": "L'esclusione utilizza le espressioni regolari. Quando si esclude la cartella 'Foo', tutte le cartelle che contengono 'Foo' nel nome verranno escluse dalla sincronizzazione. Per forzare una selezione specifica, anteporre al nome della cartella '^' e terminarlo con '$', esempio ^Foo$. Aggiungere un elemento per riga."
     },
     "mailbox": {
         "public_created_ok": "Cartella pubblica creata con successo",
@@ -563,7 +563,7 @@
         "reserved_for_builtin": "Questo nome è riservato agli pseudonimi built-in",
         "pseudonym_not_found": "Pseudomino non trovato",
         "account_cant_be_empty": "La destinazione non può essere vuota",
-        "unallowed_self_loop": "The destination cannot be the address itself",
+        "unallowed_self_loop": "La destinatione non può essere lo stesso indirizzo",
         "mailbox_not_found": "Mailbox non trovata",
         "unsupported_type": "Tipo di destinazione non supportato",
         "builtin_not_found": "Pseudomino built-in non trovato",

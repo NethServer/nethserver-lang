@@ -329,7 +329,9 @@
     "PasswordEncrypt": "Encryptiegeheim",
     "ShowPasswordEncrypt": "Toon restic geheim",
     "PasswordEncryptCreatedAfterSaved": "Het encryptiegeheim zal aangemaakt worden op het einde van de wizard. Om het te tonen, klik op de 'Toon resticgeheim'-knop.",
-    "PasswordEncryptWarning":"De data die bewaard zijn in de bestemmingsopslagplaats zijn geëncrypteerd met het bovenstaande 'Encryptiegeheim'. Gelieve het geheim op een veilige plaats te bewaren. Zonder dit geheim zal je de databackup niet kunnen herstellen."
+    "PasswordEncryptWarning":"De data die bewaard zijn in de bestemmingsopslagplaats zijn geëncrypteerd met het bovenstaande 'Encryptiegeheim'. Gelieve het geheim op een veilige plaats te bewaren. Zonder dit geheim zal je de databackup niet kunnen herstellen.",
+    "S3BucketFormat": "S3 bucket format",
+    "S3HostFormat": "S3 host format"
   },
   "disk_usage": {
     "title": "Schijf gebruik",
@@ -1262,6 +1264,8 @@
     "OtpR2WOath_Auth": "Het VPN beleid vereist het gebruik van OTP om toegang te nemen tot het netwerk.",
     "smarthost_encrypt": "Encryptie op poort 465 (SMTPS) is niet ondersteund, alleen StartTLS is ondersteund (standaard poort 587)",
     "root_email_is_used_for_notifications": "Configureer waar mailnotificaties zullen worden afgeleverd. Notificaties omvatten alle mails aangemaakt door cron. Deze optie zal ook WAN notificatie adressen, geconfigureerd in de oude Server Mananger, overschrijven.",
-    "older_ssh_client_might_not_connect": "Doorgedreven SSH kan oude clients beletten om te connecteren met de server. Overdracht van grote bestanden kan trager verlopen met sterke ciphers. De hostsleutel zal wijzigen na herstart en clients zullen deze opnieuw moeten aanvaarden."
+    "older_ssh_client_might_not_connect": "Doorgedreven SSH kan oude clients beletten om te connecteren met de server. Overdracht van grote bestanden kan trager verlopen met sterke ciphers. De hostsleutel zal wijzigen na herstart en clients zullen deze opnieuw moeten aanvaarden.",
+    "s3_bucket": "Enter the bucket name like \"mybucket\". If you want to save the backup inside a subfolder, enter the bucket name like \"mybucket/backupdir\".",
+    "s3_host": "S3 can be configured with URL-style or virtual hosted-style buckets. The host (or endpoint) format depends on the S3 provider. Some provider requires only the base host like \"s3.amazonaws.com\" or \"s3.wasabisys.com\". Other providers may require adding also the region like \"s3.eu-central-1.amazonaws.com\" or \"fra1.digitaloceanspaces.com/\"."
   }
 }

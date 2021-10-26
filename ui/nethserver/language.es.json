@@ -329,7 +329,9 @@
     "PasswordEncrypt": "Encriptación secreta",
     "ShowPasswordEncrypt": "Mostrar secreto restic",
     "PasswordEncryptCreatedAfterSaved": "El secreto de cifrado se generará al final del asistente. Para mostrarlo, haga clic en el botón \"Mostrar secreto restic\".",
-    "PasswordEncryptWarning":"Los datos guardados en el almacén de destino se encriptan utilizando el \"Secreto de encriptación\" anterior. Por favor, guarde el secreto en un lugar seguro. Sin este secreto, no podrá restaurar la copia de seguridad de los datos."
+    "PasswordEncryptWarning":"Los datos guardados en el almacén de destino se encriptan utilizando el \"Secreto de encriptación\" anterior. Por favor, guarde el secreto en un lugar seguro. Sin este secreto, no podrá restaurar la copia de seguridad de los datos.",
+    "S3BucketFormat": "S3 bucket format",
+    "S3HostFormat": "S3 host format"
   },
   "disk_usage": {
     "title": "Uso del disco",
@@ -1262,6 +1264,8 @@
     "OtpR2WOath_Auth": "La política de VPN requiere el uso de OTP para acceder a la red.",
     "smarthost_encrypt": "No se admite el cifrado en el puerto 465 (SMTPS), sólo se admite StartTLS (puerto 587 por defecto)",
     "root_email_is_used_for_notifications": "Configure dónde se enviarán las notificaciones por correo. Las notificaciones incluyen todo el correo generado por cron. Esta opción también anulará las direcciones de notificación WAN configuradas desde el Administrador del servidor antiguo.",
-    "older_ssh_client_might_not_connect": "El fortalecimiento de SSH podría impedir que los clientes antiguos se conecten al servidor. La transferencia de archivos grandes puede ser más lenta con cifrados fuertes. La clave del host cambiará después de reiniciar y los clientes tendrán que aceptarla de nuevo."
+    "older_ssh_client_might_not_connect": "El fortalecimiento de SSH podría impedir que los clientes antiguos se conecten al servidor. La transferencia de archivos grandes puede ser más lenta con cifrados fuertes. La clave del host cambiará después de reiniciar y los clientes tendrán que aceptarla de nuevo.",
+    "s3_bucket": "Enter the bucket name like \"mybucket\". If you want to save the backup inside a subfolder, enter the bucket name like \"mybucket/backupdir\".",
+    "s3_host": "S3 can be configured with URL-style or virtual hosted-style buckets. The host (or endpoint) format depends on the S3 provider. Some provider requires only the base host like \"s3.amazonaws.com\" or \"s3.wasabisys.com\". Other providers may require adding also the region like \"s3.eu-central-1.amazonaws.com\" or \"fra1.digitaloceanspaces.com/\"."
   }
 }

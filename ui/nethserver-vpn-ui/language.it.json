@@ -52,7 +52,7 @@
     "openvpn_tun_interfaces": "Traffico su tunnel OpenVPN per interfaccia",
     "openvpn_rw_interfaces": "Traffico su interfaccia OpenVPN RoadWarrior",
     "openvpn_rw_top_traffic_accounts": "Account con più traffico (oggi)",
-    "number_users_per_wan_ip": "Clients currently connected by WAN",
+    "number_users_per_wan_ip": "Client connessi per WAN",
     "bytes": "Bytes",
     "account": "Account",
     "traffic": "Traffico"
@@ -176,8 +176,8 @@
     "lz4": "LZ4",
     "running": "Avviato",
     "remote_server": "Server remoto",
-    "tunnel_config_uploaded_ok": "Tunnel configuration correctly uploaded",
-    "tunnel_config_uploaded_error": "Tunnel configuration upload error"
+    "tunnel_config_uploaded_ok": "Configurazione del tunnel correttamente caricata",
+    "tunnel_config_uploaded_error": "Errore durante il caricamento della configurazione del tunnel"
   },
   "openvpn_rw": {
     "menu_title": "OVPN RoadWarrior",
@@ -297,7 +297,7 @@
     "days_life": "Numero di giorni",
     "PushDhcpOptionsStatus": "Invia opzioni DHCP",
     "The_IP_cannot_be_calculated": "L'IP non può essere calcolato",
-    "The_r2w_is_not_set": "The R2W is not set",
+    "The_r2w_is_not_set": "La roadwarrior non è configurata",
     "export_connection_history": "Esporta lo storico delle connessioni",
     "apply_changes": "Applica",
     "pending_changes": "Le impostazioni della OpenVPN RoadWarrior sono cambiate, ma non applicate. Fare clic su 'Applica' per attivare le nuove impostazioni",
@@ -330,9 +330,9 @@
     "invalid_certificate": "Certificato non valido",
     "valid_minLength_8": "Lunghezza minima 8 caratteri",
     "missing_wanpriority_rules": "Interfaccia in ordine di priorità mancante",
-    "valid_notEmpty":"This field cannot be empty",
-    "ipsec_tunnel_name_cannot_contain_spaces": "Tunnel name can't contain spaces",
-    "valid_maxLength_10":"The maximum length is 10 characters",
+    "valid_notEmpty":"Questo campo non può essere vuoto",
+    "ipsec_tunnel_name_cannot_contain_spaces": "Il nome del tunnel non può contenere spazi",
+    "valid_maxLength_10":"La lunghezza massima è 10 caratteri",
     "valid_username":"Il primo carattere deve essere una lettera, poi solo lettere minuscole, numeri, simboli \"-\" e \"_\""
   },
   "docs": {
@@ -341,6 +341,6 @@
     "vpn_remote_network": "Compilare questo campo solo nel caso si desideri creare una VPN Net to Net su questo account (fornito per compatibilità con Nethserver 6). Non compilare questi campi per configurare una VPN host to net.",
     "vpn_remote_netmask": "Compila questo campo solo se hai già compilato il campo precedente (Subnet remota VPN)",
     "topology_selection": "La topologia subnet è ideale nella maggior parte dei casi e permette di usare tutti gli IP nel pool. La vecchia topologia net30 supporta i client Windows version 2.0.9 o precedenti: a ogni client viene assegnata una /30 virtuale, che utilizza 4 IP per client e 4 per il server.",
-    "remote_networks": "This field is optional, enter remote networks if you need to create specific firewall rules for this tunnel, otherwise it can be left blank."
+    "remote_networks": "Questo campo è opzionale, aggiungere una rete remota per creare regole specifiche nel firewall per questo tunnel, altrimenti lasciare vuoto il campo."
   }
 }

@@ -17,20 +17,20 @@
     "all": "Tutti",
     "dashboard": {
         "app": "Monitoraggio banda",
-        "title": "Bandwidth monitor dashboard",
+        "title": "Monitor utilizzo banda",
         "status": "Stato",
         "is_enabled": "è abilitato",
         "is_disabled": "è disabilitato",
-        "openNtopngApp": "Open bandwidth monitor app",
+        "openNtopngApp": "Apri monitor banda",
         "name": "Nome",
         "ip_address": "Indirizzo IP",
         "throughput": "Throughput",
         "traffic": "Traffico",
         "since": "Da",
-        "top_local_hosts": "Top local hosts",
-        "top_remote_hosts": "Top remote hosts",
-        "traffic_by_interface": "Traffic by interface",
-        "traffic_by_protocol": "Traffic by protocol",
+        "top_local_hosts": "Top host locali",
+        "top_remote_hosts": "Top host remoti",
+        "traffic_by_interface": "Traffico per interfaccia",
+        "traffic_by_protocol": "Traffico per protocollo",
         "kbps": "kbit/s",
         "no_data": "Nessun dato",
         "others": "Altri"
@@ -43,8 +43,8 @@
         "interfaces": "Interfacce",
         "settings_update_successful": "Impostazioni salvate con successo",
         "settings_update_failed": "Errore durante l'aggiornamento delle impostazioni",
-        "is_running_at_this_url": "application is running at this URL",
-        "login_credentials": "Login credentials"
+        "is_running_at_this_url": "l'applicazione sta girando all'URL",
+        "login_credentials": "Credenziali per il login"
     },
     "logs": {
         "title": "Log",
@@ -60,6 +60,6 @@
         "bug_tracker": "Bug tracker"
     },
     "docs": {
-        "ntopng_credentials": "Username: <code>admin</code><br>Default password: <code>admin</code>"
+        "ntopng_credentials": "Utente: <code>admin</code><br>Password default: <code>admin</code>"
     }
 }
