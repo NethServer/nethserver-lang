@@ -136,6 +136,7 @@
         "SW_list_type": "Autoriser depuis",
         "RW_list_type": "Autoriser vers",
         "SB_list_type": "Bloquer depuis",
+        "undefined_list_type": "",
         "disabled": "Desactivé",
         "add_spam_header": "Ajouter un préfixe au Sujet des messages considérés comme spam",
         "spam_prefix": "Préfixe",

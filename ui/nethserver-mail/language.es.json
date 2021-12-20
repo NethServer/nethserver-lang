@@ -136,6 +136,7 @@
         "SW_list_type": "Permitir desde",
         "RW_list_type": "Permitir a",
         "SB_list_type": "Bloquear desde",
+        "undefined_list_type": "",
         "disabled": "Deshabilitado",
         "add_spam_header": "Agregar un prefijo al asunto de los mensajes spam",
         "spam_prefix": "Prefijo",

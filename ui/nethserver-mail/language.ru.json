@@ -136,6 +136,7 @@
         "SW_list_type": "Разрешить от",
         "RW_list_type": "Разрешить к",
         "SB_list_type": "Блокировать от",
+        "undefined_list_type": "",
         "disabled": "Отключено",
         "add_spam_header": "Добавить префикс к теме спам-сообщений",
         "spam_prefix": "Prefix",

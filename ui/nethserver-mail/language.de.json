@@ -136,6 +136,7 @@
         "SW_list_type": "Erlauben von",
         "RW_list_type": "Erlauben nach",
         "SB_list_type": "Sperre von",
+        "undefined_list_type": "",
         "disabled": "Deaktivieren",
         "add_spam_header": "Füge ein Präfix im Betreff der Spam Nachricht hinzu",
         "spam_prefix": "Präfix",

@@ -136,6 +136,7 @@
         "SW_list_type": "Allow from",
         "RW_list_type": "Allow to",
         "SB_list_type": "Block from",
+        "undefined_list_type": "",
         "disabled": "Απενεργοποίηση",
         "add_spam_header": "Προσθήκη προθέματος στο θέμα ανεπιθύμητων μηνυμάτων",
         "spam_prefix": "Prefix",

@@ -136,6 +136,7 @@
         "SW_list_type": "Permite de la",
         "RW_list_type": "Permite la",
         "SB_list_type": "Blochează de la",
+        "undefined_list_type": "",
         "disabled": "Dezactivat",
         "add_spam_header": "Adaugă un prefix la subiectul mesajelor spam",
         "spam_prefix": "Prefix",

@@ -136,6 +136,7 @@
         "SW_list_type": "Allow from",
         "RW_list_type": "Allow to",
         "SB_list_type": "Block from",
+        "undefined_list_type": "",
         "disabled": "禁止",
         "add_spam_header": "为垃圾邮件主题添加前缀",
         "spam_prefix": "Prefix",

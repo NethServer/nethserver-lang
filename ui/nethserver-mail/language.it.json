@@ -136,6 +136,7 @@
         "SW_list_type": "Accetta da (From:)",
         "RW_list_type": "Accetta a (To:)",
         "SB_list_type": "Blocca da (From:)",
+        "undefined_list_type": "",
         "disabled": "Disabilitato",
         "add_spam_header": "Aggiunta prefisso all'oggetto dei messaggi spam",
         "spam_prefix": "Prefisso",

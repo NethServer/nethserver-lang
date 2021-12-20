@@ -136,6 +136,7 @@
         "SW_list_type": "Toestaan ​​van",
         "RW_list_type": "Toestaan naar",
         "SB_list_type": "Blokkeren van",
+        "undefined_list_type": "",
         "disabled": "Uitgeschakeld",
         "add_spam_header": "Voeg voorvoegsel toe aan onderwerpregel van spam-berichten",
         "spam_prefix": "Prefix",

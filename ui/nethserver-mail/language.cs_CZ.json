@@ -136,6 +136,7 @@
         "SW_list_type": "Umožnit od",
         "RW_list_type": "Umožnit komu",
         "SB_list_type": "Blokovat od",
+        "undefined_list_type": "",
         "disabled": "Vypnuto",
         "add_spam_header": "Přidat před předmět nevyžádané zprávy",
         "spam_prefix": "Předpona",

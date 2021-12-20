@@ -136,6 +136,7 @@
         "SW_list_type": "Kimden izni",
         "RW_list_type": "Kime izni",
         "SB_list_type": "Kimden engellemesi",
+        "undefined_list_type": "",
         "disabled": "Etkisizleştirilmiş",
         "add_spam_header": "Önemsiz ileti konusuna ön ek eklensin",
         "spam_prefix": "Ön ek",

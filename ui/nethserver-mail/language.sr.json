@@ -136,6 +136,7 @@
         "SW_list_type": "Allow from",
         "RW_list_type": "Allow to",
         "SB_list_type": "Block from",
+        "undefined_list_type": "",
         "disabled": "Онемогућен",
         "add_spam_header": "Додај префикс у наслов спам порука",
         "spam_prefix": "Prefix",
