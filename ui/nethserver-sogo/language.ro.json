@@ -14,6 +14,7 @@
         "Appointment":"Trimite e-mail către participanții la întâlnire",
         "Email":"trimite alarmă pe e-mail pentru evenimente și sarcini",
         "VirtualHost":"Fă SOGo accesibil numai din acest domeniu (FQDN)",
+        "webAccess":"SOGo este disponibil din rețeaua publică",
         "WOWorkersCount":"Numărul de lucrători (câte unul pentru fiecare client activesync conectat)",
         "SOGoInternalSyncInterval":"durata maximă în secunde înainte de a verifica după modificări",
         "settings_updated_ok": "Setările s-au actualizat bine",

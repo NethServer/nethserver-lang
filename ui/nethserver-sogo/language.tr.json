@@ -14,6 +14,7 @@
         "Appointment":"Toplantı katılımcılarına e-posta gönderilsin",
         "Email":"etkinlik ve görevlere göre e-posta uyarıları gönderilsin",
         "VirtualHost":"SOGo yalnız bu etki alanından kullanılabilsin (Tam Etki Alanı Adı)",
+        "webAccess":"SOGo herkese açık ağda kullanılabilir",
         "WOWorkersCount":"İşleyici sayısı (bağlanan her activesync istemcisi için bir)",
         "SOGoInternalSyncInterval":"Saniye cinsinden değişikliklerden sonra denetleme için beklenecek süre",
         "settings_updated_ok": "Ayarlar güncellendi",

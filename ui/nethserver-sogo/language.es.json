@@ -14,6 +14,7 @@
         "Appointment":"Enviar correo electrónico a los participantes de la reunión",
         "Email":"enviar alarmas por correo electrónico sobre eventos y tareas",
         "VirtualHost":"Hacer que SOGo sea accesible solo desde este dominio (FQDN)",
+        "webAccess":"SOGo is available from public network",
         "WOWorkersCount":"Número de trabajadores (uno por cliente activo sincronizado conectado)",
         "SOGoInternalSyncInterval":"tiempo máximo en segundos antes de las comprobaciones después de los cambios ",
         "settings_updated_ok": "La configuración se ha actualizado bien",

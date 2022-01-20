@@ -14,6 +14,7 @@
         "Appointment":"Stuur e-mail naar deelnemers aan de vergadering",
         "Email":"E-mail-gebaseerd alarm verzenden over gebeurtenissen en taken",
         "VirtualHost":"Maak SOGo alleen bereikbaar vanaf dit domein (FQDN)",
+        "webAccess":"SOGo is available from public network",
         "WOWorkersCount":"Aantal werknemers (een per aangesloten actieve client)",
         "SOGoInternalSyncInterval":"Maximale tijd in seconden voordat controles na wijzigingen worden gecontroleerd",
         "settings_updated_ok": "De instellingen zijn bijgewerkt",

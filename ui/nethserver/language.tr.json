@@ -330,8 +330,8 @@
     "ShowPasswordEncrypt": "Restic parolasını görüntüle",
     "PasswordEncryptCreatedAfterSaved": "Yardımcının sonunda şifreleme parolası üretilecek. Parolayı görüntülemek için 'Restic parolasını görüntüle' üzerine tıklayın",
     "PasswordEncryptWarning":"Hedef depolamaya kaydedilecek veriler yukarıdaki 'Şifreleme parolası' ile şifrelenir. Lütfen parolayı kaydedip güvenli bir yerde saklayın. Parola olmadan veri yedeği geri yüklenemez.",
-    "S3BucketFormat": "S3 bucket format",
-    "S3HostFormat": "S3 host format"
+    "S3BucketFormat": "S3 klasör biçimi",
+    "S3HostFormat": "S3 sunucu biçimi"
   },
   "disk_usage": {
     "title": "Disk kullanımı",
@@ -1265,7 +1265,7 @@
     "smarthost_encrypt": "465 (SMTPS) kapı numarası üzerinde şifreleme desteklenmez. Yalnız StartTLS desteklenir (varsayılan kapı numarası 587)",
     "root_email_is_used_for_notifications": "Bildirim e-postalarının teslim edileceği adresleri yapılandırın. Bildirimler, zamanlanmış görev tarafından oluşturulan tüm e-postalardır. Bu seçenek ayrıca eski sunucu yöneticisinde yapılandırılmış WAN bildirim adreslerini de değiştirir.",
     "older_ssh_client_might_not_connect": "SSH güvenliğini sıkılaştırmak eski istemcilerin bu sunucuya bağlanmasını engelleyebilir. Daha güçlü şifreleyiciler kullanıldığında büyük dosya aktarımları yavaşlayabilir. Sunucu yeniden başlatıldıktan sonra sunucu anahtarı değişmiş olacak ve istemcilerin yeni anahtarı onaylaması gerekecek.",
-    "s3_bucket": "Enter the bucket name like \"mybucket\". If you want to save the backup inside a subfolder, enter the bucket name like \"mybucket/backupdir\".",
-    "s3_host": "S3 can be configured with URL-style or virtual hosted-style buckets. The host (or endpoint) format depends on the S3 provider. Some provider requires only the base host like \"s3.amazonaws.com\" or \"s3.wasabisys.com\". Other providers may require adding also the region like \"s3.eu-central-1.amazonaws.com\" or \"fra1.digitaloceanspaces.com/\"."
+    "s3_bucket": "\"Klasorum\" gibi bir klasör adı yazın. Yedeği bir alt klasöre kaydetmek isterseniz adını \"klasorum/yedekklasoru\" gibi yazın.",
+    "s3_host": "S3, adres ya da sanal barındırma biçeminde klasörlere göre yapılandırılabilir. Sunucu (veya uç nokta) biçimi, S3 hizmeti sağlayıcısına bağlıdır. Bazı hizmet sağlayıcıları için yalnız \"s3.amazonaws.com\" ya da \"s3.wasabisys.com\" gibi temel sunucular gerekir. Diğer hizmet sağlayıcılar için, \"s3.eu-central-1.amazonaws.com\" ya da \"fra1.digitaloceanspaces.com/\" gibi bölgelerin eklenmesi gerekebilir."
   }
 }

@@ -14,6 +14,7 @@
         "Appointment":"E-Mail an Besprechungsteilnehmer senden",
         "Email":"E-Mail-basierten Alarm zu Ereignissen und Aufgaben senden",
         "VirtualHost":"SOGo nur von dieser Domain (FQDN) aus erreichbar machen",
+        "webAccess":"SOGo is available from public network",
         "WOWorkersCount":"Anzahl der Mitarbeiter (einer pro verbundenem activesync-Client)",
         "SOGoInternalSyncInterval":"maximale Zeit in Sekunden vor der Überprüfung nach Änderungen",
         "settings_updated_ok": "Die Einstellungen wurden gut aktualisiert",
