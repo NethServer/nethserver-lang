@@ -46,6 +46,8 @@
         "empty_state_description": "Nethesis Operation Center is een grafische gebruikersinterface waarmee u uw meldingen kunt aanpassen.",
         "access_nethesis_operation_center": "Access Nethesis Operation Center"
     },
+    "docs": {
+    },
     "actions": "Acties",
     "delete": "Verwijderen",
     "next": "Volgende",

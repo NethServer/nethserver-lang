@@ -46,6 +46,8 @@
         "empty_state_description": "Das Nethesis-Operation-Center ist eine grafische Benutzeroberfläche, mit der man Warnmeldungen anpassen kann.",
         "access_nethesis_operation_center": "Zugriff auf das Nethesis-Operation-Center"
     },
+    "docs": {
+    },
     "actions": "Aktionen",
     "delete": "Entfernen",
     "next": "Weiter",

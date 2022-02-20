@@ -36,6 +36,8 @@
         "cloud_portal": "Configurazione del filtro",
         "access": "Modifica dal portale Flashstart"
     },
+    "docs": {
+    },
     "actions": "Azioni",
     "delete": "Elimina",
     "next": "Avanti",

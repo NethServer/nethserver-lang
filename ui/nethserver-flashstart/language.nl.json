@@ -36,6 +36,8 @@
         "cloud_portal": "Filterconfiguratie",
         "access": "Bewerken op cloud portal"
     },
+    "docs": {
+    },
     "actions": "Acties",
     "delete": "Verwijderen",
     "next": "Volgende",

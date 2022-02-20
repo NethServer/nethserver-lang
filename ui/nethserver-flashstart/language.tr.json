@@ -36,6 +36,8 @@
         "cloud_portal": "Süzgeç yapılandırması",
         "access": "Bulut portalinde düzenle"
     },
+    "docs": {
+    },
     "actions": "İşlemler",
     "delete": "Sil",
     "next": "Sonraki",

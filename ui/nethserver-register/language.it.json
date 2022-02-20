@@ -46,6 +46,8 @@
         "empty_state_description": "Il Nethesis Operation Center permette di personalizzare gli allarmi.",
         "access_nethesis_operation_center": "Accesso al Nethesis Operation Center"
     },
+    "docs": {
+    },
     "actions": "Azioni",
     "delete": "Elimina",
     "next": "Avanti",

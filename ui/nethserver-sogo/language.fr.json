@@ -14,11 +14,12 @@
         "Appointment":"Envoyer un courriel aux participants de la réunion",
         "Email":"Envoyer une alarme par courriel sur les événements et les tâches",
         "VirtualHost":"Rendre SOGo joignable seulement pour ce domaine (FQDN)",
-        "webAccess":"SOGo is available from public network",
+        "webAccess":"SOGo est accessible des réseaux publics",
         "WOWorkersCount":"Nombre de travailleurs (un par client ActiveSync connecté)",
         "SOGoInternalSyncInterval":"Temps maximum en seconde avant de vérifier après des modifications",
         "settings_updated_ok": "Les paramètres ont bien été mis à jour",
-        "settings_updated_error": "Les paramètres n'ont pas été mis à jour"
+        "settings_updated_error": "Les paramètres n'ont pas été mis à jour",
+        "translation_test_do_not_translate":"It is a test for the automatic build translation 25 01 2022 15:22"
     },
     "about": {
         "title": "A propos",

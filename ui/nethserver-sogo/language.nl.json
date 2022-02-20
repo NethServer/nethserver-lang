@@ -18,7 +18,8 @@
         "WOWorkersCount":"Aantal werknemers (een per aangesloten actieve client)",
         "SOGoInternalSyncInterval":"Maximale tijd in seconden voordat controles na wijzigingen worden gecontroleerd",
         "settings_updated_ok": "De instellingen zijn bijgewerkt",
-        "settings_updated_error": "De instellingen zijn niet bijgewerkt"
+        "settings_updated_error": "De instellingen zijn niet bijgewerkt",
+        "translation_test_do_not_translate":"It is a test for the automatic build translation 25 01 2022 15:22"
     },
     "about": {
         "title": "Over ClamAV",

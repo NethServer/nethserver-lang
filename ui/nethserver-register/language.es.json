@@ -46,6 +46,8 @@
         "empty_state_description": "El centro de operaciones de Nethesis es una interfaz grafica que te provee la habilidad de personalizar tus alertas.",
         "access_nethesis_operation_center": "Acceder al centro de operaciones de Nethesis"
     },
+    "docs": {
+    },
     "actions": "Acciones",
     "delete": "Borrar",
     "next": "Siguiente",

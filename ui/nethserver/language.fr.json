@@ -109,7 +109,8 @@
     "nethserver-hotsync": "HotSync",
     "nethserver-blacklist": "Bouclier contre les menaces",
     "nethserver-mssql": "Microsoft SQL Serveur",
-    "nethserver-business": "Business Cube"
+    "nethserver-business": "Business Cube",
+    "nethserver-lmagent": "Cloud Log Manager agent"
   },
   "dashboard": {
     "title": "Tableau de bord",
@@ -901,6 +902,7 @@
     "password_updated_error_2": "Ancien mot de passe",
     "smarthost_test_configuration": "Configuration",
     "smarthost_send_an_email": "Send test mail",
+    "smarthost_test_credentials":"Test settings",
     "password_updated_error_3": "est correct"
   },
   "logs": {

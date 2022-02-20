@@ -109,7 +109,8 @@
     "nethserver-hotsync": "HotSync",
     "nethserver-blacklist": "Threat shield",
     "nethserver-mssql": "Microsoft SQL Server",
-    "nethserver-business": "Business Cube"
+    "nethserver-business": "Business Cube",
+    "nethserver-lmagent": "Cloud Log Manager agent"
   },
   "dashboard": {
     "title": "Skydelis",
@@ -901,6 +902,7 @@
     "password_updated_error_2": "old password",
     "smarthost_test_configuration": "Konfigūracija",
     "smarthost_send_an_email": "Send test mail",
+    "smarthost_test_credentials":"Test settings",
     "password_updated_error_3": "is correct"
   },
   "logs": {
@@ -998,8 +1000,8 @@
     "install_error_s": "Application not installed.",
     "update_ok": "Cache cleaned successfully!",
     "update_error": "Cache not cleaned.",
-    "config_ok": "Configuration saved successfully!",
-    "config_error": "Configuration not saved.",
+    "config_ok": "Konfigūracija sėkmingai įrašyta!",
+    "config_error": "Konfigūracija neįrašyta.",
     "upgrade_ok": "System upgraded successfully!",
     "upgrade_error": "System not upgraded.",
     "forbidden": "Forbidden",

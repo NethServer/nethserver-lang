@@ -36,6 +36,8 @@
         "cloud_portal": "Configuration du filtre",
         "access": "Éditer sur le portail cloud"
     },
+    "docs": {
+    },
     "actions": "Actions",
     "delete": "Supprimer",
     "next": "Suivant",

@@ -46,6 +46,8 @@
         "empty_state_description": "Nethesis Operation Center est une interface graphique qui vous permet de personnaliser vos alertes.",
         "access_nethesis_operation_center": "Accéder au Nethesis Operation Center"
     },
+    "docs": {
+    },
     "actions": "Actions",
     "delete": "Supprimer",
     "next": "Suivant",

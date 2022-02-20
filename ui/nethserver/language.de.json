@@ -109,7 +109,8 @@
     "nethserver-hotsync": "HotSync",
     "nethserver-blacklist": "Schutzschild",
     "nethserver-mssql": "Microsoft SQL Server",
-    "nethserver-business": "Business Cube"
+    "nethserver-business": "Business Cube",
+    "nethserver-lmagent": "Cloud-Log Manager-Agent"
   },
   "dashboard": {
     "title": "Übersicht",
@@ -330,8 +331,8 @@
     "ShowPasswordEncrypt": "Verschlüsselungscode anzeigen",
     "PasswordEncryptCreatedAfterSaved": "Der Verschlüsselungscode wird am Ende des Assistenten generiert. Zum Anzeigen bitte auf \"Verschlüsselungscode anzeigen\" klicken",
     "PasswordEncryptWarning":"Die im Zielspeicher gespeicherten Daten werden mit dem oben genannten \"Verschlüsselungscode\" verschlüsselt. Bitte den Code an einem sicheren Ort aufbewahren. Ohne diesen Code kann man die Datensicherung nicht wiederherstellen.",
-    "S3BucketFormat": "S3 bucket format",
-    "S3HostFormat": "S3 host format"
+    "S3BucketFormat": "S3 Bucket-Format",
+    "S3HostFormat": "S3 Host-Format"
   },
   "disk_usage": {
     "title": "Plattenverbrauch",
@@ -901,6 +902,7 @@
     "password_updated_error_2": "Paßwort alt",
     "smarthost_test_configuration": "Konfiguration",
     "smarthost_send_an_email": "Sende eine Test-Email",
+    "smarthost_test_credentials":"Einstellungen testen",
     "password_updated_error_3": "ist korrekt"
   },
   "logs": {
@@ -1265,7 +1267,7 @@
     "smarthost_encrypt": "Verschlüsselung mit Port 465 (SMTPS) wird nicht unterstützt, nur StartTLS wird unterstützt (Standard Port 587)",
     "root_email_is_used_for_notifications": "Bitte konfigurieren, wohin E-Mails zugestellt werden sollen. Benachrichtigungen umfassen alle von Cron generierten E-Mails. Diese Option überschreibt auch WAN-Benachrichtigungsadressen, die vom alten Server-Manager konfiguriert wurden",
     "older_ssh_client_might_not_connect": "Durch das Härten von SSH können alte Clients möglicherweise keine Verbindung zum Server herstellen. Die Übertragung großer Dateien kann mit starken Chiffren langsamer sein. Der Hostschlüssel ändert sich nach dem Neustart und die Clients müssen ihn erneut akzeptieren.\n ",
-    "s3_bucket": "Enter the bucket name like \"mybucket\". If you want to save the backup inside a subfolder, enter the bucket name like \"mybucket/backupdir\".",
-    "s3_host": "S3 can be configured with URL-style or virtual hosted-style buckets. The host (or endpoint) format depends on the S3 provider. Some provider requires only the base host like \"s3.amazonaws.com\" or \"s3.wasabisys.com\". Other providers may require adding also the region like \"s3.eu-central-1.amazonaws.com\" or \"fra1.digitaloceanspaces.com/\"."
+    "s3_bucket": "Bitte den Bucket-Namen als \"mybucket\" eingeben. Wenn die  Sicherung in einem Unterverzeichnis erstelt werden soll, bitte den Bucket-Namen als \"mybucket/backupdir\" eingeben.",
+    "s3_host": "S3 kann mit Buckets im URL-Stil oder im virtuellen gehosteten Stil konfiguriert werden. Das Format des Hosts (oder Endpunkts) hängt vom S3-Anbieter ab. Einige Anbieter benötigen nur den Basishost wie „s3.amazonaws.com“ oder „s3.wasabisys.com“. Bei anderen Anbietern kann es erforderlich sein, auch die Region hinzuzufügen, z. B. „s3.eu-central-1.amazonaws.com“ oder „fra1.digitaloceanspaces.com/“."
   }
 }

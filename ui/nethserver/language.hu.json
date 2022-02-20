@@ -109,7 +109,8 @@
     "nethserver-hotsync": "HotSync",
     "nethserver-blacklist": "Threat shield",
     "nethserver-mssql": "Microsoft SQL Server",
-    "nethserver-business": "Business Cube"
+    "nethserver-business": "Business Cube",
+    "nethserver-lmagent": "Cloud Log Manager agent"
   },
   "dashboard": {
     "title": "Vezérlőpult",
@@ -901,6 +902,7 @@
     "password_updated_error_2": "old password",
     "smarthost_test_configuration": "Konfiguráció",
     "smarthost_send_an_email": "Send test mail",
+    "smarthost_test_credentials":"Test settings",
     "password_updated_error_3": "is correct"
   },
   "logs": {

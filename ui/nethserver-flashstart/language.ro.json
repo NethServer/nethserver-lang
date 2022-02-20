@@ -36,6 +36,8 @@
         "cloud_portal": "Filtrare configurație",
         "access": "Editare pe portalul cloud"
     },
+    "docs": {
+    },
     "actions": "Acțiuni",
     "delete": "Șterge",
     "next": "Următorul",

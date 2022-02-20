@@ -18,7 +18,8 @@
         "WOWorkersCount":"Número de trabajadores (uno por cliente activo sincronizado conectado)",
         "SOGoInternalSyncInterval":"tiempo máximo en segundos antes de las comprobaciones después de los cambios ",
         "settings_updated_ok": "La configuración se ha actualizado bien",
-        "settings_updated_error": "La configuración no se ha actualizado bien"
+        "settings_updated_error": "La configuración no se ha actualizado bien",
+        "translation_test_do_not_translate":"It is a test for the automatic build translation 25 01 2022 15:22"
     },
     "about": {
         "title": "Acerca de",

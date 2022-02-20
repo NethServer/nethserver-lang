@@ -36,6 +36,8 @@
         "cloud_portal": "Configuración de filtro",
         "access": "Editar en la nube"
     },
+    "docs": {
+    },
     "actions": "Acciones",
     "delete": "Borrar",
     "next": "Siguiente",

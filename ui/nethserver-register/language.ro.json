@@ -46,6 +46,8 @@
         "empty_state_description": "Centrul de Operațiuni Nethesis este o interfață care îți permite să îți particularizezi alertele.",
         "access_nethesis_operation_center": "Accesează Centrul de Operațiuni Nethesis"
     },
+    "docs": {
+    },
     "actions": "Acțiuni",
     "delete": "Șterge",
     "next": "Următorul",

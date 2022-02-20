@@ -18,7 +18,8 @@
         "WOWorkersCount":"Numărul de lucrători (câte unul pentru fiecare client activesync conectat)",
         "SOGoInternalSyncInterval":"durata maximă în secunde înainte de a verifica după modificări",
         "settings_updated_ok": "Setările s-au actualizat bine",
-        "settings_updated_error": "Setările nu s-au actualizat bine"
+        "settings_updated_error": "Setările nu s-au actualizat bine",
+        "translation_test_do_not_translate":"It is a test for the automatic build translation 25 01 2022 15:22"
     },
     "about": {
         "title": "Despre",

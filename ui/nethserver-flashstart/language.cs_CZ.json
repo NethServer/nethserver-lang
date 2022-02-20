@@ -36,6 +36,8 @@
         "cloud_portal": "Nastavení filtru",
         "access": "Upravit na cloudovém portálu"
     },
+    "docs": {
+    },
     "actions": "Akce",
     "delete": "Smazat",
     "next": "Další",

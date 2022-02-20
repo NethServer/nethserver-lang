@@ -36,6 +36,8 @@
         "cloud_portal": "Filter configuration",
         "access": "Edit on cloud portal"
     },
+    "docs": {
+    },
     "actions": "Actions",
     "delete": "Delete",
     "next": "Nästa",

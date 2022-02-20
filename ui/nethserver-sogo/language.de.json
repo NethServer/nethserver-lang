@@ -14,11 +14,12 @@
         "Appointment":"E-Mail an Besprechungsteilnehmer senden",
         "Email":"E-Mail-basierten Alarm zu Ereignissen und Aufgaben senden",
         "VirtualHost":"SOGo nur von dieser Domain (FQDN) aus erreichbar machen",
-        "webAccess":"SOGo is available from public network",
+        "webAccess":"SOGo ist über das öffentliche Netz verfügbar",
         "WOWorkersCount":"Anzahl der Mitarbeiter (einer pro verbundenem activesync-Client)",
         "SOGoInternalSyncInterval":"maximale Zeit in Sekunden vor der Überprüfung nach Änderungen",
         "settings_updated_ok": "Die Einstellungen wurden gut aktualisiert",
-        "settings_updated_error": "Die Einstellungen wurden nicht gut aktualisiert"
+        "settings_updated_error": "Die Einstellungen wurden nicht gut aktualisiert",
+        "translation_test_do_not_translate":"Das ist ein Test für die automatische Build-Übersetzung 25 01 2022 15:22"
     },
     "about": {
         "title": "Über",

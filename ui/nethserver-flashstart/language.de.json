@@ -36,6 +36,8 @@
         "cloud_portal": "Filterkonfiguration",
         "access": "Auf Cloud-Portal bearbeiten"
     },
+    "docs": {
+    },
     "actions": "Aktionen",
     "delete": "Entfernen",
     "next": "Weiter",

@@ -46,6 +46,8 @@
         "empty_state_description": "Nethesis Operation Center je grafické uživatelské rozhraní, které umožňuje přizpůsobit si výstrahy.",
         "access_nethesis_operation_center": "Přístup do Nethesis Operation Center"
     },
+    "docs": {
+    },
     "actions": "Akce",
     "delete": "Smazat",
     "next": "Další",

@@ -46,6 +46,8 @@
         "empty_state_description": "Nethesis İşlem Merkezi özel uyarıları yönetebileceğiniz bir görsel kullanıcı arayüzüdür.",
         "access_nethesis_operation_center": "Nethesis İşlem Merkezine Git"
     },
+    "docs": {
+    },
     "actions": "İşlemler",
     "delete": "Sil",
     "next": "Sonraki",

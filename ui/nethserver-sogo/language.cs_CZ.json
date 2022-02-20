@@ -18,7 +18,8 @@
         "WOWorkersCount":"Počet zpracovávajících vláken (jedno pro každého z připojených klientů activesync)",
         "SOGoInternalSyncInterval":"nejdelší doba (v sekundách) po které zjišťovat změny",
         "settings_updated_ok": "Nastavení byla v pořádku zaktualizována",
-        "settings_updated_error": "Nastavení se nepodařilo zaktualizovat"
+        "settings_updated_error": "Nastavení se nepodařilo zaktualizovat",
+        "translation_test_do_not_translate":"It is a test for the automatic build translation 25 01 2022 15:22"
     },
     "about": {
         "title": "O aplikaci",

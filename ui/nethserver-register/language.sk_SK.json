@@ -46,6 +46,8 @@
         "empty_state_description": "Nethesis Operation Center is a GUI that gives you the ability to customize your alerts.",
         "access_nethesis_operation_center": "Access Nethesis Operation Center"
     },
+    "docs": {
+    },
     "actions": "Akcie",
     "delete": "Vymazať",
     "next": "Ďalej",
