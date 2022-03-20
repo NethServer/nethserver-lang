@@ -1,48 +1,48 @@
 {
     "settings": {
         "title": "Inställningar",
-        "official_signatures": "ClamAV official signatures",
-        "unofficial_signatures_rating": "Third-party signatures rating",
-        "error_reading_configuration": "Error reading antivirus configuration",
-        "error_validating_configuration": "Error validating antivirus configuration",
-        "configuration_update_successful": "Configuration update successful",
-        "configuration_update_failed": "Configuration update failed",
-        "info_notification": "Signatures are downloaded at hourly intervals. Changes to this page will take effect on next automatic signatures download.",
-        "error_reading_total_memory": "Error reading total memory",
-        "memory_warning": "The system has less than 4GB of RAM. You're strongly advised to disable official ClamAV signatures to avoid memory filling."
+        "official_signatures": "ClamAV officiella signaturer",
+        "unofficial_signatures_rating": "Tredjepartsignaturs gradering",
+        "error_reading_configuration": "Fel vid läsning av antiviruskonfirguration",
+        "error_validating_configuration": "Fel vid validering av antiviruskonfiguration",
+        "configuration_update_successful": "Inställningar uppdaterades korrekt",
+        "configuration_update_failed": "Uppdatering av inställningar misslyckades",
+        "info_notification": "Signaturer laddas ner med timintervall. Ändringar på den här sidan kommer bli aktiva vid nästa automatiska nedladdning av signaturer.",
+        "error_reading_total_memory": "Fel vid läsning av totalt minnesutrymme",
+        "memory_warning": "Det här systemet har mindre än 4GB RAM. Du rekommenderas starkt att inaktivera de ofiicella ClamAV-signaturerna för att undvika att minnet blir fullt."
     },
     "about": {
         "title": "Om",
-        "website": "Web site",
-        "bug_tracker": "Bug tracker"
+        "website": "Hemsida",
+        "bug_tracker": "Felrapporteringssystem"
     },
     "logs": {
         "title": "Loggar",
-        "follow": "Follow",
+        "follow": "Följ",
         "stop_follow": "Stopp",
-        "start_follow_button": "Follow",
-        "stop_follow_button": "Stop following",
+        "start_follow_button": "Följ",
+        "stop_follow_button": "Sluta följa",
         "filter_label": "Regexp filter",
-        "error_getting_clamav_instances": "Error getting ClamAV instances"
+        "error_getting_clamav_instances": "Fel vid hämtning av ClamAV-instans"
     },
     "dashboard":{
-        "title": "Antivirus dashboard",
+        "title": "Antivirus-panel",
         "app": "Antivirus",
-        "email_protection": "Email protection",
-        "web_protection": "Web protection",
-        "error_getting_dashboard_data": "Error getting dashboard data",
-        "malware_found": "Malware found",
-        "signatures_loaded": "Signatures loaded",
+        "email_protection": "Skydd för e-post",
+        "web_protection": "Webbskydd",
+        "error_getting_dashboard_data": "Fel vid läsning av panel-data",
+        "malware_found": "Malware hittat",
+        "signatures_loaded": "Signaturer laddade",
         "status": "Status",
-        "no_data_available": "No data available",
-        "other": "Other",
-        "memory_used": "Memory used",
-        "since": "Since",
-        "no_instance_installed": "No ClamAV instance installed"
+        "no_data_available": "Ingen data tillgänglig",
+        "other": "Övrigt",
+        "memory_used": "Använt minne",
+        "since": "Sen",
+        "no_instance_installed": "Ingen ClamAV-instans installerad"
     },
     "docs": {
-        "official_signatures": "Official ClamAV signatures use a large amount of memory. Official signatures detect many old threats but are not very effective against the latest malware.",
-        "unofficial_signatures_ratings": "Higher rating means more blocked threats but also a higher probability of false positives. Recommended ratings are 'Low' and 'Medium'."
+        "official_signatures": "Officiella ClamAV-signaturer använder stora mängder minne. Officiella signaturer hittar många hot som är äldre men är inte lika effektivt mot skadlig mjukvara som är nyare.",
+        "unofficial_signatures_ratings": "Ett högre värde gör att fler hot blockeras men medför också en högre risk för s.k. falskt positiva resultat. Rekommenderad inställning är \"låg\" eller \"medium\"."
     },
     "save": "Spara",
     "cancel": "Avbryt"

@@ -20,13 +20,13 @@
         "bypass": "Bypass",
         "bypass_source_ips": "Bypass source IPs (one per line)",
         "configuration_update_successful": "Configuration updated",
-        "configuration_update_failed": "Configuration update failed",
+        "configuration_update_failed": "Uppdatering av inställningar misslyckades",
         "dns_configuration": "FlashStart doesn't require any DNS configuration neither in Nethsecurity nor in clients"
     },
     "about": {
         "title": "Om",
-        "website": "Web site",
-        "bug_tracker": "Bug tracker"
+        "website": "Hemsida",
+        "bug_tracker": "Felrapporteringssystem"
     },
     "dashboard":{
         "title": "Panel",

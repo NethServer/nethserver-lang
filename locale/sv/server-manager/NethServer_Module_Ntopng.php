@@ -20,6 +20,6 @@ $L['ntopng_column_name_label'] = 'Namn';
 $L['ntopng_column_ip_label'] = 'IP';
 $L['ntopng_column_location_label'] = 'Location';
 $L['ntopng_column_traffic_label'] = 'Trafik';
-$L['ntopng_column_since_label'] = 'Since';
+$L['ntopng_column_since_label'] = 'Sen';
 $L['ntopng_column_thpt_label'] = 'Throughput (bps)';
 $L['ntopng_column_actions_label'] = 'Actions';

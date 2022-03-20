@@ -9,7 +9,7 @@
         "smtp_starttls": "SMTP STARTTLS",
         "public_url": "Public URL",
         "dav_server_url": "DAV server URL",
-        "settings_updated_ok": "Configuration update successful",
+        "settings_updated_ok": "Inställningar sparades korrekt",
         "settings_updated_error": "Configuration update error",
         "not_valid_default_locale": "Invalid default locale value",
         "not_valid_default_timezone": "Invalid default timezone value",
@@ -37,8 +37,8 @@
     },
     "about": {
         "title": "Om",
-        "website": "Web site",
-        "bug_tracker": "Bug tracker"
+        "website": "Hemsida",
+        "bug_tracker": "Felrapporteringssystem"
     },
     "validation": {
         "InvalidPublicUrl": "Invalid public URL",
@@ -49,10 +49,10 @@
     },
     "logs": {
         "title": "Loggar",
-        "follow": "Follow",
+        "follow": "Följ",
         "stop_follow": "Stopp",
-        "start_follow_button": "Follow",
-        "stop_follow_button": "Stop following",
+        "start_follow_button": "Följ",
+        "stop_follow_button": "Sluta följa",
         "filter_label": "Regexp filter"
     },
     "dashboard":{

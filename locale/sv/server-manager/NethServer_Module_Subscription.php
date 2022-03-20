@@ -1,21 +1,21 @@
 <?php
 
 $L['Subscription_Title'] = 'Prenumeration';
-$L['Subscription_Description'] = 'Manage NethServer subscription';
-$L['Subscription_Tags'] = 'community subscription';
-$L['buy_subscription_label'] = 'Join the subscription program!';
+$L['Subscription_Description'] = 'Hantera Nethserver prenumeration';
+$L['Subscription_Tags'] = 'Community-prenumeration';
+$L['buy_subscription_label'] = 'Anslut dig till prenumerationsprogrammet!';
 $L['Subscription_header'] = 'Prenumeration';
 $L['subscriptions_plans'] = 'Prenumerera';
 $L['subscriptions_info'] = 'The NethServer Subscription by Nethesis enables exclusive access to the Stable Updates repository, monitoring tools and immediate professional support services for your NethServer deployments. It enables you to successfully deploy, monitor and manage your NethServer instances, complementing your IT resources and increasing the efficiency and reliability of your services';
-$L['Register_label'] = 'Register now';
-$L['paste_label'] = 'Do you already have a registration token? Copy and paste it in the field below';
+$L['Register_label'] = 'Registrera dig nu';
+$L['paste_label'] = 'Har du redan ett token för registrering? Kopiera och klistra in koden i fältet nedan';
 $L['SystemId_label'] = 'System ID';
-$L['register_now_label'] = 'Register now';
-$L['Created_label'] = 'Created';
-$L['PublicIp_label'] = 'Public IP';
-$L['PlanName_label'] = 'Prenumeration plan';
-$L['Validity_label'] = 'Validity';
-$L['RegistrationKey_label'] = 'Registration token';
-$L['error_network_registration_key'] = 'The token cannot be verified now: the remote procedure has failed';
-$L['error_invalid_registration_key'] = 'The token has been rejected (${0})';
-$L['registerSuccess_notification'] = 'The system has been subscribed successfully';
+$L['register_now_label'] = 'Registrera dig nu';
+$L['Created_label'] = 'Skapad';
+$L['PublicIp_label'] = 'Publik-IP';
+$L['PlanName_label'] = 'Prenumerationsplan';
+$L['Validity_label'] = 'Giltlig';
+$L['RegistrationKey_label'] = 'Registreringstoken';
+$L['error_network_registration_key'] = 'Koden kan inte verifieras nu: fjärrproceduren har misslyckats';
+$L['error_invalid_registration_key'] = 'Den koden har blivit avvisad (${0})';
+$L['registerSuccess_notification'] = 'Prenumerationen på det här systemet aktiverades korrekt';

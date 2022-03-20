@@ -22,7 +22,7 @@
         "alert_type_df": "Disk ledigt utrymme",
         "alert_type_swap": "Ledig swap",
         "alert_type_ping_droprate": "Ping drop rate",
-        "alert_type_ping": "Ping latency",
+        "alert_type_ping": "Pinglatens",
         "alert_type_load": "System last",
         "partition": "Partition",
         "host": "Värd",
@@ -36,8 +36,8 @@
     },
     "about": {
         "title": "Om",
-        "website": "Web site",
-        "bug_tracker": "Bug tracker"
+        "website": "Hemsida",
+        "bug_tracker": "Felrapporteringssystem"
     },
     "dashboard":{
         "title": "Panel",

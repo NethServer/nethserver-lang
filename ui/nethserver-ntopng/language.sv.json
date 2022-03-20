@@ -26,7 +26,7 @@
         "ip_address": "IP adress",
         "throughput": "Throughput",
         "traffic": "Trafik",
-        "since": "Since",
+        "since": "Sen",
         "top_local_hosts": "Top local hosts",
         "top_remote_hosts": "Top remote hosts",
         "traffic_by_interface": "Traffic by interface",
@@ -48,16 +48,16 @@
     },
     "logs": {
         "title": "Loggar",
-        "follow": "Follow",
+        "follow": "Följ",
         "stop_follow": "Stopp",
-        "start_follow_button": "Follow",
-        "stop_follow_button": "Stop following",
+        "start_follow_button": "Följ",
+        "stop_follow_button": "Sluta följa",
         "filter_label": "Regexp filter"
     },
     "about": {
         "title": "Om",
-        "website": "Web site",
-        "bug_tracker": "Bug tracker"
+        "website": "Hemsida",
+        "bug_tracker": "Felrapporteringssystem"
     },
     "docs": {
         "ntopng_credentials": "Username: <code>admin</code><br>Default password: <code>admin</code>"

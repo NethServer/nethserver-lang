@@ -41,8 +41,8 @@
   },
   "about": {
     "title": "Om",
-    "website": "Web site",
-    "bug_tracker": "Bug tracker"
+    "website": "Hemsida",
+    "bug_tracker": "Felrapporteringssystem"
   },
   "dashboard": {
     "title": "Rapport"

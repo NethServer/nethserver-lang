@@ -63,7 +63,7 @@
         "empty": "Empty (no role)",
         "free": "Unassigned",
         "missing": "Missing",
-        "other": "Other",
+        "other": "Övrigt",
         "rules": "Rules",
         "port_forwards": "Port forwards",
         "objects": "Brandväggs objekt",
@@ -364,7 +364,7 @@
         "no_host_found": "Create host with this IP",
         "duplicate": "Duplicate",
         "select_protocol": "Select protocol",
-        "other": "Other",
+        "other": "Övrigt",
         "add_host": "Add host",
         "hostname": "Hostname",
         "ip_address": "IP Adress",
@@ -501,8 +501,8 @@
     },
     "logs": {
         "title": "Loggar",
-        "start_follow_button": "Follow",
-        "stop_follow_button": "Stop following",
+        "start_follow_button": "Följ",
+        "stop_follow_button": "Sluta följa",
         "filter_label": "Regexp filter"
     },
     "troubleshooting": {
@@ -517,7 +517,7 @@
         "global": "Global",
         "security": "Security",
         "network": "Nätverk",
-        "other": "Other",
+        "other": "Övrigt",
         "details": "Detaljer",
         "charts": "Charts",
         "ipblacklist": "Threat shield IP",
@@ -588,7 +588,7 @@
     "about": {
         "title": "Om",
         "website": "Website",
-        "bug_tracker": "Bug tracker"
+        "bug_tracker": "Felrapporteringssystem"
     },
     "validation": {
         "validation_failed": "Validation failed",

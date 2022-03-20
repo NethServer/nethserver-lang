@@ -34,7 +34,7 @@
     "enabled": "Enabled",
     "create_user": "Skapa användare",
     "add_account": "Create a user",
-    "edit_account": "Edit user",
+    "edit_account": "Redigera användare",
     "delete_account": "Ta bort användare",
     "account_created_ok": "FTP user created successfully!",
     "account_created_error": "FTP user create error.",
@@ -126,13 +126,13 @@
   },
   "about": {
     "title": "Om",
-    "website": "Web site",
-    "bug_tracker": "Bug tracker"
+    "website": "Hemsida",
+    "bug_tracker": "Felrapporteringssystem"
   },
   "logs": {
     "title": "Loggar",
-    "start_follow_button": "Follow",
-    "stop_follow_button": "Stop following",
+    "start_follow_button": "Följ",
+    "stop_follow_button": "Sluta följa",
     "empty_response_message": "Empty response",
     "filter_label": "Regexp filter"
   },

@@ -15,12 +15,12 @@ $L['AlertsAutoUpdates_disabled_label'] = 'Avaktivera automatisk nerladdning av a
 $L['df_label'] = 'Disk ledigt utrymme';
 $L['load_label'] = 'System last';
 $L['ping_droprate_label'] = 'Ping drop rate';
-$L['ping_label'] = 'Ping latency';
+$L['ping_label'] = 'Pinglatens';
 $L['swap_label'] = 'Ledig swap';
 $L['Partition_label'] = 'Partition';
 $L['Host_label'] = 'Värd';
-$L['Intro_label'] = 'Every server has a predefined list of default alarms. Only some alarms can be customized. <br/> This page lists only customized alarms from <a href="${0}">${0}</a>.';
-$L['Download_label'] = 'As default, changes made on <a href="${0}">${0}</a> are deployed every night. <br/> Use "Download alert configuration" button to force configuration download.';
+$L['Intro_label'] = 'Varje server har en fördefinierad lista med standardlarm. Endast vissa larm kan ändras. <br/> Den här sidan visar enbart anpassade larm från <a href="${0}">${0}</a>.';
+$L['Download_label'] = 'Som standard, så aktiveras alla ändringar på <a href="${0}">${0}</a> varje natt. <br/> Använd "Ladda ner larmkonfiguration"-knappen för att tvinga fram en nedladdning av inställningar.';
 $L['max_fail_label'] = 'Kritiskt över';
 $L['min_fail_label'] = 'Kritiskt under';
 $L['max_warn_label'] = 'Varning över';

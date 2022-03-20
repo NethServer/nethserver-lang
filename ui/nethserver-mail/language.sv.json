@@ -31,7 +31,7 @@
     "are_you_sure": "Är du säker",
     "days": "Days",
     "ever": "Forever",
-    "other": "Other",
+    "other": "Övrigt",
     "info": "Information",
     "warning": "Varning",
     "package_required": "Missing packages",
@@ -42,8 +42,8 @@
     "packages_installed_error": "Packages not installed.",
     "about": {
         "title": "Om",
-        "website": "Web site",
-        "bug_tracker": "Bug tracker"
+        "website": "Hemsida",
+        "bug_tracker": "Felrapporteringssystem"
     },
     "dashboard": {
         "menu_title": "E-post",
@@ -284,7 +284,7 @@
         "keep_messages_copy": "Also keep messages on this server",
         "custom_mail_quota": "Custom mailbox quota",
         "custom_spam_retention": "Custom spam retention",
-        "edit_user": "Edit user",
+        "edit_user": "Redigera användare",
         "create_public": "Create public",
         "edit_public": "Edit public",
         "delete_public": "Delete public",
@@ -436,8 +436,8 @@
     },
     "logs": {
         "title": "Loggar",
-        "start_follow_button": "Follow",
-        "stop_follow_button": "Stop following",
+        "start_follow_button": "Följ",
+        "stop_follow_button": "Sluta följa",
         "filter_label": "Regexp filter"
     },
     "imapsync":{

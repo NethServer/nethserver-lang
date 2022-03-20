@@ -30,8 +30,8 @@
         "error_retrieving_hostname": "Error retrieving hostname",
         "network_address": "Network address",
         "unregister": "Unregister",
-        "configuration_update_successful": "Configuration update successful",
-        "configuration_update_failed": "Configuration update failed",
+        "configuration_update_successful": "Inställningar sparades korrekt",
+        "configuration_update_failed": "Uppdatering av inställningar misslyckades",
         "unregister_successful": "Unregister successful",
         "unregister_failed": "Unregister failed",
         "enable_transparent_proxy_on_hotspot": "Enable transparent proxy on hotspot",
@@ -59,15 +59,15 @@
     },
     "about": {
         "title": "Om",
-        "website": "Web site",
-        "bug_tracker": "Bug tracker"
+        "website": "Hemsida",
+        "bug_tracker": "Felrapporteringssystem"
     },
     "logs": {
         "title": "Loggar",
-        "follow": "Follow",
+        "follow": "Följ",
         "stop_follow": "Stopp",
-        "start_follow_button": "Follow",
-        "stop_follow_button": "Stop following",
+        "start_follow_button": "Följ",
+        "stop_follow_button": "Sluta följa",
         "filter_label": "Regexp filter"
     },
     "dashboard":{

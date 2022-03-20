@@ -2,7 +2,7 @@
 
 $L['SssdConfig_Title'] = 'Accounts provider';
 $L['SssdConfig_Description'] = 'Configure user and groups domain accounts provider';
-$L['SssdConfig_Tags'] = 'sssd domain account user group ldap kerberos active directory';
+$L['SssdConfig_Tags'] = 'sssd domän konto användare grupp ldap kerberos active directory';
 
 $L['valid_platform,ad-dns,srv_record,1'] = 'Could not find an Active Directory domain controller';
 
@@ -62,12 +62,12 @@ $L['valid_platform,ldap-credentials,ldaptestbind,49'] = 'Invalid LDAP credential
 $L['valid_platform,ldap-credentials,ldaptestbind,1'] = 'LDAP connection error';
 $L['valid_platform,ldap-credentials,ldaptestbind,32'] = 'Base DN was not found or insufficient rights';
 $L['valid_platform,ldap-credentials,ldaptestbind,34'] = 'Invalid DN syntax';
-$L['BindDN_label'] = 'Bind DN';
+$L['BindDN_label'] = 'Bindnings-DN';
 $L['BindPassword_label'] = 'Bind Password';
 
 $L['BaseDN_label'] = 'Base DN';
-$L['UserDN_label'] = 'User DN';
-$L['GroupDN_label'] = 'Group DN';
+$L['UserDN_label'] = 'User-DN';
+$L['GroupDN_label'] = 'Grupp-DN';
 
 $L['StartTls_label'] = 'STARTTLS';
 $L['starttls_auto'] = 'Standard';
