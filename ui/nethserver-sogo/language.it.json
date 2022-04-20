@@ -17,8 +17,8 @@
         "webAccess":"SOGo is available from public network",
         "WOWorkersCount":"Number of workers (one per activesync client connected)",
         "SOGoInternalSyncInterval":"maximum time in second before to checks after changes",
-        "settings_updated_ok": "The settings have been well updated",
-        "settings_updated_error": "The settings have not well updated",
+        "settings_updated_ok": "Le impostazioni sono state aggiornate con successo",
+        "settings_updated_error": "Le impostazioni non sono state aggiornate correttamente",
         "translation_test_do_not_translate":"It is a test for the automatic build translation 25 01 2022 15:22"
     },
     "about": {
@@ -42,8 +42,8 @@
       "sogo": "SOGo"
     },
     "validation":{
-      "validation_failed": "The validation has failed",
-      "not_valid_username": "This is not a valid username",
+      "validation_failed": "La convalida è fallita",
+      "not_valid_username": "Non è un nome utente valido",
       "valid_hostname_fqdn_1_9223372036854775807": "This is not a valid FQDN(something like domain.org)",
       "Bad_Notification_Element": "This is not a good notification setting"
     }

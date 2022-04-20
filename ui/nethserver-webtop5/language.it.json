@@ -23,7 +23,7 @@
         "large": "Grandi",
         "advanced_mode": "Impostazioni avanzate",
         "pbx_provider": "Provider PBX",
-        "nethvoice_webrest_url": "URL webtrest NethVoice",
+        "nethvoice_webrest_url": "URL webrest NethVoice",
         "not_valid_nethvoice_webrest_url": "URL webrest di NethVoice non valido oppure Provider PBX non configurato come NethVoice",
         "min_memory": "Memoria minima",
         "max_memory": "Memoria massima",
