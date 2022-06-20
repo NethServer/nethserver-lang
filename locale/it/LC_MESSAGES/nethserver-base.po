@@ -15,13 +15,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: root/etc/nethserver/todos.d/10eth-unmapped:44
 msgid "Assign role to network interface"
 msgid_plural "Assign roles to network interfaces"
 msgstr[0] "Assegna il ruolo ad una interfaccia di rete"
 msgstr[1] "Assegna i ruoli alle interfacce di rete"
+msgstr[2] "Assegna i ruoli alle interfacce di rete"
 
 #: root/etc/nethserver/todos.d/10eth-unmapped:48
 #, python-brace-format
@@ -29,6 +30,7 @@ msgid "A role must be assigned to a new network card"
 msgid_plural "There are {0} roles to be assigned to network cards"
 msgstr[0] "C'è un ruolo da assegnare ad una interfaccia di rete"
 msgstr[1] "Ci sono {0} ruoli da assegnare alle interfacce di rete"
+msgstr[2] "Ci sono {0} ruoli da assegnare alle interfacce di rete"
 
 #: root/etc/nethserver/todos.d/10green-dhcp:52
 msgid "One or more green interfaces use DHCP"
