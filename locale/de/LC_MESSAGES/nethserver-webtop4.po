@@ -2,7 +2,7 @@
 # This file is put in the public domain.
 # 
 # Translators:
-# Mika Beckerich <beckerichmika@gmail.com>, 2016
+# Mika Beckerich, 2016
 # Rolf Heinze <rowihei@web.de>, 2016
 msgid ""
 msgstr ""

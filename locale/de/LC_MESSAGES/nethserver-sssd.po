@@ -5,7 +5,7 @@
 # Andreas <master001@live.de>, 2015
 # Bernhard Weber <bernhard.weber@datenheld.at>, 2015
 # Kri Reu <kreukauff@gmx.de>, 2016
-# Mika Beckerich <beckerichmika@gmail.com>, 2016
+# Mika Beckerich, 2016
 # Rolf Heinze <rowihei@web.de>, 2016,2018
 msgid ""
 msgstr ""

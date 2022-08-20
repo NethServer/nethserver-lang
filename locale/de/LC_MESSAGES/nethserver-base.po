@@ -3,7 +3,7 @@
 # 
 # Translators:
 # Kri Reu <kreukauff@gmx.de>, 2016
-# Mika Beckerich <beckerichmika@gmail.com>, 2016
+# Mika Beckerich, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: nethserver\n"
