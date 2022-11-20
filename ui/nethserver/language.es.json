@@ -110,7 +110,9 @@
     "nethserver-blacklist": "Escudo de amenazas",
     "nethserver-mssql": "Microsoft SQL Server",
     "nethserver-business": "Cubo de negocios",
-    "nethserver-lmagent": "Agente Cloud Log Manager"
+    "nethserver-lmagent": "Agente Cloud Log Manager",
+    "nethserver-ns8-migration": "NS8 migration",
+    "nethserver-firewall-migration": "Firewall migration"
   },
   "dashboard": {
     "title": "Panel de Control",

@@ -110,7 +110,9 @@
     "nethserver-blacklist": "Scutul amenințărilor",
     "nethserver-mssql": "Server Microsoft SQL",
     "nethserver-business": "Business Cube",
-    "nethserver-lmagent": "Cloud Log Manager agent"
+    "nethserver-lmagent": "Cloud Log Manager agent",
+    "nethserver-ns8-migration": "NS8 migration",
+    "nethserver-firewall-migration": "Firewall migration"
   },
   "dashboard": {
     "title": "Tablou de bord",

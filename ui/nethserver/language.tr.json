@@ -110,7 +110,9 @@
     "nethserver-blacklist": "Tehdit koruması",
     "nethserver-mssql": "Microsoft SQL Server",
     "nethserver-business": "Business Cube",
-    "nethserver-lmagent": "Bulut günlük yönetimi uygulaması"
+    "nethserver-lmagent": "Bulut günlük yönetimi uygulaması",
+    "nethserver-ns8-migration": "NS8 aktarımı",
+    "nethserver-firewall-migration": "Güvenlik duvarı aktarımı"
   },
   "dashboard": {
     "title": "Pano",
